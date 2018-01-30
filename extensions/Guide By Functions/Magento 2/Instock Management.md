@@ -16,7 +16,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 ## HOW TO CONFIGURE
 ### Stock Control Configuration
 
-- *Path*: **Stock Management > Settings** section > **Configuration** 
+- *Path*: **Inventory Management > Settings** section > **Configuration** 
 <a name="p1"> </a>
 
 ![Stock Control Configuration](./instockimages/image001.png?raw=true)
@@ -30,34 +30,89 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 
 (3)	Click **Save Config** to finish
 
+### Inventory Option
+- *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
+
+***Note***: *If you want to configure based on your own features, then unmark box **Use System value.*** 
+
+#### Stock Option
+- *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
+
+(Ảnh   1)
+(1)	**Decrease Stock When Order is Placed:** Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
+
+(2)	**Set Items’ Status to be In Stock When Order is Cancelled**: Select **Yes** in the dropdown list to return items to stock if an order is cancelled.
+
+(3)	**Display Out of Stock Products:** Select **Yes** in the dropdown list to continue to display products in the catalogue that are no longer in stock. 
+
+(4)	**Only X left Threshold:** Enter the number in the blank to display the message: **Only x left** on website when the quantity in stock reaches the threshold.  
+
+(5)	**Display Products Availability in Stock on Storefront:** Select **Yes** in dropdown list to display an **In Stock** or **Out of Stock** message on the product page.
+
+(6)	Tap **Save** to finish. 
+
+#### Product Stock Options
+- *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
+
+(Ảnh 2)
+(1)	**Manage Stock:** Select **Yes** to activate inventory control for your catalog. 
+
+(2)	**Backorders:** Set Backorders to one of the following status: 
+- **No Backorders Allow Qty. Below 0:** To reject backorders when product is out of stock.
+- **Allow Qty. Below 0:** To accept backorders when the quantity falls below zero. 
+- **Notify Customer:** To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed.
+
+(3)	**Maximum Qty Allowed in Shopping Cart**: Enter the **Maximum Qty.** allowed in Shopping Cart.
+
+(4)	**Out-of-Stock Threshold**: Enter the quantity for Item's Status to become out of stock.
+
+(5)	**Maximum Qty Allowed in Shopping Cart**: Enter the **Minimum** quantity allowed in Shopping Cart.
+
+Next, 
+
+(Anh 3)
+
+(6)	**Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
+
+(7)	**Enable Qty Increments**: Select **Yes** to activate quantity increments for the product. Then in the **Qty. Increments** field, enter the number of the items that must be purchased to meet the requirement mentioned above.
+
+(8)	**Automatically Return Credit Memo Item to Stock**: Select **Yes** to return the item to inventory by default when a credit memo is issued for the item.
+
+Finally, click on **Save Config** to save changes.
+
+
 ## HOW TO USE
 
 ### Stock listing
 
 #### Stock in Warehouse
 
-*Path:* **Stock Management > Stock Listing** section **> Stocks in Warehouse**
+- *Path:* **Inventory Management > Stock Listing** section **> Stocks in Warehouse**
 
-Admin can have overview of Stock in the Warehouse and view stock details within the warehouse.
-These details include **Available Qty, Qty to Ship** and **Total Qty** and **Shelf Location** of each product in the warehouse.
+(Anh 4)
+
+This page provides an overview of stock data in all warehouses and admin can select a warehouse to view stocks of that warehouse only. It shows **Available Qty, Qty to Ship, Total Qty** and **Shelf Location** of each product in that warehouse. 
 
 <a name="p2"> </a>
 
 ![Stock in Warehouse](./instockimages/image005.png?raw=true)
 
-You can easily edit Qty of products in-line within a few steps:
+After selecting a specific warehouse, admin can easily update stock and shelf location right on the Inventory grid:
 
-1) Mark the checkbox to select products
+(1) Mark the checkbox to select products
 
-2) Edit product quantity in line
+(2) **Qty in Warehouse**: Edit product quantity in line
 
-3) Input product location in the physical warehouse
+(3) **Shelf Location**: Input the product’s Shelf location (optional)
 
-4) Click on **Update Stock** to save changes
+(4) Click on **Update Stock** to save changes
 
 #### Non-warehouse product
 
-When a product is newly created and not assigned to any warehouse yet, it will be automatically allocated in Non-warehouse. 
+- *Path:* **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
+
+When a product is newly added to the system, it will be automatically allocated in Non-warehouse. Admin can assign this product to any warehouses. 
+
 <a name="p3"> </a>
 
 ![Non-warehouse product](./instockimages/image006.png?raw=true)
@@ -66,40 +121,44 @@ From here admin can
 
 (1) Select the product b y clicking on the checkbox
 
-(2) Add it into warehouse by clicking on its Add to Warehouse column
+(2) **Add to Warehouse:** Add it into warehouse by clicking on its Add to Warehouse column
 
 #### Warehouse
 
-After installation, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse.
+After installation, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse first before being sent to other warehouses.
 
 ##### View Warehouse's detail information
+- *Path:* **Inventory Management > Stock Listing** section **> Warehouse**
 
-The **Warehouse** menu allows you to control your warehouse with 6 tabs:
+(Anh 5)
 
-![View Warehouse's detail information](./instockimages/image007.png?raw=true)
+(1)	Tick on the checkbox to choose a warehouse
 
-On the right side of each master data tab, click on the **Arrow button** to access the data:
-<a name="p7"> </a>
+(2)	Click on **View** to the warehouse detailed information
 
-(1) **General Information** about the Warehouse
+(anh 6)
 
-(2) **Stock On-hand** displays the amount of goods that the warehouse has available at that time.
-Here, you can update each product's **Qty in Warehouse(s)** and its **Shelf Location** in-line.
+In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the right side of each master data tab, click on the **Arrow button** to access the data:
 
-(3) **Stock Movement** shows the changes in stock quantities. Click on each record to view more details.
+(1) **General Information**: Information of the Warehouse including Name, Code, address, etc
 
-(4) **Order** record detail information of each order incuding status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+(2) **Stock On-hand**: the total number of goods that are available in the warehouse in real time. Here, you can update each product's **Qty in Warehouse(s)** and its **Shelf Location** in-line.
 
-(5) **Warehouse Permission** manages staff access to the warehouse. Detailed guide is given in the next section ***Warehouse permissions***  
+(3) **Stock Movement**: all the changes in stock quantities. Click on each record to view in detail.
+
+(4) **Order**:  records of all orders including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+
+(5) **Warehouse Permission** manages staff access to the warehouse. Detailed guide is given in the next section **Warehouse permissions**
 
 (6) **Dashboard** contains reports that are illustrated as table and lines diagrams as below.
+
 
 ![Dashboard](./instockimages/image008.png?raw=true)
 ![Dashboard](./instockimages/image009.png?raw=true)
 
 ##### Warehouse Permissions
 
-- *Path:* **Stock Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
+- *Path:* **Inventory Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
 
 In this section, Admin can give different warehouse access permissions to different (admin) users.
 Click on **View** to see the warehouse’s detail information
