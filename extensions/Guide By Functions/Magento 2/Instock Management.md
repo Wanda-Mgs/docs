@@ -38,7 +38,8 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 #### Stock Option
 - *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
-(Ảnh   1)
+![Stock Control Configuration](./instockimages/image003.png?raw=true)
+
 (1)	**Decrease Stock When Order is Placed:** Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 
 (2)	**Set Items’ Status to be In Stock When Order is Cancelled**: Select **Yes** in the dropdown list to return items to stock if an order is cancelled.
@@ -54,7 +55,8 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 #### Product Stock Options
 - *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
 
-(Ảnh 2)
+![Stock Control Configuration](./instockimages/image004.png?raw=true)
+
 (1)	**Manage Stock:** Select **Yes** to activate inventory control for your catalog. 
 
 (2)	**Backorders:** Set Backorders to one of the following status: 
@@ -70,7 +72,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 
 Next, 
 
-(Anh 3)
+![Stock Control Configuration](./instockimages/image005.png?raw=true)
 
 (6)	**Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
 
