@@ -194,7 +194,7 @@ As mentioned in section **Stock Control Configuration**, you can link products a
 
 To link multiple Store View to a Warehouse, go to **Stock Management > Warehouse > General Information > Magento Store View**. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
 
-(Anh 6)
+![Link stocks in Warehouse to Front Store View](./instockimages/image014.png?raw=true)
 
 **-	Add new Stock Adjustment**
 
