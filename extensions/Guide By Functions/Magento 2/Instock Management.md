@@ -80,6 +80,8 @@ Next,
 
 Finally, click on **Save Config** to save changes.
 
+### Low Stock Notification Rules 
+Please refer to section **Low Stock Rules** 
 
 ## HOW TO USE
 
@@ -401,6 +403,7 @@ There are **2 types** of low stock rule:
  ![Low Stock Rules](./instockimages/image033.png?raw=true)
 
 ***Type 1: Availability Qty**.
+
 **Availability Qty.**: you can select Qty. threshold that the system will notify to import*. 
 
 (8)	Select **Availability Qty**.
@@ -414,6 +417,7 @@ There are **2 types** of low stock rule:
  ![Low Stock Rules](./instockimages/image034.png?raw=true)
 
 ***Type 2: Availability Days**
+
 **Availability Days**: you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)*
 
 (12)	Select **Availability Days**
