@@ -38,7 +38,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 #### Stock Option
 - *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
-![Stock Control Configuration](./instockimages/image003.png?raw=true)
+![Stock Option](./instockimages/image003.png?raw=true)
 
 (1)	**Decrease Stock When Order is Placed:** Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 
@@ -55,7 +55,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 #### Product Stock Options
 - *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
-![Stock Control Configuration](./instockimages/image004.png?raw=true)
+![Product Stock Options](./instockimages/image004.png?raw=true)
 
 (1)	**Manage Stock:** Select **Yes** to activate inventory control for your catalog. 
 
@@ -72,7 +72,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 
 Next, 
 
-![Stock Control Configuration](./instockimages/image005.png?raw=true)
+![Product Stock Options](./instockimages/image005.png?raw=true)
 
 (6)	**Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
 
@@ -134,8 +134,7 @@ After installation, the system will automatically provide a **Primary Warehouse*
 
 The **Warehouse** menu allows you to control your warehouse with 6 tabs:
 
-(Anh 5)
-
+![warehouse](./instockimages/image007.png?raw=true)
 
 On the right side of each master data tab, click on the **Arrow button** to access the data:
 
@@ -150,7 +149,6 @@ On the right side of each master data tab, click on the **Arrow button** to acce
 (5)	**Warehouse Permissions** manages staff access to the warehouse. Detailed guide is given in the next section **Warehouse permissions**
 
 (6)	**Dashboard** contains reports that are illustrated as table and lines diagrams as below.
-
 
 ![Dashboard](./instockimages/image008.png?raw=true)
 ![Dashboard](./instockimages/image009.png?raw=true)
