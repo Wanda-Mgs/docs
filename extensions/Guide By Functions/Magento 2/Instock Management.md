@@ -16,7 +16,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 ## HOW TO CONFIGURE
 ### Stock Control Configuration
 
-- *Path*: **Inventory Management > Settings** section > **Configuration** 
+- *Path*: **Stock Management > Settings** section > **Configuration** 
 <a name="p1"> </a>
 
 ![Stock Control Configuration](./instockimages/image001.png?raw=true)
@@ -31,12 +31,12 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 (3)	Click **Save Config** to finish
 
 ### Inventory Option
-- *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
+- *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
 ***Note***: *If you want to configure based on your own features, then unmark box **Use System value.*** 
 
 #### Stock Option
-- *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
+- *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
 (Ảnh   1)
 (1)	**Decrease Stock When Order is Placed:** Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
@@ -87,29 +87,29 @@ Finally, click on **Save Config** to save changes.
 
 #### Stock in Warehouse
 
-- *Path:* **Inventory Management > Stock Listing** section **> Stocks in Warehouse**
+- *Path:* **Stock Management > Stock Listing** section **> Stocks in Warehouse**
 
 (Anh 4)
 
-This page provides an overview of stock data in all warehouses and admin can select a warehouse to view stocks of that warehouse only. It shows **Available Qty, Qty to Ship, Total Qty** and **Shelf Location** of each product in that warehouse. 
+Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include **Available Qty, Qty to Ship, Total Qty** and **Shelf Location** of each product in the warehouse. 
 
 <a name="p2"> </a>
 
 ![Stock in Warehouse](./instockimages/image005.png?raw=true)
 
-After selecting a specific warehouse, admin can easily update stock and shelf location right on the Inventory grid:
+You can easily edit Qty of products in-line within a few steps:
 
 (1) Mark the checkbox to select products
 
 (2) **Qty in Warehouse**: Edit product quantity in line
 
-(3) **Shelf Location**: Input the product’s Shelf location (optional)
+(3) **Shelf Location**:Input product location in the physical warehouse 
 
 (4) Click on **Update Stock** to save changes
 
 #### Non-warehouse product
 
-- *Path:* **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
+- *Path:* **Stock Management > Stock Listing** section **> Non-Warehouse Products**
 
 When a product is newly added to the system, it will be automatically allocated in Non-warehouse. Admin can assign this product to any warehouses. 
 
@@ -128,29 +128,26 @@ From here admin can
 After installation, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse first before being sent to other warehouses.
 
 ##### View Warehouse's detail information
-- *Path:* **Inventory Management > Stock Listing** section **> Warehouse**
+- *Path:* **Stock Management > Stock Listing** section **> Warehouse**
+
+The **Warehouse** menu allows you to control your warehouse with 6 tabs:
 
 (Anh 5)
 
-(1)	Tick on the checkbox to choose a warehouse
 
-(2)	Click on **View** to the warehouse detailed information
+On the right side of each master data tab, click on the **Arrow button** to access the data:
 
-(anh 6)
+(1)	**General information** about the Warehouse
 
-In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the right side of each master data tab, click on the **Arrow button** to access the data:
+(2)	**Stock On-hand** displays the amount of goods that the warehouse has available at that time. Here, you can update each product’s **Qty in Warehouse(s)** and its **Shelf Location** in-line.
 
-(1) **General Information**: Information of the Warehouse including Name, Code, address, etc
+(3)	**Stock Movement** shows the changes in stock quantities. Click on each record to view more details.
 
-(2) **Stock On-hand**: the total number of goods that are available in the warehouse in real time. Here, you can update each product's **Qty in Warehouse(s)** and its **Shelf Location** in-line.
+(4)	**Orders** record detail information of each order including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
 
-(3) **Stock Movement**: all the changes in stock quantities. Click on each record to view in detail.
+(5)	**Warehouse Permissions** manages staff access to the warehouse. Detailed guide is given in the next section **Warehouse permissions**
 
-(4) **Order**:  records of all orders including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
-
-(5) **Warehouse Permission** manages staff access to the warehouse. Detailed guide is given in the next section **Warehouse permissions**
-
-(6) **Dashboard** contains reports that are illustrated as table and lines diagrams as below.
+(6)	**Dashboard** contains reports that are illustrated as table and lines diagrams as below.
 
 
 ![Dashboard](./instockimages/image008.png?raw=true)
@@ -158,7 +155,7 @@ In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the
 
 ##### Warehouse Permissions
 
-- *Path:* **Inventory Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
+- *Path:* **Stock Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
 
 In this section, Admin can give different warehouse access permissions to different (admin) users.
 Click on **View** to see the warehouse’s detail information
@@ -190,14 +187,14 @@ Select Staff users to assign permission
 
 **-	Link stocks in Warehouse to Front Store View:**
 
-As mentioned in section **Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section
+As mentioned in section **Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section.
 <a name="p5"> </a>
 
 ![Link stocks in Warehouse to Front Store View](./instockimages/image013.png?raw=true)
 
-To link multiple Store View to a Warehouse, go to **Inventory Management > Warehouse > General Information > Magento Store View**. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
+To link multiple Store View to a Warehouse, go to **Stock Management > Warehouse > General Information > Magento Store View**. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
 
-![Link stocks in Warehouse to Front Store View](./instockimages/image014.png?raw=true)
+(Anh 6)
 
 **-	Add new Stock Adjustment**
 
