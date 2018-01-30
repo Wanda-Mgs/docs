@@ -53,7 +53,7 @@ If you are looking for a simple solution to manage a warehouse and all stocks wi
 (6)	Tap **Save** to finish. 
 
 #### Product Stock Options
-- *Path*: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory** 
+- *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
 ![Stock Control Configuration](./instockimages/image004.png?raw=true)
 
@@ -93,13 +93,11 @@ Please refer to section **Low Stock Rules**
 
 - *Path:* **Stock Management > Stock Listing** section **> Stocks in Warehouse**
 
-(Anh 4)
-
 Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include **Available Qty, Qty to Ship, Total Qty** and **Shelf Location** of each product in the warehouse. 
 
 <a name="p2"> </a>
 
-![Stock in Warehouse](./instockimages/image005.png?raw=true)
+![Stock in Warehouse](./instockimages/image131.png?raw=true)
 
 You can easily edit Qty of products in-line within a few steps:
 
