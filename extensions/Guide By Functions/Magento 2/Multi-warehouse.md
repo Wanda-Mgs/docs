@@ -90,7 +90,7 @@ Please refer to section **Low Stock Rules**
 
 #### Stocks in Warehouse
 
-*Path:* **Inventory Management > Stock Listing** section **> Stocks in Warehouse**
+- *Path:* **Inventory Management > Stock Listing** section **> Stocks in Warehouse**
 
 ![stock in warehouse page](./inventoryimages/image355.png?raw=true)
 
@@ -109,7 +109,7 @@ After **selecting a specific warehouse**, admin can easily update stock and shel
 
 #### Non-warehouse Products
 
-*Path:* **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
+- *Path:* **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
 
 When a product is newly created and not assigned to any warehouse yet, it will be automatically allocated in Non-warehouse. From here admin can assign this product to any warehouses. 
 
@@ -123,7 +123,7 @@ When a product is newly created and not assigned to any warehouse yet, it will b
 After installing, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse first before being sent to other warehouses.
 
 ##### Add a New Warehouse
-Path: **Inventory Management > Stock Listing** section **> Warehouses**
+- *Path:* **Inventory Management > Stock Listing** section **> Warehouses**
 
 A warehouse contains basic information including Total SKU, total Qty, contact email, telephone, street, city, country and status
 
@@ -132,7 +132,7 @@ Admin can **Add New Warehouse** then fill all information including warehouse na
 ![Add New Warehouse button])
 
 ##### View Warehouse's detail information
-Path: **Inventory Management > Stock Listing** section **> Warehouses**
+- *Path:* **Inventory Management > Stock Listing** section **> Warehouses**
  
 ![View Warehouse's detail information](./inventoryimages/image358.png?raw=true)
 
@@ -162,7 +162,8 @@ In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the
 ![View Warehouse's detail information](./inventoryimages/image361.png?raw=true)
 
 ###### Warehouse permission
-Path: **Inventory Management > Stock Listing** section **> Warehouses > Warehouse Permissions**
+
+- *Path:* **Inventory Management > Stock Listing** section **> Warehouses > Warehouse Permissions**
 
 In this section, Admin can give different warehouse access permissions to different (admin) users.
 Click on **View** to see the warehouse’s detail information
@@ -193,7 +194,7 @@ Select Staff users to assign permission
 
 ##### **Send stock:** 
 
-Path: **Inventory Management > Transfer Stock** section **> Send Stock**
+- *Path:* **Inventory Management > Transfer Stock** section **> Send Stock**
 
 If admin want to send stock from his warehouse to another warehouse, he can use this feature to record stock sending. 
 
@@ -274,7 +275,7 @@ Or **Return products**, also on the same page:
 
 ##### **Request Stock:** 
 
-Path: **Inventory Management > Transfer Stock** section **> Request Stock**
+- *Path:* **Inventory Management > Transfer Stock** section **> Request Stock**
 
 If a warehouse lacks of stock, admin can create a Stock request to get stock from other warehouse. The process to request stock is: *Add new request stock > Prepare Product list > Select Products> Start Request Stock > Save Delivery Stock > Save Receive Stock > Mark as Completed*
 
@@ -369,7 +370,7 @@ You can also download **Shortfall List & Summary** of the Stock Request.
 
 - **Transfer to External**
 
-Path: **Inventory Management > Transfer Stock** section **> Transfer to External**
+*Path:* **Inventory Management > Transfer Stock** section **> Transfer to External**
 
 This feature allows you to record sending the product to an external destination e.g. when the product is damaged, loss or sent as free gift…
 
@@ -405,7 +406,7 @@ Fill the **Qty** and click on **Transfer** to finalise.
 
 -	**Transfer from External**
 
-Path: **Inventory Management > Transfer Stock** section **> Transfer from External**
+*Path:* **Inventory Management > Transfer Stock** section **> Transfer from External**
 
 This feature allows you to accept the stocks from outside of the system. Not only from another warehouse but can be from any other source. 
 
@@ -448,7 +449,7 @@ As mentioned in section **Stock Control Configuration**, you can link products a
 ![Configure in Settings](./inventoryimages/image399.png?raw=true)
 
 -	**Add new Stock Adjustment**
-Path: **Inventory Management > Stock Control** section **> New Stock Adjustment**
+*Path:* **Inventory Management > Stock Control** section **> New Stock Adjustment**
 
 ![stock control](./inventoryimages/image400.png?raw=true)
 
@@ -479,7 +480,7 @@ Once the Adjustment is Complete, there is no way to undo it.
 Stock level will be updated instantly in the corresponding warehouse.
 
 **-	View Stock Adjustment History**
-Path: **Inventory Management > Stock Control** section **> Adjust Stock History**
+*Path:* **Inventory Management > Stock Control** section **> Adjust Stock History**
 
 ![stock control](./inventoryimages/image403.png?raw=true)
 
@@ -499,7 +500,7 @@ Physical Stocktaking acts can be used at any time to double-check and correct in
 
 ##### Stocktaking process
 
-- Path: **Inventory Management > Stock Control** section **> New Stocktaking**
+- *Path:* **Inventory Management > Stock Control** section **> New Stocktaking**
 
  ![Stocktaking process](./inventoryimages/image405.png?raw=true)
 
@@ -550,7 +551,7 @@ This Stage allows you to have a final review of your recent quantity counts. Cli
 Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Complete. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system
 
 ##### Stocktaking History 
-Path: **Inventory Management > Stock Control** section **> Stocktaking History**
+- *Path:* **Inventory Management > Stock Control** section **> Stocktaking History**
 
   ![Stocktaking history](./inventoryimages/image411.png?raw=true)
 
@@ -565,7 +566,7 @@ Path: **Inventory Management > Stock Control** section **> Stocktaking History**
 
 #### Stock Movement History
 
-Path: **Inventory Management > Stock Control** section **> Stock Movement History**
+- *Path:* **Inventory Management > Stock Control** section **> Stock Movement History**
 
 The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
 
@@ -586,7 +587,7 @@ Admin can also filter the data basing on the variables in the table
 
 #### Supply Needs
 
-Path: **Inventory Management > Prediction** section **> Supply Needs**
+- *Path:* **Inventory Management > Prediction** section **> Supply Needs**
 
 This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
 
@@ -618,7 +619,7 @@ The forecast data will be shown in the table as below:
 
 #### Low Stock Rules
 
-- Path: **Inventory Management > Prediction** section **> Low Stock Rules**
+- *Path:* **Inventory Management > Prediction** section **> Low Stock Rules**
 
 ***Note: Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.*
 
@@ -706,7 +707,7 @@ There are **2 types** of low stock rule:
  
 #### Low Stock Notifications
 
-- Path: **Inventory Management > Prediction** section **> Low Stock Notifications**
+- *Path:* **Inventory Management > Prediction** section **> Low Stock Notifications**
 
 ![Low Stock Notifications](./inventoryimages/image424.png?raw=true) 
 
