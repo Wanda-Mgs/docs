@@ -524,6 +524,135 @@ Admin can also filter the data basing on the variables in the table
 
 Path: **Inventory Management > Prediction** section **> Supply Needs**
 
+This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
+
+![Supply Needs](./Anh) 
+
+(1) **Warehouse(s)**: Select the warehouse to forecast supply needs.
+
+(2) **Sales Period**: Select the sales period so that the system will calculate this number based on this sales history.
+
+(3) **Forecast Supply Needs To**: Pick the date that you want to see forecast results.
+
+(4) Click to **Show Supply Needs** button to finally view the prediction.
+
+The forecast data will be shown in the table as below:
+
+(Anh)
+
+(1) The table displays supply needs information as below:
+- **Qty Sold/day**: average quantity sold per day of the product during the chosen sales period 
+- **Total Sold**: total quantity of product that were sold during the chosen sales period
+- **Current Qty**: the product quantity that you currently have in the warehouse
+- **Availability date**: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+- **Supply needs**: the quantity of product that expected to be sold until the time stamp you set. 
+
+(2)	The Supply Need Forecast can be exported to CSV or XML file by hitting **Export** button.
+
+(3)	You can start another prediction by expanding and editting criteria for supply forecast and hit **Show Supply Needs** again to refresh the prediction result. 
+
+
+#### Low Stock Rules
+
+- Path: **Inventory Management > Prediction** section **> Low Stock Rules**
+
+***Note: Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.*
+
+![Low Stock Rules](./instockimages/image030.png?raw=true) 
+
+(1)	Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information, Conditions & Action**. There is no limitation in the quantity of rules set.
+
+-	**On the Rule information tab:** 
+
+ ![Low Stock Rules](./instockimages/image031.png?raw=true)
+
+(2)	Enter the low stock rule name
+
+(3)	Add a brief about the rule *(optional)*
+
+(4)	Select **Active** to enable the rule
+
+(5)	Use **Calendar** to choose **From** and **To** date for a term of validity *(optional)*
+
+![](./instockimages/image032.png?raw=true) 
+
+(6)	Select an **update time**:
+
+- Daily
+- Monthly
+
+The system periodically check stock availability and automatically send email notifications admin and warehouse managers. 
+
+(7)	**Select hours** the warning message will be sent
+
+
+-	**On the Conditions tab:** 
+
+There are **2 types** of low stock rule:
+
+ ![Low Stock Rules](./instockimages/image033.png?raw=true)
+
+***Type 1: Availability Qty**.
+
+**Availability Qty.**: you can select Qty. threshold that the system will notify to import*. 
+
+(8)	**Low Stock Threshold Type**: Select **Availability Qty**.
+
+(9)	**Threshold (qunatity): Set the number of **threshold** quantity
+
+(10) **Notification Scope:** Select **Both Warehouse and Global** for notification scope
+
+(11) **Warehouse(s)**: Select **Warehouses** for those rules will be applied
+
+ ![Low Stock Rules](./instockimages/image034.png?raw=true)
+
+***Type 2: Availability Days**
+
+**Availability Days**: you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)*
+
+(12)	Select **Availability Days**
+
+(13)	Set the number of **threshold days**
+
+(14)	Set the number of **sales period days**
+
+(15)	Select **Both Warehouse and Global** for notification scope
+
+(16)	Select **warehouses** for those rules will be applied
+
+-	**On Actions tab:** 
+
+ ![Low Stock Rules](./instockimages/image035.png?raw=true)
+
+(17)	Enter an **email list** to send the low stock notifications to
+
+(18)	Enter content of the **warning message**
+
+![](./instockimages/image036.png?raw=true)
+
+(19)	Click **Save** or **Save and Apply** to finish
+
+- **Save and Continue Edit**: to save the process and continue edit on the current page. 
+- **Save and Apply**: you can apply rule immediately
+- **Save**: you can save the rule but it will not be applied, in case you need to ask for permission before applying or double-check with other people. 
+
+***Note***: *You can edit the rule that you **Save and Apply** or **Save** by going to **Stock Management > Prediction** section **> Low Stock Rules >** clicking on Edit*
+
+ ![Low Stock Rules](./instockimages/image037.png?raw=true)
+
+#### Low Stock Notifications
+
+- *Path:* **Stock Management > Prediction** section **> Low Stock Notifications**
+
+![Low Stock Notifications](./instockimages/image038.png?raw=true) 
+
+**Low Stock notifications** displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click *view* action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
+
+
+
+
+
+
 ![Add product to multiple warehouses](./inventoryimages/im8.png)
 
 This feature predicts how many inventory items a warehouse need for each product within a future period. 
