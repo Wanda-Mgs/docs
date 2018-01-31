@@ -129,7 +129,7 @@ A warehouse contains basic information including Total SKU, total Qty, contact e
 
 Admin can **Add New Warehouse** then fill all information including warehouse name, contact, country…
 
-![Add New Warehouse button])
+![Add New Warehouse button](./inventoryimages/image186.png?raw=true)
 
 ##### View Warehouse's detail information
 - *Path:* **Inventory Management > Stock Listing** section **> Warehouses**
