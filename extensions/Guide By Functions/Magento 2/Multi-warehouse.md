@@ -18,7 +18,7 @@ If your inventory is not enough to supply, you may lose customer. But if the inv
 - *Path*: **Stock Management > Settings** section > **Configuration** 
 <a name="p1"> </a>
 
-![Stock Control Configuration](./instockimages/image001.png?raw=true)
+![Stock Control Configuration](./inventoryimages/image022.png?raw=true)
 
 (1)	**Link stocks in Warehouse to Front Store View:** choose **Yes** to activate the visibility of Stocks in Warehouse on the Front Store View
 
@@ -37,7 +37,7 @@ If your inventory is not enough to supply, you may lose customer. But if the inv
 #### Stock Option
 - *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
-![Stock Option](./instockimages/image003.png?raw=true)
+![Stock Option](./inventoryimages/image023.png?raw=true)
 
 (1)	**Decrease Stock When Order is Placed:** Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 
@@ -54,7 +54,7 @@ If your inventory is not enough to supply, you may lose customer. But if the inv
 #### Product Stock Options
 - *Path*: **Stock Management > Settings** section **> Configuration > Catalog > Inventory** 
 
-![Product Stock Options](./instockimages/image004.png?raw=true)
+![Product Stock Options](./inventoryimages/image024.png?raw=true)
 
 (1)	**Manage Stock:** Select **Yes** to activate inventory control for your catalog. 
 
@@ -71,7 +71,7 @@ If your inventory is not enough to supply, you may lose customer. But if the inv
 
 Next, 
 
-![Product Stock Options](./instockimages/image005.png?raw=true)
+![Product Stock Options](./inventoryimages/image025.png?raw=true)
 
 (6)	**Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
 
