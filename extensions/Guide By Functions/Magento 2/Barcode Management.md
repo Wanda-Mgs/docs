@@ -14,7 +14,7 @@ Barcode management module from Magestore provides your business with a handful s
 ## HOW TO CONFIGURE
 - *Path:* **Inventory Management > Barcode Management** section **> Barcode Settings**
 
-![barcode configue]()
+![barcode configue](./barcode-images/image026.png?raw=true)
 
 (1)	**One barcode per product SKU**: choose **No** if you allow a product SKU to have MULTIPLE barcodes
 
@@ -32,19 +32,19 @@ Barcode management module from Magestore provides your business with a handful s
 
 From this screen, admin can easily **Import Barcode** or **Generate Barcode** with 2 buttons on the top right.
 
-![Admin can easily import/generate barcode with buttons](./barcode-images/bm1.png)
+![Admin can easily import/generate barcode with buttons](./barcode-images/image425.png?raw=true)
 
 Admin can also view details of each product and barcode.
 
-![Admin can also view details](./barcode-images/bm2.png)
+![Admin can also view details](./barcode-images/image426.png?raw=true)
 
 Click on **View** in the **Detail** column, then you can see each barcode details.
 
-![Admin can also view details](anh)
+![Admin can also view details](./barcode-images/image427.png?raw=true)
 
 You can see **Barcode Information** as above.
 
-![Admin can also view details](anh)
+![Admin can also view details](./barcode-images/image428.png?raw=true)
 
 You can see **Barcode Print Configuration**. In addition, you also can print the barcode right here.
 
@@ -53,7 +53,7 @@ You can see **Barcode Print Configuration**. In addition, you also can print the
 (2)	**Qty. to print**: enter the number of barcodes you want to print. 
 Then click on **Print** button
 
-![Admin can also view details](anh)
+![Admin can also view details](./barcode-images/image429.png?raw=true)
 
 Besides, you can see **Product Information**, including **Image, Name, Price, Qty., Stock Availability** and **Status**. 
 
@@ -63,7 +63,7 @@ Click on **More Details** button to view all information about the product.
 
 - *Path:* **Inventory Management > Barcode Management** section **> Generate Barcode**
 
-![Configuration in Barcode Settings](./barcode-images/bm3.png)
+![Configuration in Barcode Settings](./barcode-images/image430.png?raw=true)
 
 (1)	**General Information**: select one of these two options
 - Generate barcode per item (each item will generate a barcode with Qty.=1)
@@ -72,11 +72,11 @@ Click on **More Details** button to view all information about the product.
 
 (2)	**Product(s)**: click on **Selected Product(s)**, then a popup will be shown as below:
 
-![Fill in the Supplier](./barcode-images/bm4.png)
+![Fill in the Supplier](./barcode-images/image431.png?raw=true)
 
 -	If you set **One barcode per product SKU** as **No**, then it opens up 2 options to generate barcode when you go to **Generate Barcodes** tab.
 
-![Generate Barcode Tab](./barcode-images/bm5.png)
+![Generate Barcode Tab](./barcode-images/image432.png?raw=true)
 
 (1)	Tick on the box to select the product you want to generate code
 
@@ -84,7 +84,7 @@ Click on **More Details** button to view all information about the product.
 
 Then the product(s) you choose will be shown on the table as below:
 
-![Generate Barcode](./barcode-images/bm5.png)
+![Generate Barcode](./barcode-images/image433.png?raw=true)
 
 Enter the **Item Quantity**. Besides, you can enter the name of **Supplier** and select **Purchased time**, or easily remove the item by clicking on **Remove** in the **Actions** column.
 
@@ -92,7 +92,7 @@ To complete this process, click on **Generate** button on your top left.
 
 Then you will be linked to **Barcode Generated History** page as below:
 
-![Generate Barcode](./barcode-images/bm5.png)
+![Generate Barcode](./barcode-images/image434.png?raw=true)
 
 Here, you can view **History Information** and if you click on **View** in the **Detail** column, you will see the barcode details.
 
@@ -102,7 +102,7 @@ Here, you can view **History Information** and if you click on **View** in the *
 
 Here you can import your pre-generated barcodes via a CSV file.
 
-![Import barcode](anh)
+![Import barcode](./barcode-images/image435.png?raw=true)
 
 (1)	**Reason**: enter the reason you import barcode
 
@@ -112,7 +112,6 @@ Here you can import your pre-generated barcodes via a CSV file.
 
 After all, click **Import** to finish.
 
-
 ###  Barcode Label Templates
 
 - *Path:* **Inventory Management > Barcode Management** section **> Barcode Label Templates**
@@ -121,21 +120,21 @@ You can create your own barcode template by adding new template. There are also 
 
 #### Manage Barcode Templates
 
-![barcode template](./barcode-images/bm8.png)
+![barcode template](./barcode-images/image436.png?raw=true)
 
 Here, you can see list of barcode templates that you have created. 
 
-![barcode template](./anh)
+![barcode template](./barcode-images/image437.png?raw=true)
 
 Click on **Edit** in the **Edit** column to view and edit **Barcode Template**
 
-![barcode template](./anh)
+![barcode template](./barcode-images/image438.png?raw=true)
 
 Click on **Add New Template** if you want to create a new one.
 
 #### Add a new Barcode Template
 
-![barcode template](./anh)
+![barcode template](./barcode-images/image439.png?raw=true)
 
 (0)	You can see the **Barcode Label** Roll at the right. The image demontrates the dimensions of the label roll that barcodes are printed on. 
 
@@ -168,7 +167,7 @@ Click on **Add New Template** if you want to create a new one.
 
 (8)	**Label measurement**: enter label height and label width (no need to type the unit) 
 
-![barcode template](./anh)
+![barcode template](./barcode-images/image440.png?raw=true)
 
 (9) **Font Size**: enter the number (no need to type the unit)
 
@@ -189,21 +188,21 @@ After all, click **Save** to save the created one
 
 You need a Barcode scanner which is able to connect with your computer to perform this action. Then you can scan to read product information or update stock Qty., this saves you a remarkable amount of time when doing **Stock taking**.
 
-![scan barcode](anh)
+![scan barcode](./barcode-images/image441.png?raw=true)
 
 The Scan Barcodes site will be shown as above. Now, let’s move to each step (marked on the above image)
 
 - **Step 1:** Enter the barcode on this field
-![scan barcode](anh)
+![scan barcode](./barcode-images/image442.png?raw=true)
 
 - **Step 2**: Read the **Barcode Information**
-![scan barcode](anh)
+![scan barcode](./barcode-images/image443.png?raw=true)
 
 - **Step 3**: View the product information. Click on **More Detail** button to view full information about the product
-![scan barcode](anh)
+![scan barcode](./barcode-images/image444.png?raw=true)
 
 - **Step 4:**
-![scan barcode](anh)
+![scan barcode](./barcode-images/image445.png?raw=true)
 
 Select the template and enter the Qty. to print → Then, click on **Print Barcode** button to print
 
@@ -213,7 +212,7 @@ Select the template and enter the Qty. to print → Then, click on **Print Barco
 
 Here you can select the barcode template from the templates created before to print.
 
-![Print barcode](anh)
+![Print barcode](./barcode-images/image446.png?raw=true)
 
 (1)	**Select Barcode Template**: select the template (A4, Standard or Jewelry)
 
@@ -227,13 +226,13 @@ After all, click **Print**
 
 - *Path:* **Inventory Management > Barcode Management** section **> Barcode Generated History**
 
-![Barcode Generated History](anh)
+![Barcode Generated History](./barcode-images/image447.png?raw=true)
 
 You can view the history table showing information such as **ID**, created **Date**, which User created, **Barcode Qty., Type** (Generated or Imported) and **Detail**. 
 
 If you click on **View** in the **Detail** column, you will be linked to **Barcode Created History Details** site as below:
 
-![Barcode Generated History](anh)
+![Barcode Generated History](./barcode-images/image448.png?raw=true)
 
 You will see when, who and why created Barcode. You can view the list of created barcodes in the table. If you click on **View** in the **Detail** column
 
