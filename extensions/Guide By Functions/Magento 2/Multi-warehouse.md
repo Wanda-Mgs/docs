@@ -84,7 +84,7 @@ Finally, click on **Save Config** to save changes.
 ### Low Stock Notification Rules 
 Please refer to section **Low Stock Rules** 
 
-## HOW IT WORKS
+## HOW TO USE
 
 ### Stock listing
 
