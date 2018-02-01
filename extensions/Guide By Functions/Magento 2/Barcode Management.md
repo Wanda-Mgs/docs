@@ -183,19 +183,6 @@ Click on **Add New Template** if you want to create a new one.
 
 After all, click **Save** to save the created one 
 
-###  Print barcode
-
-Path: **Inventory Management > Barcode Management > Print Barcode**
-
-In Barcode configuration, admin can select the barcode template from the templates created before to print. 
-
-![Admin can select the barcode template](./barcode-images/bm10.png)
-
-Admin can select multiple barcodes to print at once. Or click to View under Details column to print one barcode multiple times.
-
-![View under Details column to print](./barcode-images/bm11.png)
-
-
 ###  Scan Barcode
 
 - *Path:* **Inventory Management > Barcode Management** section **> Scan Barcode**
