@@ -11,7 +11,7 @@ Barcode by definition is the small image of lines (bars) and spaces that is affi
 
 Barcode management module from Magestore provides your business with a handful solution to generate barcode, print barcode label and scan barcode, all in one.
 
-## HOW TO CONFIGUE
+## HOW TO CONFIGURE
 - *Path:* **Inventory Management > Barcode Management** section **> Barcode Settings**
 
 ![barcode configue]()
