@@ -59,8 +59,6 @@ To change logo of Retailer POS, go to **Sales > Web POS > Settings > Web POS Log
 
 ![RetailerPOS](./Retailer%20POS%20image/image008.png)
 
-- **Allow synchronizing from Web POS if there are out-of-stock items**: If you want to show out-of-stock products in search results, choose “Yes”. If not, select “No”.
-
 - **Web POS logo: Upload your logo here**. Please note that recommended size is 250x50px & supported files are jpg, png
 After finishing, click on **Save** or **Save And Continue Edit** button to save your work.
 
