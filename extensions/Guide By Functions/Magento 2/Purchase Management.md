@@ -554,7 +554,7 @@ Allow to assign product to suppliers when adding new product
 ------------------------------
 **_Confidential Information Notice_**
 
-Copyright2016
+Copyright2018
 
 All Rights Reserved. Any unauthorized reproduction of this document is prohibited.
 
