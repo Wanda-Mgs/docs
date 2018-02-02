@@ -22,7 +22,7 @@ To set up payment method for Retailer POS, go to **Sales > Web POS > Settings > 
  
 - **Default Payment Method**: You can choose any payment method as default payment method for POS
 
-If you want to set Cash on Delivery (COD) to be the default payment method for instance, you first have to choose it in Specific Payments field. Then, select option Web POS – Cash on Delivery in Default Payment Method field.
+If you want to set Cash In to be the default payment method for instance, you first have to choose it in Specific Payments field. Then, select option Web POS – Cash In in Default Payment Method field.
 
 ![RetailerPOS](./Retailer%20POS%20image/image005.png)
 
