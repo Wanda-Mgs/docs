@@ -103,7 +103,6 @@ After finishing, click on **Save User** or **Save And Continue Edit** button to 
  - **Role Name**: Enter a specific name for the role in order to find it easily<br/>
  - **Maximum discount percent**: limit the highest discount percent that each user role can offer customers<br/>
  - **Description**: Enter text that describes the role<br/>
- - **Status**: Remember to set Status as Active if you want to enable it<br/>
  -In **Permission** tab, choose which all or specific permissions you want to grant for this role. Use Shift + Click to choose more than one
     
   ![RetailerPOS](./Retailer%20POS%20image/image016.png)<br/>
