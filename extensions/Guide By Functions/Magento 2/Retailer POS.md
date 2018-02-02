@@ -39,7 +39,7 @@ To set up Shipping Methods for Retailer POS, go to **Sales > Web POS > Settings 
 
 - 	**Default Shipping Method**: You can choose one of three shipping methods supported to set as default payment method for POS
 
-If you want to set Flat Rate - Fixed to be the default shipping method for instance, you first have to choose it in Specific Shipping field. Then, select option Flat Rate - Fixed in Default Shipping Method field.
+If you want to set Store Pickup to be the default shipping method for instance, you first have to choose it in Specific Shipping field. Then, select option Store Pickup in Default Shipping Method field.
 
 - 	**Enable "Mark as shipped" by default**: choose Yes if you want to mark items as shipped.
 
