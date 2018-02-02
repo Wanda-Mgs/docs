@@ -175,7 +175,7 @@ A pop-up will be shown
 
 ![Quotation](./purchaseimages/image460.png?raw=true)
 
-- **Step 1**: Fill in General Information
+**Step 1**: Fill in General Information
 
 (1)	**Created Time**: click on **Calendar** to select Created Date (or you can use the system date)
 
@@ -189,7 +189,7 @@ A pop-up will be shown
 
 (6)	Click on **Prepare Product List** button to move to the next step
 
-- **Step 2**: Select the products you need supplying.
+**Step 2**: Select the products you need supplying.
 
 ![Quotation](./purchaseimages/image461.png?raw=true)
 
@@ -261,7 +261,7 @@ After you added all the products you need supplying, you need to:
 
 (3)	Click on **Save** to update the quotation 
 
-- **Step 3**: Fill in Shipping and Payment method
+**Step 3**: Fill in Shipping and Payment method
 
 ![Quotation](./purchaseimages/image470.png?raw=true)
 
@@ -280,27 +280,22 @@ After you added all the products you need supplying, you need to:
 
 Remember to click **Save** to update what you have edited
 
-- **Step 4**: Review the quotation.
+**Step 4**: Review the quotation.
 
 Here, you can review/edit the quotation information including the Order Totals. 
 
 ![Quotation](./purchaseimages/image471.png?raw=true)
 
-- **Step 5:** Send Request to the suppliers or Print the quotation
+**Step 5:** Send Request to the suppliers or Print the quotation
 
 ![Quotation](./purchaseimages/image472.png?raw=true)
 
--**Back**: if you want to come back the **Quotation Management** page
-
--**Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
-
--**Send Request**: the request will be sent to supplier via email
-
--**Print**: to print out the Quotation
-
--**Save**: click here to update and finish this quotation as the draft
-
--**Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
+- **Back**: if you want to come back the **Quotation Management** page
+- **Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
+- **Send Request**: the request will be sent to supplier via email
+- **Print**: to print out the Quotation
+- **Save**: click here to update and finish this quotation as the draft
+- **Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
 
 ![Quotation](./purchaseimages/image473.png?raw=true)
 
@@ -342,7 +337,7 @@ You can view and edit **Summary Information, Shipping and Payment**, and **Gener
 
 When creating Purchase Order, you will see a tab showing steps at which Purchase Order is. They are **New, Pending, Processing**, and **Completed**.
 
-- **Step 1**: input General Information
+**Step 1**: input General Information
 
 ![purchase order](./purchaseimages/image476.png?raw=true)
 
@@ -350,39 +345,30 @@ Enter required information. Similar to **Step 1 in Create a new Quotation**
 
 Click on **Prepare Product List** button to move to the next step
 
-- **Step 2**: Add products to the Purchase Order
+**Step 2**: Add products to the Purchase Order
 
 ![purchase order](./purchaseimages/image477.png?raw=true)
 
 Similar to **Step 2 in Creating a Quotation**, there are 5 ways to prepare product list:
 
--Import products via a CSV file
-
--Prepare product list based on supply need forecast
-
--Prepare back order products (Back orders products are ordered by customers but not available in stock now)
-
--Prepare low stock products
-
--Prepare product list manually with **All Supplier Products** button
+- Import products via a CSV file
+- Prepare product list based on supply need forecast
+- Prepare back order products (Back orders products are ordered by customers but not available in stock now)
+- Prepare low stock products
+- Prepare product list manually with **All Supplier Products** button
 
 Then, click on **Confirm Purchase Order** at the top right to continue.
 
-- **Step 3**: Setting Shipping and Payment
+**Step 3**: Setting Shipping and Payment
 
 ![purchase order](./purchaseimages/image478.png?raw=true)
 
--Enter the address you want the stock to be shipped to
-
--Select a shipping method for the purchase order
-
--Estimate and enter the shipping cost
- 
--Set start shipping and expected delivery date
- 
--Select the payment term
-
--Choose the way to place order: N/A, Email, Phone, Fax, Vendor website
+- Enter the address you want the stock to be shipped to
+- Select a shipping method for the purchase order
+- Estimate and enter the shipping cost
+- Set start shipping and expected delivery date
+- Select the payment term
+- Choose the way to place order: N/A, Email, Phone, Fax, Vendor website
 
 After this step, choose **Save** and the purchase order status will be changed to ***Pending***. At this time, you can choose to Send Request to the supplier (Request will be sent to suppliers’ email address), Print the purchase order, Cancel or Confirm Purchase Order. 
 
@@ -409,18 +395,17 @@ When the purchase order’s status is processing, you can be navigated to the fo
 
 The table will shown received items with information including **Received Data, SKU, Product Name, Supplier SKU, Received Qty** and **Created By**
 
--If you click on **Receive all items**, then all items that you need supplying are ordered. 
-
--If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
+- If you click on **Receive all items**, then all items that you need supplying are ordered. 
+- If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
 
 ![purchase order](./purchaseimages/image482.png?raw=true)
 
 (1)	**Received Time**: click **Calendar** to pick the Date you received the items
 
 (2)	**Product List:**
--**Scan Barcode**: update product list by scanning product barcode 
 
--**Select Products**: a pop-up will be shown as below
+- **Scan Barcode**: update product list by scanning product barcode 
+- **Select Products**: a pop-up will be shown as below
 
 ![purchase order](./purchaseimages/image483.png?raw=true)
 
@@ -468,7 +453,7 @@ You will need to fill information like **Transferred Date, SKU, Product Name, Su
 
 **General Information**: as above
 
-- **Step 4**: Completed
+**Step 4**: Completed
 
 ![purchase order](./purchaseimages/image490.png?raw=true)
 
@@ -492,7 +477,7 @@ You can view the purchase date (**Purchase On – Expect Delivery On), supplier,
 
 - *Path:* **Purchase Management > Return Request Management** section **> Create Return Request**
 
-- **Step 1**: status **New**: input General Information
+**Step 1**: status **New**: input General Information
  ![create return request](./purchaseimages/image492.png?raw=true)
  
 (1)	**Created Time**: select **Calendar** to choose date
@@ -505,7 +490,7 @@ You can view the purchase date (**Purchase On – Expect Delivery On), supplier,
 
 Then, click on **Prepare Product List** button to move to the next step
 
-- **Step 2**: status **Pending**: Prepare products to create return request
+**Step 2**: status **Pending**: Prepare products to create return request
 
  ![create return request](./purchaseimages/image493.png?raw=true)
 
@@ -524,7 +509,7 @@ After this step, a return request is recorded with **Processing** status and awa
 
 You can also **Send request** to supplier via email or print the return request.
 
-- **Step 3**: Status **Processing**: Send items and/or finish return request
+**Step 3**: Status **Processing**: Send items and/or finish return request
 
  ![create return request](./purchaseimages/image495.png?raw=true)
  
@@ -541,7 +526,7 @@ Note that you can return partial items and come back later to return the rest.
 You can click on **Complete Request** to complete the return request even if you send back items in the previous step above or not. Once you have completed the return request, you will NOT be able to receive or edit further information of this request. 
 The request status is marked **Completed**.
 
-- **Step 4**: status **Completed**
+**Step 4**: status **Completed**
 
  ![create return request](./purchaseimages/image497.png?raw=true)
  
