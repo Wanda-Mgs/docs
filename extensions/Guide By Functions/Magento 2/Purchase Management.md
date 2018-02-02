@@ -73,25 +73,25 @@ Here, you have two options:
 
 #### View Supplier Details
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image448.png?raw=true)
 
 On the **Manage Suppliers** page, you can view the table including information about **Supplier Code, Total SKU, Purchase Order Value, Last Purchase Order On,** and **Status**. 
 
 Moreover, in the **Action** column, you can click on **View** for more detail about the supplier including which Products they have provided, along with **Supplier Information, Supplier Address** and **Purchase Sales List**
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image449.png?raw=true)
 
 #### Add a new Supplier
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image450.png?raw=true)
 
 Click on **Add New Supplier** and Fill **Supplier Information** and **Supplier Address**
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image451.png?raw=true)
 
 - **Supplier Information**
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image452.png?raw=true)
 
 (1)	**Supplier Code**: enter the code based on your own rules
 
@@ -107,7 +107,7 @@ Click on **Add New Supplier** and Fill **Supplier Information** and **Supplier A
 
 - **Supplier Address**
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image453.png?raw=true)
 
 Fill **Supplier Address**, such as **Telephone, Fax, Street, City, Country, Region, Zip/Postal Code**, and **Website**
 
@@ -115,7 +115,7 @@ Finally, don’t forget to click on **Save** to complete this step.
 
 Now you can assign products to this supplier. After you click on **Save** button, your screen will appear like following:
 
-![manage supplier]()
+![manage supplier](./purchaseimages/image454.png?raw=true)
 
 There are two ways to assign products to the supplier: Add product manually and import products via a csv file. 
 
@@ -129,17 +129,17 @@ If you choose to upload products manually, remember to enter related information
 
 On the **Manage Pricelist** page, you can view **Product SKU, Supplier, Product Supplier SKU, Minimal Qty., Cost, Start Date** and **End Date**.
 
-![manage pricelist]()
+![manage pricelist](./purchaseimages/image455.png?raw=true)
 
 You can also delete the pricelist by ticking on the selected supplier on the 1st column, and select **Delete** in the **Actions** field
 
-![manage pricelist]()
+![manage pricelist](./purchaseimages/image456.png?raw=true)
 
 You can update the pricelist by click on **Add Pricelist** or **Import Pricelist**
 
 - **Add Pricelist**
 
-![manage pricelist]()
+![manage pricelist](./purchaseimages/image457.png?raw=true)
 
 To add pricelist, you must complete three required steps:
 
@@ -147,7 +147,7 @@ To add pricelist, you must complete three required steps:
  
  **Step 2**: Click on **Select Products** button
 
-![manage pricelist]()
+![manage pricelist](./purchaseimages/image458.png?raw=true)
 
 A pop-up will be shown
 
@@ -159,7 +159,7 @@ A pop-up will be shown
 
 - **Import Pricelist**
 
-![manage pricelist]()
+![manage pricelist](./purchaseimages/image459.png?raw=true)
 
 (1)	Click on **Choose File** to upload a **CSV file**. A sample is available for download.
 
@@ -173,7 +173,7 @@ A pop-up will be shown
 
 - *Path:* **Purchase Management > Quotation Management** section **> Create Quotation**
 
-![Quotation]()
+![Quotation](./purchaseimages/image460.png?raw=true)
 
 - **Step 1**: Fill in General Information
 
@@ -191,15 +191,15 @@ A pop-up will be shown
 
 - **Step 2**: Select the products you need supplying.
 
-![Quotation]()
+![Quotation](./purchaseimages/image461.png?raw=true)
 
 (1)	After clicking on **Prepare Product List** button, You can view **Summary Information**, including time (**Created At**), **Purchase form, Payment Term** and **Shipping Method**, as below:
 
-![Quotation]()
+![Quotation](./purchaseimages/image462.png?raw=true)
 
 (2)	You add products that need supplying.
 
-![Quotation]()
+![Quotation](./purchaseimages/image463.png?raw=true)
 
 All products that you add will be shown on the table, where you should edit **Current Cost, Purchase Cost,** and **Qty. Offering**. Besides, you can edit **SKU, Product Name, Supplier SKU, Tax, Discount** and even **Delete** the products from the Quotation. 
 
@@ -207,13 +207,13 @@ There are 5 ways toprepare product list: **Import Products**, add **Supply Needs
 
 - **Import Products**:
 
-![Quotation]()
+![Quotation](./purchaseimages/image464.png?raw=true)
 
 Similar to step 3 in **Manage Pricelist** section
 
 - **Supply Needs Products:**
 
-![Quotation]()
+![Quotation](./purchaseimages/image465.png?raw=true)
 
 (1)	**Warehouse(s)**: select warehouse(s) to see products that need supply
 
@@ -227,7 +227,7 @@ Similar to step 3 in **Manage Pricelist** section
 
 - **Back Sales Products**: Back orders products are ordered by customers but not available in stock at that moment.
 
-![Quotation]()
+![Quotation](./purchaseimages/image466.png?raw=true)
 
 (1)	Tick on the **product SKU** that need supplying
 
@@ -235,7 +235,7 @@ Similar to step 3 in **Manage Pricelist** section
 
 - **Low Stock Products:**
 
-![Quotation]()
+![Quotation](./purchaseimages/image467.png?raw=true)
 
 (1)	**Select Low Stock**: choose one of your low stock notification 
 
@@ -245,7 +245,7 @@ Similar to step 3 in **Manage Pricelist** section
 
 - **All Supplier Products:**
 
-![Quotation]()
+![Quotation](./purchaseimages/image468.png?raw=true)
 
 (1)	Tick on the products that need supplying
 
@@ -253,7 +253,7 @@ Similar to step 3 in **Manage Pricelist** section
 
 After you added all the products you need supplying, you need to:
 
-![Quotation]()
+![Quotation](./purchaseimages/image469.png?raw=true)
 
 (1)	Tick on the product(s) that you want to edit the **Qty. Ordering** and **Purchase Cost** (or **Tax, Discount**)
 
@@ -263,7 +263,7 @@ After you added all the products you need supplying, you need to:
 
 - **Step 3**: Fill in Shipping and Payment method
 
-![Quotation]()
+![Quotation](./purchaseimages/image470.png?raw=true)
 
 (1)	**Shipping Address**: enter the shipping address
 
@@ -284,11 +284,11 @@ Remember to click **Save** to update what you have edited
 
 Here, you can review/edit the quotation information including the Order Totals. 
 
-![Quotation]()
+![Quotation](./purchaseimages/image471.png?raw=true)
 
 - **Step 5:** Send Request to the suppliers or Print the quotation
 
-![Quotation]()
+![Quotation](./purchaseimages/image472.png?raw=true)
 
 -**Back**: if you want to come back the **Quotation Management** page
 
@@ -302,7 +302,7 @@ Here, you can review/edit the quotation information including the Order Totals.
 
 -**Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
 
-![Quotation]()
+![Quotation](./purchaseimages/image473.png?raw=true)
 
 (1)	**Back**: get back the **Quotation Management** page
 
@@ -322,13 +322,13 @@ Here, you can review/edit the quotation information including the Order Totals.
 
 - *Path:* **Purchase Management > Quotation Management** section **> Quotation**
 
-![manage quotation]()
+![manage quotation](./purchaseimages/image474.png?raw=true)
 
 Here, you can view **Quotation Number, Created At, Supplier, Required Qty., Grand Total (including Tax)**, and **Status**.
 
 Besides, you can view more detail by clicking on **View** in the **Action** column
 
-![manage quotation]()
+![manage quotation](./purchaseimages/image475.png?raw=true)
 
 You can view and edit **Summary Information, Shipping and Payment**, and **General Information**
 
@@ -344,7 +344,7 @@ When creating Purchase Order, you will see a tab showing steps at which Purchase
 
 - **Step 1**: input General Information
 
-![purchase order]()
+![purchase order](./purchaseimages/image476.png?raw=true)
 
 Enter required information. Similar to **Step 1 in Create a new Quotation**
 
@@ -352,7 +352,7 @@ Click on **Prepare Product List** button to move to the next step
 
 - **Step 2**: Add products to the Purchase Order
 
-![purchase order]()
+![purchase order](./purchaseimages/image477.png?raw=true)
 
 Similar to **Step 2 in Creating a Quotation**, there are 5 ways to prepare product list:
 
@@ -370,7 +370,7 @@ Then, click on **Confirm Purchase Order** at the top right to continue.
 
 - **Step 3**: Setting Shipping and Payment
 
-![purchase order]()
+![purchase order](./purchaseimages/image478.png?raw=true)
 
 -Enter the address you want the stock to be shipped to
 
@@ -388,7 +388,7 @@ After this step, choose **Save** and the purchase order status will be changed t
 
 You should double-check all information before confirming purchase order. After being confirmed, the purchase order status will be changed to ***Processing***.
 
-![purchase order]()
+![purchase order](./purchaseimages/image479.png?raw=true)
 
 You can view **Summary Information, General Information and edit Invoices, Received Items, Returned Items, Transfered Items, Shippping** and **Payment**.
 
@@ -398,14 +398,14 @@ You can also click on **Receive Items** button to note which and how many items 
 
 - **Summary Information**
 
-![purchase order]()
+![purchase order](./purchaseimages/image480.png?raw=true)
 
 You can view the **time, supplier, shipping method, payment term, product list** and **sales totals report**
 
 - **Receive Items**
 When the purchase order’s status is processing, you can be navigated to the following view and receive or return items:
 
-![purchase order]()
+![purchase order](./purchaseimages/image481.png?raw=true)
 
 The table will shown received items with information including **Received Data, SKU, Product Name, Supplier SKU, Received Qty** and **Created By**
 
@@ -413,7 +413,7 @@ The table will shown received items with information including **Received Data, 
 
 -If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
 
-![purchase order]()
+![purchase order](./purchaseimages/image482.png?raw=true)
 
 (1)	**Received Time**: click **Calendar** to pick the Date you received the items
 
@@ -422,11 +422,11 @@ The table will shown received items with information including **Received Data, 
 
 -**Select Products**: a pop-up will be shown as below
 
-![purchase order]()
+![purchase order](./purchaseimages/image483.png?raw=true)
 
 Tick on the product(s) you received. Then click on **Select** button to complete
 
-![purchase order]()
+![purchase order](./purchaseimages/image484.png?raw=true)
 
 After that, you need to enter the product quantity you received in the **Receive Qty** field. 
 
@@ -434,25 +434,25 @@ Finally, click **Save** to finish
 
 - **Returned Items**
 
-![purchase order]()
+![purchase order](./purchaseimages/image485.png?raw=true)
 
 In the Returned Items tab, you can return products to the Supplier by clicking on Return Products button. Please refer to **Create Return Request** for more details.
 
 - **Invoices**
 
-![purchase order]()
+![purchase order](./purchaseimages/image486.png?raw=true)
 
 The invoice you created will be shown on the table, including information such as **Invoice ID, Billed Date, Invoice Total, Total Paid, Total Refund**, and **Billed Qty**.
 
 Click on **Create an Invoice**. Note that multiple invoices can be created for one purchase order. 
 
-![purchase order]()
+![purchase order](./purchaseimages/image487.png?raw=true)
 
 (1)	**Billed From**: select the date it is billed
 
 (2)	**Product List**: click on **Selected Products** button, then a pop-up will be shown
 
-![purchase order]()
+![purchase order](./purchaseimages/image488.png?raw=true)
 
 (3)	Tick on the product(s) you select. Then click on **Select** button to finish
 
@@ -460,7 +460,7 @@ Click on **Create an Invoice**. Note that multiple invoices can be created for o
 
 After receiving products, you can transfer them to warehouses by clicking **Transfer Product to Warehouse.**
 
-![purchase order]()
+![purchase order](./purchaseimages/image489.png?raw=true)
 
 You will need to fill information like **Transferred Date, SKU, Product Name, Supplier SKU, Transferred Qty, Transferred to** and **Created By**. After that, you click on the **Save** button to save your work. After that, you can see the records of all transferred products in the **Transferred Items** tab.
 
@@ -470,7 +470,7 @@ You will need to fill information like **Transferred Date, SKU, Product Name, Su
 
 - **Step 4**: Completed
 
-![purchase order]()
+![purchase order](./purchaseimages/image490.png?raw=true)
 
 Here, you can view **Summary Information** (Short Information, Product List and Sales Totals), **Invoices, Received Items, Shortfall items, Returned Items, Transfered Items, Shipping and Payments**, and **General Information**
 
@@ -480,7 +480,7 @@ Then, you can click on **Send Email**, to send this purchase order to your suppl
 
 - *Path:* **Purchase Management > Purchase Order Management** section **> Purchase Orders**
 
-![manage purchase order]()
+![manage purchase order](./purchaseimages/image491.png?raw=true)
 
 You can view the purchase date (**Purchase On – Expect Delivery On), supplier, Requested Qty, Received Qty, Total Paid, Grand Total (Including Tax)** and **Status**. Beside, you can view more details by clicking on View, or delete the purchase order by tick on the order then choose action **Delete**.
 
@@ -493,7 +493,7 @@ You can view the purchase date (**Purchase On – Expect Delivery On), supplier,
 - *Path:* **Purchase Management > Return Request Management** section **> Create Return Request**
 
 - **Step 1**: status **New**: input General Information
- ![create return request]()
+ ![create return request](./purchaseimages/image492.png?raw=true)
  
 (1)	**Created Time**: select **Calendar** to choose date
 
@@ -507,11 +507,11 @@ Then, click on **Prepare Product List** button to move to the next step
 
 - **Step 2**: status **Pending**: Prepare products to create return request
 
- ![create return request]()
+ ![create return request](./purchaseimages/image493.png?raw=true)
 
 (1)	First, you need to select product(s) that you want to return: you can **Import Products, Scan Products (instruction below)** and select from **All Supplier Products**
 
- ![create return request]()
+ ![create return request](./purchaseimages/image494.png?raw=true)
 
 With **Scan Products**, you need to:
 
@@ -526,7 +526,7 @@ You can also **Send request** to supplier via email or print the return request.
 
 - **Step 3**: Status **Processing**: Send items and/or finish return request
 
- ![create return request]()
+ ![create return request](./purchaseimages/image495.png?raw=true)
  
 If the supplier confirms the return request, you can start sending products by clicking on **Delivery items**. 
 
@@ -536,20 +536,20 @@ If you have selected **Subtract stock on warehouse** option, the returned stock 
 
 Note that you can return partial items and come back later to return the rest.
 
- ![create return request]()
+ ![create return request](./purchaseimages/image496.png?raw=true)
  
 You can click on **Complete Request** to complete the return request even if you send back items in the previous step above or not. Once you have completed the return request, you will NOT be able to receive or edit further information of this request. 
 The request status is marked **Completed**.
 
 - **Step 4**: status **Completed**
 
- ![create return request]()
+ ![create return request](./purchaseimages/image497.png?raw=true)
  
 You can review the information you have created, send it via email to the supplier or print it out. 
 
 #### Manage Return Request
 
-![Manage Return Request]()
+![Manage Return Request](./purchaseimages/image498.png?raw=true)
 
 You can see **Return Number, Return On (date), Supplier, Warehouse, Returned Qty, Delivered Qty.,** and **Status**
 
