@@ -2,8 +2,6 @@
 **Version 1.1.0**
 
 
-
-
 ## Introduction
 
 **Purchase Management** is a Magento 2 module, which helps you manage purchasing and receiving stock from suppliers. All information about Purchase Order, Quotation and Suppliers are kept track and automatically updated in the system. 
@@ -145,7 +143,7 @@ You can update the pricelist by click on **Add Pricelist** or **Import Pricelist
 
 To add pricelist, you must complete three required steps:
 
-- - **Step 1: Supplier**: Select the supplier that you want to add pricelist to
+ - **Step 1: Supplier**: Select the supplier that you want to add pricelist to
 - - **Step 2**: Click on **Select Products** button
 
 ![manage pricelist]()
