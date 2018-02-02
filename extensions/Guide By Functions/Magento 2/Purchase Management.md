@@ -143,8 +143,9 @@ You can update the pricelist by click on **Add Pricelist** or **Import Pricelist
 
 To add pricelist, you must complete three required steps:
 
- - **Step 1: Supplier**: Select the supplier that you want to add pricelist to
-- - **Step 2**: Click on **Select Products** button
+ **Step 1: Supplier**: Select the supplier that you want to add pricelist to
+ 
+ **Step 2**: Click on **Select Products** button
 
 ![manage pricelist]()
 
@@ -154,7 +155,7 @@ A pop-up will be shown
 
 (2)	Click on **Select Product** to finish
 
-- - **Step 3**: Finally, click on **Add Selected Product(s)** to finish
+**Step 3**: Finally, click on **Add Selected Product(s)** to finish
 
 - **Import Pricelist**
 
@@ -224,7 +225,6 @@ Similar to step 3 in **Manage Pricelist** section
 
 (5)	Select/ deselect the products and Click on **Add Selected Products** to finish
 
-
 - **Back Sales Products**: Back orders products are ordered by customers but not available in stock at that moment.
 
 ![Quotation]()
@@ -242,7 +242,6 @@ Similar to step 3 in **Manage Pricelist** section
 (2)	Tick on the **product SKU** that need supplying
 
 (3)	Click on **Add Selected Products** button to finish
-
 
 - **All Supplier Products:**
 
@@ -291,12 +290,17 @@ Here, you can review/edit the quotation information including the Order Totals.
 
 ![Quotation]()
 
-- - **Back**: if you want to come back the **Quotation Management** page
-- - **Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
-- - **Send Request**: the request will be sent to supplier via email
-- - **Print**: to print out the Quotation
-- - **Save**: click here to update and finish this quotation as the draft
-- - **Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
+-**Back**: if you want to come back the **Quotation Management** page
+
+-**Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
+
+-**Send Request**: the request will be sent to supplier via email
+
+-**Print**: to print out the Quotation
+
+-**Save**: click here to update and finish this quotation as the draft
+
+-**Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
 
 ![Quotation]()
 
@@ -342,8 +346,9 @@ When creating Purchase Order, you will see a tab showing steps at which Purchase
 
 ![purchase order]()
 
-- - Enter required information. Similar to **Step 1 in Create a new Quotation**
-- - Click on **Prepare Product List** button to move to the next step
+Enter required information. Similar to **Step 1 in Create a new Quotation**
+
+Click on **Prepare Product List** button to move to the next step
 
 - **Step 2**: Add products to the Purchase Order
 
@@ -351,11 +356,15 @@ When creating Purchase Order, you will see a tab showing steps at which Purchase
 
 Similar to **Step 2 in Creating a Quotation**, there are 5 ways to prepare product list:
 
-- - Import products via a CSV file
-- - Prepare product list based on supply need forecast
-- - Prepare back order products (Back orders products are ordered by customers but not available in stock now)
-- - Prepare low stock products
-- - Prepare product list manually with **All Supplier Products** button
+-Import products via a CSV file
+
+-Prepare product list based on supply need forecast
+
+-Prepare back order products (Back orders products are ordered by customers but not available in stock now)
+
+-Prepare low stock products
+
+-Prepare product list manually with **All Supplier Products** button
 
 Then, click on **Confirm Purchase Order** at the top right to continue.
 
@@ -363,12 +372,17 @@ Then, click on **Confirm Purchase Order** at the top right to continue.
 
 ![purchase order]()
 
-- - Enter the address you want the stock to be shipped to
-- - Select a shipping method for the purchase order
-- - Estimate and enter the shipping cost
-- - Set start shipping and expected delivery date
-- - Select the payment term
-- - Choose the way to place order: N/A, Email, Phone, Fax, Vendor website
+-Enter the address you want the stock to be shipped to
+
+-Select a shipping method for the purchase order
+
+-Estimate and enter the shipping cost
+ 
+-Set start shipping and expected delivery date
+ 
+-Select the payment term
+
+-Choose the way to place order: N/A, Email, Phone, Fax, Vendor website
 
 After this step, choose **Save** and the purchase order status will be changed to ***Pending***. At this time, you can choose to Send Request to the supplier (Request will be sent to suppliers’ email address), Print the purchase order, Cancel or Confirm Purchase Order. 
 
@@ -395,16 +409,18 @@ When the purchase order’s status is processing, you can be navigated to the fo
 
 The table will shown received items with information including **Received Data, SKU, Product Name, Supplier SKU, Received Qty** and **Created By**
 
-- - If you click on **Receive all items**, then all items that you need supplying are ordered. 
-- - If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
+-If you click on **Receive all items**, then all items that you need supplying are ordered. 
+
+-If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
 
 ![purchase order]()
 
 (1)	**Received Time**: click **Calendar** to pick the Date you received the items
 
 (2)	**Product List:**
-- - **Scan Barcode**: update product list by scanning product barcode 
-- - **Select Products**: a pop-up will be shown as below
+-**Scan Barcode**: update product list by scanning product barcode 
+
+-**Select Products**: a pop-up will be shown as below
 
 ![purchase order]()
 
@@ -448,8 +464,9 @@ After receiving products, you can transfer them to warehouses by clicking **Tran
 
 You will need to fill information like **Transferred Date, SKU, Product Name, Supplier SKU, Transferred Qty, Transferred to** and **Created By**. After that, you click on the **Save** button to save your work. After that, you can see the records of all transferred products in the **Transferred Items** tab.
 
-- - **Shipping and Payment**: as above
-- - **General Information**: as above
+**Shipping and Payment**: as above
+
+**General Information**: as above
 
 - **Step 4**: Completed
 
@@ -498,9 +515,9 @@ Then, click on **Prepare Product List** button to move to the next step
 
 With **Scan Products**, you need to:
 
-- - (1)	**Product List**: scan product barcode and it will appears here
+- (1)	**Product List**: scan product barcode and it will appears here
 
-- - (2)	Click on **Add Products** to finish
+- (2)	Click on **Add Products** to finish
 
 (2)	Click on **Confirm Request** to move to next step.
 After this step, a return request is recorded with **Processing** status and awaits confirmation from the Supplier before you actually send items from warehouse. At this step, stock has not been subtracted from the warehouse yet.
