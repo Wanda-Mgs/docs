@@ -15,19 +15,19 @@
 
 - *Path:* **Purchase Management > Settings** section **> Purchase Management**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./purchaseimages/image027.png?raw=true)
 
 Here, you can configure product, shipping method, payment method, payment term and tax-shipping:
 
 - **Product Config**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./purchaseimages/image028.png?raw=true)
 
 **Get products from**: you have two options – **All Store** and **Supplier**. (Choose **Supplier**)
 
 - **Shipping Method**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./purchaseimages/image029.png?raw=true)
 
 Enter the **Name**, choose **Status** (**enable** or **disable**). To remove one shipping method, click on the **Trash** icon beside.
 
@@ -35,7 +35,7 @@ Click on **Add** to create one more shipping method
 
 - **Payment Method**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./purchaseimages/image030.png?raw=true)
 
 Enter the **Name**, choose **Status** (**enable** or **disable**). To remove one payment method, click on the **Trash** icon beside.
 
@@ -43,7 +43,7 @@ Click on **Add** to create one more payment method.
 
 - **Payment Term**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./purchaseimages/image031.png?raw=true)
 
 Enter the **Name**, write **Description** and choose **Status** (**enable** or **disable**). To remove one payment term, click on the **Trash** icon beside.
 
@@ -51,7 +51,7 @@ Click on **Add** to create one more payment term.
 
 - **Tax & Shipping**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./purchaseimages/image032.png?raw=true)
 
 Here, you have two options:
 
@@ -61,7 +61,7 @@ Here, you have two options:
 
 ### Supplier Configuration
 
-![Supplier Configuration]()
+![Supplier Configuration](./purchaseimages/image033.png?raw=true)
 
 **Allow using and importing supplier pricelist**: choose **Yes** if you need to update your supplier pricelist every day.
 
