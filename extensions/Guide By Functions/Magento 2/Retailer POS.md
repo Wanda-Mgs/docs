@@ -69,7 +69,7 @@ To add new user using Retailer POS, go to **Sales > Web POS > Manage Staff**. He
 
 You can also export user list to csv/xml file or add new Retailer POS user.
 
-- 	Click on **Add User** button then you will be directed to the following page:
+- 	Click on **Add Staff** button then you will be directed to the following page:
  
 ![RetailerPOS](./Retailer%20POS%20image/image010.png)
 
