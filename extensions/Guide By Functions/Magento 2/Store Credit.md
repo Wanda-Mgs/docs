@@ -22,9 +22,11 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 
 ![Store credit configure](./SC%20Image/image051.png?raw=true)
 
-   - - **Enable Store Credit**: to activate Store Credit on your site
-   - - **Allow sending Credit:** allow customers to send credit to their friends
-   - - **Groups can use edit**: allow only general/wholesaler/retailer or all customers able to use credits
+-**Enable Store Credit**: to activate Store Credit on your site
+
+-**Allow sending Credit:** allow customers to send credit to their friends
+
+-**Groups can use edit**: allow only general/wholesaler/retailer or all customers able to use credits
 	
 - **Spend Credit On** Tab
 
