@@ -20,7 +20,7 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 
 *Path:* **Magento Extension > Store Credit**
 
-![Store credit configure]()
+![Store credit configure](./SC%20Image/image051.png?raw=true)
 
    - - **Enable Store Credit**: to activate Store Credit on your site
    - - **Allow sending Credit:** allow customers to send credit to their friends
@@ -28,7 +28,7 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 	
 - **Spend Credit On** Tab
 
-![Store credit configure]()
+![Store credit configure](./SC%20Image/image052.png?raw=true)
 
 (1)	**Apply Customer Credit:** If you choose **After tax**, it means the Customer Credit Discount will be applied to order value including tax
 
@@ -36,7 +36,7 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 
 - **Email Configuration** Tab
 
-![Store credit configure]()
+![Store credit configure](./SC%20Image/image053.png?raw=true)
 
 
 (1)	**Email template with credit code sent to recipients:** default
@@ -47,7 +47,7 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 
 (4)	**Send-to-customer email template when recipient receives credit:** default
 
-![Store credit configure]()
+![Store credit configure](./SC%20Image/image054.png?raw=true)
 
 - **Adjust time for Customer credit reports on total used and total received credit** Tab.
 
@@ -55,7 +55,7 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 
 (2)	**Select date for current month:** choose Date
 
-![Store credit configure]()
+![Store credit configure](./SC%20Image/image055.png?raw=true)
 
 - **Style Configuration** tab:
 
@@ -609,6 +609,7 @@ On the **Checkout** page, in the **Payment Information** tab, apply credit disco
 (2)	Click on the **Apply** button, and then our module will auto-update the order’s Grand Total.
 
 After the order has been placed, customers’ credit balances will be updated immediately. They can check the current balances and transactions in the **Transaction History** section. 
+
 ------
 ## Release Note
 ### Version 2.1.0 for Magento 2 (released on Oct 19th, 2017)
