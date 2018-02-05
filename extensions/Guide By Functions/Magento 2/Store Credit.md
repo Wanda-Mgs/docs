@@ -73,17 +73,17 @@ With Magento Store Credit module for Magento 2, credit can be used as a convenie
 
 The **Customers Using Credit Manager** page will be displayed as below. 
 
-![store credit]()
+![store credit](./SC%20Image/image594.png?raw=true)
 
 This page shows a list of all customers using credit and their information such as name, email, credit balance, telephone, etc.
 
 To view more details about a customer, click on the **Edit** link in the **Action** column. 
 
-![store credit]()
+![store credit](./SC%20Image/image595.png?raw=true)
 
 Then, you will be navigated to the **Customer Information** page. By selecting **Store Credit** tab, you can view all customer’s transaction history and credit balance as above.
 
-![store credit]()
+![store credit](./SC%20Image/image596.png?raw=true)
 
 To edit customers’ credit information: 
 
@@ -93,9 +93,9 @@ To edit customers’ credit information:
 
 The module will automatically send email to the customer to announce this transaction if you tick on **Send email to customer** checkbox. The email will be sent to the customer as below. 
 
-![store credit]()
+![store credit](./SC%20Image/image597.png?raw=true)
 
-![store credit]()
+![store credit](./SC%20Image/image598.png?raw=true)
 
 After you save, our module will auto update the customer’s credit balance, send an email to that customer and create a transaction as above.
 
@@ -105,7 +105,7 @@ After you save, our module will auto update the customer’s credit balance, sen
 
 The **Credit Product Manager** page will be shown as below. 
 
-![store credit]()
+![store credit](./SC%20Image/image599.png?raw=true)
 
 This page shows you all credit products with a lot of information such as **product ID, name, SKU, quantity, status**, etc.
 
@@ -113,13 +113,13 @@ To add a new credit product:
 
 **a.	Step 1**: Click on the **Add Credit Product** button on the right top of the page.
 
-![store credit]()
+![store credit](./SC%20Image/image600.png?raw=true)
 
 **b.	Step 2**: You can add a credit product just in a similar way to adding a normal product. 
 
 - **Product Details:** 
 
-![store credit]()
+![store credit](./SC%20Image/image601.png?raw=true)
 
 (1)	**Enable Product**:  Activate Store Credit by select **Yes**
 
@@ -145,12 +145,12 @@ To add a new credit product:
 
 Type of Store Credit value: To configure the value of credit product, choose **Fixed Value/ Range of values/ Dropdown values**
 
-![store credit]()
+![store credit](./SC%20Image/image602.png?raw=true)
 
 - **Advanced Inventory**
 *Path:* **New Product > Quantity > Advanced Inventory**
 
-![store credit]()
+![store credit](./SC%20Image/image603.png?raw=true)
 
 (1)	**Manage Stock**: our module sets up the field as **Yes**. It means that you need to manage the Qty. of Credit Products. You can edit it by uncheck box **Use Config Settings.**
 
@@ -162,7 +162,7 @@ Type of Store Credit value: To configure the value of credit product, choose **F
 
 (5)	**Maximum Qty. Allowed in Shopping Cart**: *as mentioned in No.4*
 
-![store credit]()
+![store credit](./SC%20Image/image604.png?raw=true)
 
 (6)	**Qty. Uses Decimals**: select **No** if the Qty. is not a decimal value
 
@@ -183,61 +183,62 @@ Type of Store Credit value: To configure the value of credit product, choose **F
 
 Then, click **Save** to continue
 
-![store credit]()
+![store credit](./SC%20Image/image605.png?raw=true)
 
-Scroll down and complete the information, click on ![store credit](), and fill in the following sections as needed:
+Scroll down and complete the information, click on ![store credit](./SC%20Image/image606.png?raw=true), and fill in the following sections as needed:
 
 - **Content** tab:
+![store credit](./SC%20Image/image607.png?raw=true)
 
 These fields are not required but needed to be filled in. Describe your product clearly to help your customers understand your store credit rules. 
 
 - **Attributes** tab
 
-![store credit]()
+![store credit](./SC%20Image/image608.png?raw=true)
 
 Enter an alternative name for product
 
 - **Images and Video** tab:
 
-![store credit]()
+![store credit](./SC%20Image/image609.png?raw=true)
 
-Scroll down to **Images and Videos**, and click on ![store credit](), then click on **Browse to find or drag image here to upload new image**
+Scroll down to **Images and Videos**, and click on ![store credit](./SC%20Image/image610.png?raw=true), then click on **Browse to find or drag image here to upload new image**
 
-![store credit]()
+![store credit](./SC%20Image/image611.png?raw=true)
 
 Click on **Add Video** to add new video
 
-![store credit]()
+![store credit](./SC%20Image/image612.png?raw=true)
 
 Fill in the box and click on **Choose File** to upload new video
 
 - **Search Engine Optimization** tab
 
-![store credit]()
+![store credit](./SC%20Image/image613.png?raw=true)
 
 Fill in the required field: **URL Key, Meta Title, Meta keywords, Meta Description** to improve your SEO work.
 
 - **Related Products, Up-Sells, and Cross-Sells** tab
 
-![store credit]()
+![store credit](./SC%20Image/image614.png?raw=true)
 
 (1)	Click on respectively
      - -	**Add Related Products
      - -	Add Up-sell Products
      - -	Add Cross-sell Products**
-![store credit]()
+![store credit](./SC%20Image/image615.png?raw=true)
 
 (2) Mark the checkbox to select products
 
 (3) Click on **Add Selected Product**
 
-![store credit]()
+![store credit](./SC%20Image/image616.png?raw=true)
 
 (4)	Click on **Save** to finish
 
 - **Customizable Options** tab
 
-![store credit]()
+![store credit](./SC%20Image/image617.png?raw=true)
 
 This function allows users to set and manage extra price for each product's variant separately.
 
@@ -261,17 +262,17 @@ Users can simply set the extra price to be applied on a product's variant, regar
 
 (9)	Enter an **SKU** for each product’s variant
 
-To remove a value, click ![store credit]() on the right-hand-side of the column 
+To remove a value, click ![store credit](./SC%20Image/image618.png?raw=true) on the right-hand-side of the column 
 
 - **Products in Websites** tab
 
-![store credit]()
+![store credit](./SC%20Image/image619.png?raw=true)
 
 Check the box to set credit products on main websites
 
 - **Design** tab
 
-![store credit]()
+![store credit](./SC%20Image/image620.png?raw=true)
 
 (1)	**Layout**: Select a suitable layout to display your credit product
 
@@ -281,7 +282,7 @@ Check the box to set credit products on main websites
 
 - **Schedule Design Update** tab
 
-![store credit]()
+![store credit](./SC%20Image/image621.png?raw=true)
 
 (1)	**Schedule Update From:** Set the schedule to update your design of products
 
@@ -291,17 +292,17 @@ Check the box to set credit products on main websites
 
 - **Gift Option** tab
 
-![store credit]()
+![store credit](./SC%20Image/image622.png?raw=true)
 
 Set the allow gift message to **Yes** or check the **Use Config Settings** box to allow no Gift message. 
 
 - **Barcode** tab
 
-![store credit]()
+![store credit](./SC%20Image/image623.png?raw=true)
 
 - **Stock Movement** tab
 
-![store credit]()
+![store credit](./SC%20Image/image624.png?raw=true)
 
 Any movement of products will be recorded in this tab. 
 
@@ -311,7 +312,7 @@ Store credit products are set up based on your stores, so it is not necessary to
 
 Besides the **Credit Product Manager** page, you can also create a new credit product by following this path: **Products > Inventory** Section **> Catalog**
 
-![store credit]()
+![store credit](./SC%20Image/image625.png?raw=true)
 
 #### Manage Credit Transactions and Report Charts
 **a.	Credit Transactions**
@@ -320,7 +321,7 @@ Besides the **Credit Product Manager** page, you can also create a new credit pr
 
 The **Credit Transactions** page will be shown as below. 
 
-![store credit]()
+![store credit](./SC%20Image/image626.png?raw=true)
 
 This page shows all credit-related transactions with a lot of information such as **type, detail, customer name/email, added/deducted credit, credit balance** after the transaction.
 
@@ -334,7 +335,7 @@ If you click on a customer’s email, you will be navigated to the **Customer In
 
 Then the **Report Charts** page will be shown below. 
 
-![store credit]()
+![store credit](./SC%20Image/image627.png?raw=true)
 
 This page can be divided into two main sections including Life-time Reports and Period-of-time Report Charts.
 - Life-time Reports: There are 2 types of reports.
@@ -352,11 +353,11 @@ On the **Create Order** page on the backend, our module allows you to use credit
 
 **Step 2**: Enter a credit amount in **Customer Credit** box and click on the **Gray Arrow** button
 
-![store credit]()
+![store credit](./SC%20Image/image628.png?raw=true)
 
 **Step 3**: Select a shipping method and then look at the **Order Totals**.
 
-![store credit]()
+![store credit](./SC%20Image/image629.png?raw=true)
 
 Our module will auto-update and calculate the grand total of the order.
 
@@ -370,21 +371,21 @@ When customers want to refund an order, our module allows you to transfer the or
 
 **Step 1**: Click on View to see the details of an order
 
-![store credit]()
+![store credit](./SC%20Image/image630.png?raw=true)
 
 **Step 2:**
 
-![store credit]()
+![store credit](./SC%20Image/image631.png?raw=true)
 
 On the top bar, click on **Credit Memo** label to create a refund order 
 
-![store credit]()
+![store credit](./SC%20Image/image632.png?raw=true)
 
 After that, select a warehouse to return stocks and adjust the number of products customers want to return.
 
 **Step 3**: To adjust refund totals: 
 
-![store credit]()
+![store credit](./SC%20Image/image633.png?raw=true)
 
 (1)	Enter the amount you want to refund into credit as above
 
@@ -402,29 +403,29 @@ After customers log in to your website, they can access the **Store Credit Produ
 
 - **Option 1**:
 
-![store credit]()
+![store credit](./SC%20Image/image634.png?raw=true)
 
 On the top navigation bar, click to **Buy Store Credit**
 
-![store credit]()
+![store credit](./SC%20Image/image635.png?raw=true)
 
 After that, the **Store Credit** page will be shown as above.
 
 As you can see, this page lists all **Credit Products** of your website. There are three types of credit products for customers to choose: fixed values, the range of values and drop-down values. 
 
-![store credit]()
+![store credit](./SC%20Image/image636.png?raw=true)
 
 ***(1)	Fixed Value:*** These credit products have a fixed value. 
 
-![store credit]()
+![store credit](./SC%20Image/image637.png?raw=true)
 
 ***(2)	Drop-down Values***: With this type, customers can select a specific value in the drop-down list.
 
-![store credit]()
+![store credit](./SC%20Image/image638.png?raw=true)
 
 ***(3)	The range of Values***: With this type, customers can choose a desired credit amount within the range configured by admin in the backend. 
 
-![store credit]()
+![store credit](./SC%20Image/image639.png?raw=true)
 
 After selecting credit products they like, customers can add them to cart and checkout normally.
 
@@ -432,7 +433,7 @@ When the order is complete, our module will auto-add that credit amount to the c
 
 Customers can also send Credits to their friends by doing the following steps: 
 
-![store credit]()
+![store credit](./SC%20Image/image640.png?raw=true)
 
 (1)	Tick **Send credit to friend** checkbox 
 
@@ -446,23 +447,23 @@ Customers can also send Credits to their friends by doing the following steps:
 
 *Path:* **My Dashboard** page **> My Credit** tab 
 
-![store credit]()
+![store credit](./SC%20Image/image641.png?raw=true)
 
 To buy credit product, click on the **My Credit** on the left navigation of the **Account Dashboard** page.
 
-![store credit]()
+![store credit](./SC%20Image/image642.png?raw=true)
 
 In this second way, customers will be navigated to the **My Credit** page on which they just need to click on the **Buy store credit** button. Then, the Credit Products page will be displayed and customers can continue buying credit as mentioned steps in option 1 above. 
 
 When the order is completed, there will be two cases happening based on signup status of the recipient email address. 
 
-![store credit]()
+![store credit](./SC%20Image/image643.png?raw=true)
 
 **Case 1**: if the recipient does not have an account in the system, an email as above will be sent. 
 
 **Case 2**: if the recipient has already had an account in the system, the system will automatically add that credit amount to the Recipient’s credit balance.
 
-![store credit]()
+![store credit](./SC%20Image/image644.png?raw=true)
 
 In both cases, the sender always gets email notifications as above.
 
@@ -471,7 +472,7 @@ In both cases, the sender always gets email notifications as above.
 - *Path:* **My Dashboard** page **> My Credit** tab 
 **a.	Manage Credit Balance**
 
-![store credit]()
+![store credit](./SC%20Image/image645.png?raw=true)
 
 On the **My Credit** page, customers can view information about their current credit balances and transaction history.
 
@@ -481,7 +482,7 @@ In the section **Transaction History**, our module shows customers all of their 
 
 - *Path:* **My Dashboard** page **> My Credit** tab **> Send Credit** tab
 
-![store credit]()
+![store credit](./SC%20Image/image646.png?raw=true)
 
 First, customers should click on the **Send Credit** tab on the left navigation to go to the **Send Credit to Friends** page as above. 
 
@@ -495,7 +496,7 @@ Please note that our module allows you to configure whether to require your cust
 
 **Case 1**: Customers are not required to verify their credit sharing.
 
-![store credit]()
+![store credit](./SC%20Image/image647.png?raw=true)
 
 (1)	Enter recipient’s email
 
@@ -511,13 +512,13 @@ Notice that after entering recipient’s email, our module will check that email
 
 In this case, our module will show a notification for the customer that his friend will receive the credit code via that email. After that, the sender’s credit balance will be deducted immediately and an email will be auto-sent to the recipient’s email address.
 
-![store credit]()
+![store credit](./SC%20Image/image648.png?raw=true)
 
 As you can see, this email informs the recipient about the credit amount, message and a credit code which can be used to redeem credit to his balance.
 
 At the same time, the sender can also see the sent credit code in the **Credit Code List** section as below.
 
-![store credit]()
+![store credit](./SC%20Image/image649.png?raw=true)
 
 In this section, customers can follow the status of the credit codes they sent. While the recipient has not redeemed a credit code, customers are allowed to cancel it by clicking on the **Cancel** link in the **Action** column. After the cancellation, the recipient cannot redeem that credit code anymore.
 
@@ -525,25 +526,25 @@ Otherwise, once the credit code has been redeemed, the status will be updated, a
 
 Customers can also check their current balances and transactions of sharing credit in the **Transaction History** section.
 
-![store credit]()
+![store credit](./SC%20Image/image650.png?raw=true)
 
 - **If the recipient’s email has been registered on the website:**
 
-![store credit]()
+![store credit](./SC%20Image/image651.png?raw=true)
 
 If the recipient’s email address has been registered on your website, our module will send credit directly to his credit balance instead of sending credit code to his email. 
 
 Customers can check their current balances and transactions in the **Transaction History** section. 
 
-![store credit]()
+![store credit](./SC%20Image/image652.png?raw=true)
 
 At the same time, recipients can get information about this transaction. 
 
-![store credit]()
+![store credit](./SC%20Image/image653.png?raw=true)
 
 - **Case 2**: Customers are required to verify their credit sharing.
 
-![store credit]()
+![store credit](./SC%20Image/image654.png?raw=true)
 
 If you configure that customers have to verify before sharing credit, after clicking on the **Send** button, they will receive an email as above.
 
@@ -551,7 +552,7 @@ At the same time, they will be navigated to the **Verify** page.
 
 On this page, our module shows them a notification about the verification requirement. In the **Credit Code List,** that code is put under the “**Awaiting verification**” status with a **Verify** link. 
 
-![store credit]()
+![store credit](./SC%20Image/image655.png?raw=true)
 
 To verify, customers can:
 
@@ -569,7 +570,7 @@ To go to the **Redeem Credit** page, customers can click on the **Redeem Credit*
 
 On this page, customers can redeem the credit code they received to their credit balance as following steps:
 
-![store credit]()
+![store credit](./SC%20Image/image656.png?raw=true)
 
 (1)	Enter the code in the text field 
 
@@ -579,7 +580,7 @@ Another way is just to click on the link in the email.
 
 After redeeming code, customers can check their current balance and transaction in the **Transaction History** section. 
 
-![store credit]()
+![store credit](./SC%20Image/image657.png?raw=true)
 
 #### How to check out by Credit 
 
@@ -587,7 +588,7 @@ Customers can use credit to check out on both **Shopping Cart** and **Checkout**
 
 On the **Shopping Cart** page, our module will add **Apply Credit Discount** block for customers to use their credit balances at checkout. 
 
-![store credit]()
+![store credit](./SC%20Image/image658.png?raw=true)
  
 To use a credit amount, customers can:
 
@@ -597,11 +598,11 @@ To use a credit amount, customers can:
 
 Please note that customers cannot use credit to buy credit products. If their carts have one or more credit products, our module will show a notification in the **Customer Credit** block as below.
 
-![store credit]()
+![store credit](./SC%20Image/image659.png?raw=true)
   
 On the **Checkout** page, in the **Payment Information** tab, apply credit discount the same as in the **Shopping Cart** page. 
 
-![store credit]()
+![store credit](./SC%20Image/image660.png?raw=true)
  
 (1)	Enter an amount of credit 
 
