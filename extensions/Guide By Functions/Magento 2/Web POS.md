@@ -203,7 +203,58 @@ In WebPOS frontend, click on top left menu icon > Settings tab > Account
 A window will pop up and allow users to edit personal information or change password. Click Save after you fill in required information to save the changes. 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/17.png)
 
+### Manage Session 
+If you enable Need to create session before working setting in backend (path: **Sales > Web POS section > Settings**), when the first shift of the day started, POS Manager will open session in order to create the Opening Balance - the amount of cash in your store at that time. (You will need to **Close session** and enter **Closing Balance** at the end of the shift). Those amounts will be saved in the system, so POS could provide you information about daily revenue after a working day.
 
+#### Open Session 
+When you log into any POS, a window of opening session will pop-up automatically.
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/18.png)
+
+(1) Name of the staff in this session
+
+(2) Location of POS
+
+(3) Value of the currency contrbuting to Opening Balance (such as: $10 )
+
+(4) Number of the currency unit (for example : 20)
+
+(5) Subtotal (automatically calculated) (you will have: $10 * 20 = $200) 
+
+You can add more currency value/number of unit to add up to the desired opening balance by clicking on the icon.
+
+(6) After checking all the information above, click this button to Open Session
+
+Next step, after opening the session, Cashier can now create orders and start running cash flow in your store. 
+
+#### Manage Session 
+You can always view the detailed information of your session by following path: from **top left menu icon** > **Session Management** section > **Session Management**.
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/19.png)
+
+You will see all sessions carried out by this account here. 
+Opened session will have an OPEN mark next to its date and time in the listing.
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/20.png)
+Clicking on a session will display detailed information about that session including:
+	Staff working on the POS, POS Name, Session Date and Time
+	
+	Summary of Total Cash Payment in Session: 
+		**Opening Balance**: the amount of cash in cash drawer at the beginning of the session
+		
+		**Theoretical Closing Balance**: = Opening Balance + Manually Input Amount of Put Money In/Take Money Out + Total sales (in cash only)
+		
+		**Real Closing Balance**: the real amount of cash in cash drawer at the end of the session
+		The Difference between **Theoretical Closing Balance** and **Real Closing Balance**
+		
+	For opened session, cashier can Put Money In/ Take Money Out, Set Closing Balance and End Session.
+	Manually input of cash in/out in the session and transactions in cash are recorded in the + Transactions/ - Transactions links.
+	Total Sales by all Payment Methods
+	Cashier can Print the session details by clicking on the Print button
+	
+
+
+
+
+#### Record Cash in/ Cash out 
+#### Close Session 
 ### How a Web POS user deletes/ reloads data in local manually
 - 	**When to use**:
 
@@ -595,38 +646,6 @@ The Sales by payment method for location displays the number of orders and sales
 
 <a name="p3"> </a>
 
-### How to manage working shift
-In version for Magento 2, Web POS dives deeper into working shift management with Z-report after each working shift.<br/>
-- Open working shift
-
-To open a new working shift, you need to go to tab Register Shifts. 
-
-![WebPOS](./Web%20POS%20Image/image084.png)
-
-When you click on the icon on the top right corner, a popup will appear so you can fill in information to open a new working shift:<br/> 
-    -	Float amount: The cash amount left in cash drawer from the previous shift.<br/>
-    -	Note: Add note for this shift
-    
-![WebPOS](./Web%20POS%20Image/image085.png)
-    
-Then you click on **Done**, a new working shift is opening and now on until you close this shift, all transactions will be recorded to this shift management. 
-In the working shift, if you need to add/remove cash from cash drawer, you can click on button **Make Adjustment** then fill in the box the amount added/ removed. The system will record the balance change in your shift.
-
-![WebPOS](./Web%20POS%20Image/image086.png)
-![WebPOS](./Web%20POS%20Image/image087.png)
-
-- **Close working shif**
-When your working shift ends, you go to **Register Shifts** tab to close shift. You choose the open shift and click on button **Close shift**. 
-    -	 Cash Counted: The amount of cash in cash drawer is counted manually
-    -	Cash Left: The amount of cash is left in cash drawer for the next shift
-
-![WebPOS](./Web%20POS%20Image/image088.png)
-
-- 	Z-report
-
-Z-report shows the cash drawer balance in a certain time like a shift or a working day. The Z-report records opened – closed time of each working shift, with details of transactions, sales and sales by payment methods. 
-
-![WebPOS](./Web%20POS%20Image/image089.png)
 -------------
 ## Release Note 
 ### Version 2.0.0 (released on Oct 10th, 2017)
