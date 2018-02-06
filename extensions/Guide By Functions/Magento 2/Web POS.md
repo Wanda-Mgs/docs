@@ -16,7 +16,7 @@ Click on **Add POS** button. Then you will be linked to the **New POS** site
 There are 4 sections will be displayed such as **General Information; Cash Denominations; Close Sessions; Current Sessions Detail**
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/2.png)
 
-**Gerneral Information** 
+### Gerneral Information
 
 (1)	**POS Name**: POS’s name.
 
@@ -142,17 +142,17 @@ To set up Shipping Methods for Web POS, go to **Sales> Web POS > Settings**, the
 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/12.png)
 
-(1)	Applicable Shipping Methods:	
+(1)	**Applicable Shipping Methods**:	
 If you want to apply all shipping methods, choose All Allowed Shipping. 
 If you want to apply some shipping methods only, choose Specific Shipping. Then in Specific Shipping field, select shipping method as your preference. Hold Shift + Click to choose more than one.
 
-(2)	Specific Shipping Methods
+(2)	**Specific Shipping Methods**
 
-(3)	Default Shipping Method: 
+(3)	**Default Shipping Method**: 
 You can choose one of two shipping methods supported to set as default payment method for POS
 If you want to set “Store Pickup” to be the default shipping method for instance, you first must choose it in Specific Shipping field. Then, select option “Store Pickup” in Default Shipping Method field.
 
-(4)	Enable “Mark as shipped” by default: Choose “Yes” if you want to mark items as shipped
+(4)	**Enable “Mark as shipped” by default**: Choose “Yes” if you want to mark items as shipped
 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/13.png)
 
@@ -165,17 +165,14 @@ To add new user using **Web POS, go to Sales > Web POS > Manage POS Staffs**. He
 
 ![WebPOS](./Web%20POS%20Image/image008.png)
 
-
 You can also export user list to csv/xml file or add new Web POS user.<br/>
 - Click on **Add Staff** button then you will be directed to the following page:
 
 ![WebPOS](./Web%20POS%20Image/image009.png)
 
-
 Fill in all information of the user, including **User Name, Password, Password Confirmation, Display Name, Email Address**. Then you go to User Settings field.
 
 ![WebPOS](./Web%20POS%20Image/image010.png)
-
 
 In this field you can set customer group, location, role and access to sales report for sale staff. 
 Please note that to select the role for user, you need to add a role first. Please go to the section: **How to differentiate access permissions of Web POS users** for more details.
@@ -183,41 +180,12 @@ To edit a user, click on the **Edit** link in **POS Staff** page. Then you can e
 
 ![WebPOS](./Web%20POS%20Image/image011.png)
 
-
-
-
 ### How to connect Web POS with peripheral devices
-Magestore Web POS module can connect with **Barcode readers, Card swiper, Receipt printer & Customer pole display**.<br/>
+Magestore Web POS module can connect with **Barcode readers, Card swiper, Receipt printer**.<br/>
 - 	Barcode readers: any devices that connect with ipad/laptop/pc (no matter through usb port, wifi or bluetooth) - as long as the scanner can read barcodes & fill encoded information into Web POS search box.<br/>
 - 	Card readers: only devices connected through USB port.<br/>
 - 	Receipt printers: any devices that connect with iPad/laptop/PC (no matter through usb port, wifi or bluetooth).<br/>
-- 	Pole display: only devices connected through USB port
 
-**How to integrate Customer pole display with Magento Web POS**
-You should install customer pole display’s driver if your device has driver before taking the following steps.
-Firstly, you need to enable Pole display function in Web POS settings. Go to Magento backend, choose Sales > Web POS > Settings, then choose Yes in field “Enable Pole Display”. 
-
-![WebPOS](./Web%20POS%20Image/image016.png)
-
-
-Secondly, you need to install the desktop application to connect your PC/ Laptop with the pole. After purchasing Web POS you can download the Pole Display integration file which contains these following files & folders: 
-
-![WebPOS](./Web%20POS%20Image/image017.png)
-
-
-Then follow these steps: 
-- **Step** 1: Install the .NET Framework 4.5.2<br/>
-    + Open the folder .NET Framework 4.5.2<br/>
-    + Run NDP452-KB2901907-x86-x64-AllOS-ENU.exe file and install it to your computer.<br/>
-- **Step** 2: Intall the USB to Serial COM setup:<br/>
-    + Open the folder USB to Serial COM<br/>
-    + Run CDM21224_Setup.exe and install it to your computer<br/>
-- **Step** 3: Run the Pole Integration.exe file:<br/>
-
-![WebPOS](./Web%20POS%20Image/image018.png)
-
-
-You need to open this program when using Web POS to use customer pole display.
 ## How to use
 You have finished settings for Web POS, now please move to the part of How to use Web POS for checkout.
 
