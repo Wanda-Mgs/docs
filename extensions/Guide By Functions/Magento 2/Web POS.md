@@ -11,7 +11,7 @@ Before using Web POS to check out, admin needs to configure it in backend first.
 ### How to Add new POS and Assign it to Cashier 
 - Create New POS 
 Path: **Sales > Web POS section > Manage POS**
-![Guide%20By%20Functions/Magento%202](./Magento%202/Web%20POS%20Image/1.png)
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/1.png)
 Click on Add POS button. Then you will be linked to the New POS site
 There are 4 sections will be displayed such as General Information; Cash Denominations; Close Sessions; Current Sessions Detail
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/2.png)
