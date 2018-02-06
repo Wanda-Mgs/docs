@@ -476,11 +476,6 @@ Similar to run reports based on staff and location, go to **Sales > Web POS > Re
 - Session Management Report
 
 The Z-report will be refreshed to serve new shift/working day after you select **Close Store**. Particularly, your cash drawer will be reset to 0 or to the certain amount
-
-![RetailerPOS](./Retailer%20POS%20image/image060.png)
-
-- Daily Report on POS Orders 
-
 This report contains data of all orders which is similar to your backend but via POS system only by going to **Sales > Web POS > Z-Report**. Want to export data? You can choose 1 of 2 options including csv or excel xml. 
 
 ![RetailerPOS](./Retailer%20POS%20image/image071.png)
