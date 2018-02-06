@@ -190,18 +190,19 @@ Magestore Web POS module can connect with **Barcode readers, Card swiper, Receip
 You have finished settings for Web POS, now please move to the part of How to use Web POS for checkout.
 
 ### How a Web POS user logs in & manages his account
-After you creates user with specific permission in using Web POS, you can send him  Web POS checkout link or guide him to access from Web POS backend by going to **Sales > Web POS > POS Checkout**. Then, a login form will appear. User needs to fill in your account & password to continue:
+#### Log in 
+Go to WebPOS frontend and fill in required Username & Password and click Login to log in. (you can also access WebPOS frontend from backend, by following path: **Sales > Web POS section > POS Checkout**)
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/14.png)
+After clicking “LOGIN” button, users must choose a Location and POS to continue
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/15.png)
 
-![WebPOS](./Web%20POS%20Image/image020.png)
+#### Manage account 
+In WebPOS frontend, click on top left menu icon > Settings tab > Account
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/16.png)
 
+A window will pop up and allow users to edit personal information or change password. Click Save after you fill in required information to save the changes. 
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/17.png)
 
-To manage his account, the user should go to **Setting > Account**:
-
-![WebPOS](./Web%20POS%20Image/image021.png)
-
-Then, click on **Account** tab and the user can see his/her information. The user can also change his/her password if he/she wants.
-
-![WebPOS](./Web%20POS%20Image/image022.png)
 
 ### How a Web POS user deletes/ reloads data in local manually
 - 	**When to use**:
