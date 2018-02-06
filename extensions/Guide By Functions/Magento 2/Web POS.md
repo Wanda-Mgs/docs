@@ -89,7 +89,7 @@ When finishing editing, please click on **Save** or **Save And Continue Edit** b
 ### General Settings 
 Go to **Web POS > Settings > General Configuration**. In this tab, you can see configuration as follows:
 
-![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/9.png)
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/9.png)
 
 Web POS logo: Upload your own logo here. Please note that recommended size is 250x50px & supported files are jpg, png. 
 
@@ -103,20 +103,14 @@ Still allow to sync Order from Web POS if there are out-of-stock items in that O
 
 Need to create session before working: Select Yes or No. Session allows better management when requiring input of the amount of cash at the beginning and end of the session.
 
-![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/10.png)
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/10.png)
 
 Tax Class default for Custom Sale: choose if a preset Tax Class is applied to a Custom Sale item (please refer to How to Add a Custom Sale Item to Cart for more details of Custom Sale)
 
 Enable suggesting address by Google: allows Google’s auto suggestion when cashier types customer’s address during checkout.
 
-![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/11.png)
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/11.png)
 After configuring, click Save Config button to save your changes.
-
-
--	**Web POS logo**: Upload your logo here. Please note that recommended size is 260*120px and  supported files are jpeg &  png.
--	**Web POS Color**: Enter code of the color 
-
-After finishing, click on **Save Config** button to save your work.
 
 ### How to enable a payment method for Web POS
 To set up payment method for Web POS, go to **Web POS > Settings > Payment for POS**. Then, you will be able to see:
