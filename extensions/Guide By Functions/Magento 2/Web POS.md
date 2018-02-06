@@ -17,6 +17,7 @@ There are 4 sections will be displayed such as **General Information; Cash Denom
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/2.png)
 
 **Gerneral Information** 
+
 (1)	POS Name: POS’s name.
 
 (2)	Location: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section 4.5.2. Mapping Locations - Warehouses to map location to warehouse).
@@ -42,9 +43,9 @@ This might be demonstrated like this:
 
 **Current Session Detail** 
 The same situation happens with Current Session Detail for the brand-new POS. No data is saved, and it will display like this: 
-![Guide%20By%20Functions/Magento%202/](.Web%20POS%20Image/6.png)
+![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/6.png)
 And here is the performance of working POS: 
-![Guide%20By%20Functions/Magento%202/](.Web%20POS%20Image/7.png)
+![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/7.png)
 
 
 
