@@ -17,22 +17,28 @@ There are 4 sections will be displayed such as **General Information; Cash Denom
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/2.png)
 
 **Gerneral Information** 
-(1)	POS Name: POS’s name. 
+(1)	POS Name: POS’s name.
+
 (2)	Location: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section 4.5.2. Mapping Locations - Warehouses to map location to warehouse).
+
 (3)	Store View:  Select Store View from your list 
+
 (4)	Current Staff: Staff is working on the POS.
+
 (5)	Status: you Enable or Disable this POS
+
 (6)	Available for other staff: If you check, another staff can use the POS when it is available.
 
 **Cash Denomination** 
-![Guide%20By%20Functions/Magento%202/](.Web%20POS%20Image/3.png)
+![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/3.png)
 In this section, users can set domination for the currency for which they are accepted in purchasing process with customers
 
 **Close Sessions** 
-![Guide%20By%20Functions/Magento%202/](.Web%20POS%20Image/4.png)
+![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/4.png)
 This section will display the statistics of Closed Sessions after staff working days. When you create a brand-new POS, this section is empty, and it will be updated automatically after being used in reality. 
+
 This might be demonstrated like this: 
-![Guide%20By%20Functions/Magento%202/](.Web%20POS%20Image/5.png)
+![Guide%20By%20Functions/Magento%202](.Web%20POS%20Image/5.png)
 
 **Current Session Detail** 
 The same situation happens with Current Session Detail for the brand-new POS. No data is saved, and it will display like this: 
