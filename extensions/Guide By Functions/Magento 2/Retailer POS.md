@@ -472,13 +472,19 @@ Similar to run reports based on staff and location, go to **Sales > Web POS > Re
 
 ![RetailerPOS](./Retailer%20POS%20image/image069.png)
 
-### 	How to run reports from Staff account
-- Session Management Report
-
+### 	How to run Z-reports
 The Z-report will be refreshed to serve new shift/working day after you select **Close Store**. Particularly, your cash drawer will be reset to 0 or to the certain amount
 This report contains data of all orders which is similar to your backend but via POS system only by going to **Sales > Web POS > Z-Report**. Want to export data? You can choose 1 of 2 options including csv or excel xml. 
 
 ![RetailerPOS](./Retailer%20POS%20image/image071.png)
+
+The Z-Report page displays overview information of each session recorded in each POS including Session ID, Staff account, POS name, session opening/closing time and balance
+
+Click on Print of a specific Report to view and print the report. 
+![Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/5.png)
+
+Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
+The Z-report will be refreshed to serve new shift/working day after you select Close Store. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
 
 ### 	How to use Session Management
 #### 	 What is Session Management
