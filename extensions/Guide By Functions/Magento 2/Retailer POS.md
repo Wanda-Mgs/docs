@@ -365,14 +365,16 @@ After that, click on **Place Order** button to complete checkout process. There 
 
 ![RetailerPOS](./Retailer%20POS%20image/image055.png)
 
+Click New Order to go back to the Checkout window and continue creating order/checkout for another guest. Click Print to print the order receipt. 
+
 ### 	Split Payment with Retailer POS
 **How to make payment via Retailer POS using multiple methods**
 
 You can use more than 1 payment method for split payments when checkout with Retailer POS. Let me give you an example. 
 
-**Customer’s order value is $125.00**<br/>
--	Your customer wants to pay $25 in cash. Then, you fill in the blank space **Retailer POS - Cash-in** with the value of $25.<br/>
--	For the remaining ($68.29), your customer wants to pay by Credit Card. So, at this time, you fill in the amount at the blank space next to **Retailer POS – Credit Card**. 
+**Customer’s order value is $45.00**<br/>
+-	Your customer wants to pay $20 in cash and the remaining ($25) is paid by Custom Payment. Then, you will fill the amount at the blank space next to “Web POS – Custom Payment 2”. Then click Place Order to finish.
+![/Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/4.png)
 
 **_Notes_**: <br/>
 -	Support multiple payment methods for one order<br/>
