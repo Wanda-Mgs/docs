@@ -18,17 +18,17 @@ There are 4 sections will be displayed such as **General Information; Cash Denom
 
 **Gerneral Information** 
 
-(1)	POS Name: POS’s name.
+(1)	**POS Name**: POS’s name.
 
-(2)	Location: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section 4.5.2. Mapping Locations - Warehouses to map location to warehouse).
+(2)	**Location**: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section 4.5.2. Mapping Locations - Warehouses to map location to warehouse).
 
-(3)	Store View:  Select Store View from your list 
+(3)	**Store View**:  Select Store View from your list 
 
-(4)	Current Staff: Staff is working on the POS.
+(4)	**Current Staff**: Staff is working on the POS.
 
-(5)	Status: you Enable or Disable this POS
+(5)	**Status**: you Enable or Disable this POS
 
-(6)	Available for other staff: If you check, another staff can use the POS when it is available.
+(6)	**Available for other staff**: If you check, another staff can use the POS when it is available.
 
 **Cash Denomination** 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/3.png)
@@ -91,23 +91,23 @@ Go to **Web POS > Settings > General Configuration**. In this tab, you can see c
 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/9.png)
 
-Web POS logo: Upload your own logo here. Please note that recommended size is 250x50px & supported files are jpg, png. 
+**Web POS logo**: Upload your own logo here. Please note that recommended size is 250x50px & supported files are jpg, png. 
 
-WebPOS Color: choose 1 out of 5 options: default, blue, green, orange and red. 
+**WebPOS Color**: choose 1 out of 5 options: default, blue, green, orange and red. 
 
-Enable Delivery Date: displays a Delivery Date field in POS frontend’s Place Order page so cashier can input the date when customer receives products.
+**Enable Delivery Date**: displays a Delivery Date field in POS frontend’s Place Order page so cashier can input the date when customer receives products.
 
-Session Timeout: after this period of time, user needs to log in again to use the POS (please input the time in seconds)
+**Session Timeout**: after this period of time, user needs to log in again to use the POS (please input the time in seconds)
 
-Still allow to sync Order from Web POS if there are out-of-stock items in that Order: Select Yes or No. 
+**Still allow to sync Order from Web POS if there are out-of-stock items in that Order**: Select Yes or No. 
 
-Need to create session before working: Select Yes or No. Session allows better management when requiring input of the amount of cash at the beginning and end of the session.
+**Need to create session before working**: Select Yes or No. Session allows better management when requiring input of the amount of cash at the beginning and end of the session.
 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/10.png)
 
-Tax Class default for Custom Sale: choose if a preset Tax Class is applied to a Custom Sale item (please refer to How to Add a Custom Sale Item to Cart for more details of Custom Sale)
+**Tax Class default for Custom Sale**: choose if a preset Tax Class is applied to a Custom Sale item (please refer to How to Add a Custom Sale Item to Cart for more details of Custom Sale)
 
-Enable suggesting address by Google: allows Google’s auto suggestion when cashier types customer’s address during checkout.
+**Enable suggesting address by Google**: allows Google’s auto suggestion when cashier types customer’s address during checkout.
 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/11.png)
 After configuring, click Save Config button to save your changes.
