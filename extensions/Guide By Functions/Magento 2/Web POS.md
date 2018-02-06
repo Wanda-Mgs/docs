@@ -48,10 +48,12 @@ The same situation happens with Current Session Detail for the brand-new POS. No
 And here is the performance of working POS: 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/7.png)
 
-
-
-
 - Assign it to Cashier 
+Path: **Sales > Web POS > Manage Staffs > Edit Staff > POS**
+Here you can assign several POS to a staff 
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/8.png)
+After finishing, click on Save POS or Save and Continue Edit button to save your work
+
 ### How to enable a payment method for Web POS
 To set up payment method for Web POS, go to **Web POS > Settings > Payment for POS**. Then, you will be able to see:
 
