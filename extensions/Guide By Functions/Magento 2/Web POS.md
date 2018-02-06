@@ -50,9 +50,41 @@ And here is the performance of working POS:
 
 - Assign it to Cashier 
 Path: **Sales > Web POS > Manage Staffs > Edit Staff > POS**
+
 Here you can assign several POS to a staff 
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/8.png)
 After finishing, click on Save POS or Save and Continue Edit button to save your work
+
+### How to differentiate access permissions of Web POS users
+- To grant different permission for **Web POS user, go to Sales > Web POS >  Manage Roles**. The Role page will be shown. You can export role user list to csv/xml file:
+
+![WebPOS](./Web%20POS%20Image/image012.png)
+
+
+- To add a new role, click on Add Role button in the top right corner. You will see the New Role page. Here there are three tabs, including General, Permission and Staff List.
+-> In **General** tab, please make sure you fill in enough information
+
+![WebPOS](./Web%20POS%20Image/image013.png)<br/> 
+          -	**Role Name**: Enter a specific name for the role in order to find it easily<br/>
+        -	**Maximum discount percent (%)**: limit the highest discount percent that each user role can offer customers<br/>
+        -	**Description**: Enter text that describes the role<br/>
+    
+-> In **Permission** tab, tick on users who will have corresponding permission in Web POS system.
+
+![WebPOS](./Web%20POS%20Image/image014.png)
+
+
+In field Resource Access, you can choose **Custom or All**. Choose All if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work. If you choose Custom, you can tick to assign specific permissions for that role.   
+
+>> In **Staff list** tab, tick on sale staff name that you want to assign this new role.
+    
+- To edit a current role, click on "Edit" link on Role Manager page, then you will be redirected to **Edit Role** page:
+
+![WebPOS](./Web%20POS%20Image/image015.png)
+
+
+When finishing editing, please click on **Save** or **Save And Continue Edit** button to save the change.
+<a name="p2"> </a>
 
 ### How to enable a payment method for Web POS
 To set up payment method for Web POS, go to **Web POS > Settings > Payment for POS**. Then, you will be able to see:
@@ -90,6 +122,8 @@ To configure Default Guest Checkout, you go to **Web POS > Settings > Default Gu
 Fill in all information as you want to use as default, including **Default Customer ID, First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone and Email**.
 After finishing, click on **Save Config** button to save your work.
 
+
+
 ### How to change logo of Web POS
 To change logo of Web POS, go to **Web POS > Settings > General Configuration**. In this tab, you can see configuration as follows:
 
@@ -124,36 +158,7 @@ To edit a user, click on the **Edit** link in **POS Staff** page. Then you can e
 ![WebPOS](./Web%20POS%20Image/image011.png)
 
 
-### How to differentiate access permissions of Web POS users
-- To grant different permission for **Web POS user, go to Sales > Web POS >  Manage Roles**. The Role page will be shown. You can export role user list to csv/xml file:
 
-![WebPOS](./Web%20POS%20Image/image012.png)
-
-
-- To add a new role, click on Add Role button in the top right corner. You will see the New Role page. Here there are three tabs, including General, Permission and Staff List.
--> In **General** tab, please make sure you fill in enough information
-
-![WebPOS](./Web%20POS%20Image/image013.png)<br/> 
-          -	**Role Name**: Enter a specific name for the role in order to find it easily<br/>
-        -	**Maximum discount percent (%)**: limit the highest discount percent that each user role can offer customers<br/>
-        -	**Description**: Enter text that describes the role<br/>
-    
--> In **Permission** tab, tick on users who will have corresponding permission in Web POS system.
-
-![WebPOS](./Web%20POS%20Image/image014.png)
-
-
-In field Resource Access, you can choose **Custom or All**. Choose All if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work. If you choose Custom, you can tick to assign specific permissions for that role.   
-
->> In **Staff list** tab, tick on sale staff name that you want to assign this new role.
-    
-- To edit a current role, click on "Edit" link on Role Manager page, then you will be redirected to **Edit Role** page:
-
-![WebPOS](./Web%20POS%20Image/image015.png)
-
-
-When finishing editing, please click on **Save** or **Save And Continue Edit** button to save the change.
-<a name="p2"> </a>
 
 ### How to connect Web POS with peripheral devices
 Magestore Web POS module can connect with **Barcode readers, Card swiper, Receipt printer & Customer pole display**.<br/>
