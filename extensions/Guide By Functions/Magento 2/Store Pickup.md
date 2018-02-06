@@ -21,7 +21,7 @@ You have seen how Store Pickup works in front-end for customers. The following p
 
 Click on the link for Google Map API Key Registration Guide
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image056.png?raw=true)
 
 ***Update*:*** One of the most important Google Maps APIs Standard Plan updates implemented on June 22, 2016 was that required future product updates are only available for requests made with an API key.
 
@@ -35,13 +35,13 @@ However, Google Maps APIs Standard Plan advises all developers to use a key in o
 
 The **Manage Store** grid shows all stores created in your system with their address and status. To add new stores, you can add them manually and import from CSV files.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image057.png?raw=true)
 
 #### Add Store
 
 - *Path:* **Store Pickup > Manage Store** 
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image058.png?raw=true)
 
 Here you can add new stores by importing via a CSV file or manually inputing information whit **Add New Store** button. You will be navigated to the **Add Store** page, which includes 7 tabs:
 
@@ -55,11 +55,11 @@ Here you can add new stores by importing via a CSV file or manually inputing inf
 
 **NOTE:** Before reading the detailed function of each tab, please remember to click **Save Store** after making changes on these tabs to apply the changes before you leave.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image059.png?raw=true)
 
 **a.	General Information** tab:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image060.png?raw=true)
 
 Users must fill in all required fields 
 
@@ -73,23 +73,23 @@ Besides important information such as Store name, Description, Status, here are 
 
 - **Contact Information**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image061.png?raw=true)
 
 It allows you to enter information of store’s manager such as email address, phone number, etc. so customers will know how to contact if needed. You can configure to enable automatic emails sent to the store manager when pickup orders’ status is changed.
 
 - **Owner Information**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image062.png?raw=true)
 
 - **Meta Information**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image063.png?raw=true)
 
 You can fill in URL key, meta title, meta keywords, meta description for better SEO
 
 **b.	Google Map Location** tab:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image064.png?raw=true)
 
 Fill your store’s address in this field or pin from the map, remember to click on the **Save Store** or **Save And Continue Edit** button to save your work. After that, store’s location will be updated automatically on Google Map
 
@@ -104,7 +104,7 @@ There are 6 compulsory sessions:
 - Marker icon: you can upload your own image to replace the default marker icon of Google on the map
 - Manual marking your store on Google map:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image065.png?raw=true)
 
 When a store is created manually, the system will automatically get the coordinates based on the store address by using Google API. However, in some cases, this way may be not completely accurate. Therefore, the **Google Map Location** tab allows you to edit store coordinates manually.
 
@@ -116,17 +116,17 @@ By clicking **Apply to Form** before saving, the store coordinates & the store a
 
 Upload as many store images as you want. The base image will be shown in the store list.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image066.png?raw=true)
 
 **d.	Store’s Schedule** tab:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image067.png?raw=true)
 
 This tab allows you to choose a Schedule from a list to apply for this store. Otherwise you can create a new schedule by following the link under the dropdown list.
 
 A **New Schedule** page will be opened so you can set your store schedule:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image068.png?raw=true)
 
 (1)	Enter your **Schedule Name**
 
@@ -144,7 +144,7 @@ Refresh your **Store’s Schedule** page and your newly-setup schedule has appea
 
 **e.	Store’s Tags** tab:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image069.png?raw=true)
 
 For easier search, you can tag each store in multiple categories. Choose tags for each in this tab by search for the tag and select suitable ones. Please note that one store can belongs to more than one tag.
 
@@ -152,20 +152,20 @@ To add a new tag and manage tags for all stores, please refer to **Manage Tags**
 
 **f.	Store’s Holidays** tab:
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image070.png?raw=true)
 
 Select Holidays to be applied for this store by searching/filtering and select Holiday(s) that you set up before. Please refer to **Manage Holidays** to add/edit holidays.
 
 **g.	Store’s Orders** tab: 
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image071.png?raw=true)
 
 This tab displays all store pickup orders that have been placed for this store. 
 
 #### Edit Store 
 - *Path:* **Store Pickup > Manage Store**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image072.png?raw=true)
 
 You can always edit store information by clicking on **Select** under the Action column and choose **Edit**; or delete the store by selecting **Delete**.
 
@@ -174,23 +174,23 @@ You can always edit store information by clicking on **Select** under the Action
 
 To add new tags, click on **Add New Tag** 
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image073.png?raw=true)
 
 In **New Tag** view, you can edit Tag Information in 2 tabs: **General information** and **Stores of Tag**. 
 
 **a.	General Information**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image074.png?raw=true)
 
 Choose a suitable Tag Name, write a description and upload Icon to make it pop out on store listing page
 
 **b.	Stores of Tags** tab
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image075.png?raw=true)
 
 Select stores from the list to be shown up when Customers clicking on the tag. 
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image076.png?raw=true)
 
 Then click Save Tag at the top right of the page to apply changes.
 
@@ -201,13 +201,13 @@ You will be navigated to the **Holiday Manager** page listing all holidays creat
 
 Click on **Add Holiday** button to create a new one.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image077.png?raw=true)
 
 And then, 2 tabs will appear for users to fill in: **General Information** & **Stores of Holiday**
 
 **a.	General Information** tab
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image078.png?raw=true)
 
 On the **General Information** page:
 - Set the Holiday Name
@@ -218,7 +218,7 @@ Remember to click on the **Save and continue edit** button after entering requir
 
 **b.	Stores of Holiday** tab
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image079.png?raw=true)
 
 On the **Stores of Holiday** page: tick all stores that you want this holiday to be applied, then click **Save Holiday** button at the top right of the page.
 
@@ -227,13 +227,13 @@ On the **Stores of Holiday** page: tick all stores that you want this holiday to
 
 You will be navigated to the **Special Day Manager** page listing all special days created. Click on the **Add Special Day** button to create a new one.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image080.png?raw=true)
 
 In **New Special Day** page, you can fill in Special Day Information in 2 tabs : **General Information** and **Stores of Special Day**.
 
 **a.	General Information** tab
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image081.png?raw=true)
 
 On the **Add Special Day** page:
 - Enter special day name.
@@ -248,7 +248,7 @@ On the **Add Special Day** page:
 
 Tick all stores that you want this special day to be applied, then Save Special Day
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image082.png?raw=true)
 
 ### Manage Schedule 
 
@@ -256,11 +256,11 @@ Tick all stores that you want this special day to be applied, then Save Special 
 
 You can see some schedules available in this tab and quickly edit, or create a new one by clicking on **Add New Schedule**.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image083.png?raw=true)
 
 To edit Schedule: 
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image084.png?raw=true)
 
 Setting up store schedule is similar to the tab Store’s Schedule in **Manage Schedule**
 
@@ -276,7 +276,7 @@ In the **Information** tab, you can see the information about shipping address c
 
 When there is an order using store pickup, notification email will be sent to store owner & administrator.
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image085.png?raw=true)
 
 ### Settings
 
@@ -286,7 +286,7 @@ The configuration is divided into 3 groups: **General, Service API** & **Store S
 
 **General**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image086.png?raw=true)
 
 |No | Field| Sample|Result|
 |--|--|--|--|
@@ -299,7 +299,7 @@ The configuration is divided into 3 groups: **General, Service API** & **Store S
 |7|	Image Gallery|	3	|Each store can be uploaded with maximum of 3 images in gallery|
 
 **Service API**
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image087.png?raw=true)
 
 To integrate Google API in your site, fill your Google Map API key into this field. You can get this key by following the guide link or going to Store Pickup → Guide on the menu in backend. 
 
@@ -309,7 +309,7 @@ To integrate Facebook social plugin in your site, you must enter Facebook API ke
 
 **Store Search**
 
-![Store pickup configure]()
+![Store pickup configure](./Store%20Pickup%20Image/image088.png?raw=true)
 
 |No | Field| Sample|Result|
 |--|--|--|--|
@@ -326,7 +326,7 @@ A page will be separated to list all stores in front-end
 
 Customers click on the arrow button on Top-Link (the top right of the page)
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image661.png?raw=true)
 
 There are 4 sections on page: Store List, Search Form, Google Map and Tags List 
 
@@ -343,13 +343,13 @@ There are 4 sections on page: Store List, Search Form, Google Map and Tags List
 
 Users can click on the store on the map to view store location as well as its name, address, phone number, store manager’s email address. Even directions are aslo available to get. 
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image662.png?raw=true)
 
 #### Link to Web
 
 To view more details about stores, customers could click on its name link to be navigated to page. 
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image663.png?raw=true)
 
 As you can see, page show all information that customers care about such as location, contact info, working time, description & store images. 
 
@@ -357,19 +357,19 @@ They can view a list of **Special Day & Holiday Information Tab**
 
 Customers could conveniently leave comment by filling in Facebook comment box
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image664.png?raw=true)
 
 ### How Customers use Store Pickup at Check Out 
 #### Choose Shipping Method: Delivery in Store 
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image665.png?raw=true)
 
 (1) In the **Shipping Method** tab at checkout, select **Store Pick up** 
 
 (2) Select a store from the dropdown list or select by Google map 
 or select on Google map as bellow:
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image666.png?raw=true)
 
 On the G-Map popup, customer needs to select a store on store list or search store that they want, after that click on the **Apply** button to apply or click on **Close** button to cancel.
 
@@ -377,19 +377,19 @@ On the G-Map popup, customer needs to select a store on store list or search sto
 
 After selection shipment method as Store Pickup, customers need to choose date and time for their arrival and then check out as usual
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image667.png?raw=true)
 
 Customers must choose date and time arrival by selecting data from the box. (**NOTE**: you MUST set up store’s schedule to enable this calendar)
 
 If the shipping date is one of store’s holidays, customers won’t be able to choose that on the calendar. Thus, they can avoid arriving on the store’s days off. You can refer to Manage Holidays to know how to set up these holidays.
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image668.png?raw=true)
 
 #### Choose Payment Method
 
 In this step, applicable payment methods are shown as your configuration.
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image669.png?raw=true)
 
 All customers need to do is choosing their payment method 
 
@@ -397,13 +397,13 @@ All customers need to do is choosing their payment method
 
 To place the order, customers will click on the **Place Order** button
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image670.png?raw=true)
 
 #### View Orders
 
 - *Path:* **My Account > My Orders** tab **> View Order.**
 
-![SP]()
+![SP](./Store%20Pickup%20Image/image671.png?raw=true)
 
 To print orders, click on **Print Order** on the top right. 
  
