@@ -234,15 +234,23 @@ You will see all sessions carried out by this account here.
 Opened session will have an OPEN mark next to its date and time in the listing.
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/20.png)
 Clicking on a session will display detailed information about that session including:
+
 	Staff working on the POS, POS Name, Session Date and Time
+	
 	Summary of Total Cash Payment in Session: 
+	
 		**Opening Balance**: the amount of cash in cash drawer at the beginning of the session
 		**Theoretical Closing Balance**: = Opening Balance + Manually Input Amount of Put Money In/Take Money Out + Total sales (in cash only)
 		**Real Closing Balance**: the real amount of cash in cash drawer at the end of the session
+		
 		The Difference between **Theoretical Closing Balance** and **Real Closing Balance**
+		
 	For opened session, cashier can Put Money In/ Take Money Out, Set Closing Balance and End Session.
+	
 	Manually input of cash in/out in the session and transactions in cash are recorded in the + Transactions/ - Transactions links.
+	
 	Total Sales by all Payment Methods
+	
 	Cashier can Print the session details by clicking on the Print button
 	
 
