@@ -204,18 +204,15 @@ In backend, you can configure to search products by going to **Sales > Web POS >
 In frontend, you can search products by 3 ways, which are **categories, product attributes and barcode**<br/>
 - 	**Product Attribute(s) for Search**: Select attributes by which you want to search products. The default attributes are Name & SKU. If you want to search quickly by barcode, choose barcode attribute. Hold Shift + Click to pick more than one.<br/> 
 -	**Barcode Attributes**: Choose SKU to search products quickly<br/> 
-- 	Use categories: In frontend, you can click on All Categories link to quickly search products by categories. Choose the corresponding categories as you prefer.
+- **Use categories**: In frontend, you can click on All Categories link to quickly search products by categories. Choose the corresponding categories as you prefer.
 
 ![RetailerPOS](./Retailer%20POS%20image/image032.png)
 
 Besides normal categories, you can select search by Recently Added Products & Frequently Added Products: 
 
-   -	**Recently Added Products**: A list of products that have been newly added to cart. 
-
-    -	**Frequently Added Products**: A list of products that have most often been added to cart 
-- 	Use product attributes
-
-To search by product attributes, click on Search icon, then a search bar will be shown. Enter your search terms and matching products will display right away. 
+-	**Recently Added Products**: A list of products that have been newly added to cart. 
+-	**Frequently Added Products**: A list of products that have most often been added to cart 
+- **Use product attributes**: To search by product attributes, click on Search icon, then a search bar will be shown. Enter your search terms and matching products will display right away. 
 
 ![RetailerPOS](./Retailer%20POS%20image/image033.png)
 
