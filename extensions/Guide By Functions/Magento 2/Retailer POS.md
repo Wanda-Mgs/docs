@@ -282,26 +282,26 @@ After adding products to cart, besides editing the quantity of each product (ref
 - 	You can set custom price for products by tap **Custom Price** button. 
 
 In the popup, please choose type you want to adjust for the price, according to fixed number or percentage. 
-    - 	If you edit fixed price, the price will be changed to the price you have entere
-    
+    - 	If you edit fixed price, the price will be changed to the price you have entere 
     - 	If you edit by percentage, the price will be decrease by the percent you have entered (it is similar to Discount by percentage)
 Then, products in cart will be updated with the price you edit
  
 - Editing discount for each product is similar to edit by Custom Price. Click on **Discount** button and choose types of discount–fixed discount or percentage–you want to adjust.
 
-![RetailerPOS](./Retailer%20POS%20image/image043.png)
-
 ### 	How to handle customer information at checkout
 #### 	Customer Checkout
 To use **Customer Checkout**, add customer by clicking on **Add Customer** link. You will see a screen as below:
+![RetailerPOS](./Retailer%20POS%20image/image043.png)
 
-![RetailerPOS](./Retailer%20POS%20image/image044.png)
-
-- earch customers: 
+- Search customers: 
 
 In the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in dropdown list. 
+![RetailerPOS](./Retailer%20POS%20image/image044.png)
 
-The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer: 
+The information of customer in the system will be auto updated in checkout step.
+
+Other ways, users can search for products by using QR Code/ Barcode scanning. Our RetailerPOS offers an extremely convenient way for your customer checkout process by allowing scanning customer’s QR Code/ Barcode in their member card or loyalty app. 
+[!Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/2.png)
 
 ![RetailerPOS](./Retailer%20POS%20image/image045.png)
 
