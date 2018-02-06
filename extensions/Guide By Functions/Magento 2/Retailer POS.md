@@ -302,11 +302,14 @@ The information of customer in the system will be auto updated in checkout step.
 
 Other ways, users can search for products by using QR Code/ Barcode scanning. Our RetailerPOS offers an extremely convenient way for your customer checkout process by allowing scanning customer’s QR Code/ Barcode in their member card or loyalty app. 
 ![Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/2.png)
+Click on the Scan icon in the Search bar. The system will automatically fill customer info into checkout form. 
 
+- Create new customer
+![Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/3.png)
 ![RetailerPOS](./Retailer%20POS%20image/image045.png)
 
-In the popup, just edit which information you want.<br/>
-- Create new customer
+
+
 
 If customer hasn’t been added in your system before, instead of searching, click on **Create New Customer** button.
 
