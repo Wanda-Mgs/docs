@@ -112,6 +112,17 @@ Enable suggesting address by Google: allows Google’s auto suggestion when cash
 ![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/11.png)
 After configuring, click Save Config button to save your changes.
 
+### What is default customer & how to configure Default Guest Checkout
+#### What is default customer
+**Default customer** is the customer whose information will be used for Guest Checkout or when customer information is not enough, default value will be filled automatically.
+#### How to configure Default Guest Checkout
+To configure Default Guest Checkout, you go to **Web POS > Settings > Default Guest Checkout**. You will see the configuration page as below:
+
+![WebPOS](./Web%20POS%20Image/image006.png)
+
+Fill in all information as you want to use as default, including **Default Customer ID, First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone and Email**.
+After finishing, click on **Save Config** button to save your work.
+
 ### How to enable a payment method for Web POS
 To set up payment method for Web POS, go to **Web POS > Settings > Payment for POS**. Then, you will be able to see:
 
@@ -127,29 +138,27 @@ If you want to set Credit Card to be the default payment method for instance, yo
 ![WebPOS](./Web%20POS%20Image/image004.png)
 
 ### How to Set up a Shipping Method for Web POS
-To set up Shipping Methods for Web POS, go to **Sales> Web POS > Settings**, then choose **Shipping for POS**, the following page will be shown as below:
+To set up Shipping Methods for Web POS, go to **Sales> Web POS > Settings**, then choose **Shipping Method**, the following page will be shown as below:
 
-![WebPOS](./Web%20POS%20Image/image005.png)
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/12.png)
 
--	**Applicable Shipping**: 
-    - If you want to apply all shipping methods, choose **All Allowed Shipping**
-    - If you want to apply some particular shipping methods only, choose **Specific Shipping**. Then in **Specific Shipping** field, select shipping method as your preference. Hold Shift + Click to choose more than one.
--	 **Default Shipping Method**: the default mode is Store Pickup.
+(1)	Applicable Shipping Methods:	
+If you want to apply all shipping methods, choose All Allowed Shipping. 
+If you want to apply some shipping methods only, choose Specific Shipping. Then in Specific Shipping field, select shipping method as your preference. Hold Shift + Click to choose more than one.
 
-If you want to set Flat Rate to be the default shipping method for instance, you first have to choose it in Specific Payments field. Then, select option Flat Rate Shipping in the Default Payment Method field. 
-### What is default customer & how to configure Default Guest Checkout
-#### What is default customer
-**Default customer** is the customer whose information will be used for Guest Checkout or when customer information is not enough, default value will be filled automatically.
-#### How to configure Default Guest Checkout
-To configure Default Guest Checkout, you go to **Web POS > Settings > Default Guest Checkout**. You will see the configuration page as below:
+(2)	Specific Shipping Methods
 
-![WebPOS](./Web%20POS%20Image/image006.png)
+(3)	Default Shipping Method: 
+You can choose one of two shipping methods supported to set as default payment method for POS
+If you want to set “Store Pickup” to be the default shipping method for instance, you first must choose it in Specific Shipping field. Then, select option “Store Pickup” in Default Shipping Method field.
 
-Fill in all information as you want to use as default, including **Default Customer ID, First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone and Email**.
-After finishing, click on **Save Config** button to save your work.
+(4)	Enable “Mark as shipped” by default: Choose “Yes” if you want to mark items as shipped
 
+![Guide%20By%20Functions/Magento%202](./Web%20POS%20Image/13.png)
 
+After finishing, click on “Save Config” button to save your work.
 
+*NOTE: Only payment methods that are enabled in Stores > Settings section > Configuration > Sales > Shipping Methods will appear here.
 
 ### How to add a Web POS user
 To add new user using **Web POS, go to Sales > Web POS > Manage POS Staffs**. Here you can see a list of users that have been created
