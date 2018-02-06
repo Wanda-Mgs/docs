@@ -305,22 +305,15 @@ Other ways, users can search for products by using QR Code/ Barcode scanning. Ou
 Click on the Scan icon in the Search bar. The system will automatically fill customer info into checkout form. 
 
 - Create new customer
-![Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/3.png)
-![RetailerPOS](./Retailer%20POS%20image/image045.png)
-
-
-
-
 If customer hasn’t been added in your system before, instead of searching, click on **Create New Customer** button.
-
-![RetailerPOS](./Retailer%20POS%20image/image046.png)
-
+![Guide%20By%20Functions/Magento%202](./Retailer%20POS%20image/3.png)
 Fill enough information of the customer such as **First Name, Last Name, Email, Phone, Group of Customer**. Remember to tap **Save** button to save the customer information for the next checkout.<br/>
-- Fill in the information for Shipping Address such as Phone, Street, City, etc
-
+![RetailerPOS](./Retailer%20POS%20image/image045.png)
+Fill in the information for Shipping Address such as Phone, Street, City, etc
+![RetailerPOS](./Retailer%20POS%20image/image046.png)
+Fill enough information of Billing Address such as Phone, Street, City, etc
 ![RetailerPOS](./Retailer%20POS%20image/image047.png)
 
-- Fill enough information of Billing Address such as Phone, Street, City, etc
 #### 	Guest Checkout
 When you use Guest Checkout, the default customer that you configure in backend will be used (Please hover to the section **2.3.1 What is default customer & how to configure Default Guest Checkout** to get more details). At checkout, all fields will be auto-filled with that default information.
 
