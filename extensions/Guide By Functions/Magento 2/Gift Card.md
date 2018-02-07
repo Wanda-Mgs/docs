@@ -33,7 +33,7 @@ To configure default configurations and settings of the module, please log in to
 
 **a.	Step 1**: **In General** tab
 
-![Gift card configure]()
+![Gift card configure](./GC2%20Image/image034.png?raw=true)
  
 (1)	**Enable Gift Card**: Select **Yes** in the dropdown list to enable Gift Card
 
@@ -44,7 +44,7 @@ To configure default configurations and settings of the module, please log in to
 
 (4)	**Replace hidden characters by**: Enter one letter to replace hidden characters
  
-![Gift card configure]()
+![Gift card configure](./GC2%20Image/image035.png?raw=true)
 
 •	**Gift Card Usage**
 
@@ -64,7 +64,7 @@ To configure default configurations and settings of the module, please log in to
 
 •	**Tax Configuration**
 
-![Gift card configure]()
+![Gift card configure](./GC2%20Image/image036.png?raw=true)
 
 **Apply Gift Card discount**: 
    - **After Tax**: to allow applying Gift Card after the tax is applied
@@ -72,14 +72,14 @@ To configure default configurations and settings of the module, please log in to
 
 **b.	Step 2: On Product Page** tab
  
- ![Gift card configure]()
+ ![Gift card configure](./GC2%20Image/image037.png?raw=true)
 
 •	**Gift Card Value**
 (1)	**Default Gift Card value**: Enter the default gift card value (*follow the below instruction*)
 
 (2)	 **Description of Gift Card value**: Enter the description of gift card value (*follow the below instruction*)
 
- ![Gift card configure]()
+ ![Gift card configure](./GC2%20Image/image038.png?raw=true)
  
 •	**Gift Card Template**
 (1)	Select **Yes** to allow customers to change the image inserted in the template
@@ -98,7 +98,7 @@ To configure default configurations and settings of the module, please log in to
 
 **c.	Step 3: On Shopping Cart Page** tab
  
-  ![Gift card configure]()
+  ![Gift card configure](./GC2%20Image/image039.png?raw=true)
 
 (1)	**Show Gift Card box on Shopping Cart page**: Select **Yes** to Enable a Gift Card box for customers to apply gift codes right on the shopping cart page.
 
@@ -108,13 +108,13 @@ To configure default configurations and settings of the module, please log in to
 
 **d.	Step 4: On Checkout Page** tab
 
-  ![Gift card configure]()
+  ![Gift card configure](./GC2%20Image/image040.png?raw=true)
  
 **Show Gift Card box on Checkout Page**: Select **Yes** to show Gift Card box on the checkout page
 
 **e.	Step 5: In Email Notification** tab
 
-  ![Gift card configure]()
+  ![Gift card configure](./GC2%20Image/image041.png?raw=true)
  
 •	**General**
 
@@ -126,7 +126,7 @@ To configure default configurations and settings of the module, please log in to
 
 (4)	**Send Gift Card copy via email**: Select **Yes** to allow sending a copy of gift card via email if customers choose to ship through post office.
 
-  ![Gift card configure]()
+  ![Gift card configure](./GC2%20Image/image042.png?raw=true)
  
 •	**Notification email sent to purchasers**
 
@@ -144,7 +144,7 @@ To configure default configurations and settings of the module, please log in to
 
 **f.	Step 6: In Gift Cart Printout** tab
  
-  ![Gift card configure]()
+  ![Gift card configure](./GC2%20Image/image043.png?raw=true)
 
 **Logo on PDF Printouts**: Click on **Choose File** to upload an image used as a logo when Gift Cards are printed or sent via email. 
 
@@ -156,15 +156,15 @@ To configure default configurations and settings of the module, please log in to
 
 - *Path:* **Marketing > Gift Card** section **> Manage Templates**
 
-![Gift card]()
+![Gift card](./GC2%20Image/image499.png?raw=true)
  
 **Step 1**: click on **Add New Template** button 
 
 **Step 2**: Edit information in **New Template** page
 
-![Gift card]()
+![Gift card](./GC2%20Image/image500.png?raw=true)
 
-![Gift card]()
+![Gift card](./GC2%20Image/image501.png?raw=true)
   
 (1)	**Template Name**: Enter the template’s name
 
@@ -184,7 +184,7 @@ To configure default configurations and settings of the module, please log in to
 
 - *Path:* **Marketing > Gift Card** section **> Manage Templates**
  
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image502.png?raw=true)
 
 Click on **Preview** to see the gift card template
 
@@ -192,7 +192,7 @@ Click on **Preview** to see the gift card template
 
 - *Path:* **Marketing > Gift Card** section **> Manage Templates**
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image503.png?raw=true)
  
 (1)	Mark the template checkbox
 
@@ -200,7 +200,7 @@ Click on **Preview** to see the gift card template
 
 (3)	Click on **Edit** to update templates data
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image504.png?raw=true)
  
 (1)	Edit template’s information: **Template Name, Design Pattern, Notes, Text Color, Link/Special Text Color, Background Images**
 
@@ -212,7 +212,7 @@ Click on **Preview** to see the gift card template
 
 - *Path:* **Marketing > Gift Card** section **> Gift Code History**
 
-![Gift card]()
+![Gift card](./GC2%20Image/image505.png?raw=true)
  
 On Gift Card History page, you will know when Gift Cards were created/ updated/ redeemed/ spent/ refunded and by whom as well as their values and status. 
 
@@ -222,13 +222,13 @@ You can filter data with the above criteria to get more accurate reports. Inform
 
 - *Path:* **Marketing > Gift Card** section **> Generate Gift Code**
 
-![Gift card]()
+![Gift card](./GC2%20Image/image506.png?raw=true)
  
 In **Gift Code Pattern** page, click on **Add Gift Code Pattern** to create new pattern code. 
 
-![Gift card]()
+![Gift card](./GC2%20Image/image507.png?raw=true)
 
-![Gift card]()
+![Gift card](./GC2%20Image/image508.png?raw=true)
   
 In **New Gift Code Pattern** page, you can:
 
@@ -254,11 +254,11 @@ In **New Gift Code Pattern** page, you can:
 
 (11)	Click on **Save and Generate** to save and generate the gift code at the same time or “Save” to finish
  
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image509.png?raw=true)
 
 Then, a status as “The pattern has been generated successfully” will be shown as above.
  
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image510.png?raw=true)
 
 And a list of generated Gift Codes will be added to the bottom of the page 
 
@@ -268,7 +268,7 @@ And a list of generated Gift Codes will be added to the bottom of the page
 
 - *Path:* **Marketing > Gift Card** section **> Manage Gift Code**
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image511.png?raw=true)
  
 There are two ways to create new gift codes:
 
@@ -278,7 +278,7 @@ There are two ways to create new gift codes:
 
 •	**Import Gift Codes**: 
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image512.png?raw=true)
  
 (1)	**Import File**: Click on **Choose File** to upload your file of gift code
 
@@ -288,8 +288,8 @@ There are two ways to create new gift codes:
 
 •	**Add New Gift Code**
  
-  ![Gift card]()
- ![Gift card]()
+  ![Gift card](./GC2%20Image/image513.png?raw=true)
+ ![Gift card](./GC2%20Image/image514.png?raw=true)
 
 In **New Gift Code** page, you can:
 
@@ -311,15 +311,15 @@ In **New Gift Code** page, you can:
 
 (10)	**Last Comment**: Write a comment 
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image515.png?raw=true)
 
 Then scroll down to the bottom of the page, there are 3 more tabs as above.
 
 •	In **Shopping Cart Conditions**
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image516.png?raw=true)
  
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image517.png?raw=true)
   
 (1)	Write description about conditions applied to shopping cart when using gift code
 
@@ -327,13 +327,13 @@ Then scroll down to the bottom of the page, there are 3 more tabs as above.
 
 •	In **Cart Item Conditions**
  
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image518.png?raw=true)
 
 In this tab, you can choose to allow using the gift code **only if products in cart meet the conditions** or **leave it blank for all products**.
 
 •	In **Message Information** tab:
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image519.png?raw=true)
  
 (1)	**Customer**: Enter the sender name and email
 
@@ -343,7 +343,7 @@ In this tab, you can choose to allow using the gift code **only if products in c
 
 (4)	**Message**: Enter the message to the recipient
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image520.png?raw=true)
  
 Finally, scroll up, tab the arrow on the right hand-side of **Save** button: 
 
@@ -355,7 +355,7 @@ Finally, scroll up, tab the arrow on the right hand-side of **Save** button:
 
 - *Path*: **Marketing > Gift Card** section **> Manage Gift Code**
  
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image521.png?raw=true)
 
 In this page view, you can:
 
@@ -371,13 +371,13 @@ In this page view, you can:
 
 - *Path:* **Marketing > Gift Card** section **> Manage Gift Card Products**
  
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image522.png?raw=true)
 
 To create new gift card product, click on **Add Gift Card Product** button. In the **New Product** page, enter Gift Card product information as below:
  
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image523.png?raw=true)
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image524.png?raw=true)
 
 (1)	**Enable Products**: Choose **Yes** to enable gift card product on website
 
@@ -391,8 +391,7 @@ To create new gift card product, click on **Add Gift Card Product** button. In t
 
 (6)	**Tax Class**: Select Tax Class
 
-(7)	**Quantity**: Enter Quantity of new gift card product. Click on **Advanced Inventory** for 
-advanced setting
+(7)	**Quantity**: Enter Quantity of new gift card product. Click on **Advanced Inventory** for advanced setting
 
 (8)	**Stock Status**: Select Stock Status
 
@@ -410,7 +409,7 @@ advanced setting
 
 Then scroll down and fill in formation in the following tabs: 
 
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image525.png?raw=true)
 
 (1)	**Content**: write description and short description for gift card product
 
@@ -418,12 +417,12 @@ Then scroll down and fill in formation in the following tabs:
 
 (3)	**Search Engine Optimization**: Add attributes to boost SEO such as: UKR Key, Meta Title, Meta Keywords and Meta Description
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image526.png?raw=true)
 
 (4)	**Products/ Up-sell Products/ Cross-sell Products**: Add Related/ Up-sell/ Cross-sell products
 
 (5)	**Customizable Options**:  Create Customize Options by clicking on Add Option or Import Option
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image527.png?raw=true)
  
 (6)	**Product in Websites**: Tick on the checkbox to set the scope to be applied to the main website (in case your site has multiple views)
 
@@ -435,15 +434,15 @@ Then scroll down and fill in formation in the following tabs:
 
 (10)	**Suppliers**: Add Supplier
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image528.png?raw=true)
  
 (11)	**Gift Price Setting**: In this attribute, you must select one of three types of gift card value which are **Fixed value, Range of Value** and **Dropdown Values**. Then choose a type of gift card price among Same as **Gift Card Value, Fixed Price** and **Percent of Gift Card Value** (You can set the percentage)
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image529.png?raw=true)
 
 (12)	Setting conditions applied to shopping cart when using gift code
   
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image530.png?raw=true)
 
 (13)	Setting conditions applied to items when using gift code
 
@@ -456,7 +455,7 @@ Then scroll down and fill in formation in the following tabs:
 **b.	Manage Gift Card Products**
 
 - *Path:* **Marketing > Gift Card** section **> Manage Gift Card Products**
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image531.png?raw=true)
  
 In the **Gift Cart Product Manager** view, you can
 
@@ -470,11 +469,11 @@ In the **Gift Cart Product Manager** view, you can
 
 - *Path:* **Customers > All Customers**
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image532.png?raw=true)
  
 (1)	Click **Edit** to view an existing customer’s detailed information 
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image533.png?raw=true)
  
 (2)	Click on **Gift Card History** tab to view all transactions in which gift cards were applied
 
@@ -484,7 +483,7 @@ In the **Gift Cart Product Manager** view, you can
 
 After you select products, the system will show the Gift Card box, which allowing you to use Gift Card credit balance or Gift Card code(s) of the Customer to pay for this order. 
  
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image534.png?raw=true)
 
 (1)	Mark the check box to use gift card to checkout
 
@@ -492,7 +491,7 @@ After you select products, the system will show the Gift Card box, which allowin
 
 (3)	Click on the arrow to apply the gift code
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image535.png?raw=true)
  
 Scroll down to view “Order Totals” label, then click on **Submit Order** to finish.
 
@@ -500,14 +499,14 @@ Scroll down to view “Order Totals” label, then click on **Submit Order** to 
 
 - *Path:* **Sales > Operations** Section **> Orders**
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image536.png?raw=true)
  
 In the **Orders** page view, click on **View** a order marked as “Complete”. 
  
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image537.png?raw=true)
 
 To Create a New Memo, follow path: **(1) > (2)** (as picture above)
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image538.png?raw=true)
 
 (1)	Enter the number of money to refund to gift credit 
 
@@ -520,7 +519,7 @@ Gift Card can be ordered as a normal product. Customers can enter or choose the 
 
 The price of Gift Card product may differ from Gift Card value. It depends on Admin’s configuration in backend, which could be a fixed value or a percentage of Gift Card value. If the price type is “percentage”, Customers will see the corresponding Gift Card prices when they choose different Gift Card values
   
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image539.png?raw=true)
 
 (1)	Select Gift Card Product Value 
 
@@ -540,7 +539,7 @@ The price of Gift Card product may differ from Gift Card value. It depends on Ad
 - For Gift Card products that have usage conditions, the conditions will NOT be displayed below the product name. However, the admin can write the conditions in the description if it is necessary for customers to see. If anyone want to redeem the gift cards (enter the gift code to purchase one or many products) but does not meet the condition(s), then the system will show an “Invalid” notice.
 - Send Gift Card to friend: tick on the checkbox and fill in the information 
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image540.png?raw=true)
 
 (1)	Enter the name of the sender 
 
@@ -560,8 +559,8 @@ Tick the **Get notification email when your friend receives Gift Card** checkbox
 
 A popup of Gift Card interface will be shown as below:
  
- ![Gift card]()
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image541.png?raw=true)
+ ![Gift card](./GC2%20Image/image542.png?raw=true)
 
 After Customers add a Gift Card to cart, they can go to shopping cart page to review the cart by the following steps: 
 
@@ -571,18 +570,18 @@ After Customers add a Gift Card to cart, they can go to shopping cart page to re
 
 (3)	Or Choose **View and edit** cart to edit Shopping cart information
 
- ![Gift card]()
+ ![Gift card](./GC2%20Image/image543.png?raw=true)
  
 The details of Gift Card when Customers send the Gift Card to their friend as above. 
  
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image544.png?raw=true)
 
 The details of Gift Card when Customers buy the Gift Card for themselves:
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image545.png?raw=true)
 
 Then Gift Cards products can be checked out as normal products. Customers will receive a Gift Card code if they buy for themselves. In case Customers purchase the Gift Card to send to their friends, the code will be delivered to their friends’ email with the above form.
   !
-  [Gift card]()
+  [Gift card](./GC2%20Image/image546.png?raw=true)
 
 If the Sender has ticked the checkbox **Get notification email when your friend receives Gift Card**, a notification will be sent to his email address immediately after the Gift Card is delivered to the friend’s email as above.
 
@@ -590,7 +589,7 @@ If the Sender has ticked the checkbox **Get notification email when your friend 
 
 When Customers have a gift card code, they can use it as a discount coupon code when ordering a product at the **Checkout** page.
  
-  ![Gift card]()
+  ![Gift card](./GC2%20Image/image547.png?raw=true)
 
 (1)	Tick on the checkbox to allow using gift card to check out
 
