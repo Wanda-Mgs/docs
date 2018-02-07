@@ -428,21 +428,23 @@ Then scroll down and fill in formation in the following tabs:
 
 (7)	**Design**: Edit Design setting
  
+ ![Gift card](./GC2%20Image/image528.png?raw=true)
+ 
 (8)	**Schedule Design Update**: Set a Schedule to update design
 
 (9)	**Gift Options**: Select Gift Options: choose **Use Config Settings** to disable **Allow Gift Message**
 
 (10)	**Suppliers**: Add Supplier
 
- ![Gift card](./GC2%20Image/image528.png?raw=true)
+ ![Gift card](./GC2%20Image/image529.png?raw=true)
  
 (11)	**Gift Price Setting**: In this attribute, you must select one of three types of gift card value which are **Fixed value, Range of Value** and **Dropdown Values**. Then choose a type of gift card price among Same as **Gift Card Value, Fixed Price** and **Percent of Gift Card Value** (You can set the percentage)
 
- ![Gift card](./GC2%20Image/image529.png?raw=true)
+ ![Gift card](./GC2%20Image/image530.png?raw=true)
 
 (12)	Setting conditions applied to shopping cart when using gift code
   
- ![Gift card](./GC2%20Image/image530.png?raw=true)
+ ![Gift card](./GC2%20Image/image531.png?raw=true)
 
 (13)	Setting conditions applied to items when using gift code
 
@@ -455,7 +457,7 @@ Then scroll down and fill in formation in the following tabs:
 **b.	Manage Gift Card Products**
 
 - *Path:* **Marketing > Gift Card** section **> Manage Gift Card Products**
- ![Gift card](./GC2%20Image/image531.png?raw=true)
+ ![Gift card](./GC2%20Image/image532.png?raw=true)
  
 In the **Gift Cart Product Manager** view, you can
 
@@ -469,11 +471,11 @@ In the **Gift Cart Product Manager** view, you can
 
 - *Path:* **Customers > All Customers**
 
- ![Gift card](./GC2%20Image/image532.png?raw=true)
+ ![Gift card](./GC2%20Image/image533.png?raw=true)
  
 (1)	Click **Edit** to view an existing customer’s detailed information 
 
- ![Gift card](./GC2%20Image/image533.png?raw=true)
+ ![Gift card](./GC2%20Image/image534.png?raw=true)
  
 (2)	Click on **Gift Card History** tab to view all transactions in which gift cards were applied
 
@@ -483,7 +485,7 @@ In the **Gift Cart Product Manager** view, you can
 
 After you select products, the system will show the Gift Card box, which allowing you to use Gift Card credit balance or Gift Card code(s) of the Customer to pay for this order. 
  
-  ![Gift card](./GC2%20Image/image534.png?raw=true)
+  ![Gift card](./GC2%20Image/image535.png?raw=true)
 
 (1)	Mark the check box to use gift card to checkout
 
@@ -491,7 +493,7 @@ After you select products, the system will show the Gift Card box, which allowin
 
 (3)	Click on the arrow to apply the gift code
 
- ![Gift card](./GC2%20Image/image535.png?raw=true)
+ ![Gift card](./GC2%20Image/image536.png?raw=true)
  
 Scroll down to view “Order Totals” label, then click on **Submit Order** to finish.
 
@@ -499,14 +501,14 @@ Scroll down to view “Order Totals” label, then click on **Submit Order** to 
 
 - *Path:* **Sales > Operations** Section **> Orders**
 
- ![Gift card](./GC2%20Image/image536.png?raw=true)
+ ![Gift card](./GC2%20Image/image537.png?raw=true)
  
 In the **Orders** page view, click on **View** a order marked as “Complete”. 
  
-  ![Gift card](./GC2%20Image/image537.png?raw=true)
+  ![Gift card](./GC2%20Image/image538.png?raw=true)
 
 To Create a New Memo, follow path: **(1) > (2)** (as picture above)
-  ![Gift card](./GC2%20Image/image538.png?raw=true)
+  ![Gift card](./GC2%20Image/image539.png?raw=true)
 
 (1)	Enter the number of money to refund to gift credit 
 
@@ -519,7 +521,7 @@ Gift Card can be ordered as a normal product. Customers can enter or choose the 
 
 The price of Gift Card product may differ from Gift Card value. It depends on Admin’s configuration in backend, which could be a fixed value or a percentage of Gift Card value. If the price type is “percentage”, Customers will see the corresponding Gift Card prices when they choose different Gift Card values
   
-  ![Gift card](./GC2%20Image/image539.png?raw=true)
+  ![Gift card](./GC2%20Image/image540.png?raw=true)
 
 (1)	Select Gift Card Product Value 
 
@@ -539,7 +541,7 @@ The price of Gift Card product may differ from Gift Card value. It depends on Ad
 - For Gift Card products that have usage conditions, the conditions will NOT be displayed below the product name. However, the admin can write the conditions in the description if it is necessary for customers to see. If anyone want to redeem the gift cards (enter the gift code to purchase one or many products) but does not meet the condition(s), then the system will show an “Invalid” notice.
 - Send Gift Card to friend: tick on the checkbox and fill in the information 
 
- ![Gift card](./GC2%20Image/image540.png?raw=true)
+ ![Gift card](./GC2%20Image/image541.png?raw=true)
 
 (1)	Enter the name of the sender 
 
@@ -559,8 +561,8 @@ Tick the **Get notification email when your friend receives Gift Card** checkbox
 
 A popup of Gift Card interface will be shown as below:
  
- ![Gift card](./GC2%20Image/image541.png?raw=true)
  ![Gift card](./GC2%20Image/image542.png?raw=true)
+ ![Gift card](./GC2%20Image/image543.png?raw=true)
 
 After Customers add a Gift Card to cart, they can go to shopping cart page to review the cart by the following steps: 
 
@@ -570,18 +572,18 @@ After Customers add a Gift Card to cart, they can go to shopping cart page to re
 
 (3)	Or Choose **View and edit** cart to edit Shopping cart information
 
- ![Gift card](./GC2%20Image/image543.png?raw=true)
+ ![Gift card](./GC2%20Image/image544.png?raw=true)
  
 The details of Gift Card when Customers send the Gift Card to their friend as above. 
  
-  ![Gift card](./GC2%20Image/image544.png?raw=true)
+  ![Gift card](./GC2%20Image/image545.png?raw=true)
 
 The details of Gift Card when Customers buy the Gift Card for themselves:
-  ![Gift card](./GC2%20Image/image545.png?raw=true)
+  ![Gift card](./GC2%20Image/image546.png?raw=true)
 
 Then Gift Cards products can be checked out as normal products. Customers will receive a Gift Card code if they buy for themselves. In case Customers purchase the Gift Card to send to their friends, the code will be delivered to their friends’ email with the above form.
   !
-  [Gift card](./GC2%20Image/image546.png?raw=true)
+  [Gift card](./GC2%20Image/image547.png?raw=true)
 
 If the Sender has ticked the checkbox **Get notification email when your friend receives Gift Card**, a notification will be sent to his email address immediately after the Gift Card is delivered to the friend’s email as above.
 
@@ -589,7 +591,7 @@ If the Sender has ticked the checkbox **Get notification email when your friend 
 
 When Customers have a gift card code, they can use it as a discount coupon code when ordering a product at the **Checkout** page.
  
-  ![Gift card](./GC2%20Image/image547.png?raw=true)
+  ![Gift card](./GC2%20Image/image548.png?raw=true)
 
 (1)	Tick on the checkbox to allow using gift card to check out
 
