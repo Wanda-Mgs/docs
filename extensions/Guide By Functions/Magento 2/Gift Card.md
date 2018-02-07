@@ -318,6 +318,7 @@ Then scroll down to the bottom of the page, there are 3 more tabs as above.
 •	In **Shopping Cart Conditions**
 
  ![Gift card]()
+ 
  ![Gift card]()
   
 (1)	Write description about conditions applied to shopping cart when using gift code
@@ -535,9 +536,9 @@ The price of Gift Card product may differ from Gift Card value. It depends on Ad
 
 ***Note***:
 
-•	Expiration date is displayed on the Gift Card Product
-•	For Gift Card products that have usage conditions, the conditions will NOT be displayed below the product name. However, the admin can write the conditions in the description if it is necessary for customers to see. If anyone want to redeem the gift cards (enter the gift code to purchase one or many products) but does not meet the condition(s), then the system will show an “Invalid” notice.
-•	Send Gift Card to friend: tick on the checkbox and fill in the information 
+- Expiration date is displayed on the Gift Card Product
+- For Gift Card products that have usage conditions, the conditions will NOT be displayed below the product name. However, the admin can write the conditions in the description if it is necessary for customers to see. If anyone want to redeem the gift cards (enter the gift code to purchase one or many products) but does not meet the condition(s), then the system will show an “Invalid” notice.
+- Send Gift Card to friend: tick on the checkbox and fill in the information 
 
  ![Gift card]()
 
