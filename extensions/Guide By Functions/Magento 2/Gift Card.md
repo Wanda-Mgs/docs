@@ -25,7 +25,130 @@ More and more Customers go online to find gifts for their friends and families, 
 
 ![Gift Card for Magento 2](./GC2%20Image/image004.jpg)
 
-## 	**HOW TO USE**
+# HOW TO CONFIGURE
+
+- *Path:* **Marketing > Gift Card** section **> Settings**
+
+To configure default configurations and settings of the module, please log in to backend screen, then do the following stages: 
+
+**a.	Step 1**: **In General** tab
+
+![Gift card configure]()
+ 
+(1)	**Enable Gift Card**: Select **Yes** in the dropdown list to enable Gift Card
+
+•	**Gift Code**
+(2)	**Gift Code Pattern**: Configure the pattern to auto-generate gift codes for Gift Card products when customers purchase in Web POS frontend
+
+(3)	**The number of prefixes shown**: Enter the number of **prefix characters** which are shown in a voucher code
+
+(4)	**Replace hidden characters by**: Enter one letter to replace hidden characters
+ 
+![Gift card configure]()
+
+•	**Gift Card Usage**
+
+(1)	**Gift Card codes expire after**: Enter the term of validity that Gift Cards can be used after being activated.
+
+(2)	**Maximum time(s) to enter gift code incorrectly**: Enter the **maximum time(s)** that allows users to enter gift code incorrectly.
+
+(3)	**Maximum number of users per gift code**: Enter the **maximum number of users per gift code**.
+
+(4)	**Use Gift Card for shipping fee**: Select **Yes** to allow customer to apply gift card for shipping fee
+
+(5)	**Use Gift Card with coupon code**: Select **Yes** to allow customers to use both Gift Card codes and Coupon codes at once. 
+
+(6)	**Show the link to check Gift Card code on Website**: Select **Yes** to allow customers to check status of Gift Cards after entering Gift Codes, and vice versa.
+
+(7)	**Show Gift Card expiry date on Website**: Select **Yes** to show the expiration date of Gift Cards on website, and vice versa.
+
+•	**Tax Configuration**
+
+![Gift card configure]()
+
+**Apply Gift Card discount**: 
+   - **After Tax**: to allow applying Gift Card after the tax is applied
+   - **Before Tax**:  to allow applying Gift Card before tax is applied
+
+**b.	Step 2: On Product Page** tab
+ 
+ ![Gift card configure]()
+
+•	**Gift Card Value**
+(1)	**Default Gift Card value**: Enter the default gift card value (*follow the below instruction*)
+
+(2)	 **Description of Gift Card value**: Enter the description of gift card value (*follow the below instruction*)
+
+ ![Gift card configure]()
+ 
+•	**Gift Card Template**
+(1)	Select **Yes** to allow customers to change the image inserted in the template
+
+(2)	Limit the maximum size of images uploaded by customers to 500KB
+
+•	**Gift Card Shipping Information**
+
+(1)	Allow shipping Gift Cart: Select **Yes**: Gift card can be sent through the post office
+
+(2)	After customers order Gift Cards for friends and choose Send through post office option, Gift Cards will be sent to recipients within 5 days
+
+(3)	**Message max length**: Limit the maximum length of a custom message on Gift Card. 
+
+(4)	**Enable scheduling Gift Card deliver**: Select **Yes** to allow users to schedule gift card delivery date.
+
+**c.	Step 3: On Shopping Cart Page** tab
+ 
+  ![Gift card configure]()
+
+(1)	**Show Gift Card box on Shopping Cart page**: Select **Yes** to Enable a Gift Card box for customers to apply gift codes right on the shopping cart page.
+
+(2)	**Information displayed on Shopping Cart page**: Select the data to display on shopping cart page
+
+(3)	**Show Gift Card image on shopping cart**: Select **Yes** to allow showing Gift Card printout preview as product image on shopping cart page
+
+**d.	Step 4: On Checkout Page** tab
+
+  ![Gift card configure]()
+ 
+**Show Gift Card box on Checkout Page**: Select **Yes** to show Gift Card box on the checkout page
+
+**e.	Step 5: In Email Notification** tab
+
+  ![Gift card configure]()
+ 
+•	**General**
+
+(1)	**Enable email notification**: Select **Yes** to allow sending notification emails to customers and recipients
+
+(2)	**Send Gift Card to friend when Gift Card status is**: Select **Active**, only a gift card which is activated can be sent to a friend
+
+(3)	**Sender of email notification**: Set the default sender of notification emails as General Contact 
+
+(4)	**Send Gift Card copy via email**: Select **Yes** to allow sending a copy of gift card via email if customers choose to ship through post office.
+
+  ![Gift card configure]()
+ 
+•	**Notification email sent to purchasers**
+
+(1)	Select the email template sent to purchasers after buying Gift Card successfully. 
+
+(2)	Select the email template sent to purchasers when recipients receive Gift Cards. 
+
+•	**Notification email sent to recipient**
+
+(3)	Select **Yes** to allow email notification being sent to recipient when sender refunds Gift Card.
+(4)	**Send-to-recipient email template**: Select the email template sent to the gift card’s recipient. 
+(5)	**Send-to-recipient email template when Gift Card is refund**: Choose the email template sent to recipient when gift card is refunded. 
+(6)	**Auto send reminder email when Gift Card is expired**: Enable auto reminder email sent to Customers before Gift card expires 
+(7)	**Auto send reminder email before**: Enter the number of days to send notification to customers before the expiration date of a Gift card. 
+
+**f.	Step 6: In Gift Cart Printout** tab
+ 
+  ![Gift card configure]()
+
+**Logo on PDF Printouts**: Click on **Choose File** to upload an image used as a logo when Gift Cards are printed or sent via email. 
+
+## HOW TO USE
 This section demonstrates how Customers can use Gift Cards in frontend.  
 ### **Purchase a Gift Card Product**
 - Gift Card can be ordered as a normal product. Customers can enter or choose the value and quantity of Gift Card they want to order, then click on **Add to Cart** button.
