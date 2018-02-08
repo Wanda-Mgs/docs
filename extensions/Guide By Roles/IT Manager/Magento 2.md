@@ -1738,6 +1738,7 @@ If you want to apply some payment methods only, choose **Specific Shipping**. Th
 ####	Decentralize User Roles
 
    Path: **System > Permission** section > **User Roles**
+   [![Grant Permission tutorial in Stock Management modules](http://img.youtube.com/vi/DheXLI1iRLA/0.jpg)](http://www.youtube.com/watch?v=DheXLI1iRLA)
    	
 #####	 **Manage user role**
  
