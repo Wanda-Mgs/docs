@@ -254,9 +254,6 @@ Clicking on a session will display detailed information about that session inclu
 	Cashier can Print the session details by clicking on the Print button
 	
 
-
-
-
 #### Record Cash in/ Cash out 
 #### Close Session 
 ### How a Web POS user deletes/ reloads data in local manually
