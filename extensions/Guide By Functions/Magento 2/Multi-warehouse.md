@@ -714,6 +714,93 @@ There are **2 types** of low stock rule:
 **Low Stock notifications** displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click *view* action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
 
 -------
+
+---------------
+## Release Note
+### Version 1.4.0 (released on Oct 9th 2017)
+
+Compatible with Magento 2.2
+
+### Version 1.2.1 (released on Aug 28th 2017)
+
+Improve stock adjustment after completed stock-taking
+
+Improve non-warehouse products in Magento EE
+
+Fix API error when get stocks listing from warehouse
+
+Format date-time in stock movement history via website
+
+Improve adding non-warehouse products when enable feature "adjust stock by entering different qty"
+
+Improve create shipment of item 
+
+Improve stock data in cataglog inventory_stock_item
+
+Allow update qty-to-ship of child product of configurable item after creating shipment
+
+Remove stock-data after delete warehouse
+
+### Version 1.2.0 (released on Jul 18th 2017)
+
+Allow import CSV file over 1000 rows
+
+Improve Warehouse Stocks listing API
+
+Improve global stock when create new product
+
+Improve sync stocks with [WebPOS](https://www.magestore.com/webpos)
+
+Improve store views in warehouse
+
+Improve stock status after creating shipment
+
+Validate receive qty & delivery qty when transfer stock
+
+Allow to add product to more warehouses in product edit page
+
+<a href="#p7">Allow to view stock movement in product edit page</a>
+
+Integrate with Magmi
+
+### Version 1.1.3 (released on May 23th 2017)
+
+Improve update of product qty after cancel a part of Order
+
+Improve update of product qty in warehouse after creating shipment
+
+Improve save non-warehouse products list
+
+Improve integration with [Store Credit](https://www.magestore.com/store-credit) module
+
+Validate receiving qty & delivery qty in Stock Transferring feature
+
+### Version 1.1.2 (updated on Apr 17th 2017)
+
+Improve feature Stock transferring
+
+Upgrade schema
+
+<a href="#p6">Allow to show supplyneeds of products if it is zero</a>
+
+### Version 1.1.1 (updated on Mar 27th 2017)
+
+<a href="#p5">Allow to link multiple Magento stores to a Warehouse</a>
+
+Improve CSV file in stock-taking
+
+### Version 1.1.0 (updated on Mar 24th 2017)
+
+Update stock listing feature (change product sku, non-warehouse products, using decimal stock qty)
+
+Validate data before submitting send/request stock
+
+<a href="#p2">Force edit product qty feature</a>
+
+<a href="#p1">Allow to link Warehouse to Front Magento Store (link products & stock data)</a>
+
+-------
+
 **_Confidential Information Notice_**
 
 Copyright 2018. All Rights Reserved. 
