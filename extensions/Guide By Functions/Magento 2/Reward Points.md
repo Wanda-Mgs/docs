@@ -373,9 +373,34 @@ Remember to click on **Save** or **Save and Continue Edit** button to save your 
 
 ----------------
 ## Release Note 
+
+### Version 1.1.0 (released on Oct 10, 2017)
+
+Fix conflict with discount total of Magestore_Giftvoucher extension
+
+Release the stable version for Magento 2.2
+
 ### Version 1.0.3 (released on Aug 31, 2017)
 
+Update feature spend points for shipping fee
+
+Improve import point feature
+
+Improve spending points with/without tax
+
+Update showing point balance in My Reward page
+
+Improve js in spending point/ earning point grid in backend
+
+Improve earning rate & spending rate in backend
+
+Improve using maximum spending point when creating order in backend 
+
 ### Version 1.0.2 (released on Mar 27, 2017)
+
+Improve checkout via Paypal
+
+Update rounding points features when the point discount less than 1
 
 ### Version 1.0.0 (released on March 29th, 2016)
 
