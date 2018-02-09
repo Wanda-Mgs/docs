@@ -547,11 +547,16 @@ You can see **Return Number, Return On (date), Supplier, Warehouse, Returned Qty
 
 ### Version 1.1.0 (released on Oct 9, 2017)
 
+Compatible with Magento 2.2
+
 ### Version 1.0.1 (released on Jul 19, 2017)
 
 Allow to assign product to suppliers when adding new product
 
+Update code - verified by Magento Marketplace standards
+
 ------------------------------
+
 **_Confidential Information Notice_**
 
 Copyright2018
