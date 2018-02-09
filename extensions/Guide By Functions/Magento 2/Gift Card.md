@@ -639,7 +639,8 @@ Temporary suspend feature: Limit Gift Card usage using Shopping Cart Conditions 
 ### Version 1.0 (released on Jan 20th, 2016)
 Release the stable version for Magento 2.0
 
-------
+---------
+
 **_Confidential Information Notice_**
 
 Copyright 2018. 
