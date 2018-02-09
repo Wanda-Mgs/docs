@@ -228,6 +228,13 @@ You will see when, who and why created Barcode. You can view the list of created
 
 ---------------
 
+## Release Notes
+### Version 1.2.0 (released on Oct 10th 2017)
+Allow to select product attribute to show in print label
+Integrate with Magestore_Webpos extension (allow to search by barcode from WebPOS)
+
+---------------
+
 **_Confidential Information Notice_**
 
 Copyright2018
