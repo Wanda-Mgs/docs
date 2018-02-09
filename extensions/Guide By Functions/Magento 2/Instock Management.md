@@ -464,13 +464,35 @@ Compatible with Magento 2.2
 
 ### Version 1.2.1 (released on Aug 28th 2017)
 
-Remove stock-data after delete warehouse
+Improve stock adjustment after completed stock-taking
+
+Improve non-warehouse products in Magento EE
+
+Fix API error when get stocks listing from warehouse
+
+Format date-time in stock movement history via website
+
+Improve adding non-warehouse products when enable feature "adjust stock by entering different qty"
+
+Improve create shipment of item 
+
+Improve stock data in cataglog inventory_stock_item
+
+Allow update qty-to-ship of child product of configurable item after creating shipment
 
 ### Version 1.2.0 (released on Jul 18th 2017)
 
-Validate receive qty & delivery qty when transfer stock
+Allow import CSV file over 1000 rows
 
-<a href="#p3">Allow to add product to more warehouses in product edit page</a>
+Improve Warehouse Stocks listing API
+
+Improve global stock when create new product
+
+Improve sync stocks with [WebPOS](https://www.magestore.com/webpos)
+
+Improve store views in warehouse
+
+Improve stock status after creating shipment
 
 <a href="#p7">Allow to view stock movement in product edit page</a>
 
@@ -478,11 +500,15 @@ Integrate with Magmi
 
 ### Version 1.1.3 (released on May 23th 2017)
 
-Validate receiving qty & delivery qty in Stock Transferring feature
+Improve update of product qty after cancel a part of Order
 
-Do not allow to mass update product qty
+Improve update of product qty in warehouse after creating shipment
+
+Improve save non-warehouse products list
 
 ### Version 1.1.2 (updated on Apr 17th 2017)
+
+Upgrade schema
 
 <a href="#p6">Allow to show supplyneeds of products if it is zero</a>
 
@@ -490,11 +516,9 @@ Do not allow to mass update product qty
 
 <a href="#p5">Allow to link multiple Magento stores to a Warehouse</a>
 
+Improve CSV file in stock-taking
+
 ### Version 1.1.0 (updated on Mar 24th 2017)
-
-<a href="#p4">Validate data before submitting send/request stock</a>
-
-<a href="#p3">Allow to add product to more warehouse in product edit page</a>
 
 <a href="#p2">Force edit product qty feature</a>
 
