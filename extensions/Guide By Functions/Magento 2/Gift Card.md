@@ -605,8 +605,20 @@ When Customers have a gift card code, they can use it as a discount coupon code 
 ## Release Note
 
 ### Version 2.1.0 (released on Oct 10, 2017)
+Improve function redeem gift card in checkout
+
+Improve function cancel order using gift card
 
 ### Version 2.0.1 (released on July 31, 2017)
+Improve function select type of gift card price as range
+
+Improve product image of gift card in mini-cart
+
+Improve gift card preview popup in frontend
+
+Improve rest API giftcard/list
+
+Improve rest API adding gift card to quote
 
 #### Version 2.0.0 (released on July 17, 2017)
 Using UI component in gift card management in backend
@@ -617,13 +629,16 @@ Storing gift card template in one .html file. Easy to edit/ write new gift card 
 
 ### Version 1.0.5 (released on Mar 31, 2017)
 Update translation file
+
 ### Version 1.0.4 (released on Mar 10, 2017)
+Improve giftcard product on frontend
 
 ### Version 1.0.3 (released on May, 2016)
 Temporary suspend feature: Limit Gift Card usage using Shopping Cart Conditions and/or Cart Item Conditions
-### Version 1.0 (released on Jan 20th, 2016)
 
+### Version 1.0 (released on Jan 20th, 2016)
 Release the stable version for Magento 2.0
+
 ------
 **_Confidential Information Notice_**
 
