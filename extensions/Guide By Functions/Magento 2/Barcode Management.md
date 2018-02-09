@@ -197,7 +197,7 @@ The Scan Barcodes site will be shown as above. Now, let’s move to each step (m
 Select the template and enter the Qty. to print → Then, click on **Print Barcode** button to print
 
 ### Print Barcode
-
+<a name="print-barcode"> </a>
 - *Path:* **Inventory Management > Barcode Management** section **> Print Barcode**
 
 Here you can select the barcode template from the templates created before to print.
@@ -230,8 +230,9 @@ You will see when, who and why created Barcode. You can view the list of created
 
 ## Release Notes
 ### Version 1.2.0 (released on Oct 10th 2017)
-Allow to select product attribute to show in print label
-Integrate with Magestore_Webpos extension (allow to search by barcode from WebPOS)
+<a href="#print-barcode">Allow to select product attribute to show in print label</a>
+
+Allow to search by barcode on [WebPOS](https://www.magestore.com/webpos)
 
 ---------------
 
