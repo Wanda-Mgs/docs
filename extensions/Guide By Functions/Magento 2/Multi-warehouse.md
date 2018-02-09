@@ -190,6 +190,8 @@ Select Staff users to assign permission
 
 ### Transfer Stock
 
+<a name="stock-transfer"> </a>
+
 #### Send stock & Request stock internally
 
 ##### **Send stock:** 
@@ -587,6 +589,8 @@ Admin can also filter the data basing on the variables in the table
 
 #### Supply Needs
 
+<a name="supply-need"> </a>
+
 - *Path:* **Inventory Management > Prediction** section **> Supply Needs**
 
 This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
@@ -755,11 +759,11 @@ Improve store views in warehouse
 
 Improve stock status after creating shipment
 
-Validate receive qty & delivery qty when transfer stock
+<a href="#stock-transfer">Validate receive qty & delivery qty when transfer stock</a>
 
 Allow to add product to more warehouses in product edit page
 
-<a href="#p7">Allow to view stock movement in product edit page</a>
+Allow to view stock movement in product edit page
 
 Integrate with Magmi
 
@@ -773,19 +777,19 @@ Improve save non-warehouse products list
 
 Improve integration with [Store Credit](https://www.magestore.com/store-credit) module
 
-Validate receiving qty & delivery qty in Stock Transferring feature
+<a href="#stock-transfer">Validate receiving qty & delivery qty in Stock Transferring feature</a>
 
 ### Version 1.1.2 (updated on Apr 17th 2017)
 
-Improve feature Stock transferring
+<a href="#stock-transfer">Improve feature Stock transferring</a>
 
 Upgrade schema
 
-<a href="#p6">Allow to show supplyneeds of products if it is zero</a>
+<a href="#supply need">Allow to show supply needs of products if it is zero</a>
 
 ### Version 1.1.1 (updated on Mar 27th 2017)
 
-<a href="#p5">Allow to link multiple Magento stores to a Warehouse</a>
+<a href="#supply-need">Allow to link multiple Magento stores to a Warehouse</a>
 
 Improve CSV file in stock-taking
 
@@ -795,9 +799,9 @@ Update stock listing feature (change product sku, non-warehouse products, using 
 
 Validate data before submitting send/request stock
 
-<a href="#p2">Force edit product qty feature</a>
+Force edit product qty feature
 
-<a href="#p1">Allow to link Warehouse to Front Magento Store (link products & stock data)</a>
+Allow to link Warehouse to Front Magento Store (link products & stock data)
 
 -------
 
