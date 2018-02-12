@@ -618,7 +618,15 @@ After the order has been placed, customers’ credit balances will be updated im
 
 Compatible with Magento 2.2
 
+Improve integration with [WebPOS](https://www.magestore.com/webpos)
+
 ### Version 2.0.0 for Magento 2 (released on Jun 06, 2017)
+
+Improve payment: checkout via Paypal using store credit & multiple currencies
+
+Update display of customer credit in shopping cart
+
+Improve credit sending email
 
 Re-structure coding
 
