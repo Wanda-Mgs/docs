@@ -419,6 +419,16 @@ Compatible with Magento 2.2
 
 <a href="#p1">Send notification email to store owner & administrator when there is an order using store pickup</a>
 
+Improve checkout with store pickup
+
+Improve checkout as guess using store pickup
+
+Improve store map & store listing page
+
+Update js 
+
+Improve responsive in iPhone & iPad
+
 ### Version 1.0.0 (released on Feb 24th, 2016)
 
 Release the stable version for Magento 2.0
