@@ -677,15 +677,41 @@ Support online mode (real-time sync data)
 
 Integrate with Paypal Pro
 
+Improve integration with Magento SOAP api
+
+Update configurable products contains custom options
+
+Update sync Order when checkout configurable items with different attributes
+
+Remove 'pub' folder in extension package
+
 ### Version 1.1.3 (updated on Apr 15th 2017)
 
 Support Authorize.net direct post method
 
 Allow to apply catalog rules when add item to checkout in WebPOS
 
+Improve using included tax price
+
+Improve Braintree payment
+
+Improve bundling js mode
+
+Improve creating date of Order in working shift view
+
 ### Version 1.1.2 (updated on Mar 20th 2017)
 
 Do not show disabled products in Webpos
+
+Improve multiple currencies
+
+Update tier price
+
+Improve bundle products
+
+Improve  DI compile
+
+Improve role checking in WebPOS
 
 Get product price by customer group
 
