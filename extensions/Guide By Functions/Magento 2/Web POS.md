@@ -649,6 +649,72 @@ The Sales by payment method for location displays the number of orders and sales
 
 -------------
 ## Release Note 
+### Version 2.2.0 (released on Nov 29th, 2017)
+
+Improve placing order in online mode
+
+Update Theoretical Closing Balance value
+
+Update Z Report
+
+Update holding carts feature
+
+Update sell gift card item in POS
+
+Allow add notes to custom sale item
+
+Enable Google address suggestion to quick fill customer's addresses
+
+Sort products on POS by product name
+
+Allow to show different tax info, store info on receipt by store view
+
+Show available qty when select options of configurable product
+
+Allow to add items in abandon cart of customer to POS checkout
+
+### Version 2.1.0 (released on Nov 5th, 2017)
+
+Update tier price of configurable product in offline mode
+
+Improve update stock when linking POS location to warehouse
+
+Update refund-by-store-credit option
+
+Update checkout more than available-qty of product
+
+Update display of available-qty of products in POS
+
+Update display of earned points in POS online mode</li>
+
+Improve assigning sales order to warehouse when checkout via POS
+
+Update Z-Report
+
+Apply configuration changes without refresh page of WebPOS
+
+Update refund order using points from POS or gift code to redeem
+
+Apply coupon code multiple times in online mode
+
+Provide logout option after logged-in with no available POS
+
+Show working session ID instead of Staff Name in Z-Report
+
+Update checkout in POS
+
+Improve location & user data after installing WebPOS
+
+Update product listing (including out-of-stock products) and customer listing in WebPOS
+
+Fix notice: Undefined variable: freePackageValue in /vendor/magento/module-offline-shipping/Model/Carrier/Tablerate.php on line 175 whern create order from POS
+
+Improve display of all shipping methods in POS (online mode)
+
+Sorting by product name in POS
+
+Improve permission tree when edit Role in backend
+	
 ### Version 2.0.0 (released on Oct 10th, 2017)
 
 <a href="#p3">Working session management feature (open session, close session)</a>
@@ -657,13 +723,87 @@ Open cash drawer without print receipt
 
 Print receipt without opening popup
 
+Improve tier price of configurable product in offline mode
+
+Improve staff role
+
 Compatible with Magento 2.2
 
 ### Version 1.3.0 (released on Sep 21, 2017)
 
+Update get stock item data by product_it from server
+
+Improve checkout virtual product in offline mode
+
+Improve loading customer data in offline mode
+
+Update checking promotion rule
+
+Improve showing stock of not-allow product types in stock management
+
+Update product data in Webpos after mass-updated products in Magento
+
+Update display of AM/PM time in order listing
+
+Improve searching customer
+
+Update total of sales order & invoice (include tax option)
+
+Update display of product image data in product list
+
+Improve checking required option of bundle products
+
+Improve saving shipping address
+
+Update showing swatch color of configurable product
+
+Update sales summary after closed working shift 
+
 Allow auto print receipt in offline mode
 
 ### Version 1.2.0 (released on Aug 4, 2017)
+
+Update partial refund & partial invoice
+
+Update filter products & stocks in WebPOS by Warehouse products
+
+Improve customer's data when create order in WebPOS
+
+Improve shift management in WebPOS
+
+Update owlCarousel of custom theme
+
+Update default image of categories in WebPOS
+
+Update item's price when there is an active promotional & product price included tax
+
+Update product options when create order in WebPOS
+
+Update Use-To-Checkout button in customer section (online checkout mode)
+
+Update custom sale item (online checkout mode)
+
+Update display of credit card form in payment section
+
+Update grand total, subtotal & item's price when item applied custom discount & product price included tax (online checkout mode)
+
+Update special price item (online checkout mode)
+
+Able to apply coupon code many times
+
+Update creating invoice after made partial refund
+
+Update date group in order list
+
+Update adding product including not-required options to cart
+
+Update transactions in Working Shift when enable online checkout mode
+
+Update order total after back to main screen from checkout page
+
+Update stock qty after sold decimal-qty items
+
+Improve calculation of tax of grouped items
 
 Allow to enable/ disable custom order number format
 
