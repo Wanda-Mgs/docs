@@ -688,19 +688,32 @@ You can filter data with the above criteria to get more accurate reports. Inform
 ## Release Notes
 
 ### Version 4.7 (Released on Apr 16, 2017)
+
+Improve redeem gift card in Magestore OneStepCheckout page
+
+Update property 'giftcard_template_id when view Gift card detail product page
+
+Resolve conflict with Innoexts_CurrencyPricing extension
+
 ### Version 4.6 (Released on Nov 2, 2016)
 <a href="#p16">Allow importing gift code set </a>
 
 A new gift card template (similar to Amazon Gift Card)
 
 Update new free templates
+
 ### Version 4.5 (Released on Jan 18, 2016)
+
+Improve security from the previous version
+
 ### Version 4.4 (Released on Oct 26, 2015)
 
 A brand-new template is added with clean design (looks like Amazon Gift Card)
 
 Allow admin to set permission for Gift Card tab management in backend
+
 ### Version 4.3 (Released on Mar 10, 2015)
+
 <a href="#p12">Show expiration date on Gift Cards</a>
 
 <a href="#p15">Allow admin to check whether Gift Cards are sent or not in back-end</a>
@@ -716,17 +729,23 @@ Allow admin to set permission for Gift Card tab management in backend
 <a href="#p8">Allow customers to use gift codes, Gift Card credit with coupon codes or not</a>
 
 ### Version 4.2 EE (Released on Oct 28, 2014)
+
 Support Magento Enterprise v1.9 - 1.14
+
 ### Version 4.2 CE (Released on Sep 26, 2014)
+
 Optimize design of Gift Card templates
 
 Support Magento Community v1.4 - 1.9
+
 ### Version 4.1 (Released on Aug 25, 2014)
+
 Responsive and Compatible with Magento Community 1.9
 
 <a href="#p8">Admin can enable/disable Gift Card on Checkout page</a>
 
 ### Version 4.0 (updated on Feb 18th, 2014)
+
 <a href="#p13">Separate Gift Card price and Gift Card value, allowing Admin to configure prices of Gift Card products based on their actual value</a>
 
 <a href="#p12">Add Gift Card Template function: Admin can add and manage templates and images of Gift Card products. Customers can upload their own image in frontend</a>
@@ -746,8 +765,11 @@ Allow adding Gift Card product with recipient information when creating order in
 <a href="#p8">Allow using Gift Card discount after or before tax</a>
 
 ### Version 3.3 (updated on Sep 20th, 2013)
+
 Support Soap API version 2
+
 ### Version 3.2 (updated on June 27th 2013)
+
 Auto-add gift card to customer list when using gift card at checkout
 
 Allow recipients to add gift card to their list by clicking on the link in the email
@@ -755,8 +777,11 @@ Allow recipients to add gift card to their list by clicking on the link in the e
 <a href="#p8">Allow customers to check gift card information without logging in to the website</a>
 
 ### Version 3.1 (updated on June 19th 2013)
+
 Support Magento Enterprise Edition
+
 ### Version 3.0 (updated on Jan 17th 2013)
+
 <a href="#p7">Allow Customers to schedule Gift card Delivery date</a>
 
 <a href="#p6">Enable Customers to have Gift card credit balance</a>
@@ -770,11 +795,29 @@ Support Magento Enterprise Edition
 Able to use Gift code to create order in admin
 
 Add API's functions for Gift card
+
 ### Version 2.3 (updated on Sept 20rd 2012)
+
+Improve HTML for IE 9 browser
+
+Improve searching or filtering in backend
+
+Update sending gift card via email
+  
 ### Version 2.2 (updated on Jul 3rd 2012)
+
 Allow automatically generating invoice after placed order by using gift card code.
+
 ### Version 2.1 (updated on Dec 25th 2011)
+
+Update checkout progress
+
+Improve back-end controller of Magento Gift Card extension
+
+Update Gift Card expiration date
+  
 ### Version 2.0 (updated on Dec 8th 2011)
+
 <a href="#p4">Add Weight attribute to Gift Cart product<a>
 
 <a href="#p3">Add Importing feature: Admin can import gift card codes from a CSV file</a>
@@ -782,9 +825,17 @@ Allow automatically generating invoice after placed order by using gift card cod
 <a href="#p2">Add Printing feature: Admin can print the gift card codes, then send them to customers</a>
 
 ### Version 1.2 (updated on Nov 9th 2011)
+
+Improve showing price when using tax
+
+Update using urls for checkout page
+  
 ### Version 1.1 (updated on Sep 21th 2011)
+
 <a href="#p1">Add more configuration fields to change position of Gift Card Box on the checkout page</a>
+
 ### Version 1.0 (released on Aug 30th 2011)
+
 Release extension.
 
 -------------
