@@ -359,25 +359,17 @@ The Low Stock Notification will be sent to recipients’ email as well as be dis
 
 <a href="#p7">Do not allow to delete primary warehouse</a>
 
-Show list short fall items after completing stock transferring, allow to send back short fall item of delivery Warehouse
-
 Update Stock Adjustment
 
 <a href="#p6">Show list order items of qty-to-ship item</a>
 
-<a href="#p5">Add product status filter into the product list (transfer stock, adjust stock, etc)</a>
-
-<a href="#p4">Add status column into grid of request/send stock history</a>
-
-Improve stock transfer
+<a href="#p5">Add product status filter into the product list</a>
 
 Update warehouse Dashboard
 
 ### Version 2.1.0 (released on Jul 13, 2017)
 
 Improve permission checking in Magento 1.8
-
-<a href="#p3">Check permission when create request & sending stocks</a>
 
 <a href="#p3">Show stock movement in product edit page</a>
 
@@ -399,7 +391,7 @@ Upgrade version to compatible with extension on Magento Marketplace
 
 ### Version 1.1.0 (released on Mar 29, 2017)
 
-<a href="#p1">Release "force edit product qty" feature which allows to edit available qty of product in each Warehouse & global</a>
+<a href="#p1">Release "force edit product qty" feature which allows to edit available qty of product in Warehouse & global</a>
 
 Update syntax in PHP 5.5 and lower
 
