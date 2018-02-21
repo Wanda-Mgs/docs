@@ -672,14 +672,106 @@ The Z-report will be refreshed to serve new shift/working day after you select C
 
 ---------------
 ## Release Note 
+
+### Version 3.2.0 (released on Nov 17th 2017)
+
+Improve order report
+
+Update checkout notice 
+
+Add qty field when purchase custom sale
+
+Show orders of current store view only after logged-in
+
+Able to edit customer after re-order</li>
+
+Update display of special price of configurable product
+
+Edit qty of product in checkout list
+
+Display value of percent-price custom options
+
+Allow to search products in category
+
+Update order status after refunded
+
+Update tier price after update qty of product in checkout list
+
+Sync products after enable flat_product & flat_category
+
+Improve create invoice after partial refunded
+
+Redirect to login page after time-out of session
+
+Improve display of tax value after enable border trade & included-tax product price
+
+Show multiple locations in grid of staffs
+
+Update show orders from other staffs
+
+Update time-zone of session opening time & closing time
+
+Update Z-Report & counting drawer
+
+Update creating invoice & shipment when checkout
+
+Improve display reward point balance in checkout section
+
+Update checkout configurable product when allow back-order
+
+Display tax value in checkout list
+
+Improve redeem reward points
+
+Improve compatibility with Inventory Management modules
+
 ### Version 3.1.0 (released on Oct 5th, 2017)
 
+Select default country when add new customer
+
+Improve bundle and configurable item in POS cart
+
+Set custom price as 0 for item in cart
+
+Search product by barcode generated from Barcode Management module
+
+Improve left menu item
+
+Update layout on iPad
+
+Improve creating shipment & credit memo from POS
+
+Update selecting different store view on POS
+
+Update customer group permission
+
+Checkout configurable, bundle & group product with custom option
+
+Update checkout not-shippable custom sales item
+
+Update sales order in offline mode when POS user using a custom permission
+
+Improve printing z-report from backend
+
+Update re-order item with custom option
+
 ### Version 3.0.5 (released on Jun 20th, 2017)
+
 Integrate with Pay.nl payment
 
 <a href="#p7">Allow to sync orders from Webpos by manual</a>
 
 Add more labels to translation file
+
+Improve validating payment before submit order from POS
+
+Fix warning errors in system logs
+
+Update search results in WebPOS
+
+Improve checkout virtual products in WebPOS
+
+Improve checkout in WebPOS using credit card payment
 
 ### Version 3.0.4 (updated on May 23th, 2017)
 
@@ -687,7 +779,40 @@ Add more labels to translation file
 
 <a href="#p5">Provide more custom shipping method</a>
 
+Update view order in backend
+
+Improve bundle items in Webpos
+
+Update prefix of data table in reports
+
+Update paying with credit card
+
+Update checkout using recent created shipping/billing addresses
+
+Update translate menu group in Webpos
+
+Update product prices based on customer group in offline mode
+
+Update email configuration
+
+Improve record of cash transactions
+
+Improve display of product boxes in Webpos
+
+Improve using reward points
+
+Update translation labels in javascript files
+
+Update tax calculation based on origin shipping address in offline mode
+
+Update search function
+
+Improve ACL checking in reports of Webpos
+
+Improve default shipping method in Webpos checkout
+
 ### Version 3.0.3 (updated on Apr 28th, 2017)
+
 Hide Reward point, gift card discount field when checkout without using point or gift card
 
 <a href="#p3">Always show view product information icon in tablet</a>
@@ -698,9 +823,49 @@ Integration with module Aitoc_Aitoptionstemplate
 
 Display order creation date by timezone of current Store view
 
+Update scanning barcode multiple times
+
+Checkout using Authorize.net with 100% discounted
+
+Update Z-report & Sales report
+
+Update config "User Defined Qty"
+
+Update store credit form after updated balance
+
+Improve root category of selected Store in Webpos
+
+Update checkout as guest
+
+Improve bundle product in WebPOS
+
+Search customer in offline data when enable online mode
+
+Update address preview
+
+Update search configurable product by its child
+
+Improve record transaction into Cash drawer after refunded by cash
+
+Update css style in iPad
+
+Update data format in Safari
+
 ### Version 3.0.2 (updated on Apr 13th, 2017)
 
 Add missing translation labels in .html file
+
+Improve grand total value
+
+Improve placing Order from Webpos
+
+Improve display of tax value of multiple qty item
+
+Improve search using special characters
+
+Update checkout out-of-stock products
+
+Improve compatibility with Magestore Reward Points extension
 
 ### Version 3.0.1 (updated on Mar 20th, 2017)
 
@@ -709,6 +874,7 @@ Add missing translation labels in .html file
 Optimize product image size in Webpos
 
 ### Version 3.0.0 (updated on January 23, 2017)
+
 Save & store data in IndexedDB browser
 
 Being updated with new design & interface
@@ -732,6 +898,64 @@ New API key to connect with Retailer POS app for iOS
 Enable reload orders: add to cart items from an old order
 
 <a href="#p1">View sales report from Web POS screen</a>
+
+### Version 2.1 (updated on Oct 31st 2015)
+
+Allow changing color theme of POS checkout page
+
+### Version 2.0 (updated on August 11th 2015)
+
+Update with a new interface, smoother UI/UX checkout of a native POS app
+
+Manage staff permissions & sale locations
+
+Search products by attribute & barcode
+
+Add custom sale items
+
+Apply custom discount per item & per cart based on percentage or fixed amount
+
+Support Offline mode
+
+Support receipt printer, barcode scanner, card reader
+
+Track in-store sale reports of each staff
+
+Integrate with Inventory Management to manage stock in multiple sales locations
+     
+Perfectly compatible with latest security patch SUPEE-6788
+
+### Version 1.3 (updated on Mar 12th 2015)
+
+Allow searching customers from different stores in Web POS
+
+Auto-fill default shipping address of the chosen existing customer
+
+Allow showing out-of-stock products in search result
+
+Add a button to clear all products in cart & clear all sessions
+
+Allow changing logo in Web POS
+
+Able to select color of section headings and buttons in checkout page
+
+Add quick link to go to Settings page in Web POS page, allowing Admin to go to configuration page
+
+### Version 1.2 (updated on Oct 5th 2013)
+
+Compatible with Reward Points extension
+
+### Version 1.1 (updated on Jun 28th 2013)
+
+Add swipe-card function when creating order by Web POS
+
+Improve running on HTTPS server
+
+Allow updating product price for different customer groups
+
+### Version 1.0 (updated on May 10th 2013)
+
+Release stable version
 
 ----------
 **_Confidential Information Notice_**
