@@ -354,9 +354,15 @@ This tab allows you to edit Tax & Default Shipping Cost for purchase orders.
 
 ### Version 1.1.0 (released on Sep 12, 2017)
 
+Update creating a new Purchase order
+
 <a href="#p2">Allow to import CSV when delivery/receipt/transfer items in Purchase Order</a>
 
 ### Version 1.0.1 (released on Jul 13, 2017)
+
+Improve view Purchase order
+
+Choose base currency automatically when create new PO
 
 <a href="#p1">Allow to assign product to many suppliers in product edit page</a>
 
