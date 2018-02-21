@@ -357,10 +357,11 @@ The Low Stock Notification will be sent to recipients’ email as well as be dis
 
 ### Version 2.1.1 (released on Oct 5, 2017)
 
-
 <a href="#p7">Do not allow to delete primary warehouse</a>
 
 Show list short fall items after completing stock transferring, allow to send back short fall item of delivery Warehouse
+
+Update Stock Adjustment
 
 <a href="#p6">Show list order items of qty-to-ship item</a>
 
@@ -368,7 +369,13 @@ Show list short fall items after completing stock transferring, allow to send ba
 
 <a href="#p4">Add status column into grid of request/send stock history</a>
 
+Improve stock transfer
+
+Update warehouse Dashboard
+
 ### Version 2.1.0 (released on Jul 13, 2017)
+
+Improve permission checking in Magento 1.8
 
 <a href="#p3">Check permission when create request & sending stocks</a>
 
@@ -378,13 +385,37 @@ Integrate with Magmi
 
 ### Version 2.0.1 (released on Jun 23, 2017)
 
+Improve compatibility with refund process in WebPOS
+
+Improve low stock listing
+
+Improve update stock_status of product in warehouse when change qty-in-warehouse
+
+Improve filter availability_date in supply need listing
+
 Update inventory database schema (add warehouse_id to order_item, shipment_item & creditmemo_item)
+
+Upgrade version to compatible with extension on Magento Marketplace
 
 ### Version 1.1.0 (released on Mar 29, 2017)
 
 <a href="#p1">Release "force edit product qty" feature which allows to edit available qty of product in each Warehouse & global</a>
 
+Update syntax in PHP 5.5 and lower
+
+Update warehouse stock collection
+
+Update table prefix
+
 ### Version 1.0.1 (released on Mar 25, 2017)
+
+Improve view warehouse in backend
+
+Import products for stocktaking if there is a row with null value in Qty column
+
+Allow importing CSV file which contains more than 1000 rows
+
+Import product data flow in Magento 1.8
 
 <a href="#p2">Implement the export warehouse stocks feature</a>
 
