@@ -352,11 +352,15 @@ The configuration is divided into 4 groups including **General**, **Store List**
 ![enter image description here](https://github.com/Magestore/Docs/blob/master/extensions/Guide%20By%20Functions/Magento%201/image_Store%20Pickup/image047.png?raw=true)
 
 You can modify default email template sent to store manager and admin when pickup order is created, changed status or customers send message through the **Contact Form**.
+
 After configuring all fields, click on the **Save Config** button to save your work
+
 -----------
 ## Release Note
 
 ###  Version 4.3 (Updated on Aug 2016)
+
+Improve functionalities
 
 ### Version 4.1 (Updated on 8 July 2015)
 
@@ -402,13 +406,25 @@ Allow Customers to choose pickup time only after choosing a store and a pickup d
 
 ### Version 3.9 (upgraded on Jul 16th 2013)
 
+Improve performance on IE
+
+Improve configuring to limit the number of stores shown on the Checkout page
+
 ### Version 3.8 (upgraded on May 21th 2013)
 
 Work with the new version of Google Maps API.
 
 ### Version 3.7 (upgraded on April 18th 2013)
 
+Update print invoice to PDF file
+
 ### Version 3.6 (upgraded on Feb 18th 2013)
+
+Improve customers viewing each store map
+
+Update translating labels by CSV files
+
+Improve email sending when creating orders in Backend
 
 ### Version 3.5 (upgraded on Dec 17th 2012)
 
@@ -420,8 +436,11 @@ Improve speed of loading and calculating store distance.
 
 Add feature of paging for all store views page.
 
+Improve Shipping/Invoice page (in back-end)
+
 ### Version 3.3 (upgraded on Oct 1st 2012)
 
+Update translation in backend
 
 <a href="#p5">Add function of sending email to store owner when order status is changed.</a>
 
@@ -435,6 +454,10 @@ Allow administrator to add image(s) to all store showrooms.
 
 ### Version 3.1 (upgraded on Jul 2nd 2012)
 
+Improve checking-out using Paypal Express
+
+Compatible with Magento Enterprise 1.12.
+
 ### Version 3.0 (upgraded on Apr 16th 2012)
 
 Allow creating order that uses store pickup method in back-end.
@@ -445,9 +468,15 @@ Work with new version of Google Map (API v3).
 
 ### Version 2.2 (upgraded on Nov 21th 2011)
 
+Improve saving billing address
+
 ### Version 2.1 (upgraded on Oct 27th 2011)
 
 Optimize the speed of loading stores in checkout page.
+
+Update  javascript when store address has special characters
+
+Save information if using Paypal express payment
 
 ### Version 2.0 (upgraded on Apr 7th 2011)
 
@@ -456,6 +485,10 @@ Optimize the speed of loading stores in checkout page.
 <a href="#p2">Show Google map on the checkout page. Customers can select shipped store by clicking store on the map.</a>
 
 ### Version 1.4 (upgraded Feb 25th 2011)
+
+Fixed issue: Element "free-location-box" is null
+
+Improve Display pickup time/date (configuration)
 
 ------
 **_Confidential Information Notice_**
