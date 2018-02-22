@@ -581,3 +581,115 @@ In tab **Manage Labels**: Enter a **Title** to be used as a label for the field.
 When complete, click **Save Attribute** or **Save and Continue Edit**.
 
 
+#### Attribute Set 
+
+_Path: **Catalog > Attributes** section **> Manage Attribute Sets**_
+
+
+##### Manage Attribute Set
+ 
+![Manage Attribute Sets page](./Image_starter_m1/image050.png)  
+
+1. Click **Add New Set** to create new attribute set.
+2. Fill out the blank with a value to search,.
+3. Click **Search** to start your search or clear the filter field.
+
+You can view or edit details of attribute set by clicking on each line.
+
+
+##### Create A New Attribute Set
+
+![Add New Set button](./Image_starter_m1/image051.png)  
+  
+Click **Add New Set** button to create new attribute set.
+
+![Add New Attribute Set page](./Image_starter_m1/image052.png)  
+ 
+1. In the **Name** field, enter a name for the attribute set (required)
+2. In the **Based On** field, select an existing attribute set to be used as a template:
+*	Bag
+*	Bottom
+*	Default
+*	Downloadable
+*	Gear
+*	Sprite Static Ball
+*	Sprite Yoga Strap
+*	Top
+
+3. Click **Save Attribute Set** button and continue
+
+![Save Attribute Set button](./Image_starter_m1/image053.png)  
+ 
+To add a new attribute to the set, drag the attribute from the **Unassigned Attribute** list to the appropriate folder in the **General** group.
+
+Click **Save Attribute Set** to complete the process.
+
+
+#### Categories
+
+_Path: **Catalog > Manage Categories**_
+
+##### Manage Categories  
+
+When selecting a category on the left, all the information will be displayed on the left.
+
+![New Root Category page](./Image_starter_m1/image054.png)  
+ 
+##### Create A New Category
+
+_Path: **Catalog > Manage Categories**_
+
+Set **Store View** to determine where the new category is to be available. In the category tree, tap the parent category of the new category.
+
+If you’re starting without any data, there might be only **Default Category**, which is the root. 
+
+![Add Sub-category button](./Image_starter_m1/image055.png)  
+ 
+Click **Add Sub-category** to add a new category.
+
+**•	General Information tab**
+
+![General Information tab](./Image_starter_m1/image056.png)  
+ 
+1. Enter the Category Name
+2. If you want the category to be immediately available in the store, set **Is Active** to **Yes**
+3. , 4., 5., 6., 7. Enter **SEO-related** fields (optional)
+8.	To include the category in the top navigation, set **Include in Navigation Menu** to **Yes**
+9.	Click **Save Category** to finish
+
+**•	Display Setting tab**
+ 
+![Display Setting tab](./Image_starter_m1/image057.png)   
+ 
+1. Set **Display Mode** to one of the following:
+* Products Only.
+* Static Block Only.
+* Static Block and Products.
+
+2. To include a content block on the category landing page, choose the CMS Block that you want to appear
+3. If you want the category page to include the **Filter by Attribute** section of layered navigation, set **Anchor** to the **Yes** position.
+4. To change the **Available Product Listing Sort By** options, do the following: 
+* Clear the **Use All** checkbox. 
+* Select one or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
+- Position.
+- Product Name.
+- Price 5.
+5. To set the default sort order for the category, check the **Use config setting** box.
+6. To change the default **Layered navigation price step** setting, do the following:
+* Clear the **Use Config Settings** checkbox.
+* Enter the value to be used as an incremental price step for layered navigation.
+7. Click **Save Category** to finish.
+
+**•	Category Products tab**
+
+![Category Products tab](./Image_starter_m1/image058.png)  
+ 
+To find the products:
+
+1. Fill out the blank with a value.
+2. Click **Search** to find the products.
+To include a product in the category. 
+3. Mark the checkbox of each product, in the first column.
+4. Click **Save Category**
+
+
