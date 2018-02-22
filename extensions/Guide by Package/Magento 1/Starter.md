@@ -262,11 +262,20 @@ _Path: **Sales > Web POS** section **> Settings > Shipping for POS**_
 
 _Path: **Sales > Web POS** section **> Settings > Product Search**_
  
+![Product Search setting](./Image_starter_m1/image025.png)
+
 1. **Product Attributes for Search**: Select attributes by which you want to search products. The default attributes are **Name** and **SKU**. Users can choose among those selections. Hold **Shift +Click** to select more than one 
 2. **Barcode Attributes**: Choose SKU to search products quickly (only applicable if you have a barcode attribute which you can skip in this Starter Package). 
 3. **Show inactive categories**: Select **Yes** or **No** to display inactive categories in WebPOS frontend.
 
-![Product Search setting](./Image_starter_m1/image025.png)
+#### Set Up Default Email 
+
+This configuration includes 4 types of email relating to 4 different process i.e. **Orders, Invoices, Shipments** and **Credit Memos**
+
+![Default Email Configuration setting](./Image_starter_m1/image026.png)
+ 
+This section of configuration allows you to send customers automatic email to confirm orders, receive invoices, confirm shipment as well as credit memos.
+
 
 
 
