@@ -693,3 +693,935 @@ To include a product in the category.
 4. Click **Save Category**
 
 
+#### Product Types
+
+_Path: **Catalog > Manage Products**_
+
+##### Product Types 
+
+| Product Types |	Description|
+| --- | --- | 
+| Simple Product	| A simple product is a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products |
+| Configurable Product	| A configurable product appears to be a single product with lists of options for each variation. However, each option represents a separate, simple product with a distinct SKU, which makes it possible to track inventory for each variation |
+| Grouped Product	| A grouped product presents multiple, standalone products as a group. You can offer variations of a single product, or group them for a promotion. The products can be purchased separately, or as a group |
+| Virtual Product	| Virtual products are not tangible products, and are typically used for products such as services, memberships, warranties, and subscriptions. Virtual products can be used in association with grouped and bundle products |
+| Bundle Product	| A bundle product let customers “build their own” from an as sort of options. The bundle could be a gift basket, computer, or any things else that can be customized. Each item in the bundle is a separate, standalone product |
+| Downloadable Product	| A digitally downloadable product that consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server |
+
+
+##### Manage Product 
+
+_Path: **Catalog > Manage Products**_
+
+![Manage Products page](./Image_starter_m1/image059.png) 
+ 
+**Workspace Controls**
+
+| Control	| Description |
+|	Add Product	| Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: Simple Product, Configurable Product, Grouped Product, Virtual Product, Bundle Product, Downloadable Product |
+| Action	| Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, mark the check box in the first column of each product. Options: Delete, Change Status, Update Attributes |
+|	Filters	| Initiates a catalog search based on the current filters |
+|	Edit	| Opens the product in edit mode or view product’s detail.  You can accomplish the same thing by clicking any where on the row |
+
+
+##### Create A New Product 
+
+![Add Product button](./Image_starter_m1/image060.png) 
+ 
+Click **Add Product** button at the top right of the page. You will be directed to the **New Product** page where you can select the **Attribute Set** and **Product Type**. Then click **Continue** to process.
+
+![Product Type field](./Image_starter_m1/image061.png) 
+ 
+
+###### Simple product
+
+There are several tabs to complete information for the product. But only **General, Prices** and **Inventory** tabs have required information that you have to fill before continuing.
+
+**•	General tab**
+ 
+![General Tab](./Image_starter_m1/image062.png) 
+
+Complete the required settings including **Product Name, Description, Short Description, SKU, Weight, Status & Visibility**. 
+
+**NOTE**: you need to choose **Yes** in **Enable On WebPOS** setting to display this product in WebPOS frontend.
+
+Then, Click **Save** to continue.
+
+**•	Prices tab:** enter the product price and tax class (required)
+
+![Prices tab](./Image_starter_m1/image063.png) 
+ 
+**•	Inventory tab:** enter the Qty in stock of the product.
+
+![Inventory tab](./Image_starter_m1/image064.png) 
+ 
+Scroll down and complete the information in the following sections as needed:
+ 
+![Inventory tab on left menu](./Image_starter_m1/image065.png) 
+
+
+###### Configurable product
+
+![select configurable product](./Image_starter_m1/image066.png) 
+ 
+In the **New Product** page, choose **Configurable Product**.
+
+![Select Attributes](./Image_starter_m1/image067.png) 
+ 
+Select the Attribute(s) and click **Continue**.
+
+Complete required information in **General & Prices** tabs just like Simple Product and click **Save** or **Save and Continue Edit** to continue. Fill information in other tabs if you want to.
+ 
+![other tabs on left menu](./Image_starter_m1/image068.png) 
+
+**Adding configurations**
+
+![Associated Products tab](./Image_starter_m1/image069.png) 
+ 
+After creating a product, go to **Associated Products** tab, you can use the **Quick Simple Product Creation** to add configurations for the product quickly and conveniently. 
+
+
+###### Grouped product
+
+![select Grouped Product](./Image_starter_m1/image070.png) 
+
+In the **New Product** page, choose **Grouped Product**.
+
+Complete required information in **General** tab just like Simple Product and click **Save** or **Save and Continue Edit** to continue. Fill information in other tabs if you want to.
+
+![other tabs](./Image_starter_m1/image071.png) 
+ 
+
+**Add products to Group**
+
+Tap on **Associated Products** at the bottom of the left menu to add products to group 
+ 
+![Associated Product tab](./Image_starter_m1/image072.png) 
+
+A list of products will be displayed on the screen, users just need to click on them to add them to a specific group 
+
+![select products](./Image_starter_m1/image073.png) 
+ 
+And don’t forget to tap on **Save and continue edit** button at the right side of the screen to save your configuration 
+
+![Save button](./Image_starter_m1/image074.png)  
+
+
+###### Virtual product
+ 
+![select Virtual Product](./Image_starter_m1/image075.png)  
+ 
+Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same.
+
+
+###### Bundle product
+ 
+![select Bundle Product](./Image_starter_m1/image076.png) 
+
+In the **New Product** page, choose **Bundle Product**.
+
+And then, the screen will be displayed like the screenshot below: 
+
+![enter info into tabs](./Image_starter_m1/image077.png) 
+ 
+There are many sections for users to enter product information on the left side of the screen: 
+ 
+![14 tabs on left menu](./Image_starter_m1/image078.png) 
+
+In total, there are 14 sections for users to fill in such as **General, Prices, Meta Information, Images, Design, Gift Options, Inventory, Websites, Categories, Ralated Products, Up-sells, Cross-sells, Custom Options** and **Bundle Items**
+
+And each section will be divided into several fields for users to fill in. Enter data for all of them to complete basic settings. 
+
+
+**Add Bundle items**
+
+In the left menu of the **New Product** page for Bundle Product, go to **Bundle Items** tab.
+
+To configure shipment method for bundle items, select between 2 options which are: **separately** or **together**
+
+![Bundle Items tab](./Image_starter_m1/image079.png) 
+ 
+Click **Add New Option**
+
+![Add New Option button](./Image_starter_m1/image080.png) 
+ 
+Then, the screen will be displayed like the screenshot below: 
+ 
+![New Product page](./Image_starter_m1/image081.png) 
+
+*	**Default Title** to be used field label.
+*	Set **Input Type** to one of the following:
+-	Drop-down.
+-	Radio buttons.
+-	Checkbox.
+-	Multiple Select.
+*	Choose between **Yes** or **No** to make the field a required entry.
+*	Tap the orange button **Add Selection**, then mark the checkbox of each product that you want to include in this option.
+
+Mark the checkbox of each product to choose 
+ 
+![mark item's checkbox](./Image_starter_m1/image082.png) 
+
+Click **Add Selected Product(s) to Option**, you will see.
+ 
+![enter Qty and select in the table](./Image_starter_m1/image083.png)  
+ 
+- Mark the checkbox of a product that you want it is default.
+-	Enter **Default Quantity**.
+
+Finally, click **Save**.
+
+
+###### Downloadable product
+ 
+![select Downloadable Product](./Image_starter_m1/image084.png) 
+
+In the **New Product** page, choose **Downloadable Product**.
+
+You will be directed to a page with 14 sections for you to enter product data such as **General, Prices, Meta Information, Images, Design, Gift Options, Inventory, Websites, Categories, Related Products, Up-sells, Cross-sells, Custom Options** and **Downloadable Information**. 
+ 
+![14 tabs to fill info](./Image_starter_m1/image085.png) 
+
+In **General** section, the screen will be displayed like this: 
+ 
+![General tab](./Image_starter_m1/image086.png)  
+ 
+Complete the required setting
+*	Enter **Product Name**. (required)
+*	Fill in the **Description** and **Short Description** for products
+*	The default **SKU** that is based on the product name, or enter another
+*	Set **Date** for product 
+*	To set **Status**: Please choose between **Enable** or **Disable** 
+*	Type in **URL Key** (optional) 
+*	Choose **Visibility** for products
+*	To **Enable on Webpos**, choose between **Yes** or **No**
+
+Finally, don’t forget to click **Save** to continue.
+
+**Add Downloadable Package**
+
+In **Downloadable Information** Section, there are 2 parts for users to fill in: **Samples** and **Links**
+
+![Samples & Links tabs](./Image_starter_m1/image087.png) 
+ 
+To complete the **Samples** section: 
+
+![Sample section](./Image_starter_m1/image088.png) 
+ 
+*	Enter the **Title** - to use as a heading for the samples.
+*	To enter the **Title** of the individual sample:
+
+Tap on the orange button **Add New Row** and then choose between Upload file or paste the URL. Or users can tap on **Add New Row** button to add more samples. When completed, click **Save**.
+
+![File & URL fields](./Image_starter_m1/image089.png) 
+ 
+And then, the other part is **Links**. 
+
+![Links section](./Image_starter_m1/image090.png) 
+ 
+*	Enter the **Title** - to use as a heading for the download links.
+*	Enable the function **Links can be purchased separately** by choosing **Yes**. If not, choose **No**
+*	Click **Add New Row**, then:
+
+![Title & Price fields](./Image_starter_m1/image091.png) 
+ 
+Enter **Title** and **Price**. For both File and Sample files, choose:
+
+*	**Upload File**: To upload the file to the server. Browse the file, and select it for upload.
+*	**URL**: To access the distribution file from a URL. Enter the full URL to the download file.
+
+
+
+##### Product Setting
+###### a. Content
+
+_Path: **Catalog > Manage Product**_
+
+![Manage Product submenu](./Image_starter_m1/image092.png) 
+
+![Edit action](./Image_starter_m1/image093.png) 
+ 
+Click **Edit** under **Action** column to edit information of a product. You can quickly enter content into the blank fields or click on **WYSWYG Edit** button to use a more customizable editor tool. 
+ 
+![WYSWYG Edits button](./Image_starter_m1/image094.png)  
+
+![WYSWYG window](./Image_starter_m1/image095.png) 
+ 
+
+###### b.	Images 
+Choose section **Images** on the list of Product Information
+ 
+![upload image by buttons](./Image_starter_m1/image096.png) 
+
+Tap on **Browser Files** or **Upload Files**  to add images 
+
+
+###### c.	Search Engine Optimization
+
+This part is in the section **Meta Information** on the **Product Information** menu on the left.
+ 
+![Product Information menu tabs](./Image_starter_m1/image097.png)  
+
+![Meta Information tab](./Image_starter_m1/image098.png) 
+
+
+###### d.	Related Products, Up-sells and Cross-sells 
+
+These 3 sections are on the **Product Information** menu on the left side of the screen. 
+
+![left menu](./Image_starter_m1/image099.png) 
+ 
+And then, click to add any specific product to one of **Related Products, Up-sells** or **Cross-sells** 
+
+![Save button](./Image_starter_m1/image100.png) 
+ 
+Finally, don’t forget to tap on **Save** button to maintain your adjustment. 
+
+
+###### e.	Gift Option
+
+_Path: **Catalog > Manage Products > Product Information left** menu **> Gift Options**_
+
+![Gift Options tab](./Image_starter_m1/image101.png) 
+ 
+![Gift Options fields](./Image_starter_m1/image102.png) 
+
+Users can enable the function of **Allow Gift Massage** or **Allow Gift Wrapping** by choosing **Yes** or **No** option.
+
+### Customer 
+
+_Path: **Customers > Manage customers**_
+
+#### Manage Customer 
+
+![Manage Customer submenu](./Image_starter_m1/image103.png) 
+
+![Manage Customers page](./Image_starter_m1/image104.png) 
+  
+1. Click **Add New Customer** to create new customer.
+2. Fill out key word to search customer information.
+
+#### Create New Customer 
+
+![Add New Customer button](./Image_starter_m1/image105.png)
+
+Click **Add New Customer**.
+ 
+And then the screen will display 2 sections for users to edit: **Account Information** and **Address** 
+
+![Customer Information tabs](./Image_starter_m1/image106.png)
+ 
+
+##### a.	Account Information section: 
+
+Users need to collect customer information to fill in those fileds. 
+
+![Account Information tab](./Image_starter_m1/image107.png)
+ 
+
+###### b.	Addresses section: 
+ 
+![Addresses section](./Image_starter_m1/image108.png)
+
+Users could base on the history database or fill in the brand new address for customers.
+
+After fill in all required fields, tap on button **Save** to maintain all changes or adjustments. 
+
+### Warehouse
+
+_Path: **Inventory Management > Stock Listing** section **> Warehouse**_
+
+Please refer to Section <a href="#warehouse">Warehouse</a> for details.
+
+
+### Location
+
+_Path: **Sales > Web POS** section **> Manage Locations**_
+
+![Add Location button](./Image_starter_m1/image109.png)
+ 
+To add new location, tap on the green button **Add Location**
+
+A screen allowing customers to fill in general information will be displayed automatically
+
+![Location Information tab](./Image_starter_m1/image110.png)
+ 
+On the pop-up screen:
+*	Fill in the **Location Name** (required)
+*	Fill in the location **Address** field (required)
+*	Fill in the location **Description** field
+*	Choose the Warehouse. 
+- If you already assign another location to your Primary Warehouse, you won’t be able to assign it again here. 
+- If you want to assign a new location to your Primary Warehouse, you need to **Edit** this field of the currently assigned warehouse to **Don’t link to any Warehouses**, then come back to the new location that you wish to assign and assign it to **Primary Warehouse**.
+
+*	Click on **Save**
+
+To edit information for an existing location, tap on the blue underlined **Edit** and then a screen which are as same as the screen above will be displayed.
+
+![Edit action](./Image_starter_m1/image111.png)
+ 
+
+### Store (POS) 
+
+_Path: **Sales > Web POS** section **> Manage POS**_
+
+![Manage POS submenu](./Image_starter_m1/image112.png)
+ 
+#### Create A New Web POS 
+
+![Add POS button](./Image_starter_m1/image113.png)
+
+Tap on the green button **Add POS** to create new one. 
+ 
+There are 3 parts which are **POS information, Closed Session** and **Currrent Session Detail**. 
+
+In terms of creating new Web POS, users need to fill in section **POS information** only. 
+
+![POS Information tab on left menu](./Image_starter_m1/image114.png)
+
+
+**POS Information tab:**
+ 
+![POS Information tab](./Image_starter_m1/image115.png)
+
+Fill out or select all the re quired fields.
+
+-	**POS Name**: POS’s name. (re quired)
+
+- **Location**: POS’s location. (required). Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily.
+
+-	**Status**: you Enable or Disable this POS
+
+After all, tap **Save POS** to maintain recent adjustment. 
+
+**Note:** Even when you set the warehouse to a certain location, with online store, admin can see clearly warehouse information in any location. HOWEVER, with offline store, only Sales Manager can view the warehouse information only in the mapped location.
+IT Admin can give other admin permission to view the Inventory information in any location by going to System > User Roles > Add new role or Edit role > Role Resource
+
+
+#### Manage Web POS 
+
+_Path: **Sale > Web POS** section **> Manage POS**_
+
+![Manage POS page](./Image_starter_m1/image116.png)
+ 
+1. Click **Add POS** to create new POS.		
+2. Click **Filters** to search POS information.
+3. If you want to delete a POS, first select a POS, then click **Actions**: choose **Delete**.
+4. Click **Edit** to view a POS’s details or edit
+
+
+## HOW TO USE
+### HOW TO USE INSTOCK MANAGEMENT MODULE 
+#### Stock listing
+##### Stocks in Warehouse
+
+_Path: **Inventory Management > Stock Listing** section **> Stocks in Warehouse**_
+
+Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include **Available Qty, Qty to Ship** and **Total Qty** and **Shelf Location** of each product in the warehouse.
+
+![Update stock](./Image_starter_m1/image117.png)
+ 
+You can easily edit Qty of products in-line within a few steps:
+
+1. Mark the checkbox to select products 
+2. **Qty in Warehouse(s)**: Edit product quantity in line 
+3. **Shelf Location**: Input product location in the physical warehouse 
+4. Click on **Update Stock** to save changes
+
+##### Non-Warehouse Products
+
+_Path: **Inventory Management > Stock Listing** section **> Non-Warehouse Products**_
+
+When a product is newly created and not assigned to any warehouse yet, it will be automatically allocated in Non-warehouse. 
+
+![Non-warehouse Product page](./Image_starter_m1/image118.png)
+
+From here admin can: 
+
+1. Select the product by clicking on the checkbox
+2. In **Actions** menu, add it into warehouse by clicking on its **Add to Warehouse** from the drop-down list
+3. Click **Submit** to confirm and the product is added to the Primary Warehouse
+
+##### Warehouse
+
+_Path: **Inventory Management > Stock Listing** section **> Warehouses**_ 
+
+After installation, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse.
+
+###### a.	Warehouse information
+
+The **Warehouse** menu allows you to control your warehouse with 6 tabs:
+
+![6 tabs on left menu](./Image_starter_m1/image119.png)
+ 
+1. **General information** about the Warehouse: records basic details of the warehouse such as Name, Code, Contact Email, Address, etc. If you enable the **Link warehouse to Magento front store view** setting above, this is where you can select the warehouse’s linked front store.
+2. **Stock On Hand** displays the amount of goods that the warehouse has available at that time. Here, you can update each product’s **Qty in Warehouse(s)** and its **Shelf Location** in-line. Click on Export to transfer the information as an excel file or CSV file to your device.
+3. **Stock Movement** shows the changes in stock quantities. Click on each record to view more details. Information includes added/ subtracted quantity, product SKU, movement type, movement date and reference number to access further details by a click.
+4. **Warehouse Permissions** manages staff access to the warehouse. Detailed guide is given in the next section **Warehouse permissions**
+5. **Orders** records detailed information of each order to the warehouse including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+6. **Dashboard** demonstrates summarized **sales data** of the warehouse in the last 30 days. You can view data of the warehouse’s sales, best sellers and stock on hand as below.
+Manage sales status at a glance with visual charts. You can also print these charts or download with 4 different options of either PNG, JPEG, PDF or SVG vector by opening a menu next to each chart.
+
+![Dashboard charts](./Image_starter_m1/image120.png)
+
+![Dashboard charts](./Image_starter_m1/image121.png)
+ 
+
+###### b.	Warehouse permissions
+
+_Path: **Inventory Management > Stock Listing** section **> Warehouse > Warehouse Permissions**_
+
+In this section, Admin can give different warehouse access permissions to different users.
+
+![Assign Staffs button](./Image_starter_m1/image122.png)
+ 
+1. On the right hand side of the **Warehouse Permission** tab, click on **Assign Staffs** to give different warehouse access permissions.
+
+Then will be a new pop-up screen shown as below:
+ 
+![Add staff window](./Image_starter_m1/image123.png) 
+ 
+Select Staff users to assign permission
+
+1. Select Staff by marking the checkbox
+2. Choose the role from the drop-down list (you can create more roles in Magento core backend). You can assign role to multiple staff at once
+3. Click on **Add Selected Staff** button
+
+![Save Staff Permissions button](./Image_starter_m1/image124.png)
+
+4. Then click on **Save Staff Permissions** to save changes.
+
+
+#### Stock Control
+
+_Path: **Inventory Management > Stock Control** section_
+
+This module is a powerful assistance to help you keep track of any changes in the existing stock. It combines 6 functions in 1:
+
+* **New Stock Adjustment**: manually adjusts stock quantity;
+*	**New Stocktaking**: assists in a complete stocktaking process;
+* **Stock Adjustment History**: records details of all stock adjustments;
+* **Receipt/Delivery History**: records details of stock receipt/delivery;
+* **Stocktaking History**: records details of all stocktaking;
+* **Stock Movement History**: records all movements of stock in the warehouses
+
+##### New Stock Adjustment & Stock Adjustment History
+###### a.	New Stock Adjustment
+
+_Path:  **Inventory Management > Stock Control** section **> New Stock Adjustment**_
+Sometimes your recorded product quantity does not match the actual physical number. Then, this function is exactly what you need to make changes quickly. 
+
+![New Stock Adjustment page](./Image_starter_m1/image125.png)
+ 
+Under menu **Stock Control**, you can create New Stock Adjustment in a few steps:
+
+1. **Warehouse**: Name of the warehouse. With this Starter Package, you can only choose Primary Warehouse (also set as default) 
+2. **Adjustment Code**: Adjustment code is automatically generated. All adjustments are saved in **Inventory Management > Stock Control** section **> Stock Adjustment History**
+3. **Reason**: Fill the reason
+4. Then click button **Start** to Adjust
+
+![Product List tab](./Image_starter_m1/image126.png)
+ 
+From here you have 2 options:
+
+1. **Import products** via CSV file 
+2. Select products and input the quantity in line
+3. Then you have 3 options to enable your changes:
+*	**Save**: temporarily save the adjustment in **Pending** status. You will automatically transferred to the **Stock Adjustment History** page. 
+*	**Save and continue to edit**: temporarily save the adjustment in **Pending** status. You continue to stay on a page with your products to continue any further edits. 
+*	**Adjust**: immediately activate the quantity changes. Once you hit this button, there is no way to undo it unless you carry out another stock adjustment. The adjustment is marked **Completed** on the **Stock Adjustment History** page.
+
+![completed stock adjustment](./Image_starter_m1/image127.png)
+ 
+Note that the Qty here can be “Change Qty” or “Adjusted Qty”, depending on how you configure in Store Configuration (please refer to section **Stock Control Configuration**)
+
+###### b.	Stock Adjustment History
+
+_Path: **Inventory Management > Stock Control** section **> Stock Adjustment History**_
+ 
+![Manage Stock Adjustment page](./Image_starter_m1/image128.png)
+
+You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status. Click on each Adjustment, you can see stock adjustment details. If you click on a **Completed** adjustment, you will be able to export the product list of that specific adjustment by clicking the button **Export**.
+
+##### New Stocktaking & Stocktaking History
+
+Physical Stocktaking acts can be used at any time to double-check and correct inventory discrepancy amounts in Instock Management vs. physical inventory in your warehouses. These consist of:
+
+* A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
+* Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
+This module will help you carry out a stocktaking successfully to prevent any mismatch between the recorded product quantities and the actual inventory in your physical warehouses.
+
+###### a.	Stocktaking process
+
+_Path: **Inventory Management > Stock Control** section **> New Stocktaking**_ 
+
+![5 stage Stocktaking](./Image_starter_m1/image129.png)
+ 
+There are 5 stages in Stocktaking using Instock Management module:
+
+•	**Stage 1: Fill General information**: After finishing this step, Stocktaking status is **Pending**
+
+![General Information stage](./Image_starter_m1/image130.png)
+ 
+1. Fill in the reason for stocktaking. You can also fill in the participants and the time of the action but it is optional
+2. Choose the products to be stock taken by clicking the **Prepare Product List** button (also means moving on to Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the **Start Stocktaking** button
+
+•	**Stage 2: Prepare products before doing stocktake**: Select or import products to prepare before doing stocktake. Stocktaking status will change to **Processing**
+
+![Prepare Products stage](./Image_starter_m1/image131.png)
+ 
+1. Mark the checkbox to select the products you want to stock take from the product grid;
+2. Alternatively, you can **Import products** using a CSV file (template provided);
+3. Click **Save** to stay with your selected products for further edits, or click **Start Stocktaking** to proceed Step 3.
+
+•	**Stage 3: Stock Counting**: Fill in the Qty of product. Now status is changed to **Verified**
+
+![Stock Counting stage](./Image_starter_m1/image132.png)
+
+1. Select product(s) by marking the checkbox
+2. Enter the product quantity that you have recently counted and the reason why there is quantity difference.
+3. Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktake** to finish the process; or **Save** to continue editing.
+
+•	**Stage 4: Complete Data Entry**: Save the data that has been stock taken and wait for admin’s approval.
+
+![Complete Data Entry stage](./Image_starter_m1/image133.png)
+ 
+This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
+
+•	**Stage 5: Complete Stocktaking**: When admin does this, Stocktaking status will be changed to **Completed**. 
+
+![Complete Stocktaking stage](./Image_starter_m1/image134.png)
+ 
+This page shows you all details of the stocktaking process including the product quantity before and after the stocktaking process. Similar to Adjust Stock, stocktaking cannot be edited after status is **Completed**. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system. Make a **New Stock Adjustment** by hitting the **Adjust Stock** button or download a CSV copy of the grid using the **Download Difference List**.
+
+
+###### b.	 Stocktaking History
+
+_Path: **Inventory Management > Stock Control** section **> Stocktaking History**_
+
+![Manage Stocktaking page](./Image_starter_m1/image135.png)
+
+1. All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
+
+* Status **Pending** means Step 1: General Information is done
+* Status **Processing** means Step 2: Prepare Products is done
+* Status **Verified** means Step 3: Stock Counting is done
+* Status **Completed** means the whole stocktaking process is done
+
+2. You can also click on **Add Stocktaking** button to start a new stocktaking process from here.
+
+##### Receipt/Delivery History
+
+_Path: **Inventory Management > Stock Control** section **> Receipt/Delivery History**_
+
+![Receipt/Delivery History page](./Image_starter_m1/image136.png)
+ 
+This tab provides a record of receipt/delivery stocks in all warehouses. Here you can view Transfer Code, Warehouse, Total Qty, Total SKU, Type (Product status), Reference Number and Date. Click on each record to view all details of the process. You can also click on **Export** button to get file CSV or Excel XML.¬
+
+##### Stock Movement History
+
+_Path: **Inventory Management > Stock Control** section **> Stock Movement History**_ 
+
+The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
+
+![Stock Movement page](./Image_starter_m1/image137.png)
+ 
+1. The table shows SKU of the products added or subtracted from warehouse, the changed  Qty, Warehouse name, Date and Reference number to see the details on a click. 
+2. Admin can also easily exports Stock Movement details into CSV or Excel XML.
+
+
+#### Prediction
+##### Supply Needs
+
+_Path: **Inventory Management > Prediction** section **> Supply Needs**_
+
+This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
+
+![Supply Needs page](./Image_starter_m1/image138.png)
+ 
+1. **Warehouse(s)**: To process a prediction, select the warehouse (in Inventory Management module, you can only select 01 warehouse i.e. Primary Warehouse) 
+2. **Sales Period**: Time range to collect sales data, based on which the system will calculate data for supply need
+3. **Forecast Supply Needs Until**: Pick the date that you want to see forecast results.
+4. Click **Show Supply Needs** button to finally view the prediction.
+
+The forecast data will be shown in the table as below:
+ 
+![Prediction table](./Image_starter_m1/image139.png)
+
+1. The table displays supply needs information as below:
+*	**Qty Sold/day**: average quantity sold per day of the product during the chosen sales period 
+*	**Total Sold**: total quantity of product that were sold during the chosen sales period
+* **Current Qty**: the product quantity that you currently have in the warehouse
+* **Availability date**: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+* **Supply needs**: the quantity of product that expected to be sold until the time stamp you set. 
+* **Status of products**: whether the product is enabled to be sold
+
+2. The Supply Need Forecast can be exported to CSV or XML file by hitting **Export** button.  To start another prediction, you may edit criteria for supply forecasting and hit **Show Supply Needs** again to refresh the prediction result.
+
+##### Low Stock Rules
+
+_Path: **Inventory Management > Prediction** section **> Low Stock Rules**_
+
+**Note**: **Low Stock Alert**  is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores. 
+
+![Add New Rule button](./Image_starter_m1/image140.png)
+ 
+Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information, Conditions & Action**. There is no limitation in the quantity of rules set.
+
+###### a.	Rule Information tab
+ 
+![Rule Information tab](./Image_starter_m1/image141.png)
+
+1. **Rule name**: Enter the low stock rule name
+2. **Description**: Add a brief about the rule (optional)
+3. **Status**: Select **Active** to enable the rule
+4. Use **Calendar** to choose From and To date for a term of validity (optional)
+ 
+![Rule Information tab](./Image_starter_m1/image142.png)
+
+5. Select an **update time**: either daily or monthly. The system periodically check stock availability and automatically send email notifications admin and warehouse managers. 
+6. Select hours the notification message will be sent
+
+
+###### b.	Conditions tab
+
+This tab allows you to set up Product Conditions & Low Stock Condition.
+
+•	**Product Conditions**
+
+In the **Product Conditions** section, you can set the limitation for applying rules. 
+
+![Conditions tab](./Image_starter_m1/image143.png)
+ 
+
+•	**Low Stock Conditions**
+There are 2 types of low stock rule: 
+
+![Available Qty option](./Image_starter_m1/image144.png)
+ 
+•	**Type 1: Available Qty.**: you can select Qty. threshold that the system will notify to import. 
+
+1. Select **Available Qty.**
+2. Set the number of **Threshold (quantity)**
+3. Select **Both Warehouse and Global** for **Notification Scope**
+4. Select **Warehouse(s)** for those rules will be applied
+ 
+![Available Days option](./Image_starter_m1/image145.png)
+ 
+•	**Type 2: Availability Days**: you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)
+
+1. Select **Availability Days**
+2. Set the number of **Threshold (days)**
+3. Set the number of **Sales Period (days)**
+4. Select **Both Warehouse and Global** for **Notification Scope**
+5. Select **Warehouse(s)** for those rules will be applied
+
+
+###### c.	Actions tab
+
+You confirm who will receive the low stock notification by
+
+![Action tab](./Image_starter_m1/image146.png)
+ 
+1. **Notification recipient list**: Enter email address  to send the low stock notifications to
+2. Enter content of the **Warning Message**
+ 
+![Save buttons](./Image_starter_m1/image147.png)
+
+Then, you can choose: 
+•	**Save and Continue Edit**: to save the process and continue edit on the current page. 
+•	**Save and Apply**: you can apply rule immediately
+•	**Save Rule**: you can save the rule but it will not be applied, in case you need to ask for permission before applying or double-check with other people. 
+
+**Note:** You can edit the rule that you **Save and Apply** or **Save** by going to **Inventory Management > Prediction** section **> Low Stock Rules >** clicking on **Edit**
+
+![Edit action](./Image_starter_m1/image148.png)
+ 
+##### Low Stock Notifications
+
+_Path:  **Inventory Management > Prediction** section **> Low Stock Notifications**_
+
+**Low Stock Notifications** displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click **View** action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
+
+
+### HOW TO USE WEB POS
+#### Log In and Manage Account
+##### Log in
+
+Go to WebPOS frontend and fill in required Username & Password and click **Login** to log in. (you can also access WebPOS frontend from backend, by following path: **Sales > Web POS** section **> POS Checkout**)
+
+![login window](./Image_starter_m1/image149.png)
+ 
+After clicking **LOGIN** button, users must choose a Location and POS to continue
+
+![Choose location & POS](./Image_starter_m1/image150.png)
+ 
+
+##### Manage Account
+To manage account, user follow this path: from top left menu icon **> Settings** section **> Account**
+
+![Account section on left menu](./Image_starter_m1/image151.png)
+
+Then, users could view, edit or upgrade account’s information and password
+
+![Account settings](./Image_starter_m1/image152.png)
+ 
+1. **Display name**: The name of user account 
+2. **Current Password**: The password is being used 
+3. **New Password**: Fill in those field if users want to change password 
+4. **Confirm**: Retype the new password 
+
+Finally, don’t forget to click on **Save** to apply your changes to the system. 
+
+To reload and/or update data, follow path: from top left menu icon **> Settings** section **> Synchronization** and click **Update/ Reload** as you wish.
+
+![Update/Reload actions](./Image_starter_m1/image153.png) 
+
+
+##### Manage Settings
+
+_Path: from **WebPOS frontend**, click on top left menu icon **> Settings** section **> General**_
+
+There are 3 tabs to manage:
+
+###### a.	Checkout tab
+
+![Checkout tab](./Image_starter_m1/image154.png)
+ 
+1. **Use Online mode**: Online mode allows real-time synchronization between Magento backend and POS, while offline mode operates faster and allows normal checkout even then the internet connection is out.
+2. **Auto check the promotion rules on checkout: (Offline mode)** allows automatic checking in offline mode
+
+###### b.	Catalog tab
+To allow POS to display out-of-stock products: in WebPOS frontend, go to **Settings > General** section **> Catalog**
+
+**Note**: this function’s available for online-mode only
+
+![Catalog tab](./Image_starter_m1/image155.png)
+ 
+Choose **Yes** option to enable **Display out-of-stock product in search result**. When customer searches for a product that is out of stock, the product still shows up but with an **Out of stock** icon on the top right of the product thumbnail.
+
+![Out of stock icon](./Image_starter_m1/image156.png)
+
+###### c.	Currency tab: 
+
+This tab allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from **Order History** after you change currency.
+
+![Currency tab](./Image_starter_m1/image157.png)
+
+
+#### Manage Session
+##### Create Session
+
+When staffs started their shift, POS will open a session for them to create **Opening Balance** (the amount of cash at that time). 
+
+Those numbers will be saved in the system, so POS could provide admin detailed statistics of cash flow in stores. 
+
+Particularly, when staffs logged in to any POS, a window of **Opening Session** will appear automatically. 
+
+![Open Session window](./Image_starter_m1/image158.png)
+ 
+1. **Staff**: Display the name of the staff in this session 
+2. **POS**: the location of POS 
+3. **Cross icon**: Click on it to add more money value when opening session
+4. **Coin/Bill Value**: Value of the currency contrbuting to Opening Balance (for example: $10)
+5. **Number of Coins/Bills**: the quantity of the currency unit (for example: 2) 
+6. **Subtotal**: System will automate calculate the amount of money based on the Coins/Bill Value and Number of Coins/Bill (for example: $10 x 2 = $20, so the subtotal will display number $20)
+
+After filling all those fields, click **Open Session** button to finish this process successfully or you can click on **Cancel** to exit. 
+
+**NOTE:** Configure to Open Session Automatically
+
+In case you logged in but no window of Open Session appeared, you can configure it in backend easily by following this path: **Sales > Web POS** section **> Settings > General Configuration**
+
+Find the **Need to create session before working** setting and choose **Yes** to activate the function which is automatically creating new session when staffs change their shift for each other. 
+
+##### Manage Session
+
+_Path: from top left menu icon **> Session Management** section **> Session Management**_
+
+**NOTE**: You need to enable **Need to create session before working setting** in backend (path: from **backend > Sales > Web POS** section **> Settings > General Configuration**) to see this section. 
+
+![Session Management section](./Image_starter_m1/image159.png)
+ 
+Then, your screen will be displayed like the picture below: 
+
+![Session details](./Image_starter_m1/image160.png)
+ 
+1. **Staff**: The name of staff in this session 
+2. **POS**: Location of POS 
+3. **Date and Time** when opening this session 
+4. **Opening Balance**: the amount of cash in cash drawer at the beginning of the session 
+5. Theoretical Closing Balance: = Opening Balance + Manually Input Amount of Put Money In/Take Money Out + Total sales (**in cash only**)
+6. **Real Closing Balance**: the real amount of cash in cash drawer at the end of the session
+7. **Difference** between  **Theoretical Closing Balance** and **Real Closing Balance**
+8. & 9. **Put Money In/ Take Money Out**: during an opened session, cashier can manually input of cash in/out in the session. Detailed instruction is in the next section.
+10. **Set Closing Balance**: before ending a session, staff need to set the final cash amount in the cash drawer. 
+Other elements displayed in this window also include:
+•	Manually input of cash in/out in the session and transactions in cash are recorded in the **+ Transactions/ - Transactions** links.
+•	Total Sales by all Payment Methods
+•	Cashier can Print the session details by clicking on the **Print** button
+•	End the current session by clicking on **End of Session** button. For detailed instruction of End Session, please go to **End Session**.
+
+##### Record Cash In/ Cash Out
+
+![Put Money In & Take Money Out buttons](./Image_starter_m1/image161.png)
+ 
+During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on **Put Money In/ Take Money Out** buttons in the **Session** window.
+
+* **Put Money In**
+
+![Put Money In window](./Image_starter_m1/image162.png)
+
+1. Amount of cash that staff will put in the drawer (**must be greater than 0**)
+2. Reason for putting cash in
+3. Click **Done** to save changes
+
+*	**Take Money Out**
+
+![Take Money Out window](./Image_starter_m1/image163.png)
+  
+1. Amount of cash that staff will take out of the drawer (**must be greater than 0**)
+2. Reason for taking cash out
+3. Click **Done** to save changes
+
+##### End Session
+
+Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager.
+
+**NOTE**: Before setting Closing Balance, you must set Cash Denomination in backend first.
+
+_Path: **Sales > Web POS** section **> Manage Cash Denomination**_
+
+![Add Cash Denomination button](./Image_starter_m1/image164.png)
+ 
+Click on **Add Cash Denomination** button and enter the information in the new window including the denomination name, value and sort order (this sort order acts as an alternative way to organize these cash denomination besides ID). Then, click on **Save Cash Denomination** or **Save and Continue Edit** to save your changes.
+
+![Save buttons](./Image_starter_m1/image165.png)
+ 
+After filling enough Cash Denomination information, you can set **Closing Balance** and continue ending session.
+
+![Set Closing Balance](./Image_starter_m1/image166.png)
+ 
+To close the session, you need to first **Set Closing Balance** to record Real Closing Balance in cash drawer by filling the value of coin/bill and the number of each coin/bill value in the form below, then click **Confirm** 
+
+![Set closing balance window](./Image_starter_m1/image167.png)
+  
+2 situations could happen in this step:
+
+* If the Theoretical and Real Balances are the same, you will go back to the Session window, click on **Validate Closing** to finish closing the session.
+
+![Validate Closing button](./Image_starter_m1/image168.png)
+ 
+*	If the Theory and Real Balance are not the same, the system will display a notification as below:
+
+![notification window](./Image_starter_m1/image169.png)
+ 
+You can click **Cancel** and re-entry the closing balance, OR accept the difference by clicking **OK**
+
+![window to input Reason for balance difference](./Image_starter_m1/image170.png)
+  
+You can fill in the reason for the difference (if you want to) and hit **Confirm**. Then you will be directed back to the Session page, click **Validate Closing** button to finish closing session.
+
+
+ 
+
