@@ -2134,28 +2134,46 @@ In the Order list for location, you can view all order information including ID,
 
 ##### Payment Report 
 
-The section of Payment Report has 4 different types of report including Sales by payment method, Sales by payment method (Daily), Order list for payment method and Sales by payment method for location. 
+The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method** and **Sales by payment method for location**. 
+
+![Payment Reports](./Image_starter_m1/image235.png)
  
-•	Sales by Payment Method
-The Sales by payment method report displays the number of orders and sales paid by each payment method in a custom time period.
+* **Sales by Payment Method**
+
+![Sales by payment method report](./Image_starter_m1/image236.png)
+
+The **Sales by payment method report** displays the number of orders and sales paid by each payment method in a custom time period.
+ 
+* **Sales by Payment (Daily)**
+
+![Sales by Payment daily report](./Image_starter_m1/image237.png)
+ 
+The **Sales by payment (Daily)** report shows the number of orders and sales created by each payment method by each day.
+
+* **Order List for Payment Method**
+
+![Order list for payment method report](./Image_starter_m1/image238.png)
+ 
+And in the **Order list for payment method**, you can view all order information including ID, value, history and status of each order created by all or each specific payment method
  
 
-•	Sales by Payment (Daily)
- 
-The Sales by payment (Daily) report shows the number of orders and sales created by each payment method by each day.
-•	Order List for Payment Method
-And in the Order list for payment method, you can view all order information including ID, value, history and status of each order created by all or each specific payment method
- 
+* **Sales by payment method for location**
 
-•	Sales by payment method for location
+![Sales by payment method for location](./Image_starter_m1/image239.png)
  
-The Sales by payment method for location report displays the number of orders and sales created by each payment in each sale location.
+The **Sales by payment method for location** report displays the number of orders and sales created by each payment in each sale location.
 
-5.2.7.4.	Z- Report
-Path: Magento POS Backend > Sales > Web POS > Web POS Z-Report
+
+##### Z- Report
+
+_Path: **Magento POS Backend > Sales > Web POS > Web POS Z-Report**_
  
- 
+![Z Report menu](./Image_starter_m1/image240.png)
+
+![Z Report](./Image_starter_m1/image241.png)
+
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
+
 The Z-report will be refreshed to serve new shift/working day after you select Close Store. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
 
  
