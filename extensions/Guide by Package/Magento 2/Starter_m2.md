@@ -1,5 +1,4 @@
 # OMNICHANNEL SOLUTION STARTER PACKAGE - USER GUIDE FOR MAGENTO 2
-----------
 
 ## INTRODUCTION
 
@@ -10,8 +9,8 @@ Moreover, if your inventory is not enough to supply, you may lose customers. But
 With the latest upgraded version and its convenience and the amount of time saved, we hope that you would enjoy and feel exhilarated when experiencing our solution. 
 
 *Thanks and Best regards,*
+
 **Magestore Team** 
-----------
 
 ## HOW TO CONFIGURE
 ### Inventory
