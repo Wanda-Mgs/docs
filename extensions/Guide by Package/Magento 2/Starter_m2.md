@@ -1,7 +1,6 @@
 # OMNICHANNEL SOLUTION STARTER PACKAGE - USER GUIDE FOR MAGENTO 2
 
 ## INTRODUCTION
-
 Having a combined **POS** and **In-stock Management** solution is a must-have for retail businesses that want to be more efficient and keep accurate data. Web POS, a web based Point of Sale for Magento, is specially designed to integrate with this Instock Management module. Carrying out checkout procedure for customers has never been easier. Web POS helps your sales staff quickly create orders and apply promotion, conveniently collect in-store cash and credit sales transactions in a flash. And all steps are on just one single page! So, wouldn't it be great if this process could be hastened, saving time for more profitable actions!
 
 Moreover, if your inventory is not enough to supply, you may lose customers. But if the inventory you keep is more than needed, it will cost you lots of money to manage. Thus, it is vital to equip your business with an effective inventory system to always keep your warehouses at an ideal stock level. Magestore team has been working hard to offer you a friendly & affordable stock management solution for Magento 2 with smart design, clean and simple workflow to handle every activity about stock management, stock taking and low stock notification... in your warehouses in the most efficient way. 
@@ -11,6 +10,7 @@ With the latest upgraded version and its convenience and the amount of time save
 *Thanks and Best regards,*
 
 **Magestore Team** 
+
 
 ## HOW TO CONFIGURE
 ### Inventory
