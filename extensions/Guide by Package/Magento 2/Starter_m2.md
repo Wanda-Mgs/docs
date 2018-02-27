@@ -1045,5 +1045,585 @@ Path: **Sale > Web POS** section **> Manage POS**
 3)	If you want to delete a POS, first select a POS, then click **Actions**: choose **Delete**.
 4)	Click **Detail** to view a POS’s details or edit
 
+5.	HOW TO USE
+5.1.	HOW TO USE INSTOCK MANAGEMENT MODULE 
+5.1.1. Stock listing
+5.1.1.1. Stocks in Warehouse
+
+Path: Stock Management > Stock Listing section > Stocks in Warehouse
+
+Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include Available Qty, Qty to Ship and Total Qty and Shelf Location of each product in the warehouse.
+ 
+You can easily edit Qty of products in-line within a few steps:
+1)	Mark the checkbox to select products 
+2)	Edit product quantity in line 
+3)	Input product location in the physical warehouse 
+4)	Click on Update Stock to save changes
+
+5.1.1.2. Non-warehouse product
+Path: Inventory Management > Stock Listing section > Non-Warehouse Products
+When a product is newly created and not assigned to any warehouse yet, it will be automatically allocated in Non-warehouse. 
+
+ 
+From here admin can 
+1)	select the product by clicking on the checkbox
+2)	add it into warehouse by clicking on its Add to Warehouse column.
+
+5.1.1.3 Warehouse
+After installation, the system will automatically provide a Primary Warehouse. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse.
+a.	View Warehouse’s detail information
+
+The Warehouse menu allows you to control your warehouse with 6 tabs:
+ 
+On the right side of each master data tab, click on the Arrow button to access the data:
+(1)	General information about the Warehouse
+(2)	Stock On-hand displays the amount of goods that the warehouse has available at that time. Here, you can update each product’s Qty in Warehouse(s) and its Shelf Location in-line.
+(3)	Stock Movement shows the changes in stock quantities. Click on each record to view more details.
+(4)	Orders record detail information of each order including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+(5)	Warehouse Permissions manages staff access to the warehouse. Detailed guide is given in the next section b. Warehouse permissions
+(6)	Dashboard contains reports that are illustrated as table and lines diagrams as below.
+ 
+ 
+b.	Warehouse permissions
+Path: Stock Management > Stock Listing section > Warehouse > Warehouse Permissions
+
+In this section, Admin can give different warehouse access permissions to different (admin) users.
+Click on View to see the warehouse’s detail information
+ 
+(1)	On the right hand side of the  Warehouse Permission tab, click on Assign Staff to give different warehouse access permissions.
+
+Then will be a new pop-up screen shown as below:
+ 
+Select Staff users to assign permission
+(1) Select Staff by marking the checkbox
+(2) Click on Filters to search Staff information (if any)
+(3) Click on Add Selected Staff
+
+ 
+(4)Then click on Save Staff Permissions
+
+5.1.2. Stock Control
+5.1.3.4.	Stock Adjustment & Stock Adjustment History
+a.	Link stocks in Warehouse to Front Store View:
+As mentioned in section 2.1.1. Stock Control Configuration, you can link products and stock data by choosing Yes on the Link stocks in Warehouse to Front Store View section
+ 
+
+To link multiple Store View to a Warehouse, go to Stock Management > Warehouse > General Information > Magento Store View. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
+ 
+
+b.	Add new Stock Adjustment
+Path: Stock Management > Stock Control section > New Stock Adjustment
+ 
+Under menu Stock Control, you can create new Stock Adjustment in a few steps:
+1)	Name of the warehouse. With the Starter Package, you can only choose Primary Warehouse (also set as default) 
+2)	Adjustment code is automatically generated. All adjustments are saved in Stock Management > Stock Control section > Adjust Stock History
+3)	Fill the reason
+4)	Then click button Start Adjust Stock.
+
+ 
+From here you have 2 options:
+1)	Go to product list and Add products to adjust stocks or Import products via CSV file
+2)	Save the Stock Adjustment. After being saved, this stock adjustment’s status is now Pending. To change Stock Adjustment status to Completed, you need to hit button Adjust.
+Note that the Qty here can be “Change Qty” or “Adjusted Qty”, depending on how you configure in Store Configuration (please refer to section 2.1.1. Stock Control Configuration)
+
+Stock is updated in the warehouse. Once the Adjustment is Complete, there is no way to edit it.
+ 
+Stock level will be updated instantly in the corresponding warehouse.
+
+c.	View Stock Adjustment History
+Path: Stock Management > Stock Control  section > Stock Adjustment History
+ 
+You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status… Click on each Adjustment, you can see stock adjustment details. If you click on a Completed adjustment, you will be able to export the product list of that specific adjustment by clicking the button Export Products.
+ 
+5.1.3.5.	Stock Taking & Stock Taking History
+Physical Stocktaking acts can be used at any time to double-check and correct inventory discrepancy amounts in Inventory Management vs. physical inventory in your warehouses. These consist of:
+
+•	A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
+•	Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
+
+a.	Stocktaking process
+Path: Stock Management > Stock Control section > New Stocktaking 
+ 
+There are 5 steps in Stock taking using Instock Management module:
+•	Step 1: Fill General information: After finishing this step, Stock taking status is Pending
+ 
+(1)	Fill in the reason for stocktaking. You can also fill in the participants and the time of the action but it is optional
+(2)	Choose the products to be stock taken by clicking the Prepare Product List button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the Start Stocktaking button
+
+•	Step 2: Prepare products before doing stock take: Select or import products to prepare before doing stock take. Stock taking status will change to Processing
+ 
+(1)	Click on Add Products to Stocktake to select products from your product list or Import products from CSV file (template provided)
+(2)	Selected products will be displayed in the grid here
+(3)	Click Save to stay with your selected products for further edits, or click Start Stocktake to proceed Stage 3.
+
+•	Step 3: Do Stock take: Fill in the Qty of product. Now status is changed to Verified
+ 
+(1)	Enter the product quantity that you have recently counted and the reason why there is quantity difference.
+(2)	Either click Complete Data Entry to proceed to Stage 4 and have a review of the changes; click Complete Stocktake to finish the process; or Save to continue editing.
+
+•	Step 4: Complete data entry: Save the data that has been stock taken and waiting for admin’s approval.
+ 
+This Stage allows you to have a final review of your recent quantity counts. Click either Re-entry Data to edit the quantity or Complete Stocktaking to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked Completed.
+
+•	Step 5: Complete Stock take: When admin does this, Stock taking status will be changed to Completed. 
+ 
+Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Completed. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system.
+
+b.	Stocktaking History
+Path: Stock Management > Stock Control section > Stocktaking History
+ 
+(1)	All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
+•	Status Pending means Stage 1: General Information is done
+•	Status Processing means Stage 2: Prepare Products is done
+•	Status Verified means Stage 3: Stock Counting is done
+•	Status Completed means the whole stocktaking process is done
+(2)	You can also click on Add Stocktaking button to start a new stocktaking process from here.
+
+5.1.3.6.	Stock Movement
+Path: Stock Management > Stock Control section > Stock Movement History 
+
+The module records all the movements of stocks in warehouse. These movements are reflected in Stock Movement report under Stock Control submenu.
+ 
+(1)	The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click. 
+(2)	Admin can filter the data basing on the variables in the table.
+(3)	Admin can also easily exports Stock Movement details into CSV or Excel XML.
+
+5.1.3. Prediction
+5.1.3.1.	Supply Needs
+
+This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
+ 
+(1)	To process a prediction, select the warehouse (in Instock Management module, you can only select 01 warehouse i.e. Primary Warehouse) 
+(2)	Time range to collect sales data, based on which the system will calculate data for supply need
+(3)	Pick the date that you want to see forecast results.
+(4)	Click to Show Supply Needs button to finally view the prediction.
+
+The forecast data will be shown in the table as below:
+ 
+(1)	The table displays supply needs information as below:
+•	Qty Sold/day: average quantity sold per day of the product during the chosen sales period 
+•	Total Sold: total quantity of product that were sold during the chosen sales period
+•	Current Qty: the product quantity that you currently have in the warehouse
+•	Availability date: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+•	Supply needs: the quantity of product that expected to be sold until the time stamp you set. 
+(2)	The Supply Need Forecast can be exported to CSV or XML file by hitting Export button.
+(3)	You can start another prediction by expanding and editting criteria for supply forecast and hit Show Supply Needs again to refresh the prediction result. 
+
+5.1.3.2.	Low Stock Rules
+
+Path: Stock Management > Prediction section > Low Stock Rules
+Note: Low Stock Alert is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores. 
+ 
+(1)	Select an existing rule to edit or click Add New Rule button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: Rule Information, Conditions & Action. There is no limitation in the quantity of rules set.
+
+a.	On the Rule Information tab:
+ 
+(2)	Enter the low stock rule name
+(3)	Add a brief about the rule (optional)
+(4)	Select Active to enable the rule
+(5)	Use Calendar to choose From and To date for a term of validity (optional)
+
+ 
+(6)	Select an update time:
+•	Daily
+•	Monthly
+The system periodically check stock availability and automatically send email notifications admin and warehouse managers. 
+
+(7)	Select hours the warning message will be sent
+
+
+
+b.	On the Conditions tab:
+
+There are 2 types of low stock rule: 
+ 
+Type 1: Availability Qty.
+Availability Qty.: you can select Qty. threshold that the system will notify to import. 
+(8)	Select Availability Qty.
+(9)	Set the number of threshold quantity
+(10)	Select Both Warehouse and Global for notification scope
+(11)	Select Warehouses for those rules will be applied
+ 
+Type 2: Availability Days
+Availability Days: you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)
+(12)	Select Availability Days
+(13)	Set the number of threshold days
+(14)	Set the number of sales period days
+(15)	Select Both Warehouse and Global for notification scope
+(16)	Select warehouses for those rules will be applied
+
+c.	On Actions Tab:
+ 
+(17)	Enter an email list to send the low stock notifications to
+(18)	Enter content of the warning message 
+ 
+(19)	Click Save or Save and Apply to finish
+•	Save and Continue Edit: to save the process and continue edit on the current page. 
+•	Save and Apply: you can apply rule immediately
+•	Save: you can save the rule but it will not be applied, in case you need to ask for permission before applying or double-check with other people. 
+
+Note: You can edit the rule that you Save and Apply or Save by going to Stock Management > Prediction section > Low Stock Rules > clicking on Edit
+ 
+
+5.1.3.3.	Low Stock Notifications
+Path: Stock Management > Prediction section > Low Stock Notifications
+ 
+Low Stock Notifications displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click view action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
+5.2.	HOW TO USE WEB POS 
+5.2.1.	How to Create Session
+When first shift of the day started, POS Manager will open session in order to create the Opening Balance - the amount of cash in your store at that time.
+Those numbers will be saved in the system, so POS could provide you information about daily revenue after a working day.
+Particularly, when you log in to any POS, a window of opening session will pop-up automatically.
+ 
+(1)	Name of the staff in this session
+(2)	Location of POS
+(3)	Value of the currency contrbuting to Opening Balance (such as: $100 )
+(4)	Number of the currency unit (for example : 2)
+(5)	Subtotal (you will have: $100 * 2 = $200)
+(6)	After checking all the information above, click this button to Open New Session
+Type the coin/bill value > Put in the number of those coins/bills > Click “Open Session”
+
+In case you logged in to POS but no window pop-up automatically like the picture above, then you need to make some change in the back-end system. Here is the instruction:
+ 
+Go to “Store” > “Configuration” > Select “Magestore Extension” > WebPOS Select “Yes” on this red frame and please don’t forget to click “Save Config” to make it work
+
+Next step, after the Opening Balance was saved by POS Manager, Cashiers now are able to create orders and they start running cash flow in your store. They receive the payment from customers and then put the change back to them. Those actions happen in turn, again and again, so your store will have cash in as well as cash out.
+
+On the screen of POS System, it will be displayed like this:
+ 
+
+Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager. It reflects two things: Cash and Payment Slip.
+ 
+
+And now, it’s time for Managers checked Closing Balance.
+If staffs want to end session, system will require staff to confirm cash flow by filling this form below:
+ 
+2 situations could happen in this step:
+•	If the Theory and Real Balance are the same, Managers could directly move to the step of Set Closing Balance, then end this workflow (Session Management).
+•	If the Theory and Real Balance are not the same, Managers have 2 options below to solve this problem.
+
+•	If accept the difference, Manager has to accept the Profit or Loss (with reason).
+ 
+ 
+
+•	Otherwise, staffs have to Put Money In or Take Money out with reason
+ 
+ 
+(1) Amount of cash that staff will put in/ take out
+(2) Reason for putting in/ taking out cash
+(3) Name of Staff who does this action
+
+After all, when the Theory Balance’s equal to the Real one, POS Managers are able to “Set Closing Balance”. Then, it ends of the “General Sale Process” Workflow.
+
+5.2.2.	How To Log In 
+Path: WebPOS Backend > Sales > Web POS section > POS Checkout
+ 
+User get access from Web POS backend by going to Sales > Web POS section > POS Checkout
+ 
+A log in form will appear, user has to choose store (if website has various store views), fill in their account & password and click Login to access successfully. 
+To manage account, users should go to Settings tab > Account
+ 
+Then, click on Account, users could view and/or edit their personal information. User can change password if they want. 
+ 
+To reload data, user can go to Settings > Synchronization and choose Reload (to reload each category) or Reload All (to reload all data)
+
+ 
+5.2.3.	How To Do The Transaction 
+5.2.2.1.	How To Filter And Search Product Quickly 
+a.	How To Configure Process Of Searching Product 
+
+Users can configure to search products  by going to Settings tab  > General. 
+
+ 
+In Catalog tab: 
+Enable Display out-of-stock products in search results (online mode) by choosing Yes option. If you choose No option, out-of-stock products will not display in search results.
+Note: This function is available for online mode only 
+
+b.	How To Search Product In Frontend 
+There are 3 ways that users can search products:
+•	Use Categories 
+•	Use Products Attributes 
+•	Use Barcode 
+
+
+Use Categories 
+In frontend, you can click on All Categories link to quickly search products by categories. Choose the corresponding categories as you prefer.
+
+ 
+Use Product Attributes
+To search by product attributes, click on Search icon, then a search bar will be shown. Enter your search terms and matching products will display right away.
+
+ 
+
+Use Barcode 
+o	Connect Web POS with barcode reader devices (Please refer to 2.2.2. How Web POS works with peripheral devices)
+o	Scan barcode and then the barcode attribute will be filled automatically in the search box
+o	The matching product will be shown in the list.
+5.2.2.2.	How To Add Products To Cart
+a.	Add Products To Card 
+o	With simple products, you just need 1 click to add them to cart
+o	With configurable, bundle, grouped products, after clicking, you will see a popup shown to choose your option. Then, click on Add to cart button.
+ 
+
+b.	Edit Products In Cart 
+ 
+After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with option to edit Qty. To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away.
+
+c.	Remove Products In Cart 
+ 
+To remove products in cart one by one, click on “x” button of the corresponding product. After that, the cart will be updated immediately. Or you can click on the waste basket icon to clear cart.
+
+5.2.2.3.	How To Add A Custom Sale Item To Cart 
+Custom sale item is the item that Web POS user creates when checkout. It is used when the product hasn’t been added to the system or Web POS user cannot find it in the product list.
+
+In frontend, click on Custom Sale button if you want to add the custom product to cart
+
+ 
+A screen will be shown for you to configure this custom product:
+
+ 
+(1)	Name: Enter the name of custom sale product
+(2)	Price: Enter the price of this product
+(3)	None/ Taxable goods: Choose whether the product is subject to tax or not
+(4)	Shippable: Choose whether the product will be shipped or not by turning on/off this option
+(5)	After finishing configuration, click on Add to Cart button and check out as normally. Please note that this custom sale product will not be saved for the next checkout.
+
+5.2.2.4.	How To Apply Coupon Code Or Card Discount 
+After adding products to cart, to apply a coupon code or discount on the whole cart, click on Add Cart Discount link.
+
+ 
+
+Then, a popup will display as below, where you can choose between using Discount or Promotion
+ 
+In Discount Tab:
+(1)	Name: Enter a name for this discount as you will easily check it again
+(2)	Discount Type: Select discount by fixed amount or percentage
+(3)	Amount: Fill in discount value as you offer for your customers.
+(4)	Then, the cart will be updated automatically after you click on Apply button.
+In Promotion Tab:
+Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on Apply button.
+ 
+
+5.2.2.5.	How To Apply Custom Discount Or Custom Price To A Product
+After adding products to cart, besides editing the quantity of each product (refer to section b. Edit products in cart for more details), you can click on the product to edit other information. A popup will display with edit options for Custom Price, Discount. Remember that you can only change either Custom Price OR Discount for a product, instead of both at once.
+ 
+You can set custom price for products by click on Custom Price button. The next popup will be shown as below:
+ 
+In this popup, please choose type you want to adjust for the price, either by a fixed number or percentage.
+•	If you adjust price by a fixed number, the checkout price will be the value you enter. 
+•	If you adjust price by percentage, the price will be the result after multiplying the discount percentage rate by the original price. 
+
+Then, products in cart will be automatically updated with the price you enter.
+ 
+Editing discount for each product is similar to edit by Custom Price. Click on Discount button and choose types of discount–fixed discount or percentage–you want to adjust:
+
+ 
+• If you edit discount by fixed number, the price will decrease by the exact value you have entered
+• If you edit by percentage, the price will decrease by the percent you have entered (it is similar to Custom Price by percentage).
+
+Then, the product price will be updated in the cart.
+ 
+
+5.2.4.	How To Manage Transaction 
+5.2.3.1.	How To Handle Cutomer Information At Check Out 
+a. Customer Checkout 
+To use Customer Checkout, add customer by clicking on Customer icon on the right corner. You will see a screen as below:
+ 
+ 
+Search customers:
+Using the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in the dropdown list.
+The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
+ 
+Create New Customer:
+If customer hasn’t been added in your system before, instead of searching, click on Create Customer button.
+ 
+(1)	Fill in required information including customer’s First Name, Last Name, Email, Group
+(2)	Click to subscribe to customer to your newsletter or not.
+(3)	Fill in Shipping & Billing Address. You can choose whether Billing Address is similar to Shipping Address or not. 
+(4)	Click Save button to save the customer information for the next checkout.
+
+b. Guest Checkout 
+ 
+When you use Guest Checkout, the default customer information that you configure in backend will be used (Please go to the section 2.2.1. Default Guest Checkout for more details). At checkout, all fields will be auto-filled with that default information.
+
+5.2.3.2.	How To Add Comment To An Order
+Click on the icon on the top right corner and choose Add Order Note. In the Order Comment box, type the content that reminds you of this order. Then, save it.
+ 
+ 
+5.2.3.3.	How To Check Order Comment 
+a. In Web POS Screen 
+Path: Orders > Orders History or Orders > On-hold Orders
+
+To view comment of order, you can go to Orders tab in Web POS screen, choose an order then scroll down to see Comment History.
+
+ 
+
+b. In Magento Backend 
+Go to Sales > Orders and click on a specific order. In order details page, go to Comment History tab to check whether it has any notes or not.
+ 
+
+
+5.2.3.4.	How To Process At Check Out For A Customer 
+You have been through steps to add products to cart and add customer, let’s move to the checkout process.
+ 
+When products are added to cart, click on Checkout button at the end of the cart page
+You will be redirected to the next page with information of Shipping & Payment Method
+ 
+Click on the icon on the right to expand or collapse the Shipping/ Payment section.
+Choose a shipping and payment method to proceed checkout. (Shipping and Payment methods can be added in the Magento core backend)
+
+Credit Card: Magestore Web POS supports Authorize.net & Stripe. Sale staff can fill in card information manually or swipe card (if the POS system is connected with a card swiper). For more information, please go to section 2.2.2. How Web POS works with peripheral devices.
+
+5.2.3.5.	Slit payment with Web POS 
+ 
+Customer can pay their order in maximum 2 different payment methods. Click Add Payment and select the second payment option. Then, click on Place Order button to complete checkout process. There will be a notification as is shown below:
+
+ 
+5.2.3.6.	Partial Payment with Web POS 
+
+Besides Split Payment feature (please refer to 4.2.3.5. Split Payment with Web POS), our solution also allows customers to pay partially at the time of checkout and pay the rest later.
+ 
+(1)	Select the first payment method and enter the partial payment value at the checkout point
+(2)	Click Mark as Partial button
+The order is now created and successful order notification is displayed
+
+After finishing creating order, in the next step, when customers come back to pay the rest of order value, you can complete the order by going to WebPOS frontend menu > Orders > Orders History. The order is marked with Pending status.
+ 
+(1) You can view the summary of the order; the total value and the paid value.
+(2) To complete the order payment, you click on Take payment button. Tick to choose the payment option or pay with multiple ones
+
+ 
+After filling in the due amount, click on Submit button to complete the payment action. Then the total paid is equal to the whole order’s value
+
+5.2.3.7.	How to keep orders on hold for further processing 
+Your customers can't make up their minds yet, or are unable to make a payment meanwhile? They may want to purchase items that are for pre-order or currently out of stocks? You don't want to lose those potential customers, don't you? Then, Web POS's new feature can put these orders on hold - no limit in time - until they are ready to continue processing!
+ 
+After adding products to cart, you can hold the order for later checkout by clicking on the + button. The order will be kept open on the checkout bar to process later. 
+ 
+The on-hold order is labeled with a sequence number and the time it is put on hold. You can hold multiple orders and continue with one order by clicking on them. Meanwhile, you can create another order by clicking on the + button.
+ 
+To check orders that have been put on hold, go to Web POS menu >  Orders > On-hold Orders. You may select Checkout whenever customer is willing to take final action for payment or you may Delete it if it is not effective anymore.
+
+5.2.3.8.	How to print receipt and email order information
+You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
+ 
+The receipt will look like the screenshot below:
+ 
+And here is the email of order information:
+ 
+
+5.2.3.9.	How to review orders 
+In POS screen, you can review orders by go to Web POS menu > Orders > Order History tab. Here you can see the order list and order details:
+ 
+a.	Order status
+In order list, the status of order is distinguished by color
+•	Complete: Green (When you ship order AND create invoice
+•	Processing: Blue (When you ship order OR create invoice)
+•	Pending: Orange (When you create order successfully but have not shipped order and created invoice)
+•	Canceled: Gray (When you cancel the order)
+•	Not synced: Red (When order’s data has not been synced to the system)
+•	Closed: Black (When order has been refunded)
+b.	Order searching
+To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
+ 
+c.	View order information
+ 
+To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this:
+
+5.2.3.10.	How to issue invoice for an order 
+ 
+The order can’t be completed if you haven’t issued invoice for customer. After the order is created successfully, you will find order’s details on WebPOS frontend menu > Orders > Orders History then click on button Invoice.
+ 
+A pop-up will appear so you can enter the quantity of item or the order amount to be invoiced. Then you click on button Submit invoice to complete the action. You can choose whether to send invoice to customer’s email or not.
+
+5.2.3.11.	How To Create Shipment Or Issue Refund For An Order 
+a. Create Shipment 
+There are two ways to create shipment using Web POS: before placing an order and when reviewing order
+
+Before Placing An Order: 
+Before an order is created by clicking Place Order button, you can create shipment by turning on Mark as Shipped as below:
+ 
+After verifying shipment method, the system will automatically load to Successful Order Page. There will be a message shown to notify you that shipment is created successfully. Please note that you need to have permission and be in online mode.
+
+After Placing Order:
+When order has been created successfully but hasn’t been shipped, you can go to Order History and create shipment for that order.
+ 
+b. Partial Shipment 
+ 
+If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button Mark as shipped.
+
+After placing order successfully, you find that order in WebPos frontend menu > Orders > Orders History. Then you click on the icon on the right corner and choose Ship. A pop-up then appears so you can enter the number of items to be shipped of each product.
+
+Note: Only orders that have been synced can be shipped.
+
+5.2.5.	How To Issue Refund 
+Path: Web POS menu > Orders > Orders History
+
+Only certain staffs have permission to issue refund (which is set by admin in backend. See 3.2.1. Decentralize access permission of Web POS users for more details). 
+ 
+(1)	To issue refund, go to Web POS menu > Orders > Orders History, and choose an order to refund. Note that you can only refund orders with Processing or Complete status. 
+(2)	Click on Refund from the top right menu.
+ 
+A popup will display so that you can fill in the information before making refund. 
+(3)	Enter the product quantity to issue refund.
+(4)	Tick Return to stock if you want to return those items back to warehouse.
+(5)	Enter additional info including:
+•	Adjust Refund: The compensation customers get from your store if they have to request refund.
+•	Adjust Fee: The fee customers might have to pay for your store when requesting refund.
+(6)	Enter additional notes (if any)
+(7)	Check Send Email if you want a notification email to be sent to customer and click Submit Refund to finish
+After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund and you are in online mode.
+5.2.6.	How To Review Report
+Path: Magento backend menu > Sales > Web POS section > Sales Order Reports
+ 
+Our Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. To view reports, go to Sales > Sales Order Reports on Magento backend.
+ 
+Note:
+•	You can export each report into Excel XML or CSV file.
+•	You can view report in any custom time period.
+
+
+5.2.5.1.	Staff Report 
+On Staff report section, there are 3 types of reports: Sales by staff, Sales by staff (Daily) and Order list for staff. 
+ 
+The Sales by staff report shows the number of orders and total sales created by each sale staff in any custom period.
+ 
+The Sales by staff (Daily) expresses the number of order and total sales created by each staff each day in the time period that you choose.
+
+ 
+In the Order list for sale staff report, you can view all order information including ID, value, history and status of each order created by any or each specific sale staff.
+
+5.2.5.2.	Location Report 
+Similar to Staff report, the Location report has 3 different reports including Sales by location, Sales by location (Daily) and Order list for location.
+ 
+The Sales by location report shows the number of orders and sales created in each location, in any custom time period.
+
+ 
+The Sales by location (Daily) report shows the number of orders and sales created in each location by each day.
+
+ 
+In the Order list for location, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
+
+5.2.5.3.	Payment Report 
+The section of Payment Report has 4 different types of report including Sales by payment method, Sales by payment method (Daily), Order list for payment method and Sales by payment method for location. 
+ 
+The Sales by payment method report displays the number of orders and sales paid by each payment method in a custom time period.
+ 
+The Sales by payment (Daily) report shows the number of orders and sales created by each payment method by each day.
+ 
+In the Order list for payment method, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
+ 
+The Sales by payment method for location report displays the number of orders and sales created by each payment in each sale location.
+
+5.2.5.4.	Z- Report 
+Path: Web POS backend menu > Sales > Web POS section > Z-Report
+ 
+Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
+The Z-report will be refreshed to serve new shift/working day after you select Close Store. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
+
+
+This is the end of our Userguide for Magestore’s Starter Package. We hope it is helpful. If you have any questions, please feel free to reach us with the information as below.
+
+
 
 
