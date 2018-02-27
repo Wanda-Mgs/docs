@@ -723,258 +723,327 @@ Complete the basic settings
 - None
 - Taxable Goods.
 3)	Enter the Quantity of the product that is currently in stock. 
-4)	By default, Stock Status is set to In Stock
-(5)	Enter the Dynamic Weight of product.
-(6)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on   
-(7)	Accept the default Visibility setting, Catalog, Search
-(8)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
-(9)	Choose the Country of Manufacture.
-(10)	Enable on Web POS
-Finally, click Save to continue.
- 
-Add Bundle items
-Scroll down to the Bundle Items section. Then, set Ship Bundle Items one of the following:
+4)	By default, Stock Status is set to **In Stock**
+5)	Enter the **Dynamic Weight** of product.
+6)	Assign **Categories** to the product. Tap the **Select** to select available category or you can create new category by clicking on  ![Anh 77]()  
+7)	Accept the default **Visibility** setting, **Catalog, Search**
+8)	To feature Mark the **Set Product as New** checkbox to add the product in the list of new products.
+9)	Choose the **Country of Manufacture**.
+10)	Enable on **Web POS**
+
+Finally, click **Save** to continue.
+  
+  ![Anh 78]()
+
+Add **Bundle items**
+Scroll down to the **Bundle Items** section. Then, set **Ship Bundle Items** one of the following:
 1.	Separately
 2.	Together
-Click Add Option
+Click **Add Option**
+ 
+ ![Anh 79]()
 
+1)	**Option Title** to be used field label.
+2)	Set **Input Type** to one of the following:
+- Drop-down.
+- Radio buttons.
+- Checkbox.
+- Multiple Select.
+3)	Mark to make the field a **required** entry.
+4)	Tap **Add Products to Option**, then mark the checkbox of each product that you want to include in this option.
  
-(1)	Option Title to be used field label.
-(2)	Set Input Type to one of the following:
-•	Drop-down.
-•	Radio buttons.
-•	Checkbox.
-•	Multiple Select.
-(3)	Mark to make the field a required entry.
-(4)	Tap Add Products to Option, then mark the checkbox of each product that you want to include in this option.
- 
+   ![Anh 80]()
+
 Mark the checkbox of each product.
-Click Add Selected Products, you will see.
+Click **Add Selected Products**, you will see.
 
+  ![Anh 81]()
  
-(1)	Mark the checkbox of a product that you want it is default.
-(2)	Enter Default Quantity.
-Finally, click Save.
- 
+1)	Mark the checkbox of a product that you want it is default.
+2)	Enter **Default Quantity**.
+
+Finally, click **Save**.
+
+  ![Anh 82]()
 Complete products information
 
-Downloadable product
- 
-In the upper-right corner on the Add Product    menu, choose Downloadable Product.
+**Downloadable product**
 
- 
-Choose Downloadable as the attribute set
- 
+  ![Anh 83]()
+
+In the upper-right corner on the Add Product ![Anh 84]() menu, choose **Downloadable Product**.
+
+  ![Anh 84]()
+
+Choose Downloadable as the **attribute set**
+
+  ![Anh 85]()
+
 Complete the required setting
-(1)	Enter Product Name. (required)
-(2)	The default SKU that is based on the product name, or enter another
-(3)	Enter the product Price
+1)	Enter **Product Name**. (required)
+2)	The default **SKU** that is based on the product name, or enter another
+3)	Enter the product **Price**
 
-Then, Click Save to continue.
+Then, Click **Save** to continue.
 
- 
+  ![Anh 86]()
+
 Complete the basic settings
-(1)	Set Tax Class to one of the following:
-•	None.
-•	Taxable Goods
-(2)	Enter the Quantity of the product that is currently in stock. 
-(3)	By default, Stock Status is set to Out of Stock.
-(4)	The Weight is not used, because downloadable products are not shipped.
-(5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on   
-(6)	Accept the default Visibility setting, Catalog, Search.
-(7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
-(8)	Enable on Web POS
-Then, click Save to continue.
+1)	Set **Tax Class** to one of the following:
+- None.
+- Taxable Goods
+2)	Enter the Quantity of the product that is currently in stock. 
+3)	By default, Stock Status is set to Out of Stock.
+4)	The Weight is not used, because downloadable products are not shipped.
+5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![Anh 87]()  
+6)	Accept the default Visibility setting, Catalog, Search.
+7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
+8)	Enable on Web POS
 
- 
-Complete downloadable product.
-1.	Mark the checkbox “Is this downloadable product”
-2.	Enter the Title - to use as a heading for the download links.
-3.	Click Add Link, then:
-               Enter Title and Price. For both File and Sample files, choose:
-•	Upload File: To upload the the distribution file to the server. Browse to the file, and select it for upload.
-•	URL: To access the distribution file from a URL. Enter the full URL to the download file.
+Then, click **Save** to continue.
 
- 
-Complete the Sample.
-(1) Enter the Title - to use as a heading for the samples.
-(2) Enter the Title of the individual sample.
-(3) Choose distribution methods.
-(4) Click to add another sample.
-When complete, click Save.
+  ![Anh 88]()
 
+Complete **downloadable product**.
+1.	Mark the checkbox “**Is this downloadable product**”
+2.	Enter the **Title** - to use as a heading for the download links.
+3.	Click **Add Link**, then:
+               Enter **Title** and **Price**. For both File and Sample files, choose:
+- **Upload File**: To upload the the distribution file to the server. Browse to the file, and select it for upload.
+- **URL**: To access the distribution file from a URL. Enter the full URL to the download file.
+
+  ![Anh 89]()
  
+Complete the **Sample**.
+1) Enter the **Title** - to use as a heading for the samples.
+2) Enter the **Title** of the individual sample.
+3) Choose distribution methods.
+4) Click to add another sample.
+When complete, click **Save**.
+
+  ![Anh 90]()
 Complete the product information
 
-4.1.4.4. Product Setting
-a.	Content
- 
-(1)	Click on Products
-(2)	Click on Catalog
-(3)	Click on Edit
- 
-Scroll down to Content, and click on  , then write the description for the product, and the click Save on top right of the screen
+##### Product Setting
+**a.	Content**
+  
+  ![Anh 91]()
 
-b.	Images and Videos
- 
-(1)	Click on products
-(2)	Click on catalog
-(3)	Click on edit of product
- 
-Scroll down to Images And Videos, and click on  , then click on Browse to find or drag image here to upload new image
+1)	Click on **Products**
+2)	Click on **Catalog**
+3)	Click on **Edit**
 
+  ![Anh 92]()
  
-Click on Add Video to add new video
- 
-Fill in the box and the click on Choose File to upload new video
+Scroll down to **Content**, and click on   ![Anh 93](), then write the description for the product, and the click **Save** on top right of the screen
 
-c.	Search Engine Optimization
- 
-(1)	Click on Products
-(2)	Click on Catalog
-(3)	Click on Edit of product
- 
-Scroll down to search Engine Optimization, and click on  , then fill in the box
+**b.	Images and Videos**
+  
+  ![Anh 93]()
 
-d.	Related Products, Up-sells and Cross-sells 
- 
-(5)	Click on respectively
--	Add Related Products
--	Add Up-sell Products
--	Add Cross-sell Products
- 
-(2) Mark the checkbox to select products
-(3) Click on Add Selected Product
- 
-(4)	Click on Save to finish
+1)	Click on **products**
+2)	Click on **catalog**
+3)	Click on **edit** of product
 
-e.	Customizable Options
+  ![Anh 94]()
+ 
+Scroll down to **Images And Videos**, and click on ![Anh 95](), then click on **Browse to find or drag image here to upload new image**
+
+  ![Anh 96]()
+Click on **Add Video** to add new video
+
+  ![Anh 97]()
+  
+Fill in the box and the click on **Choose File** to upload new video
+
+**c.	Search Engine Optimization**
+  ![Anh 98]()
+
+1)	Click on **Products**
+2)	Click on **Catalog**
+3)	Click on **Edit** of product
+
+  ![Anh 99]()
+
+Scroll down to search **Engine Optimization**, and click on ![Anh 100](), then fill in the box
+
+**d.	Related Products, Up-sells and Cross-sells**
+![Anh 101]()
+ 
+1)	Click on respectively
+-	**Add Related Products**
+-	**Add Up-sell Products**
+-	**Add Cross-sell Products**
+
+![Anh 102]()
+ 
+2) Mark the checkbox to select products
+3) Click on **Add Selected Product**
+
+![Anh 103]()
+ 
+4)	Click on **Save** to finish
+
+**e.	Customizable Options**
+![Anh 104]()
  
 This function allows users to set and manage extra price for each product's variant separately.
 Users can simply set the extra price to be applied on a product's variant, regardless of its attribute and attribute value.
-(1)	Click on Add Option
-(2)	Enter the option tittle
-(3)	Select an option type 
-(4)	Mark the checkbox to require 
-(5)	Click on Add Value
-(6)	Enter a title for the value
-(7)	Enter an extra price
-(8)	Select a price type
-(9)	Enter an SKU for each product’s variant
-To remove a value, click   on the right hand-side of the column 
 
-f.	Gift Option
- 
-(1)	Click on Products
-(2)	Click on Catalog
-(3)	Click on Edit of a product
- 
-Scroll down to Gift Option, and click  on  , then set the allow gift massage to Yes
+1)	Click on **Add Option**
+2)	Enter the **option tittle**
+3)	Select an **option type** 
+4)	Mark the checkbox to require 
+5)	Click on **Add Value**
+6)	Enter a **title** for the value
+7)	Enter an **extra price**
+8)	Select a **price type**
+9)	Enter an **SKU** for each product’s variant
 
-g.	Downloadable Information
- 
-(1)	Mark the checkbox
-(2)	Enter a title for the download link
-(3)	Mark the checkbox (if applicable)
-(4)	Click “Add Link”, then do the following:
-(5)	Enter a title for the download
-(6)	Enter a number as a price for the download
-(7)	Select an upload method for a file (Upload File/ Use URL)
-(8)	Select an upload method for a file (Upload File/ Use URL)
-(9)	Select a label in the dropdown list: 
-•	No: to requires customers to log in to their accounts to access the download link. 
-•	Yes: Sends the link by email, which customers can share with others. 
-•	Uses Config: Uses the method that is specified in the Dowloadable Product Options configuration. 
-(10)	Enter the number of “Max. downloads” to limit downloads per customer. 
-Otherwise, to allow unlimited downloads, mark the “Unlimited” checkbox
+To remove a value, click ![Anh 105]() on the right hand-side of the column 
 
-h.	Barcode
- 
-(1)	Enter barcode 
-(2)	Select a barcode template and see the preview as below 
-(3)	Enter the quantity to print out
-(4)	Click on Save to finish
+**f.	Gift Option**
 
-i.	Suppliers
+![Anh 106]()
  
-(1)	Click on Add Supplier
- 
-(2)	Mark the checkbox to select suppliers
-(3)	Click on Add Selected Supplier
- 
-(4)	Enter the Supplier SKU, Cost, Tax
-(5)	Click Save to finish
+1)	Click on **Products**
+2)	Click on **Catalog**
+3)	Click on **Edit of a product**
 
-4.2.	Customer 
-Path: Customers > All customers
-4.2.1.	Manage Customer 
+ ![Anh 107]()
  
-(1)	Click Add New Customer to create new customer.
-(2)	Click Filters or fill out key word to search customer information.
-(3)	Action: First, select a customer, then you can:
-•	Delete
-•	Subscribe to Newsletter.
-•	Unsubscribe from Newsletter.
-•	Assign a Customer Group.
-•	Edit
-(4)	Click Edit to view customer’s details and edit.
-4.2.2.	Create New Customer 
+Scroll down to **Gift Option**, and click on ![Anh 108](), then set the allow gift massage to **Yes**
+
+**g.	Downloadable Information**
+
+![Anh 108]()
  
-Click Add New Customer.
+1)	Mark the checkbox
+2)	Enter a title for the download link
+3)	Mark the checkbox (if applicable)
+4)	Click **Add Link**, then do the following:
+5)	Enter a title for the download
+6)	Enter a number as a price for the download
+7)	Select an upload method for a file **(Upload File/ Use URL)**
+8)	Select an upload method for a file **(Upload File/ Use URL)**
+9)	Select a label in the dropdown list: 
+- **No**: to requires customers to log in to their accounts to access the download link. 
+- **Yes**: Sends the link by email, which customers can share with others. 
+- **Uses Config**: Uses the method that is specified in the Dowloadable Product Options configuration. 
+10)	Enter the number of **Max. downloads** to limit downloads per customer. 
+
+Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
+
+**h.	Barcode**
+
+![Anh 109]()
  
+1)	Enter barcode 
+2)	Select a barcode template and see the preview as below 
+3)	Enter the quantity to print out
+4)	Click on **Save** to finish
+
+**i.	Suppliers**
+![Anh 110]()
+ 
+1)	Click on **Add Supplier**
+
+![Anh 111]()
+2)	Mark the checkbox to select suppliers
+3)	Click on **Add Selected Supplier**
+
+![Anh 112]()
+(4)	Enter the **Supplier SKU, Cost, Tax**
+(5)	Click **Save** to finish
+
+### Customer 
+Path: **Customers > All customers**
+#### Manage Customer 
+
+![Anh 113]()
+
+1)	Click **Add New Customer** to create new customer.
+2)	Click **Filters** or fill out key word to search customer information.
+3)	**Action**: First, select a customer, then you can:
+- Delete
+- Subscribe to Newsletter.
+- Unsubscribe from Newsletter.
+- Assign a Customer Group.
+- Edit
+4)	Click **Edit** to view customer’s details and edit.
+
+#### Create New Customer 
+
+![Anh 114]()
+Click **Add New Customer**.
+
+![Anh 115]()
 Fill out all the required fields with information of a customer.
-•	Associate to Website.
-•	Group.
-•	First Name.
-•	Last Name.
-•	Email.
- 
-Click Save Customer to complete the process.
-4.3.	Warehouse
-Path: Inventory Management > Stock Listing section > Warehouse
-Please refer to Section 5.1.1.3. Warehouse for details.
+- Associate to Website.
+- Group.
+- First Name.
+- Last Name.
+- Email.
 
-4.4.	Location
-Path: Sales > Web POS section > Manage Locations
- 
-(1) Click on Add Location to create new locations
-(2) Additional Guidance: Click on Edit to amend existing locations’ information.
- 
-On the pop-up screen:
-(1)	Fill in the Location Name (required)
-(2)	Fill in the location Address field
-(3)	Fill in the location Description field
+![Anh 116]()
+Click **Save Customer** to complete the process.
+
+### Warehouse
+Path: **Inventory Management > Stock Listing** section **> Warehouse**
+Please refer to Section **Warehouse** for details.
+
+### Location
+Path: **Sales > Web POS** section **> Manage Locations**
+
+![Anh 117]()
+
+(1) Click on **Add Location** to create new locations
+(2) *Additional Guidance*: Click on **Edit** to amend existing locations’ information.
+
+![Anh 118]()
+
+*On the pop-up screen*:
+(1)	Fill in the **Location Name** (required)
+(2)	Fill in the location **Address** field
+(3)	Fill in the location **Description** field
 (4)	Choose the Warehouse. 
-•	If you already assign a location to your Primary Warehouse, you won’t be able to assign it again here. 
-•	If you want to assign a new location to your Primary Warehouse, you need to Edit this field of the currently assigned warehouse to Don’t link to any Warehouses, then come back to the new location that you wish to assign and assign it to Primary Warehouse.
-(5)	Click on Save
+- If you already assign a location to your Primary Warehouse, you won’t be able to assign it again here. 
+- If you want to assign a new location to your Primary Warehouse, you need to **Edit** this field of the currently assigned warehouse to **Don’t link to any Warehouses**, then come back to the new location that you wish to assign and assign it to **Primary Warehouse**.
+(5)	Click on **Save**
 
-4.5.	Store (POS) 
-Path: Sales > Web POS section > Manage POS
-4.5.1.	Create A New Web POS 
-   
-Click Add POS
- Fill out or select all the re quired fields.
-(1) POS Name: POS’s name. (re quired)
-(2) Location: POS’s location. (required). Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily.
-(3) Store View: (required)
-(4) Current Staff: Staff is working on the POS.
-(5) Status: you Enable or Disable this POS
-(6) When checked: another staff can use the POS when it is available.
+### Store (POS) 
+Path: **Sales > Web POS** section **> Manage POS**
+#### Create A New Web POS 
 
- 
-Click Save to complete the process.
+![Anh 119]()
+Click **Add POS**
 
-Note: Even when you set the warehouse to a certain location, with online store, admin can see clearly warehouse information in any location. HOWEVER, with offline store, only Sales Manager can view the warehouse information only in the mapped location.
-IT Admin can give other admin permission to view the Inventory information in any location by going to System > User Roles > Add new role or Edit role > Role Resource
+![Anh 120]()
 
-4.5.2.	Manage Web POS 
-Path: Sale > Web POS section > Manage POS
- 
-(1)	Click Add POS to create new POS.
-(2)	Click Filters to search POS information.
-(3)	If you want to delete a POS, first select a POS, then click Actions: choose Delete.
-(4)	Click Detail to view a POS’s details or edit
+Fill out or select all the re quired fields.
+1) **POS Name**: POS’s name. (re quired)
+2) **Location**: POS’s location. (required). Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily.
+(3) **Store View**: (required)
+(4) **Current Staff**: Staff is working on the POS.
+(5) **Status**: you Enable or Disable this POS
+(6) **When checked**: another staff can use the POS when it is available.
+
+![Anh 121]()
+Click **Save** to complete the process.
+
+**Note**: *Even when you set the warehouse to a certain location, with online store, admin can see clearly warehouse information in any location. HOWEVER, with offline store, only Sales Manager can view the warehouse information only in the mapped location.*
+
+*IT Admin can give other admin permission to view the Inventory information in any location by going to ***System > User Roles > Add new role or Edit role > Role Resource***
+
+#### Manage Web POS 
+Path: **Sale > Web POS** section **> Manage POS**
+
+![Anh 122]()
+
+1)	Click **Add POS** to create new POS.
+2)	Click **Filters** to search POS information.
+3)	If you want to delete a POS, first select a POS, then click **Actions**: choose **Delete**.
+4)	Click **Detail** to view a POS’s details or edit
 
 
 
