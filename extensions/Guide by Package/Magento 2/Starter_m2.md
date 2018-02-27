@@ -575,19 +575,19 @@ Then, click **Save** to continue
 
 Complete the product information
 Scroll down and complete the information in the following sections as needed:
- o	Content
- o	Configurations
- o	Images and Videos
- o	Search Engine Optimization
- o	Related Products, Up-Sells, and Cross-Sells
- o	Customizable Options
- o	Products in Websites
- o	Design
- o	Schedule Design Update
- o	Gift Options
- o	Downloadable Information
- o	Barcode
- o	Suppliers
+- Content
+- Configurations
+- Images and Videos
+- Search Engine Optimization
+- Related Products, Up-Sells, and Cross-Sells
+- Customizable Options
+- Products in Websites
+- Design
+- Schedule Design Update
+- Gift Options
+- Downloadable Information
+- Barcode
+- Suppliers
 
 **Configurable product**
 Create a new configurable product
@@ -927,9 +927,9 @@ Scroll down to **Gift Option**, and click on ![Anh 108](), then set the allow gi
 7)	Select an upload method for a file **(Upload File/ Use URL)**
 8)	Select an upload method for a file **(Upload File/ Use URL)**
 9)	Select a label in the dropdown list: 
-- **No**: to requires customers to log in to their accounts to access the download link. 
-- **Yes**: Sends the link by email, which customers can share with others. 
-- **Uses Config**: Uses the method that is specified in the Dowloadable Product Options configuration. 
+  - **No**: to requires customers to log in to their accounts to access the download link. 
+  - **Yes**: Sends the link by email, which customers can share with others. 
+  - **Uses Config**: Uses the method that is specified in the Dowloadable Product Options configuration. 
 10)	Enter the number of **Max. downloads** to limit downloads per customer. 
 
 Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
@@ -997,19 +997,19 @@ Path: **Sales > Web POS** section **> Manage Locations**
 
 ![Anh 117]()
 
-(1) Click on **Add Location** to create new locations
-(2) *Additional Guidance*: Click on **Edit** to amend existing locations’ information.
+1) Click on **Add Location** to create new locations
+2) *Additional Guidance*: Click on **Edit** to amend existing locations’ information.
 
 ![Anh 118]()
 
 *On the pop-up screen*:
-(1)	Fill in the **Location Name** (required)
-(2)	Fill in the location **Address** field
-(3)	Fill in the location **Description** field
-(4)	Choose the Warehouse. 
+1)	Fill in the **Location Name** (required)
+2)	Fill in the location **Address** field
+3)	Fill in the location **Description** field
+4)	Choose the Warehouse. 
 - If you already assign a location to your Primary Warehouse, you won’t be able to assign it again here. 
 - If you want to assign a new location to your Primary Warehouse, you need to **Edit** this field of the currently assigned warehouse to **Don’t link to any Warehouses**, then come back to the new location that you wish to assign and assign it to **Primary Warehouse**.
-(5)	Click on **Save**
+5)	Click on **Save**
 
 ### Store (POS) 
 Path: **Sales > Web POS** section **> Manage POS**
@@ -1023,10 +1023,10 @@ Click **Add POS**
 Fill out or select all the re quired fields.
 1) **POS Name**: POS’s name. (re quired)
 2) **Location**: POS’s location. (required). Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily.
-(3) **Store View**: (required)
-(4) **Current Staff**: Staff is working on the POS.
-(5) **Status**: you Enable or Disable this POS
-(6) **When checked**: another staff can use the POS when it is available.
+3) **Store View**: (required)
+4) **Current Staff**: Staff is working on the POS.
+5) **Status**: you Enable or Disable this POS
+6) **When checked**: another staff can use the POS when it is available.
 
 ![Anh 121]()
 Click **Save** to complete the process.
