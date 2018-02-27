@@ -527,174 +527,203 @@ Path: **Products > Inventory** section **> Catalog**
  ![Anh 47]()
 
 **Workspace Controls**
-Control	Description
--	Add Product	Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options:
-•	Simple Product.
-•	Configurable Product.
-1.	Grouped Product.
-2.	Virtual Product.
-3.	Bundle Product.
-4.	Downloadable Product.
--	Action	Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, mark the check box in the first column of each product. Options:
-5.	Delete.
-6.	Change Status.
-7.	Update Attributes.
--	Filters	Initiates a catalog search based on the current filters.
--	Edit	Opens the product in edit mode or view product’s detail.  You can accomplish the same thing by clicking any where on the row.
+| Control	|Description|
+|--|--|
+|Add Product|	Initiates the process to create a new simple product. To choose a specific product type, click the down arrow. Options: **Simple Product**/ **Configurable Product**. 
+|| (1)	Grouped Product; (2) Virtual Product; (3)	Bundle Product; (4)	Downloadable Product|
+| Action| Lists all actions that can be applied to selected products in the list. To apply an action to a product or group of products, mark the check box in the first column of each product. Options: (5)	Delete; (6)	Change Status; (7)	Update Attributes.| 
+Filters| Initiates a catalog search based on the current filters.|
+Edit|	Opens the product in edit mode or view product’s detail.  You can accomplish the same thing by clicking any where on the row.| 
 
+##### Create A New Product 
+**Simple product**
 
-4.1.4.3. Create A New Product 
-Simple product
+  ![Anh 48]()
 
- 
-In the upper-right corner on the Add Product    menu, choose Simple Product.
- 
+In the upper-right corner on the Add Product ![Anh 49]() menu, choose Simple Product.
+
+ ![Anh 50]()
+
 Choose the attribute set that is used as a template for the product.
+ ![Anh 51]()
+ 
+**Complete the required setting**.
+1)	Enter **Product Name**. *(required)*
+2)	The default SKU that is based on the product name, or enter another.
+3)	**Price**: enter the product price.
 
+Then, Click **Save** to continue.
  
-Complete the required setting.
-(1)	Enter Product Name. (required)
-(2)	The default SKU that is based on the product name, or enter another.
-(3)	Price: enter the product price.
-Then, Click Save to continue.
- 
-Complete the basic settings
+ ![Anh 52]()
+
+**Complete the basic settings**
+
 Set Tax Class to one of the following:
-(1)	Taxable Goods/None
-(2)	Enter the Quantity of the product that is currently in stock. 
-(3)	By default, Stock Status is set to In Stock
-(4)	Enter the Weight of the product.
-(5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by click  
-(6)	Accept the default Visibility setting, Catalog, Search.
-(7)	Mark the Set Product as New checkbox to add the product in the list of new products.
-(8)	Choose the Country of Manufacture.
-(9)	Enable On Web POS
+1)	Taxable Goods/None
+2)	Enter the Quantity of the product that is currently in stock. 
+3)	By default, Stock Status is set to **In Stock**
+4)	Enter the Weight of the product.
+5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click  ![Anh 53]() 
+6)	Accept the default Visibility setting, **Catalog, Search**.
+7)	Mark the Set Product as New checkbox to add the product in the list of new products.
+8)	Choose the Country of Manufacture.
+9)	Enable **On Web POS**
 
-Then, click Save to continue
+Then, click **Save** to continue
 
- 
+ ![Anh 54]()
+
 Complete the product information
 Scroll down and complete the information in the following sections as needed:
-o	Content
-o	Configurations
-o	Images and Videos
-o	Search Engine Optimization
-o	Related Products, Up-Sells, and Cross-Sells
-o	Customizable Options
-o	Products in Websites
-o	Design
-o	Schedule Design Update
-o	Gift Options
-o	Downloadable Information
-o	Barcode
-o	Suppliers
+ o	Content
+ o	Configurations
+ o	Images and Videos
+ o	Search Engine Optimization
+ o	Related Products, Up-Sells, and Cross-Sells
+ o	Customizable Options
+ o	Products in Websites
+ o	Design
+ o	Schedule Design Update
+ o	Gift Options
+ o	Downloadable Information
+ o	Barcode
+ o	Suppliers
 
-Configurable product
+**Configurable product**
 Create a new configurable product
+ ![Anh 55]()
 
- 
-In the upper-right corner on the Add Product    menu, choose Configurable Product.
- 
+In the upper-right corner on the **Add Product**  ![Anh 56]() menu, choose **Configurable Product**.
+
+ ![Anh 56]()
+
 Choose the attribute set that is used as a template for the product.
  
+  ![Anh 57]()
+
 Complete the required setting
-(1)	Enter Product Name. (required)
-(2)	The default SKU that is based on the product name, or enter another.
-(3)	Enter the product Price.
-(4)	Click Save to continue.
+1)	Enter **Product Name**. (required)
+2)	The default SKU that is based on the product name, or enter another.
+3)	Enter the product Price.
+4)	Click **Save** to continue.
 
- 
+ ![Anh 58]()
+
 Complete the basic settings
-(1)	Set Tax Class to one of the following:
-o	None.
-o	Taxable Goods.
-(2)	Enter the Quantity of the product that is currently in stock. 
-(3)	By default, Stock Status is set to In Stock.
-(4)	Enter the Weight of the product.
-(5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by click  
-(6)	Accept the default Visibility setting, Catalog, Search.
-(7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
-(8)	Choose the Country of Manufacture.
-(9)	Enable on Web POS
+1)	Set Tax Class to one of the following:
+- None.
+- Taxable Goods.
+2)	Enter the Quantity of the product that is currently in stock. 
+3)	By default, Stock Status is set to **In Stock**.
+4)	Enter the Weight of the product.
+5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 59]() 
+6)	Accept the default Visibility setting, **Catalog, Search**.
+7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
+8)	Choose the Country of Manufacture.
+9)	Enable on Web POS
 
-Then, click Save to continue.
- 
+Then, click **Save** to continue.
+
+ ![Anh 60]()
 Complete the product information.
 
-Adding configurations
- 
-After creating a product, scroll down the Configuration section > Click Create Configurations.
- 
+**Adding configurations**
+ ![Anh 61]()
+
+After creating a product, scroll down the **Configuration** section **>** Click **Create Configurations**.
+ ![Anh 62]()
+
 Choose the attributes
-(1)	Mark the checkbox of each attribute that you want to include as a configuration.
-(2)	Add a new attribute.
-(3)	Click to continue.
- 
+1)	Mark the checkbox of each attribute that you want to include as a configuration.
+2)	Add a new attribute.
+3)	Click to continue.
+ ![Anh 63]()
+
 For each attribute, mark the checkbox of the values that apply to the product.
-Click Next to continue
+
+Click **Next to continue**
+ ![Anh 64]()
  
 Configure the Images, Price, and Quantity.
-Click Next to continue.
+
+Click **Next** to continue.
+
 You will see list product.
  
-Click Next to finish the process.
+ ![Anh 65]()
+Click **Next** to finish the process.
 
-Grouped product
+**Grouped product**
 
-In the upper-right corner on the Add Product    menu, choose Grouped Product.
- 
+In the upper-right corner on the **Add Product**  ![Anh 66]() menu, choose **Grouped Product**.
+ ![Anh 66]()
 Choose the attribute set that is used as a template for the product.
- 
+  ![Anh 67]()
+
 Complete the required setting
-(1)	Enter Product Name. (required)
-(2)	The default SKU that is based on the product name, or enter another.
-(3)	Enter the Quantity of the product that is currently in stock 
-Then, Click Save to continue.
- 
+1)	Enter **Product Name**. (required)
+2)	The default SKU that is based on the product name, or enter another.
+3)	Enter the Quantity of the product that is currently in stock 
+
+Then, Click **Save to continue**.
+ ![Anh 68]()
+
 Complete the basic settings
-(1)	By default, Stock Status is set to In Stock
-(2)	Assign Categories to the product. Tap the Select to select available category or you can create new category by click  
-(3)	Accept the default Visibility setting, Catalog, Search.
-(4)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
-(5)	Choose the Country of Manufacture.
-(6)	Enable on Web POS
-Then, click Save to continue.
-Add products to Group
+1)	By default, Stock Status is set to **In Stock**
+2)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 69]()
+3)	Accept the default Visibility setting, **Catalog, Search**.
+4)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
+5)	Choose the Country of Manufacture.
+6)	Enable on Web POS
+
+Then, click **Save to continue**.
+
+**Add products to Group**
  
- 
-(1)	Select product that you want to include in the group.
-(2)	Click to add them to group.
- 
-(1)	Enter a quantity.
-(2)	Remove a product from group.
-Click Save to finish the process.
- 
+  ![Anh 69]()
+  ![Anh 70]()
+
+1)	Select product that you want to include in the group.
+2)	Click to add them to group.
+   
+   ![Anh 71]()
+1)	Enter a quantity.
+2)	Remove a product from group.
+
+Click **Save** to finish the process.
+  
+  ![Anh 72]()
 Complete the product information
 
-Virtual product
+**Virtual product**
 
 Aside from the absence of the Weight field, the process of creating a virtual product and a simple product is the same.
 
-Bundle product
- 
-In the upper-right corner on the Add Product    menu, choose Bundle  Product.
- 
+**Bundle product**
+  
+  ![Anh 73]()
+In the upper-right corner on the Add Product ![Anh 74]() menu, choose Bundle Product.
+  
+  ![Anh 74]()
 Choose the attribute set that is used as a template for the product
 
- 
+  ![Anh 75]()
 Complete the required setting
-(1)	Enter Product Name. (required)
-(2)	The default SKU that is based on the product name, or enter another.
-(3)	Enter the product Price.
-Then, Click Save to continue.
- 
+1)	Enter Product Name. (required)
+2)	The default SKU that is based on the product name, or enter another.
+3)	Enter the product Price.
+
+Then, Click **Save to continue**.
+
+  ![Anh 76]()
+
 Complete the basic settings
-(1)	Enable Dynamic Price
-(2)	Set Tax Class to one of the following:
-•	None
-•	Taxable Goods.
-(3)	Enter the Quantity of the product that is currently in stock. 
-(4)	By default, Stock Status is set to In Stock
+1)	Enable **Dynamic Price**
+2)	Set Tax Class to one of the following:
+- None
+- Taxable Goods.
+3)	Enter the Quantity of the product that is currently in stock. 
+4)	By default, Stock Status is set to In Stock
 (5)	Enter the Dynamic Weight of product.
 (6)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on   
 (7)	Accept the default Visibility setting, Catalog, Search
