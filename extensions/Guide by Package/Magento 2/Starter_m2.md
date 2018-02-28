@@ -1423,296 +1423,404 @@ To reload data, user can go to **Settings > Synchronization** and choose **Reloa
  
 #### How To Do The Transaction 
 ##### How To Filter And Search Product Quickly 
-a.	How To Configure Process Of Searching Product 
+**a.	How To Configure Process Of Searching Product**
 
-Users can configure to search products  by going to Settings tab  > General. 
+Users can configure to search products by going to **Settings** tab **> General**. 
 
- 
-In Catalog tab: 
-Enable Display out-of-stock products in search results (online mode) by choosing Yes option. If you choose No option, out-of-stock products will not display in search results.
-Note: This function is available for online mode only 
+![Anh 171]()
 
-b.	How To Search Product In Frontend 
+In **Catalog** tab: 
+Enable **Display out-of-stock products in search results (online mode)** by choosing Yes option. If you choose No option, out-of-stock products will not display in search results.
+
+**Note:** This function is available for online mode only 
+
+**b.	How To Search Product In Frontend** 
 There are 3 ways that users can search products:
-•	Use Categories 
-•	Use Products Attributes 
-•	Use Barcode 
+- Use Categories 
+- Use Products Attributes 
+- Use Barcode 
 
-
-Use Categories 
+**Use Categories**
 In frontend, you can click on All Categories link to quickly search products by categories. Choose the corresponding categories as you prefer.
 
- 
-Use Product Attributes
+![Anh 172]()
+
+**Use Product Attributes**
 To search by product attributes, click on Search icon, then a search bar will be shown. Enter your search terms and matching products will display right away.
 
- 
+![Anh 173]()
 
-Use Barcode 
-o	Connect Web POS with barcode reader devices (Please refer to 2.2.2. How Web POS works with peripheral devices)
-o	Scan barcode and then the barcode attribute will be filled automatically in the search box
-o	The matching product will be shown in the list.
-5.2.2.2.	How To Add Products To Cart
-a.	Add Products To Card 
-o	With simple products, you just need 1 click to add them to cart
-o	With configurable, bundle, grouped products, after clicking, you will see a popup shown to choose your option. Then, click on Add to cart button.
- 
+**Use Barcode** 
+- Connect Web POS with barcode reader devices (Please refer to **How Web POS works with peripheral devices**)
+- Scan barcode and then the barcode attribute will be filled automatically in the search box
+- The matching product will be shown in the list.
 
-b.	Edit Products In Cart 
- 
-After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with option to edit Qty. To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away.
+##### How To Add Products To Cart
+**a.	Add Products To Card**
+- With simple products, you just need 1 click to add them to cart
+- With configurable, bundle, grouped products, after clicking, you will see a popup shown to choose your option. Then, click on **Add to cart** button.
 
-c.	Remove Products In Cart 
- 
-To remove products in cart one by one, click on “x” button of the corresponding product. After that, the cart will be updated immediately. Or you can click on the waste basket icon to clear cart.
+![Anh 174]()
 
-5.2.2.3.	How To Add A Custom Sale Item To Cart 
+**b.	Edit Products In Cart** 
+
+![Anh 175]()
+ 
+After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with option to edit **Qty.** To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away.
+
+**c.	Remove Products In Cart**
+
+![Anh 176]()
+
+To remove products in cart one by one, click on **x** button of the corresponding product. After that, the cart will be updated immediately. Or you can click on the waste basket icon to clear cart.
+
+##### How To Add A Custom Sale Item To Cart 
 Custom sale item is the item that Web POS user creates when checkout. It is used when the product hasn’t been added to the system or Web POS user cannot find it in the product list.
 
-In frontend, click on Custom Sale button if you want to add the custom product to cart
+In frontend, click on **Custom Sale** button if you want to add the custom product to cart
 
- 
+![Anh 177]()
+
 A screen will be shown for you to configure this custom product:
 
- 
-(1)	Name: Enter the name of custom sale product
-(2)	Price: Enter the price of this product
-(3)	None/ Taxable goods: Choose whether the product is subject to tax or not
-(4)	Shippable: Choose whether the product will be shipped or not by turning on/off this option
-(5)	After finishing configuration, click on Add to Cart button and check out as normally. Please note that this custom sale product will not be saved for the next checkout.
+![Anh 178]()
 
-5.2.2.4.	How To Apply Coupon Code Or Card Discount 
-After adding products to cart, to apply a coupon code or discount on the whole cart, click on Add Cart Discount link.
+1)	**Name**: Enter the name of custom sale product
+2)	**Price**: Enter the price of this product
+3)	**None/ Taxable goods**: Choose whether the product is subject to tax or not
+4)	**Shippable**: Choose whether the product will be shipped or not by turning on/off this option
+5)	After finishing configuration, click on **Add to Cart** button and check out as normally. Please note that this custom sale product will not be saved for the next checkout.
 
- 
+##### How To Apply Coupon Code Or Card Discount 
+After adding products to cart, to apply a coupon code or discount on the whole cart, click on **Add Cart Discount** link.
 
-Then, a popup will display as below, where you can choose between using Discount or Promotion
+![Anh 179]()
  
-In Discount Tab:
-(1)	Name: Enter a name for this discount as you will easily check it again
-(2)	Discount Type: Select discount by fixed amount or percentage
-(3)	Amount: Fill in discount value as you offer for your customers.
-(4)	Then, the cart will be updated automatically after you click on Apply button.
-In Promotion Tab:
-Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on Apply button.
- 
+Then, a popup will display as below, where you can choose between using **Discount** or **Promotion**
 
-5.2.2.5.	How To Apply Custom Discount Or Custom Price To A Product
-After adding products to cart, besides editing the quantity of each product (refer to section b. Edit products in cart for more details), you can click on the product to edit other information. A popup will display with edit options for Custom Price, Discount. Remember that you can only change either Custom Price OR Discount for a product, instead of both at once.
+![Anh 180]()
  
-You can set custom price for products by click on Custom Price button. The next popup will be shown as below:
+**In Discount Tab**:
+1)	**Name**: Enter a name for this discount as you will easily check it again
+2)	**Discount Type**: Select discount by fixed amount or percentage
+3)	**Amount**: Fill in discount value as you offer for your customers.
+4)	Then, the cart will be updated automatically after you click on **Apply** button.
+
+**In Promotion Tab**:
+Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on **Apply** button.
+
+![Anh 181]()
+
+##### How To Apply Custom Discount Or Custom Price To A Product
+After adding products to cart, besides editing the quantity of each product (refer to section **b. Edit products in cart** for more details), you can click on the product to edit other information. A popup will display with edit options for **Custom Price, Discount**. Remember that you can only change either Custom Price **OR** Discount for a product, instead of both at once.
+
+![Anh 182]()
+ 
+You can set custom price for products by click on **Custom Price** button. The next popup will be shown as below:
+
+![Anh 183]()
  
 In this popup, please choose type you want to adjust for the price, either by a fixed number or percentage.
-•	If you adjust price by a fixed number, the checkout price will be the value you enter. 
-•	If you adjust price by percentage, the price will be the result after multiplying the discount percentage rate by the original price. 
+- If you adjust price by a fixed number, the checkout price will be the value you enter. 
+- If you adjust price by percentage, the price will be the result after multiplying the discount percentage rate by the original price. 
 
 Then, products in cart will be automatically updated with the price you enter.
- 
-Editing discount for each product is similar to edit by Custom Price. Click on Discount button and choose types of discount–fixed discount or percentage–you want to adjust:
 
+![Anh 184]()
  
-• If you edit discount by fixed number, the price will decrease by the exact value you have entered
-• If you edit by percentage, the price will decrease by the percent you have entered (it is similar to Custom Price by percentage).
+Editing discount for each product is similar to edit by Custom Price. Click on **Discount** button and choose types of discount–fixed discount or percentage–you want to adjust:
+
+![Anh 185]()
+
+- If you edit discount by fixed number, the price will decrease by the exact value you have entered
+- If you edit by percentage, the price will decrease by the percent you have entered (it is similar to Custom Price by percentage).
 
 Then, the product price will be updated in the cart.
- 
 
-5.2.4.	How To Manage Transaction 
-5.2.3.1.	How To Handle Cutomer Information At Check Out 
-a. Customer Checkout 
-To use Customer Checkout, add customer by clicking on Customer icon on the right corner. You will see a screen as below:
+#### How To Manage Transaction 
+##### How To Handle Cutomer Information At Check Out 
+**a. Customer Checkout**
+To use Customer Checkout, add customer by clicking on **Customer** icon on the right corner. You will see a screen as below:
+
+![Anh 186]()
+![Anh 187]()
  
- 
-Search customers:
+**Search customers:**
 Using the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in the dropdown list.
+
 The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
- 
-Create New Customer:
-If customer hasn’t been added in your system before, instead of searching, click on Create Customer button.
- 
-(1)	Fill in required information including customer’s First Name, Last Name, Email, Group
-(2)	Click to subscribe to customer to your newsletter or not.
-(3)	Fill in Shipping & Billing Address. You can choose whether Billing Address is similar to Shipping Address or not. 
-(4)	Click Save button to save the customer information for the next checkout.
 
-b. Guest Checkout 
+![Anh 188]()
+
+**Create New Customer**:
+If customer hasn’t been added in your system before, instead of searching, click on **Create Customer** button.
+
+![Anh 189]()
+
+1)	Fill in required information including customer’s **First Name, Last Name, Email, Group**
+2)	Click to subscribe to customer to your newsletter or not.
+3)	Fill in **Shipping & Billing Address**. You can choose whether Billing Address is similar to Shipping Address or not. 
+4)	Click **Save** button to save the customer information for the next checkout.
+
+**b. Guest Checkout**
+
+![Anh 190]()
  
-When you use Guest Checkout, the default customer information that you configure in backend will be used (Please go to the section 2.2.1. Default Guest Checkout for more details). At checkout, all fields will be auto-filled with that default information.
+When you use Guest Checkout, the default customer information that you configure in backend will be used (Please go to the section **Default Guest Checkout** for more details). At checkout, all fields will be auto-filled with that default information.
 
-5.2.3.2.	How To Add Comment To An Order
-Click on the icon on the top right corner and choose Add Order Note. In the Order Comment box, type the content that reminds you of this order. Then, save it.
- 
- 
-5.2.3.3.	How To Check Order Comment 
-a. In Web POS Screen 
-Path: Orders > Orders History or Orders > On-hold Orders
+##### How To Add Comment To An Order
+Click on the icon on the top right corner and choose **Add Order Note**. In the **Order Comment** box, type the content that reminds you of this order. Then, save it.
 
-To view comment of order, you can go to Orders tab in Web POS screen, choose an order then scroll down to see Comment History.
+![Anh 191]()
+![Anh 192]()
 
- 
+##### How To Check Order Comment 
+**a. In Web POS Screen**
+Path: **Orders > Orders History** or **Orders > On-hold Orders**
 
-b. In Magento Backend 
-Go to Sales > Orders and click on a specific order. In order details page, go to Comment History tab to check whether it has any notes or not.
- 
+To view comment of order, you can go to **Orders** tab in Web POS screen, choose an order then scroll down to see Comment History.
 
+![Anh 193]()
 
-5.2.3.4.	How To Process At Check Out For A Customer 
+**b. In Magento Backend**
+Go to **Sales > Orders** and click on a specific order. In order details page, go to **Comment History** tab to check whether it has any notes or not.
+
+![Anh 194]()
+
+##### How To Process At Check Out For A Customer 
 You have been through steps to add products to cart and add customer, let’s move to the checkout process.
+
+![Anh 195]()
  
 When products are added to cart, click on Checkout button at the end of the cart page
 You will be redirected to the next page with information of Shipping & Payment Method
  
+![Anh 196]()
+
 Click on the icon on the right to expand or collapse the Shipping/ Payment section.
 Choose a shipping and payment method to proceed checkout. (Shipping and Payment methods can be added in the Magento core backend)
 
-Credit Card: Magestore Web POS supports Authorize.net & Stripe. Sale staff can fill in card information manually or swipe card (if the POS system is connected with a card swiper). For more information, please go to section 2.2.2. How Web POS works with peripheral devices.
+**Credit Card**: Magestore Web POS supports Authorize.net & Stripe. Sale staff can fill in card information manually or swipe card (if the POS system is connected with a card swiper). For more information, please go to section **How Web POS works with peripheral devices**.
 
-5.2.3.5.	Slit payment with Web POS 
- 
-Customer can pay their order in maximum 2 different payment methods. Click Add Payment and select the second payment option. Then, click on Place Order button to complete checkout process. There will be a notification as is shown below:
+##### Slit payment with Web POS 
 
+![Anh 197]()
  
-5.2.3.6.	Partial Payment with Web POS 
+Customer can pay their order in maximum 2 different payment methods. Click **Add Payment** and select the second payment option. Then, click on **Place Order** button to complete checkout process. There will be a notification as is shown below:
 
-Besides Split Payment feature (please refer to 4.2.3.5. Split Payment with Web POS), our solution also allows customers to pay partially at the time of checkout and pay the rest later.
+![Anh 198]()
  
-(1)	Select the first payment method and enter the partial payment value at the checkout point
-(2)	Click Mark as Partial button
+##### Partial Payment with Web POS 
+
+Besides Split Payment feature (please refer to **Split Payment with Web POS**), our solution also allows customers to pay partially at the time of checkout and pay the rest later.
+
+![Anh 199]()
+
+1)	Select the first payment method and enter the partial payment value at the checkout point
+2)	Click **Mark as Partial** button
+
 The order is now created and successful order notification is displayed
 
-After finishing creating order, in the next step, when customers come back to pay the rest of order value, you can complete the order by going to WebPOS frontend menu > Orders > Orders History. The order is marked with Pending status.
- 
-(1) You can view the summary of the order; the total value and the paid value.
-(2) To complete the order payment, you click on Take payment button. Tick to choose the payment option or pay with multiple ones
+After finishing creating order, in the next step, when customers come back to pay the rest of order value, you can complete the order by going to **WebPOS frontend menu > Orders > Orders History**. The order is marked with **Pending** status.
 
- 
-After filling in the due amount, click on Submit button to complete the payment action. Then the total paid is equal to the whole order’s value
+![Anh 200]()
 
-5.2.3.7.	How to keep orders on hold for further processing 
+1) You can view the summary of the order; the total value and the paid value.
+2) To complete the order payment, you click on **Take payment** button. Tick to choose the payment option or pay with multiple ones
+ 
+After filling in the due amount, click on **Submit** button to complete the payment action. Then the total paid is equal to the whole order’s value
+
+##### How to keep orders on hold for further processing 
 Your customers can't make up their minds yet, or are unable to make a payment meanwhile? They may want to purchase items that are for pre-order or currently out of stocks? You don't want to lose those potential customers, don't you? Then, Web POS's new feature can put these orders on hold - no limit in time - until they are ready to continue processing!
+
+![Anh 201]()
  
 After adding products to cart, you can hold the order for later checkout by clicking on the + button. The order will be kept open on the checkout bar to process later. 
- 
+
+![Anh 202]()
+
 The on-hold order is labeled with a sequence number and the time it is put on hold. You can hold multiple orders and continue with one order by clicking on them. Meanwhile, you can create another order by clicking on the + button.
  
-To check orders that have been put on hold, go to Web POS menu >  Orders > On-hold Orders. You may select Checkout whenever customer is willing to take final action for payment or you may Delete it if it is not effective anymore.
-
-5.2.3.8.	How to print receipt and email order information
-You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
+![Anh 203]()
  
+To check orders that have been put on hold, go to Web POS menu **>  Orders > On-hold Orders**. You may select **Checkout** whenever customer is willing to take final action for payment or you may **Delete** it if it is not effective anymore.
+
+##### How to print receipt and email order information
+You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
+
+![Anh 204]()
+
 The receipt will look like the screenshot below:
+
+![Anh 205]()
  
 And here is the email of order information:
- 
 
-5.2.3.9.	How to review orders 
-In POS screen, you can review orders by go to Web POS menu > Orders > Order History tab. Here you can see the order list and order details:
+![Anh 206]()
+
+##### How to review orders 
+In POS screen, you can review orders by go to **Web POS menu > Orders > Order History** tab. Here you can see the order list and order details:
+
+![Anh 207]()
  
-a.	Order status
+**a.	Order status**
 In order list, the status of order is distinguished by color
-•	Complete: Green (When you ship order AND create invoice
-•	Processing: Blue (When you ship order OR create invoice)
-•	Pending: Orange (When you create order successfully but have not shipped order and created invoice)
-•	Canceled: Gray (When you cancel the order)
-•	Not synced: Red (When order’s data has not been synced to the system)
-•	Closed: Black (When order has been refunded)
-b.	Order searching
+
+•	**Complete**: Green (When you ship order AND create invoice
+
+•	**Processing**: Blue (When you ship order OR create invoice)
+
+•	**Pending**: Orange (When you create order successfully but have not shipped order and created invoice)
+
+•	**Canceled**: Gray (When you cancel the order)
+
+•	**Not synced**: Red (When order’s data has not been synced to the system)
+
+•	**Closed**: Black (When order has been refunded)
+
+**b.	Order searching**
 To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
+
+![Anh 208]()
  
-c.	View order information
- 
+**c.	View order information**
+
+![Anh 209]()
+
 To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this:
 
-5.2.3.10.	How to issue invoice for an order 
+##### How to issue invoice for an order 
+
+![Anh 210]()
  
-The order can’t be completed if you haven’t issued invoice for customer. After the order is created successfully, you will find order’s details on WebPOS frontend menu > Orders > Orders History then click on button Invoice.
+The order can’t be completed if you haven’t issued invoice for customer. After the order is created successfully, you will find order’s details on **WebPOS frontend menu > Orders > Orders History** then click on button **Invoice**.
+
+![Anh 211]()
  
 A pop-up will appear so you can enter the quantity of item or the order amount to be invoiced. Then you click on button Submit invoice to complete the action. You can choose whether to send invoice to customer’s email or not.
 
-5.2.3.11.	How To Create Shipment Or Issue Refund For An Order 
-a. Create Shipment 
-There are two ways to create shipment using Web POS: before placing an order and when reviewing order
+##### How To Create Shipment Or Issue Refund For An Order 
+**a. Create Shipment** 
 
-Before Placing An Order: 
-Before an order is created by clicking Place Order button, you can create shipment by turning on Mark as Shipped as below:
+There are two ways to create shipment using Web POS: **before placing an order** and when **reviewing order**
+
+**Before Placing An Order**: 
+
+Before an order is created by clicking **Place Order** button, you can create shipment by turning on **Mark as Shipped** as below:
+
+![Anh 212]()
  
 After verifying shipment method, the system will automatically load to Successful Order Page. There will be a message shown to notify you that shipment is created successfully. Please note that you need to have permission and be in online mode.
 
-After Placing Order:
+**After Placing Order**:
+
 When order has been created successfully but hasn’t been shipped, you can go to Order History and create shipment for that order.
+
+![Anh 213]()
+
+**b. Partial Shipment**
+
+![Anh 214]()
  
-b. Partial Shipment 
+If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button **Mark as shipped**.
+
+After placing order successfully, you find that order in **WebPos frontend menu > Orders > Orders History**. Then you click on the icon on the right corner and choose Ship. A pop-up then appears so you can enter the number of items to be shipped of each product.
+
+**Note**: Only orders that have been synced can be shipped.
+
+#### How To Issue Refund 
+Path: **Web POS menu > Orders > Orders History**
+
+Only certain staffs have permission to issue refund (which is set by admin in backend. See **Decentralize access permission of Web POS users** for more details). 
  
-If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button Mark as shipped.
+ ![Anh 215]()
 
-After placing order successfully, you find that order in WebPos frontend menu > Orders > Orders History. Then you click on the icon on the right corner and choose Ship. A pop-up then appears so you can enter the number of items to be shipped of each product.
+1)	To issue refund, go to **Web POS menu > Orders > Orders History**, and choose an order to refund. Note that you can only refund orders with **Processing** or **Complete** status. 
+2)	Click on **Refund** from the top right menu.
 
-Note: Only orders that have been synced can be shipped.
-
-5.2.5.	How To Issue Refund 
-Path: Web POS menu > Orders > Orders History
-
-Only certain staffs have permission to issue refund (which is set by admin in backend. See 3.2.1. Decentralize access permission of Web POS users for more details). 
- 
-(1)	To issue refund, go to Web POS menu > Orders > Orders History, and choose an order to refund. Note that you can only refund orders with Processing or Complete status. 
-(2)	Click on Refund from the top right menu.
+![Anh 216]()
  
 A popup will display so that you can fill in the information before making refund. 
-(3)	Enter the product quantity to issue refund.
-(4)	Tick Return to stock if you want to return those items back to warehouse.
-(5)	Enter additional info including:
-•	Adjust Refund: The compensation customers get from your store if they have to request refund.
-•	Adjust Fee: The fee customers might have to pay for your store when requesting refund.
-(6)	Enter additional notes (if any)
-(7)	Check Send Email if you want a notification email to be sent to customer and click Submit Refund to finish
+3)	Enter the product quantity to issue refund.
+4)	Tick **Return to stock** if you want to return those items back to warehouse.
+5)	Enter additional info including:
+- **Adjust Refund**: The compensation customers get from your store if they have to request refund.
+- **Adjust Fee**: The fee customers might have to pay for your store when requesting refund.
+6)	Enter additional notes (if any)
+7)	Check **Send Email** if you want a notification email to be sent to customer and click **Submit Refund** to finish
+
 After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund and you are in online mode.
-5.2.6.	How To Review Report
-Path: Magento backend menu > Sales > Web POS section > Sales Order Reports
- 
-Our Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. To view reports, go to Sales > Sales Order Reports on Magento backend.
- 
-Note:
-•	You can export each report into Excel XML or CSV file.
-•	You can view report in any custom time period.
 
+#### How To Review Report
+Path: **Magento backend menu > Sales > Web POS** section **> Sales Order Reports**
 
-5.2.5.1.	Staff Report 
-On Staff report section, there are 3 types of reports: Sales by staff, Sales by staff (Daily) and Order list for staff. 
- 
-The Sales by staff report shows the number of orders and total sales created by each sale staff in any custom period.
- 
-The Sales by staff (Daily) expresses the number of order and total sales created by each staff each day in the time period that you choose.
+![Anh 217]()
 
- 
-In the Order list for sale staff report, you can view all order information including ID, value, history and status of each order created by any or each specific sale staff.
+Our Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. To view reports, go to **Sales > Sales Order Reports** on Magento backend.
 
-5.2.5.2.	Location Report 
-Similar to Staff report, the Location report has 3 different reports including Sales by location, Sales by location (Daily) and Order list for location.
+![Anh 218]()
  
-The Sales by location report shows the number of orders and sales created in each location, in any custom time period.
+**Note:**
+- You can export each report into Excel XML or CSV file.
+- You can view report in any custom time period.
 
- 
-The Sales by location (Daily) report shows the number of orders and sales created in each location by each day.
+##### Staff Report 
+On **Staff report** section, there are 3 types of reports: **Sales by staff, Sales by staff (Daily)** and **Order list for staff**. 
 
+![Anh 219]()
  
+The **Sales by staff** report shows the number of orders and total sales created by each sale staff in any custom period.
+
+![Anh 220]()
+
+The **Sales by staff (Daily)** expresses the number of order and total sales created by each staff each day in the time period that you choose.
+
+![Anh 221]()
+
+In the **Order list for sale staff** report, you can view all order information including ID, value, history and status of each order created by any or each specific sale staff.
+
+##### Location Report 
+Similar to Staff report, the Location report has 3 different reports including **Sales by location, Sales by location (Daily)** and **Order list for location**.
+
+![Anh 222]()
+ 
+The **Sales by location** report shows the number of orders and sales created in each location, in any custom time period.
+
+![Anh 223]()
+ 
+The **Sales by location (Daily)** report shows the number of orders and sales created in each location by each day.
+
+ ![Anh 224]()
+
 In the Order list for location, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
 
-5.2.5.3.	Payment Report 
-The section of Payment Report has 4 different types of report including Sales by payment method, Sales by payment method (Daily), Order list for payment method and Sales by payment method for location. 
- 
-The Sales by payment method report displays the number of orders and sales paid by each payment method in a custom time period.
- 
-The Sales by payment (Daily) report shows the number of orders and sales created by each payment method by each day.
- 
-In the Order list for payment method, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
- 
-The Sales by payment method for location report displays the number of orders and sales created by each payment in each sale location.
+##### Payment Report 
+The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method** and **Sales by payment method for location.**
 
-5.2.5.4.	Z- Report 
-Path: Web POS backend menu > Sales > Web POS section > Z-Report
+![Anh 225]()
  
+The **Sales by payment method** report displays the number of orders and sales paid by each payment method in a custom time period.
+
+![Anh 226]()
+
+The **Sales by payment (Daily)** report shows the number of orders and sales created by each payment method by each day.
+
+![Anh 227]()
+ 
+In the **Order list for payment method**, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
+
+![Anh 228]()
+ 
+The **Sales by payment method for location** report displays the number of orders and sales created by each payment in each sale location.
+
+##### Z- Report 
+Path: **Web POS backend menu > Sales > Web POS** section **> Z-Report**
+
+![Anh 229]()
+
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
+
 The Z-report will be refreshed to serve new shift/working day after you select Close Store. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
+--------
 
-
-This is the end of our Userguide for Magestore’s Starter Package. We hope it is helpful. If you have any questions, please feel free to reach us with the information as below.
+This is the end of our Userguide for Magestore’s Starter Package. We hope it is helpful. If you have any questions, please feel free to contact .
