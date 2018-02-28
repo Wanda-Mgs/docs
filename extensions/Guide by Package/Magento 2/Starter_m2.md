@@ -1067,270 +1067,362 @@ When a product is newly created and not assigned to any warehouse yet, it will b
 ![Anh 124]()
 
 From here admin can 
-1)	elect the product by clicking on the checkbox
-2)	dd it into warehouse by clicking on its Add to Warehouse column.
+1)	Select the product by clicking on the checkbox
+2) Add it into warehouse by clicking on its Add to Warehouse column.
 
-5.1.1.3 Warehouse
-After installation, the system will automatically provide a Primary Warehouse. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse.
-a.	View Warehouse’s detail information
+##### Warehouse
+After installation, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse.
 
-The Warehouse menu allows you to control your warehouse with 6 tabs:
+**a.	View Warehouse’s detail information**
+
+The **Warehouse** menu allows you to control your warehouse with 6 tabs:
+
+![Anh 125]()
  
-On the right side of each master data tab, click on the Arrow button to access the data:
-(1)	General information about the Warehouse
-(2)	Stock On-hand displays the amount of goods that the warehouse has available at that time. Here, you can update each product’s Qty in Warehouse(s) and its Shelf Location in-line.
-(3)	Stock Movement shows the changes in stock quantities. Click on each record to view more details.
-(4)	Orders record detail information of each order including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
-(5)	Warehouse Permissions manages staff access to the warehouse. Detailed guide is given in the next section b. Warehouse permissions
-(6)	Dashboard contains reports that are illustrated as table and lines diagrams as below.
+On the right side of each master data tab, click on the **Arrow button** to access the data:
+1)	**General information** about the Warehouse
+2)	**Stock On-hand** displays the amount of goods that the warehouse has available at that time. Here, you can update each product’s **Qty in Warehouse(s)** and its **Shelf Location** in-line.
+3)	**Stock Movement** shows the changes in stock quantities. Click on each record to view more details.
+4)	**Orders** record detail information of each order including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+5)	**Warehouse Permissions** manages staff access to the warehouse. Detailed guide is given in the next section **b. Warehouse permissions**
+6)	**Dashboard** contains reports that are illustrated as table and lines diagrams as below.
  
- 
-b.	Warehouse permissions
-Path: Stock Management > Stock Listing section > Warehouse > Warehouse Permissions
+ ![Anh 126]()
+ ![Anh 127]()
+
+**b.	Warehouse permissions**
+Path: **Stock Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
 
 In this section, Admin can give different warehouse access permissions to different (admin) users.
-Click on View to see the warehouse’s detail information
+Click on **View** to see the warehouse’s detail information
+
+![Anh 128]()
  
-(1)	On the right hand side of the  Warehouse Permission tab, click on Assign Staff to give different warehouse access permissions.
+(1)	On the right hand side of the **Warehouse Permission** tab, click on **Assign Staff** to give different warehouse access permissions.
 
 Then will be a new pop-up screen shown as below:
+
+![Anh 129]()
  
 Select Staff users to assign permission
-(1) Select Staff by marking the checkbox
-(2) Click on Filters to search Staff information (if any)
-(3) Click on Add Selected Staff
+1) Select Staff by marking the checkbox
+2) Click on **Filters** to search Staff information (if any)
+3) Click on **Add Selected Staff**
 
+![Anh 130]()
+
+4)Then click on **Save Staff Permissions**
+
+#### Stock Control
+##### Stock Adjustment & Stock Adjustment History
+**a.	Link stocks in Warehouse to Front Store View**:
+
+As mentioned in section **Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section
  
-(4)Then click on Save Staff Permissions
+![Anh 131]()
 
-5.1.2. Stock Control
-5.1.3.4.	Stock Adjustment & Stock Adjustment History
-a.	Link stocks in Warehouse to Front Store View:
-As mentioned in section 2.1.1. Stock Control Configuration, you can link products and stock data by choosing Yes on the Link stocks in Warehouse to Front Store View section
+To link multiple Store View to a Warehouse, go to **Stock Management > Warehouse > General Information > Magento Store View**. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
  
+ ![Anh 132]()
 
-To link multiple Store View to a Warehouse, go to Stock Management > Warehouse > General Information > Magento Store View. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
- 
+**b.	Add new Stock Adjustment**
+Path: **Stock Management > Stock Control** section **> New Stock Adjustment**
 
-b.	Add new Stock Adjustment
-Path: Stock Management > Stock Control section > New Stock Adjustment
+![Anh 133]()
  
 Under menu Stock Control, you can create new Stock Adjustment in a few steps:
 1)	Name of the warehouse. With the Starter Package, you can only choose Primary Warehouse (also set as default) 
-2)	Adjustment code is automatically generated. All adjustments are saved in Stock Management > Stock Control section > Adjust Stock History
+2)	Adjustment code is automatically generated. All adjustments are saved in **Stock Management > Stock Control** section **> Adjust Stock History**
 3)	Fill the reason
-4)	Then click button Start Adjust Stock.
+4)	Then click button **Start Adjust Stock**.
 
+![Anh 134]()
  
 From here you have 2 options:
-1)	Go to product list and Add products to adjust stocks or Import products via CSV file
-2)	Save the Stock Adjustment. After being saved, this stock adjustment’s status is now Pending. To change Stock Adjustment status to Completed, you need to hit button Adjust.
-Note that the Qty here can be “Change Qty” or “Adjusted Qty”, depending on how you configure in Store Configuration (please refer to section 2.1.1. Stock Control Configuration)
+1)	Go to product list and **Add products to adjust stocks** or **Import products** via CSV file
+2)	**Save** the Stock Adjustment. After being saved, this stock adjustment’s status is now **Pending**. To change Stock Adjustment status to **Completed**, you need to hit button **Adjust**.
+*Note that the Qty here can be “Change Qty” or “Adjusted Qty”, depending on how you configure in Store Configuration (please refer to section **Stock Control Configuration**)*
 
 Stock is updated in the warehouse. Once the Adjustment is Complete, there is no way to edit it.
- 
+
+![Anh 135]()
+
 Stock level will be updated instantly in the corresponding warehouse.
 
-c.	View Stock Adjustment History
-Path: Stock Management > Stock Control  section > Stock Adjustment History
+**c.	View Stock Adjustment History**
+Path: **Stock Management > Stock Control** section **> Stock Adjustment History**
+
+![Anh 136]()
  
-You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status… Click on each Adjustment, you can see stock adjustment details. If you click on a Completed adjustment, you will be able to export the product list of that specific adjustment by clicking the button Export Products.
+You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status… Click on each Adjustment, you can see stock adjustment details. If you click on a **Completed** adjustment, you will be able to export the product list of that specific adjustment by clicking the button **Export Products**.
+
+![Anh 137]()
  
-5.1.3.5.	Stock Taking & Stock Taking History
+##### Stock Taking & Stock Taking History
 Physical Stocktaking acts can be used at any time to double-check and correct inventory discrepancy amounts in Inventory Management vs. physical inventory in your warehouses. These consist of:
 
-•	A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
-•	Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
+- A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
+- Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
 
-a.	Stocktaking process
-Path: Stock Management > Stock Control section > New Stocktaking 
+**a.	Stocktaking process**
+Path: **Stock Management > Stock Control** section **> New Stocktaking**
+
+![Anh 138]()
  
 There are 5 steps in Stock taking using Instock Management module:
-•	Step 1: Fill General information: After finishing this step, Stock taking status is Pending
- 
-(1)	Fill in the reason for stocktaking. You can also fill in the participants and the time of the action but it is optional
-(2)	Choose the products to be stock taken by clicking the Prepare Product List button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the Start Stocktaking button
+- **Step 1: Fill General information**: After finishing this step, Stock taking status is **Pending**
 
-•	Step 2: Prepare products before doing stock take: Select or import products to prepare before doing stock take. Stock taking status will change to Processing
+![Anh 139]()
  
-(1)	Click on Add Products to Stocktake to select products from your product list or Import products from CSV file (template provided)
-(2)	Selected products will be displayed in the grid here
-(3)	Click Save to stay with your selected products for further edits, or click Start Stocktake to proceed Stage 3.
+1)	Fill in the reason for stocktaking. You can also fill in the participants and the time of the action but it is optional
+2)	Choose the products to be stock taken by clicking the **Prepare Product List** button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the **Start Stocktaking** button
 
-•	Step 3: Do Stock take: Fill in the Qty of product. Now status is changed to Verified
- 
-(1)	Enter the product quantity that you have recently counted and the reason why there is quantity difference.
-(2)	Either click Complete Data Entry to proceed to Stage 4 and have a review of the changes; click Complete Stocktake to finish the process; or Save to continue editing.
+- **Step 2: Prepare products before doing stock take**: Select or import products to prepare before doing stock take. Stock taking status will change to **Processing**
 
-•	Step 4: Complete data entry: Save the data that has been stock taken and waiting for admin’s approval.
+![Anh 140]()
  
-This Stage allows you to have a final review of your recent quantity counts. Click either Re-entry Data to edit the quantity or Complete Stocktaking to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked Completed.
+1)	Click on **Add Products to Stocktake** to select products from your product list or **Import products** from CSV file (template provided)
+2)	Selected products will be displayed in the grid here
+3)	Click Save to stay with your selected products for further edits, or click **Start Stocktake** to proceed Stage 3.
 
-•	Step 5: Complete Stock take: When admin does this, Stock taking status will be changed to Completed. 
+- **Step 3: Do Stock take**: Fill in the Qty of product. Now status is changed to **Verified**
+
+![Anh 141]()
  
+1)	Enter the product quantity that you have recently counted and the reason why there is quantity difference.
+2)	Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktake** to finish the process; or **Save** to continue editing.
+
+- **Step 4: Complete data entry**: Save the data that has been stock taken and waiting for admin’s approval.
+
+![Anh 142]()
+ 
+This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
+
+- **Step 5: Complete Stock take**: When admin does this, Stock taking status will be changed to **Completed**.
+
+![Anh 143]()
+
 Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Completed. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system.
 
-b.	Stocktaking History
-Path: Stock Management > Stock Control section > Stocktaking History
+**b.	Stocktaking History**
+Path: **Stock Management > Stock Control** section **> Stocktaking History**
+
+![Anh 144]()
  
-(1)	All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
-•	Status Pending means Stage 1: General Information is done
-•	Status Processing means Stage 2: Prepare Products is done
-•	Status Verified means Stage 3: Stock Counting is done
-•	Status Completed means the whole stocktaking process is done
-(2)	You can also click on Add Stocktaking button to start a new stocktaking process from here.
+1)	All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
 
-5.1.3.6.	Stock Movement
-Path: Stock Management > Stock Control section > Stock Movement History 
+•	Status **Pending** means Stage 1: **General Information** is done
 
-The module records all the movements of stocks in warehouse. These movements are reflected in Stock Movement report under Stock Control submenu.
+•	Status **Processing** means Stage 2: **Prepare Products** is done
+
+•	Status **Verified** means Stage 3: **Stock Counting** is done
+
+•	Status **Completed** means the whole stocktaking process is done
+
+2)	You can also click on **Add Stocktaking** button to start a new stocktaking process from here.
+
+##### Stock Movement
+Path: **Stock Management > Stock Control** section **> Stock Movement History**
+
+The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
+
+![Anh 145]()
  
-(1)	The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click. 
-(2)	Admin can filter the data basing on the variables in the table.
-(3)	Admin can also easily exports Stock Movement details into CSV or Excel XML.
+1)	The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click. 
+2)	Admin can filter the data basing on the variables in the table.
+3)	Admin can also easily exports Stock Movement details into CSV or Excel XML.
 
-5.1.3. Prediction
-5.1.3.1.	Supply Needs
+#### Prediction
+##### Supply Needs
 
 This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
- 
-(1)	To process a prediction, select the warehouse (in Instock Management module, you can only select 01 warehouse i.e. Primary Warehouse) 
-(2)	Time range to collect sales data, based on which the system will calculate data for supply need
-(3)	Pick the date that you want to see forecast results.
-(4)	Click to Show Supply Needs button to finally view the prediction.
+
+![Anh 146]()
+
+1)	To process a prediction, select the warehouse (in Instock Management module, you can only select 01 warehouse i.e. Primary Warehouse) 
+2)	Time range to collect sales data, based on which the system will calculate data for supply need
+3)	Pick the date that you want to see forecast results.
+4)	Click to **Show Supply Needs** button to finally view the prediction.
 
 The forecast data will be shown in the table as below:
  
-(1)	The table displays supply needs information as below:
-•	Qty Sold/day: average quantity sold per day of the product during the chosen sales period 
-•	Total Sold: total quantity of product that were sold during the chosen sales period
-•	Current Qty: the product quantity that you currently have in the warehouse
-•	Availability date: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
-•	Supply needs: the quantity of product that expected to be sold until the time stamp you set. 
-(2)	The Supply Need Forecast can be exported to CSV or XML file by hitting Export button.
-(3)	You can start another prediction by expanding and editting criteria for supply forecast and hit Show Supply Needs again to refresh the prediction result. 
+ ![Anh 147]()
 
-5.1.3.2.	Low Stock Rules
+1)	The table displays supply needs information as below:
+- Qty Sold/day: average quantity sold per day of the product during the chosen sales period 
+- Total Sold: total quantity of product that were sold during the chosen sales period
+- Current Qty: the product quantity that you currently have in the warehouse
+- Availability date: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+- Supply needs: the quantity of product that expected to be sold until the time stamp you set. 
+2)	The Supply Need Forecast can be exported to CSV or XML file by hitting **Export** button.
+3)	You can start another prediction by expanding and editting criteria for supply forecast and hit **Show Supply Needs** again to refresh the prediction result. 
 
-Path: Stock Management > Prediction section > Low Stock Rules
-Note: Low Stock Alert is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores. 
+##### Low Stock Rules
+
+Path: **Stock Management > Prediction** section **> Low Stock Rules**
+
+***Note: Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.*
+
+![Anh 148]()
  
-(1)	Select an existing rule to edit or click Add New Rule button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: Rule Information, Conditions & Action. There is no limitation in the quantity of rules set.
+1)	Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information, Conditions & Action**. There is no limitation in the quantity of rules set.
 
-a.	On the Rule Information tab:
- 
-(2)	Enter the low stock rule name
-(3)	Add a brief about the rule (optional)
-(4)	Select Active to enable the rule
-(5)	Use Calendar to choose From and To date for a term of validity (optional)
+**a.	On the Rule Information tab**:
 
+![Anh 149]()
+
+2)	Enter the low stock rule name
+3)	Add a brief about the rule (optional)
+4)	Select **Active** to enable the rule
+5)	Use **Calendar** to choose **From** and **To** date for a term of validity *(optional)*
+
+![Anh 150]()
  
-(6)	Select an update time:
+6)	Select an **update time**:
+
 •	Daily
+
 •	Monthly
+
 The system periodically check stock availability and automatically send email notifications admin and warehouse managers. 
 
-(7)	Select hours the warning message will be sent
+7)	**Select hours** the warning message will be sent
 
+**b.	On the Conditions tab**:
 
+There are **2 types** of low stock rule: 
 
-b.	On the Conditions tab:
-
-There are 2 types of low stock rule: 
+![Anh 151]()
  
-Type 1: Availability Qty.
-Availability Qty.: you can select Qty. threshold that the system will notify to import. 
-(8)	Select Availability Qty.
-(9)	Set the number of threshold quantity
-(10)	Select Both Warehouse and Global for notification scope
-(11)	Select Warehouses for those rules will be applied
- 
-Type 2: Availability Days
-Availability Days: you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)
-(12)	Select Availability Days
-(13)	Set the number of threshold days
-(14)	Set the number of sales period days
-(15)	Select Both Warehouse and Global for notification scope
-(16)	Select warehouses for those rules will be applied
+***Type 1: Availability Qty.***
+**Availability Qty.**: *you can select Qty. threshold that the system will notify to import.* 
+8)	Select **Availability Qty**.
+9)	Set the number of **threshold** quantity
+10)	Select **Both Warehouse and Global** for notification scope
+11)	Select **Warehouses** for those rules will be applied
 
-c.	On Actions Tab:
- 
-(17)	Enter an email list to send the low stock notifications to
-(18)	Enter content of the warning message 
- 
-(19)	Click Save or Save and Apply to finish
-•	Save and Continue Edit: to save the process and continue edit on the current page. 
-•	Save and Apply: you can apply rule immediately
-•	Save: you can save the rule but it will not be applied, in case you need to ask for permission before applying or double-check with other people. 
+![Anh 152]()
 
-Note: You can edit the rule that you Save and Apply or Save by going to Stock Management > Prediction section > Low Stock Rules > clicking on Edit
- 
+***Type 2: Availability Days***
+**Availability Days**: *you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)*
+12)	Select **Availability Days**
+13)	Set the number of **threshold days**
+14)	Set the number of **sales period days**
+15)	Select **Both Warehouse and Global** for notification scope
+16)	Select **warehouses** for those rules will be applied
 
-5.1.3.3.	Low Stock Notifications
-Path: Stock Management > Prediction section > Low Stock Notifications
+**c.	On Actions Tab**:
+
+![Anh 153]()
+
+17)	Enter an **email list** to send the low stock notifications to
+18)	Enter content of the **warning message**
+
+![Anh 154]()
  
-Low Stock Notifications displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click view action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
-5.2.	HOW TO USE WEB POS 
-5.2.1.	How to Create Session
+19)	Click **Save** or **Save and Apply** to finish
+- **Save and Continue Edit**: to save the process and continue edit on the current page. 
+- **Save and Apply**: you can apply rule immediately
+- **Save**: you can save the rule but it will not be applied, in case you need to ask for permission before applying or double-check with other people. 
+
+***Note**: You can edit the rule that you **Save and Apply** or **Save** by going to **Stock Management > Prediction** section **> Low Stock Rules >** clicking on **Edit***
+ 
+ ![Anh 155]()
+
+##### Low Stock Notifications
+Path: **Stock Management > Prediction** section **> Low Stock Notifications**
+
+![Anh 156]()
+ 
+**Low Stock Notifications** displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click **view** action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
+
+### HOW TO USE WEB POS 
+#### How to Create Session
 When first shift of the day started, POS Manager will open session in order to create the Opening Balance - the amount of cash in your store at that time.
+
 Those numbers will be saved in the system, so POS could provide you information about daily revenue after a working day.
+
 Particularly, when you log in to any POS, a window of opening session will pop-up automatically.
  
-(1)	Name of the staff in this session
-(2)	Location of POS
-(3)	Value of the currency contrbuting to Opening Balance (such as: $100 )
-(4)	Number of the currency unit (for example : 2)
-(5)	Subtotal (you will have: $100 * 2 = $200)
-(6)	After checking all the information above, click this button to Open New Session
-Type the coin/bill value > Put in the number of those coins/bills > Click “Open Session”
+ ![Anh 157]()
+
+1)	Name of the staff in this session
+2)	Location of POS
+3)	Value of the currency contrbuting to Opening Balance (such as: $100 )
+4)	Number of the currency unit (for example : 2)
+5)	Subtotal (you will have: $100 * 2 = $200)
+6)	After checking all the information above, click this button to Open New Session
+
+Type the **coin/bill value >** Put in **the number** of those coins/bills > Click **Open Session**
 
 In case you logged in to POS but no window pop-up automatically like the picture above, then you need to make some change in the back-end system. Here is the instruction:
- 
-Go to “Store” > “Configuration” > Select “Magestore Extension” > WebPOS Select “Yes” on this red frame and please don’t forget to click “Save Config” to make it work
+
+![Anh 158]()
+
+Go to **Store > Configuration >** Select **Magestore Extension > WebPOS**. Select **Yes** on this red frame and please don’t forget to click **Save Config** to make it work
 
 Next step, after the Opening Balance was saved by POS Manager, Cashiers now are able to create orders and they start running cash flow in your store. They receive the payment from customers and then put the change back to them. Those actions happen in turn, again and again, so your store will have cash in as well as cash out.
 
 On the screen of POS System, it will be displayed like this:
  
+![Anh 159]()
 
 Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager. It reflects two things: Cash and Payment Slip.
  
+![Anh 160]()
 
 And now, it’s time for Managers checked Closing Balance.
 If staffs want to end session, system will require staff to confirm cash flow by filling this form below:
+
+![Anh 161]()
  
 2 situations could happen in this step:
-•	If the Theory and Real Balance are the same, Managers could directly move to the step of Set Closing Balance, then end this workflow (Session Management).
-•	If the Theory and Real Balance are not the same, Managers have 2 options below to solve this problem.
+- If the Theory and Real Balance are the same, Managers could directly move to the step of Set Closing Balance, then end this workflow (Session Management).
+- If the Theory and Real Balance are not the same, Managers have 2 options below to solve this problem.
 
 •	If accept the difference, Manager has to accept the Profit or Loss (with reason).
  
- 
+ ![Anh 162]()
 
-•	Otherwise, staffs have to Put Money In or Take Money out with reason
+ ![Anh 163]()
+
+•	Otherwise, staffs have to **Put Money In** or **Take Money out** with reason
  
+ ![Anh 164]()
+
+![Anh 165]()
  
-(1) Amount of cash that staff will put in/ take out
-(2) Reason for putting in/ taking out cash
-(3) Name of Staff who does this action
+1) **Amount of cash** that staff will put in/ take out
+2) **Reason** for putting in/ taking out cash
+3) **Name of Staff** who does this action
 
 After all, when the Theory Balance’s equal to the Real one, POS Managers are able to “Set Closing Balance”. Then, it ends of the “General Sale Process” Workflow.
 
-5.2.2.	How To Log In 
-Path: WebPOS Backend > Sales > Web POS section > POS Checkout
- 
-User get access from Web POS backend by going to Sales > Web POS section > POS Checkout
- 
-A log in form will appear, user has to choose store (if website has various store views), fill in their account & password and click Login to access successfully. 
-To manage account, users should go to Settings tab > Account
- 
-Then, click on Account, users could view and/or edit their personal information. User can change password if they want. 
- 
-To reload data, user can go to Settings > Synchronization and choose Reload (to reload each category) or Reload All (to reload all data)
+#### How To Log In 
+Path: WebPOS Backend **> Sales > Web POS** section **> POS Checkout**
 
+![Anh 166]()
  
-5.2.3.	How To Do The Transaction 
-5.2.2.1.	How To Filter And Search Product Quickly 
+User get access from Web POS backend by going to **Sales > Web POS** section **> POS Checkout**
+
+![Anh 167]()
+ 
+A log in form will appear, user has to choose store (if website has various store views), fill in their account & password and click **Login** to access successfully. 
+
+To manage account, users should go to **Settings** tab **> Account**
+
+![Anh 168]()
+ 
+Then, click on **Account**, users could view and/or edit their personal information. User can change password if they want. 
+
+![Anh 169]()
+ 
+To reload data, user can go to **Settings > Synchronization** and choose **Reload** (to reload each category) or **Reload All** (to reload all data)
+
+![Anh 170]()
+ 
+#### How To Do The Transaction 
+##### How To Filter And Search Product Quickly 
 a.	How To Configure Process Of Searching Product 
 
 Users can configure to search products  by going to Settings tab  > General. 
