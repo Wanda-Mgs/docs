@@ -1031,9 +1031,7 @@ Fill out or select all the re quired fields.
 ![Anh 121]()
 Click **Save** to complete the process.
 
-**Note**: *Even when you set the warehouse to a certain location, with online store, admin can see clearly warehouse information in any location. HOWEVER, with offline store, only Sales Manager can view the warehouse information only in the mapped location.*
-
-*IT Admin can give other admin permission to view the Inventory information in any location by going to ***System > User Roles > Add new role or Edit role > Role Resource***
+**Note**: *Even when you set the warehouse to a certain location, with online store, admin can see clearly warehouse information in any location. HOWEVER, with offline store, only Sales Manager can view the warehouse information only in the mapped location. IT Admin can give other admin permission to view the Inventory information in any location by going to ***System > User Roles > Add new role or Edit role > Role Resource***
 
 #### Manage Web POS 
 Path: **Sale > Web POS** section **> Manage POS**
@@ -1045,29 +1043,32 @@ Path: **Sale > Web POS** section **> Manage POS**
 3)	If you want to delete a POS, first select a POS, then click **Actions**: choose **Delete**.
 4)	Click **Detail** to view a POS’s details or edit
 
-5.	HOW TO USE
-5.1.	HOW TO USE INSTOCK MANAGEMENT MODULE 
-5.1.1. Stock listing
-5.1.1.1. Stocks in Warehouse
+## HOW TO USE
+### HOW TO USE INSTOCK MANAGEMENT MODULE 
+#### Stock listing
+##### Stocks in Warehouse
 
-Path: Stock Management > Stock Listing section > Stocks in Warehouse
+Path: **Stock Management > Stock Listing** section **> Stocks in Warehouse**
 
-Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include Available Qty, Qty to Ship and Total Qty and Shelf Location of each product in the warehouse.
+Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include **Available Qty, Qty to Ship** and **Total Qty** and **Shelf Location** of each product in the warehouse.
+
+![Anh 123]()
  
 You can easily edit Qty of products in-line within a few steps:
 1)	Mark the checkbox to select products 
 2)	Edit product quantity in line 
 3)	Input product location in the physical warehouse 
-4)	Click on Update Stock to save changes
+4)	Click on **Update Stock** to save changes
 
-5.1.1.2. Non-warehouse product
-Path: Inventory Management > Stock Listing section > Non-Warehouse Products
+##### Non-warehouse product
+Path: **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
 When a product is newly created and not assigned to any warehouse yet, it will be automatically allocated in Non-warehouse. 
 
- 
+![Anh 124]()
+
 From here admin can 
-1)	select the product by clicking on the checkbox
-2)	add it into warehouse by clicking on its Add to Warehouse column.
+1)	elect the product by clicking on the checkbox
+2)	dd it into warehouse by clicking on its Add to Warehouse column.
 
 5.1.1.3 Warehouse
 After installation, the system will automatically provide a Primary Warehouse. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse.
@@ -1623,7 +1624,3 @@ The Z-report will be refreshed to serve new shift/working day after you select C
 
 
 This is the end of our Userguide for Magestore’s Starter Package. We hope it is helpful. If you have any questions, please feel free to reach us with the information as below.
-
-
-
-
