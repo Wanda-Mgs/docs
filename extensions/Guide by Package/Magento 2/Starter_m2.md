@@ -773,11 +773,11 @@ Complete products information
 
 In the upper-right corner on the Add Product ![Anh 84]() menu, choose **Downloadable Product**.
 
-  ![Anh 84]()
+  ![Anh 85]()
 
 Choose Downloadable as the **attribute set**
 
-  ![Anh 85]()
+  ![Anh 86]()
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -786,7 +786,7 @@ Complete the required setting
 
 Then, Click **Save** to continue.
 
-  ![Anh 86]()
+  ![Anh 87]()
 
 Complete the basic settings
 1)	Set **Tax Class** to one of the following:
@@ -795,14 +795,14 @@ Complete the basic settings
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to Out of Stock.
 4)	The Weight is not used, because downloadable products are not shipped.
-5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![Anh 87]()  
+5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![Anh 88]()  
 6)	Accept the default Visibility setting, Catalog, Search.
 7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Enable on Web POS
 
 Then, click **Save** to continue.
 
-  ![Anh 88]()
+  ![Anh 89]()
 
 Complete **downloadable product**.
 1.	Mark the checkbox “**Is this downloadable product**”
@@ -1821,6 +1821,3 @@ Path: **Web POS backend menu > Sales > Web POS** section **> Z-Report**
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
 
 The Z-report will be refreshed to serve new shift/working day after you select Close Store. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
---------
-
-This is the end of our Userguide for Magestore’s Starter Package. We hope it is helpful. If you have any questions, please feel free to contact .
