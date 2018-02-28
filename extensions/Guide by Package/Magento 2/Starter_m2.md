@@ -1,5 +1,7 @@
 # OMNICHANNEL SOLUTION STARTER PACKAGE - USER GUIDE FOR MAGENTO 2
 
+---------
+
 ## INTRODUCTION
 Having a combined **POS** and **In-stock Management** solution is a must-have for retail businesses that want to be more efficient and keep accurate data. Web POS, a web based Point of Sale for Magento, is specially designed to integrate with this Instock Management module. Carrying out checkout procedure for customers has never been easier. Web POS helps your sales staff quickly create orders and apply promotion, conveniently collect in-store cash and credit sales transactions in a flash. And all steps are on just one single page! So, wouldn't it be great if this process could be hastened, saving time for more profitable actions!
 
@@ -11,6 +13,7 @@ With the latest upgraded version and its convenience and the amount of time save
 
 **Magestore Team** 
 
+-----------
 
 ## HOW TO CONFIGURE
 ### Inventory
@@ -18,7 +21,7 @@ With the latest upgraded version and its convenience and the amount of time save
 
 Path: **Stock Management > Settings** section **> Configuration**
 
-![Anh 1]()
+![Anh 1](./image_starter_m2/image001.png?raw=true)
 
 1)	**Link stocks in Warehouse to Front Store View**: In managing a Warehouse, you can link Warehouse to a Front Store View (Path: **Stock Listing > Warehouses >** Click **View > Warehouse Information** section **> General Information** tab **> Magento Store View** field). Note that you can link a warehouse to one or multiple store views.
 - If you enable **Link warehouse to Magento Front Store View** by choosing **Yes** here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
@@ -38,7 +41,7 @@ Path: **Stock Management > Settings** section **> Configuration > Catalog > Inve
 
 ##### Stock Option
 
-![Anh 2]()
+![Anh 2](./image_starter_m2/image002.png?raw=true)
  
 1)	Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 
@@ -56,7 +59,7 @@ Path: **Stock Management > Settings** section **> Configuration > Catalog > Inve
 
 Path: **Stock Management > Settings** section **> Configuration > Catalog > Inventory**
  
-![Anh 3]()
+![Anh 3](./image_starter_m2/image003.png?raw=true)
 
 1)	Select Yes to activate inventory control for your catalog. 
 
@@ -73,7 +76,7 @@ Path: **Stock Management > Settings** section **> Configuration > Catalog > Inve
 
 Next, 
 
-![Anh 4]()
+![Anh 4](./image_starter_m2/image004.png?raw=true)
  
 6)	Enter the stock level that generates notification showing the item is out of stock.
 
@@ -93,7 +96,7 @@ Path: **Sales > Web POS** section **> Settings > Default Guest Checkout**
 
 Default customer is the customer whose information will be used for Guest Checkout or when customer information is not enough, default value will be filled automatically.
 
-![Anh 5]()
+![Anh 5](./image_starter_m2/image005.png?raw=true)
  
 Fill in all information as you want to use as default, including **First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone** and **Email**. After finishing, click on **Save Config** button to save your work.
 
@@ -103,7 +106,7 @@ Path: **Sales > Web POS** section **> Settings**
 
 To set up Shipping Methods for Web POS, go to **Shipping for POS** section under **Settings**:
 
-![Anh 6]()
+![Anh 6](./image_starter_m2/image006.png?raw=true)
 
 1)	**Applicable Shipping Methods**: 
 •	If you want to apply all shipping methods, choose All Allowed Shipping.
@@ -123,7 +126,7 @@ Path: **Sales > Web POS** section **> Settings**
 
 To set up Payment Methods for Web POS, go to **Payment for POS** section under **Settings**:
 
-![Anh 7]()
+![Anh 7](./image_starter_m2/image007.png?raw=true)
  
 1)	**Applicable Payment Methods**: 
 •	If you want to apply all shipping methods, choose **All Allowed Payments**.
@@ -156,7 +159,7 @@ Path: **System > Permission** section **> User Roles**
 
 ##### Manage user role
 
-![Anh 8]()
+![Anh 8](./image_starter_m2/image008.png?raw=true)
  
 1)	Click **Add New Role** to create new user role.
 2)	Fill out the blank with a value to search, after click **Search**.
@@ -166,15 +169,17 @@ View or edit a role’s detail by clicking on each line.
 
 ##### Create a new user role
 
-![Anh 9]()
+![Anh 9](./image_starter_m2/image009.png?raw=true)
+
 Click **Add New Role**
 
-![Anh 10]()
+![Anh 10](./image_starter_m2/image010.png?raw=true)
+
 In tab **Role Info**
 
 Fill in all required fields
 
-![Anh 11]()
+![Anh 11](./image_starter_m2/image011.png?raw=true)
  
 In tab **Role Resources**:
 
@@ -187,7 +192,7 @@ Click **Save** to complete the process.
 #### Decentralize Users
 ##### Manage user
 
-![Anh 12]()
+![Anh 12](./image_starter_m2/image012.png?raw=true)
 
 1)	Click **Add New User** to create new user.
 2)	Fill out the blank with a value to search
@@ -197,11 +202,11 @@ View or edit a user’s detail by clicking on each line.
 
 ##### Create a new user
 
-![Anh 13]()
+![Anh 13](./image_starter_m2/image013.png?raw=true)
 
 To create new user, click **Add New User**
 
-![Anh 14]()
+![Anh 14](./image_starter_m2/image014.png?raw=true)
 
 In tab **User Info**, fill in the blank:
 
@@ -215,13 +220,15 @@ In tab **User Info**, fill in the blank:
 8)	**This account is**: Active or Inactive.
 9)	**Your Password**: fill out your password. (required).
  
-![Anh 15]()
+![Anh 15](./image_starter_m2/image015.png?raw=true)
 
 In tab **User Role**, select a role for user.
-![Anh 16]()
+
+![Anh 16](./image_starter_m2/image016.png?raw=true)
  
 In tab Warehouse, click **Assign Warehouses** to assign warehouses to this user.
-![Anh 17]()
+
+![Anh 17](./image_starter_m2/image017.png?raw=true)
 
 Click **Save User** to complete the process.
 
@@ -230,7 +237,7 @@ Click **Save User** to complete the process.
 Path: **Sales > Web POS** section **> Manage Roles**
 
 ##### Manage role
-![Anh 18]()
+![Anh 18](./image_starter_m2/image018.png?raw=true)
  
 1)	**Add Role**: Click to add a new role.
 2)	**Filters**: You can find role information by click it and fill out values.
@@ -239,17 +246,18 @@ Path: **Sales > Web POS** section **> Manage Roles**
 
 ##### Add a new role
 
-![Anh 19]()
+![Anh 19](./image_starter_m2/image019.png?raw=true)
+
 Click **Add Role** to add a new role.
 
-![Anh 20]()
+![Anh 20](./image_starter_m2/image020.png?raw=true)
 
 In **General** tab, fill out the blank.
 1)	**Role Name**: Enter a name for the role. (required)
 2)	**Maximum discount percent (%)**: Limit the highest discount percent that each user role can offer customers.
 3)	**Description**: Enter text that describes the role.
  
-![Anh 21]()
+![Anh 21](./image_starter_m2/image021.png?raw=true)
 
 In **Permission** tab:
 1)	**Resource Access**: You can choose **Custom** or **All**. Choose **All** if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work.
@@ -259,7 +267,7 @@ In **Permission** tab:
 ##### Manage Staff
 Path: **Sales > Web POS** section **> Manage Staff**
 
-![Anh 22]()
+![Anh 22](./image_starter_m2/image022.png?raw=true)
 
 1)	Click **Add Staff** to create a new staff.
 2)	Click **Filters** to search staff information.
@@ -270,10 +278,12 @@ Click **Detail** to view a staff’s details or edit.
 ##### Create a new staff
 Path: **Sales > Web POS** section **> Manage Staff**
 
-![Anh 23]()
+![Anh 23](./image_starter_m2/image023.png?raw=true)
+
 Click **Add Staff**.
 
-![Anh 24]()
+![Anh 24](./image_starter_m2/image024.png?raw=true)
+
 Fill out all the required fields or select:
 
 1)	**User Name.**
@@ -283,12 +293,12 @@ Fill out all the required fields or select:
 5)	**Email Address.**
 6)	**PIN Code (App only).**
  
- ![Anh 25]()
+ ![Anh 25](./image_starter_m2/image025.png?raw=true)
 
 7) **Customer Group**.
 8) **Location**: Hold **Ctrl + Click** to choose more than one
  
- ![Anh 26]()
+ ![Anh 26](./image_starter_m2/image026.png?raw=true)
 
 9) **Role**.
 10) **Status**: You can **Enabled** or **Disabled** this staff.
@@ -302,7 +312,7 @@ Finally, click **Save** to complete the process.
 Path: **Stores > Attributes** section **> Product**
 
 ##### Manage Attribute 
- ![Anh 27]()
+ ![Anh 27](./image_starter_m2/image027.png?raw=true)
 
 1)	Click **Add New Attribute** to create new user.
 2)	Fill out the blank with a value to search, after click **Search**.
@@ -319,10 +329,11 @@ Attributes can be created while working on a product, or from the Product **Attr
 |Catalog Input Type for Store Owner| Dropdown|
 Scope|Global| 
 
-![Anh 28]()
+![Anh 28](./image_starter_m2/image028.png?raw=true)
+
 Click **Add New Attribute**
 
-![Anh 29]()
+![Anh 29](./image_starter_m2/image029.png?raw=true)
 
 **Basic Properties**
 1)	Enter a **Default Label** to identify the attribute
@@ -337,7 +348,7 @@ For Dropdown and Multiple Select input types, do the following:
 - Click **Add Option** and repeat the previous step for each option that you want to include in the list.
 - Select **Is Default** to use the option as the default value.
  
-![Anh 30]()
+![Anh 30](./image_starter_m2/image030.png?raw=true)
 
 **Advanced Properties** (if needed).
 1)	Enter a unique **Attribute Code** in lowercase characters, and without space.
@@ -354,14 +365,15 @@ For Dropdown and Multiple Select input types, do the following:
 6)	**Add to Column Options**: Include the attribute as a column in the Products grid.
 7)	**Use in Filter Option**: Adds a filter a control to the column header in the Products grid.
 
-![Anh 31]()
+![Anh 31](./image_starter_m2/image031.png?raw=true)
 
 **Input Validation**.
-![Anh 32]()
+
+![Anh 32](./image_starter_m2/image032.png?raw=true)
 
 In tab **Manage Labels**: Enter a **Title** to be used as a label for the field. If your store is available in different languages, you can enter a translated title for each view.
 
- ![Anh 33]()
+ ![Anh 33](./image_starter_m2/image033.png?raw=true)
 
 In tab **Storefront Properties**
 1)	If the attribute is to be available for search, set Use in Search to **Yes** 
@@ -379,7 +391,7 @@ For dropdown, multiple select and price fields, do the following:
 
 To use attribute as a sort parameter for product listings, set Used for Sorting in Product Listing to **Yes**
 
- ![Anh 34]()
+ ![Anh 34](./image_starter_m2/image034.png?raw=true)
 
 When complete, click **Save Attribute**.
 
@@ -388,7 +400,7 @@ Path: **Stores > Attributes** section **> Attribute set**
 
 ##### Manage Attribute Set
 
- ![Anh 35]()
+ ![Anh 35](./image_starter_m2/image035.png?raw=true)
 
 1)	Click **Add Attribute Set** to create new attribute set.
 2)	Fill out the blank with a value to search, after click **Search**.
@@ -398,10 +410,11 @@ You can view or edit details of attribute set by clicking on each line.
 
 ##### Create A New Attribute Set
 
- ![Anh 36]()
+ ![Anh 36](./image_starter_m2/image036.png?raw=true)
+
 Click **Add Attribute Set** to create new attribute set.
 
- ![Anh 37]()
+ ![Anh 37](./image_starter_m2/image037.png?raw=true)
 
 1)	In the **Name** field, enter a name for the attribute set (required)
 2)	In the **Based On** field, select an existing attribute set to be used as a template:
@@ -415,7 +428,7 @@ Click **Add Attribute Set** to create new attribute set.
 - Top
 3)	Click **Save** button and continue
 
- ![Anh 38]()
+ ![Anh 38](./image_starter_m2/image038.png?raw=true)
 
 To add a new attribute to the set, drag the attribute from the Unassigned Attribute list to the appropriate folder in the General group.
 
@@ -427,14 +440,14 @@ Path: **Products > Inventory** section **> Categories**
 ##### Manage Categories  
 When selecting a category on the left, all the information will be displayed on the left.
 
- ![Anh 39]()
+ ![Anh 39](./image_starter_m2/image039.png?raw=true)
 
 ##### Create A New Category
 
- ![Anh 40]()
+ ![Anh 40](./image_starter_m2/image040.png?raw=true)
 
 **Create a Category**
- ![Anh 41]()
+ ![Anh 41](./image_starter_m2/image041.png?raw=true)
 
 Path: **Products > Inventory** section **> Categories**
 
@@ -444,7 +457,7 @@ If you’re starting from the beginning without any data, there might be only tw
 
 Click **Add Sub-category** to add a new category.
 
- ![Anh 42]()
+ ![Anh 42](./image_starter_m2/image042.png?raw=true)
 
 **Complete the Basic information**
 1)	If you want the category to be immediately available in the store, set **Enable Category** to the **Yes** position.
@@ -452,7 +465,7 @@ Click **Add Sub-category** to add a new category.
 3)	Enter the **Category Name**.
 4)	Click **Save**.
 
-  ![Anh 43]()
+  ![Anh 43](./image_starter_m2/image043.png?raw=true)
 
 Complete the Category Content
 
@@ -461,7 +474,7 @@ Complete the Category Content
 3)	To include a content block on the category landing page, choose the CMS Block that you want to appear. 
 4)	Click **Save**.
  
-![Anh 44]()
+![Anh 44](./image_starter_m2/image044.png?raw=true)
 
 Complete the **Display Settings**
 Expand the **Display Settings** section.
@@ -483,7 +496,7 @@ Expand the **Display Settings** section.
 
 6)	Click **Save**.
  
-![Anh 45]()
+![Anh 45](./image_starter_m2/image045.png?raw=true)
 
 Complete the **Search Engine Optimization Settings**
 
@@ -496,7 +509,7 @@ Complete the following meta data for the category:
 4)	Meta Description.
 5)	Click **Save**.
 
- ![Anh 46]()
+ ![Anh 46](./image_starter_m2/image046.png?raw=true)
 
 Choose the **Products** in **Category**
 Expand the Products in Category section. Then, use one of the following methods to add products to the category. 
@@ -524,7 +537,7 @@ Downloadable Product	|A digitally downloadable product that consists of one or m
 
 ##### Manage Product 
 Path: **Products > Inventory** section **> Catalog**
- ![Anh 47]()
+ ![Anh 47](./image_starter_m2/image047.png?raw=true)
 
 **Workspace Controls**
 | Control	|Description|
@@ -538,14 +551,14 @@ Edit|	Opens the product in edit mode or view product’s detail.  You can accomp
 ##### Create A New Product 
 **Simple product**
 
-  ![Anh 48]()
+  ![Anh 48](./image_starter_m2/image048.png?raw=true)
 
-In the upper-right corner on the Add Product ![Anh 49]() menu, choose Simple Product.
+In the upper-right corner on the Add Product ![Anh 49](./image_starter_m2/image049.png?raw=true) menu, choose Simple Product.
 
- ![Anh 50]()
+ ![Anh 50](./image_starter_m2/image050.png?raw=true)
 
 Choose the attribute set that is used as a template for the product.
- ![Anh 51]()
+ ![Anh 51](./image_starter_m2/image051.png?raw=true)
  
 **Complete the required setting**.
 1)	Enter **Product Name**. *(required)*
@@ -554,7 +567,7 @@ Choose the attribute set that is used as a template for the product.
 
 Then, Click **Save** to continue.
  
- ![Anh 52]()
+ ![Anh 52](./image_starter_m2/image052.png?raw=true)
 
 **Complete the basic settings**
 
@@ -563,7 +576,7 @@ Set Tax Class to one of the following:
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to **In Stock**
 4)	Enter the Weight of the product.
-5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click  ![Anh 53]() 
+5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click  ![Anh 53](./image_starter_m2/image053.png?raw=true) 
 6)	Accept the default Visibility setting, **Catalog, Search**.
 7)	Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Choose the Country of Manufacture.
@@ -571,7 +584,7 @@ Set Tax Class to one of the following:
 
 Then, click **Save** to continue
 
- ![Anh 54]()
+ ![Anh 54](./image_starter_m2/image054.png?raw=true)
 
 Complete the product information
 Scroll down and complete the information in the following sections as needed:
@@ -591,15 +604,15 @@ Scroll down and complete the information in the following sections as needed:
 
 **Configurable product**
 Create a new configurable product
- ![Anh 55]()
+ ![Anh 55](./image_starter_m2/image055.png?raw=true)
 
-In the upper-right corner on the **Add Product**  ![Anh 56]() menu, choose **Configurable Product**.
+In the upper-right corner on the **Add Product** ![Anh 56](./image_starter_m2/image056.png?raw=true) menu, choose **Configurable Product**.
 
- ![Anh 56]()
+ ![Anh 57](./image_starter_m2/image057.png?raw=true)
 
 Choose the attribute set that is used as a template for the product.
  
-  ![Anh 57]()
+  ![Anh 58](./image_starter_m2/image058.png?raw=true)
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -607,7 +620,7 @@ Complete the required setting
 3)	Enter the product Price.
 4)	Click **Save** to continue.
 
- ![Anh 58]()
+ ![Anh 59](./image_starter_m2/image059.png?raw=true)
 
 Complete the basic settings
 1)	Set Tax Class to one of the following:
@@ -616,7 +629,7 @@ Complete the basic settings
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to **In Stock**.
 4)	Enter the Weight of the product.
-5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 59]() 
+5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 60](./image_starter_m2/image060.png?raw=true) 
 6)	Accept the default Visibility setting, **Catalog, Search**.
 7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Choose the Country of Manufacture.
@@ -624,25 +637,29 @@ Complete the basic settings
 
 Then, click **Save** to continue.
 
- ![Anh 60]()
+ ![Anh 61](./image_starter_m2/image061.png?raw=true)
+
 Complete the product information.
 
 **Adding configurations**
- ![Anh 61]()
+ 
+ ![Anh 62](./image_starter_m2/image062.png?raw=true)
 
 After creating a product, scroll down the **Configuration** section **>** Click **Create Configurations**.
- ![Anh 62]()
+
+![Anh 63](./image_starter_m2/image063.png?raw=true)
 
 Choose the attributes
 1)	Mark the checkbox of each attribute that you want to include as a configuration.
 2)	Add a new attribute.
 3)	Click to continue.
- ![Anh 63]()
+ 
+ ![Anh 64](./image_starter_m2/image064.png?raw=true)
 
 For each attribute, mark the checkbox of the values that apply to the product.
 
 Click **Next to continue**
- ![Anh 64]()
+ ![Anh 65](./image_starter_m2/image065.png?raw=true)
  
 Configure the Images, Price, and Quantity.
 
@@ -650,15 +667,19 @@ Click **Next** to continue.
 
 You will see list product.
  
- ![Anh 65]()
+ ![Anh 66](./image_starter_m2/image066.png?raw=true)
+
 Click **Next** to finish the process.
 
 **Grouped product**
 
-In the upper-right corner on the **Add Product**  ![Anh 66]() menu, choose **Grouped Product**.
- ![Anh 66]()
+In the upper-right corner on the **Add Product**  ![Anh 67](./image_starter_m2/image067.png?raw=true) menu, choose **Grouped Product**.
+ 
+ ![Anh 68](./image_starter_m2/image068.png?raw=true)
+
 Choose the attribute set that is used as a template for the product.
-  ![Anh 67]()
+  
+  ![Anh 69](./image_starter_m2/image069.png?raw=true)
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -666,11 +687,11 @@ Complete the required setting
 3)	Enter the Quantity of the product that is currently in stock 
 
 Then, Click **Save to continue**.
- ![Anh 68]()
+ ![Anh 70](./image_starter_m2/image070.png?raw=true)
 
 Complete the basic settings
 1)	By default, Stock Status is set to **In Stock**
-2)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 69]()
+2)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 71](./image_starter_m2/image071.png?raw=true)
 3)	Accept the default Visibility setting, **Catalog, Search**.
 4)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 5)	Choose the Country of Manufacture.
@@ -680,19 +701,20 @@ Then, click **Save to continue**.
 
 **Add products to Group**
  
-  ![Anh 69]()
-  ![Anh 70]()
+  ![Anh 72](./image_starter_m2/image072.png?raw=true)
+  ![Anh 73](./image_starter_m2/image073.png?raw=true)
 
 1)	Select product that you want to include in the group.
 2)	Click to add them to group.
    
-   ![Anh 71]()
+   ![Anh 74](./image_starter_m2/image074.png?raw=true)
 1)	Enter a quantity.
 2)	Remove a product from group.
 
 Click **Save** to finish the process.
   
-  ![Anh 72]()
+  ![Anh 75](./image_starter_m2/image075.png?raw=true)
+
 Complete the product information
 
 **Virtual product**
@@ -701,13 +723,13 @@ Aside from the absence of the Weight field, the process of creating a virtual pr
 
 **Bundle product**
   
-  ![Anh 73]()
-In the upper-right corner on the Add Product ![Anh 74]() menu, choose Bundle Product.
+  ![Anh 76](./image_starter_m2/image076.png?raw=true)
+In the upper-right corner on the Add Product ![Anh 77](./image_starter_m2/image077.png?raw=true) menu, choose Bundle Product.
   
-  ![Anh 74]()
+  ![Anh 78](./image_starter_m2/image078.png?raw=true)
 Choose the attribute set that is used as a template for the product
 
-  ![Anh 75]()
+  ![Anh 79](./image_starter_m2/image079.png?raw=true)
 Complete the required setting
 1)	Enter Product Name. (required)
 2)	The default SKU that is based on the product name, or enter another.
@@ -715,7 +737,7 @@ Complete the required setting
 
 Then, Click **Save to continue**.
 
-  ![Anh 76]()
+  ![Anh 80](./image_starter_m2/image080.png?raw=true)
 
 Complete the basic settings
 1)	Enable **Dynamic Price**
@@ -725,7 +747,7 @@ Complete the basic settings
 3)	Enter the Quantity of the product that is currently in stock. 
 4)	By default, Stock Status is set to **In Stock**
 5)	Enter the **Dynamic Weight** of product.
-6)	Assign **Categories** to the product. Tap the **Select** to select available category or you can create new category by clicking on  ![Anh 77]()  
+6)	Assign **Categories** to the product. Tap the **Select** to select available category or you can create new category by clicking on  ![Anh 81](./image_starter_m2/image081.png?raw=true)  
 7)	Accept the default **Visibility** setting, **Catalog, Search**
 8)	To feature Mark the **Set Product as New** checkbox to add the product in the list of new products.
 9)	Choose the **Country of Manufacture**.
@@ -733,7 +755,7 @@ Complete the basic settings
 
 Finally, click **Save** to continue.
   
-  ![Anh 78]()
+  ![Anh 82](./image_starter_m2/image082.png?raw=true)
 
 Add **Bundle items**
 Scroll down to the **Bundle Items** section. Then, set **Ship Bundle Items** one of the following:
@@ -741,7 +763,7 @@ Scroll down to the **Bundle Items** section. Then, set **Ship Bundle Items** one
 2.	Together
 Click **Add Option**
  
- ![Anh 79]()
+ ![Anh 83](./image_starter_m2/image083.png?raw=true)
 
 1)	**Option Title** to be used field label.
 2)	Set **Input Type** to one of the following:
@@ -752,32 +774,33 @@ Click **Add Option**
 3)	Mark to make the field a **required** entry.
 4)	Tap **Add Products to Option**, then mark the checkbox of each product that you want to include in this option.
  
-   ![Anh 80]()
+   ![Anh 84](./image_starter_m2/image084.png?raw=true)
 
 Mark the checkbox of each product.
 Click **Add Selected Products**, you will see.
 
-  ![Anh 81]()
+  ![Anh 85](./image_starter_m2/image085.png?raw=true)
  
 1)	Mark the checkbox of a product that you want it is default.
 2)	Enter **Default Quantity**.
 
 Finally, click **Save**.
 
-  ![Anh 82]()
+  ![Anh 86](./image_starter_m2/image086.png?raw=true)
+  
 Complete products information
 
 **Downloadable product**
 
-  ![Anh 83]()
+  ![Anh 87](./image_starter_m2/image087.png?raw=true)
 
-In the upper-right corner on the Add Product ![Anh 84]() menu, choose **Downloadable Product**.
+In the upper-right corner on the Add Product ![Anh 88](./image_starter_m2/image088.png?raw=true) menu, choose **Downloadable Product**.
 
-  ![Anh 85]()
+  ![Anh 89](./image_starter_m2/image089.png?raw=true)
 
 Choose Downloadable as the **attribute set**
 
-  ![Anh 86]()
+  ![Anh 90](./image_starter_m2/image090.png?raw=true)
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -786,7 +809,7 @@ Complete the required setting
 
 Then, Click **Save** to continue.
 
-  ![Anh 87]()
+  ![Anh 91](./image_starter_m2/image091.png?raw=true)
 
 Complete the basic settings
 1)	Set **Tax Class** to one of the following:
@@ -795,14 +818,14 @@ Complete the basic settings
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to Out of Stock.
 4)	The Weight is not used, because downloadable products are not shipped.
-5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![Anh 88]()  
+5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![Anh 92](./image_starter_m2/image092.png?raw=true)  
 6)	Accept the default Visibility setting, Catalog, Search.
 7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Enable on Web POS
 
 Then, click **Save** to continue.
 
-  ![Anh 89]()
+  ![Anh 93]](./image_starter_m2/image093.png?raw=true)
 
 Complete **downloadable product**.
 1.	Mark the checkbox “**Is this downloadable product**”
@@ -812,7 +835,7 @@ Complete **downloadable product**.
 - **Upload File**: To upload the the distribution file to the server. Browse to the file, and select it for upload.
 - **URL**: To access the distribution file from a URL. Enter the full URL to the download file.
 
-  ![Anh 89]()
+  ![Anh 94](./image_starter_m2/image094.png?raw=true)
  
 Complete the **Sample**.
 1) Enter the **Title** - to use as a heading for the samples.
@@ -821,38 +844,39 @@ Complete the **Sample**.
 4) Click to add another sample.
 When complete, click **Save**.
 
-  ![Anh 90]()
+  ![Anh 95](./image_starter_m2/image095.png?raw=true)
+  
 Complete the product information
 
 ##### Product Setting
 **a.	Content**
   
-  ![Anh 91]()
+  ![Anh 96](./image_starter_m2/image096.png?raw=true)
 
 1)	Click on **Products**
 2)	Click on **Catalog**
 3)	Click on **Edit**
 
-  ![Anh 92]()
+  ![Anh 97](./image_starter_m2/image097.png?raw=true)
  
-Scroll down to **Content**, and click on   ![Anh 93](), then write the description for the product, and the click **Save** on top right of the screen
+Scroll down to **Content**, and click on ![Anh 98](./image_starter_m2/image098.png?raw=true), then write the description for the product, and the click **Save** on top right of the screen
 
 **b.	Images and Videos**
   
-  ![Anh 93]()
+  ![Anh 99](./image_starter_m2/image099.png?raw=true)
 
 1)	Click on **products**
 2)	Click on **catalog**
 3)	Click on **edit** of product
 
-  ![Anh 94]()
+  ![Anh 100](./image_starter_m2/image100.png?raw=true)
  
-Scroll down to **Images And Videos**, and click on ![Anh 95](), then click on **Browse to find or drag image here to upload new image**
+Scroll down to **Images And Videos**, and click on ![Anh 101](./image_starter_m2/image101.png?raw=true), then click on **Browse to find or drag image here to upload new image**
 
-  ![Anh 96]()
+  ![Anh 102](./image_starter_m2/image102.png?raw=true)
 Click on **Add Video** to add new video
 
-  ![Anh 97]()
+  ![Anh 103](./image_starter_m2/image103.png?raw=true)
   
 Fill in the box and the click on **Choose File** to upload new video
 
