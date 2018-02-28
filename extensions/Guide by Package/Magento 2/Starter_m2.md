@@ -365,7 +365,7 @@ For Dropdown and Multiple Select input types, do the following:
 6)	**Add to Column Options**: Include the attribute as a column in the Products grid.
 7)	**Use in Filter Option**: Adds a filter a control to the column header in the Products grid.
 
-![Anh 31](./image_starter_m2/image031.png?raw=true)
+ ![Anh 31](./image_starter_m2/image031.png?raw=true)
 
 **Input Validation**.
 
@@ -874,6 +874,7 @@ Scroll down to **Content**, and click on ![Anh 98](./image_starter_m2/image098.p
 Scroll down to **Images And Videos**, and click on ![Anh 101](./image_starter_m2/image101.png?raw=true), then click on **Browse to find or drag image here to upload new image**
 
   ![Anh 102](./image_starter_m2/image102.png?raw=true)
+
 Click on **Add Video** to add new video
 
   ![Anh 103](./image_starter_m2/image103.png?raw=true)
@@ -881,35 +882,35 @@ Click on **Add Video** to add new video
 Fill in the box and the click on **Choose File** to upload new video
 
 **c.	Search Engine Optimization**
-  ![Anh 98]()
+  ![Anh 104](./image_starter_m2/image104.png?raw=true)
 
 1)	Click on **Products**
 2)	Click on **Catalog**
 3)	Click on **Edit** of product
 
-  ![Anh 99]()
+  ![Anh 105](./image_starter_m2/image105.png?raw=true)
 
-Scroll down to search **Engine Optimization**, and click on ![Anh 100](), then fill in the box
+Scroll down to search **Engine Optimization**, and click on ![Anh 106](./image_starter_m2/image106.png?raw=true), then fill in the box
 
 **d.	Related Products, Up-sells and Cross-sells**
-![Anh 101]()
+![Anh 107](./image_starter_m2/image107.png?raw=true)
  
 1)	Click on respectively
 -	**Add Related Products**
 -	**Add Up-sell Products**
 -	**Add Cross-sell Products**
 
-![Anh 102]()
+![Anh 108](./image_starter_m2/image108.png?raw=true)
  
 2) Mark the checkbox to select products
 3) Click on **Add Selected Product**
 
-![Anh 103]()
+![Anh 109](./image_starter_m2/image109.png?raw=true)
  
 4)	Click on **Save** to finish
 
 **e.	Customizable Options**
-![Anh 104]()
+![Anh 110](./image_starter_m2/image110.png?raw=true)
  
 This function allows users to set and manage extra price for each product's variant separately.
 Users can simply set the extra price to be applied on a product's variant, regardless of its attribute and attribute value.
@@ -924,23 +925,23 @@ Users can simply set the extra price to be applied on a product's variant, regar
 8)	Select a **price type**
 9)	Enter an **SKU** for each product’s variant
 
-To remove a value, click ![Anh 105]() on the right hand-side of the column 
+To remove a value, click ![Anh 111](./image_starter_m2/image111.png?raw=true) on the right hand-side of the column 
 
 **f.	Gift Option**
 
-![Anh 106]()
+![Anh 112](./image_starter_m2/image112.png?raw=true)
  
 1)	Click on **Products**
 2)	Click on **Catalog**
 3)	Click on **Edit of a product**
 
- ![Anh 107]()
+ ![Anh 113](./image_starter_m2/image113.png?raw=true)
  
-Scroll down to **Gift Option**, and click on ![Anh 108](), then set the allow gift massage to **Yes**
+Scroll down to **Gift Option**, and click on ![Anh 114](./image_starter_m2/image114.png?raw=true), then set the allow gift massage to **Yes**
 
 **g.	Downloadable Information**
 
-![Anh 108]()
+![Anh 115](./image_starter_m2/image115.png?raw=true)
  
 1)	Mark the checkbox
 2)	Enter a title for the download link
@@ -960,7 +961,7 @@ Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
 
 **h.	Barcode**
 
-![Anh 109]()
+![Anh 116](./image_starter_m2/image116.png?raw=true)
  
 1)	Enter barcode 
 2)	Select a barcode template and see the preview as below 
@@ -968,15 +969,15 @@ Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
 4)	Click on **Save** to finish
 
 **i.	Suppliers**
-![Anh 110]()
+![Anh 117](./image_starter_m2/image117.png?raw=true)
  
 1)	Click on **Add Supplier**
 
-![Anh 111]()
+![Anh 111](./image_starter_m2/image118.png?raw=true)
 2)	Mark the checkbox to select suppliers
 3)	Click on **Add Selected Supplier**
 
-![Anh 112]()
+![Anh 119](./image_starter_m2/image119.png?raw=true)
 (4)	Enter the **Supplier SKU, Cost, Tax**
 (5)	Click **Save** to finish
 
@@ -984,7 +985,7 @@ Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
 Path: **Customers > All customers**
 #### Manage Customer 
 
-![Anh 113]()
+![Anh 120](./image_starter_m2/image120.png?raw=true)
 
 1)	Click **Add New Customer** to create new customer.
 2)	Click **Filters** or fill out key word to search customer information.
@@ -998,10 +999,12 @@ Path: **Customers > All customers**
 
 #### Create New Customer 
 
-![Anh 114]()
+![Anh 121](./image_starter_m2/image121.png?raw=true)
+
 Click **Add New Customer**.
 
-![Anh 115]()
+![Anh 122](./image_starter_m2/image122.png?raw=true)
+
 Fill out all the required fields with information of a customer.
 - Associate to Website.
 - Group.
@@ -1009,7 +1012,8 @@ Fill out all the required fields with information of a customer.
 - Last Name.
 - Email.
 
-![Anh 116]()
+![Anh 123](./image_starter_m2/image123.png?raw=true)
+
 Click **Save Customer** to complete the process.
 
 ### Warehouse
@@ -1019,12 +1023,12 @@ Please refer to Section **Warehouse** for details.
 ### Location
 Path: **Sales > Web POS** section **> Manage Locations**
 
-![Anh 117]()
+![Anh 124](./image_starter_m2/image124.png?raw=true)
 
 1) Click on **Add Location** to create new locations
 2) *Additional Guidance*: Click on **Edit** to amend existing locations’ information.
 
-![Anh 118]()
+![Anh 125](./image_starter_m2/image125.png?raw=true)
 
 *On the pop-up screen*:
 1)	Fill in the **Location Name** (required)
@@ -1039,10 +1043,11 @@ Path: **Sales > Web POS** section **> Manage Locations**
 Path: **Sales > Web POS** section **> Manage POS**
 #### Create A New Web POS 
 
-![Anh 119]()
+![Anh 126](./image_starter_m2/image126.png?raw=true)
+
 Click **Add POS**
 
-![Anh 120]()
+![Anh 127](./image_starter_m2/image127.png?raw=true)
 
 Fill out or select all the re quired fields.
 1) **POS Name**: POS’s name. (re quired)
@@ -1052,7 +1057,8 @@ Fill out or select all the re quired fields.
 5) **Status**: you Enable or Disable this POS
 6) **When checked**: another staff can use the POS when it is available.
 
-![Anh 121]()
+![Anh 128](./image_starter_m2/image128.png?raw=true)
+
 Click **Save** to complete the process.
 
 **Note**: *Even when you set the warehouse to a certain location, with online store, admin can see clearly warehouse information in any location. HOWEVER, with offline store, only Sales Manager can view the warehouse information only in the mapped location. IT Admin can give other admin permission to view the Inventory information in any location by going to ***System > User Roles > Add new role or Edit role > Role Resource***
@@ -1060,7 +1066,7 @@ Click **Save** to complete the process.
 #### Manage Web POS 
 Path: **Sale > Web POS** section **> Manage POS**
 
-![Anh 122]()
+![Anh 129](./image_starter_m2/image129.png?raw=true)
 
 1)	Click **Add POS** to create new POS.
 2)	Click **Filters** to search POS information.
@@ -1076,7 +1082,7 @@ Path: **Stock Management > Stock Listing** section **> Stocks in Warehouse**
 
 Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include **Available Qty, Qty to Ship** and **Total Qty** and **Shelf Location** of each product in the warehouse.
 
-![Anh 123]()
+![Anh 130](./image_starter_m2/image130.png?raw=true)
  
 You can easily edit Qty of products in-line within a few steps:
 1)	Mark the checkbox to select products 
