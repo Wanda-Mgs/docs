@@ -21,7 +21,7 @@ With the latest upgraded version and its convenience and the amount of time save
 
 Path: **Stock Management > Settings** section **> Configuration**
 
-![Anh 1](./image_starter_m2/image001.png?raw=true)
+![Stock Control Configuration](./image_starter_m2/image001.png?raw=true)
 
 1)	**Link stocks in Warehouse to Front Store View**: In managing a Warehouse, you can link Warehouse to a Front Store View (Path: **Stock Listing > Warehouses >** Click **View > Warehouse Information** section **> General Information** tab **> Magento Store View** field). Note that you can link a warehouse to one or multiple store views.
 - If you enable **Link warehouse to Magento Front Store View** by choosing **Yes** here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
@@ -41,8 +41,8 @@ Path: **Stock Management > Settings** section **> Configuration > Catalog > Inve
 
 ##### Stock Option
 
-![Anh 2](./image_starter_m2/image002.png?raw=true)
- 
+![Stock Option](./image_starter_m2/image002.png?raw=true)
+
 1)	Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 
 2)	Select **Yes** in the dropdown list to return items to stock if an order is cancelled.
@@ -59,7 +59,7 @@ Path: **Stock Management > Settings** section **> Configuration > Catalog > Inve
 
 Path: **Stock Management > Settings** section **> Configuration > Catalog > Inventory**
  
-![Anh 3](./image_starter_m2/image003.png?raw=true)
+![Product Stock Options](./image_starter_m2/image003.png?raw=true)
 
 1)	Select Yes to activate inventory control for your catalog. 
 
@@ -76,7 +76,7 @@ Path: **Stock Management > Settings** section **> Configuration > Catalog > Inve
 
 Next, 
 
-![Anh 4](./image_starter_m2/image004.png?raw=true)
+![Product Stock Options](./image_starter_m2/image004.png?raw=true)
  
 6)	Enter the stock level that generates notification showing the item is out of stock.
 
@@ -96,7 +96,7 @@ Path: **Sales > Web POS** section **> Settings > Default Guest Checkout**
 
 Default customer is the customer whose information will be used for Guest Checkout or when customer information is not enough, default value will be filled automatically.
 
-![Anh 5](./image_starter_m2/image005.png?raw=true)
+![Web POS](./image_starter_m2/image005.png?raw=true)
  
 Fill in all information as you want to use as default, including **First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone** and **Email**. After finishing, click on **Save Config** button to save your work.
 
@@ -106,7 +106,7 @@ Path: **Sales > Web POS** section **> Settings**
 
 To set up Shipping Methods for Web POS, go to **Shipping for POS** section under **Settings**:
 
-![Anh 6](./image_starter_m2/image006.png?raw=true)
+![Web POS](./image_starter_m2/image006.png?raw=true)
 
 1)	**Applicable Shipping Methods**: 
 •	If you want to apply all shipping methods, choose All Allowed Shipping.
@@ -126,7 +126,7 @@ Path: **Sales > Web POS** section **> Settings**
 
 To set up Payment Methods for Web POS, go to **Payment for POS** section under **Settings**:
 
-![Anh 7](./image_starter_m2/image007.png?raw=true)
+![How to enable a Payment Method for Web POS](./image_starter_m2/image007.png?raw=true)
  
 1)	**Applicable Payment Methods**: 
 •	If you want to apply all shipping methods, choose **All Allowed Payments**.
@@ -159,7 +159,7 @@ Path: **System > Permission** section **> User Roles**
 
 ##### Manage user role
 
-![Anh 8](./image_starter_m2/image008.png?raw=true)
+![Manage user role](./image_starter_m2/image008.png?raw=true)
  
 1)	Click **Add New Role** to create new user role.
 2)	Fill out the blank with a value to search, after click **Search**.
@@ -169,17 +169,17 @@ View or edit a role’s detail by clicking on each line.
 
 ##### Create a new user role
 
-![Anh 9](./image_starter_m2/image009.png?raw=true)
+![Create a new user role](./image_starter_m2/image009.png?raw=true)
 
 Click **Add New Role**
 
-![Anh 10](./image_starter_m2/image010.png?raw=true)
+![Create a new user role](./image_starter_m2/image010.png?raw=true)
 
 In tab **Role Info**
 
 Fill in all required fields
 
-![Anh 11](./image_starter_m2/image011.png?raw=true)
+![Create a new user role](./image_starter_m2/image011.png?raw=true)
  
 In tab **Role Resources**:
 
@@ -192,7 +192,7 @@ Click **Save** to complete the process.
 #### Decentralize Users
 ##### Manage user
 
-![Anh 12](./image_starter_m2/image012.png?raw=true)
+![Manage user](./image_starter_m2/image012.png?raw=true)
 
 1)	Click **Add New User** to create new user.
 2)	Fill out the blank with a value to search
@@ -202,11 +202,11 @@ View or edit a user’s detail by clicking on each line.
 
 ##### Create a new user
 
-![Anh 13](./image_starter_m2/image013.png?raw=true)
+![Create a new user](./image_starter_m2/image013.png?raw=true)
 
 To create new user, click **Add New User**
 
-![Anh 14](./image_starter_m2/image014.png?raw=true)
+![Create a new user](./image_starter_m2/image014.png?raw=true)
 
 In tab **User Info**, fill in the blank:
 
@@ -220,15 +220,15 @@ In tab **User Info**, fill in the blank:
 8)	**This account is**: Active or Inactive.
 9)	**Your Password**: fill out your password. (required).
  
-![Anh 15](./image_starter_m2/image015.png?raw=true)
+![Create a new user](./image_starter_m2/image015.png?raw=true)
 
 In tab **User Role**, select a role for user.
 
-![Anh 16](./image_starter_m2/image016.png?raw=true)
+![Create a new user](./image_starter_m2/image016.png?raw=true)
  
 In tab Warehouse, click **Assign Warehouses** to assign warehouses to this user.
 
-![Anh 17](./image_starter_m2/image017.png?raw=true)
+![Create a new user](./image_starter_m2/image017.png?raw=true)
 
 Click **Save User** to complete the process.
 
@@ -237,7 +237,7 @@ Click **Save User** to complete the process.
 Path: **Sales > Web POS** section **> Manage Roles**
 
 ##### Manage role
-![Anh 18](./image_starter_m2/image018.png?raw=true)
+![Manage role](./image_starter_m2/image018.png?raw=true)
  
 1)	**Add Role**: Click to add a new role.
 2)	**Filters**: You can find role information by click it and fill out values.
@@ -246,18 +246,18 @@ Path: **Sales > Web POS** section **> Manage Roles**
 
 ##### Add a new role
 
-![Anh 19](./image_starter_m2/image019.png?raw=true)
+![Add a new role](./image_starter_m2/image019.png?raw=true)
 
 Click **Add Role** to add a new role.
 
-![Anh 20](./image_starter_m2/image020.png?raw=true)
+![Add a new role](./image_starter_m2/image020.png?raw=true)
 
 In **General** tab, fill out the blank.
 1)	**Role Name**: Enter a name for the role. (required)
 2)	**Maximum discount percent (%)**: Limit the highest discount percent that each user role can offer customers.
 3)	**Description**: Enter text that describes the role.
  
-![Anh 21](./image_starter_m2/image021.png?raw=true)
+![Add a new role](./image_starter_m2/image021.png?raw=true)
 
 In **Permission** tab:
 1)	**Resource Access**: You can choose **Custom** or **All**. Choose **All** if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work.
@@ -267,7 +267,7 @@ In **Permission** tab:
 ##### Manage Staff
 Path: **Sales > Web POS** section **> Manage Staff**
 
-![Anh 22](./image_starter_m2/image022.png?raw=true)
+![Manage Staff](./image_starter_m2/image022.png?raw=true)
 
 1)	Click **Add Staff** to create a new staff.
 2)	Click **Filters** to search staff information.
@@ -278,11 +278,11 @@ Click **Detail** to view a staff’s details or edit.
 ##### Create a new staff
 Path: **Sales > Web POS** section **> Manage Staff**
 
-![Anh 23](./image_starter_m2/image023.png?raw=true)
+![Manage Staff](./image_starter_m2/image023.png?raw=true)
 
 Click **Add Staff**.
 
-![Anh 24](./image_starter_m2/image024.png?raw=true)
+![Manage Staff](./image_starter_m2/image024.png?raw=true)
 
 Fill out all the required fields or select:
 
@@ -293,12 +293,12 @@ Fill out all the required fields or select:
 5)	**Email Address.**
 6)	**PIN Code (App only).**
  
- ![Anh 25](./image_starter_m2/image025.png?raw=true)
+ ![Manage Staff](./image_starter_m2/image025.png?raw=true)
 
 7) **Customer Group**.
 8) **Location**: Hold **Ctrl + Click** to choose more than one
  
- ![Anh 26](./image_starter_m2/image026.png?raw=true)
+ ![Manage Staff](./image_starter_m2/image026.png?raw=true)
 
 9) **Role**.
 10) **Status**: You can **Enabled** or **Disabled** this staff.
@@ -312,7 +312,7 @@ Finally, click **Save** to complete the process.
 Path: **Stores > Attributes** section **> Product**
 
 ##### Manage Attribute 
- ![Anh 27](./image_starter_m2/image027.png?raw=true)
+ ![Manage Attribute](./image_starter_m2/image027.png?raw=true)
 
 1)	Click **Add New Attribute** to create new user.
 2)	Fill out the blank with a value to search, after click **Search**.
@@ -329,11 +329,11 @@ Attributes can be created while working on a product, or from the Product **Attr
 |Catalog Input Type for Store Owner| Dropdown|
 Scope|Global| 
 
-![Anh 28](./image_starter_m2/image028.png?raw=true)
+![Create A New Attribute ](./image_starter_m2/image028.png?raw=true)
 
 Click **Add New Attribute**
 
-![Anh 29](./image_starter_m2/image029.png?raw=true)
+![Create A New Attribute ](./image_starter_m2/image029.png?raw=true)
 
 **Basic Properties**
 1)	Enter a **Default Label** to identify the attribute
@@ -348,7 +348,7 @@ For Dropdown and Multiple Select input types, do the following:
 - Click **Add Option** and repeat the previous step for each option that you want to include in the list.
 - Select **Is Default** to use the option as the default value.
  
-![Anh 30](./image_starter_m2/image030.png?raw=true)
+![Create A New Attribute ](./image_starter_m2/image030.png?raw=true)
 
 **Advanced Properties** (if needed).
 1)	Enter a unique **Attribute Code** in lowercase characters, and without space.
@@ -365,15 +365,15 @@ For Dropdown and Multiple Select input types, do the following:
 6)	**Add to Column Options**: Include the attribute as a column in the Products grid.
 7)	**Use in Filter Option**: Adds a filter a control to the column header in the Products grid.
 
-![Anh 31](./image_starter_m2/image031.png?raw=true)
+![Create A New Attribute ](./image_starter_m2/image031.png?raw=true)
 
 **Input Validation**.
 
-![Anh 32](./image_starter_m2/image032.png?raw=true)
+![Create A New Attribute ](./image_starter_m2/image032.png?raw=true)
 
 In tab **Manage Labels**: Enter a **Title** to be used as a label for the field. If your store is available in different languages, you can enter a translated title for each view.
 
- ![Anh 33](./image_starter_m2/image033.png?raw=true)
+ ![Create A New Attribute ](./image_starter_m2/image033.png?raw=true)
 
 In tab **Storefront Properties**
 1)	If the attribute is to be available for search, set Use in Search to **Yes** 
@@ -391,7 +391,7 @@ For dropdown, multiple select and price fields, do the following:
 
 To use attribute as a sort parameter for product listings, set Used for Sorting in Product Listing to **Yes**
 
- ![Anh 34](./image_starter_m2/image034.png?raw=true)
+ ![Create A New Attribute ](./image_starter_m2/image034.png?raw=true)
 
 When complete, click **Save Attribute**.
 
@@ -400,7 +400,7 @@ Path: **Stores > Attributes** section **> Attribute set**
 
 ##### Manage Attribute Set
 
- ![Anh 35](./image_starter_m2/image035.png?raw=true)
+ ![Manage Attribute Set](./image_starter_m2/image035.png?raw=true)
 
 1)	Click **Add Attribute Set** to create new attribute set.
 2)	Fill out the blank with a value to search, after click **Search**.
@@ -410,11 +410,11 @@ You can view or edit details of attribute set by clicking on each line.
 
 ##### Create A New Attribute Set
 
- ![Anh 36](./image_starter_m2/image036.png?raw=true)
+ ![Create A New Attribute Set](./image_starter_m2/image036.png?raw=true)
 
 Click **Add Attribute Set** to create new attribute set.
 
- ![Anh 37](./image_starter_m2/image037.png?raw=true)
+ ![Create A New Attribute Set](./image_starter_m2/image037.png?raw=true)
 
 1)	In the **Name** field, enter a name for the attribute set (required)
 2)	In the **Based On** field, select an existing attribute set to be used as a template:
@@ -428,7 +428,7 @@ Click **Add Attribute Set** to create new attribute set.
 - Top
 3)	Click **Save** button and continue
 
- ![Anh 38](./image_starter_m2/image038.png?raw=true)
+ ![Create A New Attribute Set](./image_starter_m2/image038.png?raw=true)
 
 To add a new attribute to the set, drag the attribute from the Unassigned Attribute list to the appropriate folder in the General group.
 
@@ -440,14 +440,14 @@ Path: **Products > Inventory** section **> Categories**
 ##### Manage Categories  
 When selecting a category on the left, all the information will be displayed on the left.
 
- ![Anh 39](./image_starter_m2/image039.png?raw=true)
+ ![Manage Categories  ](./image_starter_m2/image039.png?raw=true)
 
 ##### Create A New Category
 
- ![Anh 40](./image_starter_m2/image040.png?raw=true)
+ ![Create A New Category](./image_starter_m2/image040.png?raw=true)
 
 **Create a Category**
- ![Anh 41](./image_starter_m2/image041.png?raw=true)
+ ![Create a Category](./image_starter_m2/image041.png?raw=true)
 
 Path: **Products > Inventory** section **> Categories**
 
@@ -457,7 +457,7 @@ If you’re starting from the beginning without any data, there might be only tw
 
 Click **Add Sub-category** to add a new category.
 
- ![Anh 42](./image_starter_m2/image042.png?raw=true)
+ ![Create a Category](./image_starter_m2/image042.png?raw=true)
 
 **Complete the Basic information**
 1)	If you want the category to be immediately available in the store, set **Enable Category** to the **Yes** position.
@@ -465,16 +465,16 @@ Click **Add Sub-category** to add a new category.
 3)	Enter the **Category Name**.
 4)	Click **Save**.
 
-  ![Anh 43](./image_starter_m2/image043.png?raw=true)
+  ![Complete the Basic information](./image_starter_m2/image043.png?raw=true)
 
-Complete the Category Content
+**Complete the Category Content**
 
 1)	To display a Category Image at the top of the page, tap **Upload**. Then, choose the image that you want to represent the category.
 2)	In the **Description** box, enter the text that you want to appear on the category landing page. Then, format the text as needed.
 3)	To include a content block on the category landing page, choose the CMS Block that you want to appear. 
 4)	Click **Save**.
  
-![Anh 44](./image_starter_m2/image044.png?raw=true)
+![Complete the Category Content](./image_starter_m2/image044.png?raw=true)
 
 Complete the **Display Settings**
 Expand the **Display Settings** section.
@@ -496,7 +496,7 @@ Expand the **Display Settings** section.
 
 6)	Click **Save**.
  
-![Anh 45](./image_starter_m2/image045.png?raw=true)
+![Complete the **Display Settings**](./image_starter_m2/image045.png?raw=true)
 
 Complete the **Search Engine Optimization Settings**
 
@@ -509,7 +509,7 @@ Complete the following meta data for the category:
 4)	Meta Description.
 5)	Click **Save**.
 
- ![Anh 46](./image_starter_m2/image046.png?raw=true)
+ ![Complete the **Search Engine Optimization Settings**](./image_starter_m2/image046.png?raw=true)
 
 Choose the **Products** in **Category**
 Expand the Products in Category section. Then, use one of the following methods to add products to the category. 
@@ -537,7 +537,7 @@ Downloadable Product	|A digitally downloadable product that consists of one or m
 
 ##### Manage Product 
 Path: **Products > Inventory** section **> Catalog**
- ![Anh 47](./image_starter_m2/image047.png?raw=true)
+ ![Manage Product ](./image_starter_m2/image047.png?raw=true)
 
 **Workspace Controls**
 | Control	|Description|
@@ -551,14 +551,14 @@ Edit|	Opens the product in edit mode or view product’s detail.  You can accomp
 ##### Create A New Product 
 **Simple product**
 
-  ![Anh 48](./image_starter_m2/image048.png?raw=true)
+  ![Create A New Product ](./image_starter_m2/image048.png?raw=true)
 
 In the upper-right corner on the Add Product ![Anh 49](./image_starter_m2/image049.png?raw=true) menu, choose Simple Product.
 
- ![Anh 50](./image_starter_m2/image050.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image050.png?raw=true)
 
 Choose the attribute set that is used as a template for the product.
- ![Anh 51](./image_starter_m2/image051.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image051.png?raw=true)
  
 **Complete the required setting**.
 1)	Enter **Product Name**. *(required)*
@@ -567,7 +567,7 @@ Choose the attribute set that is used as a template for the product.
 
 Then, Click **Save** to continue.
  
- ![Anh 52](./image_starter_m2/image052.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image052.png?raw=true)
 
 **Complete the basic settings**
 
@@ -576,7 +576,7 @@ Set Tax Class to one of the following:
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to **In Stock**
 4)	Enter the Weight of the product.
-5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click  ![Anh 53](./image_starter_m2/image053.png?raw=true) 
+5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Create A New Product](./image_starter_m2/image053.png?raw=true) 
 6)	Accept the default Visibility setting, **Catalog, Search**.
 7)	Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Choose the Country of Manufacture.
@@ -584,7 +584,7 @@ Set Tax Class to one of the following:
 
 Then, click **Save** to continue
 
- ![Anh 54](./image_starter_m2/image054.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image054.png?raw=true)
 
 Complete the product information
 Scroll down and complete the information in the following sections as needed:
@@ -604,15 +604,15 @@ Scroll down and complete the information in the following sections as needed:
 
 **Configurable product**
 Create a new configurable product
- ![Anh 55](./image_starter_m2/image055.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image055.png?raw=true)
 
-In the upper-right corner on the **Add Product** ![Anh 56](./image_starter_m2/image056.png?raw=true) menu, choose **Configurable Product**.
+In the upper-right corner on the **Add Product** ![Create A New Product](./image_starter_m2/image056.png?raw=true) menu, choose **Configurable Product**.
 
- ![Anh 57](./image_starter_m2/image057.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image057.png?raw=true)
 
 Choose the attribute set that is used as a template for the product.
  
-  ![Anh 58](./image_starter_m2/image058.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image058.png?raw=true)
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -620,7 +620,7 @@ Complete the required setting
 3)	Enter the product Price.
 4)	Click **Save** to continue.
 
- ![Anh 59](./image_starter_m2/image059.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image059.png?raw=true)
 
 Complete the basic settings
 1)	Set Tax Class to one of the following:
@@ -629,7 +629,7 @@ Complete the basic settings
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to **In Stock**.
 4)	Enter the Weight of the product.
-5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 60](./image_starter_m2/image060.png?raw=true) 
+5)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![](./image_starter_m2/image060.png?raw=true) 
 6)	Accept the default Visibility setting, **Catalog, Search**.
 7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Choose the Country of Manufacture.
@@ -637,29 +637,29 @@ Complete the basic settings
 
 Then, click **Save** to continue.
 
- ![Anh 61](./image_starter_m2/image061.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image061.png?raw=true)
 
 Complete the product information.
 
 **Adding configurations**
  
- ![Anh 62](./image_starter_m2/image062.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image062.png?raw=true)
 
 After creating a product, scroll down the **Configuration** section **>** Click **Create Configurations**.
 
-![Anh 63](./image_starter_m2/image063.png?raw=true)
+![Create A New Product](./image_starter_m2/image063.png?raw=true)
 
 Choose the attributes
 1)	Mark the checkbox of each attribute that you want to include as a configuration.
 2)	Add a new attribute.
 3)	Click to continue.
  
- ![Anh 64](./image_starter_m2/image064.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image064.png?raw=true)
 
 For each attribute, mark the checkbox of the values that apply to the product.
 
 Click **Next to continue**
- ![Anh 65](./image_starter_m2/image065.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image065.png?raw=true)
  
 Configure the Images, Price, and Quantity.
 
@@ -667,19 +667,19 @@ Click **Next** to continue.
 
 You will see list product.
  
- ![Anh 66](./image_starter_m2/image066.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image066.png?raw=true)
 
 Click **Next** to finish the process.
 
 **Grouped product**
 
-In the upper-right corner on the **Add Product**  ![Anh 67](./image_starter_m2/image067.png?raw=true) menu, choose **Grouped Product**.
+In the upper-right corner on the **Add Product** ![](./image_starter_m2/image067.png?raw=true) menu, choose **Grouped Product**.
  
- ![Anh 68](./image_starter_m2/image068.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image068.png?raw=true)
 
 Choose the attribute set that is used as a template for the product.
   
-  ![Anh 69](./image_starter_m2/image069.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image069.png?raw=true)
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -687,11 +687,11 @@ Complete the required setting
 3)	Enter the Quantity of the product that is currently in stock 
 
 Then, Click **Save to continue**.
- ![Anh 70](./image_starter_m2/image070.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image070.png?raw=true)
 
 Complete the basic settings
 1)	By default, Stock Status is set to **In Stock**
-2)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![Anh 71](./image_starter_m2/image071.png?raw=true)
+2)	Assign Categories to the product. Tap the **Select** to select available category or you can create new category by click ![](./image_starter_m2/image071.png?raw=true)
 3)	Accept the default Visibility setting, **Catalog, Search**.
 4)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 5)	Choose the Country of Manufacture.
@@ -701,19 +701,19 @@ Then, click **Save to continue**.
 
 **Add products to Group**
  
-  ![Anh 72](./image_starter_m2/image072.png?raw=true)
-  ![Anh 73](./image_starter_m2/image073.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image072.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image073.png?raw=true)
 
 1)	Select product that you want to include in the group.
 2)	Click to add them to group.
    
-   ![Anh 74](./image_starter_m2/image074.png?raw=true)
+   ![Create A New Product](./image_starter_m2/image074.png?raw=true)
 1)	Enter a quantity.
 2)	Remove a product from group.
 
 Click **Save** to finish the process.
   
-  ![Anh 75](./image_starter_m2/image075.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image075.png?raw=true)
 
 Complete the product information
 
@@ -723,13 +723,13 @@ Aside from the absence of the Weight field, the process of creating a virtual pr
 
 **Bundle product**
   
-  ![Anh 76](./image_starter_m2/image076.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image076.png?raw=true)
 In the upper-right corner on the Add Product ![Anh 77](./image_starter_m2/image077.png?raw=true) menu, choose Bundle Product.
   
-  ![Anh 78](./image_starter_m2/image078.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image078.png?raw=true)
 Choose the attribute set that is used as a template for the product
 
-  ![Anh 79](./image_starter_m2/image079.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image079.png?raw=true)
 Complete the required setting
 1)	Enter Product Name. (required)
 2)	The default SKU that is based on the product name, or enter another.
@@ -737,7 +737,7 @@ Complete the required setting
 
 Then, Click **Save to continue**.
 
-  ![Anh 80](./image_starter_m2/image080.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image080.png?raw=true)
 
 Complete the basic settings
 1)	Enable **Dynamic Price**
@@ -755,7 +755,7 @@ Complete the basic settings
 
 Finally, click **Save** to continue.
   
-  ![Anh 82](./image_starter_m2/image082.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image082.png?raw=true)
 
 Add **Bundle items**
 Scroll down to the **Bundle Items** section. Then, set **Ship Bundle Items** one of the following:
@@ -763,7 +763,7 @@ Scroll down to the **Bundle Items** section. Then, set **Ship Bundle Items** one
 2.	Together
 Click **Add Option**
  
- ![Anh 83](./image_starter_m2/image083.png?raw=true)
+ ![Create A New Product](./image_starter_m2/image083.png?raw=true)
 
 1)	**Option Title** to be used field label.
 2)	Set **Input Type** to one of the following:
@@ -779,28 +779,28 @@ Click **Add Option**
 Mark the checkbox of each product.
 Click **Add Selected Products**, you will see.
 
-  ![Anh 85](./image_starter_m2/image085.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image085.png?raw=true)
  
 1)	Mark the checkbox of a product that you want it is default.
 2)	Enter **Default Quantity**.
 
 Finally, click **Save**.
 
-  ![Anh 86](./image_starter_m2/image086.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image086.png?raw=true)
   
 Complete products information
 
 **Downloadable product**
 
-  ![Anh 87](./image_starter_m2/image087.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image087.png?raw=true)
 
 In the upper-right corner on the Add Product ![Anh 88](./image_starter_m2/image088.png?raw=true) menu, choose **Downloadable Product**.
 
-  ![Anh 89](./image_starter_m2/image089.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image089.png?raw=true)
 
 Choose Downloadable as the **attribute set**
 
-  ![Anh 90](./image_starter_m2/image090.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image090.png?raw=true)
 
 Complete the required setting
 1)	Enter **Product Name**. (required)
@@ -809,7 +809,7 @@ Complete the required setting
 
 Then, Click **Save** to continue.
 
-  ![Anh 91](./image_starter_m2/image091.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image091.png?raw=true)
 
 Complete the basic settings
 1)	Set **Tax Class** to one of the following:
@@ -818,14 +818,14 @@ Complete the basic settings
 2)	Enter the Quantity of the product that is currently in stock. 
 3)	By default, Stock Status is set to Out of Stock.
 4)	The Weight is not used, because downloadable products are not shipped.
-5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![Anh 92](./image_starter_m2/image092.png?raw=true)  
+5)	Assign Categories to the product. Tap the Select to select available category or you can create new category by clicking on  ![](./image_starter_m2/image092.png?raw=true)  
 6)	Accept the default Visibility setting, Catalog, Search.
 7)	To feature Mark the Set Product as New checkbox to add the product in the list of new products.
 8)	Enable on Web POS
 
 Then, click **Save** to continue.
 
-  ![Anh 93]](./image_starter_m2/image093.png?raw=true)
+  ![Create A New Product]](./image_starter_m2/image093.png?raw=true)
 
 Complete **downloadable product**.
 1.	Mark the checkbox “**Is this downloadable product**”
@@ -835,7 +835,7 @@ Complete **downloadable product**.
 - **Upload File**: To upload the the distribution file to the server. Browse to the file, and select it for upload.
 - **URL**: To access the distribution file from a URL. Enter the full URL to the download file.
 
-  ![Anh 94](./image_starter_m2/image094.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image094.png?raw=true)
  
 Complete the **Sample**.
 1) Enter the **Title** - to use as a heading for the samples.
@@ -844,73 +844,73 @@ Complete the **Sample**.
 4) Click to add another sample.
 When complete, click **Save**.
 
-  ![Anh 95](./image_starter_m2/image095.png?raw=true)
+  ![Create A New Product](./image_starter_m2/image095.png?raw=true)
   
 Complete the product information
 
 ##### Product Setting
 **a.	Content**
   
-  ![Anh 96](./image_starter_m2/image096.png?raw=true)
+  ![Product Setting](./image_starter_m2/image096.png?raw=true)
 
 1)	Click on **Products**
 2)	Click on **Catalog**
 3)	Click on **Edit**
 
-  ![Anh 97](./image_starter_m2/image097.png?raw=true)
+  ![Product Setting](./image_starter_m2/image097.png?raw=true)
  
 Scroll down to **Content**, and click on ![Anh 98](./image_starter_m2/image098.png?raw=true), then write the description for the product, and the click **Save** on top right of the screen
 
 **b.	Images and Videos**
   
-  ![Anh 99](./image_starter_m2/image099.png?raw=true)
+  ![Product Setting](./image_starter_m2/image099.png?raw=true)
 
 1)	Click on **products**
 2)	Click on **catalog**
 3)	Click on **edit** of product
 
-  ![Anh 100](./image_starter_m2/image100.png?raw=true)
+  ![Product Setting](./image_starter_m2/image100.png?raw=true)
  
-Scroll down to **Images And Videos**, and click on ![Anh 101](./image_starter_m2/image101.png?raw=true), then click on **Browse to find or drag image here to upload new image**
+Scroll down to **Images And Videos**, and click on ![](./image_starter_m2/image101.png?raw=true), then click on **Browse to find or drag image here to upload new image**
 
-  ![Anh 102](./image_starter_m2/image102.png?raw=true)
+  ![Product Setting](./image_starter_m2/image102.png?raw=true)
 
 Click on **Add Video** to add new video
 
-  ![Anh 103](./image_starter_m2/image103.png?raw=true)
+  ![Product Setting](./image_starter_m2/image103.png?raw=true)
   
 Fill in the box and the click on **Choose File** to upload new video
 
 **c.	Search Engine Optimization**
-  ![Anh 104](./image_starter_m2/image104.png?raw=true)
+  ![Product Setting](./image_starter_m2/image104.png?raw=true)
 
 1)	Click on **Products**
 2)	Click on **Catalog**
 3)	Click on **Edit** of product
 
-  ![Anh 105](./image_starter_m2/image105.png?raw=true)
+  ![Product Setting](./image_starter_m2/image105.png?raw=true)
 
-Scroll down to search **Engine Optimization**, and click on ![Anh 106](./image_starter_m2/image106.png?raw=true), then fill in the box
+Scroll down to search **Engine Optimization**, and click on ![](./image_starter_m2/image106.png?raw=true), then fill in the box
 
 **d.	Related Products, Up-sells and Cross-sells**
-![Anh 107](./image_starter_m2/image107.png?raw=true)
+![Product Setting](./image_starter_m2/image107.png?raw=true)
  
 1)	Click on respectively
 -	**Add Related Products**
 -	**Add Up-sell Products**
 -	**Add Cross-sell Products**
 
-![Anh 108](./image_starter_m2/image108.png?raw=true)
+![Product Setting](./image_starter_m2/image108.png?raw=true)
  
 2) Mark the checkbox to select products
 3) Click on **Add Selected Product**
 
-![Anh 109](./image_starter_m2/image109.png?raw=true)
+![Product Setting](./image_starter_m2/image109.png?raw=true)
  
 4)	Click on **Save** to finish
 
 **e.	Customizable Options**
-![Anh 110](./image_starter_m2/image110.png?raw=true)
+![Product Setting](./image_starter_m2/image110.png?raw=true)
  
 This function allows users to set and manage extra price for each product's variant separately.
 Users can simply set the extra price to be applied on a product's variant, regardless of its attribute and attribute value.
@@ -925,23 +925,23 @@ Users can simply set the extra price to be applied on a product's variant, regar
 8)	Select a **price type**
 9)	Enter an **SKU** for each product’s variant
 
-To remove a value, click ![Anh 111](./image_starter_m2/image111.png?raw=true) on the right hand-side of the column 
+To remove a value, click ![](./image_starter_m2/image111.png?raw=true) on the right hand-side of the column 
 
 **f.	Gift Option**
 
-![Anh 112](./image_starter_m2/image112.png?raw=true)
+![Product Setting](./image_starter_m2/image112.png?raw=true)
  
 1)	Click on **Products**
 2)	Click on **Catalog**
 3)	Click on **Edit of a product**
 
- ![Anh 113](./image_starter_m2/image113.png?raw=true)
+ ![Product Setting](./image_starter_m2/image113.png?raw=true)
  
 Scroll down to **Gift Option**, and click on ![Anh 114](./image_starter_m2/image114.png?raw=true), then set the allow gift massage to **Yes**
 
 **g.	Downloadable Information**
 
-![Anh 115](./image_starter_m2/image115.png?raw=true)
+![Product Setting](./image_starter_m2/image115.png?raw=true)
  
 1)	Mark the checkbox
 2)	Enter a title for the download link
@@ -961,7 +961,7 @@ Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
 
 **h.	Barcode**
 
-![Anh 116](./image_starter_m2/image116.png?raw=true)
+![Product Setting](./image_starter_m2/image116.png?raw=true)
  
 1)	Enter barcode 
 2)	Select a barcode template and see the preview as below 
@@ -969,15 +969,15 @@ Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
 4)	Click on **Save** to finish
 
 **i.	Suppliers**
-![Anh 117](./image_starter_m2/image117.png?raw=true)
+![Product Setting](./image_starter_m2/image117.png?raw=true)
  
 1)	Click on **Add Supplier**
 
-![Anh 111](./image_starter_m2/image118.png?raw=true)
+![Product Setting](./image_starter_m2/image118.png?raw=true)
 2)	Mark the checkbox to select suppliers
 3)	Click on **Add Selected Supplier**
 
-![Anh 119](./image_starter_m2/image119.png?raw=true)
+![Product Setting](./image_starter_m2/image119.png?raw=true)
 (4)	Enter the **Supplier SKU, Cost, Tax**
 (5)	Click **Save** to finish
 
@@ -985,7 +985,7 @@ Otherwise, to allow unlimited downloads, mark the **Unlimited** checkbox
 Path: **Customers > All customers**
 #### Manage Customer 
 
-![Anh 120](./image_starter_m2/image120.png?raw=true)
+![Manage Customer](./image_starter_m2/image120.png?raw=true)
 
 1)	Click **Add New Customer** to create new customer.
 2)	Click **Filters** or fill out key word to search customer information.
@@ -999,11 +999,11 @@ Path: **Customers > All customers**
 
 #### Create New Customer 
 
-![Anh 121](./image_starter_m2/image121.png?raw=true)
+![Create New Customer](./image_starter_m2/image121.png?raw=true)
 
 Click **Add New Customer**.
 
-![Anh 122](./image_starter_m2/image122.png?raw=true)
+![Create New Customer](./image_starter_m2/image122.png?raw=true)
 
 Fill out all the required fields with information of a customer.
 - Associate to Website.
@@ -1012,7 +1012,7 @@ Fill out all the required fields with information of a customer.
 - Last Name.
 - Email.
 
-![Anh 123](./image_starter_m2/image123.png?raw=true)
+![Create New Customer](./image_starter_m2/image123.png?raw=true)
 
 Click **Save Customer** to complete the process.
 
@@ -1023,12 +1023,12 @@ Please refer to Section **Warehouse** for details.
 ### Location
 Path: **Sales > Web POS** section **> Manage Locations**
 
-![Anh 124](./image_starter_m2/image124.png?raw=true)
+![Location](./image_starter_m2/image124.png?raw=true)
 
 1) Click on **Add Location** to create new locations
 2) *Additional Guidance*: Click on **Edit** to amend existing locations’ information.
 
-![Anh 125](./image_starter_m2/image125.png?raw=true)
+![Location](./image_starter_m2/image125.png?raw=true)
 
 *On the pop-up screen*:
 1)	Fill in the **Location Name** (required)
@@ -1043,11 +1043,11 @@ Path: **Sales > Web POS** section **> Manage Locations**
 Path: **Sales > Web POS** section **> Manage POS**
 #### Create A New Web POS 
 
-![Anh 126](./image_starter_m2/image126.png?raw=true)
+![Create A New Web POS ](./image_starter_m2/image126.png?raw=true)
 
 Click **Add POS**
 
-![Anh 127](./image_starter_m2/image127.png?raw=true)
+![Create A New Web POS ](./image_starter_m2/image127.png?raw=true)
 
 Fill out or select all the re quired fields.
 1) **POS Name**: POS’s name. (re quired)
@@ -1057,7 +1057,7 @@ Fill out or select all the re quired fields.
 5) **Status**: you Enable or Disable this POS
 6) **When checked**: another staff can use the POS when it is available.
 
-![Anh 128](./image_starter_m2/image128.png?raw=true)
+![Create A New Web POS ](./image_starter_m2/image128.png?raw=true)
 
 Click **Save** to complete the process.
 
@@ -1066,7 +1066,7 @@ Click **Save** to complete the process.
 #### Manage Web POS 
 Path: **Sale > Web POS** section **> Manage POS**
 
-![Anh 129](./image_starter_m2/image129.png?raw=true)
+![Manage Web POS](./image_starter_m2/image129.png?raw=true)
 
 1)	Click **Add POS** to create new POS.
 2)	Click **Filters** to search POS information.
@@ -1082,7 +1082,7 @@ Path: **Stock Management > Stock Listing** section **> Stocks in Warehouse**
 
 Admin can have overview of Stock in the Warehouse and view stock details within the warehouse. These details include **Available Qty, Qty to Ship** and **Total Qty** and **Shelf Location** of each product in the warehouse.
 
-![Anh 130](./image_starter_m2/image130.png?raw=true)
+![Stocks in Warehouse](./image_starter_m2/image130.png?raw=true)
  
 You can easily edit Qty of products in-line within a few steps:
 1)	Mark the checkbox to select products 
@@ -1094,7 +1094,7 @@ You can easily edit Qty of products in-line within a few steps:
 Path: **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
 When a product is newly created and not assigned to any warehouse yet, it will be automatically allocated in Non-warehouse. 
 
-![Anh 131](./image_starter_m2/image131.png?raw=true)
+![Non-warehouse product](./image_starter_m2/image131.png?raw=true)
 
 From here admin can 
 1)	Select the product by clicking on the checkbox
@@ -1107,7 +1107,7 @@ After installation, the system will automatically provide a **Primary Warehouse*
 
 The **Warehouse** menu allows you to control your warehouse with 6 tabs:
 
-![Anh 132](./image_starter_m2/image132.png?raw=true)
+![View Warehouse’s detail information](./image_starter_m2/image132.png?raw=true)
  
 On the right side of each master data tab, click on the **Arrow button** to access the data:
 1)	**General information** about the Warehouse
@@ -1117,8 +1117,8 @@ On the right side of each master data tab, click on the **Arrow button** to acce
 5)	**Warehouse Permissions** manages staff access to the warehouse. Detailed guide is given in the next section **b. Warehouse permissions**
 6)	**Dashboard** contains reports that are illustrated as table and lines diagrams as below.
  
- ![Anh 133](./image_starter_m2/image133.png?raw=true)
- ![Anh 134](./image_starter_m2/image134.png?raw=true)
+ ![View Warehouse’s detail information](./image_starter_m2/image133.png?raw=true)
+ ![View Warehouse’s detail information](./image_starter_m2/image134.png?raw=true)
 
 **b.	Warehouse permissions**
 Path: **Stock Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
@@ -1126,13 +1126,13 @@ Path: **Stock Management > Stock Listing** section **> Warehouse > Warehouse Per
 In this section, Admin can give different warehouse access permissions to different (admin) users.
 Click on **View** to see the warehouse’s detail information
 
-![Anh 135](./image_starter_m2/image135.png?raw=true)
+![Warehouse permissions](./image_starter_m2/image135.png?raw=true)
  
 (1)	On the right hand side of the **Warehouse Permission** tab, click on **Assign Staff** to give different warehouse access permissions.
 
 Then will be a new pop-up screen shown as below:
 
-![Anh 136](./image_starter_m2/image136.png?raw=true)
+![Warehouse permissions](./image_starter_m2/image136.png?raw=true)
  
 Select Staff users to assign permission
 1) Select Staff by marking the checkbox
@@ -1149,16 +1149,16 @@ Select Staff users to assign permission
 
 As mentioned in section **Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section
  
-![Anh 138](./image_starter_m2/image138.png?raw=true)
+![ink stocks in Warehouse to Front Store View](./image_starter_m2/image138.png?raw=true)
 
 To link multiple Store View to a Warehouse, go to **Stock Management > Warehouse > General Information > Magento Store View**. Here, you can change the store view that links to the warehouse or select multiple store views as needed.
  
- ![Anh 139](./image_starter_m2/image139.png?raw=true)
+ ![ink stocks in Warehouse to Front Store View](./image_starter_m2/image139.png?raw=true)
 
 **b.	Add new Stock Adjustment**
 Path: **Stock Management > Stock Control** section **> New Stock Adjustment**
 
-![Anh 140](./image_starter_m2/image140.png?raw=true)
+![Add new Stock Adjustment](./image_starter_m2/image140.png?raw=true)
  
 Under menu Stock Control, you can create new Stock Adjustment in a few steps:
 1)	Name of the warehouse. With the Starter Package, you can only choose Primary Warehouse (also set as default) 
@@ -1166,7 +1166,7 @@ Under menu Stock Control, you can create new Stock Adjustment in a few steps:
 3)	Fill the reason
 4)	Then click button **Start Adjust Stock**.
 
-![Anh 141](./image_starter_m2/image141.png?raw=true)
+![Add new Stock Adjustment](./image_starter_m2/image141.png?raw=true)
  
 From here you have 2 options:
 1)	Go to product list and **Add products to adjust stocks** or **Import products** via CSV file
@@ -1175,18 +1175,18 @@ From here you have 2 options:
 
 Stock is updated in the warehouse. Once the Adjustment is Complete, there is no way to edit it.
 
-![Anh 142](./image_starter_m2/image142.png?raw=true)
+![Add new Stock Adjustment](./image_starter_m2/image142.png?raw=true)
 
 Stock level will be updated instantly in the corresponding warehouse.
 
 **c.	View Stock Adjustment History**
 Path: **Stock Management > Stock Control** section **> Stock Adjustment History**
 
-![Anh 143](./image_starter_m2/image143.png?raw=true)
+![View Stock Adjustment History](./image_starter_m2/image143.png?raw=true)
  
 You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status… Click on each Adjustment, you can see stock adjustment details. If you click on a **Completed** adjustment, you will be able to export the product list of that specific adjustment by clicking the button **Export Products**.
 
-![Anh 144](./image_starter_m2/image144.png?raw=true)
+![View Stock Adjustment History](./image_starter_m2/image144.png?raw=true)
  
 ##### Stock Taking & Stock Taking History
 Physical Stocktaking acts can be used at any time to double-check and correct inventory discrepancy amounts in Inventory Management vs. physical inventory in your warehouses. These consist of:
@@ -1197,19 +1197,19 @@ Physical Stocktaking acts can be used at any time to double-check and correct in
 **a.	Stocktaking process**
 Path: **Stock Management > Stock Control** section **> New Stocktaking**
 
-![Anh 145](./image_starter_m2/image145.png?raw=true)
+![Stocktaking process](./image_starter_m2/image145.png?raw=true)
  
 There are 5 steps in Stock taking using Instock Management module:
 - **Step 1: Fill General information**: After finishing this step, Stock taking status is **Pending**
 
-![Anh 146](./image_starter_m2/image146.png?raw=true)
+![Stocktaking process](./image_starter_m2/image146.png?raw=true)
  
 1)	Fill in the reason for stocktaking. You can also fill in the participants and the time of the action but it is optional
 2)	Choose the products to be stock taken by clicking the **Prepare Product List** button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the **Start Stocktaking** button
 
 - **Step 2: Prepare products before doing stock take**: Select or import products to prepare before doing stock take. Stock taking status will change to **Processing**
 
-![Anh 147](./image_starter_m2/image147.png?raw=true)
+![Stocktaking process](./image_starter_m2/image147.png?raw=true)
  
 1)	Click on **Add Products to Stocktake** to select products from your product list or **Import products** from CSV file (template provided)
 2)	Selected products will be displayed in the grid here
@@ -1217,27 +1217,27 @@ There are 5 steps in Stock taking using Instock Management module:
 
 - **Step 3: Do Stock take**: Fill in the Qty of product. Now status is changed to **Verified**
 
-![Anh 148](./image_starter_m2/image148.png?raw=true)
+![Stocktaking process](./image_starter_m2/image148.png?raw=true)
  
 1)	Enter the product quantity that you have recently counted and the reason why there is quantity difference.
 2)	Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktake** to finish the process; or **Save** to continue editing.
 
 - **Step 4: Complete data entry**: Save the data that has been stock taken and waiting for admin’s approval.
 
-![Anh 149](./image_starter_m2/image149.png?raw=true)
+![Stocktaking process](./image_starter_m2/image149.png?raw=true)
  
 This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
 
 - **Step 5: Complete Stock take**: When admin does this, Stock taking status will be changed to **Completed**.
 
-![Anh 150](./image_starter_m2/image150.png?raw=true)
+![Stocktaking process](./image_starter_m2/image150.png?raw=true)
 
 Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Completed. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system.
 
 **b.	Stocktaking History**
 Path: **Stock Management > Stock Control** section **> Stocktaking History**
 
-![Anh 151](./image_starter_m2/image151.png?raw=true)
+![Stocktaking History](./image_starter_m2/image151.png?raw=true)
  
 1)	All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
 
@@ -1256,7 +1256,7 @@ Path: **Stock Management > Stock Control** section **> Stock Movement History**
 
 The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
 
-![Anh 152](./image_starter_m2/image152.png?raw=true)
+![Stocktaking History](./image_starter_m2/image152.png?raw=true)
  
 1)	The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click. 
 2)	Admin can filter the data basing on the variables in the table.
@@ -1267,7 +1267,7 @@ The module records all the movements of stocks in warehouse. These movements are
 
 This feature predicts how many inventory items your warehouse needs for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past. 
 
-![Anh 153](./image_starter_m2/image153.png?raw=true)
+![Supply Needs](./image_starter_m2/image153.png?raw=true)
 
 1)	To process a prediction, select the warehouse (in Instock Management module, you can only select 01 warehouse i.e. Primary Warehouse) 
 2)	Time range to collect sales data, based on which the system will calculate data for supply need
@@ -1276,7 +1276,7 @@ This feature predicts how many inventory items your warehouse needs for each pro
 
 The forecast data will be shown in the table as below:
  
- ![Anh 154](./image_starter_m2/image154.png?raw=true)
+ ![Supply Needs](./image_starter_m2/image154.png?raw=true)
 
 1)	The table displays supply needs information as below:
 - Qty Sold/day: average quantity sold per day of the product during the chosen sales period 
@@ -1293,20 +1293,20 @@ Path: **Stock Management > Prediction** section **> Low Stock Rules**
 
 ***Note: Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.*
 
-![Anh 155](./image_starter_m2/image155.png?raw=true)
+![Low Stock Rules](./image_starter_m2/image155.png?raw=true)
  
 1)	Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information, Conditions & Action**. There is no limitation in the quantity of rules set.
 
 **a.	On the Rule Information tab**:
 
-![Anh 156](./image_starter_m2/image156.png?raw=true)
+![On the Rule Information tab](./image_starter_m2/image156.png?raw=true)
 
 2)	Enter the low stock rule name
 3)	Add a brief about the rule (optional)
 4)	Select **Active** to enable the rule
 5)	Use **Calendar** to choose **From** and **To** date for a term of validity *(optional)*
 
-![Anh 157](./image_starter_m2/image157.png?raw=true)
+![On the Rule Information tab](./image_starter_m2/image157.png?raw=true)
  
 6)	Select an **update time**:
 
@@ -1322,7 +1322,7 @@ The system periodically check stock availability and automatically send email no
 
 There are **2 types** of low stock rule: 
 
-![Anh 158](./image_starter_m2/image158.png?raw=true)
+![Type 1: Availability Qty](./image_starter_m2/image158.png?raw=true)
  
 ***Type 1: Availability Qty.***
 **Availability Qty.**: *you can select Qty. threshold that the system will notify to import.* 
@@ -1331,7 +1331,7 @@ There are **2 types** of low stock rule:
 10)	Select **Both Warehouse and Global** for notification scope
 11)	Select **Warehouses** for those rules will be applied
 
-![Anh 159](./image_starter_m2/image159.png?raw=true)
+![Type 2: Availability Days](./image_starter_m2/image159.png?raw=true)
 
 ***Type 2: Availability Days***
 **Availability Days**: *you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)*
@@ -1343,12 +1343,12 @@ There are **2 types** of low stock rule:
 
 **c.	On Actions Tab**:
 
-![Anh 160](./image_starter_m2/image160.png?raw=true)
+![On Actions Tab](./image_starter_m2/image160.png?raw=true)
 
 17)	Enter an **email list** to send the low stock notifications to
 18)	Enter content of the **warning message**
 
-![Anh 161](./image_starter_m2/image161.png?raw=true)
+![On Actions Tab](./image_starter_m2/image161.png?raw=true)
  
 19)	Click **Save** or **Save and Apply** to finish
 - **Save and Continue Edit**: to save the process and continue edit on the current page. 
@@ -1357,12 +1357,12 @@ There are **2 types** of low stock rule:
 
 ***Note**: You can edit the rule that you **Save and Apply** or **Save** by going to **Stock Management > Prediction** section **> Low Stock Rules >** clicking on **Edit***
  
- ![Anh 162](./image_starter_m2/image162.png?raw=true)
+ ![On Actions Tab](./image_starter_m2/image162.png?raw=true)
 
 ##### Low Stock Notifications
 Path: **Stock Management > Prediction** section **> Low Stock Notifications**
 
-![Anh 163](./image_starter_m2/image163.png?raw=true)
+![Low Stock Notifications](./image_starter_m2/image163.png?raw=true)
  
 **Low Stock Notifications** displays warning messages about the products which are nearly out of stock in warehouses. It shows all notifications with information including Sent at, Update Type, Email received, Recipients and Action. Click **view** action on each notification log to see details of products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
 
@@ -1374,7 +1374,7 @@ Those numbers will be saved in the system, so POS could provide you information 
 
 Particularly, when you log in to any POS, a window of opening session will pop-up automatically.
  
- ![Anh 164](./image_starter_m2/image164.png?raw=true)
+ ![How to Create Session](./image_starter_m2/image164.png?raw=true)
 
 1)	Name of the staff in this session
 2)	Location of POS
@@ -1387,7 +1387,7 @@ Type the **coin/bill value >** Put in **the number** of those coins/bills > Clic
 
 In case you logged in to POS but no window pop-up automatically like the picture above, then you need to make some change in the back-end system. Here is the instruction:
 
-![Anh 165](./image_starter_m2/image165.png?raw=true)
+![How to Create Session](./image_starter_m2/image165.png?raw=true)
 
 Go to **Store > Configuration >** Select **Magestore Extension > WebPOS**. Select **Yes** on this red frame and please don’t forget to click **Save Config** to make it work
 
@@ -1395,16 +1395,16 @@ Next step, after the Opening Balance was saved by POS Manager, Cashiers now are 
 
 On the screen of POS System, it will be displayed like this:
  
-![Anh 166](./image_starter_m2/image166.png?raw=true)
+![How to Create Session](./image_starter_m2/image166.png?raw=true)
 
 Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager. It reflects two things: Cash and Payment Slip.
  
-![Anh 167](./image_starter_m2/image167.png?raw=true)
+![How to Create Session](./image_starter_m2/image167.png?raw=true)
 
 And now, it’s time for Managers checked Closing Balance.
 If staffs want to end session, system will require staff to confirm cash flow by filling this form below:
 
-![Anh 168](./image_starter_m2/image168.png?raw=true)
+![How to Create Session](./image_starter_m2/image168.png?raw=true)
  
 2 situations could happen in this step:
 - If the Theory and Real Balance are the same, Managers could directly move to the step of Set Closing Balance, then end this workflow (Session Management).
@@ -1412,15 +1412,15 @@ If staffs want to end session, system will require staff to confirm cash flow by
 
 •	If accept the difference, Manager has to accept the Profit or Loss (with reason).
  
- ![Anh 169](./image_starter_m2/image169.png?raw=true)
+ ![How to Create Session](./image_starter_m2/image169.png?raw=true)
 
- ![Anh 170](./image_starter_m2/image170.png?raw=true)
+ ![How to Create Session](./image_starter_m2/image170.png?raw=true)
 
 •	Otherwise, staffs have to **Put Money In** or **Take Money out** with reason
  
- ![Anh 171](./image_starter_m2/image171.png?raw=true)
+ ![How to Create Session](./image_starter_m2/image171.png?raw=true)
 
-![Anh 172](./image_starter_m2/image172.png?raw=true)
+![How to Create Session](./image_starter_m2/image172.png?raw=true)
  
 1) **Amount of cash** that staff will put in/ take out
 2) **Reason** for putting in/ taking out cash
@@ -1431,25 +1431,25 @@ After all, when the Theory Balance’s equal to the Real one, POS Managers are a
 #### How To Log In 
 Path: WebPOS Backend **> Sales > Web POS** section **> POS Checkout**
 
-![Anh 173](./image_starter_m2/image173.png?raw=true)
+![How To Log In](./image_starter_m2/image173.png?raw=true)
  
 User get access from Web POS backend by going to **Sales > Web POS** section **> POS Checkout**
 
-![Anh 174](./image_starter_m2/image174.png?raw=true)
+![How To Log In](./image_starter_m2/image174.png?raw=true)
  
 A log in form will appear, user has to choose store (if website has various store views), fill in their account & password and click **Login** to access successfully. 
 
 To manage account, users should go to **Settings** tab **> Account**
 
-![Anh 175](./image_starter_m2/image175.png?raw=true)
+![How To Log In](./image_starter_m2/image175.png?raw=true)
  
 Then, click on **Account**, users could view and/or edit their personal information. User can change password if they want. 
 
-![Anh 176](./image_starter_m2/image176.png?raw=true)
+![How To Log In](./image_starter_m2/image176.png?raw=true)
  
 To reload data, user can go to **Settings > Synchronization** and choose **Reload** (to reload each category) or **Reload All** (to reload all data)
 
-![Anh 177](./image_starter_m2/image177.png?raw=true)
+![How To Log In](./image_starter_m2/image177.png?raw=true)
  
 #### How To Do The Transaction 
 ##### How To Filter And Search Product Quickly 
@@ -1457,7 +1457,7 @@ To reload data, user can go to **Settings > Synchronization** and choose **Reloa
 
 Users can configure to search products by going to **Settings** tab **> General**. 
 
-![Anh 178](./image_starter_m2/image178.png?raw=true)
+![How To Configure Process Of Searching Product](./image_starter_m2/image178.png?raw=true)
 
 In **Catalog** tab: 
 Enable **Display out-of-stock products in search results (online mode)** by choosing Yes option. If you choose No option, out-of-stock products will not display in search results.
@@ -1473,12 +1473,12 @@ There are 3 ways that users can search products:
 **Use Categories**
 In frontend, you can click on All Categories link to quickly search products by categories. Choose the corresponding categories as you prefer.
 
-![Anh 179](./image_starter_m2/image179.png?raw=true)
+![Use Categories](./image_starter_m2/image179.png?raw=true)
 
 **Use Product Attributes**
 To search by product attributes, click on Search icon, then a search bar will be shown. Enter your search terms and matching products will display right away.
 
-![Anh 180](./image_starter_m2/image180.png?raw=true)
+![Use Product Attributes](./image_starter_m2/image180.png?raw=true)
 
 **Use Barcode** 
 - Connect Web POS with barcode reader devices (Please refer to **How Web POS works with peripheral devices**)
@@ -1490,17 +1490,17 @@ To search by product attributes, click on Search icon, then a search bar will be
 - With simple products, you just need 1 click to add them to cart
 - With configurable, bundle, grouped products, after clicking, you will see a popup shown to choose your option. Then, click on **Add to cart** button.
 
-![Anh 181](./image_starter_m2/image181.png?raw=true)
+![Add Products To Card](./image_starter_m2/image181.png?raw=true)
 
 **b.	Edit Products In Cart** 
 
-![Anh 182](./image_starter_m2/image182.png?raw=true)
+![Edit Products In Cart](./image_starter_m2/image182.png?raw=true)
  
 After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with option to edit **Qty.** To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away.
 
 **c.	Remove Products In Cart**
 
-![Anh 183](./image_starter_m2/image183.png?raw=true)
+![Remove Products In Cart](./image_starter_m2/image183.png?raw=true)
 
 To remove products in cart one by one, click on **x** button of the corresponding product. After that, the cart will be updated immediately. Or you can click on the waste basket icon to clear cart.
 
@@ -1509,11 +1509,11 @@ Custom sale item is the item that Web POS user creates when checkout. It is used
 
 In frontend, click on **Custom Sale** button if you want to add the custom product to cart
 
-![Anh 184](./image_starter_m2/image184.png?raw=true)
+![How To Add A Custom Sale Item To Cart](./image_starter_m2/image184.png?raw=true)
 
 A screen will be shown for you to configure this custom product:
 
-![Anh 185](./image_starter_m2/image185.png?raw=true)
+![How To Add A Custom Sale Item To Cart](./image_starter_m2/image185.png?raw=true)
 
 1)	**Name**: Enter the name of custom sale product
 2)	**Price**: Enter the price of this product
@@ -1524,11 +1524,11 @@ A screen will be shown for you to configure this custom product:
 ##### How To Apply Coupon Code Or Card Discount 
 After adding products to cart, to apply a coupon code or discount on the whole cart, click on **Add Cart Discount** link.
 
-![Anh 186](./image_starter_m2/image186.png?raw=true)
+![How To Apply Coupon Code Or Card Discount](./image_starter_m2/image186.png?raw=true)
  
 Then, a popup will display as below, where you can choose between using **Discount** or **Promotion**
 
-![Anh 187](./image_starter_m2/image187.png?raw=true)
+![How To Apply Coupon Code Or Card Discount](./image_starter_m2/image187.png?raw=true)
  
 **In Discount Tab**:
 1)	**Name**: Enter a name for this discount as you will easily check it again
@@ -1539,16 +1539,16 @@ Then, a popup will display as below, where you can choose between using **Discou
 **In Promotion Tab**:
 Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on **Apply** button.
 
-![Anh 188](./image_starter_m2/image188.png?raw=true)
+![How To Apply Coupon Code Or Card Discount](./image_starter_m2/image188.png?raw=true)
 
 ##### How To Apply Custom Discount Or Custom Price To A Product
 After adding products to cart, besides editing the quantity of each product (refer to section **b. Edit products in cart** for more details), you can click on the product to edit other information. A popup will display with edit options for **Custom Price, Discount**. Remember that you can only change either Custom Price **OR** Discount for a product, instead of both at once.
 
-![Anh 189](./image_starter_m2/image189.png?raw=true)
+![How To Apply Custom Discount Or Custom Price To A Product](./image_starter_m2/image189.png?raw=true)
  
 You can set custom price for products by click on **Custom Price** button. The next popup will be shown as below:
 
-![Anh 190](./image_starter_m2/image190.png?raw=true)
+![How To Apply Custom Discount Or Custom Price To A Product](./image_starter_m2/image190.png?raw=true)
  
 In this popup, please choose type you want to adjust for the price, either by a fixed number or percentage.
 - If you adjust price by a fixed number, the checkout price will be the value you enter. 
@@ -1556,38 +1556,38 @@ In this popup, please choose type you want to adjust for the price, either by a 
 
 Then, products in cart will be automatically updated with the price you enter.
 
-![Anh 191](./image_starter_m2/image191.png?raw=true)
+![How To Apply Custom Discount Or Custom Price To A Product](./image_starter_m2/image191.png?raw=true)
  
 Editing discount for each product is similar to edit by Custom Price. Click on **Discount** button and choose types of discount–fixed discount or percentage–you want to adjust:
 
-![Anh 192](./image_starter_m2/image192.png?raw=true)
+![How To Apply Custom Discount Or Custom Price To A Product](./image_starter_m2/image192.png?raw=true)
 
 - If you edit discount by fixed number, the price will decrease by the exact value you have entered
 - If you edit by percentage, the price will decrease by the percent you have entered (it is similar to Custom Price by percentage).
 
 Then, the product price will be updated in the cart.
 
-![Amh 193](./image_starter_m2/image193.png?raw=true)
+![How To Apply Custom Discount Or Custom Price To A Product](./image_starter_m2/image193.png?raw=true)
 
 #### How To Manage Transaction 
 ##### How To Handle Cutomer Information At Check Out 
 **a. Customer Checkout**
 To use Customer Checkout, add customer by clicking on **Customer** icon on the right corner. You will see a screen as below:
 
-![Anh 194](./image_starter_m2/image194.png?raw=true)
-![Anh 195](./image_starter_m2/image195.png?raw=true)
+![Customer Checkout](./image_starter_m2/image194.png?raw=true)
+![Customer Checkout](./image_starter_m2/image195.png?raw=true)
  
 **Search customers:**
 Using the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in the dropdown list.
 
 The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
 
-![Anh 196](./image_starter_m2/image196.png?raw=true)
+![Search customers](./image_starter_m2/image196.png?raw=true)
 
 **Create New Customer**:
 If customer hasn’t been added in your system before, instead of searching, click on **Create Customer** button.
 
-![Anh 197](./image_starter_m2/image197.png?raw=true)
+![Create New Customer](./image_starter_m2/image197.png?raw=true)
 
 1)	Fill in required information including customer’s **First Name, Last Name, Email, Group**
 2)	Click to subscribe to customer to your newsletter or not.
@@ -1596,15 +1596,15 @@ If customer hasn’t been added in your system before, instead of searching, cli
 
 **b. Guest Checkout**
 
-![Anh 198](./image_starter_m2/image198.png?raw=true)
+![Guest Checkout](./image_starter_m2/image198.png?raw=true)
  
 When you use Guest Checkout, the default customer information that you configure in backend will be used (Please go to the section **Default Guest Checkout** for more details). At checkout, all fields will be auto-filled with that default information.
 
 ##### How To Add Comment To An Order
 Click on the icon on the top right corner and choose **Add Order Note**. In the **Order Comment** box, type the content that reminds you of this order. Then, save it.
 
-![Anh 199](./image_starter_m2/image199.png?raw=true)
-![Anh 200](./image_starter_m2/image200.png?raw=true)
+![How To Add Comment To An Order](./image_starter_m2/image199.png?raw=true)
+![How To Add Comment To An Order](./image_starter_m2/image200.png?raw=true)
 
 ##### How To Check Order Comment 
 **a. In Web POS Screen**
@@ -1612,22 +1612,22 @@ Path: **Orders > Orders History** or **Orders > On-hold Orders**
 
 To view comment of order, you can go to **Orders** tab in Web POS screen, choose an order then scroll down to see Comment History.
 
-![Anh 201](./image_starter_m2/image201.png?raw=true)
+![How To Check Order Comment](./image_starter_m2/image201.png?raw=true)
 
 **b. In Magento Backend**
 Go to **Sales > Orders** and click on a specific order. In order details page, go to **Comment History** tab to check whether it has any notes or not.
 
-![Anh 202](./image_starter_m2/image202.png?raw=true)
+![How To Check Order Comment](./image_starter_m2/image202.png?raw=true)
 
 ##### How To Process At Check Out For A Customer 
 You have been through steps to add products to cart and add customer, let’s move to the checkout process.
 
-![Anh 203](./image_starter_m2/image203.png?raw=true)
+![How To Process At Check Out For A Customer](./image_starter_m2/image203.png?raw=true)
  
 When products are added to cart, click on Checkout button at the end of the cart page
 You will be redirected to the next page with information of Shipping & Payment Method
  
-![Anh 204](./image_starter_m2/image204.png?raw=true)
+![How To Process At Check Out For A Customer](./image_starter_m2/image204.png?raw=true)
 
 Click on the icon on the right to expand or collapse the Shipping/ Payment section.
 Choose a shipping and payment method to proceed checkout. (Shipping and Payment methods can be added in the Magento core backend)
@@ -1636,17 +1636,17 @@ Choose a shipping and payment method to proceed checkout. (Shipping and Payment 
 
 ##### Slit payment with Web POS 
 
-![Anh 205](./image_starter_m2/image205.png?raw=true)
+![Slit payment with Web POS](./image_starter_m2/image205.png?raw=true)
  
 Customer can pay their order in maximum 2 different payment methods. Click **Add Payment** and select the second payment option. Then, click on **Place Order** button to complete checkout process. There will be a notification as is shown below:
 
-![Anh 206](./image_starter_m2/image206.png?raw=true)
+![Slit payment with Web POS](./image_starter_m2/image206.png?raw=true)
  
 ##### Partial Payment with Web POS 
 
 Besides Split Payment feature (please refer to **Split Payment with Web POS**), our solution also allows customers to pay partially at the time of checkout and pay the rest later.
 
-![Anh 207](./image_starter_m2/image207.png?raw=true)
+![Partial Payment with Web POS](./image_starter_m2/image207.png?raw=true)
 
 1)	Select the first payment method and enter the partial payment value at the checkout point
 2)	Click **Mark as Partial** button
@@ -1655,47 +1655,47 @@ The order is now created and successful order notification is displayed
 
 After finishing creating order, in the next step, when customers come back to pay the rest of order value, you can complete the order by going to **WebPOS frontend menu > Orders > Orders History**. The order is marked with **Pending** status.
 
-![Anh 208](./image_starter_m2/image208.png?raw=true)
+![Partial Payment with Web POS](./image_starter_m2/image208.png?raw=true)
 
 1) You can view the summary of the order; the total value and the paid value.
 2) To complete the order payment, you click on **Take payment** button. Tick to choose the payment option or pay with multiple ones
 
-![Anh 209](./image_starter_m2/image209.png?raw=true)
+![Partial Payment with Web POS](./image_starter_m2/image209.png?raw=true)
  
 After filling in the due amount, click on **Submit** button to complete the payment action. Then the total paid is equal to the whole order’s value
 
 ##### How to keep orders on hold for further processing 
 Your customers can't make up their minds yet, or are unable to make a payment meanwhile? They may want to purchase items that are for pre-order or currently out of stocks? You don't want to lose those potential customers, don't you? Then, Web POS's new feature can put these orders on hold - no limit in time - until they are ready to continue processing!
 
-![Anh 210](./image_starter_m2/image210.png?raw=true)
+![How to keep orders on hold for further processing](./image_starter_m2/image210.png?raw=true)
  
 After adding products to cart, you can hold the order for later checkout by clicking on the + button. The order will be kept open on the checkout bar to process later. 
 
-![Anh 211](./image_starter_m2/image211.png?raw=true)
+![How to keep orders on hold for further processing](./image_starter_m2/image211.png?raw=true)
 
 The on-hold order is labeled with a sequence number and the time it is put on hold. You can hold multiple orders and continue with one order by clicking on them. Meanwhile, you can create another order by clicking on the + button.
  
-![Anh 212](./image_starter_m2/image212.png?raw=true)
+![How to keep orders on hold for further processing](./image_starter_m2/image212.png?raw=true)
  
 To check orders that have been put on hold, go to Web POS menu **>  Orders > On-hold Orders**. You may select **Checkout** whenever customer is willing to take final action for payment or you may **Delete** it if it is not effective anymore.
 
 ##### How to print receipt and email order information
 You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
 
-![Anh 213](./image_starter_m2/image213.png?raw=true)
+![How to print receipt and email order information](./image_starter_m2/image213.png?raw=true)
 
 The receipt will look like the screenshot below:
 
-![Anh 214](./image_starter_m2/image214.png?raw=true)
+![How to print receipt and email order information](./image_starter_m2/image214.png?raw=true)
  
 And here is the email of order information:
 
-![Anh 215](./image_starter_m2/image215.png?raw=true)
+![How to print receipt and email order information](./image_starter_m2/image215.png?raw=true)
 
 ##### How to review orders 
 In POS screen, you can review orders by go to **Web POS menu > Orders > Order History** tab. Here you can see the order list and order details:
 
-![Anh 216](./image_starter_m2/image216.png?raw=true)
+![How to review orders](./image_starter_m2/image216.png?raw=true)
  
 **a.	Order status**
 In order list, the status of order is distinguished by color
@@ -1715,21 +1715,21 @@ In order list, the status of order is distinguished by color
 **b.	Order searching**
 To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
 
-![Anh 217](./image_starter_m2/image217.png?raw=true)
+![How to review orders](./image_starter_m2/image217.png?raw=true)
  
 **c.	View order information**
 
-![Anh 218](./image_starter_m2/image218.png?raw=true)
+![How to review orders](./image_starter_m2/image218.png?raw=true)
 
 To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this:
 
 ##### How to issue invoice for an order 
 
-![Anh 219](./image_starter_m2/image219.png?raw=true)
+![How to issue invoice for an order](./image_starter_m2/image219.png?raw=true)
  
 The order can’t be completed if you haven’t issued invoice for customer. After the order is created successfully, you will find order’s details on **WebPOS frontend menu > Orders > Orders History** then click on button **Invoice**.
 
-![Anh 220](./image_starter_m2/image220.png?raw=true)
+![How to issue invoice for an order](./image_starter_m2/image220.png?raw=true)
  
 A pop-up will appear so you can enter the quantity of item or the order amount to be invoiced. Then you click on button Submit invoice to complete the action. You can choose whether to send invoice to customer’s email or not.
 
@@ -1742,7 +1742,7 @@ There are two ways to create shipment using Web POS: **before placing an order**
 
 Before an order is created by clicking **Place Order** button, you can create shipment by turning on **Mark as Shipped** as below:
 
-![Anh 221](./image_starter_m2/image221.png?raw=true)
+![How To Create Shipment Or Issue Refund For An Order](./image_starter_m2/image221.png?raw=true)
  
 After verifying shipment method, the system will automatically load to Successful Order Page. There will be a message shown to notify you that shipment is created successfully. Please note that you need to have permission and be in online mode.
 
@@ -1750,11 +1750,11 @@ After verifying shipment method, the system will automatically load to Successfu
 
 When order has been created successfully but hasn’t been shipped, you can go to Order History and create shipment for that order.
 
-![Anh 222](./image_starter_m2/image222.png?raw=true)
+![How To Create Shipment Or Issue Refund For An Order](./image_starter_m2/image222.png?raw=true)
 
 **b. Partial Shipment**
 
-![Anh 223](./image_starter_m2/image223.png?raw=true)
+![How To Create Shipment Or Issue Refund For An Order](./image_starter_m2/image223.png?raw=true)
  
 If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button **Mark as shipped**.
 
@@ -1767,12 +1767,12 @@ Path: **Web POS menu > Orders > Orders History**
 
 Only certain staffs have permission to issue refund (which is set by admin in backend. See **Decentralize access permission of Web POS users** for more details). 
  
- ![Anh 224](./image_starter_m2/image224.png?raw=true)
+ ![How To Issue Refund](./image_starter_m2/image224.png?raw=true)
 
 1)	To issue refund, go to **Web POS menu > Orders > Orders History**, and choose an order to refund. Note that you can only refund orders with **Processing** or **Complete** status. 
 2)	Click on **Refund** from the top right menu.
 
-![Anh 225](./image_starter_m2/image225.png?raw=true)
+![How To Issue Refund](./image_starter_m2/image225.png?raw=true)
  
 A popup will display so that you can fill in the information before making refund. 
 3)	Enter the product quantity to issue refund.
@@ -1788,11 +1788,11 @@ After that, you will get the message informing that credit memo is created succe
 #### How To Review Report
 Path: **Magento backend menu > Sales > Web POS** section **> Sales Order Reports**
 
-![Anh 226](./image_starter_m2/image226.png?raw=true)
+![How To Review Report](./image_starter_m2/image226.png?raw=true)
 
 Our Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. To view reports, go to **Sales > Sales Order Reports** on Magento backend.
 
-![Anh 227](./image_starter_m2/image227.png?raw=true)
+![How To Review Report](./image_starter_m2/image227.png?raw=true)
  
 **Note:**
 - You can export each report into Excel XML or CSV file.
@@ -1801,56 +1801,56 @@ Our Magento Web POS provides you 10 types of reports which help you get deeper i
 ##### Staff Report 
 On **Staff report** section, there are 3 types of reports: **Sales by staff, Sales by staff (Daily)** and **Order list for staff**. 
 
-![Anh 228](./image_starter_m2/image228.png?raw=true)
+![Staff Report](./image_starter_m2/image228.png?raw=true)
  
 The **Sales by staff** report shows the number of orders and total sales created by each sale staff in any custom period.
 
-![Anh 229](./image_starter_m2/image229.png?raw=true)
+![Staff Report](./image_starter_m2/image229.png?raw=true)
 
 The **Sales by staff (Daily)** expresses the number of order and total sales created by each staff each day in the time period that you choose.
 
-![Anh 230](./image_starter_m2/image230.png?raw=true)
+![Staff Report](./image_starter_m2/image230.png?raw=true)
 
 In the **Order list for sale staff** report, you can view all order information including ID, value, history and status of each order created by any or each specific sale staff.
 
 ##### Location Report 
 Similar to Staff report, the Location report has 3 different reports including **Sales by location, Sales by location (Daily)** and **Order list for location**.
 
-![Anh 231](./image_starter_m2/image231.png?raw=true)
+![Location Report](./image_starter_m2/image231.png?raw=true)
  
 The **Sales by location** report shows the number of orders and sales created in each location, in any custom time period.
 
-![Anh 232](./image_starter_m2/image232.png?raw=true)
+![Location Report](./image_starter_m2/image232.png?raw=true)
  
 The **Sales by location (Daily)** report shows the number of orders and sales created in each location by each day.
 
- ![Anh 233](./image_starter_m2/image233.png?raw=true)
+ ![Location Report](./image_starter_m2/image233.png?raw=true)
 
 In the Order list for location, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
 
 ##### Payment Report 
 The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method** and **Sales by payment method for location.**
 
-![Anh 234](./image_starter_m2/image234.png?raw=true)
+![Payment Report](./image_starter_m2/image234.png?raw=true)
  
 The **Sales by payment method** report displays the number of orders and sales paid by each payment method in a custom time period.
 
-![Anh 235](./image_starter_m2/image235.png?raw=true)
+![Payment Report](./image_starter_m2/image235.png?raw=true)
 
 The **Sales by payment (Daily)** report shows the number of orders and sales created by each payment method by each day.
 
-![Anh 236](./image_starter_m2/image236.png?raw=true)
+![Payment Report](./image_starter_m2/image236.png?raw=true)
  
 In the **Order list for payment method**, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
 
-![Anh 237](./image_starter_m2/image237.png?raw=true)
+![Payment Report](./image_starter_m2/image237.png?raw=true)
  
 The **Sales by payment method for location** report displays the number of orders and sales created by each payment in each sale location.
 
 ##### Z- Report 
 Path: **Web POS backend menu > Sales > Web POS** section **> Z-Report**
 
- ![Anh 238](./image_starter_m2/image238.png?raw=true)
+ ![Z- Report](./image_starter_m2/image238.png?raw=true)
 
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
 
