@@ -1850,7 +1850,7 @@ The **Sales by payment method for location** report displays the number of order
 ##### Z- Report 
 Path: **Web POS backend menu > Sales > Web POS** section **> Z-Report**
 
- ![Z- Report](./image_starter_m2/image238.png?raw=true)
+![Z- Report](./image_starter_m2/image238.jpg?raw=true)
 
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
 
