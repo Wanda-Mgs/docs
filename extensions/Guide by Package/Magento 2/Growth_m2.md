@@ -209,168 +209,221 @@ Magestore’s Retailer POS module can connect with **Barcode readers, Card Swipe
 ### Multi-warehouse Management (Inventory Management)
 #### Stock Control Configuration
 Path: **Inventory Management > Settings** section **> Configuration**
- 
-1.	Link stocks in Warehouse to Front Store View: In managing a Warehouse, you can link Warehouse to a Front Store View (path: Stock Listing > Warehouses > Click View > Warehouse Information section > General Information tab > Magento Store View field). Note that you can link a warehouse to one or multiple store views.
-1.	If you enable Link warehouse to Magento Front Store View by choosing Yes here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
-2.	If choose No, stocks in all warehouses will be shown on the store view.
-3.	Adjust Stock by entering the change Qty: 
-4.	If you choose Yes, when you enter the difference quantity (either a positive or negative figure), the system will calculate the final balance in warehouse by adding/ subtracting the entered value.
-5.	If you choose No, you need to enter the exact quantity of stock in warehouse and the system will recognize this figure as the latest available quantity of product.
-6.	Click Save Config to finish
 
-7.	Inventory Option
-Path: Inventory Management > Settings section > Configuration > Catalog > Inventory
-Note: If you want to configure based on your own features, then unmark box Use System value.
+![Stock Control Configuration]()
 
-1.	Stock Option
-Path: Inventory Management > Settings section > Configuration > Catalog > Inventory
- 
-1.	Decrease Stock When Order is Placed: Select Yes in the dropdown list to adjust the quantity on hand when an order is placed.
-2.	Set Items’ Status to be In Stock When Order is Cancelled: Select Yes in the dropdown list to return items to stock if an order is cancelled.
-3.	Display Out of Stock Products: Select Yes in the dropdown list to continue to display products in the catalogue that are no longer in stock. 
-4.	Only X left Threshold: Enter the number in the blank to display the message: Only x left on website when the quantity in stock reaches the threshold.  
-5.	Display Products Availability in Stock on Storefront: Select Yes in dropdown list to display an In Stock or Out of Stock message on the product page.
-6.	Tap Save to finish. 
+1.	**Link stocks in Warehouse to Front Store View**: In managing a Warehouse, you can link Warehouse to a Front Store View (path: **Stock Listing > Warehouses >** Click **View > Warehouse Information** section **> General Information** tab **> Magento Store View** field). Note that you can link a warehouse to one or multiple store views.
+- If you enable **Link warehouse to Magento Front Store View** by choosing **Yes** here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
+- If choose **No**, stocks in all warehouses will be shown on the store view.
+2.	**Adjust Stock by entering the change Qty**: 
+- If you choose **Yes**, when you enter the difference quantity (either a positive or negative figure), the system will calculate the final balance in warehouse by adding/ subtracting the entered value.
+- If you choose **No**, you need to enter the exact quantity of stock in warehouse and the system will recognize this figure as the latest available quantity of product.
+3.	Click **Save Config** to finish
 
-7.	Product Stock Options
-Path: Inventory Management > Settings section > Configuration > Catalog > Inventory
+#### Inventory Option
+
+Path: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory**
+
+***Note**: If you want to configure based on your own features, then unmark box **Use System value**.*
+
+##### Stock Option
+Path: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory**
+
+![Stock Option]()
  
-1.	Manage Stock: Select Yes to activate inventory control for your catalog. 
-2.	Backorders: Set Backorders to one of the following status: 
-1.	No Backorders Allow Qty. Below 0: To reject backorders when product is out of stock.
-2.	Allow Qty. Below 0: To accept backorders when the quantity falls below zero. 
-3.	Notify Customer: To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed.
-4.	Maximum Qty Allowed in Shopping Cart: Enter the Maximum Qty. allowed in Shopping Cart.
-5.	Out-of-Stock Threshold: Enter the quantity for Item's Status to become out of stock.
-6.	Maximum Qty Allowed in Shopping Cart: Enter the Minimum quantity allowed in Shopping Cart.
+1.	**Decrease Stock When Order is Placed**: Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
+2.	**Set Items’ Status to be In Stock When Order is Cancelled**: Select **Yes** in the dropdown list to return items to stock if an order is cancelled.
+3.	**Display Out of Stock Products**: Select **Yes** in the dropdown list to continue to display products in the catalogue that are no longer in stock. 
+4.	**Only X left Threshold: Enter the number in the blank to display the message**: Only x left on website when the quantity in stock reaches the threshold.  
+5.	**Display Products Availability in Stock on Storefront**: Select **Yes** in dropdown list to display an In Stock or Out of Stock message on the product page.
+6.	Tap **Save** to finish. 
+
+##### Product Stock Options
+Path: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory**
+
+![Product Stock Options]()
+ 
+1.	**Manage Stock**: Select **Yes** to activate inventory control for your catalog. 
+2.	**Backorders**: Set Backorders to one of the following status: 
+- **No Backorders Allow Qty. Below 0**: To reject backorders when product is out of stock.
+- **Allow Qty. Below 0**: To accept backorders when the quantity falls below zero. 
+- **Notify Customer**: To accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed.
+3.	**Maximum Qty Allowed in Shopping Cart**: Enter the **Maximum Qty.** allowed in Shopping Cart.
+4.	**Out-of-Stock Threshold**: Enter the quantity for Item's Status to become out of stock.
+5.	**Maximum Qty Allowed in Shopping Cart**: Enter the **Minimum** quantity allowed in Shopping Cart.
+
 Next, 
- 
-7.	Notify for Quantity Below: Enter the stock level that generates notification showing the item is out of stock.
-8.	Enable Qty Increments: Select Yes to activate quantity increments for the product. Then in the Qty. Increments field, enter the number of the items that must be purchased to meet the requirement mentioned above.
-9.	Automatically Return Credit Memo Item to Stock: Select Yes to return the item to inventory by default when a credit memo is issued for the item.
-Finally, click on Save Config to save changes.
 
-Barcode Management
-Path: Inventory Management > Barcode Management Section > Barcode Settings
+![Product Stock Options]()
  
-1.	One barcode per product SKU: choose No if you allow a product SKU to have MULTIPLE barcodes
-2.	Barcode pattern: enter the pattern that will be used to generate barcode
-3.	Default barcode template for printing: set barcode template used for printing (Standard, A4, or Jewelry)
+6.	**Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
+7.	**Enable Qty Increments**: Select **Yes** to activate quantity increments for the product. Then in the **Qty. Increments** field, enter the number of the items that must be purchased to meet the requirement mentioned above.
+8.	**Automatically Return Credit Memo Item to Stock**: Select **Yes** to return the item to inventory by default when a credit memo is issued for the item.
 
-Purchase Management
-1.	Purchase Order Configuration
-Path: Purchase Management > Settings section > Purchase Management
+Finally, click on **Save Config** to save changes.
+
+### Barcode Management
+Path: **Inventory Management > Barcode Management** Section **> Barcode Settings**
+
+![Barcode Management]()
  
+1.	**One barcode per product SKU**: choose **No** if you allow a product SKU to have **MULTIPLE** barcodes
+2.	**Barcode pattern**: enter the pattern that will be used to generate barcode
+3.	**Default barcode template for printing**: set barcode template used for printing (**Standard, A4,** or **Jewelry**)
+
+### Purchase Management
+#### Purchase Order Configuration
+Path: **Purchase Management > Settings** section **> Purchase Management**
+
+![Purchase Order Configuration]()
+
 Here, you can configure product, shipping method, payment method, payment term and tax-shipping:
-1.	Product Config
- 
-Get products from: you have two options – All Store and Supplier. (Choose Supplier)
 
-2.	Shipping Method
- 
-Enter the Name, choose Status (enable or disable). To remove one shipping method, click on the Trash icon beside.
-Click on Add to create one more shipping method
+- **Product Config**
 
-3.	Payment Method
- 
-Enter the Name, choose Status (enable or disable). To remove one payment method, click on the Trash icon beside.
-Click on Add to create one more payment method.
+![Product Config]()
 
-4.	Payment Term
- 
-Enter the Name, write Description and choose Status (enable or disable). To remove one payment term, click on the Trash icon beside.
-Click on Add to create one more payment term.
+Get products from: you have two options – **All Store** and **Supplier**. (Choose **Supplier**)
 
-5.	Tax & Shipping
- 
+- **Shipping Method**
+
+![Shipping Method]()
+
+Enter the **Name**, choose **Status** (**enable** or **disable**). To remove one shipping method, click on the **Trash** icon beside.
+
+Click on **Add** to create one more shipping method
+
+- **Payment Method**
+
+![Payment Method]()
+
+Enter the **Name**, choose **Status** (**enable** or **disable**). To remove one payment method, click on the **Trash** icon beside.
+
+Click on **Add** to create one more payment method.
+
+- **Payment Term**
+
+![Payment Term]()
+
+Enter the **Name**, write **Description** and choose **Status** (**enable** or **disable**). To remove one payment term, click on the **Trash** icon beside.
+
+Click on **Add** to create one more payment term.
+
+- **Tax & Shipping**
+
+![Tax & Shipping]()
+
 Here, you have two options:
-1.	Apply Customer Tax: choose when you want to apply Customer Tax – Before Discount or After Discount (you MUST untick the box Use System Value)
-2.	Use System value: tick it if you want to use default setting
+1.	**Apply Customer Tax**: choose when you want to apply Customer Tax – **Before Discount** or **After Discount** (you MUST untick the box **Use System Value**)
+2.	**Use System value**: tick it if you want to use default setting
 
-3.	Supplier Configuration
+#### Supplier Configuration
+
+![Supplier Configuration]()
  
-Allow using and importing supplier pricelist: choose Yes if you need to update your supplier pricelist every day.
+**Allow using and importing supplier pricelist**: choose **Yes** if you need to update your supplier pricelist every day.
 
-Gift Card
-Path: Marketing > Gift Card section > Settings
+### Gift Card
+Path: **Marketing > Gift Card** section **> Settings**
+
 To configure default configurations and settings of the module, please log in to backend screen, then do the following stages: 
-1.	Step 1: In General tab
+
+**a. Step 1**: In **General** tab
+
+![Gift Card]()
  
-1.	Enable Gift Card: Select “YES” in the dropdown list to enable Gift Card
+1.	**Enable Gift Card**: Select **YES** in the dropdown list to enable Gift Card
 
-1.	Gift Code
-2.	Gift Code Pattern: Configure the pattern to auto-generate gift codes for Gift Card products when customers purchase in Web POS frontend
-3.	The number of prefixes shown: Enter the number of prefix characters which are shown in a voucher code
-4.	Replace hidden characters by: Enter one letter to replace hidden characters
+- **Gift Code**
+2.	**Gift Code Pattern**: Configure the pattern to auto-generate gift codes for Gift Card products when customers purchase in Web POS frontend
+3.	**The number of prefixes shown**: Enter the number of **prefix characters** which are shown in a voucher code
+4.	**Replace hidden characters by**: Enter one **letter to replace hidden characters**
+
+![Gift Card]()
  
-5.	Gift Card Usage
-1.	Gift Card codes expire after: Enter the term of validity that Gift Cards can be used after being activated.
-2.	Maximum time(s) to enter gift code incorrectly: Enter the maximum time(s) that allows users to enter gift code incorrectly.
-3.	Maximum number of users per gift code: Enter the maximum number of users per gift code.
-4.	Use Gift Card for shipping fee: Select “YES” to allow customer to apply gift card for shipping fee
-5.	Use Gift Card with coupon code: Select “YES” to allow customers to use both Gift Card codes and Coupon codes at once. 
-6.	Show the link to check Gift Card code on Website: Select “YES” to allow customers to check status of Gift Cards after entering Gift Codes, and vice versa.
-7.	Show Gift Card expiry date on Website: Select “YES” to show the expiration date of Gift Cards on website, and vice versa.
+- **Gift Card Usage**
+1.	**Gift Card codes expire after**: Enter the term of validity that Gift Cards can be used after being activated.
+2.	**Maximum time(s) to enter gift code incorrectly**: Enter the maximum time(s) that allows users to enter gift code incorrectly.
+3.	**Maximum number of users per gift code**: Enter the maximum number of users per gift code.
+4.	**Use Gift Card for shipping fee**: Select **YES** to allow customer to apply gift card for shipping fee
+5.	**Use Gift Card with coupon code**: Select **YES** to allow customers to use both Gift Card codes and Coupon codes at once. 
+6.	**Show the link to check Gift Card code on Website**: Select **YES** to allow customers to check status of Gift Cards after entering Gift Codes, and vice versa.
+7.	**Show Gift Card expiry date on Website**: Select **YES** to show the expiration date of Gift Cards on website, and vice versa.
 
+- **Tax Configuration**
 
+![Tax Configuration]()
 
-8.	Tax Configuration
- Apply Gift Card discount: 
-1.	After Tax: to allow applying Gift Card after the tax is applied
-2.	Before Tax:  to allow applying Gift Card before tax is applied
+**Apply Gift Card discount**: 
+- **After Tax**: to allow applying Gift Card after the tax is applied
+- **Before Tax**:  to allow applying Gift Card before tax is applied
 
-3.	Step 2: On Product Page tab
+**b. Step 2**: **On Product Page** tab
+
+![On Product Page tab]()
+
+- **Gift Card Value**
+1.	**Default Gift Card value**: Enter the default gift card value *(follow the below instruction)*
+2.	 **Description of Gift Card value**: Enter the description of gift card value *(follow the below instruction)*
+
+![On Product Page tab]()
  
-4.	Gift Card Value
-1.	Default Gift Card value: Enter the default gift card value (follow the below instruction)
-2.	 Description of Gift Card value: Enter the description of gift card value (follow the below instruction)
- 
-3.	Gift Card Template
-1.	Select “YES” to allow customers to change the image inserted in the template
+- **Gift Card Template**
+1.	Select **YES** to allow customers to change the image inserted in the template
 2.	Limit the maximum size of images uploaded by customers to 500KB
 
-3.	Gift Card Shipping Information
-1.	Allow shipping Gift Cart: Select “YES”: Gift card can be sent through the post office
+- **Gift Card Shipping Information**
+1.	**Allow shipping Gift Cart**: Select **YES**: Gift card can be sent through the post office
 2.	After customers order Gift Cards for friends and choose Send through post office option, Gift Cards will be sent to recipients within 5 days
-3.	Message max length: Limit the maximum length of a custom message on Gift Card. 
-4.	Enable scheduling Gift Card deliver: Select “YES” to allow users to schedule gift card delivery date.
+3.	**Message max length**: Limit the maximum length of a custom message on Gift Card. 
+4.	**Enable scheduling Gift Card deliver**: Select **YES** to allow users to schedule gift card delivery date.
 
-5.	Step 3: On Shopping Cart Page tab
- 
-1.	Show Gift Card box on Shopping Cart page: Select “YES” to Enable a Gift Card box for customers to apply gift codes right on the shopping cart page.
-2.	Information displayed on Shopping Cart page: Select the data to display on shopping cart page
-3.	Show Gift Card image on shopping cart: Select “YES” to allow showing Gift Card printout preview as product image on shopping cart page
+**c. Step 3**: On **Shopping Cart Page** tab
 
-4.	Step 4: On Checkout Page tab
- 
-Show Gift Card box on Checkout Page: Select “YES” to show Gift Card box on the checkout page
+![On Shopping Cart Page tab]()
 
-5.	Step 5: In Email Notification tab
- 
-6.	General
-1.	Enable email notification: Select “YES” to allow sending notification emails to customers and recipients
-2.	Send Gift Card to friend when Gift Card status is: Select “Active”, only a gift card which is activated can be sent to a friend
-3.	Sender of email notification: Set the default sender of notification emails as General Contact 
-4.	Send Gift Card copy via email: Select “YES” to allow sending a copy of gift card via email if customers choose to ship through post office.
+1.	**Show Gift Card box on Shopping Cart page**: Select **YES** to Enable a Gift Card box for customers to apply gift codes right on the shopping cart page.
+2.	**Information displayed on Shopping Cart page**: Select the data to display on shopping cart page
+3.	**Show Gift Card image on shopping cart**: Select **YES** to allow showing Gift Card printout preview as product image on shopping cart page
 
+**d. Step 4: On Checkout Page** tab
+
+![On checkout Page tab]()
+
+Show **Gift Card** box on **Checkout Page**: Select **YES** to show Gift Card box on the checkout page
+
+**e. Step 5: In Email Notification** tab
+
+![In Email Notification tab]()
+
+- **General**
+1.	**Enable email notification**: Select **YES** to allow sending notification emails to customers and recipients
+2.	**Send Gift Card to friend when Gift Card status is**: Select **Active**, only a gift card which is activated can be sent to a friend
+3.	**Sender of email notification**: Set the default sender of notification emails as General Contact 
+4.	**Send Gift Card copy via email**: Select **YES** to allow sending a copy of gift card via email if customers choose to ship through post office.
+
+![In Email Notification tab]()
  
-5.	Notification email sent to purchasers
+- **Notification email sent to purchasers**
 1.	Select the email template sent to purchasers after buying Gift Card successfully. 
 2.	Select the email template sent to purchasers when recipients receive Gift Cards. 
 
-3.	Notification email sent to recipient
-4.	Select “YES” to allow email notification being sent to recipient when sender refunds Gift Card.
-5.	Send-to-recipient email template: Select the email template sent to the gift card’s recipient. 
-6.	Send-to-recipient email template when Gift Card is refund: Choose the email template sent to recipient when gift card is refunded. 
-7.	Auto send reminder email when Gift Card is expired: Enable auto reminder email sent to Customers before Gift card expires 
-8.	Auto send reminder email before: Enter the number of days to send notification to customers before the expiration date of a Gift card. 
+- **Notification email sent to recipient**
+3.	Select **YES** to allow email notification being sent to recipient when sender refunds Gift Card.
+4.	**Send-to-recipient email template**: Select the email template sent to the gift card’s recipient. 
+5.	**Send-to-recipient email template when Gift Card is refund**: Choose the email template sent to recipient when gift card is refunded. 
+6.	**Auto send reminder email when Gift Card is expired**: Enable auto reminder email sent to Customers before Gift card expires 
+7.	**Auto send reminder email before**: Enter the number of days to send notification to customers before the expiration date of a Gift card. 
 
-9.	Step 6: In Gift Cart Printout tab
- 
-Logo on PDF Printouts: Click on “Choose File” to upload an image used as a logo when Gift Cards are printed or sent via email. 
+**f. Step 6: In Gift Cart Printout** tab
 
-Reward Points
-Path: Reward Points > Settings
+![In Gift Cart Printout tab]()
+
+**Logo on PDF Printouts**: Click on **Choose File** to upload an image used as a logo when Gift Cards are printed or sent via email. 
+
+### Reward Points
+Path: **Reward Points > Settings**
+
 1.	Step 1: Configure the following session: 
 10.	General Configuration tab
  
