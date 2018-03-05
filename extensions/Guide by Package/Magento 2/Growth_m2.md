@@ -424,91 +424,116 @@ Show **Gift Card** box on **Checkout Page**: Select **YES** to show Gift Card bo
 ### Reward Points
 Path: **Reward Points > Settings**
 
-1.	Step 1: Configure the following session: 
-10.	General Configuration tab
- 
-1.	Enable Reward Points Extension: Select Yes to enable Reward Points module. 
-2.	Label for Point: Give Point another name to fit with your store ( gold, star, p, pt,…)
-3.	Label for Points (plural) - For example: golds, stars, ps, pts…
-4.	Reward Points Image: Choose a file of reward points image to upload
-5.	Use Reward Policy page: Select Yes to enable Reward Policy link on the left navigation.
-6.	Use Reward Welcome page: Select Yes to enable Reward Welcome page in-store view. Its link will be shown in the footer of the westore. 
+**a. Step 1**: Configure the following session: 
+- **General Configuration** tab
 
-7.	Earning Points Configuration tab
+![General Configuration tab]()
  
-1.	Rounding Method: Set the method of rounding points balance: Normal/ Rounding up/Rounding down
-2.	Points expire after: Enter the number of days points will expire. 
-3.	Number of points in balance allowed: Enter the maximum number of points allowed in Customer’s balance. 
-4.	Earn points from tax: Select Yes to allow customers to earn points from their order value including tax. 
-5.	Earn points from shipping fee: Select Yes to allow customers to earn points from their order value including shipping fee. 
-6.	Allow earning points when using points to spend: Select Yes if you want customers to earn points on their orders paid by points. 
+1.	**Enable Reward Points Extension**: Select **Yes** to enable Reward Points module. 
+2.	**Label for Point**: Give Point another name to fit with your store ( gold, star, p, pt,…)
+3.	**Label for Points (plural)** - For example: golds, stars, ps, pts…
+4.	**Reward Points Image**: Choose a file of reward points image to upload
+5.	**Use Reward Policy page**: Select **Yes** to enable Reward Policy link on the left navigation.
+6.	**Use Reward Welcome page**: Select **Yes** to enable Reward Welcome page in-store view. Its link will be shown in the footer of the westore. 
 
-7.	Sales Earning Process tab
+- **Earning Points Configuration** tab
+
+![Earning Points Configuration tab]()
+
+1.	**Rounding Method**: Set the method of rounding points balance: Normal/ Rounding up/Rounding down
+2.	**Points expire after**: Enter the number of days points will expire. 
+3.	**Number of points in balance allowed**: Enter the maximum number of points allowed in Customer’s balance. 
+4.	**Earn points from tax**: Select **Yes** to allow customers to earn points from their order value including tax. 
+5.	**Earn points from shipping fee**: Select **Yes** to allow customers to earn points from their order value including shipping fee. 
+6.	**Allow earning points when using points to spend**: Select **Yes** if you want customers to earn points on their orders paid by points. 
+
+- **Sales Earning Process** tab
  
-1.	Allow receiving points when invoice is created: Select No to allow customers to receive points when the order is complete. If Yes, customers will receive points even when the order isn’t still completed. 
-2.	Hold point transactions for: Enter the number of days to hold point transactions before points are rewarded to customers. If leaving it empty or zero, you won’t allow points transaction to be held. 
+1.	**Allow receiving points when invoice is created**: Select **No** to allow customers to receive points when the order is complete. If **Yes**, customers will receive points even when the order isn’t still completed. 
+2.	**Hold point transactions for**: Enter the number of days to hold point transactions before points are rewarded to customers. If leaving it empty or zero, you won’t allow points transaction to be held. 
 
-3.	Spending Points Configuration tab
+- **Spending Points Configuration** tab
+
+![Spending Points Configuration tab]()
  
-1.	Minimum redeemable points: Enter the minimum number of points in customer’s balance allowed to redeem
-2.	Maximum spending points per order: Enter the maximum number of customers can redeem in an order
-3.	Use maximum points at checkout by default: Select Yes to enable customers to use maximum points at checkout by default. 
-4.	Allow using points for Shipping fee: Select Yes to allow customers to use points for their shipping fee. 
+1.	**Minimum redeemable points**: Enter the minimum number of points in customer’s balance allowed to redeem
+2.	**Maximum spending points per order**: Enter the maximum number of customers can redeem in an order
+3.	**Use maximum points at checkout by default**: Select **Yes** to enable customers to use maximum points at checkout by default. 
+4.	**Allow using points for Shipping fee**: Select **Yes** to allow customers to use points for their shipping fee. 
 
-5.	Display Configuration tab
+- **Display Configuration** tab
+
+![Display Configuration tab]()
  
-1.	Show total point balance next to My Account link: Select Yes to display the point balance of customers next to My Account link.  
-Display Collectible Points:
-2.	On Product Page: Select Yes to allow collected points shown on Product Page
-3.	On Minicart: Select Yes to allow collected points shown on Minicart 
+1.	**Show total point balance next to My Account link**: Select **Yes** to display the point balance of customers next to My Account link.  
 
-4.	Email Configuration tab
+**Display Collectible Points**:
+2.	On Product Page: Select **Yes** to allow collected points shown on Product Page
+3.	On Minicart: Select **Yes** to allow collected points shown on Minicart 
+
+- **Email Configuration** tab
+
+![Email Configuration tab]()
+
+1.	**Enable notification email**: Select **Yes** to enable the system to send notification email automatically to customers. 
+2.	**Sender**: Select one of the following options as a sender: **General Contact/ Sales Representative/Customer Support/Custom Email 1/Custom Email 2**
+3.	**Template of email sent to customer when point balance is updated**: Choose a template email that you want to send to customers when their point balance is updated
+4.	**Template of email sent to customer before a transaction expired**: Choose a template email that you want to send to customers before a transaction expires.
+5.	**Send reminder email before a transaction expires**: To send reminder email automatically to customers, enter the number of days before a transaction expires. If you leave it empty, no reminder email is sent. 
+
+**b. Step 2**: 
+
+![Reward Points]()
  
-1.	Enable notification email: Select Yes to enable the system to send notification email automatically to customers. 
-2.	Sender: Select one of the following options as a sender: General Contact/ Sales Representative/Customer Support/Custom Email 1/Custom Email 2
-3.	Template of email sent to customer when point balance is updated: Choose a template email that you want to send to customers when their point balance is updated
-4.	Template of email sent to customer before a transaction expired: Choose a template email that you want to send to customers before a transaction expires.
-5.	Send reminder email before a transaction expires: To send reminder email automatically to customers, enter the number of days before a transaction expires. If you leave it empty, no reminder email is sent. 
+Remember to click on **Save Config** button to complete your configuration process.
 
-1.	Step 2: 
- 
-Remember to click on Save Config button to complete your configuration process.
+### Store Credit
+Path: **Store Credit > Settings > Magestore Extension** tab **> Store Credit** 
 
-Store Credit
-Path: Store Credit > Settings > Magestore Extension tab > Store Credit 
-1.	Step 1: Configure the following sessions as below:
-1.	General Configuration Tab:
-Path: Magento Extension > Store Credit
- 
+**a. Step 1**: Configure the following sessions as below:
 
-1.	Enable Store Credit: to activate Store Credit on your site
-2.	Allow sending Credit: allow customers to send credit to their friends
-3.	Groups can use edit: allow only general/wholesaler/retailer or all customers able to use credits
+- **General Configuration** Tab:
+Path: **Magento Extension > Store Credit**
+
+![General Configuration]()
+
+•	**Enable Store Credit**: to activate Store Credit on your site
+
+•	**Allow sending Credit**: allow customers to send credit to their friends
+
+•	**Groups can use edit**: allow only general/wholesaler/retailer or all customers able to use credits
 	
-4.	Spend Credit On Tab
- 
-1.	Apply Customer Credit: If you choose After tax, it means the Customer Credit Discount will be applied to order value including tax
-2.	Shipping fee: If you choose No, credit balance cannot be used to pay for Shipping Fee
+- **Spend Credit On** Tab
 
-3.	Email Configuration Tab
- 
+![Spend Credit On tab]()
 
-1.	Email template with credit code sent to recipients: default
-2.	Email template with verification code sent to credit sender: default
-3.	Email template notifying customers: default
-4.	Send-to-customer email template when recipient receives credit: default
+1.	**Apply Customer Credit**: If you choose **After tax**, it means the Customer Credit Discount will be applied to order value including tax
+2.	**Shipping fee**: If you choose **No**, credit balance cannot be used to pay for Shipping Fee
 
+- **Email Configuration** Tab
  
-5.	Adjust time for Customer credit reports on total used and total received credit Tab.
-1.	Select start time for current year: choose Month, then Date
-2.	Select date for current month: choose Date
- 
-3.	Style Configuration tab:
-1.	Background of Title: enter Hexadecimal code
-2.	Color of Title: enter a Hexadecimal code or choose a color as above.
-2.	Step 2: Remember to click on Save Config button to complete your configuration process.
+ ![Email Configuration tab]()
 
-Store Pickup
+1.	**Email template with credit code sent to recipients**: default
+2.	**Email template with verification code sent to credit sender**: default
+3.	**Email template notifying customers**: default
+4.	**Send-to-customer email template when recipient receives credit**: default
+
+ ![Email Configuration tab]()
+
+- **Adjust time for Customer credit reports on total used and total received credit** Tab.
+1.	**Select start time for current year**: choose Month, then Date
+2.	**Select date for current month**: choose Date
+
+ ![Adjust time for Customer credit reports on total used and total received credit tab]()
+
+- **Style Configuration** tab:
+1.	**Background of Title**: enter Hexadecimal code
+2.	**Color of Title**: enter a Hexadecimal code or choose a color as above.
+
+**b. Step 2**: Remember to click on **Save Config** button to complete your configuration process.
+
+### Store Pickup
 You have seen how Store Pickup works in front-end for customers. The following part will guide you through how to configure and manage the module in back-end.
 Tips*: For quick instructions on where to set up each function and how to get Google Map API Key, you can go to: Store Pickup > Settings > Service API 
 click on the link for Google Map API Key Registration Guide
