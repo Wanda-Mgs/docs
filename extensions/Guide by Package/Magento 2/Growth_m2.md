@@ -4,14 +4,18 @@
 
 ## INTRODUCTION
 
-Your small or medium business is rapidly growing, and the management system is getting more complex. All the data of products, sales, orders and customers become bigger, which drives you exhausted along the intensive growth path. In this case, you need an efficient strategy that brings about the best results from the least amount of effort and risk. Magestore’s Growth Pack is really an ideal solution for a growing business to move forward with better efficiency. Designed for native Magento retailer under an Omnichannel strategy, our pack involves the most powerful modules for an online-to-offline retail business, with a high level of integration. 
-We provide a combination of Web-based POS and POS app, which seamlessly integrates with our Inventory Management and Barcode Management module. These modules empower you with the capacity of controlling products in multiple warehouses ALL IN ONE SYSTEM, and let you finish the checkout procedure in seconds. Besides, our Purchase Management will free you from all challenges of creating quotations and purchase orders, and a very simple procedure to complete purchase order. These modules keep you always updated with real time data, and you will no longer have to worry about out-of-stock items or too many pending purchase orders. 
-Loyalty program is also a highlight in our Growth pack when it integrates the three most popular loyalty modules which are Gift Card, Reward Points and Store Credit. These modules help delight your customers and keep them always engaged to your business. Another must-have module with an Online-to-Offline business is Store Pickup. This module allows your customers to place an order and checkout online, and then visit your store to pick their items. 
-Along with all those useful modules, our pack provides you with advanced insights while growing your business by real-time reports, especially Inventory and Sales Report. It will take you a glance to gain an overview of your whole business.Controlling massive products list and multiple warehouses or evaluating sales growth are never easier before. 
+Your small or medium business is rapidly growing, and the management system is getting more complex. All the data of products, sales, orders and customers become bigger, which drives you exhausted along the intensive growth path. In this case, you need an efficient strategy that brings about the best results from the least amount of effort and risk. **Magestore’s Growth Pack** is really an ideal solution for a growing business to move forward with better efficiency. Designed for native Magento retailer under an Omnichannel strategy, our pack involves the most powerful modules for an online-to-offline retail business, with a high level of integration. 
+
+We provide a combination of **Web-based POS** and **POS app**, which seamlessly integrates with our **Inventory Management** and **Barcode Management** module. These modules empower you with the capacity of controlling products in multiple warehouses ALL IN ONE SYSTEM, and let you finish the checkout procedure in seconds. Besides, our **Purchase Management** will free you from all challenges of creating quotations and purchase orders, and a very simple procedure to complete purchase order. These modules keep you always updated with real time data, and you will no longer have to worry about out-of-stock items or too many pending purchase orders. 
+
+Loyalty program is also a highlight in our Growth pack when it integrates the three most popular loyalty modules which are **Gift Card, Reward Points** and **Store Credit**. These modules help delight your customers and keep them always engaged to your business. Another must-have module with an Online-to-Offline business is **Store Pickup**. This module allows your customers to place an order and checkout online, and then visit your store to pick their items. 
+
+Along with all those useful modules, our pack provides you with advanced insights while growing your business by real-time reports, especially **Inventory and Sales Report**. It will take you a glance to gain an overview of your whole business.Controlling massive products list and multiple warehouses or evaluating sales growth are never easier before. 
+
 With such an ideal Omnichannel Solution, we hope that our Growth Pack will help ease your retail management. Therefore, your business will intensively grow and achieve great success. 
 
-Thank and Best regards, 
- 									           Magestore Team 
+*Thank and Best regards,* 
+**Magestore Team** 
 
 ## HOW TO CONFIGURE
 
