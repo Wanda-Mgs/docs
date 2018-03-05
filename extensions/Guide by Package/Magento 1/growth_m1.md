@@ -16,6 +16,12 @@ In this detailed user guide, we’re glad to show you how to use and take advant
 
 #### Add New POS and Assign It to Cashier 
 
+##### Create A New POS 
+
+!{Sample](./Image_Growth_m1/image002.png?raw=true)
+
+##### Assign New POS to Cashiers 
+
 #### Diffirentiate Access Permission 
 
 #### General Settings 
