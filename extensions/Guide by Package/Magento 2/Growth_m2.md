@@ -15,6 +15,7 @@ Along with all those useful modules, our pack provides you with advanced insight
 With such an ideal Omnichannel Solution, we hope that our Growth Pack will help ease your retail management. Therefore, your business will intensively grow and achieve great success. 
 
 *Thank and Best regards,* 
+
 **Magestore Team** 
 
 ## HOW TO CONFIGURE
