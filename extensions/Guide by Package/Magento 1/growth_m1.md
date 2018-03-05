@@ -162,29 +162,98 @@ In this detailed user guide, we’re glad to show you how to use and take advant
 #### How to View Report
 
 ### Retailer POS 
-Log In and Manage Account 
-Use Session Management 
-Filter and Search Products Quickly 
-Add Product to Carts and Edit Products in Cart 
-Apply Coupon Code or Discount to Carts
-Handle Customer's Information and Check Out 
-Add Comment to An Order
-Process at Checkout for Customers
-Create Shipment
-Issue Refund 
-Print Receipt and Email Orders 
-Review Order
-Run Sales Report 
 
-How to Issue
+#### Log In and Manage Account 
+
+#### Use Session Management 
+
+#### Filter and Search Products Quickly 
+
+#### Add Product to Carts and Edit Products in Cart 
+
+#### Apply Coupon Code or Discount to Carts
+
+#### Handle Customer's Information and Check Out 
+
+#### Add Comment to An Order
+
+#### Process at Checkout for Customers
+
+#### Create Shipment
+
+#### Issue Refund 
+
+#### Print Receipt and Email Orders 
+
+#### Review Order
+
+#### Run Sales Report 
+
 ### Inventory Management 
-### Inventory Management  
+
+#### Stock Listing 
+
+#### Transfer Stock
+
+#### Stock Control 
+
+#### Prediction 
+ 
 ### Inventory Report 
+
+#### Sales Report 
+
+#### Inventory Reports 
+
 ### Barcode Management 
+
+#### Barcode Listing  
+
+#### Barcode Label Templates
+
+#### Generate Barcode 
+
+#### Import Barcode
+
+#### Scan Barcode 
+
+#### Print Barcode 
+
+#### Barcode Generated History
+
 ### Purchase Management 
+
+#### Manage Suppliers and Pricelist 
+
+#### Manage Quotation 
+
+#### Manage Purchase Order 
+
+#### Return Order
+
 ### Gift Card 
+
+#### How to Manage Gift Card 
+
+#### How Customers Manage Gift Card 
+
 ### Reward Points 
+#### How Admin Manage Reward Points 
+
+#### How Customers Use Reward Points 
+
 ### Store Credit 
+
+#### How Admin Manages Store Credit 
+
+#### How Customers Use Store Credit 
+
 ### Store Pickup
+
+#### View Store Information 
+
+#### Use Store Pickup at Checkout 
+
+#### Receive Order Emails
 
 
