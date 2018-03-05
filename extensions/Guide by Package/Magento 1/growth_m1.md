@@ -145,4 +145,46 @@ In this detailed user guide, we’re glad to show you how to use and take advant
 
 ## HOW TO USE 
 
+### Web POS 
+#### Log in and Manage Account 
+#### Manage Session
+
+#### Filer and Search Product Quickly 
+
+#### Add Products to Cart and Edit Product in Carts 
+
+#### Apply Coupon Code or Discount to Cart 
+
+#### Manage Transaction
+
+#### How to Issue Refund 
+
+#### How to View Report
+
+### Retailer POS 
+Log In and Manage Account 
+Use Session Management 
+Filter and Search Products Quickly 
+Add Product to Carts and Edit Products in Cart 
+Apply Coupon Code or Discount to Carts
+Handle Customer's Information and Check Out 
+Add Comment to An Order
+Process at Checkout for Customers
+Create Shipment
+Issue Refund 
+Print Receipt and Email Orders 
+Review Order
+Run Sales Report 
+
+How to Issue
+### Inventory Management 
+### Inventory Management  
+### Inventory Report 
+### Barcode Management 
+### Purchase Management 
+### Gift Card 
+### Reward Points 
+### Store Credit 
+### Store Pickup
+
 
