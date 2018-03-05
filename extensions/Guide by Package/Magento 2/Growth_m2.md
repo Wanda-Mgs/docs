@@ -20,137 +20,195 @@ With such an ideal Omnichannel Solution, we hope that our Growth Pack will help 
 
 ## HOW TO CONFIGURE
 
-Web POS
-NOTE: these settings are applicable for both WebPOS and RetailerPOS.
-1.	Add New POS and Assign it to Cashier 
-1.	Create New POS
-Path: Sales > Web POS section > Manage POS 
- 
-Click on Add POS button. Then you will be linked to the New POS site
-There are 4 sections will be displayed such as General Information; Cash Denominations; Close Sessions; Current Sessions Detail
- 
-1.	General Information 
-1.	POS Name: POS’s name. 
-2.	Location: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section 4.5.2. Mapping Locations - Warehouses to map location to warehouse).
-3.	Store View:  Select Store View from your list 
-4.	Current Staff: Staff is working on the POS.
-5.	Status: you Enable or Disable this POS
-6.	Available for other staff: If you check, another staff can use the POS when it is available.
+### Web POS
+**NOTE:** these settings are applicable for both WebPOS and RetailerPOS.
 
-7.	Cash Denominations 
+#### Add New POS and Assign it to Cashier 
+##### Create New POS
+Path: **Sales > Web POS** section **> Manage POS
+ 
+![create new pos]()
+
+Click on **Add POS** button. Then you will be linked to the **New POS** site
+
+There are 4 sections will be displayed such as **General Information; Cash Denominations; Close Sessions; Current Sessions Detail**
+
+![create new pos]()
+ 
+- **General Information**
+1.	**POS Name**: POS’s name. 
+2.	**Location**: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section **Mapping Locations - Warehouses** to map location to warehouse).
+3.	**Store View**:  Select Store View from your list 
+4.	**Current Staff**: Staff is working on the POS.
+5.	**Status**: you Enable or Disable this POS
+6.	**Available for other staff**: If you check, another staff can use the POS when it is available.
+
+- **Cash Denominations**
+
+![create new pos]()
  
 In this section, users can set domination for the currency for which they are accepted in purchasing process with customers. 
 
-8.	Closed Sessions 
+- **Closed Sessions**
+
+![create new pos]()
  
 This section will display the statistics of Closed Sessions after staff working days. When you create a brand-new POS, this section is empty, and it will be updated automatically after being used in reality. 
-This might be demonstrated like this: 
- 
-(Closed Sessions of working POS)
 
-9.	Current Session Detail
+This might be demonstrated like this: 
+
+![create new pos]()
+ 
+*(Closed Sessions of working POS)*
+
+- **Current Session Detail**
 The same situation happens with Current Session Detail for the brand-new POS. No data is saved, and it will display like this: 
  
+![create new pos]()
 
 And here is the performance of working POS: 
- 
 
-10.	Assign New POS to Cashier 
-Path: Sales > Web POS > Manage Staffs > Edit Staff > POS
+![create new pos]()
+
+##### Assign New POS to Cashier 
+Path: **Sales > Web POS > Manage Staffs > Edit Staff > POS**
+
 Here you can assign several POS to a staff 
- 
-After finishing, click on Save POS or Save and Continue Edit button to save your work
 
-11.	Differentiate Access Permission 
-Path: Sales > Web POS section> Manage Roles 
-Please refer to How to manage staff  for POS for detailed instruction.
+![Assign New POS to Cashier]()
 
-12.	General Settings 
-Path: Sales > Web POS section > Settings 
- 
-1.	Web POS logo: Upload your own logo here. Please note that recommended size is 250x50px & supported files are jpg, png. 
-2.	WebPOS Color: choose 1 out of 5 options: default, blue, green, orange and red. 
-3.	Enable Delivery Date: displays a Delivery Date field in POS frontend’s Place Order page so cashier can input the date when customer receives products.
-4.	Session Timeout: after this period of time, user needs to log in again to use the POS (please input the time in seconds)
-5.	Still allow to sync Order from Web POS if there are out-of-stock items in that Order: Select Yes or No. 
-6.	Need to create session before working: Select Yes or No. Session allows better management when requiring input of the amount of cash at the beginning and end of the session.
- 
-7.	Tax Class default for Custom Sale: choose if a preset Tax Class is applied to a Custom Sale item (please refer to How to Add a Custom Sale Item to Cart for more details of Custom Sale)
-8.	Enable suggesting address by Google: allows Google’s auto suggestion when cashier types customer’s address during checkout.
- 
-After configuring, click Save Config button to save your changes.
+After finishing, click on **Save POS** or **Save and Continue Edit** button to save your work
 
-9.	Default Guest Check Out
-Path: Sale > Web POS > Setting > Default Guest Checkout
+#### Differentiate Access Permission 
+Path: **Sales > Web POS** section **> Manage Roles**
+
+Please refer to **How to manage staff for POS** for detailed instruction.
+
+#### General Settings 
+Path: **Sales > Web POS** section **> Settings**
+
+![General Settings]()
+
+•	**Web POS logo**: Upload your own logo here. Please note that recommended size is 250x50px & supported files are jpg, png. 
+
+•	**WebPOS Color**: choose 1 out of 5 options: default, blue, green, orange and red.
+
+•	**Enable Delivery Date**: displays a Delivery Date field in POS frontend’s Place Order page so cashier can input the date when customer receives products.
+
+•	**Session Timeout**: after this period of time, user needs to log in again to use the POS (please input the time in seconds)
+
+•	**Still allow to sync Order from Web POS if there are out-of-stock items in that Order**: Select Yes or No. 
+
+•	**Need to create session before working**: Select Yes or No. Session allows better management when requiring input of the amount of cash at the beginning and end of the session.
+
+![General Settings]()
+ 
+•	**Tax Class default for Custom Sale**: choose if a preset Tax Class is applied to a Custom Sale item (please refer to **How to Add a Custom Sale Item to Cart** for more details of Custom Sale)
+
+•	**Enable suggesting address by Google**: allows Google’s auto suggestion when cashier types customer’s address during checkout.
+
+![General Settings]()
+ 
+After configuring, click **Save Config** button to save your changes.
+
+#### Default Guest Check Out
+Path: **Sale > Web POS > Setting > Default Guest Checkout**
+
 Default customer is the customer whose information will be used for Guest Checkout or when customer information is not enough, default value will be filled automatically.
- 
-Fill in all information as you want to use as default, including First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone and Email. After finishing, click on Save Config button to save your work.
-10.	Enable Payment Method 
-Path: Sales > Web POS > Setting > Payment for POS 
- 
-1.	Applicable Payment Methods: You have 2 options like pictures above
-1.	All Allowed Payment: Apply all payment 
-2.	Specific Payment: Apply some payment methods only 
-3.	Specific Payment Method: User could hold Shift + Click to choose more than a payment method. 
-4.	Default Payment Method: Users can choose any payment method as default payment method for POS. 
- 
-5.	Paypal Integration: choose Yes or No to display/not display Paypal as a payment option. There is also detailed installation guide and Test the API connection function available in the section. 
-*NOTE: Only payment methods that are enabled in Stores > Settings section > Configuration > Sales > Payment Methods will appear here.
 
-6.	Set up Shipping Method 
-Path: Sales > Web POS section > Settings > Shipping Method
+![Default Guest Check Out]()
  
-1.	Applicable Shipping Methods:	
-1.	If you want to apply all shipping methods, choose All Allowed Shipping. 
-2.	If you want to apply some shipping methods only, choose Specific Shipping. Then in Specific Shipping field, select shipping method as your preference. Hold Shift + Click to choose more than one.
-3.	Specific Shipping Methods
-4.	Default Shipping Method: 
-1.	You can choose one of two shipping methods supported to set as default payment method for POS
-2.	If you want to set “Store Pickup” to be the default shipping method for instance, you first must choose it in Specific Shipping field. Then, select option “Store Pickup” in Default Shipping Method field.
-3.	Enable “Mark as shipped” by default: Choose “Yes” if you want to mark items as shipped
+Fill in all information as you want to use as default, including **First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone** and **Email**. After finishing, click on **Save Config** button to save your work.
+
+#### Enable Payment Method 
+Path: **Sales > Web POS > Setting > Payment for POS**
+
+![Enable Payment Method]()
+
+1.	**Applicable Payment Methods**: You have 2 options like pictures above
+- **All Allowed Payment**: Apply all payment 
+- **Specific Payment**: Apply some payment methods only 
+2.	**Specific Payment Method**: User could hold **Shift + Click** to choose more than a payment method. 
+3.	**Default Payment Method**: Users can choose any payment method as default payment method for POS. 
+
+![Enable Payment Method]()
  
-After finishing, click on “Save Config” button to save your work.
+4.	**Paypal Integration**: choose Yes or No to display/not display Paypal as a payment option. There is also detailed installation guide and **Test the API** connection function available in the section. 
 
-*NOTE: Only payment methods that are enabled in Stores > Settings section > Configuration > Sales > Shipping Methods will appear here.
+**NOTE**: Only payment methods that are enabled in **Stores > Settings** section **> Configuration > Sales > Payment Methods** will appear here.
 
-4.	Configure Product Search
+#### Set up Shipping Method 
+Path: **Sales > Web POS** section **> Settings > Shipping Method**
+
+![Set up Shipping Method ]()
  
-1.	Product Attribute(s) for Search: Select attributes by which you want to search products. The default attributes are Name & SKU. If you want to search quickly by barcode, choose barcode attribute. Hold Shift + Click to pick more than one.
-2.	Barcode Attributes: Choose SKU to search products quickly
-Please refer to Retailer POS configurations for more setting guides.
+1.	**Applicable Shipping Methods**:
+- If you want to apply all shipping methods, choose **All Allowed Shipping**. 
+- If you want to apply some shipping methods only, choose **Specific Shipping**. Then in **Specific Shipping field**, select shipping method as your preference. Hold Shift + Click to choose more than one.
+2.	**Specific Shipping Methods**
+3.	**Default Shipping Method**: 
+- You can choose one of two shipping methods supported to set as default payment method for POS
+- If you want to set “Store Pickup” to be the default shipping method for instance, you first must choose it in Specific Shipping field. Then, select option “Store Pickup” in Default Shipping Method field.
+4.	**Enable “Mark as shipped” by default**: Choose “Yes” if you want to mark items as shipped
 
-3.	How Web POS Works with Peripheral Device
-MageStore Web POS module can connect with Barcode readers, Card swiper & Receipt printers. 
-1.	Barcode readers: are any devices that can connect with iPad/Laptop/PC (including USB Port, Wifi or Bluetooth). The scanner can read barcodes & fill encoded information into Web POS search box.
-2.	Card swiper: only devices connected through USB port (supports Authorize.Net & Stripe).
-3.	Receipt printers: any devices that connect with iPad/laptop/PC
-
-Retailer POS
-Path: Sales > Web POS section > Settings 
-Note: Most settings for Retailer POS like shipping, payment, etc. are the same with WebPOS. Please refer to Web POS settings section for more details. This section only mentions the settings that are specifically for Retailer POS.
-
-1.	General Settings
+![Set up Shipping Method ]()
  
-1.	Need to confirm before deleting order (App only): requires cashier to confirm again before he/she can delete an order during checkout.
-2.	Active key for using App: enter the key required to activate the app.
+After finishing, click on **Save Config** button to save your work.
 
-3.	Set up Shipping Method for RetailerPOS
-Our RetailerPOS allows customers pay for their order via Authorizenet and Stripe. Enable this payment in RetailerPOS frontend by selecting Yes in their setting. 
-There is also detailed installation guide and Test the API connection function available for each method.
-For other shipping settings, please refer to WebPOS section of Set up Shipping Method 
+**NOTE**: Only payment methods that are enabled in **Stores > Settings** section **> Configuration > Sales > Shipping Methods** will appear here.
+
+#### Configure Product Search
+
+![Configure Product Search]()
  
+- **Product Attribute(s) for Search**: Select attributes by which you want to search products. The default attributes are Name & SKU. If you want to search quickly by barcode, choose barcode attribute. Hold **Shift + Click** to pick more than one.
+- **Barcode Attributes**: Choose SKU to search products quickly
+Please refer to **Retailer POS** configurations for more setting guides.
+
+#### How Web POS Works with Peripheral Device
+
+MageStore Web POS module can connect with **Barcode readers, Card swiper & Receipt printers**. 
+
+- **Barcode readers**: are any devices that can connect with iPad/Laptop/PC (including USB Port, Wifi or Bluetooth). The scanner can read barcodes & fill encoded information into Web POS search box.
+- **Card swiper**: only devices connected through USB port (supports Authorize.Net & Stripe).
+- **Receipt printers**: any devices that connect with iPad/laptop/PC
+
+### Retailer POS
+
+Path: **Sales > Web POS** section **> Settings**
+
+**Note**: Most settings for Retailer POS like shipping, payment, etc. are the same with WebPOS. Please refer to **Web POS** settings section for more details. *This section only mentions the settings that are specifically for Retailer POS.*
+
+#### General Settings
+
+![General Settings]()
  
+- **Need to confirm before deleting order (App only)**: requires cashier to confirm again before he/she can delete an order during checkout.
+- **Active key for using App**: enter the key required to activate the app.
 
-4.	Connect Retailer POS with Peripheral Devices
-Magestore’s Retailer POS module can connect with Barcode readers, Card Swipe, Wireless Cash Drawer & Receipt printers
-1.	Card Swipe (via Audio jack)
-2.	Receipt printer
-3.	Barcode scanner (connected via Bluetooth device/iPad camera)
-4.	Wireless Cash Drawer
+#### Set up Shipping Method for RetailerPOS
 
-Multi-warehouse Management (Inventory Management)
-1.	Stock Control Configuration
-Path: Inventory Management > Settings section > Configuration
+Our RetailerPOS allows customers pay for their order via Authorizenet and Stripe. Enable this payment in RetailerPOS frontend by selecting **Yes** in their setting. 
+
+There is also detailed installation guide and **Test the API connection** function available for each method.
+
+For other shipping settings, please refer to WebPOS section of **Set up Shipping Method** 
+ 
+![Set up Shipping Method for RetailerPOS]()
+
+![Set up Shipping Method for RetailerPOS]()
+
+#### Connect Retailer POS with Peripheral Devices
+
+Magestore’s Retailer POS module can connect with **Barcode readers, Card Swipe, Wireless Cash Drawer & Receipt printers**
+- Card Swipe (via Audio jack)
+- Receipt printer
+- Barcode scanner (connected via Bluetooth device/iPad camera)
+- Wireless Cash Drawer
+
+### Multi-warehouse Management (Inventory Management)
+#### Stock Control Configuration
+Path: **Inventory Management > Settings** section **> Configuration**
  
 1.	Link stocks in Warehouse to Front Store View: In managing a Warehouse, you can link Warehouse to a Front Store View (path: Stock Listing > Warehouses > Click View > Warehouse Information section > General Information tab > Magento Store View field). Note that you can link a warehouse to one or multiple store views.
 1.	If you enable Link warehouse to Magento Front Store View by choosing Yes here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
