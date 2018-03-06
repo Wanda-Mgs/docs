@@ -1678,7 +1678,7 @@ Click on **Save and Continue to Edit** button to move on.
 
 **Samples**: 
 
-![Sample](./Image_Growth_m1/image149.png?raw=true)
+![Sample](./Image_Growth_m1/image150.png?raw=true)
 
 Click to expand the **Samples** section
 
