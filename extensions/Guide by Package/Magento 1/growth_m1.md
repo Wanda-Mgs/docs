@@ -1090,9 +1090,60 @@ Remember to **Save Role** to finish
 
 ##### Create a New Role 
 
+_Path: **System > Permissions > Roles > Add New Role**_
 
+**Role Info**
+
+![Sample](./Image_Growth_m1/image095.png?raw=true)
+
+(1) **Role Name**: enter Role Name
+(2) **Current Admin Password**: Enter the Role Creator’s Password (for example, IT Admin creates the Role, so enter IT Admin Password)
+
+**Role Resources**
+
+![Sample](./Image_Growth_m1/image096.png?raw=true)
+
+(1) **Resource Access**: you have two options:
+
+- **All**: allow the Role to access all resources of the business
+
+- **Custom**: choose which resource that the Role can access
+(2)**Resources**: if you choose Custom on (1), then the **Resources** tab will appear. You need to tick on which resources you allow the Role to access.
+Remember to click on **Save Role** to finish
 
 #### Decentrialize Users 
+
+_Path: **System > Permissions > Users**_
+
+##### Manage Users
+
+![Sample](./Image_Growth_m1/image097.png?raw=true)
+
+(1) **User Management** Field:
+
+You can search Users by **ID, User Name, First Name, Last Name, Email** and **Roles**
+
+After you enter the search word, remember to tap **Enter** to find or click on **Search**. After that, to come back the whole user management field, you have to click on **Reset Filter**. 
+
+(2) **Add New User**: to add new user
+
+Besides, you can edit User Info by choosing the User you want to edit.
+
+![Sample](./Image_Growth_m1/image098.png?raw=true)
+
+Then, you can allow warehouse permission for that Users (only for existed Users) by ticking on which warehouses they can access, then click on **Save Warehouse Permissions**.
+
+In addition, you can also assign warehouses, by clicking on **Assign Warehouses**.  A pop-up will appear as below: 
+
+![Sample](./Image_Growth_m1/image099.png?raw=true)
+
+(1) Tick on the **warehouse(s)** you want to assign 
+
+(2) **Add Warehouse Permission**: to save the ticked warehouse
+
+Remember to click on **Save User** to finish
+
+##### Create a New User 
 
 ### How to Manage Staff for POS
 
