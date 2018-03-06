@@ -603,6 +603,126 @@ Notes: this image is used in PDF and HTML, recommended sixe is 17x63 px adn the 
 
 ### Reward Points
 
+_**Path: Reward Points > Settings**_ 
+
+_**Step 1: Configure the following session**_ 
+
+**General Configuration** 
+
+![Sample](./Image_Growth_m1/image50.png?raw=true)
+
+(1) **Enable Reward Point extension**: Choose **Yes** to enable Reward Points Module for the Growth Edition of Omnichannel Package
+
+(2) **Label for Point**: Enter the **Point Label**. If you leave it empty, the default label _“Point”_ will be used.
+
+For example, if you enter “P” on this field, then instead of showing “1 Point”, it will show “1 P”.  
+
+(3) **Label for Points (plural)** : Enter the **Point label (plural)**. _(same as step 2)_
+
+(4) **Reward Points image**: **Choose File** to upload Reward Point Image. Notice that: the recommended size is 18x18px. If you leave it blank, the image on the template will be used instead.
+
+(5) **Use Reward Policy page**: Choose **Yes** if you want to use Reward Policy page, otherwise select No. 
+
+(6) **Use Reward Welcome page**: Choose **Yes** to show Reward Welcome Page, otherwise select No. 
+
+**Earning Points Configuration** 
+
+![Sample](./Image_Growth_m1/image51.png?raw=true)
+
+(1) **Rounding Method**:  
+
+You have three options for Rounding Method:
+
+- **Normal**:  for example, 10.2 points generated from an order can be rounded to 10, and 10.8 points generated from an order can be rounded to 11.
+
+- **Up**: for example, 10.2 points generated from an order can be rounded up to 11
+
+- **Down**: for example, 10.2 points generated from an order can be rounded down to 10
+
+If you finish editing the field, remember to re-index **Catalog Earning Rules**, follow the path: **Reward Points > Earning > Catalog Earning Rules** 
+
+![Sample](./Image_Growth_m1/image52.png?raw=true)
+
+(2) **Points expire after**: Enter the **number of dates** after which customers’ points will expire. 
+
+(3) **Number of points in balance allowed**: Enter the **maximum number** of points allowed in Customer’s balance. If you leave it blank, there will be no limitation. 
+
+(4) **Earn points from tax**: Choose **Yes** to allow customers to earn points from their order value including tax
+
+(5) **Earn points from shipping fee**: Choose **Yes** to allow customers to earn points from their order value including shipping fee. 
+
+(6) **Allow earning points when using points to spend**: Choose **Yes** to enable customers to earn points after they spend points.
+
+**Sales Earning Process** section 
+
+![Sample](./Image_Growth_m1/image53.png?raw=true)
+
+(1) **Allow receiving points when invoice is created**: If **Yes**, customers receive points after an invoice is created for their order. If **No**, they receive points only when the order status is complete.
+
+(2) **Hold point transactions for**: Enter the number of days to hold point transactions before points are rewarded to customers. If leaving it empty or zero, customer will receive the points right after they committed the action in field (1) above. 
+
+**Spending Points Configuration Tab** 
+
+![Sample](./Image_Growth_m1/image54.png?raw=true)
+
+(1) **Minimum redeemable points**: Enter the minimum **number of points** in Customer’s Balance is permitted to redeem. If you leave it blank, there will be no limitation
+
+(2) **Maximum spending points per order**: Enter the **maximum number of points** that customers can redeem in an order. If you leave it blank, there will be no limitation
+
+(3) **Use maximum points at checkout by default**: Choose **Yes** if you allow customers to spend maximum points at checkout by default
+
+(4) **Allow using points for Shipping Fee**: Choose **Yes** to allow customers use points as payment for **Shipping Fee**
+
+**Display Configuration Tab**
+
+![Sample](./Image_Growth_m1/image55.png?raw=true)
+
+(1) **Show  total point balance next to My Account link**: Choose **Yes** to show total point balance next to My Account link
+
+Display Collectible Points
+
+(2)**On Product Page**: Choose **Yes** to display collectible Points on **Product Page**
+
+(3) **On Minicart**: Choose **Yes** to display collectible points in **Mini cart**
+
+(4) **On Product Listing Page**: Choose **Yes** to display collectible points on **Product listing page, Category and Search Result Page.**
+
+**Email Configuration Tab**
+
+![Sample](./Image_Growth_m1/image56.png?raw=true)
+
+(1) **Enable notification email**: Choose **Yes** to enable notification email
+
+(2) **Sender**: Choose the **name of the Sender** who can send email about Balance Updates and Expiration Notifications to customers:
+
+- General Contact
+
+- Sale Representative
+
+- Customer Support
+
+- Customer Email 1
+
+- Customer Email 2
+(3) **Template of email sent to customer before a transaction expires**: Choose an **Email Template** to send to customers to notify them when a transaction expires.
+
+(4) **Send reminder email before a transaction expires**: Enter a **number of days before** a transaction expires so that your customer can receive a Reminder Email before the expiration date. 
+
+**Loyalty Level Configuration**
+
+![Sample](./Image_Growth_m1/image57.png?raw=true)
+
+(1) **Enable Loyalty Level plugin**: Choose **Yes** to make different Loyalty Levels. 
+
+(2) **Send email before level expires**: Choose **Yes** to send email before level expires
+
+![Sample](./Image_Growth_m1/image58.png?raw=true)
+
+(1) **Enable Rules Plugin**: Choose **Yes** to enable Rules plugin. This plugin will allow you to set rules for your Reward Points program. 
+
+(2) **Show Earning Rule on Shopping Cart Page**: Choose **Yes** to show Earning Rule on Shopping Cart Page
+
+**Step 2**: Remember to click on **Save Config** button to complete your configuration process.
 ### Store Credit 
 
 ### Store Pick up 
