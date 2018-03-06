@@ -170,17 +170,52 @@ If you choose **Yes**, then
 
 (6) **Allow customer pay via Stripe**: Choose **Yes** if you want to allow customer to pay via **Stripe**
 
-
-
-
-
-
-
 #### Configure Product Search 
+
+![Sample](./Image_Growth_m1/image016.png?raw=true)
+
+(1) **Product Attribute(s) for Search**: Select your preferred **Product Attribute(s) for Search.**
+
+Notes: Only select necessary attributes, or else the loading speed will be slow
+
+(2) **Barcode Attributes**: Select **Barcode Attributes**. You can only change this configuration if you already have a barcode attribute
+
+(3) Show inactive categories: Choose No to hide inactive categories for your Web POS Store View
 
 #### Configure Default Guest Checkout 
 
+![Sample](./Image_Growth_m1/image017.png?raw=true)
+
+Fill in the **Default Customer ID.**
+
+OR ELSE, you can set the field blank to create automatically a new customer with information fields below it. Then, you fill in **First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone** and **Email**
+
 #### Configure Default Email 
+
+![Sample](./Image_Growth_m1/image018.png?raw=true)
+
+(1) **Orders**
+
+Choose **Yes** to activate automatic Order Confirmation Email
+
+The Email Template is set as the **Store’s Default Template**
+
+(2) **Invoices** 
+
+Choose **Yes** to activate automatic Invoice Email
+The Email Template is set as the **Store’s Default Template**
+
+(3) **Shipments** 
+
+Choose **Yes** to activate automatic Shipment Email
+
+The Email Template is set as the **Store’s Default Template**
+
+(4) **Credit Memos**
+
+Choose **Yes** to automatically send your customers email about their **Store Credit Transaction**
+
+The Email Template is set as the **Store’s Default Template**
 
 #### Configure Receipt Printing 
 
