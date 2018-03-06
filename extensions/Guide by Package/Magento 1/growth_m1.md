@@ -1145,9 +1145,84 @@ Remember to click on **Save User** to finish
 
 ##### Create a New User 
 
+_Path: **System > Permissions > Users > Add New User**_
+
+**User Info**
+
+![Sample](./Image_Growth_m1/image0100.png?raw=true)
+
+(1) Enter **User Name**, **First Name**, **Last Name** and **User email**
+
+(2) **Current Admin Password**:  Enter the Role Creator’s Password (for example, IT Admin creates the Role, so enter IT Admin Password)
+
+(3) **Password** and **Password Confirmation**:  enter the User Password. 
+
+_Note_:  enter at least 7 characters. The password must include numbers and alphabets
+
+(4) **The password is**: active or inactive
+
+**User Role**
+
+![Sample](./Image_Growth_m1/image0101.png?raw=true)
+
+All existed roles will be displayed. You can leave it blank or tick on roles that you want to assign to the New User.
+
+You can type the **Role Name** and click on **Search**/ tap **Enter** to find Role. Then click on **Reset Filter**, to come back the whole Role Management Display. 
+
+**REST ROle**
+
+![Sample](./Image_Growth_m1/image0102.png?raw=true)
+
+REST Role is used for API Web POS on mobile app only. 
+
+You can assign REST-Role by ticking on the list. 
+
+Only Admin can manage and add new REST role by going to **System > Web Services > REST**
+
+- **Roles**. There are two default REST role (unable to delete): **Guest** and **Customer**
+
+Remember to click on **Save User** to finish
+
 ### How to Manage Staff for POS
 
 #### Decentrialize POS Access Permission 
+
+##### Manage Access Permission 
+
+_Path: **Sales > Web POS > Web POS Permissions > POS Roles**_
+
+![Sample](./Image_Growth_m1/image0103.png?raw=true)
+
+POS Role management will be shown in grid, including columns **named ID, Display Name, Description, Active** and **Action**. You can search for Roles here.
+
+##### Create a New Role 
+
+_Path: On **POS Roles** page, click on **Add Role**_
+
+**Role Information**
+
+![Sample](./Image_Growth_m1/image0104.png?raw=true)
+
+(1) **Role Name**: Enter the name
+
+(2) **Permission**:  Choose Permissions that the Role can access
+
+(3) **Maximum Discount Percent (%)**: Choose the highest discount this Role can apply for each customer.
+
+(4) **Description**:  write the description of the Role (if have)
+
+(5) **Status**:  determine if the Role is **Active** or **Inactive** 
+
+**User List**
+
+![Sample](./Image_Growth_m1/image0105.png?raw=true)
+
+Select which Users will take charge of this Role
+
+After all, remember to click **Save Role** or **Save And Continue Edit** 
+
+
+
 
 #### Decentrialize POS Staff 
 
