@@ -675,7 +675,6 @@ If you finish editing the field, remember to re-index **Catalog Earning Rules**,
 **Display Configuration Tab**
 
 ![Sample](./Image_Growth_m1/image056.png?raw=true)
-
 (1) **Show  total point balance next to My Account link**: Choose **Yes** to show total point balance next to My Account link
 
 Display Collectible Points
@@ -689,7 +688,6 @@ Display Collectible Points
 **Email Configuration Tab**
 
 ![Sample](./Image_Growth_m1/image057.png?raw=true)
-
 (1) **Enable notification email**: Choose **Yes** to enable notification email
 
 (2) **Sender**: Choose the **name of the Sender** who can send email about Balance Updates and Expiration Notifications to customers:
