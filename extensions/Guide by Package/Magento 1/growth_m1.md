@@ -977,7 +977,75 @@ The **Add Tag** page will be shown as above, and you need to fill tag’s name, 
 
 #### View Pickup Orders 
 
+_Path: **Sales > Orders**_
+
+On the **Order page** view, choose the order in which the shipping name is the same as the pickup store’s name.
+
+![Sample](./Image_Growth_m1/image084.png?raw=true)
+
+In the Information tab, you can see the information about shipping address changed to the address of pickup store and attached with a map location
+
+![Sample](./Image_Growth_m1/image085.png?raw=true)
+
+**Store Pickup** tab: shows you more detailed information of store location.
+
 #### Setiings 
+
+_Path: **Store Pickup > Setting**_
+
+The configuration of Store Pickup includes 4 tabs: **General, Store List, Checkout** and **Email Template**
+
+**General**
+
+![Sample](./Image_Growth_m1/image086.png?raw=true)
+
+(1) **Enable Store Pickup**: choose **Yes** to enable this module on your site
+
+(2) **Store List link shown in frontend**: Choose among Top Link/Footer Link/ Not Shown	 to show stores link on the top link/ footer link in frontend or not
+
+(3) **Google Map key**: Fill the Google map key into this field to use Google API. You can get this key by following the guide link or going to Store Pickup > Guide
+
+**Store List** 
+
+![Sample](./Image_Growth_m1/image087.png?raw=true)
+
+(1) **Description**: enter description that will be shown on the Store Listing page
+
+(2) **Search Tab**: select types of search tabs that will be shown on the search form
+
+![Sample](./Image_Growth_m1/image088.png?raw=true)
+
+(3) **Store Search**: select the information customers can select when they search by area
+
+(4) **Maximum Radius**: enter the maximum radius that you allow your customer to search
+
+(5) **Unit of distance**: select unit to measure distance between store and customer as Kilometers or Miles
+
+**Check out** 
+
+![Sample](./Image_Growth_m1/image089.png?raw=true)
+
+(1) **Carrier Title**: The title shown in Shipping Method stage at checkout. 
+
+(2) **Method Title**: Method title is shown in Shipping Method stage at checkout 
+
+(3) **Sort Order**: Enter a number that decide which order that checkout method will be displayed in checkout page. The smaller the number, the higher its order in the checkout page will be. 
+
+(4) **Default store at checkout**: Choose this store as the default store in Shipping Method at checkout when customers select the Store Pickup option 
+
+(5) **Display pickup time/date**: Allow customers to select pickup date and time at checkout or not.
+
+(6) **Time format**: Set format of shipping time and store’s working time.
+
+(7) **Applicable payment method(s)**: You can select payment methods applied to Store Pick up here. If you choose Only Selected Payment Methods, it will apply only specific payment methods for pickup orders. 
+
+**Email Template** 
+
+![Sample](./Image_Growth_m1/image090.png?raw=true)
+
+You can modify default email template sent to store manager and admin when pickup order is created, changed status or customers send message through the **Contact Form**. 
+
+After configuring all fields, click on the **Save Config** button to save your work
 
 ## HOW TO MANAGE USER PERMISSION 
 
