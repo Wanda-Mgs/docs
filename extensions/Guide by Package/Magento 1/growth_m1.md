@@ -307,6 +307,22 @@ Then you will access to a page as below:
 
 #### Stock Option 
 
+_Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **Stock Options**
+
+![Sample](./Image_Growth_m1/image24.png?raw=true)
+
+(1) **Decrease Stock When Order is Placed**: Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
+
+(2) **Set Items’ Status to be In Stock When Order is Cancelled**: Select **Yes** in the dropdown list to return items to stock if an order is cancelled.
+
+(3) **Display Out of Stock Products**: Select **Yes** in the dropdown list to continue to display products in the catalogue that are no longer in stock. 
+
+(4) **Only X left Threshold**: Enter the number in the blank to display the message: **Only x left** on website when the quantity in stock reaches the threshold.  
+
+(5) **Display products availability in stock in the frontend**: Select **Yes** in dropdown list to display an **In Stock** or **Out of Stock** message on the product page.
+
+(6) Click on **Save Config** button to finish. 
+
 #### Product Stock Options 
 
 ### Inventory Report 
