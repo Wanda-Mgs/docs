@@ -131,6 +131,51 @@ You need to open this program when using Web POS to use Customer Pole Display
 
 #### Set up Shipping Method
 
+![Sample](./Image_Growth_m1/image013.png?raw=true)
+
+(1) **Offline shipping Methods**: Choose Offline shipping methods that you offer for your customer, including: Fixed Flat Rate, Free Shipping, Store Pickup, Custom Method
+
+(2) **Default Shipping Method**: Choose **Default Shipping Method**. There are various options for you to choose. If you don’t have any, choose **None**
+
+#### Enable Payment Method
+
+![Sample](./Image_Growth_m1/image014.png?raw=true)
+
+(1) **Applicable Payments**: If you choose 
+**Specific Payments**, a **Specific Payments** field will appear for you to choose your preferred payments. 
+
+**All Allowed Payments**, then you allow all payments on the POS (the **Specific Payments** field will NOT appear)
+
+(2) **Default Payment Method**: Choose **Default Payment Method**. If you don’t have any, choose **None** 
+Notes: If you also use **Web POS App** on mobile and tablet, notice these following steps: 
+
+(3) **Allow Customer pay via PayPal**:
+
+If you choose **No**, then your customers cannot pay via PayPal service
+
+If you choose **Yes**, then
+
+
+![Sample](./Image_Growth_m1/image015.png?raw=true)
+
+[1] Enter your application **Client ID** and your **Application Client Secret**
+
+[2] Choose **Yes** to activate **Sandbox Mode** for better security
+
+[3] Choose **Yes** to allow **PayPal Here** on Web POS
+
+(4) **Redirect URL**: Redirect your byers back to your website after completing the payment. You need to sign in your PayPal account.  Then, select **Profile** > **Profile and Settings** > **My setting tools** > click **Update** next to Website Preferences > Select **On** next to **Auto Return** > In the Return URL field, enter the URL where you want to send your payer after payment is completed _(you can copy and paste the link we provide to test)_
+
+(5) **Allow customer pay via authorize.net**: Choose **Yes** if you want to allow customer to pay via **authorize.net**
+
+(6) **Allow customer pay via Stripe**: Choose **Yes** if you want to allow customer to pay via **Stripe**
+
+
+
+
+
+
+
 #### Configure Product Search 
 
 #### Configure Default Guest Checkout 
