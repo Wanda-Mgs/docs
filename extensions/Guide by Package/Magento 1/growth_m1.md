@@ -963,6 +963,18 @@ _Notes_: Special days have the highest priority compared with holidays and othe
 
 #### Manage Tags 
 
+_Path: **Store Pickup > Manage Tags**_
+
+The **Tag Manager** page shows the list of tags that you added. This tags list will be shown on the Store listing page to your customers can filter stores by them.
+
+![Sample](./Image_Growth_m1/image082.png?raw=true)
+
+To add a new tag, click on **Add Tag** button. 
+
+![Sample](./Image_Growth_m1/image083.png?raw=true)
+
+The **Add Tag** page will be shown as above, and you need to fill tag’s name, upload icon and select status for that tag. After that, remember to save your work by clicking on **Save Tag** button or **Save And Continue Edit** button.
+
 #### View Pickup Orders 
 
 #### Setiings 
