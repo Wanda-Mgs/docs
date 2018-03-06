@@ -245,15 +245,65 @@ Magestore’s Web POS module can connect with **Barcode readers**, **Card swiper
 
 ### Retailer POS 
 
+Path: _**Sales**_ > _**Web POS**_ section > _**Settings**_
+
+Note: Most settings for Retailer POS like shipping, payment, etc. are the same with Web POS. Please refer to the section 2.1.Web POS for more details.
+
+_This section only mentions the settings that are specifically for Retailer POS_
+
 #### Set Up General Information 
+
+![Sample](./Image_Growth_m1/image20.png?raw=true)
+
+**Need to confirm before deleting order (App only)**: requires cashier to confirm again before he/she can delete an order during checkout.
+
+**Active key for using App**: enter the key required to activate the app.
 
 #### Set Up Shipping Method for Retailer POS 
 
+Our Retailer POS allows customers pay for their order via Authorize.net and Stripe. Enable this payment in Retailer POS frontend by selecting Yes in their setting. 
+
+There is also detailed installation guide and Test the API connection function available for each method.
+
+For other shipping settings, please refer to the section 2.1.4. Set up Shipping Method
+
 #### Connect Retailer POS with Peripheral Devices 
+
+Magestore’s Retailer POS module can connect with **Barcode readers, Card Swipe, Wireless Cash Drawer & Receipt printers**
+
+- Card Swipe (via Audio jack)
+
+- Receipt printer
+
+- Barcode scanner (connected via Bluetooth device/iPad camera)
+
+- Wireless Cash Drawer
 
 ### Muti-warehouse Management 
 
 #### Stock Control Configuration 
+
+_Path: **Inventory Management > Settings**_
+
+![Sample](./Image_Growth_m1/image21.png?raw=true)
+
+Then you will access to a page as below:
+
+![Sample](./Image_Growth_m1/image22.png?raw=true)
+
+(1) **Link warehouse  to Magento Front Store View**: In managing a Warehouse, you can link Warehouse to a Front Store View (path: **Stock Listing > Warehouses > Click View > Warehouse Information section > General Information > Magento Store View** with screenshot below). Note that you can link a warehouse to one or multiple store views.
+
+![Sample](./Image_Growth_m1/image23.png?raw=true)
+
+- If you enable **Link warehouse to Magento Front Store View** by choosing **Yes** here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
+
+- If choose **No**, stocks in all warehouses will be shown on the store view.
+
+(2) **Adjust Stock by entering the change Qty.: **
+
+- If this feature is **enabled**, when adjusting stock, you can enter the difference quantity and the system will calculate the final balance in warehouse.
+
+- If this feature is **disabled**, you need to enter the exact quantity of stock in warehouse and the system will receive this figure as the latest available quantity of product.
 
 #### Stock Option 
 
