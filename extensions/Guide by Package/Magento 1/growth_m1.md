@@ -379,7 +379,35 @@ The configuration setting of **Retailer Reports** has 2 tabs: **Historical Repor
 
 (3) **Auto Update Time**: Choose a time schedule when the reports will be automatically update
 
+**Sales Report Configuration** 
+
+![Sample](./Image_Growth_m1/image30.png?raw=true)
+
+To automatically update Sales Report, choose **Yes**
+
+After all, click on **Save Config** button to save your work.
+
 ### Barcode Management 
+
+_Path: **Barcode Management > Settings**_ 
+
+![Sample](./Image_Growth_m1/image31.png?raw=true)
+
+(1) **One barcode per product SKU**: select **Yes** if you want to set ONE barcode/product SKU
+
+(2) **Barcode patterns**: enter the barcode pattern used to generate barcodes.
+
+For example,
+
+[A.8]: 8 alpha characters
+
+[N.4]: 4 numberic characters
+
+[AN.6]: 6 alphanumeric characters
+
+BAR[A.4][AN.6]: BARADFA12ND0O
+
+(3) **Default barcode template for pricing**: select **Standard, A4** or **Jewelry**
 
 ### Purchase Management 
 
