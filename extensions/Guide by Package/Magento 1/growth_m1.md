@@ -87,6 +87,48 @@ Refer to the Section 3.2. How to manage staff
 
 ![Sample](./Image_Growth_m1/image010.png?raw=true)
 
+(1) **Web POS logo**: Click on Choose File to upload your Website Logo.  Please notice that: Recommended image size: 260x120 px and supported file: jpeg, png
+
+(2) **Web POS Color**: Enter the Hex Code of your Web color
+
+(3) **Enable Cash Drawers**: Choose **Yes** to enable **Cash Drawers**
+
+(4) **Enable Delivery Date**: Choose **Yes** to enable **Delivery Date**
+
+(5) **Allow to sync orders out-of-stock items**: Choose Yes to sync orders of out-of-stock items
+
+(6) **Session Timeout**: Enter the number of seconds
+
+(7) **Integrate with Pole Display device**: Choose Yes to integrate with Pole Display Device. You should install Customer Pole Display’s Driver. After that, you need to install the desktop application to connect your PC/ Laptop with the pole. 
+
+Notes: after purchasing Magento Omni-channel Module, you can download the Pole Display integration file which contains these following files & folders:
+
+![Sample](./Image_Growth_m1/image011.png?raw=true)
+
+Then follow these steps:
+
+_**Step 1: Install the .NET Framework 4.5.2**_
+Open the folder .NET Framework 4.5.2
+Run NDP452-KB2901907-x86-x64-AllOS-ENU.exe file and install it to
+
+_**Step 2: Install the USB to Serial COM setup**_
+Open the folder USB to Serial COM
+Run CDM21224_Setup.exe and install it to your computer
+
+_**Step 3: Run the Pole Integration.exe file**_
+
+![Sample](./Image_Growth_m1/image012.png?raw=true)
+
+You need to open this program when using Web POS to use Customer Pole Display
+
+(8) **Default Website**: Choose your Default Website
+
+(9) **Need to confirm before deleting order (App only)**: If you use Web POS App on mobile or tablet, choose Yes to allow a Confirmation Pop-up that you want to delete order
+
+(10) **Need to create session before working (App only)**: With Web POS App users, choose Yes to activate creating session before working
+
+(11) **Active Key for using App**: Enter your activation code to use Web POS App
+
 #### Set up Shipping Method
 
 #### Configure Product Search 
