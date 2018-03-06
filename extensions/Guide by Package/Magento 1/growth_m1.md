@@ -154,7 +154,6 @@ If you choose **No**, then your customers cannot pay via PayPal service
 
 If you choose **Yes**, then
 
-
 ![Sample](./Image_Growth_m1/image015.png?raw=true)
 
 [1] Enter your application **Client ID** and your **Application Client Secret**
@@ -217,6 +216,8 @@ Choose **Yes** to automatically send your customers email about their **Store Cr
 The Email Template is set as the **Store’s Default Template**
 
 #### Configure Receipt Printing 
+
+![Sample](./Image_Growth_m1/image019.png?raw=true)
 
 ![Sample](./Image_Growth_m1/image019.png?raw=true)
 
