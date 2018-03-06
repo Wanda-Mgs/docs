@@ -707,13 +707,13 @@ Display Collectible Points
 
 **Loyalty Level Configuration**
 
-![Sample](./Image_Growth_m1/image057.png?raw=true)
+![Sample](./Image_Growth_m1/image058.png?raw=true)
 
 (1) **Enable Loyalty Level plugin**: Choose **Yes** to make different Loyalty Levels. 
 
 (2) **Send email before level expires**: Choose **Yes** to send email before level expires
 
-![Sample](./Image_Growth_m1/image058.png?raw=true)
+![Sample](./Image_Growth_m1/image059.png?raw=true)
 
 (1) **Enable Rules Plugin**: Choose **Yes** to enable Rules plugin. This plugin will allow you to set rules for your Reward Points program. 
 
@@ -725,13 +725,13 @@ Display Collectible Points
 
 _Path:  **Store Credit > Settings**_
 
-![Sample](./Image_Growth_m1/image059.png?raw=true)
+![Sample](./Image_Growth_m1/image060.png?raw=true)
 
 **Step 1: Configure the following session below** 
 
 **General Configuration** 
 
-![Sample](./Image_Growth_m1/image060.png?raw=true)
+![Sample](./Image_Growth_m1/image061.png?raw=true)
 
 (1) **Enable Store Credit**: Activate Store Credit on your site
 (2) **Allow sending Credit**: If **Yes**, you ‘ll allow customers to send credit to their friends
@@ -739,7 +739,7 @@ _Path:  **Store Credit > Settings**_
 
 **Spend Credit On**
 
-![Sample](./Image_Growth_m1/image061.png?raw=true)
+![Sample](./Image_Growth_m1/image062.png?raw=true)
 
 (1) **Apply Customer Credit**: If you choose **After tax**, it means customer credit discount will be spent after their order value is taxed. 
 
@@ -747,7 +747,7 @@ _Path:  **Store Credit > Settings**_
 
 **Email Configuration**
 
-![Sample](./Image_Growth_m1/image062.png?raw=true)
+![Sample](./Image_Growth_m1/image063.png?raw=true)
 
 (1) **Email template with credit code sent to recipients**: Choose a suitable template with credit code which will be sent to recipients. 
 (2) **Email template with a verification code sent to credit sender**: Choose a suitable email template including verification code which will be sent to credit sender. 
@@ -758,7 +758,7 @@ _Path:  **Store Credit > Settings**_
 
 **Adjust time for Customers credit reports on total used and total received credit**
 
-![Sample](./Image_Growth_m1/image063.png?raw=true)
+![Sample](./Image_Growth_m1/image064.png?raw=true)
 
 (1) **Select start time for current year**: choose Start Date and month of the year to report used credit and received credit. 
 
@@ -767,7 +767,7 @@ _Path:  **Store Credit > Settings**_
 **Style Configuration**
 On this tab, you will be able to change background and color of Title
 
-![Sample](./Image_Growth_m1/image064.png?raw=true)
+![Sample](./Image_Growth_m1/image065.png?raw=true)
 
 (1) **Background of Title**: enter Hexadecimal code
 
