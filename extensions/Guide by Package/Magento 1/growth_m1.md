@@ -20,6 +20,42 @@ In this detailed user guide, we’re glad to show you how to use and take advant
 
 ![Sample](./Image_Growth_m1/image002.png?raw=true)
 
+Path: Sales > Web POS section > Manage POS
+
+![Sample](./Image_Growth_m1/image003.png?raw=true)
+
+Click on Add POS button. Then you will be linked to the New POS site
+
+There are 4 sections will be displayed, including POS Information; Cash Denominations; Close Sessions; Current Sessions Detail
+
+**POS information** 
+
+![Sample](./Image_Growth_m1/image004.png?raw=true)
+
+(1) **POS Name**: enter POS’s name.
+
+(2) **Location**: POS’s location. Note that multiple POS can link to one location. Here, admin can choose the location created and mapped to Warehouse. So that, the admin can control both warehouse and location easily (see Section 4.5.2. Mapping Locations - Warehouses).
+
+(3) **Current User**: Staff is working on the POS.
+
+(4) **Status**: select to **Enable** or **Disable** this POS
+
+**Closed Sessions**
+
+![Sample](./Image_Growth_m1/image005.png?raw=true)
+
+This section will display the statistics of Closed Sessions after staff working days. When you create a brand-new POS, this section is empty, and it will be updated automatically after being used in reality. 
+
+**Current Session Detail** 
+
+The same situation happens with Current Session Detail for the brand-new POS. No data is saved, and it will display like this: 
+
+![Sample](./Image_Growth_m1/image006.png?raw=true)
+
+And here is the performance of working POS: 
+
+![Sample](./Image_Growth_m1/image007.png?raw=true)
+
 ##### Assign New POS to Cashiers 
 
 #### Diffirentiate Access Permission 
