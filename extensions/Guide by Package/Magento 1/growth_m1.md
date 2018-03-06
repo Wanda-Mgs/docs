@@ -361,6 +361,24 @@ Finally, click on **Save Config** button to save changes.
 
 ### Inventory Report 
 
+![Sample](./Image_Growth_m1/image27.png?raw=true)
+
+_Path: **Retailer Reports > Setting**
+
+![Sample](./Image_Growth_m1/image28.png?raw=true)
+
+The configuration setting of **Retailer Reports** has 2 tabs: **Historical Report Configuration** and **Sales Report Configuration**
+
+**Historical Report Configuration**
+
+![Sample](./Image_Growth_m1/image29.png?raw=true)
+
+(1) **Duration**: The system only saves your historical reports within this period. You can choose from the drop-down list among _**Last 7 days, Last 30 days or Last 3 months.**_
+
+(2) **Use Cron to auto update**: Choose **Yes**  to use Cron to auto update the reports
+
+(3) **Auto Update Time**: Choose a time schedule when the reports will be automatically update
+
 ### Barcode Management 
 
 ### Purchase Management 
