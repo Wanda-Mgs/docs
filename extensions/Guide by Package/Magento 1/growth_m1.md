@@ -1163,7 +1163,7 @@ _Note_:  enter at least 7 characters. The password must include numbers and alph
 
 **User Role**
 
-![Sample](./Image_Growth_m1/image0101.png?raw=true)
+![Sample](./Image_Growth_m1/image101.png?raw=true)
 
 All existed roles will be displayed. You can leave it blank or tick on roles that you want to assign to the New User.
 
@@ -1171,7 +1171,7 @@ You can type the **Role Name** and click on **Search**/ tap **Enter** to find Ro
 
 **REST ROle**
 
-![Sample](./Image_Growth_m1/image0102.png?raw=true)
+![Sample](./Image_Growth_m1/image102.png?raw=true)
 
 REST Role is used for API Web POS on mobile app only. 
 
@@ -1191,7 +1191,7 @@ Remember to click on **Save User** to finish
 
 _Path: **Sales > Web POS > Web POS Permissions > POS Roles**_
 
-![Sample](./Image_Growth_m1/image0103.png?raw=true)
+![Sample](./Image_Growth_m1/image103.png?raw=true)
 
 POS Role management will be shown in grid, including columns **named ID, Display Name, Description, Active** and **Action**. You can search for Roles here.
 
@@ -1201,7 +1201,7 @@ _Path: On **POS Roles** page, click on **Add Role**_
 
 **Role Information**
 
-![Sample](./Image_Growth_m1/image0104.png?raw=true)
+![Sample](./Image_Growth_m1/image104.png?raw=true)
 
 (1) **Role Name**: Enter the name
 
@@ -1215,16 +1215,57 @@ _Path: On **POS Roles** page, click on **Add Role**_
 
 **User List**
 
-![Sample](./Image_Growth_m1/image0105.png?raw=true)
+![Sample](./Image_Growth_m1/image105.png?raw=true)
 
 Select which Users will take charge of this Role
 
 After all, remember to click **Save Role** or **Save And Continue Edit** 
 
-
-
-
 #### Decentrialize POS Staff 
+
+##### Manage Staff 
+
+_**Path: Sales > Web POS > Web POS Permissions > POS Users**_
+
+![Sample](./Image_Growth_m1/image106.png?raw=true)
+
+POS User Management will be shown in grid, including columns named ID, User Name. Email, Display, Location (the store users are taking charge), Role, Status, and Action. You can search for Users here.
+
+##### Create a New Staff
+
+_ Path: **Sales** > **Web POS** section > **Manage permissions** > **POS Users** > Click on **Add User**
+
+![Sample](./Image_Growth_m1/image107.png?raw=true)
+
+Then, you will enter information as following: 
+
+**User Information**
+
+![Sample](./Image_Growth_m1/image108.png?raw=true)
+
+(1) **User Name**:  enter the Name
+
+(2) **Password** and **Password Confirmation**:  enter the User Password (at least 7 characters, including numbers and alphabetic characters)
+
+(3) **Display name**:  enter the name Display on Frontend
+
+(4) **Email Address**:   enter the email address of the User
+
+(5) **PIN Code (App only)**:  enter 4 numbers for PIN Code
+
+ **User Settings**
+ 
+![Sample](./Image_Growth_m1/image109.png?raw=true)
+
+(1) **Customer Group**:  choose which groups the User will take charge of
+
+(2) **Location**:  choose where the User will work (warehouse or which stores)
+
+(3) **Role**:  choose the Role applied for User
+
+(4) **Status**:  choose Enabled to activate the User
+
+Click **Save User** or **Save And Continue to Edit** to finish this phase
 
 ### Basic Role for Each Admin in the System (Reference Only)
 
