@@ -1269,15 +1269,33 @@ Click **Save User** or **Save And Continue to Edit** to finish this phase
 
 ### Basic Role for Each Admin in the System (Reference Only)
 
+_Note_: For reference only! With each business feature has different roles for users.
+
 #### Store Manager 
+
+![Sample](./Image_Growth_m1/image110.png?raw=true)
+
+Moreover, Store Manager can access to Sales Tab and decentralize roles for Sale Staff
 
 #### Inventory Manager 
 
+![Sample](./Image_Growth_m1/image111.png?raw=true)
+
+Moreover, Inventory Manager can access to Sales Tab and decentralize Inventory Staff
+
 #### Purchase Management 
+
+![Sample](./Image_Growth_m1/image112.png?raw=true)
+
+Moreover, Purchase Manager can access to Sales Tab and decentralize Purchase Staff
 
 #### Ecommerce Manager
 
+![Sample](./Image_Growth_m1/image113.png?raw=true)
+
 #### Accountant 
+
+![Sample](./Image_Growth_m1/image114.png?raw=true)
 
 ## HOW TO MANAGE MASTER DATA 
 
@@ -1285,11 +1303,491 @@ Click **Save User** or **Save And Continue to Edit** to finish this phase
 
 #### Attributes 
 
+_Path: **Catalog > Attributes > Manage Attributes**_
+
+![Sample](./Image_Growth_m1/image115.png?raw=true)
+
+(1) The Management Tab will be shown in grid, including columns named **Attribute Code, Attribute Label, Required, System, Visible, Scope, Searchable, Used in Layered Navigation**, and **Comparable**. 
+
+(2) **Add New Attribute**:  If you do not know how to fill in required fields, click on 
+
 #### Attribute Sets 
+
+_Path: **Catalog > Attributes > Manage Attribute Sets**_
+
+![Sample](./Image_Growth_m1/image116.png?raw=true)
+
+(1) The Attribute Sets will be shown in table
+
+(2) **Add New Set**:  If you do not know how to fill in required fields, click on 
 
 #### Categories 
 
+_Path: **Catalog > Manage Categories**_
+
+![Sample](./Image_Growth_m1/image117.png?raw=true)
+
+When selecting a category on the left, all the information will be displayed on the right.
+
+You can easily edit any Category Information. Remember to click on **Save Category** to complete it. 
+
+Or else, you can delete Category from your store by click on **Delete Category** button.
+
+![Sample](./Image_Growth_m1/image118.png?raw=true)
+
+(1) **Add Root Category** and **Add Subcategory**:  click on the button
+
+(2) **Get help for this page**:  if you are not clear how to fill in required fields, click to read guidelines
+
+(3) **Reset** and **Save Category**:  to save the new category, click on **Save Category**. To delete what you have created, click on **Reset**
+
 #### Products
+
+##### Types 
+
+**Simple Product**
+
+A simple product is a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.
+
+**Grouped Product**
+
+A grouped product presents multiple, standalone products as a group. You can offer variations of a single product, or group them for a promotion. The products can be purchased separately, or as a group.
+
+**Configurable Product**
+
+A configurable product appears to be a single product with lists of options for each variation. However, each option represents a separate, simple product with a distinct SKU, which makes it possible to track inventory for each variation.
+
+**Virtual Product** 
+
+Virtual products are not tangible products, and are typically used for products such as services, memberships, warranties, and subscriptions. Virtual products can be used in association with grouped and bundle products.
+
+**Bundle Product**
+
+A bundle product let customers “build their own” from an as sort of options. The bundle could be a gift basket, computer, or any things else that can be customized. Each item in the bundle is a separate, standalone product.
+
+**Downloadable Product**
+
+A digitally downloadable product that consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server
+
+**Custom Sale** 
+
+A custom sale product is a special product that can be ordered personally or customized along Customer Demand. This product will only be shown in POS.
+
+**Store Credit**
+
+A store credit helps customer save and earn credit after purchasing a product, or or refund products “without using money”. Besides, Store Credit can be used in purchasing. 
+
+**Gift Card**
+
+A gift card is a prepaid stored-value money product. Customer can use gift card as an alternative to cash for purchases within a particular store or related business.
+
+##### Manage Product
+
+_Path: **Catalog > Manage Products**
+
+![Sample](./Image_Growth_m1/image119.png?raw=true)
+
+(1) All Products will be shown in grid, including columns named **ID, Name, Type, Attribute Set Name, SKU, Price, Qty, Visibility, Status, Website**, and **Action**.
+
+(2) **Add Product**: click on Add Product to add a new Product. 
+
+Then you will be linked to the page as below:
+
+![Sample](./Image_Growth_m1/image120.png?raw=true)
+
+Choose **Attribute Set** and **Product Type** that you want to create. 
+
+Click on **Continue** to work the next step.
+
+##### Add New Product (Step by Step) 
+
+**a) Simple Product** 
+_**Step 1: General Information**_
+
+![Sample](./Image_Growth_m1/image121.png?raw=true)
+
+Here, you need to enter required fields, such as **Name, Description, Short Description, SKU, Status**, and **Visibility**
+
+Besides, you can set up fields such as **Set Product as New from Date … to Date, URL Key, Country of Manufacture, Select the Gift Code Sets**, and **Enable on Web POS**
+
+_**Step 2: Product Prices**_ 
+
+![Sample](./Image_Growth_m1/image122.png?raw=true)
+
+Now, you click on **Prices** tab on your left hand. Then, you enter required fields – **prices** and **tax class**. You can also set up the **Special Price**, the **date** of Special Price, **Cost, Tier Price, Apply Map, Display Actual Price, Manufacturer’s Suggested Retail Price** and **Credit Value**.
+
+_**Step 3: Meta Information, Images, Recurring Profile and Design**_ 
+
+**Meta Information**
+
+![Sample](./Image_Growth_m1/image123.png?raw=true)
+
+This help you improve your SEO. Enter **Meta Title, Meta Keywords** and **Meta Description** (maximum characters = 255)
+
+**Images** 
+
+![Sample](./Image_Growth_m1/image124.png?raw=true)
+
+Click on **Browse files** to select file, then click on **Upload files** to use that file
+
+If you want to remove the image, then tick on **Remove** Column, then click **Save**
+
+**Recurring Profile** 
+
+![Sample](./Image_Growth_m1/image125.png?raw=true)
+
+When you click here, the default will be **No**
+
+Product with recurring profile participates in catalog as nominal items 
+
+**Design**
+
+![Sample](./Image_Growth_m1/image126.png?raw=true)
+
+Here, you can set up **Custom Design**, **the date of Active, Custom Layout Updates, Page Layout** and **Display Product Options in**
+
+_**Step 4: Gift Options**_ 
+
+![Sample](./Image_Growth_m1/image127.png?raw=true)
+
+In this section, you will select whether do you want to **Allow Gift Message** and **Gift Wrapping** for the product. If **Yes**, then enter the price for **Gift Wrapping**
+
+_**Step 5:  Inventory and Barcode**_ 
+
+**Inventory
+
+![Sample](./Image_Growth_m1/image128.png?raw=true)
+
+(1) **Inventory**: 
+Set up **Manage Stock**, **Qty (required), Qty for Item’s Status to Become out of Stock, Minimum and Maximum Qty Allowed in Shopping Cart, Qty Uses Decimals, ackorders, Notify for Quantity Below, Enable Qty Increments** and **Stock Availability**
+
+(2) **Warehouse Stocks**:
+Click on **Register to Warehouse** button. 
+
+![Sample](./Image_Growth_m1/image129.png?raw=true)
+
+Then, you will select the **warehouse**, enter the **Qty** in **Warehouse** and **Shelf Location**. 
+After that, click on **Register to Warehouse** button to add it. 
+
+(3) **Supplier**
+Click on **Register to Suppliers**
+
+![Sample](./Image_Growth_m1/image130.png?raw=true)
+
+Then, select the Supplier, enter Supplier Product SKU, Cost and Tax(%)
+After that, click on **Register to Suppliers** button to finish
+
+**Barcode**
+
+![Sample](./Image_Growth_m1/image131.png?raw=true)
+
+Select **Barcode Template**
+Then select the **Barcode** for the new product
+To create a barcode, read Section 2.5. Barcode Management
+
+
+_**Step 6: Websites and Categories**_
+
+**Website**
+
+![Sample](./Image_Growth_m1/image132.png?raw=true)
+
+Select **Website(s)** that you will sell this new product 
+
+**Categories** 
+
+![Sample](./Image_Growth_m1/image133.png?raw=true)
+
+Select **Product Categories** of the new product. 
+
+_**Step 7: Related Products, Up-sells, and Cross-sells**_
+
+With **Related Products, Up-sells and Cross-sells**, you just need to tick on the products. Then click on Save to activate it. 
+
+![Sample](./Image_Growth_m1/image134.png?raw=true)
+
+_**Step 8: Custom Option
+
+![Sample](./Image_Growth_m1/image135.png?raw=true)
+
+Click on **Add New Option**. Then, enter **Title**, select **Input Type**, **Required** Allowance and enter **Sort Order**
+
+**b) Grouped Product** 
+
+_The price of grouped products will be calculated according to the price of each products in the group._
+
+**Step 1: General Infomation** same here
+
+**Step 2: Associated Products**
+This section lies in the bottom of the **Product Information** panel.
+
+![Sample](./Image_Growth_m1/image136.png?raw=true)
+
+Select the **checkbox** of each product that you want to include.
+
+**Step 3: _Meta Information, Images, Recurring Profile and Design same here_**
+
+**Step 4: Gift Option**
+
+**Step 5: _Inventory and Barcode_**
+
+**Inventory**
+
+![Sample](./Image_Growth_m1/image137.png?raw=true)
+
+(1) **_Inventory_**: you just need to activate/inactivate the button Manage Stock, Enable Qty Encrements and Stock Availability
+
+(2) **_Warehouse Stocks_**: 
+If you click on **Register to Warehouse** button, then: 
+
+![Sample](./Image_Growth_m1/image138.png?raw=true)
+
+Select the warehouse. Click on **Register to Warehouse** to save
+
+**(3) Supplier** 
+
+If you click on **Register to Suppliers** button, then: 
+
+![Sample](./Image_Growth_m1/image139.png?raw=true)
+
+Select the supplier. Click on **Register to Suppliers** to save
+
+**Step 6:  Websites and Categories**
+
+**Step 7: Related Products, Up-sells, and Cross-sells**
+
+**c) Configurable Product**
+
+![Sample](./Image_Growth_m1/image140.png?raw=true)
+
+Tick on **Select the Gift Code Sets** 
+
+Then, click on **Continue**
+
+Most of the steps here will be similar to Grouped Products, except:
+
+- You have to set up the **price** for **Configurable Product** (similar to what you do with **Simple Product**)
+
+- You also need to set up price for **Gift Wrapping**. 
+
+- Besides, you HAVE the options to set up **Custom Options**.
+
+**d) Virtual Product**
+
+Same as **Simple Product**
+
+**e) Bundle Product** 
+
+**Step 1: General Information**
+
+In addition to basic fields as Simple Product, you need to fill in others.
+
+![Sample](./Image_Growth_m1/image141.png?raw=true)
+
+Set both the **SKU** and **Weight** as **Dynamic** OR **Fixed**
+
+If using a **fixed SKU** or **Weight**, enter the actual value in the field to the right.
+
+**Step 2: Product Prices**
+
+![Sample](./Image_Growth_m1/image142.png?raw=true)
+
+Beside similar fields as **Simple Product**, you need to notice about:
+
+(1) **Price** tab:
+
+You can set the Price as Dynamic or Fixed. 
+
+If using a **fixed Price**, enter the actual value in the field to the right. 
+
+(2) **Price View**
+Select to set the Price view **As Low As** the actual price or on the **Price Range**
+
+**Step 3: Meta Information, Images, Recurring Profile and Design**
+
+**Step 4: Gift Option**
+
+**Step 5: Inventory and Barcode**
+
+**Step 6: Websites and Categories**
+
+**Step 7: Related Products, Up-sells, and Cross-sells**
+
+**Step 8**: Custom Option same here. Notice that: Bundle with dynamic pricing cannot include custom defined option. Options will not be saved.
+
+**Step 9**: : Bundle Items
+
+![Sample](./Image_Growth_m1/image143.png?raw=true)
+
+**(1) Shipment**:
+**Ship Bundle Items**: select **Together** or **Separately**
+
+**(2)Bundle Items**: 
+
+![Sample](./Image_Growth_m1/image144.png?raw=true)
+
+Click on **Add New Option** button to add bundle items. 
+
+Enter the **Default Title** of bundle items
+
+Select **Input Type, Required** Allowance, and insert **Position** of bundle items
+
+Click on **Add Selection**, then:
+
+![Sample](./Image_Growth_m1/image145.png?raw=true)
+
+Tick on the products that you want to select to add. 
+
+Then, to save it, click on **Add Selected Product(s) to Option** button. 
+
+**f) Downloadable Product**
+
+Most of steps are similar to **Simple Product**, except:
+
+_**Step 9: Downloadable Product**_ 
+
+**Links**: 
+
+![Sample](./Image_Growth_m1/image146.png?raw=true)
+
+(1) **Title**: enter the title for the list of downloadable products
+
+(2) **Links can be purchase separately**: choose **Yes** if you want to offer a multiple download link. 
+ 
+(3) Click on **Add New Row**, then:
+
+![Sample](./Image_Growth_m1/image147.png?raw=true)
+
+- **Title** and **Price**: insert the **Title** and **Price** of the downloadable product
+
+- **Max number of downloads**: enter the highest number of downloads ONE customer can make. To allow unlimited downloads, select the Unlimited checkbox.
+
+- **Shareable**: select **No**, then your customer will NEED to log in their account to access the download link.
+
+- **Sample**: select the sample file to upload to server OR paste the full URL on the URL field. 
+
+- **File**: as above
+
+- **Sort Order**: enter a number to indicate the sequence that this download will be listed with other downloads on the product page
+
+Click on **Add New Row** button, to add another downloadable product.
+
+**Upload Files** button: when you have completed upload files to server, click on Upload Files button to finish.
+
+Click on **Save and Continue to Edit** button to move on. 
+
+**Samples**: 
+
+![Sample](./Image_Growth_m1/image148.png?raw=true)
+
+Click to expand the **Samples** section
+
+Then, enter the **Title** of the list of samples
+
+Click on **Add New Row** to add samples to the list
+
+![Sample](./Image_Growth_m1/image149.png?raw=true)
+
+Insert the **Title** of the Sample, then choose to upload the sample by **File** or paste **URL**. Enter the Sort Order 
+
+After that, if you upload sample **File**, then click on **Upload Files** button to finish. If you choose to paste **URL**, then move straight to the final step - click **Save** to finish all
+
+**g) Store Credit**
+
+**Step 1: General Information**
+
+**Step 2: Product Prices**
+
+![Sample](./Image_Growth_m1/image150.png?raw=true)
+
+- **Tax Class**: select the tax class for the store credit product
+
+- **Type of Store Credit value**: select the type of product value (**Range** or **Dropdown**)
+
+- **Store Credit value**: enter the value of store credit
+
+- **Credit Rate**: enter the credit rate
+
+**Step 3: Meta Information, Images, Recurring Profile and Design 
+
+**Step 4: Gift Options** 
+
+**Step 5: Inventory and Barcode 
+
+**Step 6: Websites and Categories 
+
+**Step 7: Related Products, Up-sells, and Cross-sells 
+
+**Step 8: Custom Option
+
+**h) Gift Card**
+
+**Step 1: General Information
+
+Complate similar fields as **Simple Product**, then:
+
+![Sample](./Image_Growth_m1/image151.png?raw=true)
+
+(1) **SKU** and **Weight**: 
+
+(2) **Select Gift Card Templates**: select the template for your gift card (you can choose more than one)
+
+**Step 2: Product Prices** 
+
+![Sample](./Image_Growth_m1/image152.png?raw=true)
+
+(1) **Tax Class** and **Type of Gift Card value**: similar to **Store Credit**
+
+(2) **Gift Card value**: insert the value of the gift card. Besides, you can select **Type of Gift Card price**. 
+You cannot enter **credit value** here. 
+
+**Step 3: Meta Information, Images, Recurring Profile and Design**
+
+**Step 4: Gift Options
+
+**Step 5: Inventory and Barcode 
+
+![Sample](./Image_Growth_m1/image153.png?raw=true)
+
+Set up wheter you want to **Manage Stock** and **Enable Qty Increments**
+
+Enter the **Minimum** and **Maximum Qty Allowed in Shopping Cart**
+
+**Step 6: Websites and Categories
+
+**Step 7: Related Products, Up-sells, and Cross-sells
+
+**Step 8: Custom Option
+
+**Step 9: Shopping Cart Conditions
+
+![Sample](./Image_Growth_m1/image154.png?raw=true)
+
+(1) **Description**: describe conditions applied to shopping card when using this gift code
+
+(2) **Set conditions**: set up the conditions for the sopping cart to use gift card
+
+**Step 10: Cart Item Conditions
+
+![Sample](./Image_Growth_m1/image155.png?raw=true)
+
+Set up the condition for the product in cart when using Gift Card
+
+**i) Custom Sale**
+
+Similar as **Simple Product**, except that you cannot set up the price for custom sale
+
+_Note_: 
+
+- While you are adding products, you can also create a new attribute by clicking on **Create New Attribute** button 
+
+![Sample](./Image_Growth_m1/image156.png?raw=true)
+
+- When you set **Attribute Set** along with your own set (eg: **Clothing**), then it will appear on the left panel
+
+![Sample](./Image_Growth_m1/image157.png?raw=true)
+
+On your right hand, you can set up the product features
 
 ### Customers 
 
