@@ -1686,7 +1686,7 @@ Then, enter the **Title** of the list of samples
 
 Click on **Add New Row** to add samples to the list
 
-![Sample](./Image_Growth_m1/image150.png?raw=true)
+![Sample](./Image_Growth_m1/image151.png?raw=true)
 
 Insert the **Title** of the Sample, then choose to upload the sample by **File** or paste **URL**. Enter the Sort Order 
 
@@ -1698,7 +1698,7 @@ After that, if you upload sample **File**, then click on **Upload Files** button
 
 **Step 2: Product Prices**
 
-![Sample](./Image_Growth_m1/image151.png?raw=true)
+![Sample](./Image_Growth_m1/image152.png?raw=true)
 
 - **Tax Class**: select the tax class for the store credit product
 
@@ -1726,7 +1726,7 @@ After that, if you upload sample **File**, then click on **Upload Files** button
 
 Complate similar fields as **Simple Product**, then:
 
-![Sample](./Image_Growth_m1/image152.png?raw=true)
+![Sample](./Image_Growth_m1/image153.png?raw=true)
 
 (1) **SKU** and **Weight**: 
 
@@ -1734,7 +1734,7 @@ Complate similar fields as **Simple Product**, then:
 
 **Step 2: Product Prices** 
 
-![Sample](./Image_Growth_m1/image153.png?raw=true)
+![Sample](./Image_Growth_m1/image154.png?raw=true)
 
 (1) **Tax Class** and **Type of Gift Card value**: similar to **Store Credit**
 
@@ -1747,7 +1747,7 @@ You cannot enter **credit value** here.
 
 **Step 5: Inventory and Barcode 
 
-![Sample](./Image_Growth_m1/image154.png?raw=true)
+![Sample](./Image_Growth_m1/image155.png?raw=true)
 
 Set up wheter you want to **Manage Stock** and **Enable Qty Increments**
 
@@ -1761,7 +1761,7 @@ Enter the **Minimum** and **Maximum Qty Allowed in Shopping Cart**
 
 **Step 9: Shopping Cart Conditions
 
-![Sample](./Image_Growth_m1/image155.png?raw=true)
+![Sample](./Image_Growth_m1/image156.png?raw=true)
 
 (1) **Description**: describe conditions applied to shopping card when using this gift code
 
@@ -1769,7 +1769,7 @@ Enter the **Minimum** and **Maximum Qty Allowed in Shopping Cart**
 
 **Step 10: Cart Item Conditions
 
-![Sample](./Image_Growth_m1/image156.png?raw=true)
+![Sample](./Image_Growth_m1/image157.png?raw=true)
 
 Set up the condition for the product in cart when using Gift Card
 
@@ -1781,11 +1781,11 @@ _Note_:
 
 - While you are adding products, you can also create a new attribute by clicking on **Create New Attribute** button 
 
-![Sample](./Image_Growth_m1/image157.png?raw=true)
+![Sample](./Image_Growth_m1/image158.png?raw=true)
 
 - When you set **Attribute Set** along with your own set (eg: **Clothing**), then it will appear on the left panel
 
-![Sample](./Image_Growth_m1/image158.png?raw=true)
+![Sample](./Image_Growth_m1/image159.png?raw=true)
 
 On your right hand, you can set up the product features
 
