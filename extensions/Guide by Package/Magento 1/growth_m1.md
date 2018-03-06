@@ -781,7 +781,52 @@ Remember to click on **Save Config** button to complete your configuration proce
 
 ### Store Pick up 
 
+You have seen how Store Pickup works in front-end for customers. The following part will guide you through how to configure and manage the module in back-end.
+
+_Tips_: For quick instructions on where to set up each function and how to get Google Map API Key, you can go to: **Store Pickup > Settings > General**
+
+Click on the link for Google Map API Key Registration Guide
+
+![Sample](./Image_Growth_m1/image066.png?raw=true)
+
+_Update_: **One of the most important Google Maps APIs Standard Plan updates implemented on June 22, 2016 was that** required future product updates are only available for requests made with an API key.
+
+This means active domains created before June 22, 2016, continue to be able to access the Google Maps JavaScript API, Static Maps API, and Street View Image API without an API key. They are not affected by keyless access being unavailable for new domains.
+
+However, Google Maps APIs Standard Plan advises all developers to use a key to guarantee their quality of service. Applications that continue to make keyless requests may experience some periodic service degradation if other keyless applications' usage spikes and draws down the global unchanged quota.
+
 #### Manage Store 
+
+_Path: **Store Pickup > Manage Stores**_
+
+The **Store Manager** grid shows all stores created in your system with their address and status. To add new stores, you can add them manually and import from CSV files.
+
+###### Add Store 
+
+_Path: **Store Pickup > Manage Stores**_
+
+![Sample](./Image_Growth_m1/image067.png?raw=true)
+
+Here you can add new stores by importing via a CSV file or manually input information with **Add New Store** button. You will be navigated to the **Add Store** page, which includes 3 tabs:
+
+- General Information
+
+- Time Schedule
+
+- Customer Message
+
+_Notes_: Before reading the detailed function of each tab, please remember to click **Save Store** after making changes on these tabs to apply the changes before you leave.
+
+![Sample](./Image_Growth_m1/image068.png?raw=true)
+
+**a) General Information** 
+
+**Store Information** 
+
+![Sample](./Image_Growth_m1/image069.png?raw=true)
+###### Import Store
+
+###### Edit Store
 
 #### Manage Holidays 
 
