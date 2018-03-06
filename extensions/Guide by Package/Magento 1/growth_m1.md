@@ -1049,9 +1049,48 @@ After configuring all fields, click on the **Save Config** button to save your
 
 ## HOW TO MANAGE USER PERMISSION 
 
+![Sample](./Image_Growth_m1/image091.png?raw=true)
+
 ### How to Manage User Roles and Users
 
 #### Decentrialize Roles 
+
+_Path: **System > Permissions > Roles**_
+
+##### Manage Roles 
+
+![Sample](./Image_Growth_m1/image092.png?raw=true)
+
+(1) You can click on
+
+- **Add New Role**: add new role for your business
+- **Reset Roles**: after you add a new role, or reload page to update roles
+
+(2) **Role Management** Field
+
+Management Table:
+
++ **Role Name**: type the role name that you want to search
+
++ **ID**: you can search the roles by ID
+
+- **Search**: after you type Role Name or ID, you can click on **Search**, or tap **Enter** on your keyboard
+
+- **Reset Filter**: if you want to come back to the whole role management, click on **Reset Filter**. 
+
+Besides, to edit Roles, you just need to click on the Role Name that you want to edit. Example below:
+
+![Sample](./Image_Growth_m1/image093.png?raw=true)
+
+You can edit **Role Name, Role Resources** and check which Users are using this Role on **Role Users**
+
+![Sample](./Image_Growth_m1/image094.png?raw=true)
+
+Remember to **Save Role** to finish
+
+##### Create a New Role 
+
+
 
 #### Decentrialize Users 
 
