@@ -1315,7 +1315,7 @@ _Path: **Catalog > Attributes > Manage Attributes**_
 
 _Path: **Catalog > Attributes > Manage Attribute Sets**_
 
-![Sample](./Image_Growth_m1/image116.png?raw=true)
+![Sample](./Image_Growth_m1/image117.png?raw=true)
 
 (1) The Attribute Sets will be shown in table
 
@@ -1325,7 +1325,7 @@ _Path: **Catalog > Attributes > Manage Attribute Sets**_
 
 _Path: **Catalog > Manage Categories**_
 
-![Sample](./Image_Growth_m1/image117.png?raw=true)
+![Sample](./Image_Growth_m1/image119.png?raw=true)
 
 When selecting a category on the left, all the information will be displayed on the right.
 
