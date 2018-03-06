@@ -58,7 +58,26 @@ And here is the performance of working POS:
 
 ##### Assign New POS to Cashiers 
 
+Path: Sales > Web POS section > Web POS Permissions > POS Users
+
+![Sample](./Image_Growth_m1/image008.png?raw=true)
+
+(1) **Add User** button: to add POS to new cashier, click on this button and follow the guide in the Section 3.2. How to manage staff in Web POS
+(2) **Action** field: to assign POS to recent cashiers, click on Edit, then:
+
+![Sample](./Image_Growth_m1/image009.png?raw=true)
+
+On the User Settings tab, edit these fields:
+
+(1) **Locations** : select the locations your staff are working
+(2) **POS**: select POS that you want to assign to your cashier (can choose more than one by holding Ctrl + Click)
+Role: edit role (if needed)
+(3) **Role** 
+(4) **Status**: choose Enabled if you want to activate the staff work
+
 #### Diffirentiate Access Permission 
+
+Refer to the Section 3.2. How to manage staff
 
 #### General Settings 
 
