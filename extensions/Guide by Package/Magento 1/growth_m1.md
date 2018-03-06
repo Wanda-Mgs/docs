@@ -325,6 +325,40 @@ _Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **
 
 #### Product Stock Options 
 
+_Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **Product Stock Options**_
+
+![Sample](./Image_Growth_m1/image25.png?raw=true)
+
+(1)**Manage Stock**: Select Yes to activate inventory control for your catalog. 
+
+(2) **Backorders**: select
+
+- **Backorders** to one of the following status: 
+
+- **No Backorders** to reject backorders when product is out of stock.
+
+- **Allow Qty. Below 0** to accept backorders when the quantity falls below zero. 
+
+- **Allow Qty. Below 0 and Notify Customer** to accept backorders when the quantity falls below zero, and notify the customer that the order can still be placed.
+
+(3) **Maximum Qty. Allowed in Shopping Cart**: Enter the **Maximum Qty**. allowed in Shopping Cart.
+
+(4) **Qty. for Item’s Status to Become Out of Stock**: Enter the quantity for Item's Status to become out of stock.
+
+(5) **Minimum Qty. Allowed in Shopping Cart**: Enter the **Minimum** quantity allowed in Shopping Cart.
+
+Next, 
+
+![Sample](./Image_Growth_m1/image26.png?raw=true)
+
+(6) **Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
+
+(7) **Enable Qty. Increments**: Select **Yes** to activate quantity increments for the product. Then in the **Qty. Increments field**, enter the number of the items that must be purchased to meet the requirement mentioned above.
+
+(8) **Automatically Return Credit Memo Item to Stock**: Select **Yes** to return the item to inventory by default when a credit memo is issued for the item.
+
+Finally, click on **Save Config** button to save changes. 
+
 ### Inventory Report 
 
 ### Barcode Management 
