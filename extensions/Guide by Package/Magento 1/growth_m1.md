@@ -1149,7 +1149,7 @@ _Path: **System > Permissions > Users > Add New User**_
 
 **User Info**
 
-![Sample](./Image_Growth_m1/image0100.png?raw=true)
+![Sample](./Image_Growth_m1/image100.png?raw=true)
 
 (1) Enter **User Name**, **First Name**, **Last Name** and **User email**
 
