@@ -73,9 +73,8 @@ On the User Settings tab, edit these fields:
 (1) **Locations** : select the locations your staff are working
 
 (2) **POS**: select POS that you want to assign to your cashier (can choose more than one by holding Ctrl + Click)
-Role: edit role (if needed)
 
-(3) **Role** 
+(3) **Role**: edit role _(if needed)_
 
 (4) **Status**: choose Enabled if you want to activate the staff work
 
@@ -219,7 +218,30 @@ The Email Template is set as the **Store’s Default Template**
 
 #### Configure Receipt Printing 
 
+![Sample](./Image_Growth_m1/image019.png?raw=true)
+
+(1) Choose **Yes** to activate **Auto-print Receipt After Placing Order**. 
+
+Notes: The function cannot work if your browser blocks automatic pop-up. 
+
+(2) **Content**:
+
+Choose **fonts**: Monospace or Sans-serif
+
+With **Footer** and **Header** Text, you can fill in the content and choose simple **HTML** tags.
+
+(3) **Optional Fields**:
+Choose **Yes** to show **Web POS logo**, **Cashier name**, **Comment** and **Barcode** _(encode order increment ID)_
+
 #### How WEB POS Works with Peripheral Devices 
+
+Magestore’s Web POS module can connect with **Barcode readers**, **Card swiper & Receipt printers.**
+
+**Barcode readers**: are any devices that can connect with iPad/Laptop/PC (including USB Port, Wifi or Bluetooth). The scanner can read barcodes & fill encoded information into Web POS search box.
+
+**Card swiper**: only devices connected through USB port (supports Authorize.Net & Stripe).
+
+**Receipt printers**: any devices that connect with iPad/laptop/PC
 
 ### Retailer POS 
 
