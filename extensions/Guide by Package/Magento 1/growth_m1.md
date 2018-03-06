@@ -411,6 +411,42 @@ BAR[A.4][AN.6]: BARADFA12ND0O
 
 ### Purchase Management 
 
+_Path: **Purchase Management > Setting**_
+
+![Sample](./Image_Growth_m1/image32.png?raw=true)
+
+In the Purchase Configuration, there are 5 tabs: **Product config, Shipping Method, Payment Method, Payment Term**, and **Tax and Shipping**
+
+**Product Config** 
+
+![Sample](./Image_Growth_m1/image33.png?raw=true)
+
+In this tab, you can choose to get product from **Supplier** or **All store**
+
+**Shipping Method** 
+
+![Sample](./Image_Growth_m1/image34.png?raw=true)
+
+Here you can add/edit/delete Shipping methods for purchase orders. Click **Add**, enter name of the shipping method and set its status **(Enable/Disable)**. Click **Delete** to delete a shipping method. 
+
+**Payment Method** 
+
+![Sample](./Image_Growth_m1/image35.png?raw=true)
+
+This tab allows you to add/edit or delete Payment methods for purchase orders. Click on **Add**, enter name of the payment method and set status (Enable/Disable) for each one. Click **Delete** to delete a payment method.
+
+**Payment Term**
+
+![Sample](./Image_Growth_m1/image36.png?raw=true)
+
+This tab allows you to add/edit or delete Payment terms for purchase orders. Click on Add, enter name of the payment term and set status (Enable/Disable) for each one. Click Delete to delete a payment term
+
+![Sample](./Image_Growth_m1/image37.png?raw=true)
+
+This tab allows you to choose to apply customer tax before or after Discount. Choose **Before Discount** or **After Discount** from the drop-down list. 
+
+After finish filling all tabs, click on Save Config to save your work. 
+
 ### Gift Card 
 
 ### Reward Points
