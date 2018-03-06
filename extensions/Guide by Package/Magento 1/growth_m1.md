@@ -824,13 +824,142 @@ _Notes_: Before reading the detailed function of each tab, please remember to cl
 **Store Information** 
 
 ![Sample](./Image_Growth_m1/image069.png?raw=true)
+
+Users must fill in all required fields, such as _**Store name, Shipping Fee, Address, etc.**_
+
+_Tips_: You can input content for the **Description field** in HTML for better display in frontend, such as customized format, attached links, etc.
+
+**Contact Information**
+
+![Sample](./Image_Growth_m1/image070.png?raw=true)
+
+It allows you to enter information of store’s manager such as email address, phone number, etc. so customers will know how to contact if needed. You can configure to enable automatic emails sent to the store manager when pickup orders’ status is changed.
+
+**Google Map**
+
+![Sample](./Image_Growth_m1/image071.png?raw=true)
+
+Fill your store’s address in this field or pin from the map, remember to click on the Save Store or Save And Continue Edit button to save your work. After that, store’s location will be updated automatically on Google Map.
+
+There are 5 sessions: 
+
+- **Zoom Level**: It is used when previewing the store’s location on Google Map in backend and on the Store Listing page in frontend. The higher number you set, the higher zoom-in level is
+
+- **Store Latitude**: You do not need to fill them out if you do not remember your store’s coordinates. If you pin a store directly from G-map, these fields will be filled automatically
+
+- **Store Longitude**: You do not need to fill them out if you do not remember your store’s coordinates. If you pin a store directly from G-map, these fields will be filled automatically
+
+- **Pin Color**: Set a color to display your store’s pin on Map
+
+- **Store icon**: you can upload your own image to replace the default marker icon of Google on the map
+
+**b) Time Schedule** 
+
+![Sample](./Image_Growth_m1/image072.png?raw=true)
+
+This tab allows you to create a time schedule for store on each day, from Monday to Sunday
+
+(1) **Open** - Choose **Yes** to set Monday as a working day, choose **No** to set Monday as a day off
+
+(2) **Time Interval** – Set interval between 2 shipping Time options, you can choose from a range of 15 minutes, 30 minutes or 45 minutes.
+
+(3) Set up other details as: _**Opening time, Lunch break starts at, Lunch break ends at, Closing Time**_
+
+Similarly, you can set opening hours for each remaining day of the week. To quickly set up, click on the Apply to All button. Other days will have the same working time as Monday.
+
+(4) After entering all the necessary data, remember to click on the **Save Store** or **Save and Continue Edit** button to save your work
+
+**c) Customer Message**
+
+![Sample](./Image_Growth_m1/image073.png?raw=true)
+
+When customers fill in the Contact Form on the Store Detailed page, all messages are saved in this tab allowing admin/ store manager to review later.
+
 ###### Import Store
+
+_Path: **Store Pickup > Manage Stores**
+
+![Sample](./Image_Growth_m1/image074.png?raw=true)
+
+Click on the Import Store button on the top right corner of the **Store Manager** page. You will be navigated to the **Import File** page.
+
+**CSV file structure**
+
+You can download the sample _**stores.csv**_ file to view its structure. The columns are attribute values of the store and each row corresponds to one store. The title row (first row) contains the attribute name; you can note it (important!) because the system reads data from CSV files based on the name. If the attribute value of any stores is null, you don’t have to fill data in to it.
+
+![Sample](./Image_Growth_m1/image075.png?raw=true)
+
+**Import File**
+
+- Create a CSV file with information of your store following the sample file structure
+
+- Click on button **Choose File** to select your CSV file
+
+- Select **Save Store** to import the CSV file
 
 ###### Edit Store
 
+_Path: **Store Pickup > Manage Stores**_
+
+![Sample](./Image_Growth_m1/image076.png?raw=true)
+
+On the **Store Manager** grid, you click on any store to edit. Besides 3 tabs when you create a new store, you can see more **Related Orders** tab.
+
+![Sample](./Image_Growth_m1/image077.png?raw=true)
+
+This tab shows you all pickup orders of this store.
+
+_Notes_:
+
+When a store is imported or created manually, the system will automatically get the coordinates based on the store address by using Google API. However, in some cases, this way may be not completely accurate. Therefore, the Google Map tab allows you to edit store coordinates manually.
+
+You can see it at the left upper. Click on this tab, the Google map will be displayed. You can reset store position by clicking on any point on the map, and then select **Save Store**.
+
+When you edit the store address (street, city or state/province) in **General Information**, the store coordinates will be auto-updated after being saved. You can also edit the color of store’s pin shown on map and preview it.
+
 #### Manage Holidays 
 
+_Path: **Store Pickup > Manage Holidays**_
+
+![Sample](./Image_Growth_m1/image078.png?raw=true)
+
+In **Holiday Manager** page, click on **Add Holiday** button to set days off for your store.
+
+![Sample](./Image_Growth_m1/image079.png?raw=true)
+
+(1) **Holiday Name**: Enter the holiday name
+
+(2) **Store**: Select store(s) to apply holiday from the list
+
+(3) **Starting Date**: Select the start date of holiday
+
+(4) **End Date**: Select the end date of holiday
+
+(5) **Comment**: Write comment on special holiday(s)
+
+(6) Click on **Save Items** or **Save and Continue Edit** to save your work
+
 #### Manage Special Days 
+
+_Path: **Store Pickup > Manage Special Days**_
+
+![Sample](./Image_Growth_m1/image080.png?raw=true)
+
+To set days with special working time for your stores, in **Special Day Manager**, click on the **Add Special Day** button to create a new one.
+
+![Sample](./Image_Growth_m1/image081.png?raw=true)
+
+On the **Add Special Day** page:
+
+(1) **Special Day Name**: Enter special day name
+(2) **Store**: Select store(s) to apply special working days from the list
+(3) & (4) **Starting Date & End Date**: Select the start date and end date of special days
+(5) **Time Interval**: Set interval between shipping time options shown to customers at checkout, such as 15 minutes
+(6) & (7) **Opening Time & Closing Time**: Choose opening and closing time applied to these special days
+(8) **Comment**: Write comments on the special days
+(9) Click on **Save Special Day** or **Save and Continue Edit** to save your work
+
+_Notes_: Special days have the highest priority compared with holidays and other days. If a specific date is assigned as both store’s special day and holiday, it will be counted as special working day. The store still opens for pickup on that date but with special opening hours as you configured.
 
 #### Manage Tags 
 
