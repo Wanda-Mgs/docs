@@ -1325,7 +1325,7 @@ _Path: **Catalog > Attributes > Manage Attribute Sets**_
 
 _Path: **Catalog > Manage Categories**_
 
-![Sample](./Image_Growth_m1/image119.png?raw=true)
+![Sample](./Image_Growth_m1/image118.png?raw=true)
 
 When selecting a category on the left, all the information will be displayed on the right.
 
@@ -1333,7 +1333,7 @@ You can easily edit any Category Information. Remember to click on **Save Catego
 
 Or else, you can delete Category from your store by click on **Delete Category** button.
 
-![Sample](./Image_Growth_m1/image118.png?raw=true)
+![Sample](./Image_Growth_m1/image119.png?raw=true)
 
 (1) **Add Root Category** and **Add Subcategory**:  click on the button
 
@@ -1385,7 +1385,7 @@ A gift card is a prepaid stored-value money product. Customer can use gift card 
 
 _Path: **Catalog > Manage Products**
 
-![Sample](./Image_Growth_m1/image119.png?raw=true)
+![Sample](./Image_Growth_m1/image120.png?raw=true)
 
 (1) All Products will be shown in grid, including columns named **ID, Name, Type, Attribute Set Name, SKU, Price, Qty, Visibility, Status, Website**, and **Action**.
 
@@ -1393,7 +1393,7 @@ _Path: **Catalog > Manage Products**
 
 Then you will be linked to the page as below:
 
-![Sample](./Image_Growth_m1/image120.png?raw=true)
+![Sample](./Image_Growth_m1/image121.png?raw=true)
 
 Choose **Attribute Set** and **Product Type** that you want to create. 
 
@@ -1404,7 +1404,7 @@ Click on **Continue** to work the next step.
 **a) Simple Product** 
 _**Step 1: General Information**_
 
-![Sample](./Image_Growth_m1/image121.png?raw=true)
+![Sample](./Image_Growth_m1/image122.png?raw=true)
 
 Here, you need to enter required fields, such as **Name, Description, Short Description, SKU, Status**, and **Visibility**
 
@@ -1412,7 +1412,7 @@ Besides, you can set up fields such as **Set Product as New from Date … to Dat
 
 _**Step 2: Product Prices**_ 
 
-![Sample](./Image_Growth_m1/image122.png?raw=true)
+![Sample](./Image_Growth_m1/image123.png?raw=true)
 
 Now, you click on **Prices** tab on your left hand. Then, you enter required fields – **prices** and **tax class**. You can also set up the **Special Price**, the **date** of Special Price, **Cost, Tier Price, Apply Map, Display Actual Price, Manufacturer’s Suggested Retail Price** and **Credit Value**.
 
@@ -1420,13 +1420,13 @@ _**Step 3: Meta Information, Images, Recurring Profile and Design**_
 
 **Meta Information**
 
-![Sample](./Image_Growth_m1/image123.png?raw=true)
+![Sample](./Image_Growth_m1/image124.png?raw=true)
 
 This help you improve your SEO. Enter **Meta Title, Meta Keywords** and **Meta Description** (maximum characters = 255)
 
 **Images** 
 
-![Sample](./Image_Growth_m1/image124.png?raw=true)
+![Sample](./Image_Growth_m1/image125.png?raw=true)
 
 Click on **Browse files** to select file, then click on **Upload files** to use that file
 
@@ -1434,7 +1434,7 @@ If you want to remove the image, then tick on **Remove** Column, then click **Sa
 
 **Recurring Profile** 
 
-![Sample](./Image_Growth_m1/image125.png?raw=true)
+![Sample](./Image_Growth_m1/image126.png?raw=true)
 
 When you click here, the default will be **No**
 
@@ -1442,13 +1442,13 @@ Product with recurring profile participates in catalog as nominal items
 
 **Design**
 
-![Sample](./Image_Growth_m1/image126.png?raw=true)
+![Sample](./Image_Growth_m1/image127.png?raw=true)
 
 Here, you can set up **Custom Design**, **the date of Active, Custom Layout Updates, Page Layout** and **Display Product Options in**
 
 _**Step 4: Gift Options**_ 
 
-![Sample](./Image_Growth_m1/image127.png?raw=true)
+![Sample](./Image_Growth_m1/image128.png?raw=true)
 
 In this section, you will select whether do you want to **Allow Gift Message** and **Gift Wrapping** for the product. If **Yes**, then enter the price for **Gift Wrapping**
 
@@ -1456,7 +1456,7 @@ _**Step 5:  Inventory and Barcode**_
 
 **Inventory
 
-![Sample](./Image_Growth_m1/image128.png?raw=true)
+![Sample](./Image_Growth_m1/image129.png?raw=true)
 
 (1) **Inventory**: 
 Set up **Manage Stock**, **Qty (required), Qty for Item’s Status to Become out of Stock, Minimum and Maximum Qty Allowed in Shopping Cart, Qty Uses Decimals, ackorders, Notify for Quantity Below, Enable Qty Increments** and **Stock Availability**
@@ -1464,7 +1464,7 @@ Set up **Manage Stock**, **Qty (required), Qty for Item’s Status to Become out
 (2) **Warehouse Stocks**:
 Click on **Register to Warehouse** button. 
 
-![Sample](./Image_Growth_m1/image129.png?raw=true)
+![Sample](./Image_Growth_m1/image130.png?raw=true)
 
 Then, you will select the **warehouse**, enter the **Qty** in **Warehouse** and **Shelf Location**. 
 After that, click on **Register to Warehouse** button to add it. 
@@ -1472,14 +1472,14 @@ After that, click on **Register to Warehouse** button to add it.
 (3) **Supplier**
 Click on **Register to Suppliers**
 
-![Sample](./Image_Growth_m1/image130.png?raw=true)
+![Sample](./Image_Growth_m1/image131.png?raw=true)
 
 Then, select the Supplier, enter Supplier Product SKU, Cost and Tax(%)
 After that, click on **Register to Suppliers** button to finish
 
 **Barcode**
 
-![Sample](./Image_Growth_m1/image131.png?raw=true)
+![Sample](./Image_Growth_m1/image132.png?raw=true)
 
 Select **Barcode Template**
 Then select the **Barcode** for the new product
@@ -1490,13 +1490,13 @@ _**Step 6: Websites and Categories**_
 
 **Website**
 
-![Sample](./Image_Growth_m1/image132.png?raw=true)
+![Sample](./Image_Growth_m1/image133.png?raw=true)
 
 Select **Website(s)** that you will sell this new product 
 
 **Categories** 
 
-![Sample](./Image_Growth_m1/image133.png?raw=true)
+![Sample](./Image_Growth_m1/image134.png?raw=true)
 
 Select **Product Categories** of the new product. 
 
@@ -1504,11 +1504,11 @@ _**Step 7: Related Products, Up-sells, and Cross-sells**_
 
 With **Related Products, Up-sells and Cross-sells**, you just need to tick on the products. Then click on Save to activate it. 
 
-![Sample](./Image_Growth_m1/image134.png?raw=true)
+![Sample](./Image_Growth_m1/image135.png?raw=true)
 
 _**Step 8: Custom Option
 
-![Sample](./Image_Growth_m1/image135.png?raw=true)
+![Sample](./Image_Growth_m1/image136.png?raw=true)
 
 Click on **Add New Option**. Then, enter **Title**, select **Input Type**, **Required** Allowance and enter **Sort Order**
 
@@ -1521,7 +1521,7 @@ _The price of grouped products will be calculated according to the price of each
 **Step 2: Associated Products**
 This section lies in the bottom of the **Product Information** panel.
 
-![Sample](./Image_Growth_m1/image136.png?raw=true)
+![Sample](./Image_Growth_m1/image137.png?raw=true)
 
 Select the **checkbox** of each product that you want to include.
 
@@ -1533,14 +1533,14 @@ Select the **checkbox** of each product that you want to include.
 
 **Inventory**
 
-![Sample](./Image_Growth_m1/image137.png?raw=true)
+![Sample](./Image_Growth_m1/image138.png?raw=true)
 
 (1) **_Inventory_**: you just need to activate/inactivate the button Manage Stock, Enable Qty Encrements and Stock Availability
 
 (2) **_Warehouse Stocks_**: 
 If you click on **Register to Warehouse** button, then: 
 
-![Sample](./Image_Growth_m1/image138.png?raw=true)
+![Sample](./Image_Growth_m1/image139.png?raw=true)
 
 Select the warehouse. Click on **Register to Warehouse** to save
 
@@ -1548,7 +1548,7 @@ Select the warehouse. Click on **Register to Warehouse** to save
 
 If you click on **Register to Suppliers** button, then: 
 
-![Sample](./Image_Growth_m1/image139.png?raw=true)
+![Sample](./Image_Growth_m1/image140.png?raw=true)
 
 Select the supplier. Click on **Register to Suppliers** to save
 
@@ -1558,7 +1558,7 @@ Select the supplier. Click on **Register to Suppliers** to save
 
 **c) Configurable Product**
 
-![Sample](./Image_Growth_m1/image140.png?raw=true)
+![Sample](./Image_Growth_m1/image141.png?raw=true)
 
 Tick on **Select the Gift Code Sets** 
 
@@ -1582,7 +1582,7 @@ Same as **Simple Product**
 
 In addition to basic fields as Simple Product, you need to fill in others.
 
-![Sample](./Image_Growth_m1/image141.png?raw=true)
+![Sample](./Image_Growth_m1/image142.png?raw=true)
 
 Set both the **SKU** and **Weight** as **Dynamic** OR **Fixed**
 
@@ -1590,7 +1590,7 @@ If using a **fixed SKU** or **Weight**, enter the actual value in the field to t
 
 **Step 2: Product Prices**
 
-![Sample](./Image_Growth_m1/image142.png?raw=true)
+![Sample](./Image_Growth_m1/image143.png?raw=true)
 
 Beside similar fields as **Simple Product**, you need to notice about:
 
@@ -1617,14 +1617,14 @@ Select to set the Price view **As Low As** the actual price or on the **Price Ra
 
 **Step 9**: : Bundle Items
 
-![Sample](./Image_Growth_m1/image143.png?raw=true)
+![Sample](./Image_Growth_m1/image144.png?raw=true)
 
 **(1) Shipment**:
 **Ship Bundle Items**: select **Together** or **Separately**
 
 **(2)Bundle Items**: 
 
-![Sample](./Image_Growth_m1/image144.png?raw=true)
+![Sample](./Image_Growth_m1/image145.png?raw=true)
 
 Click on **Add New Option** button to add bundle items. 
 
@@ -1634,7 +1634,7 @@ Select **Input Type, Required** Allowance, and insert **Position** of bundle ite
 
 Click on **Add Selection**, then:
 
-![Sample](./Image_Growth_m1/image145.png?raw=true)
+![Sample](./Image_Growth_m1/image146.png?raw=true)
 
 Tick on the products that you want to select to add. 
 
@@ -1648,7 +1648,7 @@ _**Step 9: Downloadable Product**_
 
 **Links**: 
 
-![Sample](./Image_Growth_m1/image146.png?raw=true)
+![Sample](./Image_Growth_m1/image147.png?raw=true)
 
 (1) **Title**: enter the title for the list of downloadable products
 
@@ -1656,7 +1656,7 @@ _**Step 9: Downloadable Product**_
  
 (3) Click on **Add New Row**, then:
 
-![Sample](./Image_Growth_m1/image147.png?raw=true)
+![Sample](./Image_Growth_m1/image148.png?raw=true)
 
 - **Title** and **Price**: insert the **Title** and **Price** of the downloadable product
 
@@ -1678,7 +1678,7 @@ Click on **Save and Continue to Edit** button to move on.
 
 **Samples**: 
 
-![Sample](./Image_Growth_m1/image148.png?raw=true)
+![Sample](./Image_Growth_m1/image149.png?raw=true)
 
 Click to expand the **Samples** section
 
@@ -1686,7 +1686,7 @@ Then, enter the **Title** of the list of samples
 
 Click on **Add New Row** to add samples to the list
 
-![Sample](./Image_Growth_m1/image149.png?raw=true)
+![Sample](./Image_Growth_m1/image150.png?raw=true)
 
 Insert the **Title** of the Sample, then choose to upload the sample by **File** or paste **URL**. Enter the Sort Order 
 
@@ -1698,7 +1698,7 @@ After that, if you upload sample **File**, then click on **Upload Files** button
 
 **Step 2: Product Prices**
 
-![Sample](./Image_Growth_m1/image150.png?raw=true)
+![Sample](./Image_Growth_m1/image151.png?raw=true)
 
 - **Tax Class**: select the tax class for the store credit product
 
@@ -1726,7 +1726,7 @@ After that, if you upload sample **File**, then click on **Upload Files** button
 
 Complate similar fields as **Simple Product**, then:
 
-![Sample](./Image_Growth_m1/image151.png?raw=true)
+![Sample](./Image_Growth_m1/image152.png?raw=true)
 
 (1) **SKU** and **Weight**: 
 
@@ -1734,7 +1734,7 @@ Complate similar fields as **Simple Product**, then:
 
 **Step 2: Product Prices** 
 
-![Sample](./Image_Growth_m1/image152.png?raw=true)
+![Sample](./Image_Growth_m1/image153.png?raw=true)
 
 (1) **Tax Class** and **Type of Gift Card value**: similar to **Store Credit**
 
@@ -1747,7 +1747,7 @@ You cannot enter **credit value** here.
 
 **Step 5: Inventory and Barcode 
 
-![Sample](./Image_Growth_m1/image153.png?raw=true)
+![Sample](./Image_Growth_m1/image154.png?raw=true)
 
 Set up wheter you want to **Manage Stock** and **Enable Qty Increments**
 
@@ -1761,7 +1761,7 @@ Enter the **Minimum** and **Maximum Qty Allowed in Shopping Cart**
 
 **Step 9: Shopping Cart Conditions
 
-![Sample](./Image_Growth_m1/image154.png?raw=true)
+![Sample](./Image_Growth_m1/image155.png?raw=true)
 
 (1) **Description**: describe conditions applied to shopping card when using this gift code
 
@@ -1769,7 +1769,7 @@ Enter the **Minimum** and **Maximum Qty Allowed in Shopping Cart**
 
 **Step 10: Cart Item Conditions
 
-![Sample](./Image_Growth_m1/image155.png?raw=true)
+![Sample](./Image_Growth_m1/image156.png?raw=true)
 
 Set up the condition for the product in cart when using Gift Card
 
@@ -1781,11 +1781,11 @@ _Note_:
 
 - While you are adding products, you can also create a new attribute by clicking on **Create New Attribute** button 
 
-![Sample](./Image_Growth_m1/image156.png?raw=true)
+![Sample](./Image_Growth_m1/image157.png?raw=true)
 
 - When you set **Attribute Set** along with your own set (eg: **Clothing**), then it will appear on the left panel
 
-![Sample](./Image_Growth_m1/image157.png?raw=true)
+![Sample](./Image_Growth_m1/image158.png?raw=true)
 
 On your right hand, you can set up the product features
 
