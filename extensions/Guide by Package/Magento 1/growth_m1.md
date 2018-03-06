@@ -720,7 +720,64 @@ Display Collectible Points
 (2) **Show Earning Rule on Shopping Cart Page**: Choose **Yes** to show Earning Rule on Shopping Cart Page
 
 **Step 2**: Remember to click on **Save Config** button to complete your configuration process.
+
 ### Store Credit 
+
+_Path:  **Store Credit > Settings**_
+
+![Sample](./Image_Growth_m1/image059.png?raw=true)
+
+**Step 1: Configure the following session below** 
+
+**General Configuration** 
+
+![Sample](./Image_Growth_m1/image060.png?raw=true)
+
+(1) **Enable Store Credit**: Activate Store Credit on your site
+(2) **Allow sending Credit**: If **Yes**, you ‘ll allow customers to send credit to their friends
+(3) **Groups can use edit**: Determine which types of customer groups use credits
+
+**Spend Credit On**
+
+![Sample](./Image_Growth_m1/image061.png?raw=true)
+
+(1) **Apply Customer Credit**: If you choose **After tax**, it means customer credit discount will be spent after their order value is taxed. 
+
+(2) **Shipping fee**: If you choose **Yes**, you allow using customer credit for shipping fee. 
+
+**Email Configuration**
+
+![Sample](./Image_Growth_m1/image062.png?raw=true)
+
+(1) **Email template with credit code sent to recipients**: Choose a suitable template with credit code which will be sent to recipients. 
+(2) **Email template with a verification code sent to credit sender**: Choose a suitable email template including verification code which will be sent to credit sender. 
+
+(3) **Send-to-customer email template when recipient receives credit**:  Choose a suitable email template to notify recipients when they receive credit.
+
+(4) **Email template notifying customers**: Choose a suitable email template to notify customers.
+
+**Adjust time for Customers credit reports on total used and total received credit**
+
+![Sample](./Image_Growth_m1/image063.png?raw=true)
+
+(1) **Select start time for current year**: choose Start Date and month of the year to report used credit and received credit. 
+
+(2) **Select date for current month**: choose Start Date of the current month to report used credit and received credit. 
+
+**Style Configuration**
+On this tab, you will be able to change background and color of Title
+
+![Sample](./Image_Growth_m1/image064.png?raw=true)
+
+(1) **Background of Title**: enter Hexadecimal code
+
+(2) **Color of Title**: enter a Hexadecimal code or choose a color as above.
+
+(3) **Default Font Size**: enter a font size.
+
+**Step 2**:
+
+Remember to click on **Save Config** button to complete your configuration process.
 
 ### Store Pick up 
 
