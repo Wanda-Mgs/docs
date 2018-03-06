@@ -252,8 +252,6 @@ _This section only mentions the settings that are specifically for Retailer POS_
 
 #### Set Up General Information 
 
-![Sample](./Image_Growth_m1/image20.png?raw=true)
-
 ![Sample](./Image_Growth_m1/image020.png?raw=true)
 
 **Need to confirm before deleting order (App only)**: requires cashier to confirm again before he/she can delete an order during checkout.
@@ -286,15 +284,15 @@ Magestore’s Retailer POS module can connect with **Barcode readers, Card Swipe
 
 _Path: **Inventory Management > Settings**_
 
-![Sample](./Image_Growth_m1/image21.png?raw=true)
+![Sample](./Image_Growth_m1/image021.png?raw=true)
 
 Then you will access to a page as below:
 
-![Sample](./Image_Growth_m1/image22.png?raw=true)
+![Sample](./Image_Growth_m1/image022.png?raw=true)
 
 (1) **Link warehouse  to Magento Front Store View**: In managing a Warehouse, you can link Warehouse to a Front Store View (path: **Stock Listing > Warehouses > Click View > Warehouse Information section > General Information > Magento Store View** with screenshot below). Note that you can link a warehouse to one or multiple store views.
 
-![Sample](./Image_Growth_m1/image23.png?raw=true)
+![Sample](./Image_Growth_m1/image023.png?raw=true)
 
 - If you enable **Link warehouse to Magento Front Store View** by choosing **Yes** here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
 
@@ -310,7 +308,7 @@ Then you will access to a page as below:
 
 _Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **Stock Options**
 
-![Sample](./Image_Growth_m1/image24.png?raw=true)
+![Sample](./Image_Growth_m1/image024.png?raw=true)
 
 (1) **Decrease Stock When Order is Placed**: Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 
@@ -328,7 +326,7 @@ _Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **
 
 _Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **Product Stock Options**_
 
-![Sample](./Image_Growth_m1/image25.png?raw=true)
+![Sample](./Image_Growth_m1/image025.png?raw=true)
 
 (1)**Manage Stock**: Select Yes to activate inventory control for your catalog. 
 
@@ -350,7 +348,7 @@ _Path: **System** > **Configuration** section > **Catalog** > **Inventory** > **
 
 Next, 
 
-![Sample](./Image_Growth_m1/image26.png?raw=true)
+![Sample](./Image_Growth_m1/image026.png?raw=true)
 
 (6) **Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
 
@@ -362,17 +360,17 @@ Finally, click on **Save Config** button to save changes.
 
 ### Inventory Report 
 
-![Sample](./Image_Growth_m1/image27.png?raw=true)
+![Sample](./Image_Growth_m1/image027.png?raw=true)
 
 _Path: **Retailer Reports > Setting**
 
-![Sample](./Image_Growth_m1/image28.png?raw=true)
+![Sample](./Image_Growth_m1/image028.png?raw=true)
 
 The configuration setting of **Retailer Reports** has 2 tabs: **Historical Report Configuration** and **Sales Report Configuration**
 
 **Historical Report Configuration**
 
-![Sample](./Image_Growth_m1/image29.png?raw=true)
+![Sample](./Image_Growth_m1/image029.png?raw=true)
 
 (1) **Duration**: The system only saves your historical reports within this period. You can choose from the drop-down list among _**Last 7 days, Last 30 days or Last 3 months.**_
 
@@ -382,7 +380,7 @@ The configuration setting of **Retailer Reports** has 2 tabs: **Historical Repor
 
 **Sales Report Configuration** 
 
-![Sample](./Image_Growth_m1/image30.png?raw=true)
+![Sample](./Image_Growth_m1/image030.png?raw=true)
 
 To automatically update Sales Report, choose **Yes**
 
@@ -392,7 +390,7 @@ After all, click on **Save Config** button to save your work.
 
 _Path: **Barcode Management > Settings**_ 
 
-![Sample](./Image_Growth_m1/image31.png?raw=true)
+![Sample](./Image_Growth_m1/image031.png?raw=true)
 
 (1) **One barcode per product SKU**: select **Yes** if you want to set ONE barcode/product SKU
 
@@ -414,35 +412,35 @@ BAR[A.4][AN.6]: BARADFA12ND0O
 
 _Path: **Purchase Management > Setting**_
 
-![Sample](./Image_Growth_m1/image32.png?raw=true)
+![Sample](./Image_Growth_m1/image032.png?raw=true)
 
 In the Purchase Configuration, there are 5 tabs: **Product config, Shipping Method, Payment Method, Payment Term**, and **Tax and Shipping**
 
 **Product Config** 
 
-![Sample](./Image_Growth_m1/image33.png?raw=true)
+![Sample](./Image_Growth_m1/image033.png?raw=true)
 
 In this tab, you can choose to get product from **Supplier** or **All store**
 
 **Shipping Method** 
 
-![Sample](./Image_Growth_m1/image34.png?raw=true)
+![Sample](./Image_Growth_m1/image034.png?raw=true)
 
 Here you can add/edit/delete Shipping methods for purchase orders. Click **Add**, enter name of the shipping method and set its status **(Enable/Disable)**. Click **Delete** to delete a shipping method. 
 
 **Payment Method** 
 
-![Sample](./Image_Growth_m1/image35.png?raw=true)
+![Sample](./Image_Growth_m1/image035.png?raw=true)
 
 This tab allows you to add/edit or delete Payment methods for purchase orders. Click on **Add**, enter name of the payment method and set status (Enable/Disable) for each one. Click **Delete** to delete a payment method.
 
 **Payment Term**
 
-![Sample](./Image_Growth_m1/image36.png?raw=true)
+![Sample](./Image_Growth_m1/image036.png?raw=true)
 
 This tab allows you to add/edit or delete Payment terms for purchase orders. Click on Add, enter name of the payment term and set status (Enable/Disable) for each one. Click Delete to delete a payment term
 
-![Sample](./Image_Growth_m1/image37.png?raw=true)
+![Sample](./Image_Growth_m1/image037.png?raw=true)
 
 This tab allows you to choose to apply customer tax before or after Discount. Choose **Before Discount** or **After Discount** from the drop-down list. 
 
@@ -454,13 +452,13 @@ _Path: **Gift Card > Settings**_
 
 _**Step 1: Fill in General section**_
 
-![Sample](./Image_Growth_m1/image38.png?raw=true)
+![Sample](./Image_Growth_m1/image038.png?raw=true)
 
 **Enable Gift Card**: Choose **Yes** if you want to enable Gift Card. Otherwise, choose **No**
 
 **Gift code** 
 
-![Sample](./Image_Growth_m1/image39.png?raw=true)
+![Sample](./Image_Growth_m1/image039.png?raw=true)
 
 (1) **Gift Code Pattern**: Configure the **pattern** to auto-generate gift codes for Gift Card products when customers purchase in Web POS frontend
 
@@ -470,7 +468,7 @@ _**Step 1: Fill in General section**_
 
 **Gift Card Usage** 
 
-![Sample](./Image_Growth_m1/image40.png?raw=true)
+![Sample](./Image_Growth_m1/image040.png?raw=true)
 
 (1) **Gift Cards codes expire after**: Enter the term of validity that Gift Cards can be used after being activated.
 
@@ -492,7 +490,7 @@ _**Step 1: Fill in General section**_
 
 **Tax Configuration**
 
-![Sample](./Image_Growth_m1/image41.png?raw=true)
+![Sample](./Image_Growth_m1/image041.png?raw=true)
 
 **Apply Gift Card Discount**: Here, you have two options to apply: 
 
@@ -504,7 +502,7 @@ _**Step 2: Fill in On Product Page section**_
 
 **Gift Card Value**
 
-![Sample](./Image_Growth_m1/image42.png?raw=true)
+![Sample](./Image_Growth_m1/image042.png?raw=true)
 
 (1) **Default Gift Card value**: Enter the default gift card value 
 
@@ -512,7 +510,7 @@ _**Step 2: Fill in On Product Page section**_
 
 **Gift Card Template**
 
-![Sample](./Image_Growth_m1/image43.png?raw=true)
+![Sample](./Image_Growth_m1/image043.png?raw=true)
 
 (1) **Gift Card template**: Select Yes to allow customers to change the image inserted in the template
 
@@ -520,7 +518,7 @@ _**Step 2: Fill in On Product Page section**_
 
 **Gift Card Shipping Information** 
 
-![Sample](./Image_Growth_m1/image43.png?raw=true)
+![Sample](./Image_Growth_m1/image044.png?raw=true)
 
 (1) **Allow shipping Gift Card**: Select **Yes**, then Gift card can be sent through the post office
 
@@ -532,7 +530,7 @@ _**Step 2: Fill in On Product Page section**_
 
 _**Step 3: Fill in On Shopping Cart Page section**_ 
 
-![Sample](./Image_Growth_m1/image44.png?raw=true)
+![Sample](./Image_Growth_m1/image045.png?raw=true)
 
 (1) **Show Gift Card box on shipping cart page**: Select Yes to Enable a Gift Card box for customers to apply gift codes right on the shopping cart page.
 
@@ -542,7 +540,7 @@ _**Step 3: Fill in On Shopping Cart Page section**_
 
 **_Step 4: Fill in On Checkout Page section**_ 
 
-![Sample](./Image_Growth_m1/image45.png?raw=true)
+![Sample](./Image_Growth_m1/image046.png?raw=true)
 
 Show **Gift Card box** in the **Payment action**: Select **Yes** to show Gift Card box on the checkout page
 
@@ -550,7 +548,7 @@ Show **Gift Card box** in the **Payment action**: Select **Yes** to show Gift 
 
 **General 
 
-![Sample](./Image_Growth_m1/image46.png?raw=true)
+![Sample](./Image_Growth_m1/image047.png?raw=true)
 
 (1) **Enable email notification**: Select **Yes** to allow sending notification emails to customers and recipients
 
@@ -564,7 +562,7 @@ Show **Gift Card box** in the **Payment action**: Select **Yes** to show Gift 
 
 **Notification Email send to Purchaser**
 
-![Sample](./Image_Growth_m1/image47.png?raw=true)
+![Sample](./Image_Growth_m1/image048.png?raw=true)
 
 (1) Send-to-purchaser email template: Select the email template **sent to purchasers after buying Gift Card** successfully. 
 
@@ -572,7 +570,7 @@ Show **Gift Card box** in the **Payment action**: Select **Yes** to show Gift 
 
 **Notification Email send to Receiver**
 
-![Sample](./Image_Growth_m1/image48.png?raw=true)
+![Sample](./Image_Growth_m1/image049.png?raw=true)
 
 (1) **Send – to – recipient email template**: Select **Yes** to allow sending email notification to recipient when sender refunds Gift Card.
 
@@ -587,7 +585,7 @@ Show **Gift Card box** in the **Payment action**: Select **Yes** to show Gift 
 _**Step 6: Fill in Gift Card Printout section**_ 
 
 
-![Sample](./Image_Growth_m1/image49.png?raw=true)
+![Sample](./Image_Growth_m1/image050.png?raw=true)
 
 (1) **Logo on PDF Printouts**: Click on **Choose File** to upload your Logo image.
 
@@ -610,7 +608,7 @@ _**Step 1: Configure the following session**_
 
 **General Configuration** 
 
-![Sample](./Image_Growth_m1/image50.png?raw=true)
+![Sample](./Image_Growth_m1/image051.png?raw=true)
 
 (1) **Enable Reward Point extension**: Choose **Yes** to enable Reward Points Module for the Growth Edition of Omnichannel Package
 
@@ -628,7 +626,7 @@ For example, if you enter “P” on this field, then instead of showing “1 Po
 
 **Earning Points Configuration** 
 
-![Sample](./Image_Growth_m1/image51.png?raw=true)
+![Sample](./Image_Growth_m1/image052.png?raw=true)
 
 (1) **Rounding Method**:  
 
@@ -642,7 +640,7 @@ You have three options for Rounding Method:
 
 If you finish editing the field, remember to re-index **Catalog Earning Rules**, follow the path: **Reward Points > Earning > Catalog Earning Rules** 
 
-![Sample](./Image_Growth_m1/image52.png?raw=true)
+![Sample](./Image_Growth_m1/image053.png?raw=true)
 
 (2) **Points expire after**: Enter the **number of dates** after which customers’ points will expire. 
 
@@ -656,7 +654,7 @@ If you finish editing the field, remember to re-index **Catalog Earning Rules**,
 
 **Sales Earning Process** section 
 
-![Sample](./Image_Growth_m1/image53.png?raw=true)
+![Sample](./Image_Growth_m1/image054.png?raw=true)
 
 (1) **Allow receiving points when invoice is created**: If **Yes**, customers receive points after an invoice is created for their order. If **No**, they receive points only when the order status is complete.
 
@@ -664,7 +662,7 @@ If you finish editing the field, remember to re-index **Catalog Earning Rules**,
 
 **Spending Points Configuration Tab** 
 
-![Sample](./Image_Growth_m1/image54.png?raw=true)
+![Sample](./Image_Growth_m1/image055.png?raw=true)
 
 (1) **Minimum redeemable points**: Enter the minimum **number of points** in Customer’s Balance is permitted to redeem. If you leave it blank, there will be no limitation
 
@@ -676,7 +674,7 @@ If you finish editing the field, remember to re-index **Catalog Earning Rules**,
 
 **Display Configuration Tab**
 
-![Sample](./Image_Growth_m1/image55.png?raw=true)
+![Sample](./Image_Growth_m1/image056.png?raw=true)
 
 (1) **Show  total point balance next to My Account link**: Choose **Yes** to show total point balance next to My Account link
 
@@ -690,7 +688,7 @@ Display Collectible Points
 
 **Email Configuration Tab**
 
-![Sample](./Image_Growth_m1/image56.png?raw=true)
+![Sample](./Image_Growth_m1/image057.png?raw=true)
 
 (1) **Enable notification email**: Choose **Yes** to enable notification email
 
