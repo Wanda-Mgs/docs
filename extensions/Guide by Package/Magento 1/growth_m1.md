@@ -707,13 +707,13 @@ Display Collectible Points
 
 **Loyalty Level Configuration**
 
-![Sample](./Image_Growth_m1/image57.png?raw=true)
+![Sample](./Image_Growth_m1/image057.png?raw=true)
 
 (1) **Enable Loyalty Level plugin**: Choose **Yes** to make different Loyalty Levels. 
 
 (2) **Send email before level expires**: Choose **Yes** to send email before level expires
 
-![Sample](./Image_Growth_m1/image58.png?raw=true)
+![Sample](./Image_Growth_m1/image058.png?raw=true)
 
 (1) **Enable Rules Plugin**: Choose **Yes** to enable Rules plugin. This plugin will allow you to set rules for your Reward Points program. 
 
