@@ -219,8 +219,6 @@ The Email Template is set as the **Store’s Default Template**
 
 ![Sample](./Image_Growth_m1/image019.png?raw=true)
 
-![Sample](./Image_Growth_m1/image019.png?raw=true)
-
 (1) Choose **Yes** to activate **Auto-print Receipt After Placing Order**. 
 
 Notes: The function cannot work if your browser blocks automatic pop-up. 
@@ -255,6 +253,8 @@ _This section only mentions the settings that are specifically for Retailer POS_
 #### Set Up General Information 
 
 ![Sample](./Image_Growth_m1/image20.png?raw=true)
+
+![Sample](./Image_Growth_m1/image020.png?raw=true)
 
 **Need to confirm before deleting order (App only)**: requires cashier to confirm again before he/she can delete an order during checkout.
 
