@@ -1648,74 +1648,106 @@ Click on **Add Addresses** button, then
 
 After that, click **Save Customer** to complete the process.
 
-4.	Partner/Vendor
+### Partner/Vendor
 This section covers the below parts:
-5.	How to create a new supplier
-6.	Add products to suppliers 
-7.	Edit an existing supplier
-8.	Manage Pricelist
-9.	Edit a pricelist 
-Please refer to Section Manage Supplier for details.
+- How to create a new supplier
+- Add products to suppliers 
+- Edit an existing supplier
+- Manage Pricelist
+- Edit a pricelist 
+Please refer to Section **Manage Supplier** for details.
 
+### Warehouse
+#### New Warehouse 
 
-10.	Warehouse
-1.	New Warehouse 
-Path: Inventory Management > Stock Listing section > Warehouses
+Path: **Inventory Management > Stock Listing** section **> Warehouses**
+
+![New Warehouse]()
  
-The admin user with full access permissions in Role Resources (System → Permissions →Roles) can create new warehouses.
-Click on Add a new warehouse at the top-right corner
+The admin user with **full access permissions** in Role Resources (**System → Permissions →Roles**) can create new warehouses.
 
-2.	General Information
+Click on **Add a new warehouse** at the top-right corner
+
+- **General Information**
+
+![General Information]()
  
-1.	Warehouse name: enter name (required)
-2.	Warehouse code: enter warehouse’s code (required)
-3.	Enter other basic information (Contact Email. Telephone, Street, City, Country, Region, Zip/Postal Code) 
-4.	POS Location: you can choose 
-5.	Create a new location: to link a POS Location to the warehouse. This means when a customer places an order from this location, the system will take stock from this warehouse only. Otherwise, it will take stock from the all warehouses while prioritize Primary Warehouse. Note that a warehouse can only link to one location and vice versa. For more details, please refer to Mapping Locations – Warehouses
-6.	Don’t associate to Location: the warehouse will work separately. 
-7.	Magento Store View:  choose which store can view the warehouse. 
+1.	**Warehouse name**: enter name (required)
+2.	**Warehouse code**: enter warehouse’s code (required)
+3.	Enter other basic information (**Contact Email. Telephone, Street, City, Country, Region, Zip/Postal Code**) 
+4.	**POS Location**: you can choose 
+	- **Create a new location**: to link a POS Location to the warehouse. This means when a customer places an order from this location, the system will take stock from this warehouse only. Otherwise, it will take stock from the all warehouses while prioritize Primary Warehouse. Note that a warehouse can only link to one location and vice versa. For more details, please refer to **Mapping Locations – Warehouses**
+	- **Don’t associate to Location**: the warehouse will work separately. 
+7.	**Magento Store View**:  choose which store can view the warehouse. 
 
 Then, to continue, you need to:
+
+![General Information]()
  
-Click on the Arrow Button, then choose Save and Continue
+Click on the **Arrow** Button, then choose **Save and Continue**
+
+![General Information]()
+
  
-1.	You can view and edit General Information, Stock On-hand, Stock Movement, Orders, Warehouse Permissions and Dashboard
+1.	You can view and edit **General Information, Stock On-hand, Stock Movement, Orders, Warehouse Permissions** and **Dashboard**
 2.	After that, you can 
-1.	Click on Delete Warehouse to delete the warehouse (NOTE: only applied for inactive warehouse and non-Primary warehouse)
-2.	Click on Back to go back to Management page
+- Click on **Delete Warehouse** to delete the warehouse (NOTE: only applied for inactive warehouse and non-Primary warehouse)
+- Click on **Back** to go back to Management page
  
-3.	Master Data
-Path: Inventory Management > Stock Listing section > Warehouses
- 
+#### Master Data
 
-Here, you can view ID, Warehouse Name, Total SKU, Total Qty., Contact Email, Telephone, Street, City, Country, and Store View
-Besides, if Admin Users want to check the master data, click on View to see the warehouse’s detailed information, including General Information, Stock On-Hand, Stock Movement, Warehouse Permissions, and Dashboard.
+Path: **Inventory Management > Stock Listing** section **> Warehouses**
 
-4.	General Information
+![Master Data]()
+
+Here, you can view **ID, Warehouse Name, Total SKU, Total Qty., Contact Email, Telephone, Street, City, Country**, and **Store View**
+
+Besides, if Admin Users want to check the master data, click on View to see the warehouse’s detailed information, including **General Information, Stock On-Hand, Stock Movement, Warehouse Permissions**, and **Dashboard.**
+
+- **General Information**
+
+![General Information]()
  
-You can view and edit General Information. Remember after editing, you must click on Save General Information button to save it. 
-5.	Stock On-Hand
+You can view and edit General Information. Remember after editing, you must click on **Save General Information** button to save it. 
+
+- **Stock On-Hand**
+
 It illustrates the number of products that the warehouse has available at that time
+
+![General Information]()
  
-Click on None Warehouse Products to add products that are not yet belong to any warehouses. Or click on Delete Products to delete products in the warehouse
-6.	Stock Movement
+Click on **None Warehouse Products** to add products that are not yet belong to any warehouses. Or click on **Delete Products** to delete products in the warehouse
+
+- **Stock Movement**
+
 It shows the opening and closing data between dates, such as purchases made, sales order totals, external transfer, internal transfer (send stock) and returned items
- 
 
-7.	Orders
+![Stock Movement]()
+ 
+- **Orders**
+
 All orders in the warehouse will be shown here
- 
 
-8.	Warehouse Permissions
+![Orders]()
+
+- **Warehouse Permissions**
+
 You can delete staffs or assign new staffs here.
- 
-Click on Assign Staffs to add new ones. And then, click Save Staff Permissions to complete. More details at 4.4.3. Permission
-9.	Dashboard
-Reports are illustrated as table and lines diagrams.
- 
 
-10.	Permission
-Path: Inventory Management > Stock Listing section > Warehouses
+![Warehouse Permissions]()
+ 
+Click on **Assign Staffs** to add new ones. And then, click **Save Staff Permissions** to complete. More details at **Permission**
+
+- **Dashboard**
+
+Reports are illustrated as table and lines diagrams.
+
+![Dashboard]()
+ 
+#### Permission
+
+Path: **Inventory Management > Stock Listing** section **> Warehouses**
+
 After creating a warehouse, Admin Users give different warehouse access permissions to different (admin) users.
  
 Click on View to see the warehouse’s detail information 
