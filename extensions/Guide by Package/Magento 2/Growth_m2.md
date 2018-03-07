@@ -1038,415 +1038,616 @@ Click on **Add Staff** button.
 
 Finally, click **Save** to complete the process.
 
-Brief: IT Admin can create a new role and decentralize for all admins and staffs.
+**Brief**: IT Admin can create a new role and decentralize for all admins and staffs.
+
 Other admins (which can be called as business managers) can only create and decentralize staffs on Sales Section (a Default Feature from Web POS). 
- 
-Moreover, if IT admin activates the Permissions button on Role Resources these admins (managers) can create roles and users within their permission. 
- 
-Notice that: Roles on Sales Section and Roles on System Section ARE NOT synchronized. 
-For more basic details how to set up role – user and role-staff, you can read the section below: 
- 
-6.	Basic role for each admin in the System (reference only)
-Note: For reference only! With each business feature has different roles for users. 
-1.	Store Manager
 
+![User Settings]()
  
-Moreover, Store Manager can access to Sales Tab and decentralize roles for Sale Staff
-2.	Inventory Manager
- 
-Moreover, Inventory Manager can access to Sales Tab and decentralize Inventory Staff
+Moreover, **if** IT admin activates the **Permissions** button on **Role Resources** these admins (managers) can create roles and users within their permission. 
 
-3.	Purchase Manager
+![User Settings]()
+
+***Notice that**: Roles on Sales Section and Roles on System Section ARE NOT synchronized.*
+
+**For more basic details how to set up role – user and role-staff, you can read the section below:**
  
-Moreover, Purchase Manager can access to Sales Tab and decentralize Purchase Staff
+### Basic role for each admin in the System (reference only)
+
+***Note**: For reference only! With each business feature has different roles for users.* 
+
+#### Store Manager
+
+![Store Manager]()
+
+Moreover, Store Manager can access to **Sales** Tab and decentralize roles for Sale Staff
+
+#### Inventory Manager
+
+![Inventory Manager]()
+ 
+Moreover, Inventory Manager can access to **Sales** Tab and decentralize Inventory Staff
+
+#### Purchase Manager
+
+![Purchase Manager]()
+ 
+Moreover, Purchase Manager can access to **Sales** Tab and decentralize Purchase Staff
  
-4.	eCommerce Manager
- 
- 
-5.	Accountant
- 
+#### eCommerce Manager
 
-HOW TO MANAGE MASTER DATA
-1.	Product
-1.	Attribute
-Path: Stores > Attributes section> Product
-1.	Manage attribute
+![eCommerce manager]()
  
-1.	Here, you can view Attribute Code, Default Label, Required, System, Visible Status, Scope, Searchable, Used in Layered Navigation, and Comparable. 
+#### Accountant
+
+![Accountant]()
+ 
+## HOW TO MANAGE MASTER DATA
+### Product
+#### Attribute
+
+Path: **Stores > Attributes** section **> Product**
+
+##### Manage attribute
+
+![Manage attribute]()
+ 
+1.	Here, you can view **Attribute Code, Default Label, Required, System, Visible** Status, **Scope, Searchable, Used in Layered Navigation**, and **Comparable**. 
 Besides, you can view more details or edit Attribute Information by clicking on each Attribute Code
-2.	Click Add New Attribute button to create new attribute.
+2.	Click **Add New Attribute** button to create new attribute.
 
-3.	Create a new attribute
-Attributes can be created while working on a product, or from the Product Attributes pages. The following example show how to create attributes from the Stores menu. Any attribute that is used as a drop-down list of values for a configurable product must have the following properties:
+##### Create a new attribute
 
+Attributes can be created while working on a product, or from the Product **Attributes** pages. The following example show how to create attributes from the Stores menu. Any attribute that is used as a drop-down list of values for a configurable product must have the following properties:
 
-Property	Value
-Catalog Input Type for Store Owner	Dropdown
-Scope	Global
+|Property|	Value|
+|--|--|
+|Catalog Input Type for Store Owner|	Dropdown|
+|Scope|	Global|
 
+![Create a new attribute]()
+
+Click on **Add New Attribute** button
+
+Then, you will be linked to **New Product Attribute** page.
+
+**h. Properties**
+
+**Attribute Properties**
+
+![Attribute Properties]()
  
-Click on Add New Attribute button
-Then, you will be linked to New Product Attribute page.
-1.	Properties
-Attribute Properties
- 
-1.	Default Label: enter the name used for identifying the attribute
-2.	Catalog input Type for Store Owner: select one type
-3.	Values Required: choose Yes to require the customer choose an attribute value option
+1.	**Default Label**: enter the name used for identifying the attribute
+2.	**Catalog input Type for Store Owner**: select one type
+3.	**Values Required**: choose **Yes** to require the customer choose an attribute value option
+
 For Dropdown and Multiple Select input types, do the following:
-1.	Under Manage Options, click Add Option.
-2.	Enter the first value that you want to appear in the list.
-1.	Enter one value for the Admin, and a translation of the value for each store view.
-2.	Enter only the Admin value, if you have only one store view, you can enter only the Admin value.
-1.	Click Add Option and repeat the previous step for each option that you want to include in the list.
-2.	Select Is Default to use the option as the default value.
-Advanced Attribute Properties
+
+- Under Manage Options, click **Add Option**.
+- Enter the first value that you want to appear in the list.
+	- Enter one value for the **Admin**, and a translation of the value for each store view.
+	- Enter only the Admin value, if you have only one store view, you can enter only the Admin value.
+- Click **Add Option** and repeat the previous step for each option that you want to include in the list.
+- Select **Is Default** to use the option as the default value.
+
+**Advanced Attribute Properties**
+
+![Advanced Attribute Properties]()
  
-1.	Attribute Code: enter the Attribute Code used in lowercase characters, and without space.
-2.	Scope: select one type of Scope to indicate where in your store system the attribute can be used.
-3.	Unique Value: choose No to share with other products 
-4.	Input Validation for Store Owner: To run a validity test of any data entered in the text field, set Input Validation for Store Owner to the type of data that the field should contain. 
+1.	**Attribute Code**: enter the **Attribute Code** used in lowercase characters, and without space.
+2.	**Scope**: select one type of **Scope** to indicate where in your store system the attribute can be used.
+3.	**Unique Value**: choose **No** to share with other products 
+4.	**Input Validation for Store Owner**: To run a validity test of any data entered in the text field, set **Input Validation for Store Owner** to the type of data that the field should contain. 
+
+![Advanced Attribute Properties]()
  
 This field is not available for input types with values that are selected. The test can validate any of the following:
-1.	Decimal Number.
-2.	Integer Number.
-3.	Email.
-4.	URL.
-5.	Letters.
-6.	Letters (a-z, A-Z) or Numbers (0-9).
-7.	Add to Column Options: choose Yes to include the attribute as a column in the Products grid
-8.	Use in Filter Options: choose Yes to add a filter a control to the column header in the Products grid.
+- Decimal Number.
+- Integer Number.
+- Email.
+- URL.
+- Letters.
+- Letters (a-z, A-Z) or Numbers (0-9).
+5. **Add to Column Options**: choose **Yes** to include the attribute as a column in the Products grid
+6. **Use in Filter Options**: choose **Yes** to add a filter a control to the column header in the Products grid.
 
-1.	Manage Labels
+**b. Manage Labels**
+
+![Manage Labels]()
  
-Enter a Title to be used as a label for the field. If your store is available in different languages, you can enter a translated title for each view.
-2.	Storefront Properties
+Enter a **Title** to be used as a label for the field. If your store is available in different languages, you can enter a translated title for each view.
+
+**c. Storefront Properties**
+
+![Storefront Properties]()
  
-1.	Use in Search: if the attribute is to be available for search, choose Yes 
-2.	Comparable to Store Front: to include the attribute in Product Compare, set Comparable on Storefront to Yes
+1.	**Use in Search**: if the attribute is to be available for search, choose **Yes** 
+2.	**Comparable to Store Front**: to include the attribute in Product Compare, set Comparable on Storefront to **Yes**
 For dropdown, multiple select and price fields, do the following: 
-3.	Use in Layered Navigation: to use the attribute as a filter in layered navigation, set Use in Layered Navigation to Yes
-4.	Use in Search Results Layered Navigation: choose Yes to use the attribute in layered navigation on search results pages
-5.	Position: enter a number to indicate the relative position of the attribute in the layered navigation block.
-6.	Use for Promo Rule Conditions: choose Yes to use the attribute in price rule.
-7.	Allow HTML Tags on Frontend: choose Yes to allow the text to be formatted with HTML. This setting makes the WYSIWYG editor available for the field. 
-8.	Visible on Catalog Pages on Storefront: to include the attribute in catalog page listings
-9.	Used in Product Listing: Complete the following settings if supported by your theme:
-1.	To include the attribute on the product detail page, set Visible on Catalog Pages on Storefront to Yes
-2.	To include the attribute in product listings, set Used in Product Listing to Yes
-3.	 Used for Sorting in Product Listing: choose Yes to use attribute as a sort parameter for product listings.
- 
-After all, click on Save Attribute to finish all
+3.	**Use in Layered Navigation**: to use the attribute as a filter in layered navigation, set **Use in Layered Navigation** to **Yes**
+4.	**Use in Search Results Layered Navigation**: choose **Yes** to use the attribute in layered navigation on search results pages
+5.	**Position**: enter a number to indicate the relative position of the attribute in the layered navigation block.
+6.	**Use for Promo Rule Conditions**: choose **Yes** to use the attribute in price rule.
+7.	**Allow HTML Tags on Frontend**: choose **Yes** to allow the text to be formatted with HTML. This setting makes the WYSIWYG editor available for the field. 
+8.	**Visible on Catalog Pages on Storefront**: to include the attribute in catalog page listings
+9.	**Used in Product Listing**: Complete the following settings if supported by your theme:
+- To include the attribute on the product detail page, set Visible on Catalog Pages on Storefront to **Yes**
+- To include the attribute in product listings, set Used in Product Listing to **Yes**
+10.	 **Used for Sorting in Product Listing**: choose **Yes** to use attribute as a sort parameter for product listings.
 
-4.	Attribute set
-Path: Stores > Attributes section > Attribute set
-1.	Manage attribute set
+![Storefront Properties]()
+ 
+After all, click on **Save Attribute** to finish all
+
+#### Attribute set
+
+Path: **Stores > Attributes** section **> Attribute set**
+
+##### Manage attribute set
+
+![Manage attribute set]()
  
 1.	Here, you can view or edit details of attribute set by clicking on each line.
-2.	Click Add Attribute Set button to create new attribute set.
+2.	Click **Add Attribute Set** button to create new attribute set.
 
-3.	Create a new attribute set
+##### Create a new attribute set
+
+![Create a new attribute set]()
  
-Click Add Attribute Set to create new attribute set.
+Click **Add Attribute Set** to create new attribute set.
+
+![Create a new attribute set]()
  
-1.	Name (required): enter a name for the attribute set (required)
-2.	Based On: select an existing attribute set to be used as a template:
-3.	Click Save button and continue
+1.	**Name *(required)***: enter a name for the attribute set (required)
+2.	**Based On**: select an existing attribute set to be used as a template:
+3.	Click **Save** button and continue
+
+![Create a new attribute set]()
  
 To add a new attribute to the set, drag the attribute from the Unassigned Attribute list to the appropriate folder in the General group.
-Click Save to complete the process.
 
-4.	Categories
-Path: Products > Inventory section > Categories
-1.	Manage categories
+Click **Save** to complete the process.
+
+#### Categories
+
+Path: **Products > Inventory** section **> Categories**
+
+##### Manage categories
+
 When selecting a category on the left, all the information will be displayed on the left.
+
+![Manage categories]()
  
 1.	List of categories
 2.	All information about the category
 
-3.	Create a new category
+##### Create a new category
+
+![Create a new category]()
  
-Path: Products > Inventory section > Categories
+Path: **Products > Inventory** section **> Categories**
+
 Set Store View to determine where the new category is to be available. In the category tree, tap the parent category of the new category. The parent is one level above the new category.
-If you’re starting from the beginning without any data, there might be only two categories in the list: Default Category, which is the root, and an Example Category. 
-Click Add Sub-category to add a new category.
+
+If you’re starting from the beginning without any data, there might be only two categories in the list: Default Category, which is the root, and an **Example Category**. 
+
+Click **Add Sub-category** to add a new category.
 
 Then complete those fields:
-4.	Basic Information
- 
-1.	Enable Category:  choose Yes if you want the category to be immediately available in the store
-2.	Include in Menu: choose Yes to include the category in the top navigation
-3.	Category Name: enter the name
-4.	Click Save.
 
-5.	Category Content
- 
-1.	Category Image: to display a Category Image at the top of the page, tap Upload. Then, choose the image that you want to represent the category.
-2.	Description: enter the text that you want to appear on the category landing page. Then, format the text as needed.
-3.	Add CMS Block: to include a content block on the category landing page, choose the CMS Block that you want to appear. 
+- **Basic Information**
 
-4.	Display Settings
+![Basic Information]()
  
-1.	Display Mode: set as one of the following:
-1.	Products Only.
-2.	Static Block Only.
-3.	Static Block and Products.
-4.	Anchor: If you want the category page to include the Filter by Attribute section of layered navigation, set Anchor to the Yes position.
-5.	Available Product Listing Sort By: to change the Available Product Listing Sort By options, do the following: 
-1.	Clear the Use All checkbox. 
-2.	Select 1 or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
-1.	Position.
-2.	Product Name.
-3.	Price 5.
-4.	Default Product Listing Sort By: to set the default sort order for the category, choose Value.
-5.	Layered Navigation Price Step: to change the default one, do the following:
-6.	Clear the Use Config Settings checkbox.
-7.	Enter the value to be used as an incremental price step for layered navigation
+1.	**Enable Category**:  choose **Yes** if you want the category to be immediately available in the store
+2.	**Include in Menu**: choose **Yes** to include the category in the top navigation
+3.	**Category Name**: enter the name
+4.	Click **Save**.
 
-1.	Search Engine Optimization Settings
+- **Category Content**
+
+![Category content]()
+ 
+1.	**Category Image**: to display a **Category Image** at the top of the page, tap **Upload**. Then, choose the image that you want to represent the category.
+2.	**Description**: enter the text that you want to appear on the category landing page. Then, format the text as needed.
+3.	**Add CMS Block**: to include a content block on the category landing page, choose the CMS Block that you want to appear. 
+
+- **Display Settings**
+
+![Display Settings]()
+ 
+1.	**Display Mode**: set as one of the following:
+- Products Only.
+- Static Block Only.
+- Static Block and Products.
+2. **Anchor**: If you want the category page to include the **Filter by Attribute** section of layered navigation, set Anchor to the **Yes** position.
+3. **Available Product Listing Sort By**: to change the Available Product Listing Sort By options, do the following: 
+- Clear the Use All checkbox. 
+- Select 1 or more of the available values to be available for customers to sort the list. By default, all available values are included. For example, the values might include:
+	- Position.
+	- Product Name.
+	- Price 5.
+4.	**Default Product Listing Sort By**: to set the default sort order for the category, choose Value.
+5.	**Layered Navigation Price Step**: to change the default one, do the following:
+- Clear the **Use Config Settings** checkbox.
+- Enter the value to be used as an incremental price step for layered navigation
+
+- **Search Engine Optimization Settings** 
+
+![Search Engine Optimization Settings]()
  
 Complete the following meta data for the category:
-1.	Meta Title.
-2.	Meta Keywords.
-3.	Meta Description
+1.	**Meta Title.**
+2.	**Meta Keywords.**
+3.	**Meta Description**
 
-4.	Products in Category
- 
-1.	Here, you can view Product Information such as ID, Name, SKU, Price and Position
-2.	Tick on the product(s) that you choose 
-After all, don’t forget to click on Save button to save all. 
+- **Products in Category**
 
-3.	Product types
-Path: Products > Catalog
-1.	Product Types
-Product Types	Description
-Simple Product	A simple product is a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.
-Configurable Product	A configurable product appears to be a single product with lists of options for each variation. However, each option represents a separate, simple product with a distinct SKU, which makes it possible to track inventory for each variation.
-Grouped Product	A grouped product presents multiple, standalone products as a group. You can offer variations of a single product, or group them for a promotion. The products can be purchased separately, or as a group.
-Virtual Product	Virtual products are not tangible products, and are typically used for products such as services, memberships, warranties, and subscriptions. Virtual products can be used in association with grouped and bundle products.
-Bundle Product	A bundle product let customers “build their own” from an as sort of options. The bundle could be a gift basket, computer, or any things else that can be customized. Each item in the bundle is a separate, standalone product.
-Downloadable Product	A digitally downloadable product that consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.
+![Products in category]()
+ 
+1.	Here, you can view Product Information such as **ID, Name, SKU, Price** and **Position**
+2.	Tick on the **product(s)** that you choose 
 
-2.	Manage products
-Path: Products > Catalog
- 
-1.	Actions: list all actions that can be applied to selected products in the list. To apply an action to a product or group of products, mark the check box in the first column of each product. Options include: Delete, Change Status & Update Attributes.
-2.	Click on Edit in the Action column to open the product in edit mode or view product’s detail.  You can accomplish the same thing by clicking anywhere on the row.
-3.	Click on Add Products button to add new product.
+After all, don’t forget to click on **Save** button to save all. 
 
-4.	Create a new product
-Simple product
- 
-In the upper-right corner on the Add Product    menu, choose Simple Product.
-5.	General Information 
- 
-1.	Enable Product: choose Yes to activate the product
-2.	Attribute Set: choose the attribute set used as the template of product
-3.	Product Name: enter the name. 
-4.	SKU: the default SKU that is based on the product name, or enter another.
-5.	Price: enter the product price.
-Then, Click Save to continue.
- 
-1.	Tax Class: set Tax Class to one of the following: Taxable Goods/None
-2.	Quantity: tick on the box Force Edit, then enter the Quantity of the product that is currently in stock. 
-3.	Stock Status: by default, Stock Status is set to In Stock, you can choose Out of Stock
-4.	Weight: enter the Weight of the product.
-5.	Categories: assign Categories to the product. Tap the Select to select available category or you can create new category by click  
-6.	Visibility: choose the default Visibility setting, Catalog, Search.
-7.	Set Product as New From: Mark the Set Product as New checkbox to add the product in the list of new products.
-8.	Country of Manufacture: choose the Country of Manufacture.
-9.	Visible on WebPOS: choose Yes to activate it on WebPOS
-(10)Color: choose color
-Then, click Save to continue
-10.	Content
- 
-1.	Description: enter the Product Description here
-2.	Short Description: enter the Short Description about your product
+#### Product types
 
-3.	Configuration
- 
-Configuration Products allow customers to choose options
-Click on Create Configurations. Then, a pop-up will be shown as below:
-Step 1: Select Attributes
+Path: **Products > Catalog**
 
+##### Product Types
+
+|Product Types|	Description|
+|--|--|
+|Simple Product|	A simple product is a physical item with a single SKU. Simple products have a variety of pricing and of input controls which makes it possible to sell variations of the product. Simple products can be used in association with grouped, bundle, and configurable products.|
+|Configurable Product|	A configurable product appears to be a single product with lists of options for each variation. However, each option represents a separate, simple product with a distinct SKU, which makes it possible to track inventory for each variation.|
+|Grouped Product|	A grouped product presents multiple, standalone products as a group. You can offer variations of a single product, or group them for a promotion. The products can be purchased separately, or as a group.|
+|Virtual Product|	Virtual products are not tangible products, and are typically used for products such as services, memberships, warranties, and subscriptions. Virtual products can be used in association with grouped and bundle products.|
+|Bundle Product|	A bundle product let customers “build their own” from an as sort of options. The bundle could be a gift basket, computer, or any things else that can be customized. Each item in the bundle is a separate, standalone product.|
+|Downloadable Product|	A digitally downloadable product that consists of one or more files that are downloaded. The files can reside on your server or be provided as URLs to any other server.|
+
+##### Manage products
+
+Path: **Products > Catalog**
+
+![Manage products]()
  
-Here, you can view Attribute Information, including Use in Layered Navigation, Attribute Code, Attribute Label, Required, Systems, Visible, Scope, Searchable, and Comparable. 
+1.	**Actions**: list all actions that can be applied to selected products in the list. To apply an action to a product or group of products, mark the check box in the first column of each product. Options include: **Delete, Change Status** & **Update** Attributes.
+2.	Click on **Edit** in the **Action** column to open the product in edit mode or view product’s detail.  You can accomplish the same thing by clicking anywhere on the row.
+3.	Click on **Add Products** button to add new product.
+
+##### Create a new product
+
+**Simple product**
+
+![Create a new product]()
+ 
+In the upper-right corner on the Add Product ![icon]() menu, choose **Simple Product**.
+
+- **General Information**
+
+![Genetal Information]()
+ 
+1.	**Enable Product**: choose **Yes** to activate the product
+2.	**Attribute Set**: choose the attribute set used as the template of product
+3.	**Product Name**: enter the name. 
+4.	**SKU**: the default SKU that is based on the product name, or enter another.
+5.	**Price**: enter the product price.
+
+Then, Click **Save** to continue.
+
+![Genetal Information]()
+ 
+1.	**Tax Class**: set **Tax Class** to one of the following: **Taxable Goods/None**
+2.	**Quantity**: tick on the box **Force Edit**, then enter the Quantity of the product that is currently in stock. 
+3.	**Stock Status**: by default, Stock Status is set to **In Stock**, you can choose **Out of Stock**
+4.	**Weight**: enter the **Weight** of the product.
+5.	**Categories**: assign **Categories** to the product. Tap the **Select** to select available category or you can create new category by click ![Genetal Information]()
+6.	**Visibility**: choose the default Visibility setting, **Catalog, Search**.
+7.	Set Product as New From**: Mark the Set Product as New checkbox to add the product in the list of new products.
+8.	**Country of Manufacture**: choose the Country of Manufacture.
+9.	**Visible on WebPOS**: choose **Yes** to activate it on WebPOS
+10. **Color**: choose color
+
+Then, click **Save** to continue
+
+- **Content**
+
+![Content]()
+ 
+1.	**Description**: enter the Product Description here
+2.	**Short Description**: enter the Short Description about your product
+
+- **Configuration**
+
+![Configuration]()
+ 
+**Configuration Products** allow customers to choose options
+
+Click on **Create Configurations**. Then, a pop-up will be shown as below:
+
+**Step 1**: Select Attributes
+
+![Select Attributes]()
+ 
+Here, you can view Attribute Information, including **Use in Layered Navigation, Attribute Code, Attribute Label, Required, Systems, Visible, Scope, Searchable**, and **Comparable**. 
 1.	Tick on the attribute you want to choose
-2.	Click on Create New Attribute, then you will access to this
-3.	Click on Next to move to next step
-Step 2: Attribute Values
+2.	Click on **Create New Attribute, then you will access to **Create a new attribute**
+3.	Click on **Next** to move to next step
+
+**Step 2**: Attribute Values
+
+![Attribute Values]()
  
 1.	Tick on the options of each attribute you have selected
-2.	Click on Next to move to the next step
-Step 3: Bulk Image, Price and Quantity
+2.	Click on **Next** to move to the next step
+
+**Step 3**: Bulk Image, Price and Quantity
+
+![Bulk Image, Price and Quantity]()
  
 Here, in each tab, you have three options:
-1.	Apply single […] to all SKUs: you just need to enter one value, and it will be used for all
-2.	Apply unique […] by attributes: you can enter each value for each SKU
-3.	Skip […] at this time: you will edit later, and move on to next step
-Step 4: Summary
+
+-**Apply single […] to all SKUs**: you just need to enter one value, and it will be used for all
+
+-**Apply unique […] by attributes**: you can enter each value for each SKU
+
+-**Skip […] at this time**: you will edit later, and move on to next step
+
+**Step 4**: Summary
+
+![Summary]()
  
 1.	You will review again the products that you have created
-2.	Click on Next button to move the next step
+2.	Click on **Next** button to move the next step
+
 Then,  
-1.	The Current Variations will appear, you can view Image, Name, SKU, Price, Available Qty., Supplier to Warehouse, Shelf Location, Weight, Status, Attributes, and Action
-2.	Add Products Manually: click on here, you can add Associated Products
+
+![Summary]()
+
+1.	The **Current Variations** will appear, you can view **Image, Name, SKU, Price, Available Qty., Supplier to Warehouse, Shelf Location, Weight, Status, Attributes**, and **Action**
+2.	**Add Products Manually**: click on here, you can add **Associated Products**
  
- First, you need to tick on the product(s). Then, click on Done to finish all
-3.	Attributes
+ ![Summary]()
+
+First, you need to tick on the **product(s)**. Then, click on **Done** to finish all
+
+- **Attributes**
+
+![Attributes]()
  
-Alternate Product Name: enter a different name of product that related to attribute
-4.	Images and Videos
+**Alternate Product Name**: enter a different name of product that related to attribute
+
+- **Images and Videos**
+
+![Images and Videos]()
  
 1.	Drag or Browse to upload the product image
-2.	Click on Add Video button to add Product Video
-3.	Search Engine Optimization
- 
-1.	URL Key: enter the URL key for your product
-2.	Meta Title: enter the meta title
-3.	Meta Keywords: enter your product keywords for better SEO
-4.	Meta Description: enter the Product Description 
+2.	Click on **Add Video** button to add Product Video
 
-5.	Related Products, Up-sells, and Cross-sells
- 
-Click on the button Add Related Products, Add Up-Sell Product and Add Cross-Sell Products. Then a pop-up will be shown. You just need to tick on the product(s) and after that, click on Add Selected Product(s) to finish. 
+- **Search Engine Optimization**
 
-6.	Customizable Options
+![Search Engine Optimization]()
  
-1.	Import Options:
- 
-Tick on the product(s) that you want to select. Then click on Import
-2.	Add Option
- 
-3.	Option Title: enter the title of option
-4.	Option Type: select the type of option
+1.	**URL Key**: enter the URL key for your product
+2.	**Meta Title**: enter the meta title
+3.	**Meta Keywords**: enter your product keywords for better SEO
+4.	**Meta Description**: enter the Product Description 
 
-5.	Products in Websites
+- **Related Products, Up-sells, and Cross-sells**
+
+![Related Products, Up-sells, and Cross-sells]()
+ 
+Click on the button **Add Related Products, Add Up-Sell Product** and **Add Cross-Sell Products**. Then a pop-up will be shown. You just need to tick on the product(s) and after that, click on **Add Selected Product(s)** to finish. 
+
+- **Customizable Options**
+
+![Customizable Options]()
+ 
+1.	**Import Options**:
+
+![Customizable Options]()
+ 
+Tick on the product(s) that you want to select. Then click on **Import**
+2.	**Add Option**
+
+![Customizable Options]()
+
+- **Option Title**: enter the title of option
+
+- **Option Type**: select the type of option
+
+- **Products in Websites**
+
+![Products in Websites]()
  
 Tick on the website that the product you have created will be shown. 
 
-6.	Design
- 
-1.	Layout: choose Layout – No layout updates, Empty, 1 column, 2 columns with left bar, 2 columns with right bar, 3 columns
-2.	Display Product Options In: choose Block after Info Column or Product Info Column
-3.	Layout Update XML: enter the reason
+- **Design**
 
-4.	Schedule Design Update
+![Design]()
  
-1.	Schedule Update From: click on Calendar to choose Date
-2.	New Theme: choose theme 
-3.	New Layout: choose layout
+1.	**Layout**: choose Layout – **No layout updates, Empty, 1 column, 2 columns with left bar, 2 columns with right bar, 3 columns**
+2.	**Display Product Options In**: choose **Block after Info Column** or **Product Info Column**
+3.	**Layout Update XML**: enter the reason
 
-4.	Gift Options
- 
-Untick the box Use Config Settings. Then choose Yes if you want to Allow Gift Message
+- **Schedule Design Update**
 
-5.	Downloadable Information
+![Schedule Design Update]()
  
-To set this product as downloadable one, you need to set Weight to NO in the General Information section
-6.	Barcode 
- 
-You can view ID, Barcode, Qty, SKU, Supplier, Purchased Time, and Detail
-7.	Suppliers
- 
-Click on Add Supplier to add supplier
- 
-Tick on the Supplier Code. Then click on Add Selected Supplier button to finish. 
-After all, click on Save to complete all
-Configurable product
- 
-In the upper-right corner on the Add Product    menu, choose Configurable Product.
-Other steps and sections are similar to Simple Product
+1.	**Schedule Update From**: click on **Calendar** to choose Date
+2.	**New Theme**: choose theme 
+3.	**New Layout**: choose layout
 
-Grouped product
+- **Gift Options**
+
+![Gift Options]()
  
-In the upper-right corner on the Add Product    menu, choose Grouped Product.
-Besides, familiar tabs as in Simple Product, in Grouped Product, you also need to add products into a group.
-Add products to Group
+Untick the box **Use Config Settings**. Then choose **Yes** if you want to **Allow Gift Message**
+
+- **Downloadable Information**
+
+![Downloadable Information]()
  
-Click on Add Products to Group button to add products.
+To set this product as downloadable one, you need to set Weight to NO in the **General Information** section
+
+- **Barcode** 
+
+![barcode]()
  
+You can view **ID, Barcode, Qty, SKU, Supplier, Purchased Time**, and **Detail**
+
+- **Suppliers**
+
+![Suppliers]()
+ 
+Click on **Add Supplier** to add supplier
+
+![Suppliers]()
+ 
+Tick on the Supplier Code. Then click on **Add Selected Supplier** button to finish. 
+
+After all, click on **Save** to complete all
+
+**Configurable product**
+
+![Configurable product]()
+ 
+In the upper-right corner on the **Add Product**  ![Configurable product]() menu, choose **Configurable Product.**
+
+Other steps and sections are similar to **Simple Product**
+
+**Grouped product**
+
+![Grouped product]()
+ 
+In the upper-right corner on the **Add Product** ![icon]() menu, choose **Grouped Product**.
+
+Besides, familiar tabs as in **Simple Product***, in **Grouped Product**, you also need to add products into a group.
+
+**Add products to Group**
+
+![Add products to Group]()
+ 
+Click on **Add Products to Group** button to add products.
+
+![Add products to Group]()
+
 Then, a pop-up will be shown.
-Tick on the products you want to set in the group. After that, click on Add Selected Products button to add them to the group. 
- 
-1.	Default Quantity: edit the Qty. of product
-2.	Actions: to remove one product, click on Remove
-3.	Add Products to Group: click on this button if you want to add more.
+Tick on the products you want to set in the group. After that, click on **Add Selected Products** button to add them to the group. 
 
-Virtual product
+![Add products to Group]()
  
-In the upper-right corner on the Add Product    menu, choose Virtual Product.
-All other steps are similar to Simple Product
+1.	**Default Quantity**: edit the Qty. of product
+2.	**Actions**: to remove one product, click on Remove
+3.	**Add Products to Group**: click on this button if you want to add more.
 
-Bundle product
+**Virtual product**
+
+![Virtual product]()
  
-In the upper-right corner on the Add Product    menu, choose Bundle Product.
-Here, you will see some familiar steps as Simple Product
+In the upper-right corner on the **Add Product** ![icon]() menu, choose **Virtual Product.**
+
+All other steps are similar to **Simple Product**
+
+**Bundle product**
+
+![Bundle product]()
+ 
+In the upper-right corner on the Add Product ![icon]() menu, choose **Bundle Product**.
+
+Here, you will see some familiar steps as **Simple Product**
+
 However, you should notice about:
- 
-1.	Dynamic SKU: If you choose Yes, the SKU will be composed of the bundle’s base and selected SKUs
-2.	Dynamic Price: If you choose Yes, the total price will be composed from the product optional prices
-3.	Dynamic Weight: If you choose Yes, the weight will be calculated from the selected bundle options
 
-Downloadable product
- 
-In the upper-right corner on the Add Product    menu, choose Downloadable Product.
- 
-Choose Downloadable as the attribute set
-You can fill other fields as similar as Simple Product
- 
-1.	 Tick on the checkbox Is this downloadable product?
-2.	 Title: enter the title to use as a heading for the download links.
-3.	 Click on Add Link, then:
- 
-1.	Enter Title and Price. 
-2.	For both File and Sample files, choose:
-1.	Upload File: To upload the distribution file to the server. Browse to the file, and select it for upload.
-2.	URL: To access the distribution file from a URL. Enter the full URL to the download file.
-3.	Shareable: choose Yes if the link is shareable
-4.	Max. Downloads: enter the maximum number of downloads for the product
+![Bundle product]()
 
-5.	Customers
-1.	How to manage customers
-Path: Customer > All customers
+1.	**Dynamic SKU**: If you choose **Yes**, the SKU will be composed of the bundle’s base and selected SKUs
+2.	**Dynamic Price**: If you choose **Yes**, the total price will be composed from the product optional prices
+3.	**Dynamic Weight**: If you choose **Yes**, the weight will be calculated from the selected bundle options
+
+**Downloadable product**
+
+![Downloadable product]()
  
-Here, you can view all basic information about customers, such as Name, Email, Group, Phone, Zip, Country, State/Province, Customer Since (the beginning date), from which Website, Confirmed Email, Account Created in, Date of Birth, Tax VAT Number, and Gender. Besides, if you want to view more details, click on Edit in the Action column to view customer’s details and edit. 
-1.	Action: First, select a customer, then you can:
-1.	Delete
-2.	Subscribe to Newsletter.
-3.	Unsubscribe from Newsletter.
-4.	Assign a Customer Group.
-5.	Edit
-6.	Click Filters or fill out key word to search customer information.
-7.	Click Add New Customer to create new customer.
-1.	Create a new customer
+In the upper-right corner on the Add Product ![icon]() menu, choose **Downloadable Product.**
+
+![Downloadable product]()
  
-Click on Add New Customer button
-1.	Account Information
+Choose **Downloadable** as the **attribute set**
+
+You can fill other fields as similar as **Simple Product**
+
+![Downloadable product]()
+
+1.	 Tick on the checkbox **Is this downloadable product?**
+2.	 **Title**: enter the title to use as a heading for the download links.
+3.	 Click on **Add Link**, then:
+
+![Downloadable product]()
+
+1.	Enter **Title** and **Price**. 
+2.	For both **File** and **Sample** files, choose:
+	- **Upload File**: To upload the distribution file to the server. Browse to the file, and select it for upload.
+2	- **URL**: To access the distribution file from a URL. Enter the full URL to the download file.
+3.	**Shareable**: choose **Yes** if the link is shareable
+4.	**Max. Downloads**: enter the maximum number of downloads for the product
+
+### Customers
+#### How to manage customers
+
+Path: **Customer > All customers**
+
+![How to manage customers]()
  
-1.	Associate to Website: select which website that your customers are associated with
-2.	Group: select whether your customer is general, wholesaler or retailer
+Here, you can view all basic information about customers, such as **Name, Email, Group, Phone, Zip, Country, State/Province, Customer Since** *(the beginning date)*, from which **Website, Confirmed Email, Account Created in, Date of Birth, Tax VAT Number**, and **Gender**. Besides, if you want to view more details, click on **Edit** in the **Action** column to view customer’s details and edit. 
+
+1.	**Action**: First, select a customer, then you can:
+	- Delete
+	- Subscribe to Newsletter.
+	- Unsubscribe from Newsletter.
+	- Assign a Customer Group.
+	- Edit
+2.	Click **Filters** or fill out key word to search customer information.
+3.	Click **Add New Customer** to create new customer.
+
+#### Create a new customer
+
+![Create a new customer]()
+ 
+Click on **Add New Customer** button
+
+- **Account Information**
+
+![Account Information]()
+ 
+1.	**Associate to Website**: select which website that your customers are associated with
+2.	**Group**: select whether your customer is general, wholesaler or retailer
+
 Then, fill in these fields:
-3.	Prefix
-4.	First Name
-5.	Middle Name
-6.	Last Name
-7.	Suffix
-8.	Email: enter customer’s email used in your website
-9.	Date of Birth: choose calendar to select customer’s date of birth
-10.	Tax/ VAT Number: enter Customer’s tax/vat number (if have)
-11.	Gender: select gender for your customers
-12.	Send Welcome email from: select which of your email will send welcome letter to your customer. 
 
-13.	Addresses
-Click on Add Addresses button, then
+3.	**Prefix**
+4.	**First Name**
+5.	**Middle Name**
+6.	**Last Name**
+7.	**Suffix**
+8.	**Email**: enter customer’s email used in your website
+9.	**Date of Birth**: choose calendar to select customer’s date of birth
+10.	**Tax/ VAT Number**: enter Customer’s tax/vat number (if have)
+11.	**Gender**: select gender for your customers
+12.	**Send Welcome email from**: select which of your email will send welcome letter to your customer. 
+
+- **Addresses**
+
+Click on **Add Addresses** button, then
+
+![Addresses]()
  
 1.	Click on the button
-2.	Choose if the new address is default in Billing or Shipping Address
-3.	Fill in Customer’s Information 
-After that, click Save Customer to complete the process.
+2.	Choose if the new address is default in **Billing** or **Shipping Address**
+3.	Fill in **Customer’s Information**
 
- 
+After that, click **Save Customer** to complete the process.
+
 4.	Partner/Vendor
 This section covers the below parts:
 5.	How to create a new supplier
