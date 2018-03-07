@@ -884,106 +884,159 @@ Then, you will be linked to:
 
 ![Role Resources]()
  
-1.	Resource Access: You can choose Custom or All. Choose All if you want users having this role will have access to all resources, click on Save or Save And Continue Edit button to save your work.
-2.	Resources: If you choose Custom on Resource Access, you can tick to assign specific permissions for that role.
-Click Save to complete the process.
+1.	**Resource Access**: You can choose **Custom** or **All**. Choose **All** if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work.
 
-3.	Decentralize Users
-1.	Manage user
-Path: System > Permission section > All Users
+2.	**Resources**: If you choose **Custom** on **Resource Access**, you can tick to assign specific permissions for that role.
+
+Click **Save** to complete the process.
+
+#### Decentralize Users
+##### Manage user
+
+Path: **System > Permission** section **> All Users**
+
+![Manage user]()
  
-1.	You can view Basic User Information, such as ID, User Name, First Name, Last Name, Email and Status. 
-Besides, to search for a user, you can fill in the blank with a value/keyword, then click on Search 
+1.	You can view Basic User Information, such as **ID, User Name, First Name, Last Name, Email** and **Status**. 
+
+Besides, to search for a user, you can fill in the blank with a value/keyword, then click on **Search** 
+
 View or edit a user’s detail by clicking on each line.
-2.	Click Add New User to create new user.
 
-3.	Create a new user
- 
-To create a new user, click on Add New User button
-1.	User Info
- 
-1.	User Name (required): enter the name
-2.	First Name (required): enter the first name
-3.	Last Name (required): enter the last name
-4.	Email (required): enter the email
-5.	Password (required): create the new User’s password
-6.	Password Confirmation (required): confirm the created password
-7.	Interface Locale: you can select different location.
-8.	This account is: choose whether the account is Active or Inactive.
-9.	Your Password (required): fill in your password.
+2.	Click **Add New User** to create new user.
 
-1.	User Role: Select a role for the user
+##### Create a new user
+
+![Create a new user]()
  
-2.	Warehouses
+To create a new user, click on **Add New User** button
+- **User Info**
+
+![Create a new user]()
  
-In Warehouse tab, click on Assign Warehouses button to assign warehouses to this user.
+1.	**User Name** ***(required)***: enter the name
+2.	**First Name *(required)***: enter the first name
+3.	**Last Name *(required)***: enter the last name
+4.	**Email *(required)***: enter the email
+5.	**Password *(required)***: create the new User’s password
+6.	**Password Confirmation *(required)***: confirm the created password
+7.	**Interface Locale**: you can select different location.
+8.	**This account is**: choose whether the account is **Active** or **Inactive**.
+9.	**Your Password *(required)***: fill in your password.
+
+- **User Role**: Select a role for the user
+
+![User Role]()
+ 
+- **Warehouses**
+
+![Warehouses]()
+ 
+In **Warehouse** tab, click on **Assign Warehouses** button to assign warehouses to this user.
+
 Then, 
- 
-A pop-up will be shown. Tick on the Warehouse(s) that you want to assign. Click on Add Selected Warehouses to finish it.
-After you have completed all, click on Save User button 
 
+![Warehouses]()
  
+A pop-up will be shown. Tick on the **Warehouse(s)** that you want to assign. Click on **Add Selected Warehouses** to finish it.
 
-10.	How to manage staff for POS
-1.	Decentralize access permission of Web POS users
-Path: Sales > Web POS section > Manage Roles
-1.	Manage role
- 
-1.	You can view Basic Role Information such as ID, Display Name, and Description.
-Besides, you can view and edit details by clicking on Edit in the Action column.
-If you want to delete a role record, you need choose a role, then click on Actions section and select Delete.
-2.	To add a new role, click on Add Role button 
+After you have completed all, click on **Save User** button 
 
-3.	Add a new role
- 
-Click on Add Role button to add a new role.
-Then, you will be linked to the Role Information Site
-1.	General
- 
-1.	Role Name (required): enter a name for the role. 
-2.	Maximum discount percent (%): limit the highest discount percent that each user role can offer customers.
-3.	Description: enter text that describes the role.
+![Warehouses]()
 
-1.	Permission
- 
-1.	Resource Access: You can choose Custom or All. Choose All if you want users having this role will have access to all resources, click on Save or Save And Continue Edit button to save your work.
-2.	Resources: If you choose Custom on Resource Access, then you can tick to assign specific permissions for that role.
+### How to manage staff for POS
+#### Decentralize access permission of Web POS users
 
-1.	Staff List
- 
-Tick on the staff assigned this role. Then click on Save and Continue Edit button
-Click Save to finish all.
+Path: **Sales > Web POS** section **> Manage Roles**
 
-2.	Decentralize staff for POS
-1.	Manage Staff
-Path: Sales > Web POS section > Manage Staff
- 
-1.	Here, you can view Basic Staff Information, such as ID, Username, Email, Display Name, Location, Role and Status
-Besides, if you want to view more details or edit, you can click on Edit in the Action column. 
-Otherwise, if you want to delete or change status of the Staff. Tick on the staff, then choose Actions – Delete or Change Status.
-2.	Click on Add Staff to add a new staff
+##### Manage role
 
-3.	Create a new staff
-Path: Sales > Web POS section > Manage Staff 
+![Manage role]()
  
-Click on Add Staff button.
-1.	Staff Information
- 
-1.	User Name: enter the name
-2.	Password: enter the new password for that staff
-3.	Password Confirmation: re-enter the password to confirm
-4.	Display Name: enter the name shown on display
-5.	Email Address: enter the staff’s email address
-6.	PIN Code (App only): enter 4 numbers (used for App only)
+1.	You can view Basic Role Information such as **ID, Display Name**, and **Description**.
 
-1.	User Settings
+Besides, you can view and edit details by clicking on **Edit** in the **Action** column.
+
+If you want to delete a role record, you need choose a role, then click on **Actions** section and select **Delete**.
+
+2.	To add a new role, click on **Add Role** button 
+
+##### Add a new role
+
+![Add a new role]()
  
-1.	Customer Group: choose the group(s) that the new staff take charge in. Hold Ctrl + Click to choose more than one
-2.	Location: choose the group(s) that the new staff take charge in. Hold Ctrl + Click to choose more than one
-3.	Role: choose a Role for the staff
-4.	Status: Enabled or Disabled this staff.
-5.	POS: Assign POS for user. To choose more than one, hold Ctrl + Click. 
-Finally, click Save to complete the process.
+Click on **Add Role** button to add a new role.
+
+Then, you will be linked to the **Role Information** Site
+
+- **General**
+
+![Add a new role]()
+ 
+1.	**Role Name *(required)***: enter a name for the role. 
+2.	**Maximum discount percent (%)**: limit the highest discount percent that each user role can offer customers.
+3.	**Description**: enter text that describes the role.
+
+- **Permission**
+
+![Permission]()
+ 
+1.	**Resource Access**: You can choose **Custom** or **All**. Choose **All** if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work.
+2.	**Resources**: If you choose **Custom** on **Resource Access**, then you can tick to assign specific permissions for that role.
+
+- **Staff List**
+
+![Staff List]()
+ 
+Tick on the staff assigned this role. Then click on **Save and Continue Edit** button
+
+Click **Save** to finish all.
+
+#### Decentralize staff for POS
+##### Manage Staff
+
+Path: **Sales > Web POS** section **> Manage Staff**
+
+![Manage Staff]()
+ 
+1.	Here, you can view Basic Staff Information, such as **ID, Username, Email, Display Name, Location, Role** and **Status**
+
+Besides, if you want to view more details or edit, you can click on **Edit** in the **Action** column. 
+
+Otherwise, if you want to delete or change status of the Staff. Tick on the staff, then choose **Actions – Delete** or **Change Status**.
+
+2.	Click on **Add Staff** to add a new staff
+
+##### Create a new staff
+
+Path: **Sales > Web POS** section **> Manage Staff**
+
+![Create a new staff]()
+ 
+Click on **Add Staff** button.
+
+- **Staff Information**
+
+![Create a new staff]()
+ 
+1.	**User Name**: enter the name
+2.	**Password**: enter the new password for that staff
+3.	**Password Confirmation**: re-enter the password to confirm
+4.	**Display Name**: enter the name shown on display
+5.	**Email Address**: enter the staff’s email address
+6.	**PIN Code (App only)**: enter 4 numbers ***(used for App only)***
+
+- **User Settings**
+
+![User Settings]()
+ 
+1.	**Customer Group**: choose the **group(s)** that the new staff take charge in. Hold **Ctrl + Click** to choose more than one
+2.	**Location**: choose the **group(s)** that the new staff take charge in. Hold **Ctrl + Click** to choose more than one
+3.	**Role**: choose a **Role** for the staff
+4.	**Status**: **Enabled** or **Disabled** this staff.
+5.	**POS**: Assign POS for user. To choose more than one, hold **Ctrl + Click.** 
+
+Finally, click **Save** to complete the process.
 
 Brief: IT Admin can create a new role and decentralize for all admins and staffs.
 Other admins (which can be called as business managers) can only create and decentralize staffs on Sales Section (a Default Feature from Web POS). 
