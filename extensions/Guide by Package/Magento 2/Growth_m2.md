@@ -2545,130 +2545,214 @@ There are 5 tabs to configure settings: **General, My Account, Checkout, Print &
 
 ![Manage Account]()
 
- 
-4.	Print: you can choose the printer type and preferred settings for each type including paper size (for Air Printer Scroll); paper size, automatically open cash drawer after checkout, number of receipt copies to be printed out, automatically print receipt after checkout and either to display product name or its SKU on the receipt (for Star Micronics Printer).
+- **Print**: you can choose the printer type and preferred settings for each type including paper size (for Air Printer Scroll); paper size, automatically open cash drawer after checkout, number of receipt copies to be printed out, automatically print receipt after checkout and either to display product name or its SKU on the receipt (for Star Micronics Printer).
+
+![Print]()
   
-5.	Currency: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from Order History after you change currency.
+- **Currency**: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from **Order History** after you change currency.
 
-6.	Switch Between Cashier with PIN Code 
+##### Switch Between Cashier with PIN Code
+
 Based on staff role and responsibility, each staff will be set restrictions. Limit who can make a discount or give a refund.
+
 However, with Retailer POS, staffs can flexibly switch between cashiers in the middle of transaction just with a PIN code (4 digital) which is added to when creating a POS user. Follow the step below to switch between users:
-7.	On the left top of the screen click on “change” icon and choose the POS user.
- 
 
-8.	Insert the user's PIN code to continue.
- 
+- On the left top of the screen click on **change** icon and choose the POS user.
+
+![Switch Between Cashier with PIN Code]()
+
+- Insert the user's PIN code to continue.
+
+![Switch Between Cashier with PIN Code]()
+
 Shortly after can you see that the cashier has changed.
-After logged in, you can change your account’s PIN code in Settings > General
 
-9.	Use Session Management 
+After logged in, you can change your account’s PIN code in **Settings > General**
+
+#### Use Session Management 
+
 Session Management is a place where records cash flow after each cashier’s shift. You have frequent cash in/out beside normal order transactions like paying electrical bills, balancing cash amount in hand, etc. Retailer POS system records deposits and withdrawals from your working shift then compare them with actual cash amount (counted in notes) after cashier’s shift ends up. 
-Note: To enable session, you need to go to backend, follow Path: Sales > Web POS > Settings > General Configuration section, choose Yes for Need to create session before working 
+
+**Note**: To enable session, you need to go to backend, follow Path: **Sales > Web POS > Settings > General Configuration** section, choose **Yes** for **Need to create session before working**
+
+![Use Session Management]()
  
-1.	Open A Session
+##### Open A Session
+
 After you choose “Yes” in Back-end to require opening a session before working and no session is already opened, the following pop-up will be shown after you logged in:
+
+![Open A Session]()
  
 Cashiers will carry out to open a new session before getting started their shift. 
-1.	Responsible: Role of POS user (Cashier, Order management, etc)
-2.	Point of sales: Select POS you are working
-(1) Openning Balance: Cashier needs to enter the total amount of cash at the beginning of a new session in your drawer
-(2) Set Opening Balance: alternatively to entering the total amount of cash, cashier can click on this to open up a window. Then, cashier can enter the specific value and amount of each banknote/bill/coin that adds up to the total amount of cash.
+- **Responsible**: Role of POS user (Cashier, Order management, etc)
+- **Point of sales**: Select POS you are working
+
+(1) **Openning Balance**: Cashier needs to enter the total amount of cash at the beginning of a new session in your drawer
+
+(2) **Set Opening Balance**: alternatively to entering the total amount of cash, cashier can click on this to open up a window. Then, cashier can enter the specific value and amount of each banknote/bill/coin that adds up to the total amount of cash.
+
+![Open A Session]()
  
-3.	(3) Then click Open Session to begin your shift. You will be directed to the Session window. 
-1.	Record Cash In & Cash Out
-After you start a new session, you will see basic information on the current session in the Session window and may make adjustment of cash in/out during your shift, record deposits and withdrawals from your cash drawer. 
-You can always access to this Session window by go to top left hamburger Menu > Session Management section > Session
+(3) Then click **Open Session** to begin your shift. You will be directed to the **Session window**.
+
+##### Record Cash In & Cash Out
+
+After you start a new session, you will see basic information on the current session in the **Session** window and may make adjustment of cash in/out during your shift, record deposits and withdrawals from your cash drawer. 
+
+You can always access to this Session window by go to top left hamburger **Menu > Session Management** section **> Session**
+
+![Record Cash In & Cash Out]()
  
 Here you can view all the previous sessions of the Account. Select a session to see its details including date and time, transactions in the session.
- 
-During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on Put Money In/ Take Money Out buttons in this Session window. Cash in and out appears in the drawer history on the iPad, with both the description you enter and the total amount in the drawer.
- 
-1.	Put money in: Enter the cash amount you add to your drawer and a description and click Make Adjustment button
- 
-2.	Take Money Out: Enter the cash amount you remove from your drawer and a description and click Make Adjustment button.
- 
-1.	End a Session 
-Path: from top left hamburger Menu > Session Management section > Session 
-After your shift is ended, you can close your session by selecting the opened session and click Close session button.
- 
-You will see the Close Session window as below:
- 
-1.	You can Put Money In and Take Money Out like in Record Cash In & Cash Out
-2.	The window dislpays detailed information of the session: Opening Balance, Transaction in the session, Theoretical Closing Balance. Cashier needs to enter the amount of cash in the cash drawer at the end of the shift in the Real Closing Balance field. The Difference between  Theoretical Closing Balance and Real Closing Balance is automatically calculated.
-3.	Alternatively to entering the total amount of closing balance in line, cashier can enter the specific value and amount of banknote/bill/coins that add up to the total closing balance here (the screenshot is as below). Then click Confirm to finish.
- 
-4.	Click Close Session to preview your session in the next window.
- 
-5.	Click Validate to confirm closing session. Or you can Re-entry Data to go back to Close Session window and correct any mistakes.
 
-6.	Filter & Search Product Quickly 
-To configure Product Search in back-end, please refer to 2.1.7. Configure Product Search 
-In front-end, users could search product in 3 ways: Categories, Product Attribute & Barcode Scanning 
-7.	Categories: Click on All Products link on the top bar to quickly search products by categories. Choose the corresponding categories as you prefer.
- 
+![Record Cash In & Cash Out]()
 
-8.	Product Attribute: To search by product attributes, use the Search bar. Enter your search terms and matching products will display right away as you type. Clicking on a suggested item will add it to the customer’s cart.
- 
+During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on **Put Money In/ Take Money Out** buttons in this **Session** window. Cash in and out appears in the drawer history on the iPad, with both the description you enter and the total amount in the drawer.
 
-9.	Barcode Scanning: Our RetailerPOS allows quick product search by scanning barcode. You just need to click on the Barcode scanning icon in the Search bar and scan the product’s barcode to add it to cart.
- 
+![Record Cash In & Cash Out]()
 
+- **Put money in**: Enter the cash amount you add to your drawer and a description and click **Make Adjustment** button
 
-10.	Add Product to Cart and Edit Products in Cart
-1.	Add Products to Cart
-1.	With simple product, you just need one tap to add it to cart. 
-2.	With configurable, bundle, grouped product, after clicking, you will see a popup shown to choose options (e.g. color, size). Then, tap on Add to Cart button: 
+![Put money in]()
  
-1.	Edit/Remove Product Quantity in Cart
+- **Take Money Out**: Enter the cash amount you remove from your drawer and a description and click **Make Adjustment** button.
+
+![Take Money Out]()
+
+##### End a Session 
+
+Path: from top left hamburger **Menu > Session Management** section **> Session** 
+
+After your shift is ended, you can close your session by selecting the opened session and click **Close session** button.
+
+![End a session]()
+ 
+You will see the **Close Session** window as below:
+
+![End a session]()
+ 
+1.	You can Put Money In and Take Money Out like in **Record Cash In & Cash Out**
+2.	The window dislpays detailed information of the session: **Opening Balance, Transaction** in the session, **Theoretical Closing Balance**. Cashier needs to enter the amount of cash in the cash drawer at the end of the shift in the **Real Closing Balance** field. The **Difference** between **Theoretical Closing Balance** and **Real Closing Balance** is automatically calculated.
+3.	Alternatively to entering the total amount of closing balance in line, cashier can enter the specific value and amount of banknote/bill/coins that add up to the total closing balance here (the screenshot is as below). Then click **Confirm** to finish.
+
+![End a session]()
+
+4.	Click **Close Session** to preview your session in the next window.
+
+![End a session]()
+ 
+5.	Click **Validate** to confirm closing session. Or you can **Re-entry Data** to go back to **Close Session** window and correct any mistakes.
+
+#### Filter & Search Product Quickly 
+
+To configure Product Search in back-end, please refer to **Configure Product Search**
+
+In front-end, users could search product in 3 ways: **Categories, Product Attribute & Barcode Scanning** 
+- **Categories**: Click on **All Products** link on the top bar to quickly search products by categories. Choose the corresponding categories as you prefer.
+
+![Filter & Search Product Quickly -Categories]()
+
+- **Product Attribute**: To search by product attributes, use the **Search bar**. Enter your search terms and matching products will display right away as you type. Clicking on a suggested item will add it to the customer’s cart.
+
+![Product Attribute]()
+
+- **Barcode Scanning**: Our RetailerPOS allows quick product search by scanning barcode. You just need to click on the **Barcode scanning** icon in the **Search bar** and scan the product’s barcode to add it to cart.
+
+![Barcode Scanning]()
+ 
+#### Add Product to Cart and Edit Products in Cart
+##### Add Products to Cart
+
+- With simple product, you just need one tap to add it to cart. 
+- With configurable, bundle, grouped product, after clicking, you will see a popup shown to choose options (e.g. color, size). Then, tap on **Add to Cart** button:
+
+![Add Products to Cart]()
+ 
+##### Edit/Remove Product Quantity in Cart
+
 After adding products to cart, you can edit the quantity of each product by selecting the product that needs editing. A popup will display with edit option for Qty.
- 
-11.	To edit Qty., just enter a wanted number or tap on +/-. The number of products will be adjusted in the cart right away. 
-12.	Adjust quantity to 0 to remove the item from the cart.
-13.	To delete the whole cart, tap on the trash icon on the left menu bar
- 
 
-1.	Add Custom Sale Item to Cart 
-Custom sale item is the item that Retailer POS user creates when checkout. It is used when the product hasn’t been added to the system or Retailer POS user cannot find it in the product list.
-In frontend, select Custom Sale button if you want to add the custom product to Cart 
+![Edit/Remove Product Quantity in Cart]()
  
-1.	Name: Enter the name of custom product
-2.	Shippable: Choose whether this product will be shipped or not by turning on or off this option
-3.	Price: Enter the price of this product
-After finishing configuration, tap Add to Cart button and check out as normal. Please note that this custom sale product will not be saved for the next checkout.
+- To edit Qty., just enter a wanted number or tap on +/-. The number of products will be adjusted in the cart right away. 
+- Adjust quantity to 0 to remove the item from the cart.
+- To delete the whole cart, tap on the trash icon on the left menu bar
 
-14.	Apply Coupon Code or Card Discount to Cart 
-1.	Apply Discount
+![Edit/Remove Product Quantity in Cart]()
+
+##### Add Custom Sale Item to Cart 
+
+***Custom sale item** is the item that Retailer POS user creates when checkout. It is used when the product hasn’t been added to the system or Retailer POS user cannot find it in the product list.*
+
+In frontend, select **Custom Sale** button if you want to add the custom product to Cart 
+
+![Add Custom Sale Item to Cart]()
  
-To apply a discount on the whole cart, Tap “Discount” and then this popup will be shown: 
+- **Name**: Enter the name of custom product
+- **Shippable**: Choose whether this product will be shipped or not by turning on or off this option
+- **Price**: Enter the price of this product
+
+After finishing configuration, tap **Add to Cart** button and check out as normal. Please note that this custom sale product will not be saved for the next checkout.
+
+#### Apply Coupon Code or Card Discount to Cart 
+
+##### Apply Discount
+
+![Apply Discount]()
  
-In Custom Discount tab:
-1.	Name: Enter a name for this discount as you will easily check it again
-2.	Discount Type: Select discount by fixed amount or percentage
-3.	Amount: Fill in discount value as you offer for your customers.
-4.	Then, the cart will be updated automatically after you click on Apply button.
-After applying Discount, you can remove it by clicking on the Remove Discount button.
+To apply a discount on the whole cart, Tap **Discount** and then this popup will be shown: 
+
+![Apply Discount]()
  
-2.	Apply Coupon Code
+In **Custom Discount** tab:
+1.	**Name**: Enter a name for this discount as you will easily check it again
+2.	**Discount Type**: Select discount by fixed amount or percentage
+3.	**Amount**: Fill in discount value as you offer for your customers.
+4.	Then, the cart will be updated automatically after you click on **Apply** button.
+
+After applying Discount, you can remove it by clicking on the **Remove Discount** button.
+
+![Apply Discount]()
+
+##### Apply Coupon Code
+
+![Apply Coupon Code]()
  
-Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on Apply button.
+Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on **Apply** button.
+
 You can remove the Coupon Code promotion the same way as you did for Discount.
-3.	Apply Custom Price or Custom Discount to a Product 
-After adding products to cart, besides editing the quantity of each product you can click on the product to edit other information. 
- 
-A popup will display with edit option for Custom Price, Discount. Remember that you can only change information by Custom Price OR Discount, not both at a time for a product.
-1.	Custom Price
- 
-You can set custom price for a product by clicking on the Product and selecting Custom Price button.
-In the popup, please choose the type you want to adjust for the price, according to fixed number or percentage.
-2.	If you edit fixed price, the price will be changed to the price you have entered
-3.	If you edit by percentage, the price will be decreased by the percent you have entered (it is similar to Discount by percentage)
-Then, products in cart will be updated with the price you edit
-4.	Product Discount
-Editing discount for each product is similar to edit by Custom Price. Click on Discount button and choose types of discount–fixed discount or percentage–you want to adjust.
 
-5.	Handle Customer Information at Check Out 
-1.	Customer Checkout 
-To use Customer Checkout, add customer by clicking on Add Customer link. You will see a screen as below:
+##### Apply Custom Price or Custom Discount to a Product 
+
+After adding products to cart, besides editing the quantity of each product you can click on the product to edit other information. 
+
+![Apply Custom Price or Custom Discount to a Product ]()
+ 
+A popup will display with edit option for **Custom Price, Discount**. Remember that you can only change information by *Custom Price **OR** Discount, not both at a time for a product*
+
+- **Custom Price**
+
+![Custom Price]()
+ 
+You can set custom price for a product by clicking on the Product and selecting **Custom Price** button.
+
+In the popup, please choose the type you want to adjust for the price, according to fixed number or percentage.
+
+- *If you edit fixed price, the price will be changed to the price you have entered
+- If you edit by percentage, the price will be decreased by the percent you have entered (it is similar to Discount by percentage)*
+
+Then, products in cart will be updated with the price you edit
+
+- **Product Discount**
+
+Editing discount for each product is similar to edit by Custom Price. Click on **Discount** button and choose types of discount–fixed discount or percentage–you want to adjust.
+
+#### Handle Customer Information at Check Out 
+##### Customer Checkout 
+
+To use **Customer Checkout**, add customer by clicking on **Add Customer** link. You will see a screen as below:
+
+![Customer Checkout]()
  
 
 6.	Search Customers: 
