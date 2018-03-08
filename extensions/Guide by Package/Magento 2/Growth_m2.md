@@ -2277,165 +2277,273 @@ Your customers can't make up their mind yet, or are unable to make a payment mea
 
 **a. Put Order on-hold**
 
-After adding products to cart, you can choose Hold to put the order into WebPOS frontend top left menu **> Orders** section **> On-hold Orders.**
+After adding products to cart, you can choose **Hold** to put the order into WebPOS frontend top left menu **> Orders** section **> On-hold Orders.**
 
 ![Put Order on-hold]()
  
-2.	Check on-hold Orders
-4.	On WebPOS Frontend
-Path: WebPOS frontend top left menu > Orders section > On-hold Orders
-To check orders that have been put on hold, select On-hold Orders section. You may select “Checkout” whenever customer is willing to take final action for payment or you may “Delete” it if it is not effective anymore.
- 
+**b. Check on-hold Orders**
+- **On WebPOS Frontend**
 
-5.	In Magento Backend
-If you turn on Sync on-hold order to server setting in WebPOS Frontend top left menu > Settings section > General > Checkout, you will be able to see on-hold orders in Magento backend > Sales > Orders.
- 
+Path: WebPOS frontend top left menu **> Orders** section **> On-hold Orders**
 
-6.	Print Receipt or Email Order Information
+To check orders that have been put on hold, select **On-hold Orders** section. You may select **Checkout** whenever customer is willing to take final action for payment or you may **Delete** it if it is not effective anymore.
+
+![On WebPOS Frontend]()
+ 
+- In **Magento Backend**
+
+If you turn on Sync on-hold order to server setting in WebPOS Frontend top left menu **> Settings** section **> General > Checkout**, you will be able to see on-hold orders in Magento backend **> Sales > Orders**.
+
+![Magento Backend]()
+
+##### Print Receipt or Email Order Information
+
 You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions
+
+![Print Receipt or Email Order Information]()
+
+Tap **Print** and the receipt will look like this picture below: 
   
-Tap “Print” and the receipt will look like this picture below: 
-  
+![Print Receipt or Email Order Information]()
+
 And here is the email of order information:
- 
 
-7.	Review Order 
-Path: WebPOS frontend top left menu > Orders section > Order History
-In POS screen, you can review orders by choosing Order History tab. Here you can see the order list and order details:
+![Print Receipt or Email Order Information]()
  
-1.	Order Status 
+##### Review Order 
+
+Path: WebPOS frontend top left menu **> Orders** section **> Order History**
+
+In POS screen, you can review orders by choosing **Order History** tab. Here you can see the order list and order details:
+
+![Review Order]()
+ 
+**a. Order Status**
+
 In order list, the status of order is distinguished by color
-8.	Pending: Orange (When you create order successfully but have not shipped order and created invoice)
-9.	Processing: Blue (When you have shipped order OR created invoice)
-10.	Complete: Green (When you shipped order AND created invoice)
-11.	Canceled: Gray (When you cancel the order)
-12.	Closed: Black (When order has been refunded)
-13.	Not synced: Red (When order’s data has not been synced to the system)
-1.	Order Searching 
+
+- **Pending**: Orange (When you create order successfully but have not shipped order and created invoice)
+- **Processing**: Blue (When you have shipped order OR created invoice)
+- **Complete**: Green (When you shipped order AND created invoice)
+- **Canceled**: Gray (When you cancel the order)
+- **Closed**: Black (When order has been refunded)
+- **Not synced**: Red (When order’s data has not been synced to the system)
+
+**b. Order Searching**
+
 To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
- 
-2.	View Order Information
+
+![Order Searching]()
+
+**c. View Order Information**
+
 To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this: 
+
+![View Order Information]()
  
-14.	Issue Invoice for An Order 
+##### Issue Invoice for An Order 
+
 The order can’t be complete if you haven’t issued invoice for customer. 
-After the order is created successfully, you will find order’s details on tab “Order History” then click on tab “Invoice”
+
+After the order is created successfully, you will find order’s details on tab **Order History** then click on tab **Invoice**
+
+![Issue Invoice for An Order]()
  
-A pop-up will appear, so you can enter the quantity of item or the order amount to be invoiced. Then you click on button Submit invoice to complete the action. You can choose whether to send invoice to customer’s email or not.
-  
+A pop-up will appear, so you can enter the quantity of item or the order amount to be invoiced. Then you click on button **Submit invoice** to complete the action. You can choose whether to send invoice to customer’s email or not.
 
-15.	Create Shipment for An Order 
-1.	Create Shipment 
-There are two ways to create shipment using Web POS: Before Placing an Order and When Reviewing Order
+![Issue Invoice for An Order]()
 
-1.	Before Placing an Order
-Before an order is created by clicking Place Order, you can create shipment by turn on Marked as Shipped as below:
+##### Create Shipment for An Order 
+
+**a. Create Shipment**
+
+There are two ways to create shipment using Web POS: **Before Placing an Order** and **When Reviewing Order**
+
+- **Before Placing an Order**
+
+Before an order is created by clicking **Place Order**, you can create shipment by turn on **Marked as Shipped** as below:
+
+![Before Placing an Order]()
  
 After verifying shipment method, the system will automatically load to Successful Order Page. There will be a message shown to notify you that shipment is created successfully. Please note that to use this way, you need to have permission and be in online mode.
-2.	After Placing an Order 
-When order has been created successfully but hasn’t been shipped, you can go to Orders History (path: WebPOS frontend top left menu > Orders section > Orders History) and create shipment for that order.
- 
 
-1.	Partial Shipment 
-If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button “Mark as shipped”.
- 
-After placing order successfully, you find that order in Orders History (path: WebPOS frontend top left menu > Orders section > Orders History). 
-Then you click on the menu icon on the right corner and choose Ship. 
-A pop-up then appears so you can enter the number of items to be shipped of each product.
-Note: Only orders that have been synced can be shipped.
- 
+- **After Placing an Order**
 
-1.	How to Issue Refund
-Some certain staffs have permission to issue refund (which is set by admin in backend. See section Decentralize access permission of Web POS users to assign access permission). 
+When order has been created successfully but hasn’t been shipped, you can go to Orders History (path: WebPOS frontend top left menu **> Orders** section **> Orders History**) and create shipment for that order.
+ 
+![After Placing an Order]()
+
+**b. Partial Shipment**
+
+If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button **Mark as shipped**.
+
+![Partial Shipment]()
+ 
+After placing order successfully, you find that order in **Orders History** (path: WebPOS frontend top left menu **> Orders** section **> Orders History**). 
+
+Then you click on the menu icon on the right corner and choose **Ship**. 
+
+A pop-up then appears so you can *enter the number of items to be shipped of each product.*
+
+**Note**: Only orders that have been synced can be shipped.
+
+![Partial Shipment]()
+ 
+#### How to Issue Refund
+
+Some certain staffs have permission to issue refund (which is set by admin in backend. See section **Decentralize access permission of Web POS users** to assign access permission). 
+
 Customers can get refund in either Store Credits, points or in cash. 
-NOTE: To enable refund by Store Credit and Reward Points, these two modules must be installed in your website.
-To issue refund, go to POS screen > Orders> Choose order required to refund > Click on Refund button at the top right menu
+
+**NOTE**: To enable refund by **Store Credit** and **Reward Points**, these two modules must be installed in your website.
+
+To issue refund, go to **POS screen > Orders>** Choose order required to refund > Click on **Refund** button at the top right menu
+
+![How to Issue Refund]()
  
-A popup will display so that you can fill in the information before making refund. Tick Return to stock if you want to return those items back to your warehouse. 
-1.	 Adjust Refund: The fee customers might have to pay for your store when requesting refund.
-2.	Adjust Fee: The compensation customers get from your store if they have to request refund.
-Check Send Email if you want a notification email to be sent to customer and click Submit Refund to finish.
+A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to return those items back to your warehouse.
+
+![How to Issue Refund]()
+
+- **Adjust Refund**: The fee customers might have to pay for your store when requesting refund.
+- **Adjust Fee**: The compensation customers get from your store if they have to request refund.
+
+Check **Send Email** if you want a notification email to be sent to customer and click **Submit Refund** to finish.
+
 After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund and you are in online mode.
 
-1.	How to View Report
-Path: Magento backend menu > Sales > Web POS section > Sales Order Reports
+#### How to View Report
+
+Path: **Magento backend menu > Sales > Web POS** section **> Sales Order Reports**
+
+![How to view report]()
  
 Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. 
+
+![How to view report]()
  
-Note:
+**Note:**
+
 For each type of report:
+
+![How to view report]()
  
 1.	You can quickly go from one report to another by selecting the report here instead of going back to the Report Overview page.
-2.	Report Period: You can view report in any custom time period.
-3.	Order Status: You can choose to view report of a specific type of order 
-4.	Click on Show Report to view report with choosen options above.
+2.	**Report Period**: You can view report in any custom time period.
+3.	**Order Status**: You can choose to view report of a specific type of order 
+4.	Click on **Show Report** to view report with choosen options above.
 5.	You can export each report into Excel XML or CSV file.
 
-1.	Staff Report 
-On Staff report row, there are 3 types of reports: Sales by staff, Sales by staff (Daily) and Order list for staff. 
- 
-The Sales by staff report shows the number of orders and total sales created by each sale staff in any custom period.
- 
-The Sales by staff (Daily) report expresses the number of order and total sales created by each staff each day during the time you choose.
- 
-In the Order list by staff report, you can view all order information including ID, value, history and status of each order created by any or each specific sales staff.
+##### Staff Report 
 
-2.	Location Report 
-The Location report has 3 different reports including Sales by location, Sales by location (Daily) and Order list for location.
+On Staff report row, there are 3 types of reports: **Sales by staff, Sales by staff (Daily)** and **Order list for staff**. 
  
-The Sales by location report shows the number of orders and sales created in each location, in any custom time.
+ ![Staff Report]()
+ 
+The **Sales by staff** report shows the number of orders and total sales created by each sale staff in any custom period.
+
+ ![Staff Report]()
+ 
+The **Sales by staff (Daily)** report expresses the number of order and total sales created by each staff each day during the time you choose.
+
+ ![Staff Report]()
+ 
+In the **Order list by staff** report, you can view all order information including ID, value, history and status of each order created by any or each specific sales staff.
+
+##### Location Report 
+
+The Location report has 3 different reports including **Sales by location, Sales by location (Daily)** and **Order list for location.**
+
+![Location Report]()
+ 
+The **Sales by location** report shows the number of orders and sales created in each location, in any custom time.
+
+![Location Report]()
   
-The Sales by location (Daily) report shows the number of orders and sales created in each location by each day.
-  
-In the Order list for location report, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
+The **Sales by location (Daily)** report shows the number of orders and sales created in each location by each day.
+ 
+![Location Report]()
 
+In the **Order list for location** report, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
 
-3.	Payment Report 
-The section of Payment Report has 4 different types of report including Sales by payment method, Sales by payment method (Daily), Order list for payment method and Sales by payment method for location. 
- 
-The Sales by payment method report displays the number of orders and sales paid by each payment method in a custom time period.
- 
-The Sales by payment (Daily) report shows the number of orders and sales created by each payment method by each day.
- 
-In the Order list for payment method, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
- 
-The Sales by payment method for location report displays the number of orders and sales created by each payment in each sale location.
+##### Payment Report 
 
-4.	Z – Report 
-Path: Web POS backend menu > Sales > Web POS section > Z-Reports
+The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method** and **Sales by payment method for location.**
+
+![Payment Report]()
  
-The Z-Report page displays overview information of each session recorded in each POS including Session ID, Staff account, POS name, session opening/closing time and balance. 
-Click on Print of a specific Report to view and print the report. 
+The **Sales by payment method** report displays the number of orders and sales paid by each payment method in a custom time period.
+
+![Payment Report]()
+ 
+The **Sales by payment (Daily)** report shows the number of orders and sales created by each payment method by each day.
+
+![Payment Report]()
+ 
+In the **Order list for payment method**, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
+
+![Payment Report]()
+ 
+The **Sales by payment method for location** report displays the number of orders and sales created by each payment in each sale location.
+
+##### Z – Report 
+
+Path: **Web POS backend** menu **> Sales > Web POS** section **> Z-Reports**
+
+![z-report]()
+ 
+The **Z-Report** page displays overview information of each session recorded in each POS including Session ID, Staff account, POS name, session opening/closing time and balance. 
+
+Click on **Print** of a specific Report to view and print the report. 
+
+![z-report]()
  
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
+
 The Z-report will be refreshed to serve new shift/working day after you select Close Store. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
 
-5.	Retailer POS
+### Retailer POS
+
 RetailerPOS module is available on both iPad and Android. In this userguide, we only demonstrate the use of the iPad version. The Adroid version may look a bit different, but functions the same.
-1.	Log In & Manage Account 
-1.	Log in 
-After downloading and installing Retailer POS in your iPad, open the app and you will see login screen.Staffs need to enter domain, username and password : 
- 
-Note: you can hide the Demo button in Settings > General
+
+#### Log In & Manage Account 
+##### Log in 
+
+After downloading and installing Retailer POS in your iPad, open the app and you will see login screen.Staffs need to enter domain, username and password:
+
+![Log in]()
+**Note**: you can hide the Demo button in **Settings > General**
+
 After that, staff needs to choose their POS to start using the app.
+
+![Log in]()
  
 After successfully log in, you will see either:
-1.	Checkout screen to start add products to cart and checkout, if there is an opening session already or if opening session setting is turned off in backend setting (Path: Sales > Web POS > Settings > General Configuration section > Need to create session before working field); OR you will see
-2.	Opening Balance window if you enable Need to create session before working field in POS backend (please refer to 5.2.15. Use Session Management for details about session)
+	- Checkout screen to start add products to cart and checkout, if there is an opening session already or if opening session setting is turned off in backend setting (Path: **Sales > Web POS > Settings > General Configuration** section **> Need to create session before working** field); OR you will see
+	- Opening Balance window if you enable **Need to create session before working** field in POS backend (please refer to **Use Session Management** for details about session)
 
-3.	Manage Account
-Manage account by clicking on the hamburger menu icon at the top left of the screen > Settings 
-There are 5 tabs to configure settings: General, My Account, Checkout, Print & Currency
-  
-1.	General: Users can set timing when the screen automatically switch to locking mode, change PIN code and hide demo button on the Login screen
+##### Manage Account
 
+Manage account by clicking on the hamburger menu icon at the top left of the screen **> Settings** 
+
+There are 5 tabs to configure settings: **General, My Account, Checkout, Print & Currency**
+
+![Manage Account]()
   
-2.	My account: Users can change password if they want
+- **General**: Users can set timing when the screen automatically switch to locking mode, change PIN code and hide demo button on the Login screen
+
+![Manage Account]()
+
+- **My account**: Users can change password if they want
+
+![Manage Account]()
  
-3.	Checkout:
-1.	Create shipment when placing order: if you enable this setting, after an order is checked-out successfully, it will automatically be marked as shipped. 
-2.	Available Qty: this settting allows displaying the product’s available quantity in warehouse in the product’s thumbnail.
-3.	Enable Google Address Suggestion when you enter customer’s address during checkout.
+- **Checkout**:
+	- **Create shipment when placing order**: if you enable this setting, after an order is checked-out successfully, it will automatically be marked as shipped. 
+	- **Available Qty**: this settting allows displaying the product’s available quantity in warehouse in the product’s thumbnail.
+	- **Enable Google Address Suggestion** when you enter customer’s address during checkout.
+
+![Manage Account]()
 
  
 4.	Print: you can choose the printer type and preferred settings for each type including paper size (for Air Printer Scroll); paper size, automatically open cash drawer after checkout, number of receipt copies to be printed out, automatically print receipt after checkout and either to display product name or its SKU on the receipt (for Star Micronics Printer).
