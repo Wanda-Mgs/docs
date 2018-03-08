@@ -2754,158 +2754,254 @@ To use **Customer Checkout**, add customer by clicking on **Add Customer** link.
 
 ![Customer Checkout]()
  
+- **Search Customers**:
 
-6.	Search Customers: 
 In the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in dropdown list.
+
 The information of customer in the system will be auto updated in checkout step. 
- 
-7.	QR Code/ Barcode scanning: our RetailerPOS offers an extremely convenient way for your customer checkout process by allowing scanning customer’s QR Code/ Barcode in their member card or loyalty app. 
- 
-Click on the Scan icon in the Search bar. The system will automatically fill customer info into checkout form. 
 
-8.	Create New Customer: Click on Create Customer button
+![Search Customers]()
  
-Fill enough information of the customer such as First Name, Last Name, Email, Phone, Group of Customer. Remember to tap Save button to save the customer information for the next checkout.
- 
-Fill in the information for Shipping Address such as Phone, Street, City, etc
- 
-Fill enough information of Billing Address such as Phone, Street, City, etc
- 
+- **QR Code/ Barcode scanning**: our RetailerPOS offers an extremely convenient way for your customer checkout process by allowing scanning customer’s QR Code/ Barcode in their member card or loyalty app. 
 
-1.	Guest Checkout
-When you use Guest Checkout, the default customer that you configure in backend will be used (please refer to 2.1.1. Default Guest Check Out for more details). At checkout, all fields will be auto-filled with that default information.
+![QR Code/ Barcode scanning]()
  
+Click on the **Scan icon** in the Search bar. The system will automatically fill customer info into checkout form. 
 
-9.	Add Comment to An Order
-1.	Add Comment 
-After selecting an order, from the menu icon on the top right, choose Add Order Comment.
+- **Create New Customer**: Click on **Create Customer** button
+
+![Create New Customer]()
  
-In the Order Comment box, type in the content and click on Save. Click on Cancel Comment to exit the comment function.
-2.	Check Comment
+Fill enough information of the customer such as **First Name, Last Name, Email, Phone, Group of Customer**. Remember to tap **Save** button to save the customer information for the next checkout.
+
+![Create New Customer]()
+ 
+Fill in the information for **Shipping Address** such as **Phone, Street, City**, etc
+
+![Create New Customer]()
+ 
+Fill enough information of **Billing Address** such as **Phone, Street, City**, etc
+
+![Create New Customer]()
+
+##### Guest Checkout
+
+When you use Guest Checkout, the default customer that you configure in backend will be used (please refer to **Default Guest Check Out** for more details). At checkout, all fields will be auto-filled with that default information.
+
+![Guest Checkout]()
+
+#### Add Comment to An Order
+##### Add Comment 
+
+After selecting an order, from the menu icon on the top right, choose **Add Order Comment.**
+
+![Add Comment]()
+ 
+In the **Order Comment** box, type in the content and click on **Save**. Click on **Cancel Comment** to exit the comment function.
+
+##### Check Comment
+
 Users can check comment on Retailer POS Screen or in Magento Back-end
-1.	Retailer POS Screen 
-To view comment of order, you can go to Orders tab in Retailer POS top left menu, choose an order then scroll down to see Comment History
- 
 
-2.	Magento Back-end
-Go to Sales > Orders > Click on a specific order. In order details page, scroll down to Comment History tab to check whether it has any notes or not.
- 
+- **Retailer POS Screen**
 
-3.	Process at Checkout for Customer
-When the products are added to cart, select Checkout button at the end of the cart page
- 
-You will be redirected to the next page with information of Shipping & Payment Method
- 
-4.	Need to Ship: Turn on to add Shipping Address
-5.	Shipping Method: Choose a shipping method (please refer to 2.2.2. Set up Shipping Method for more details)
-6.	Payment Method: choose a payment method by clicking in an option (please refer to 2.2.1. Enable Payment Method for Retailer POS for more details). You can add more than one payment method (please refer to 5.2.9. Split Payment) 
-7.	Gift Card: enter the Gift Card code to apply discount. You can apply more than one code. (please refer to 2.6.5. Manage Gift Codes for details about creating gift codes)
-8.	Marked as shipped: turn it on to mark to order as “Shipped”
-9.	Note: enter comment for the order (optional)
-After that, click on Place Order button to complete checkout process. There will be a notification as below:
+To view comment of order, you can go to **Orders** tab in Retailer POS top left menu, choose an order then scroll down to see Comment History
 
- 
-Click New Order to go back to the Checkout window and continue creating order/checkout for another guest. Click Print to print the order receipt. 
+![Retailer POS Screen]()
 
-1.	Split Payment
+- **Magento Back-end**
+
+Go to **Sales > Orders >** Click on a specific order. In order details page, scroll down to **Comment History** tab to check whether it has any notes or not.
+
+![Magento Back-end]()
+
+#### Process at Checkout for Customer
+
+When the products are added to cart, select **Checkout** button at the end of the cart page
+
+![Process at Checkout for Customer]()
+ 
+You will be redirected to the next page with information of **Shipping & Payment Method**
+
+![Process at Checkout for Customer]()
+ 
+- **Need to Ship**: Turn on to add **Shipping Address**
+- **Shipping Method**: Choose a shipping method (please refer to **Set up Shipping Method** for more details)
+- **Payment Method**: choose a payment method by clicking in an option (please refer to **Enable Payment Method for Retailer POS** for more details). You can add more than one payment method (please refer to **Split Payment**) 
+- **Gift Card**: enter the Gift Card code to apply discount. You can apply more than one code. (please refer to **Manage Gift Codes** for details about creating gift codes)
+- **Marked as shipped**: turn it on to mark to order as “Shipped”
+- **Note**: enter comment for the order (optional)
+
+After that, click on **Place Order** button to complete checkout process. There will be a notification as below:
+
+![Process at Checkout for Customer]()
+
+Click **New Order** to go back to the Checkout window and continue creating order/checkout for another guest. Click Print to print the order receipt. 
+
+##### Split Payment
+
 You can use more than 1 payment method for split payments when check out with Retailer POS. 
-Here is an example for you: The order value is $45. Your customer wants to pay $20 in cash and the remaining ($25) is paid by Custom Payment. Then, you will fill the amount at the blank space next to “Web POS – Custom Payment 2”. Then click Place Order to finish.
- 
-Note: 
-2.	Support multiple payment methods for an order 
-3.	Not require cash as compulsory  
 
-4.	Create Multi-Orders for Different Customers 
+Here is an example for you: The order value is $45. Your customer wants to pay $20 in cash and the remaining ($25) is paid by Custom Payment. Then, you will fill the amount at the blank space next to “Web POS – Custom Payment 2”. Then click **Place Order** to finish.
+
+![Split Payment]()
+ 
+**Note**: 
+- Support multiple payment methods for an order 
+- Not require cash as compulsory  
+
+##### Create Multi-Orders for Different Customers 
+
 Retailer POS allows you to create multi-orders for different customers and keep orders open until customers end up transaction. That means you can open multiple orders to serve lots of different customers at the same time. For example, someone is paying for something in your shop but realize they forget their wallet.  You can keep this order open until they come back with their money while you still can carry on serving the next customer.
-NOTE: these orders will be automatically deleted once you log out.
- 
-You can Delete an opened order by clicking on the Trash icon. If you turn on Need to confirm before deleting order (App only) setting in backend, you will need to confirm before deleting the order.
 
-5.	Create Shipment 
-1.	Create Shipment 
+**NOTE**: these orders will be automatically deleted once you log out.
+
+![Create Multi-Orders for Different Customers]()
+ 
+You can **Delete** an opened order by clicking on the **Trash** icon. If you turn on **Need** to confirm before deleting order **(App only)** setting in backend, you will need to confirm before deleting the order.
+
+#### Create Shipment 
+##### Create Shipment 
+
 There are 2 ways to create shipment: Before placing order & When reviewing order
-1.	Before placing order
-Before clicking Place order to accomplish customer purchasing process, Staffs can create shipment by turn it on as below and enter Shipping Address.
+
+**a. Before placing order**
+
+Before clicking **Place order** to accomplish customer purchasing process, Staffs can create shipment by turn it on as below and enter Shipping Address.
+
+![Before placing order]()
  
 After verifying shipment method, the system will automatically load to Successful Order Page.
-2.	When reviewing order 
-Path: Order history > from the top right menu choose Order > Ship 
+
+**b. When reviewing order**
+
+Path: **Order history** > from the top right menu choose **Order > Ship**
+
+![When reviewing order]()
  
 There will be a message shown to notify you that shipment is created successfully. Please note that to use this way, you need to have permission.
-2.	Partial Shipment 
-If you chose to enable Partial Shipment, a box of Items to Ship will appear when you tap Ship in Order Tab. Enter the quantity of each product customers want to ship, select Ship.
- 
 
-6.	Issue Refund
-Some certain staffs have permission to issue refund by cash. Please refer to section Error! Reference source not found. for more details.
-To issue refund, go to Orders tab in POS screen, you choose the order that is required to refund. Tap on Refund button in the end.
+##### Partial Shipment 
+
+If you chose to enable Partial Shipment, a box of Items to Ship will appear when you tap **Ship in Order** Tab. Enter the quantity of each product customers want to ship, select **Ship**.
+
+![Partial Shipment]()
+
+#### Issue Refund
+
+Some certain staffs have permission to issue refund by cash. Please refer to section **Error! Reference source not found**. for more details.
+
+To issue refund, go to **Orders** tab in POS screen, you choose the order that is required to refund. Tap on **Refund** button in the end.
+
+![Issue Refund]()
  
-A popup will display so that you can fill in the information before making refund. Tick Return to stock if you want to add those items back to your stock.
+A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to add those items back to your stock.
+
+![Issue Refund]()
  
 After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund.
-7.	Print Receipt and Email Order 
+
+#### Print Receipt and Email Order 
+
 You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
+
+![Print Receipt and Email Order]()
  
 The receipt will look like the screenshot below with further options in the top right menu.
- 
-8.	Review Order 
-In POS screen, you can review orders by choosing Orders tab from sidebar. Here you can see the order list and order details
+
+![Print Receipt and Email Order]()
+
+#### Review Order 
+
+In POS screen, you can review orders by choosing **Orders** tab from sidebar. Here you can see the **order list** and **order details**
+
+![Review Order]()
  
 The status of order is distinguished by color: 
-1.	Orange: Pending: the order is placed but not processed (shipped/invoiced/ etc.)
-2.	Blue: Processing: the order is processed, but not invoiced
-3.	Green: Complete: the order is invoiced 
-4.	Grey: Cancelled: pending order that has been cancelled 
-5.	Black: Closed: processing order that has been cancelled
-To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
- 
-6.	Run Sales Report
-Please refer to 5.1.6. How to View Report for details.
+- **Orange**: Pending: the order is placed but not processed (shipped/invoiced/ etc.)
+- **Blue**: Processing: the order is processed, but not invoiced
+- **Green**: Complete: the order is invoiced 
+- **Grey**: Cancelled: pending order that has been cancelled 
+- **Black**: Closed: processing order that has been cancelled
 
-7.	Inventory 
-1.	Stock Listing
-1.	Stocks in Warehouse
-Path: Inventory Management > Stock Listing section > Stocks in Warehouse
+To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
+
+![Review Order]()
  
-This page provides an overview of stock data in all warehouses and admin can select a warehouse to view stocks of that warehouse only. It shows Available Qty, Qty to Ship, Total Qty and Shelf Location of each product in that warehouse. 
+#### Run Sales Report
+
+Please refer to **How to View Report** for details.
+
+### Inventory 
+#### Stock Listing
+##### Stocks in Warehouse
+
+Path: **Inventory Management > Stock Listing** section **> Stocks in Warehouse**
+
+![Stocks in Warehous]()
+ 
+This page provides an overview of stock data in all warehouses and admin can select a warehouse to view stocks of that warehouse only. It shows **Available Qty, Qty to Ship, Total Qty** and **Shelf Location** of each product in that warehouse. 
+
+![Stocks in Warehous]()
  
 After selecting a specific warehouse, admin can easily update stock and shelf location right on the Inventory grid:
 1.	Mark the checkbox to select products
-2.	Qty in Warehouse: Edit product quantity in line
-3.	Shelf Location: Input the product’s Shelf location (optional)
-4.	Click on Update Stock to save changes
+2.	**Qty in Warehouse**: Edit product quantity in line
+3.	**Shelf Location**: Input the product’s Shelf location (optional)
+4.	Click on **Update Stock** to save changes
 
-1.	Non-Warehouse Products
-Path: Inventory Management > Stock Listing section > Non-Warehouse Products
+##### Non-Warehouse Products
+
+Path: **Inventory Management > Stock Listing** section **> Non-Warehouse Products**
+
 When a product is newly added to the system, it will be automatically allocated in Non-warehouse. Admin can assign this product to any warehouses. 
+
+![Non-Warehouse Products]()
  
 1.	Select the product by clicking on the checkbox
-2.	Add to Warehouse: Add it into warehouse by clicking on its Add to Warehouse column.
-1.	Warehouse
-After installing, the system will automatically provide a Primary Warehouse. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse first before being sent to other warehouses.
+2.	**Add to Warehouse**: Add it into warehouse by clicking on its Add to Warehouse column.
 
-3.	Add a New Warehouse
-Path: Inventory Management > Stock Listing section > Warehouse
-Please refer to Section New Warehouse for details.
+##### Warehouse
 
-4.	View Warehouse's detail information
-Path: Inventory Management > Stock Listing section > Warehouse
+After installing, the system will automatically provide a **Primary Warehouse**. This warehouse cannot be deleted and can only be edited. All the existing products with stocks level of your website will be automatically allocated in this warehouse first before being sent to other warehouses.
+
+**a. Add a New Warehouse**
+
+Path: **Inventory Management > Stock Listing** section **> Warehouse**
+
+Please refer to Section **New Warehouse** for details.
+
+**b. View Warehouse's detail information**
+
+Path: **Inventory Management > Stock Listing** section **> Warehouse**
+
+![View Warehouse's detail information]()
  
 1.	Tick on the checkbox to choose a warehouse
-2.	Click on View to the warehouse detailed information
+2.	Click on **View** to the warehouse detailed information
+
+![View Warehouse's detail information]()
  
-In the View Warehouse page, there are 6 tabs to manage the warehouse. On the right side of each master data tab, click on the Arrow button to access the data:
-(1) General Information: Information of the Warehouse including Name, Code, address, etc
-(2) Stock On-hand: the total number of goods that are available in the warehouse in real time. Here, you can update each product's Qty in Warehouse(s) and its Shelf Location in-line.
-(3) Stock Movement: all the changes in stock quantities. Click on each record to view in detail.
-(4) Order:  records of all orders including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
-(5) Warehouse Permission manages staff access to the warehouse. Detailed guide is given in the next section c. Warehouse permissions
-(6) Dashboard contains reports that are illustrated as table and lines diagrams as below.
-  
-1.	Warehouse permissions
-Path: Stock Management > Stock Listing section > Warehouse > Warehouse Permissions
+In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the right side of each master data tab, click on the **Arrow button** to access the data:
+
+1. **General Information: Information of the Warehouse including Name, Code, address, etc
+2. **Stock On-hand**: the total number of goods that are available in the warehouse in real time. Here, you can update each product's **Qty in Warehouse(s)** and its **Shelf Location** in-line.
+3. **Stock Movement**: all the changes in stock quantities. Click on each record to view in detail.
+4. **Order**:  records of all orders including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+5. **Warehouse Permission** manages staff access to the warehouse. Detailed guide is given in the next section **c. Warehouse permissions**
+6. **Dashboard** contains reports that are illustrated as table and lines diagrams as below.
+
+![Dashboard]()
+![Dashboard]()
+
+**c. Warehouse permissions**
+
+Path: **Stock Management > Stock Listing** section **> Warehouse > Warehouse Permissions**
+
 In this section, Admin can give different warehouse access permissions to different (admin) users.
-Click on View to see the warehouse’s detail information
+Click on **View** to see the warehouse’s detail information
+
+![Warehouse permissions]()
  
 1.	On the right hand side of the  Warehouse Permission tab, click on Assign Staff to give different warehouse access permissions.
 
