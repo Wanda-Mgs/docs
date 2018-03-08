@@ -1749,345 +1749,537 @@ Reports are illustrated as table and lines diagrams.
 Path: **Inventory Management > Stock Listing** section **> Warehouses**
 
 After creating a warehouse, Admin Users give different warehouse access permissions to different (admin) users.
+
+![Permission]()
  
-Click on View to see the warehouse’s detail information 
- 
-Then, go to Warehouse Permissions. Here, you will see staffs that are taking charge of this warehouse. You can view Staff’s Name and Staff’s Role. 
-1.	Click on Assign Staffs to add a new staff
+Click on **View** to see the warehouse’s detail information 
+
+![Permission]()
+
+Then, go to Warehouse Permissions. Here, you will see staffs that are taking charge of this warehouse. You can view Staff’s **Name** and Staff’s **Role**. 
+1.	Click on **Assign Staffs** to add a new staff
+
 Then, a pop-up will appear
- 
-Tick on the staff that you want to give permission. Then click on Add Selected Staff. 
- 
-1.	Warehouse Roles: you can click on the arrow to choose the role for staffs
-2.	To delete the staff, click on Remove
-3.	After all, click Save Staff Permissions to finish
 
-4.	Location
-1.	Add a new location
-Path: Sales > Web POS section > Manage Locations
+![Permission]()
+ 
+Tick on the staff that you want to give permission. Then click on **Add Selected Staff**. 
+
+![Permission]()
+
+1.	**Warehouse Roles**: you can click on the arrow to choose the role for staffs
+2.	To delete the staff, click on **Remove**
+3.	After all, click Save **Staff Permissions** to finish
+
+### Location
+#### Add a new location
+Path: **Sales > Web POS** section **> Manage Locations**
+
 A location is understood as a store (whether it’s a physical store or an online web-store). A location can link to multiple POS at the same time.
- 
-(1) Click on Add Location to create new locations
-(2) Click on Edit to view and edit locations’ information.
- 
-1.	Location Name (required): enter the name of location 
-2.	Address: enter the address
-3.	Descriptions: enter the description
-4.	Warehouse: here you have 3 options:
-1.	Link the location to a specific warehouse by choosing a warehouse name. This means when customer places an order at this location, the system will only take products from this warehouse. When this specific warehouse runs out of stock, the sysem will not take stock from other warehouses. 
-2.	Create a new warehouse to choose this new location as a new warehouse. 
-3.	Don’t link to any warehouse if you don’t want to connect the location with any warehouses. When customer places an order at this location, the system will deduct stock from the total stock quantity of all warehouses but prioritize taking stock from Primary warehouse. 
-You can change this setting later by following tutorial at Point 4.5.2. Mapping Locations - Warehouses
-After all, remember to click on Save button
 
-4.	Mapping Locations – Warehouses
-Path: Sales > Web POS section > Manage Locations
-In this phase, you can change the link between your current locations and current warehouses by mapping your locations to other warehouses. Note that one warehouse can only link to one location and vice versa.
-As mentioned, mapping a location to a warehouse means when customer places an order at this location, the system will only take products from this specific warehouse. When this specific warehouse runs out of stock, the sysem will not take stock from other warehouses.
+![Location]()
+
+1. Click on **Add Location** to create new locations
+2. Click on **Edit** to view and edit locations’ information.
  
-On the pop-up screen, click on Mapping Locations – Warehouses
+![Location]()
+
+1.	**Location Name *(required)***: enter the name of location 
+2.	**Address**: enter the address
+3.	**Descriptions**: enter the description
+4.	**Warehouse**: here you have 3 options:
+	- **Link the location to a specific warehouse by choosing a warehouse name**. This means when customer places an order at this location, the system will only take products from this warehouse. When this specific warehouse runs out of stock, the sysem will not take stock from other warehouses. 
+	- **Create a new warehouse** to choose this new location as a new warehouse. 
+	- **Don’t link to any warehouse** if you don’t want to connect the location with any warehouses. When customer places an order at this location, the system will deduct stock from the total stock quantity of all warehouses but prioritize taking stock from Primary warehouse. 
+
+You can change this setting later by following tutorial at Point **Mapping Locations - Warehouses**
+
+After all, remember to click on **Save** button
+
+#### Mapping Locations – Warehouses
+
+Path: **Sales > Web POS** section **> Manage Locations**
+
+In this phase, you can change the link between your current locations and current warehouses by mapping your locations to other warehouses. Note that one warehouse can only link to one location and vice versa.
+
+As mentioned, mapping a location to a warehouse means when customer places an order at this location, the system will only take products from this specific warehouse. When this specific warehouse runs out of stock, the sysem will not take stock from other warehouses.
+
+![Mapping Locations – Warehouses]()
+ 
+On the pop-up screen, click on **Mapping Locations – Warehouses**
+
+![Mapping Locations – Warehouses]()
  
 Here you can view which location is linked to which warehouse. 
-1.	You can edit warehouse by click on the button and choose again. Or you can click on Remove in the Action Column to remove the connection between location and warehouse. 
-2.	Click on Choose Location button to add more locations
- 
-Tick on the location you choose. Then, click on Add Selected Locations button to finish. 
-Finally, click Save button to finish all. 
+1.	You can edit warehouse by click on the button and choose again. Or you can click on **Remove** in the **Action** Column to remove the connection between location and warehouse. 
+2.	Click on **Choose Location** button to add more locations
 
+![Mapping Locations – Warehouses]()
+ 
+Tick on the location you choose. Then, click on **Add Selected Locations** button to finish. 
 
+Finally, click **Save** button to finish all. 
 
-3.	POS
-1.	Create a new POS
-Path: Sales > Web POS section > Manage POS
-Please refer to 2.2.7.1. Create New POS for detailed guide.
-Note: Even when you set the warehouse to a certain location, with online store, admin can see clearly any warehouse information in any locations. HOWEVER, with offline store, only Sale Manager can view the warehouse information only in the mapped location.
-IT Admin can give other admin permission to view the Inventory information in any location by going to System > User Roles > Add new role or Edit role > Role Resource, then choosing Order Success > Inventory Management > View Warehouse Information (this is the most basic step. With each business, the process will be expanded)
+### POS
+#### Create a new POS
 
-2.	Manage Web POS
-Path: Sale > Web POS section > Manage POS
+Path: **Sales > Web POS** section **> Manage POS**
+
+Please refer to **Create New POS** for detailed guide.
+
+***Note**: Even when you set the warehouse to a certain location, with online store, admin can see clearly any warehouse information in any locations. HOWEVER, with offline store, only Sale Manager can view the warehouse information only in the mapped location.*
+
+*IT Admin can give other admin permission to view the Inventory information in any location by going to **System > User Roles > Add new role or Edit role > Role Resource**, then choosing **Order Success > Inventory Management > View Warehouse Information** (this is the most basic step. With each business, the process will be expanded)*
+
+#### Manage Web POS
+
+Path: **Sale > Web POS** section **> Manage POS**
+
+![Manage Web POS]()
  
-Here, you can view ID, Name, Location, Store View, Current Staff, and Status.  If you want to view more details and edit any details, you can click on Detail in the Action column. Besides, you can tick on each Location Name, then choose Action as Delete to remove the location.  
-HOW TO USE
-1.	Web POS
-1.	Log in and manage account
-1.	Log in
-Go to WebPOS frontend and fill in required Username & Password and click Login to log in. (you can also access WebPOS frontend from backend, by following path: Sales > Web POS section > POS Checkout)
+Here, you can view **ID, Name, Location, Store View, Current Staff**, and **Status**.  If you want to view more details and edit any details, you can click on **Detail** in the **Action** column. Besides, you can tick on each **Location Name**, then choose **Action** as **Delete** to remove the location. 
+
+## HOW TO USE
+### Web POS
+#### Log in and manage account
+##### Log in
+
+Go to WebPOS frontend and fill in required Username & Password and click Login to log in. (you can also access WebPOS frontend from backend, by following path: **Sales > Web POS** section **> POS Checkout**)
+
+![Log In]()
  
-After clicking “LOGIN” button, users must choose a Location and POS to continue
+After clicking **LOGIN** button, users must choose a Location and POS to continue
+
+![Log in]()
  
-2.	Manage Account
-In WebPOS frontend, click on top left menu icon > Settings tab > Account
+##### Manage Account
+
+In **WebPOS frontend**, click on **top left menu icon > Settings** tab **> Account**
+
+![Manage Account]()
  
-A window will pop up and allow users to edit personal information or change password. Click Save after you fill in required information to save the changes. 
+A window will pop up and allow users to edit personal information or change password. Click **Save** after you fill in required information to save the changes. 
+
+![Manage Account]()
  
-3.	Manage Settings
-Path: from WebPOS frontend, click on top left menu icon > Settings section > General
+##### Manage Settings
+
+Path: from WebPOS frontend, click on top left menu icon **> Settings** section **> General**
+
 There are 6 tabs to manage:
-4.	Checkout tab:
- 
-1.	Use Online mode: Online mode allows real-time synchronization between Magento backend and POS, while offline mode operates faster and allows normal checkout even then the internet connection is out.
-2.	Auto check the promotion rules on checkout: allows automatic checking in offline mode.
-3.	Sync on-hold order to server: allows syncing on-hold orders onto Magento backend > Sales> Operations section > Orders with status On Hold. 
- 
 
-4.	Catalog tab:
-To allow POS to display out-of-stock products: in WebPOS frontend, go to Settings > General section > Catalog
- 
-Choose “Yes” option to enable “Display out-of-stock product in search result”. When customer searches for a product that is out of stock, the product still shows up but with an Out of stock icon on the top right of the product thumbnail.
- 
-Note: this function’s available for online-mode only
+- **Checkout** tab:
 
-5.	Currency tab: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from Order History after you change currency
+![Checkout tab]()
  
-6.	POS Hub tab:
+1.	**Use Online mode**: Online mode allows real-time synchronization between Magento backend and POS, while offline mode operates faster and allows normal checkout even then the internet connection is out.
+2.	**Auto check the promotion rules on checkout**: allows automatic checking in offline mode.
+3.	**Sync on-hold order to server**: allows syncing on-hold orders onto Magento backend > **Sales> Operations section > Orders** with status **On Hold**. 
+
+![Checkout]()
+ 
+- **Catalog** tab:
+
+To allow POS to display out-of-stock products: in WebPOS frontend, go to **Settings > General** section **> Catalog**
+
+![Catalog]()
+ 
+Choose **Yes** option to enable “Display out-of-stock product in search result”. When customer searches for a product that is out of stock, the product still shows up but with an **Out of stock** icon on the top right of the product thumbnail.
+
+![Catalog]()
+ 
+***Note**: this function’s available for online-mode only*
+
+- **Currency** tab: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from **Order History** after you change currency
+
+![Currency tab]()
+ 
+- **POS Hub** tab:
+ 
+ ![POS Hub tab]()
  
 POS Hub is a special function that Magestore creates that allows our WebPOS to interact directly with devices which cannot integrate with web-based software e.g. cash drawer.
-1.	Enable Open Cash Drawer Manually setting allows you to open the cash drawer without printing a receipt
-2.	Print via POS Hub: allows printing the checkout info directly from POS without opening a print preview popup
-3.	Enable Pole Display: allows display of total shopping cart price on Pole Dislpay during checkout
+	- **Enable Open Cash Drawer Manually** setting allows you to open the cash drawer without printing a receipt
+	- **Print via POS Hub**: allows printing the checkout info directly from POS without opening a print preview popup
+	- **Enable Pole Display**: allows display of total shopping cart price on Pole Dislpay during checkout
 
-4.	Customer Credit tab: allows syncing store credits with backend in offline mode and displays customer’s credit balance on receipt
+- **Customer Credit** tab: allows syncing store credits with backend in offline mode and displays customer’s credit balance on receipt
+
+![Customer Credit]()
  
-5.	Reward Points tab: allows syncing reward points with backend in offline mode and displays customer’s point balance on receipt
- 
+- **Reward Points** tab: allows syncing reward points with backend in offline mode and displays customer’s point balance on receipt
 
-1.	Manage Session
-If you enable Need to create session before working setting in backend (path: Sales > Web POS section > Settings), when the first shift of the day started, POS Manager will open session in order to create the Opening Balance - the amount of cash in your store at that time. (You will need to Close session and enter Closing Balance at the end of the shift). Those amounts will be saved in the system, so POS could provide you information about daily revenue after a working day. 
+![Reward Points tab]()
 
-1.	Open Session
+#### Manage Session
+
+If you enable Need to create session before working setting in backend (path: **Sales > Web POS** section **> Settings**), when the first shift of the day started, POS Manager will open session in order to create the **Opening Balance** - the amount of cash in your store at that time. (You will need to Close session and enter Closing Balance at the end of the shift). Those amounts will be saved in the system, so POS could provide you information about daily revenue after a working day. 
+
+##### Open Session
+
 When you log into any POS, a window of opening session will pop-up automatically.
+
+![Open Session]()
  
-(1) Name of the staff in this session
-(2) Location of POS
-(3) Value of the currency contrbuting to Opening Balance (such as: $10 )
-(4) Number of the currency unit (for example : 20)
-(5) Subtotal (automatically calculated) (you will have: $10 * 20 = $200) 
-You can add more currency value/number of unit to add up to the desired opening balance by clicking on the   icon.
-(6) After checking all the information above, click this button to Open Session
+1. Name of the staff in this session
+2. Location of POS
+3. Value of the currency contrbuting to Opening Balance (such as: $10 )
+4. Number of the currency unit (for example : 20)
+5. Subtotal (automatically calculated) (you will have: $10 * 20 = $200) 
+You can add more currency value/number of unit to add up to the desired opening balance by clicking on the ![icon]() icon.
+6. After checking all the information above, click this button to **Open Session**
+
 Next step, after opening the session, Cashier can now create orders and start running cash flow in your store. 
 
-2.	Manage session
-You can always view the detailed information of your session by following path: from top left menu icon > Session Management section > Session Management.
+##### Manage session
+
+You can always view the detailed information of your session by following path: from **top left menu icon > Session Management** section **> Session Management**.
+
+![Manage session]()
  
 You will see all sessions carried out by this account here. 
-Opened session will have an OPEN mark next to its date and time in the listing.
+
+Opened session will have an **OPEN** mark next to its date and time in the listing.
+
+![Manage session]()
  
 Clicking on a session will display detailed information about that session including:
-3.	Staff working on the POS, POS Name, Session Date and Time
-4.	Summary of Total Cash Payment in Session: 
-1.	Opening Balance: the amount of cash in cash drawer at the beginning of the session
-2.	Theoretical Closing Balance: = Opening Balance + Manually Input Amount of Put Money In/Take Money Out + Total sales (in cash only)
-3.	Real Closing Balance: the real amount of cash in cash drawer at the end of the session
-4.	The Difference between  Theoretical Closing Balance and Real Closing Balance. 
-5.	For opened session, cashier can Put Money In/ Take Money Out, Set Closing Balance and End Session.
-6.	Manually input of cash in/out in the session and transactions in cash are recorded in the + Transactions/ - Transactions links.
-7.	Total Sales by all Payment Methods
-8.	Cashier can Print the session details by clicking on the Print button
- 
-9.	Record Cash In/ Cash Out
- 
-During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on Put Money In/ Take Money Out buttons in the Session window.
 
-1.	Put Money In
+- Staff working on the POS, POS Name, Session Date and Time
+- Summary of Total Cash Payment in Session: 
+	-	**Opening Balance**: the amount of cash in cash drawer at the beginning of the session
+	- **Theoretical Closing Balance**: = Opening Balance + Manually Input Amount of Put Money In/Take Money Out + Total sales (in cash only)
+	-	**Real Closing Balance**: the real amount of cash in cash drawer at the end of the session
+	- The **Difference** between ** Theoretical Closing Balance** and **Real Closing Balance**. 
+- For opened session, cashier can **Put Money In/ Take Money Out**,** Set Closing Balance** and **End Session**.
+-	Manually input of cash in/out in the session and transactions in cash are recorded in the + **Transactions/ - Transactions** links.
+- Total Sales by all Payment Methods
+-	Cashier can Print the session details by clicking on the **Print** button
+ 
+##### Record Cash In/ Cash Out
+
+![Record Cash In/ Cash Out]()
+ 
+During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on **Put Money In/ Take Money Out** buttons in the Session window.
+
+- **Put Money In**
+
+![Put Money In]()
  
 1.	Amount of cash that staff will put in the drawer (must be greater than 0)
 2.	Reason for putting cash in
-3.	Click Done to save changes
+3.	Click **Done** to save changes
 
-4.	Take Money Out
+- **Take Money Out**
+
+![Take Money Out]()
   
 1.	Amount of cash that staff will take out of the drawer (must be greater than 0)
 2.	Reason for taking cash out
-3.	Click Done to save changes
+3.	Click **Done** to save changes
 
+##### Close Session
 
-4.	Close Session
 Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager.
  
-To close the session, you need to first Set Closing Balance to record Real Closing Balance in cash drawer by filling the value of coin/bill and the number of each coin/bill value in the form below, then click Confirm 
-  
+ ![Close Session]()
+ 
+To close the session, you need to first **Set Closing Balance** to record Real Closing Balance in cash drawer by filling the value of coin/bill and the number of each coin/bill value in the form below, then click **Confirm**
+
+ ![Close Session]()
+
 2 situations could happen in this step:
-5.	If the Theoretical and Real Balances are the same, you will go back to the Session window, click on Validate Closing to finish closing the session.
- 
-6.	If the Theory and Real Balance are not the same, the system will display a notification as below:
- 
-You can click Cancel and re-entry the closing balance, OR accept the difference by clicking OK
-  
-You can fill in the reason for the difference (if you want to) and hit Confirm. Then you will be directed back to the Session page, click Validate Closing button to finish closing session.
+- If the Theoretical and Real Balances are the same, you will go back to the Session window, click on **Validate Closing** to finish closing the session.
 
-1.	Filter and Search Product Quickly 
-1.	Configure Process of Searching Product
-NOTE: Only products with turned on Visible on Webpos setting (screenshot below) can be found on WebPOS frontend. 
-  To allow POS to display out-of-stock products: in WebPOS frontend, go to Settings > General section > Catalog
+ ![Close Session]()
  
-2.	Search Product in Front-end
+- If the Theory and Real Balance are not the same, the system will display a notification as below:
+
+ ![Close Session]()
+ 
+You can click **Cancel** and re-entry the closing balance, OR accept the difference by clicking **OK**
+  
+You can fill in the reason for the difference (if you want to) and hit **Confirm**. Then you will be directed back to the Session page, click **Validate Closing** button to finish closing session.
+
+#### Filter and Search Product Quickly 
+##### Configure Process of Searching Product
+
+**NOTE**: Only products with turned on **Visible on Webpos** setting (screenshot below) can be found on WebPOS frontend. 
+
+![Configure Process of Searching Product]()
+
+ To allow POS to display out-of-stock products: in WebPOS frontend, go to **Settings > General** section **> Catalog**
+ 
+![Configure Process of Searching Product]()
+
+##### Search Product in Front-end
+
 There are 3 ways to search for products in WebPOS frontend: 
-1.	Use Category 
-2.	Use Production Attribute
-3.	Use Barcode 
+- Use Category 
+- Use Production Attribute
+- Use Barcode 
 
-1.	To use category: 
+**a. To use category**: 
+
+![Search Product in Front-end]()
  
-Click “All Categories” to quickly search with this method. Users can choose corresponding categories as you prefer in the space below this button.
-2.	To use Product Attributes: 
-	(1) Click on search icon to show search bar. 
-	(2) Enter your search terms and matching products will display right away. 
+Click **All Categories** to quickly search with this method. Users can choose corresponding categories as you prefer in the space below this button.
+
+Click **All Categories** to quickly search with this method. Users can choose corresponding categories as you prefer in the space below this button.
+
+**b. To use Product Attributes:** 
+1. Click on search icon to show search bar. 
+2. Enter your search terms and matching products will display right away. 
+
+![To use Product Attributes]()
  
-3.	To use Barcode: 
-(1) Connect with the Barcode Reader devices (Please refer to How Web POS Works with Peripheral Device for more details) 
-(2) Scan barcode > search box will be automatically filled-in 
-(3) The matching product will be shown in the list. 
+**c. To use Barcode:**
 
-1.	Add Products to Cart and Edit Products in Cart 
-1.	How to Add Product to Cart 
-1.	With simple product: click it to add to cart
-2.	With configurable, bundle, grouped product: click them > adjust attribute (color, size, etc.) and quantity > Click Add to cart button
-  
-3.	Edit Product in Cart 
-After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with edited option for Qty.
+1. Connect with the Barcode Reader devices (Please refer to How Web POS Works with Peripheral Device for more details) 
+2. Scan barcode > search box will be automatically filled-in 
+3. The matching product will be shown in the list. 
 
+#### Add Products to Cart and Edit Products in Cart 
+##### How to Add Product to Cart 
+- With simple product: click it to add to cart
+- With configurable, bundle, grouped product: click them > adjust attribute (color, size, etc.) and quantity > Click **Add to cart** button
 
+![How to Add Product to Cart]()
 
+##### Edit Product in Cart 
+
+After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with edited option for **Qty**.
+
+![Edit Product in Cart]()
  
 To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away
-4.	Remove Product in Cart 
+
+##### Remove Product in Cart 
+
+![Remove Product in Cart]()
  
 There are 2 ways to remove products in cart: 
 1.	Remove one-by-one product: Click “x” button, then cart will be update immediately 
 2.	Click waste basket icon to clear the whole cart
-3.	Add a Custom Sale Item to Cart 
+
+##### Add a Custom Sale Item to Cart 
+
 Custom sale item is a item that Web POS user creates when checkout. It is used when the product hasn’t been added to the system or Web POS user cannot find it in the product list.
-In frontend, click on Custom Sale button if you want to add the custom product to cart
+
+In frontend, click on **Custom Sale** button if you want to add the custom product to cart
+
+![Add a Custom Sale Item to Cart]()
  
 Then it will pop up a window for users to configure this custom product:
- 
-(1) Name: Enter the name of product
-(2) Description: Enter the product’s description (optional)
-(3) Price: Enter the product’s price or use the calculator below
-(4) Non/Taxable Goods: choose if the product is taxable
-(5) Shippable: Choose whether this product will be shipped 
-After finishing configuration, click on Add to Cart button and check out as normally. Please note that this custom sale product will not be saved for the next checkout.
 
-1.	Apply Coupon Code or Discount to Cart
-1.	Apply Coupon Code or Card Discount 
-Here is the tutorial to apply Coupon Code/ Discount that you created with Magento’s functions Catalog Price Rule and Cart Price Rules
-If you want to apply custom discount manually to a product, instead of applying for the whole cart, please refer to Section Apply Custom Price or Custom Discount to a Product 
-To use this function, click “Add Discount” 
+![Add a Custom Sale Item to Cart]()
+ 
+1. **Name**: Enter the name of product
+2. **Description**: Enter the product’s description (optional)
+3. **Price**: Enter the product’s price or use the calculator below
+4. **Non/Taxable Goods**: choose if the product is taxable
+5. **Shippable**: Choose whether this product will be shipped 
+
+*After finishing configuration, click on **Add to Cart** button and check out as normally. Please note that this custom sale product will not be saved for the next checkout.*
+
+#### Apply Coupon Code or Discount to Cart
+##### Apply Coupon Code or Card Discount 
+
+Here is the tutorial to apply Coupon Code/ Discount that you created with Magento’s functions **Catalog Price Rule** and **Cart Price Rules**
+
+If you want to apply custom discount manually to a product, instead of applying for the whole cart, please refer to Section **Apply Custom Price or Custom Discount to a Product** 
+
+To use this function, click **Add Discount**
+
+![Apply Coupon Code or Card Discount]()
  
 Then you can choose to apply a Discount amount or Promotion code
- 
-1.	To apply Discount: 
-1.	Name: enter the name for this account as you will easily check it again
-2.	Discount type: choose between percentage or fixed discount
-3.	Amount: fill in the value offered to customers. 
-Cart will be adjusted immediately after you click “Apply” button
-4.	To apply Promotion: 
- 
-Fill in available code offered to customer and then click “Apply” button. 
-(Users can also check this code rules before applying it by clicking on Check)
-5.	Apply Custom Discount or Custom Price to a Product 
-Here you can manually add a custom discount for a product (either by a fixed value or percentage) instead of the whole shopping cart. If you want to apply a preset discount code, please refer to Section 5.1.3.4. How to Apply Coupon Code or  Discount.
-After adding products to cart, besides editing the quantity of each product (refer to section Edit products in cart for more details), you can click on the product to edit other information. A popup will display with edit option for Custom Price, Discount. Remember that you can only change information by Custom Price OR Discount, instead of both at once for a product.
 
-1.	To apply Custom Price: 
+![Apply Coupon Code or Card Discount]()
+
+- To apply Discount: 
+	- **Name**: enter the name for this account as you will easily check it again
+	- **Discount type**: choose between percentage or fixed discount
+	- **Amount**: fill in the value offered to customers. 
+
+Cart will be adjusted immediately after you click **Apply** button
+
+- To apply **Promotion**: 
+
+![![Apply Coupon Code or Card Discount]()
  
-You can set custom price for products by clicking on Custom Price button. The next popup will be shown as below:
+Fill in available code offered to customer and then click **Apply** button. 
+
+*(Users can also check this code rules before applying it by clicking on **Check**)*
+
+##### Apply Custom Discount or Custom Price to a Product 
+
+Here you can manually add a custom discount for a product (either by a fixed value or percentage) instead of the whole shopping cart. If you want to apply a preset discount code, please refer to Section **How to Apply Coupon Code or Discount**.
+
+After adding products to cart, besides editing the quantity of each product (refer to section **Edit products in cart** for more details), you can click on the product to edit other information. A popup will display with edit option for **Custom Price, Discount**. Remember that you can only change information by Custom Price **OR** Discount, instead of both at once for a product.
+
+**a. To apply Custom Price**: 
+
+![ To apply Custom Price]()
  
+You can set custom price for products by clicking on **Custom Price** button. The next popup will be shown as below:
+
+![ To apply Custom Price]()
+
 In this popup, choose the promotion type you want to apply, either a fixed amount or percentage.
-1.	If you edit fixed price, the price will be changed to the value you have entered. 
-2.	If you edit by percentage, the price will be the result after multiplying the discount percentage rate by the original price.
+	- If you edit fixed price, the price will be changed to the value you have entered. 
+	- If you edit by percentage, the price will be the result after multiplying the discount percentage rate by the original price.
+
 Then, products in cart will be automatically updated with the price you edit.
 
-1.	To apply Discount: 
-Click on Discount button and choose the type of discount you want to apply
-3.	If you edit discount by fixed number, the price will decrease by the exact value you have entered
-4.	If you edit by percentage, the price will decrease by the percent you have entered (it is similar to Custom Price by percentage).
+**b. To apply Discount**: 
+
+Click on **Discount** button and choose the type of discount you want to apply
+	- If you edit discount by fixed number, the price will decrease by the exact value you have entered
+	- If you edit by percentage, the price will decrease by the percent you have entered (it is similar to Custom Price by percentage).
+
 Then, the product price will be updated in the cart.
- 
 
-5.	Apply Gift Card Code
-After clicking on Checkout button for a shopping cart, in the Shipping and Payment window, cashier can insert Gift Card Code and click Apply.
+![To apply Discount]()
+ 
+##### Apply Gift Card Code
+
+After clicking on Checkout button for a shopping cart, in the Shipping and Payment window, cashier can insert Gift Card Code and click **Apply**.
+
+![Apply Gift Card Code]()
   
-1.	Manage Transaction
-1.	Handle Customer Information at Check-out 
-1.	Customer Check-out 
-Add customer by clicking on Customer icon on the right corner. You will see a screen as below:
- 
- 
-In the pop-up, you have options to either Create a new Customer, Use Default Guest Checkout, Search existing Customer with the Search bar or selecting the most recent Customer from the list.
+#### Manage Transaction
+##### Handle Customer Information at Check-out 
 
-2.	Search Customer
+**a. Customer Check-out**
+
+Add customer by clicking on **Customer** icon on the right corner. You will see a screen as below:
+
+![Customer Check-out]()
+ 
+![Customer Check-out]()
+
+In the pop-up, you have options to either Create a new Customer, **Use Default Guest Checkout**, Search existing Customer with the Search bar or selecting the most recent Customer from the list.
+
+**b. Search Customer**
+
 In the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in dropdown list.
+
 The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
- 
 
-3.	Create Customer
- 
-Fill information of the customer such as First Name, Last Name, Email, Group, Shipping & Billing Address, etc. You can choose whether Billing Address is similar to Shipping Address or not. Remember to click on Save button to save the customer information for the next checkout.
+![Search Customer]()
 
-4.	Guest Check-out
-When you use Guest Checkout, the default customer that you configure in backend will be used (Please refer to Section 2.1.1. Default Guest Check Out to configure Default Guest Checkout settings). At checkout, all fields will be auto-filled with that default information.
+**c. Create Customer**
 
-2.	Add a Comment to an Order 
-1.	Add Comment to an Order
-Click on Add Order Comment in the top right menu icon. In the Order Comment box, type the content that reminds you of this order. Then, save it.
+![Create Customer]()
  
+Fill information of the customer such as **First Name, Last Name, Email, Group, Shipping & Billing Address**, etc. You can choose whether Billing Address is similar to Shipping Address or not. Remember to click on **Save** button to save the customer information for the next checkout.
 
-2.	Check Order Comment 
-1.	On WebPOS Screen
-To view comment of order, you can go to the top left menu > Orders section > Orders History in Web POS screen, choose an order then scroll down to see Comment History
- 
- 
-2.	Magento Backend
-Go to Sales > Orders > Click on a specific order. 
-In order details page, scroll down to Comment History tab to check whether it has any notes or not.
- 
+**d. Guest Check-out**
 
-3.	Process at Check-out for a Customer 
+When you use Guest Checkout, the default customer that you configure in backend will be used (Please refer to Section **Default Guest Check Out** to configure Default Guest Checkout settings). At checkout, all fields will be auto-filled with that default information.
+
+##### Add a Comment to an Order 
+**a. Add Comment to an Order**
+
+Click on **Add Order Comment** in the top right menu icon. In the **Order Comment** box, type the content that reminds you of this order. Then, save it.
+
+![Add Comment to an Order]()
+ 
+ 
+**b. Check Order Comment** 
+- **On WebPOS Screen**
+
+To view comment of order, you can go to the top left menu **> Orders** section **> Orders History** in Web POS screen, choose an order then scroll down to see **Comment History**
+
+![On WebPOS Screen]()
+
+![On WebPOS Screen]()
+ 
+- **Magento Backend**
+
+Go to **Sales > Orders >** Click on a specific order. 
+
+In order details page, scroll down to **Comment History** tab to check whether it has any notes or not.
+
+![Magento Backend]()
+
+##### Process at Check-out for a Customer 
+
 You have been through steps to add products to cart and add customer, let’s move to the checkout process.
-When products are added to cart, click on Checkout button at the end of the cart page
- 
 
-You will be redirected to the next page with information of Shipping & Payment Method. Please refer to 2.2.1. Enable Payment Method and 2.2.2. Set up Shipping Method for further details about payment and shipping method configuration for WebPOS.
- 
-1.	Credit Card: Magestore Web POS supports Authorize.net & Stripe. Sales staff can fill in card information manually or swipe card (if the POS system is connected to a card swiper). For more information about how to connect, please go to section 2.2.8. Connect Retailer POS with Peripheral Devices.
-2.	Split Payment: For more information about Split Payment, please go to section Split & Partial Payment with Web POS
+When products are added to cart, click on **Checkout** button at the end of the cart page
 
-3.	Split & Partial Payment with Web POS 
-1.	For Split Payment
+![Process at Check-out for a Customer]()
+
+You will be redirected to the next page with information of Shipping & Payment Method. Please refer to **Enable Payment Method** and **Set up Shipping Method** for further details about payment and shipping method configuration for WebPOS.
+
+![Process at Check-out for a Customer]()
+
+- **Credit Card**: Magestore Web POS supports Authorize.net & Stripe. Sales staff can fill in card information manually or swipe card (if the POS system is connected to a card swiper). For more information about how to connect, please go to section **Connect Retailer POS with Peripheral Devices**.
+- **Split Payment**: For more information about Split Payment, please go to section **Split & Partial Payment with Web POS**
+
+##### Split & Partial Payment with Web POS 
+**a. For Split Payment**
+
 You can allow customers more than 1 method to pay when using Web POS. Particularly, they could pay a part of bill by cash and other part will be paid by credit card. 	
-For example: This order values $249 and customer wants to pay $50 in cash. Then you have to enter this number in the field of “Web POS- Cash in” and the remain money will be calculated automatically for you. 
- 
-To solve “Remain money”, you can click on “Add Payment” button on the left corner of the screen 
- 
-After clicking on “Add Payment”, Customers have those options to pay for the remaining money
-For instance, Customer chooses “Web POS – Credit Card” and the system will be displayed like this: 
- 
-And then, please tap on Place Order button to complete this order. The process is done. 
-Notes:
-1.	Support multiple payment methods for one order
-2.	Not require Cash-in method as compulsory
 
-1.	For Partial Payment
+For example: This order values $249 and customer wants to pay $50 in cash. Then you have to enter this number in the field of “Web POS- Cash in” and the remain money will be calculated automatically for you. 
+
+![For Split Payment]()
+ 
+To solve “Remain money”, you can click on **Add Payment** button on the left corner of the screen 
+
+![For Split Payment]()
+ 
+After clicking on **Add Payment**, Customers have those options to pay for the remaining money
+
+For instance, Customer chooses “Web POS – Credit Card” and the system will be displayed like this: 
+
+![For Split Payment]()
+
+And then, please tap on **Place Order** button to complete this order. The process is done. 
+
+**Notes:**
+- *Support multiple payment methods for one order*
+- *Not require Cash-in method as compulsory*
+
+**b. For Partial Payment**
+
 This function allows customers to pay a part of value first and other parts will be paid later in different interval. Especially when customers want to reserve goods before it’s arrived at store, they could leave a deposit and they will complete the bill after having product in their hand. 
+
 For example, the total value is $249, and customers want to pay $50 first and $199 they will pay later
+
+![For Partial Payment]()
  
 1.	Enter 50$ in the field of “Web POS – Cash in”
-2.	Tap on MARK AS PARTIAL 
-And when customers come back to pay completely the bill, staff can check this order by checking “Orders History” tab (path: from WebPOS frontend top left menu icon > Orders section > Orders History). 
+2.	Tap on **MARK AS PARTIAL**
+
+And when customers come back to pay completely the bill, staff can check this order by checking **Orders History** tab (path: from WebPOS frontend top left menu icon **> Orders** section **> Orders History**). 
+
+![For Partial Payment]()
  
 I will take another example for you like this: 
+
+![For Partial Payment]()
  
 This order is remaining $199 that the customer hasn’t paid yet. 
-And when he comes back to accomplish this order, staff could tap Take payment and choose payment method for customer to pay in the popup as below:
- 
-Staff can keep on adding  more payment methods as they want by clicking on Add more Payment Method. By clicking Submit, total paid will be equal to the whole value of order. Process is done. 
 
-3.	Keep Order On Hold for Further Processing 
+And when he comes back to accomplish this order, staff could tap **Take payment** and choose payment method for customer to pay in the popup as below:
+
+![For Partial Payment]()
+ 
+Staff can keep on adding  more payment methods as they want by clicking on **Add more Payment Method**. By clicking Submit, total paid will be equal to the whole value of order. Process is done. 
+
+##### Keep Order On Hold for Further Processing 
+
 Your customers can't make up their mind yet, or are unable to make a payment meanwhile? They may want to purchase items that are for pre-order or currently out of stock? You don't want to lose those potential customers, don't you? Then, Web POS's new feature can put these orders on hold - no limit in time - until they are ready to continue processing!
 
-1.	Put Order on-hold
-After adding products to cart, you can choose Hold to put the order into WebPOS frontend top left menu > Orders section > On-hold Orders. 
+**a. Put Order on-hold**
+
+After adding products to cart, you can choose Hold to put the order into WebPOS frontend top left menu **> Orders** section **> On-hold Orders.**
+
+![Put Order on-hold]()
  
 2.	Check on-hold Orders
 4.	On WebPOS Frontend
