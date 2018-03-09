@@ -3552,466 +3552,704 @@ Click on **Add New Template** if you want to create a new one.
 |Leitcode|	German Post for mail routing|
 |Royalmail|	Delivery Confirmation|
 
-6.	**Measurement Unit**: select the unit for barcode size
-7.	**Label per row**: only used **ONE** (1) for jewelry template
-8.	**Paper measurement**: enter paper height and paper width (no need to type the unit).
-9.	**Label measurement**: enter label height and label width (no need to type the unit) 
- 
-(9) Font Size: enter the number (no need to type the unit)
-(10) Margin top, Margin left, Margin bottom, Margin right: enter the number
-(11) Product Attributes: select which attribute used this new barcode label template
-(12) Preview: select
-- Use Default: the created template will be used as default immediately
-- Preview: the preview will be shown under the button
-- Print: print to see what the template will be shown in reality
-After all, click Save to save the created one 
+5.	**Measurement Unit**: select the unit for barcode size
+6.	**Label per row**: only used **ONE** (1) for jewelry template
+7.	**Paper measurement**: enter paper height and paper width (no need to type the unit).
+8.	**Label measurement**: enter label height and label width (no need to type the unit) 
 
-10.	Generate Barcode
-Path: Inventory Management > Barcode Management section > Generate Barcode
+![Add a new Barcode Template]()
  
-1.	General Information: select one of these two options
-1.	Generate barcode per item (each item will generate a barcode with Qty.=1)
-2.	Generate barcode per purchase (each product SKU will generate a barcode)
-3.	Then enter the reason if you have (this will help you find barcode easier)
-4.	Product(s): click on Selected Product(s), then a popup will be shown as below:
+9. **Font Size**: enter the number (no need to type the unit)
+10. **Margin top, Margin left, Margin bottom, Margin right**: enter the number
+11. **Product Attributes**: select which attribute used this new barcode label template
+12. **Preview**: select
+- **Use Default**: the created template will be used as default immediately
+- **Preview**: the preview will be shown under the button
+- **Print**: print to see what the template will be shown in reality
+
+After all, click **Save** to save the created one 
+
+#### Generate Barcode
+
+Path: **Inventory Management > Barcode Management** section **> Generate Barcode**
+
+![Generate Barcode]()
+ 
+1.	**General Information**: select one of these two options
+- Generate barcode per item (each item will generate a barcode with Qty.=1)
+- Generate barcode per purchase (each product SKU will generate a barcode)
+- Then enter the reason if you have (this will help you find barcode easier)
+2. **Product(s)**: click on **Selected Product(s)**, then a popup will be shown as below:
+
+![Generate Barcode]()
  
 1.	Tick on the box to select the product you want to generate code
-2.	Click on Add Selected Products button
+2.	Click on **Add Selected Products** button
+
 Then the product(s) you choose will be shown on the table as below:
- 
-Enter the Item Quantity. Besides, you can enter the name of Supplier and select Purchased time, or easily remove the item by clicking on Remove in the Actions column.
-To complete this process, click on Generate button on your top left. 
-Then you will be linked to Barcode Generated History page as below:
- 
-Here, you can view History Information and if you click on View in the Detail column, you will see the barcode details.
 
-3.	Import Barcode
-Path: Inventory Management > Barcode Management section > Import Barcode
+![Generate Barcode]()
+ 
+Enter the **Item Quantity**. Besides, you can enter the name of **Supplier** and select **Purchased time**, or easily remove the item by clicking on **Remove** in the **Actions** column.
+
+To complete this process, click on **Generate** button on your top left. 
+
+Then you will be linked to **Barcode Generated History** page as below:
+
+![Generate Barcode]()
+ 
+Here, you can view History Information and if you click on **View** in the **Detail** column, you will see the barcode details.
+
+#### Import Barcode
+
+Path: **Inventory Management > Barcode Management** section **> Import Barcode**
+
 Here you can import your pre-generated barcodes via a CSV file.
- 
-1.	Reason: enter the reason you import barcode
-2.	Import File: select a CSV file to import
-1.	A default template is provided for your reference. 
-After all, click Import to finish.
 
-2.	Scan Barcode
-Path: Inventory Management > Barcode Management section > Scan Barcode
-You need a Barcode scanner which is able to connect with your computer to perform this action. Then you can scan to read product information or update stock Qty., this saves you a remarkable amount of time when doing Stock taking.
+![Import Barcode]()
+ 
+1.	**Reason**: enter the reason you import barcode
+2.	**Import File**: select a CSV file to import
+0.	A default template is provided for your reference. 
+
+After all, click **Import** to finish.
+
+#### Scan Barcode
+
+Path: **Inventory Management > Barcode Management** section **> Scan Barcode**
+
+You need a Barcode scanner which is able to connect with your computer to perform this action. Then you can scan to read product information or update stock Qty., this saves you a remarkable amount of time when doing **Stock taking.**
+
+![Scan Barcode]()
  
 The Scan Barcodes site will be shown as above. Now, let’s move to each step (marked on the above image)
-3.	Step 1: Enter the barcode on this field
+
+- **Step 1**: Enter the barcode on this field
+
+![Enter the barcode on this field]()
  
-4.	Step 2: Read the Barcode Information
+- **Step 2**: Read the **Barcode Information**
+
+![Read the Barcode Information]()
  
 
-5.	Step 3: View the product information. Click on More Detail button to view full information about the product
- 
+- **Step 3**: View the product information. Click on **More Detail** button to view full information about the product
 
-6.	Step 4:
+![View the product information. Click on More Detail button to view full information about the product
+]()
  
-Select the template and enter the Qty. to print → Then, click on Print Barcode button to print
+- **Step 4**:
 
-7.	Print Barcode
-Path: Inventory Management > Barcode Management section > Print Barcode
+![Step 4]()
+ 
+Select the template and enter the Qty. to print → Then, click on **Print Barcode** button to print
+
+#### Print Barcode
+
+Path: **Inventory Management > Barcode Management** section **> Print Barcode**
+
 Here you can select the barcode template from the templates created before to print.
- 
-8.	Select Barcode Template: select the template (A4, Standard or Jewelry)
-9.	Preview: click on the button to check the template before printing it
-10.	The list of barcodes will be shown in the table, tick on the one you want to print
-After all, click Print 
 
-11.	Barcode Generated History
-Path: Inventory Management > Barcode Management section > Barcode Generated History
+![Print Barcode]()
  
-You can view the history table showing information such as ID, created Date, which User created, Barcode Qty., Type (Generated or Imported) and Detail. 
-If you click on View in the Detail column, you will be linked to Barcode Created History Details site as below:
- 
-You will see when, who and why created Barcode. You can view the list of created barcodes in the table. If you click on View in the Detail column
+1.	**Select Barcode Template**: select the template (A4, Standard or Jewelry)
+2.	**Preview**: click on the button to check the template before printing it
+3.	The list of barcodes will be shown in the table, tick on the one you want to print
 
-12.	Purchase Management
-1.	Manage Supplier
-Path: Purchase Management > Supplier section > Manage suppliers
+After all, click **Print** 
 
-1.	View Supplier Details
- 
-On the Manage Suppliers page, you can view the table including information about Supplier Code, Total SKU, Purchase Order Value, Last Purchase Order On, and Status. 
-Moreover, in the Action column, you can click on View for more detail about the supplier including which Products they have provided, along with Supplier Information, Supplier Address and Purchase Sales List
- 
-2.	Add a new Supplier
- 
-Click on Add New Supplier and Fill Supplier Information and Supplier Address
- 
+#### Barcode Generated History
 
-13.	Supplier Information
- 
-1.	Supplier Code: enter the code based on your own rules
-2.	Supplier Name: enter the supplier’s name
-3.	Contact Person: enter the name who you can contact when you need supply
-4.	Email: enter the Contact Person’s email
-5.	Description: enter the description if any
-6.	Status: select whether the supplier is Enable or Disable 
+Path: **Inventory Management > Barcode Management** section **> Barcode Generated History**
 
-7.	Supplier Address
+![Barcode Generated History]()
  
-Fill Supplier Address, such as Telephone, Fax, Street, City, Country, Region, Zip/Postal Code, and Website
-Finally, don’t forget to click on Save to complete this step.
-Now you can assign products to this supplier. After you click on Save button, your screen will appear like following:
+You can view the history table showing information such as **ID**, created **Date**, which **User** created, **Barcode Qty.**, **Type** (Generated or Imported) and **Detail**. 
+
+If you click on **View** in the **Detail** column, you will be linked to **Barcode Created History Details** site as below:
+
+![Barcode Generated History]()
+
+You will see when, who and why created Barcode. You can view the list of created barcodes in the table. If you click on **View** in the **Detail** column
+
+### Purchase Management
+#### Manage Supplier
+
+Path: **Purchase Management > Supplier** section **> Manage suppliers**
+
+##### View Supplier Details
+
+![View Supplier Details]()
+ 
+On the **Manage Suppliers** page, you can view the table including information about **Supplier Code, Total SKU, Purchase Order Value, Last Purchase Order On**, and **Status**. 
+
+Moreover, in the **Action** column, you can click on **View** for more detail about the supplier including which **Products** they have provided, along with **Supplier Information, Supplier Address** and **Purchase Sales List**
+
+![View Supplier Details]()
+ 
+##### Add a new Supplier
+
+![Add a new Supplier]()
+ 
+Click on **Add New Supplier** and Fill **Supplier Information** and **Supplier Address**
+
+![Add a new Supplier]()
+
+- **Supplier Information**
+
+![Supplier Information]()
+ 
+1.	**Supplier Code**: enter the code based on your own rules
+2.	**Supplier Name**: enter the supplier’s name
+3.	**Contact Person**: enter the name who you can contact when you need supply
+4.	**Email**: enter the **Contact Person**’s email
+5.	**Description**: enter the description if any
+6.	**Status**: select whether the supplier is **Enable** or **Disable**
+
+- **Supplier Address**
+
+![Supplier Address]()
+ 
+Fill **Supplier Address**, such as **Telephone, Fax, Street, City, Country, Region, Zip/Postal Code**, and **Website**
+
+Finally, don’t forget to click on **Save** to complete this step.
+
+Now you can assign products to this supplier. After you click on **Save** button, your screen will appear like following:
+
+![Supplier Address]()
  
 There are two ways to assign products to the supplier: Add product manually and import products via a csv file. 
-If you choose to upload products manually, remember to enter related information for each one: Supplier SKU, Cost and Tax. Otherwise, importing products in mass is recommended. A csv file sample is offered. In case you have a mistake on importing products, Delete Product button can help.
 
-1.	Manage Pricelist
-Path: Purchase Management > Supplier section > Manage pricelist
-“Pricelist is a list of prices for the goods offered by a supplier. It usually consists of Minimal Qty and Cost”
-On the Manage Pricelist page, you can view Product SKU, Supplier, Product Supplier SKU, Minimal Qty., Cost, Start Date and End Date.
+If you choose to upload products manually, remember to enter related information for each one: **Supplier SKU, Cost** and **Tax**. Otherwise, importing products in mass is recommended. A csv file sample is offered. In case you have a mistake on importing products, **Delete Product** button can help.
+
+#### Manage Pricelist
+
+Path: **Purchase Management > Supplier** section **> Manage pricelist**
+
+*“Pricelist is a list of prices for the goods offered by a supplier. It usually consists of Minimal Qty and Cost”*
+
+On the **Manage Pricelist** page, you can view **Product SKU, Supplier, Product Supplier SKU, Minimal Qty., Cost, Start Date** and **End Date.**
+
+![Manage Pricelist]()
  
-You can also delete the pricelist by ticking on the selected supplier on the 1st column, and select Delete in the Actions field
+You can also delete the pricelist by ticking on the selected supplier on the 1st column, and select **Delete** in the **Actions** field
+
+![Manage Pricelist]()
  
-You can update the pricelist by click on Add Pricelist or Import Pricelist
-8.	Add Pricelist
+You can update the pricelist by click on **Add Pricelist** or **Import Pricelist**
+
+- **Add Pricelist**
+
+![Add Pricelist]()
  
 To add pricelist, you must complete three required steps:
-9.	Step 1: Supplier: Select the supplier that you want to add pricelist to
-10.	Step 2: Click on Select Products button
+- **Step 1**: **Supplier**: Select the supplier that you want to add pricelist to
+- **Step 2**: Click on **Select Products** button
+
+![Add Pricelist]()
  
 A pop-up will be shown
 1.	Tick on the selected product(s)
-2.	Click on Select Product to finish
+2.	Click on **Select Product** to finish
 
-3.	Step 3: Finally, click on Add Selected Product(s) to finish
+- **Step 3**: Finally, click on **Add Selected Product(s)** to finish
 
-4.	Import Pricelist
+- **Import Pricelist**
+
+![Import Pricelist]()
  
-1.	Click on Choose File to upload a CSV file. A sample is available for download.
-2.	Click on Import to finish
+1.	Click on **Choose File** to upload a **CSV file**. A sample is available for download.
+2.	Click on **Import** to finish
 
-1.	Quotation
-“A quotation (or a request for quotation) is the proposal of price and quantity of goods that store owners send to suppliers. The quotation will become purchase order when a seller sends confirmation of price and availability of products stated in the quotation.”
-1.	Create a new Quotation
-Path: Purchase Management > Quotation Management section > Create Quotation
- 
-2.	Step 1: Fill in General Information
-1.	Created Time: click on Calendar to select Created Date (or you can use the system date)
-2.	Supplier: select the supplier that you want to send quotation
-3.	Currency: choose the currency  
-4.	Currency Exchange Rate: the amount of the currency in point 3 above that equals to 1 USD 
-5.	Comments: enter comments ifany
-6.	Click on Prepare Product List button to move to the next step
+#### Quotation
 
-1.	Step 2: Select the products you need supplying.
+*“A quotation (or a request for quotation) is the proposal of price and quantity of goods that store owners send to suppliers. The quotation will become purchase order when a seller sends confirmation of price and availability of products stated in the quotation.”*
+
+##### Create a new Quotation
+
+Path: **Purchase Management > Quotation Management** section **> Create Quotation**
+
+![Create a new Quotation]()
  
-1.	After clicking on Prepare Product List button, You can view Summary Information, including time (Created At), Purchase form, Payment Term and Shipping Method, as below:
+**a. Step 1**: Fill in General Information
+1.	**Created Time**: click on Calendar to select Created Date (or you can use the system date)
+2.	**Supplier**: select the supplier that you want to send quotation
+3.	**Currency**: choose the currency  
+4.	**Currency Exchange Rate**: the amount of the currency in point 3 above that equals to 1 USD 
+5.	**Comments**: enter comments ifany
+6.	Click on **Prepare Product List** button to move to the next step
+
+**b. Step 2**: Select the products you need supplying.
+
+![Create a new Quotation]()
+ 
+1.	After clicking on **Prepare Product List** button, You can view **Summary Information**, including time (**Created At**), **Purchase form, Payment Term** and Shipping Method, as below:
+
+![Create a new Quotation]()
  
 2.	You add products that need supplying.
- 
-All products that you add will be shown on the table, where you should edit Current Cost, Purchase Cost, and Qty. Offering. Besides, you can edit SKU, Product Name, Supplier SKU, Tax, Discount and even Delete the products from the Quotation. 
-There are 5 ways toprepare product list: Import Products, add Supply Needs Products, Back Sales Products, Low Stock Products and All Supplier Products: 
 
-3.	Import Products:
- 
-Similar to step 3 in Manage Pricelist section
-4.	Supply Needs Products:
- 
-1.	Warehouse(s): select warehouse(s) to see products that need supply
-2.	Sales Period: select the Sales Period
-3.	Forecast Supply Need to: click on Calendar to choose the date that you want to forecast
-4.	Click on Show Supply Needs button, then the name and Qty. of products will be shown in the table
-5.	Select/ deselect the products and Click on Add Selected Products to finish
+![Create a new Quotation]()
 
+All products that you add will be shown on the table, where you should edit **Current Cost, Purchase Cost,** and **Qty. Offering**. Besides, you can edit **SKU, Product Name, Supplier SKU, Tax, Discount** and even **Delete** the products from the Quotation. 
+There are 5 ways toprepare product list: **Import Products,** add **Supply Needs Products, Back Sales Products, Low Stock Products** and **All Supplier Products:**
 
-6.	Back Sales Products: Back orders products are ordered by customers but not available in stock at that moment.
+- **Import Products:**
+
+![Import Products]()
  
-1.	Tick on the product SKU that need supplying
-2.	Click on Add Selected Products button to finish
+Similar to step 3 in **Manage Pricelist** section
 
-3.	Low Stock Products:
+- **Supply Needs Products:**
+
+![Supply Needs Products]()
  
-1.	Select Low Stock: choose one of your low stock notification 
-2.	Tick on the product SKU that need supplying
-3.	Click on Add Selected Products button to finish
+1.	**Warehouse(s)**: select warehouse(s) to see products that need supply
+2.	**Sales Period**: select the Sales Period
+3.	**Forecast Supply Need to**: click on Calendar to choose the date that you want to forecast
+4.	Click on **Show Supply Needs** button, then the name and Qty. of products will be shown in the table
+5.	Select/ deselect the products and Click on **Add Selected Products** to finish
 
-4.	All Supplier Products:
+- **Back Sales Products:** Back orders products are ordered by customers but not available in stock at that moment.
+
+![Back Sales Products]()
+ 
+1.	Tick on the **product SKU** that need supplying
+2.	Click on **Add Selected Products** button to finish
+
+- **Low Stock Products:**
+
+![Low Stock Products:]()
+ 
+1.	**Select Low Stock**: choose one of your low stock notification 
+2.	Tick on the product **SKU** that need supplying
+3.	Click on **Add Selected Products** button to finish
+
+- **All Supplier Products:**
+
+![All Supplier Products]()
  
 1.	Tick on the products that need supplying
-2.	Click on Add Selected Products button to finish.
+2.	Click on **Add Selected Products** button to finish.
 
 After you added all the products you need supplying, you need to:
- 
-1.	Tick on the product(s) that you want to edit the Qty. Ordering and Purchase Cost (or Tax, Discount)
-2.	Edit the Purchase Cost, Tax, Discount and Qty. Ordering.  Remember Purchase Cost and Qty. Ordering are required fields
-3.	Click on Save to update the quotation 
 
-1.	Step 3: Fill in Shipping and Payment method
+![All Supplier Products]()
  
-1.	Shipping Address: enter the shipping address
-2.	Shipping Method: choose one of your shipping method
-3.	Shipping Cost: enter the cost of shipment
-4.	Start Shipping Date: choose Calendar to pick the date
-Expected Delivery Date: choose Calendar to pick the date when you want your products to arrive
-5.	Payment terms: choose one of your payment terms
-6.	Sales Place Via: you have 5 options – Email, Fax, Phone, Vendor Website or N/A
-Remember to click Save to update what you have edited
-1.	Step 4: Review the quotation.
+1.	Tick on the product(s) that you want to edit the **Qty. Ordering** and **Purchase Cost** (or **Tax, Discount**)
+2.	Edit the **Purchase Cost, Tax, Discount and Qty. Ordering**.  Remember **Purchase Cost** and **Qty. Ordering** are required fields
+3.	Click on **Save** to update the quotation 
+
+**c. Step 3**: Fill in Shipping and Payment method
+
+![Fill in Shipping and Payment method]()
+ 
+1.	**Shipping Address**: enter the shipping address
+2.	**Shipping Method**: choose one of your shipping method
+3.	**Shipping Cost**: enter the cost of shipment
+4.	**Start Shipping Date**: choose **Calendar** to pick the date
+**Expected Delivery Date**: choose **Calendar** to pick the date when you want your products to arrive
+5.	**Payment terms**: choose one of your payment terms
+6.	**Sales Place Via**: you have 5 options – **Email, Fax, Phone, Vendor** Website or **N/A**
+
+Remember to click **Save** to update what you have edited
+
+**d. Step 4**: Review the quotation.
+
 Here, you can review/edit the quotation information including the Order Totals. 
- 
-2.	Step 5: Send Request to the suppliers or Print the quotation
- 
-7.	Back: if you want to come back the Quotation Management page
-8.	Cancel: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
-9.	Send Request: the request will be sent to supplier via email
-10.	Print: to print out the Quotation
-11.	Save: click here to update and finish this quotation as the draft
-12.	Confirm Quotation: after the quotation is confirmed, the system will allow you to check again the information, then 
- 
-1.	Back: get back the Quotation Management page
-2.	Cancel: delete the quotation. A pop-up will be shown to make sure you want to cancel it. Then if you really want to cancel this, you click on Delete button, if not, you click on Back then you will be linked the quotation management site.
-3.	Send Email: send the Quotation Confirmation email to supplier
-4.	Print: print out the Quotation Confirmation
-5.	Save: update what you have edited on Shipping and Payment field
-6.	Convert Quotation to PO: create Purchase Order from the quotation
-7.	Revert Quotation: get back to the Quotation Creation page, to edit product(s)
 
-1.	Manage Quotation
-Path: Purchase Management > Quotation Management section > Quotation
+![Review the quotation]()
  
-Here, you can view Quotation Number, Created At, Supplier, Required Qty., Grand Total (including Tax), and Status.
-Besides, you can view more detail by clicking on View in the Action column
- 
-You can view and edit Summary Information, Shipping and Payment, and General Information (instruction here)
+**e. Step 5**: Send Request to the suppliers or Print the quotation
 
-2.	Purchase Order
-“Purchase Order (PO) is a document sent to a specific supplier to purchase more inventories for your warehouses. It contains descriptions, quantities, prices, discounts, payment terms, date of performance or shipment, other associated terms and conditions.”
-1.	Create Purchase Order
-Path: Purchase Management > Purchase Order Management section > Create Purchase Order
-When creating Purchase Order, you will see a tab showing steps at which Purchase Order is. They are New, Pending, Processing, and Completed.
-1.	Step 1: input General Information
+![Send Request to the suppliers or Print the quotation]()
  
-1.	Enter required information. Similar to Step 1 in Create a new Quotation
-2.	Click on Prepare Product List button to move to the next step
+- **Back**: if you want to come back the **Quotation Management** page
+- **Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
+- **Send Request**: the request will be sent to supplier via email
+- **Print**: to print out the Quotation
+- **Save**: click here to update and finish this quotation as the draft
+- **Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
 
-1.	Step 2: Add products to the Purchase Order
+![Send Request to the suppliers or Print the quotation]()
  
-Similar to Step 2 in Creating a Quotation, there are 5 ways to prepare product list:
-1.	Import products via a CSV file
-2.	Prepare product list based on supply need forecast
-3.	Prepare back order products (Back orders products are ordered by customers but not available in stock now)
-4.	Prepare low stock products
-5.	Prepare product list manually with All Supplier Products button
-Then, click on Confirm Purchase Order at the top right to continue.
+1.	**Back**: get back the **Quotation Management** page
+2.	**Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. Then if you really want to cancel this, you click on **Delete** button, if not, you click on **Back** then you will be linked the quotation management site.
+3.	**Send Email**: send the Quotation Confirmation email to supplier
+4.	**Print**: print out the Quotation Confirmation
+5.	**Save**: update what you have edited on Shipping and Payment field
+6.	**Convert Quotation to PO**: **create Purchase Order** from the quotation
+7.	**Revert Quotation**: get back to the **Quotation Creation** page, to edit product(s)
 
-1.	Step 3: Setting Shipping and Payment
+##### Manage Quotation
+
+Path: **Purchase Management > Quotation Management** section **> Quotation**
+
+![Manage Quotation]()
  
-1.	Enter the address you want the stock to be shipped to
-2.	Select a shipping method for the purchase order
-3.	Estimate and enter the shipping cost
-4.	Set start shipping and expected delivery date
-5.	Select the payment term
-6.	Choose the way to place order: N/A, Email, Phone, Fax, Vendor website
-After this step, choose Save and the purchase order status will be changed to Pending. At this time, you can choose to Send Request to the supplier (Request will be sent to suppliers’ email address), Print the purchase order, Cancel or Confirm Purchase Order. 
-You should double-check all information before confirming purchase order. After being confirmed, the purchase order status will be changed to Processing.
+Here, you can view **Quotation Number, Created At, Supplier, Required Qty., Grand Total (including Tax)**, and **Status.**
+
+Besides, you can view more detail by clicking on **View** in the **Action** column
+
+![Manage Quotation]()
  
-You can view Summary Information, General Information and edit Invoices, Received Items, Returned Items, Transfered Items, Shippping and Payment.
-You can click on Complete PO to complete the purchase order (its status will be changed to Completed) even if you have not received all requested items. When the purchase order status is Completed, you cannot receive items anymore but you still transfer received items into warehouses after that.
-You can also click on Receive Items button to note which and how many items are received.
-7.	Summary Information
+You can view and edit **Summary Information, Shipping and Payment, and General Information**
+
+#### Purchase Order
+
+*“**Purchase Order (PO)** is a document sent to a specific supplier to purchase more inventories for your warehouses. It contains descriptions, quantities, prices, discounts, payment terms, date of performance or shipment, other associated terms and conditions.”*
+
+##### Create Purchase Order
+
+Path: **Purchase Management > Purchase Order Management** section **> Create Purchase Order**
+
+When creating Purchase Order, you will see a tab showing steps at which Purchase Order is. They are **New, Pending, Processing,** and **Completed.**
+
+**a. Step 1**: input General Information
+
+![input General Information]()
  
-You can view the time, supplier, shipping method, payment term, product list and sales totals report
-8.	Receive Items
+- Enter required information. Similar to **Step 1 in Create a new Quotation**
+- Click on **Prepare Product List** button to move to the next step
+
+**b. Step 2**: Add products to the Purchase Order
+
+![Add products to the Purchase Order]()
+ 
+Similar to **Step 2 in Creating a Quotation**, there are 5 ways to prepare product list:
+	- Import products via a CSV file
+	- Prepare product list based on supply need forecast
+	- Prepare back order products (Back orders products are ordered by customers but not available in stock now)
+	- Prepare low stock products
+	- Prepare product list manually with **All Supplier Products** button
+
+Then, click on **Confirm Purchase Order** at the top right to continue.
+
+**c. Step 3:** Setting Shipping and Payment
+
+![Setting Shipping and Payment]()
+ 
+- Enter the address you want the stock to be shipped to
+- Select a shipping method for the purchase order
+- Estimate and enter the shipping cost
+- Set start shipping and expected delivery date
+- Select the payment term
+- Choose the way to place order: N/A, Email, Phone, Fax, Vendor website
+
+After this step, choose **Save** and the purchase order status will be changed to ***Pending***. At this time, you can choose to Send Request to the supplier (Request will be sent to suppliers’ email address), Print the purchase order, Cancel or Confirm Purchase Order. 
+
+You should double-check all information before confirming purchase order. After being confirmed, the purchase order status will be changed to ***Processing***.
+
+![Setting Shipping and Payment]()
+ 
+You can view **Summary Information, General Information and edit Invoices, Received Items, Returned Items, Transfered Items, Shippping** and **Payment**.
+
+You can click on **Complete PO** to complete the purchase order (its status will be changed to **Completed**) even if you have not received all requested items. When the purchase order status is **Completed**, you cannot receive items anymore but you still transfer received items into warehouses after that.
+
+You can also click on **Receive Items** button to note which and how many items are received.
+
+- **Summary Information**
+
+![Summary Information]()
+ 
+You can view the **time, supplier, shipping method, payment term, product list** and **sales totals report**
+
+- **Receive Items**
 When the purchase order’s status is processing, you can be navigated to the following view and receive or return items:
- 
-The table will shown received items with information including Received Data, SKU, Product Name, Supplier SKU, Received Qty and Created By
-1.	If you click on Receive all items, then all items that you need supplying are ordered. 
-2.	If you click on Receive items to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
- 
-1.	Received Time: click Calendar to pick the Date you received the items
-2.	Product List:
-3.	Scan Barcode: update product list by scanning product barcode 
-4.	Select Products: a pop-up will be shown as below
- 
-Tick on the product(s) you received. Then click on Select button to complete
- 
-After that, you need to enter the product quantity you received in the Receive Qty field. 
-Finally, click Save to finish 
 
-5.	Returned Items
+![Receive Items]()
  
- In the Returned Items tab, you can return products to the Supplier by clicking on Return Products button. Please refer to Create Return Request for more details.
+The table will shown received items with information including **Received Data, SKU, Product Name, Supplier SKU, Received Qty** and **Created By**
+- If you click on **Receive all items**, then all items that you need supplying are ordered. 
+- If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
 
-6.	Invoices
+![Receive Items]()
  
-The invoice you created will be shown on the table, including information such as Invoice ID, Billed Date, Invoice Total, Total Paid, Total Refund, and Billed Qty
-Click on Create an Invoice. Note that multiple invoices can be created for one purchase order. 
- 
-1.	Billed From: select the date it is billed
-2.	Product List: click on Selected Products button, then a pop-up will be shown
- 
-3.	Tick on the product(s) you select. Then click on Select button to finish
+1.	**Received Time**: click **Calendar** to pick the Date you received the items
+2.	**Product List**:
+	- **Scan Barcode**: update product list by scanning product barcode 
+	- **Select Products**: a pop-up will be shown as below
 
-4.	Transferred Items
- After receiving products, you can transfer them to warehouses by clicking Transfer Product to Warehouse. 
+![Receive Items]()
  
-You will need to fill information like Transferred Date, SKU, Product Name, Supplier SKU, Transferred Qty, Transferred to and Created By. After that, you click on the Save button to save your work. After that, you can see the records of all transferred products in the Transferred Items tab.
+Tick on the product(s) you received. Then click on **Select** button to complete
 
-5.	Shipping and Payment: as above
-6.	General Information: as above
-
-1.	Step 4: Completed
+![Receive Items]()
  
-Here, you can view Summary Information (Short Information, Product List and Sales Totals), Invoices, Received Items, Shortfall items, Returned Items, Transfered Items, Shipping and Payments, and General Information
-Then, you can click on Send Email, to send this purchase order to your supplier. Click on Print to print out the Purchase Order
+After that, you need to enter the product quantity you received in the **Receive Qty** field. 
 
-2.	Manage Purchase Order
-Path: Purchase Management > Purchase Order Management section > Purchase Orders
+Finally, click **Save** to finish 
+
+- **Returned Items**
+
+![Returned Items]()
  
-You can view the purchase date (Purchase On – Expect Delivery On), supplier, Requested Qty, Received Qty, Total Paid, Grand Total (Including Tax) and Status. Beside, you can view more details by clicking on View, or delete the purchase order by tick on the order then choose action Delete.
+In the Returned Items tab, you can return products to the Supplier by clicking on Return Products button. Please refer to **Create Return Request** for more details.
 
-2.	Return Request
-Return Items are records of items & Qty. returned against a purchase order. You can return partial or all items in the PO.
-1.	Create Return Request
-Path: Purchase Management > Return Request Management section > Create Return Request
-2.	Step 1: status New: input General Information
+- **Invoices**
+
+![Invoices]()
  
-1.	Created Time: select Calendar to choose date
-2.	Warehouse: select warehouse that holds the Returned Items
-3.	Supplier: select the one who supplies the items
-4.	Reason: enter the reason why you returned it
-Then, click on Prepare Product List button to move to the next step
+The invoice you created will be shown on the table, including information such as **Invoice ID, Billed Date, Invoice Total, Total Paid, Total Refund**, and **Billed Qty**
 
-1.	Step 2: status Pending: Prepare products to create return request
+Click on Create an Invoice. Note that *multiple invoices can be created for one purchase order.*
+
+![Invoices]()
  
-1.	First, you need to select product(s) that you want to return: you can Import Products, Scan Products (instruction below) and select from All Supplier Products
+1.	**Billed From**: select the date it is billed
+2.	**Product List**: click on **Selected Products** button, then a pop-up will be shown
+
+![Invoices]()
  
-With Scan Products, you need to:
-1.	 Product List: scan product barcode and it will appears here
-2.	Click on Add Products to finish
+3.	Tick on the product(s) you select. Then click on **Select** button to finish
 
-3.	Click on Confirm Request to move to next step
-After this step, a return request is recorded with Processing status and awaits confirmation from the Supplier before you actually send items from warehouse. At this step, stock has not been subtracted from the warehouse yet.
+- **Transferred Items**
 
-You can also Send request to supplier via email or print the return request.
+After receiving products, you can transfer them to warehouses by clicking **Transfer Product to Warehouse**. 
 
-1.	Step 3: Status Processing: Send items and/or finish return request
+![Transferred Items]()
  
-4.	If the supplier confirms the return request, you can start sending products by clicking on Delivery items. 
-A new window will open. You can select the date to send stock, choose to Subtract stock on warehouse once this step is completed, return products by scanning barcode or select from the product list and click Save to finish.
-If you have selected Subtract stock on warehouse option, the returned stock is now subtracted from your warehouse.
+You will need to fill information like **Transferred Date, SKU, Product Name, Supplier SKU, Transferred Qty, Transferred** to and **Created By**. After that, you click on the Save button to save your work. After that, you can see the records of all transferred products in the **Transferred Items** tab.
+
+- **Shipping and Payment**: as above
+- **General Information**: as above
+
+**d. Step 4**: Completed
+
+!Completed[]()
+ 
+Here, you can view **Summary Information** (Short Information, Product List and Sales Totals), **Invoices, Received Items, Shortfall items, Returned Items, Transfered Items, Shipping and Payments**, and **General Information**
+
+Then, you can click on **Send Email**, to send this purchase order to your supplier. Click on **Print** to print out the Purchase Order
+
+##### Manage Purchase Order
+
+Path: **Purchase Management > Purchase Order Management** section **> Purchase Orders**
+
+![Manage Purchase Order]()
+ 
+You can view the purchase date (**Purchase On – Expect Delivery On**), **supplier, Requested Qty, Received Qty, Total Paid, Grand Total** (Including **Tax**) and **Status**. Beside, you can view more details by clicking on **View**, or delete the purchase order by tick on the order then choose action **Delete***.
+
+#### Return Request
+
+**Return Items** are records of items & Qty. returned against a purchase order. You can return partial or all items in the PO.
+
+##### Create Return Request
+
+Path: **Purchase Management > Return Request Management** section **> Create Return Request**
+
+**a. Step 1**: status **New**: input General Information
+
+![Create Return Request]()
+ 
+1.	**Created Time**: select **Calendar** to choose date
+2.	**Warehouse**: select warehouse that holds the Returned Items
+3.	**Supplier**: select the one who supplies the items
+4.	**Reason**: enter the reason why you returned it
+
+Then, click on **Prepare Product List** button to move to the next step
+
+**b. Step 2**: status **Pending**: Prepare products to create return request
+
+![Create Return Request]()
+ 
+1.	First, you need to select product(s) that you want to return: you can **Import Products, Scan Products (instruction below)** and select from **All Supplier Products**
+
+![Create Return Request]()
+ 
+With **Scan Products**, you need to:
+	- **Product List**: scan product barcode and it will appears here
+	- Click on **Add Products** to finish
+
+2. Click on **Confirm Request** to move to next step
+
+After this step, a return request is recorded with **Processing** status and awaits confirmation from the Supplier before you actually send items from warehouse. At this step, stock has not been subtracted from the warehouse yet.
+
+You can also **Send request** to supplier via email or print the return request.
+
+**c. Step 3**: Status **Processing**: Send items and/or finish return request
+
+![Create Return Request]()
+ 
+- If the supplier confirms the return request, you can start sending products by clicking on **Delivery items**. 
+
+A new window will open. You can select the date to send stock, choose to **Subtract stock on warehouse** once this step is completed, return products by scanning barcode or select from the product list and click **Save** to finish.
+
+If you have selected **Subtract stock on warehouse** option, the returned stock is now subtracted from your warehouse.
+
 Note that you can return partial items and come back later to return the rest.
- 
-5.	You can click on Complete Request to complete the return request even if you send back items in the previous step above or not. Once you have completed the return request, you will NOT be able to receive or edit further information of this request. 
-The request status is marked Completed.
 
-1.	Step 4: status Completed
- 
+![Create Return Request]()
+
+- You can click on **Complete Request** to complete the return request even if you send back items in the previous step above or not. Once you have completed the return request, you will NOT be able to receive or edit further information of this request. 
+The request status is marked **Completed**.
+
+**d. Step 4**: status **Completed**
+
+![Create Return Request]()
+
 You can review the information you have created, send it via email to the supplier or print it out. 
-1.	Manage Return Request
- 
-You can see Return Number, Return On (date), Supplier, Warehouse, Returned Qty, Delivered Qty., and Status
-1.	Click on Create Return Request button if you want to create a new one.
-2.	Select the return request and click View to see all details of the request.
 
-3.	Gift Card
-1.	How Admin manages Gift Card
-Manage Templates
-2.	Add a New Template
-Path: Marketing > Gift Card section > Manage Templates
+##### Manage Return Request
+
+![Manage Return Request]()
  
-Step 1: click on Add New Template button 
-Step 2: Edit information in New Template page
+You can see **Return Number, Return On (date), Supplier, Warehouse, Returned Qty, Delivered Qty.**, and **Status**
+1.	Click on **Create Return Request** button if you want to create a new one.
+2.	Select the return request and click **View** to see all details of the request.
+
+### Gift Card
+#### How Admin manages Gift Card
+##### Manage Templates
+
+**a. Add a New Template**
+
+Path: **Marketing > Gift Card** section **> Manage Templates**
+
+![Add a New Template]()
+ 
+**Step 1**: click on **Add New Template** button 
+
+**Step 2**: Edit information in **New Template** page
+
+![Add a New Template]()
+
+![Add a New Template]()
   
-1.	Template Name: Enter the template’s name
-2.	Design Pattern: Choose a design pattern in dropdown list (optional)
-3.	Notes: Enter notes or description about the gift card template (if any)
-4.	Text Color: Choose text color
-5.	Link/ Special Text Color: Choose link/ special text color
-6.	Background Images: Upload a background image. 
-7.	Click on “Save and Continue” or “Save” to finish
+1.	**Template Name**: Enter the template’s name
+2.	**Design Pattern**: Choose a design pattern in dropdown list (optional)
+3.	**Notes**: Enter notes or description about the gift card template (if any)
+4.	**Text Color**: Choose text color
+5.	**Link/ Special Text Color**: Choose link/ special text color
+6.	**Background Images**: Upload a background image. 
+7.	Click on **Save and Continue** or **Save** to finish
 
-1.	Preview Existing Templates
-Path: Marketing > Gift Card section > Manage Templates
+**b. Preview Existing Templates**
+
+Path: **Marketing > Gift Card** section **> Manage Templates**
+
+![Preview Existing Templates]()
  
-Click on “Preview” to see the gift card template
+Click on **Preview** to see the gift card template
 
-2.	Edit and Delete Existing Templates
-Path: Marketing > Gift Card section > Manage Templates
+**c. Edit and Delete Existing Templates**
+
+Path: **Marketing > Gift Card** section **> Manage Templates**
+
+![Edit and Delete Existing Templates]()
  
 1.	Mark the template checkbox
-2.	Tab the action label, select “Delete” to remove templates. 
-3.	Click on “Edit” to update templates data
- 
-1.	Edit template’s information: Template Name, Design Pattern, Notes, Text Color, Link/Special Text Color, Background Images
-2.	Click on “Save” to finish
-3.	Click on “Delete” to remove template
+2.	Tab the action label, select **Delete** to remove templates. 
+3.	Click on **Edit** to update templates data
 
-Gift Code History
-Path: Marketing > Gift Card section > Gift Code History
+![Edit and Delete Existing Templates]()
+ 
+1.	Edit template’s information: **Template Name, Design Pattern, Notes, Text Color, Link/Special Text Color, Background Images**
+2.	Click on **Save** to finish
+3.	Click on **Delete** to remove template
+
+##### Gift Code History
+
+Path: **Marketing > Gift Card** section **> Gift Code History**
+
+![Gift Code History]()
  
 On Gift Card History page, you will know when Gift Cards were created/ updated/ redeemed/ spent/ refunded and by whom as well as their values and status. 
+
 You can filter data with the above criteria to get more accurate reports. Information can be exported to .CSV or .XML files for your convenience. 
 
-Generate Gift Codes Pattern
-Path: Marketing > Gift Card section > Generate Gift Code
+##### Generate Gift Codes Pattern
+
+Path: **Marketing > Gift Card** section **> Generate Gift Code**
+
+![Generate Gift Codes Pattern]()
  
-In Gift Code Pattern page, click on “Add Gift Code Pattern” to create new pattern code. 
+In **Gift Code Pattern** page, click on **Add Gift Code Pattern** to create new pattern code. 
+
+![Generate Gift Codes Pattern]()
+![Generate Gift Codes Pattern]()
   
-In New Gift Code Pattern page, you can:
-1.	Pattern Name: Enter the pattern name
-2.	Gift Code Pattern: Follow the example mentioned below and set a format for the gift code  
-3.	Gift Code Value: Enter the Gift code value
-4.	Currency: Select a currency
-5.	Expired on: Select an expiration date
-6.	Template: Select a gift card template
-7.	Template Image: See the template image
-8.	Gift Code Qty.: Enter the quantity of gift code issued
-9.	Store View: Select store views
-10.	Shopping Cart Conditions: Allow using the gift code only if the following shopping cart conditions are met or leave blank for all shopping carts
-11.	Click on “Save and Generate” to save and generate the gift code at the same time or “Save” to finish
+In **New Gift Code Pattern** page, you can:
+1.	**Pattern Name**: Enter the pattern name
+2.	**Gift Code Pattern**: Follow the example mentioned below and set a format for the gift code  
+3.	**Gift Code Value**: Enter the Gift code value
+4.	**Currency**: Select a currency
+5.	**Expired on**: Select an expiration date
+6.	**Template**: Select a gift card template
+7.	**Template Image**: See the template image
+8.	**Gift Code Qty.**: Enter the quantity of gift code issued
+9.	**Store View**: Select store views
+10.	**Shopping Cart Conditions**: Allow using the gift code only if the following shopping cart conditions are met or leave blank for all shopping carts
+11.	Click on **Save and Generate** to save and generate the gift code at the same time or **Save** to finish
+
+![Generate Gift Codes Pattern]()
  
 Then, a status as “The pattern has been generated successfully” will be shown as above.
- 
+
+![Generate Gift Codes Pattern]()
+
 And a list of generated Gift Codes will be added to the bottom of the page 
 
-Manage Gift Codes
-1.	Create New Gift Codes
-Path: Marketing > Gift Card section > Manage Gift Code
+##### Manage Gift Codes
+
+**a. Create New Gift Codes**
+
+Path: **Marketing > Gift Card** section **> Manage Gift Code**
+
+![Create New Gift Codes]()
  
 There are two ways to create new gift codes:
-1.	Import Gift Codes (import data from your device to the system)
-2.	Add new Gift Code
+1.	**Import Gift Codes** (import data from your device to the system)
+2.	**Add new Gift Code**
 
+- **Import Gift Codes:**
 
-3.	Import Gift Codes: 
+![Import Gift Codes]()
  
-1.	Import File: Click on Choose File to upload your file of gift code
-2.	Download Sample of CSV gift code file
-3.	Click on Import or Import and Print to finish
+1.	**Import File**: Click on **Choose File** to upload your file of gift code
+2.	**Download Sample of CSV gift code file**
+3.	Click on **Import** or **Import and Print** to finish
 
-4.	Add New Gift Code
+- **Add New Gift Code**
+
+![Add New Gift Code]()
  
+![Add New Gift Code]()
+
  
-In New Gift Code page, you can:
-1.	Gift Code Pattern: Follow the example mentioned below to set a format for the gift code  
-2.	Gift Code Value: Enter the Gift code value
-3.	Currency: Select a currency
-4.	Template: Select a gift code template
-5.	Template Image: See the template image
-6.	Status: Select “Active” to enable/ activate the gift code
-7.	Expired on: Select an expiration date
-8.	Store View: Select store views
-9.	Last Comment: Write a comment 
+In **New Gift Code** page, you can:
+1.	**Gift Code Pattern**: Follow the example mentioned below to set a format for the gift code  
+2.	**Gift Code Value**: Enter the Gift code value
+3.	**Currency**: Select a currency
+4.	**Template**: Select a gift code template
+5.	**Template Image**: See the template image
+6.	**Status**: Select “Active” to enable/ activate the gift code
+7.	**Expired on**: Select an expiration date
+8.	**Store View**: Select store views
+9.	**Last Comment**: Write a comment 
+
+![Add New Gift Code]()
  
 Then scroll down to the bottom of the page, there are 3 more tabs as above.
 
-5.	In Shopping Cart Conditions
-  
+- In **Shopping Cart Conditions**
+
+![Shopping Cart Conditions]()
+ 
+![Shopping Cart Conditions]()
+
 1.	Write description about conditions applied to shopping cart when using gift code
-2.	Choose to allow using the gift code only if the shopping cart conditions are met or leave it blank for all shopping carts
+2.	Choose to allow using the gift code **only if the shopping cart conditions are met or leave it blank for all shopping carts**
 
-3.	In Cart Item Conditions
- In this tab, you can choose to allow using the gift code only if products in cart meet the conditions or leave it blank for all products.
+- In **Cart Item Conditions**
 
+![Cart Item Conditions]()
 
+In this tab, you can choose to allow using the gift code **only if products in cart meet the conditions or leave it blank for all products.**
 
-4.	In Message Information tab:
+- In **Message Information** tab:
+
+![Message Information]()
  
 1.	Customer: Enter the sender name and email
 2.	Recipient: Enter the recipient name and email
