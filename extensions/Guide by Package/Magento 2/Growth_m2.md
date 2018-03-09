@@ -3300,182 +3300,262 @@ Path: **Inventory Management > Stock Control** section **> New Stocktaking**
 
 ![Stocktaking process]()
  
-
 There are 5 steps in Stock taking using Inventory Management:
-6.	Step 1: Fill General information: After finishing this step, Stock taking status is Pending
- 
-1.	Choose Warehouse
-2.	Fill the Stocktaking Code
-3.	Fill in the Participants (It is optional)
-4.	Fill the Stocktaking Time of the action (It is optional)
-5.	Choose the products to be stock taken by clicking the Prepare Product List button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the Start Stocktaking button
 
-6.	Step 2: Prepare products before doing stock take: Select or import products to prepare before doing stock take. Stock taking status will change to Processing
- 
-(1) Click on Add Products to Stocktake to select products from your product list or Import products from CSV file (template provided)
-(2) Selected products will be displayed in the grid here
-(3) Click Save to stay with your selected products for further edits, or click Start Stocktake to proceed Stage 3.
+- **Step 1: Fill General information**: After finishing this step, Stock taking status is **Pending**
 
-7.	Step 3: Do Stock take: Fill in the Qty of product. Now status is changed to Verified
+![Fill General information]()
  
-(1) Enter the product quantity that you have recently counted and the reason why there is quantity difference.
-(2) Either click Complete Data Entry to proceed to Stage 4 and have a review of the changes; click Complete Stocktake to finish the process; or Save to continue editing.
+1.	Choose **Warehouse**
+2.	Fill the **Stocktaking Code**
+3.	Fill in the **Participants** (It is optional)
+4.	Fill the **Stocktaking Time** of the action (It is optional)
+5.	Choose the products to be stock taken by clicking the **Prepare Product List** button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the **Start Stocktaking** button
 
-8.	Step 4: Complete data entry: Save the data that has been stock taken and waiting for admin’s approval.
+- **Step 2: Prepare products before doing stock take**: Select or import products to prepare before doing stock take. Stock taking status will change to **Processing**
+
+![Prepare products before doing stock take]()
  
-This Stage allows you to have a final review of your recent quantity counts. Click either Re-entry Data to edit the quantity or Complete Stocktaking to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked Completed.
+1. Click on **Add Products to Stocktake** to select products from your product list or **Import products** from CSV file (template provided)
+2. Selected products will be displayed in the grid here
+3. Click Save to stay with your selected products for further edits, or click **Start Stocktake** to proceed Stage 3.
 
-9.	Step 5: Complete Stock take: When admin does this, Stock taking status will be changed to Complete.
+- **Step 3: Do Stock take**: Fill in the Qty of product. Now status is changed to **Verified**
+
+![Do Stock take]()
+ 
+1. Enter the product quantity that you have recently counted and the reason why there is quantity difference.
+2. Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktake** to finish the process; or **Save** to continue editing.
+
+- **Step 4: Complete data entry**: Save the data that has been stock taken and waiting for admin’s approval.
+
+![Complete data entry]()
+ 
+This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
+
+- **Step 5: Complete Stock take**: When admin does this, Stock taking status will be changed to **Complete**.
+
+![Complete Stock take]()
  
 Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Complete. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system
 
-1.	Stocktaking History
-Path: Inventory Management > Stock Control section > Stocktaking History
- 
-(1) All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
-1.	Status Pending means Stage 1: General Information is done
-2.	Status Processing means Stage 2: Prepare Products is done
-3.	Status Verified means Stage 3: Stock Counting is done
-4.	Status Completed means the whole stocktaking process is done
-(2) You can also click on Add Stocktaking button to start a new stocktaking process from here.
+**b. Stocktaking History**
 
-5.	Stock Movement History
-Path: Inventory Management > Stock Control section > Stock Movement History 
-The module records all the movements of stocks in warehouse. These movements are reflected in Stock Movement report under Stock Control submenu.
+Path: **Inventory Management > Stock Control** section **> Stocktaking History**
+
+![Stocktaking history]()
  
-(1) The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click.
-(2) Filters: Admin can filter the data basing on the variables in the table.
-(3) Export: Admin can also easily export Stock Movement details into CSV or Excel XML.
+1. All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
+- Status **Pending** means Stage 1: **General Information** is done
+- Status **Processing** means Stage 2: **Prepare Products** is done
+- Status **Verified** means Stage 3: **Stock Counting** is done
+- Status **Completed** means the whole stocktaking process is done
+
+2. You can also click on **Add Stocktaking** button to start a new stocktaking process from here.
+
+##### Stock Movement History
+
+Path: **Inventory Management > Stock Control** section **> Stock Movement History**
+
+The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
+
+![Stock Movement History]()
+ 
+1. The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click.
+2. **Filters**: Admin can filter the data basing on the variables in the table.
+3. **Export**: Admin can also easily export Stock Movement details into CSV or Excel XML.
+
 Admin can also filter the data basing on the variables in the table
- 
 
-1.	Prediction
-1.	Supply Needs
-Path: Inventory Management > Prediction section > Supply Needs
+![Stock Movement History]()
+
+#### Prediction
+
+##### Supply Needs
+
+Path: **Inventory Management > Prediction** section **> Supply Needs**
+
 This feature predicts how many inventory items a warehouse need for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past.
+
+![Supply Needs]()
  
-(1) Warehouse(s): Select the warehouse to forecast supply needs.
-(2) Sales Period: Select the sales period so that the system will calculate this number based on this sales history.
-(3) Forecast Supply Needs To: Pick the date that you want to see forecast results.
-(4) Click to Show Supply Needs button to finally view the prediction.
+1. **Warehouse(s)**: Select the warehouse to forecast supply needs.
+2. **Sales Period**: Select the sales period so that the system will calculate this number based on this sales history.
+3. **Forecast Supply Needs To**: Pick the date that you want to see forecast results.
+4. Click to **Show Supply Needs** button to finally view the prediction.
 
 The forecast data will be shown in the table as below:
- 
-(1) The table displays supply needs information as below:
-1.	Qty Sold/day: average quantity sold per day of the product during the chosen sales period
-2.	Total Sold: total quantity of product that were sold during the chosen sales period
-3.	Current Qty: the product quantity that you currently have in the warehouse
-4.	Availability date: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
-5.	Supply needs: the quantity of product that expected to be sold until the time stamp you set.
-(2) The Supply Need Forecast can be exported to CSV or XML file by hitting Export button.
-(3) You can start another prediction by expanding and editing criteria for supply forecast and hit Show Supply Needs again to refresh the prediction result.
 
-6.	Low Stock Rules
-Path: Inventory Management > Prediction section > Low Stock Rules
-Note: Low Stock Alert is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.
- 
-(1) Select an existing rule to edit or click Add New Rule button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: Rule Information, Conditions & Action. There is no limitation in the quantity of rules set.
+![Supply Needs]()
 
-1.	On the Rule information tab
+1. The table displays supply needs information as below:
+- **Qty Sold/day**: average quantity sold per day of the product during the chosen sales period
+- **Total Sold**: total quantity of product that were sold during the chosen sales period
+- **Current Qty**: the product quantity that you currently have in the warehouse
+- **Availability date**: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+- **Supply needs**: the quantity of product that expected to be sold until the time stamp you set.
+
+2. The Supply Need Forecast can be exported to CSV or XML file by hitting Export button.
+3. You can start another prediction by expanding and editing criteria for supply forecast and hit **Show Supply Needs** again to refresh the prediction result.
+
+##### Low Stock Rules
+
+Path: **Inventory Management > Prediction** section **> Low Stock Rules**
+
+***Note: Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.*
+
+![Low Stock Rules]()
  
-(2) Rule Name: Enter the low stock rule name
-(3) Description: Add a brief about the rule (optional)
-(4) Status: Select Active to enable the rule
-(5) Use Calendar to choose From and To date for a term of validity (optional)
+1. Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information, Conditions & Action**. There is no limitation in the quantity of rules set.
+
+**. On the **Rule information** tab
+
+![Rule information tab]()
  
-(6) Select an update time: either Daily or Monthly
+2. **Rule Name**: Enter the low stock rule name
+3. **Description**: Add a brief about the rule *(optional)*
+4. **Status**: Select **Active** to enable the rule
+5. Use **Calendar** to choose **From** and **To** date for a term of validity *(optional)*
+
+![Rule information tab]()
+
+6. Select an **update time**: either Daily or Monthly
 The system periodically checks stock availability and automatically send email notifications admin and warehouse managers.
-(7) Select hours the warning message will be sent
+7. **Select hours** the warning message will be sent
 
-2.	On the Conditions tab
-There are 2 types of low stock rule:
- 
-Type 1: Availability Qty*. 
-Availability Qty.*: you can select Qty. threshold that the system will notify to import.
-(8) Low Stock Threshold Type: Select Availability Qty.
-(9) Threshold (quantity): Set the number of threshold quantity
-(10) Notification Scope: Select Both Warehouse and Global for notification scope
-(11) Warehouse(s): Select Warehouses for those rules will be applied.
+**b**. On the **Conditions** tab
 
- 
-Type 2: Availability Days* 
-Availability Days*: you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store).
-(12) Low Stock Threshold Type: Select Availability Days
-(13) Threshold (days): Set the number of threshold days
-(14) Sales Period (days): Set the number of sales period days
-(15) Notification Scope: Select Both Warehouse and Global for notification scope
-(16) Warehouse(s): Select warehouses for those rules will be applied.
+There are **2 types** of low stock rule:
 
+![Conditions tab]()
+ 
+***Type 1: Availability Qty*.***
 
-3.	On Actions tab
- 
-(17) Notifier email list: Enter an email list to send the low stock notifications to
-(18) Warning Message: Enter content of the warning message
- 
-(19) Click Save or Save and Apply to finish
-1.	Save and Continue Edit: to save the process and continue edit on the current page.
-2.	Save and Apply: you can apply rule immediately
-3.	Save: you can save the rule, but it will not be applied, in case you need to ask for permission before applying or double-check with other people.
-Note: You can edit the rule that you Save and Apply or Save by going to Stock Management > Prediction section > Low Stock Rules > clicking on Edit
- 
-4.	Low Stock Notifications
-Path: Inventory Management > Prediction section > Low Stock Notifications
- 
-Low Stock Notifications listing displays warning messages about the products which are nearly out of stock in warehouses. It shows all notification with information including Sent at, Update Type, Email received, Recipients and Action. Each notification log can show details of all products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
+***Availability Qty.*:** *you can select Qty. threshold that the system will notify to import.*
+8. **Low Stock Threshold Type**: Select **Availability Qty.**
+9. **Threshold (quantity)**: Set the number of **threshold** quantity
+10. **Notification Scope**: Select **Both Warehouse and Global** for notification scope
+11. **Warehouse(s)**: Select **Warehouses** for those rules will be applied.
 
-5.	Barcode Management
-1.	Barcode Listing
-Path: Inventory Management > Barcode Management section > Barcode Listing
-Barcode listing displays all barcodes of all products saved in Inventory Management. It contains Barcode, SKU, Supplier and Purchased Time. From this screen, admin can easily Import Barcode or Generate Barcode with 2 buttons on the top right.
+![Availability Qty]()
+
+***Type 2: Availability Days* ***
+
+***Availability Days*:*** *you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store).*
+
+12. **Low Stock Threshold Type**: Select **Availability Days**
+13. **Threshold (days)**: Set the number of **threshold days**
+14. **Sales Period (days)**: Set the number of **sales period days**
+15. **Notification Scope**: Select **Both Warehouse** and **Global** for notification scope
+16. **Warehouse(s)**: Select **warehouses** for those rules will be applied.
+
+**c.** On **Actions** tab
+
+![Actions tab]()
+ 
+17. **Notifier email list**: Enter an **email list** to send the low stock notifications to
+18. **Warning Message**: Enter content of the **warning message**
+
+![Actions tab]()
+ 
+19. Click **Save** or **Save and Apply** to finish
+- **Save and Continue Edit**: to save the process and continue edit on the current page.
+- **Save and Apply**: you can apply rule immediately
+- **Save**: you can save the rule, but it will not be applied, in case you need to ask for permission before applying or double-check with other people.
+
+***Note**: You can edit the rule that you **Save and Apply** or **Save** by going to **Stock Management > Prediction** section **> Low Stock Rules >** clicking on **Edit**
+
+![Actions tab]()
+ 
+##### Low Stock Notifications
+
+Path: **Inventory Management > Prediction** section **> Low Stock Notifications**
+
+![Low Stock Notifications]()
+ 
+**Low Stock Notifications** listing displays warning messages about the products which are nearly out of stock in warehouses. It shows all notification with information including Sent at, Update Type, Email received, Recipients and Action. Each notification log can show details of all products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
+
+### Barcode Management
+#### Barcode Listing
+
+Path: **Inventory Management > Barcode Management** section **> Barcode Listing**
+
+**Barcode listing** displays all barcodes of all products saved in Inventory Management. It contains **Barcode, SKU, Supplier** and **Purchased Time**. From this screen, admin can easily **Import Barcode** or **Generate Barcode** with 2 buttons on the top right.
+
+![Barcode listing]()
  
 Admin can also view detail of each barcode and product.
  
-Click on View in the Detail column, then you can see each barcode details.
- 
-You can see Barcode Information as above.
- 
-You can see Barcode Print Configuration. In addition, you also can print the barcode right here.
-1.	Select Barcode Template and Preview: select your preferred barcode template (Standard, A4, or Jewelry), then click on Preview button to view it
-2.	Qty. to print: enter the number of barcodes you want to print. 
-Then click on Print button
- 
-Besides, you can see Product Information, including Image, Name, Price, Qty., Stock Availability and Status. 
-Click on More Details button to view all information about the product. 
+![Barcode listing]()
 
-3.	Barcode Label Templates
-Path: Inventory Management > Barcode Management section > Barcode Label Templates
+Click on **View** in the **Detail** column, then you can see each barcode details.
+
+![Barcode listing]()
+ 
+You can see **Barcode Information** as above.
+
+![Barcode listing]()
+ 
+You can see **Barcode Print Configuration**. In addition, you also can print the barcode right here.
+
+1.	**Select Barcode Template** and **Preview**: select your preferred barcode template (Standard, A4, or Jewelry), then click on **Preview** button to view it
+2.	**Qty. to print**: enter the number of barcodes you want to print. 
+
+Then click on **Print** button
+
+![Barcode listing]()
+ 
+Besides, you can see **Product Information**, including **Image, Name, Price, Qty., Stock Availability** and **Status**. 
+
+Click on **More Details** button to view all information about the product. 
+
+#### Barcode Label Templates
+
+Path: **Inventory Management > Barcode Management** section **> Barcode Label Templates**
+
 You can create your own barcode template by adding new template. There are also 3 most used templates as default templates in the extension: A4, jewelry and standard for you to select.
-1.	Manage Barcode Templates
+
+##### Manage Barcode Templates
+
+![Manage Barcode Templates]()
  
 Here, you can see list of barcode templates that you have created. 
- 
-Click on Edit in the Edit column to view and edit Barcode Template
- 
-Click on Add New Template if you want to create a new one.
-2.	Add a new Barcode Template
- 
-1.	You can see the Barcode Label Roll at the right. The image demontrates the dimensions of the label roll that barcodes are printed on. 
-2.	Select Barcode Label Format: select your preferred format (Standard, A4 or Jewelry)
-3.	Template Name: enter the name of the template
-4.	Status: select the status of the label (active or inactive)
-5.	Barcode Symbology: select the symbology of that barcode
-Barcode Symbology is the language or encoding that barcode uses. It will be shown on the printed barcode. The barcode scanner will decode it, then change it into character that you can type or edit. 
 
-Symbology	Uses
-Code – 128	Various
-Code – 25	Logistic
-Interleaved 2 of 5	Wholesales, Libraries
-Code – 39	Various
-Ean – 13	European Retail
-Identcode	German Post for package tracking
-Itf14	Packaging
-Leitcode	German Post for mail routing
-Royalmail	Delivery Confirmation
+![Manage Barcode Templates]()
 
-6.	Measurement Unit: select the unit for barcode size
-7.	Label per row: only used ONE (1) for jewelry template
-8.	Paper measurement: enter paper height and paper width (no need to type the unit).
-9.	Label measurement: enter label height and label width (no need to type the unit) 
+Click on **Edit** in the **Edit** column to view and edit **Barcode Template**
+
+![Manage Barcode Templates]()
+ 
+Click on **Add New Template** if you want to create a new one.
+
+##### Add a new Barcode Template
+
+![Add a new Barcode Template]()
+ 
+0.	You can see the **Barcode Label Roll** at the right. The image demontrates the dimensions of the label roll that barcodes are printed on. 
+1.	**Select Barcode Label Format**: select your preferred format (**Standard, A4** or **Jewelry**)
+2.	**Template Name**: enter the name of the template
+3.	**Status**: select the status of the label (**active** or **inactive**)
+4.	**Barcode Symbology**: select the symbology of that barcode
+**Barcode Symbology** is the language or encoding that barcode uses. It will be shown on the printed barcode. The barcode scanner will decode it, then change it into character that you can type or edit. 
+
+|Symbology|	Uses|
+|--|--| 
+|Code – 128	|Various|
+|Code – 25|	Logistic|
+|Interleaved 2 of 5|	Wholesales, Libraries|
+|Code – 39|	Various|
+|Ean – 13|	European Retail|
+|Identcode|	German Post for package tracking|
+|Itf14|	Packaging|
+|Leitcode|	German Post for mail routing|
+|Royalmail|	Delivery Confirmation|
+
+6.	**Measurement Unit**: select the unit for barcode size
+7.	**Label per row**: only used **ONE** (1) for jewelry template
+8.	**Paper measurement**: enter paper height and paper width (no need to type the unit).
+9.	**Label measurement**: enter label height and label width (no need to type the unit) 
  
 (9) Font Size: enter the number (no need to type the unit)
 (10) Margin top, Margin left, Margin bottom, Margin right: enter the number
