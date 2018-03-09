@@ -3003,190 +3003,302 @@ Click on **View** to see the warehouse’s detail information
 
 ![Warehouse permissions]()
  
-1.	On the right hand side of the  Warehouse Permission tab, click on Assign Staff to give different warehouse access permissions.
+1.	On the right hand side of the  **Warehouse Permission** tab, click on **Assign Staff** to give different warehouse access permissions.
 
 Then will be a new pop-up screen shown as below:
+
+![warehouses permissions]()
  
 Select Staff users to assign permission
-(1) Select Staff by marking the checkbox
-(2) Click on Filters to search Staff information (if any)
-(3) Click on Add Selected Staff
+1. Select Staff by marking the checkbox
+2. Click on **Filters** to search Staff information (if any)
+3. Click on **Add Selected Staff**
 
- 
-(4) Then click on Save Staff Permissions
+![warehouses permissions]()
 
+4. Then click on **Save Staff Permissions**
 
+#### Transfer Stock
+##### Send stock & Request stock internally
 
-1.	Transfer Stock
-1.	Send stock & Request stock internally
-1.	Send stock to another internal warehouse
-Path: Inventory Management > Transfer Stock section > Send Stock
+**a. Send stock to another internal warehouse**
+
+Path: **Inventory Management > Transfer Stock** section **> Send Stock**
+
 If admin wants to send stock from his warehouse to another warehouse, he can use this feature to record stock sending. 
-The process to Send stock is: Add new send stock > Prepare Product list > Select Products > Start Send Stock > Save Receive Stock > Mark as Completed
-1.	Step 1: Add new send stock
+
+The process to Send stock is: *Add new send stock > Prepare Product list > Select Products > Start Send Stock > Save Receive Stock > Mark as Completed*
+
+- **Step 1: Add new send stock**
+
+![Add new send stock]()
  
-1.	Fill the Transfer Code 
-2.	Choose Source Warehouse 
-3.	Choose Destination Warehouse
-4.	Fill in the Reason box
-5.	Step 2: Prepare the product list: 
+1.	Fill the **Transfer Code**
+2.	Choose **Source Warehouse** 
+3.	Choose **Destination Warehouse**
+4.	Fill in the **Reason** box
+
+- **Step 2: Prepare the product list:**
+
+![Prepare the product list]()
    
-To prepare product list, click on the Prepare Product List button
+To prepare product list, click on the **Prepare Product List** button
+
+![Prepare the product list]()
  
 Here you have 3 options to prepare products to be sent:
-6.	Scan barcode: if you have our barcode management module installed;
-7.	Select Products: from the full list of your inventory;
-8.	Import: via a CSV file (with a provided sample).
-If you choose Select Products:
- 
- (1) Click on the product needed
-(2) Then, click on Add Selected Products button
- 
-(3) Choose the quantity to transfer and click on Start Send Stock
-(4) You can click on Remove to delete product line
- 
+- **Scan barcode**: if you have our barcode management module installed;
+- **Select Products**: from the full list of your inventory;
+- **Import**: via a CSV file (with a provided sample).
+
+**If you choose Select Products:**
+
+![Prepare the product list]()
+
+1. Click on the product needed
+2. Then, click on **Add Selected Products** button
+
+![Prepare the product list]()
+
+3. Choose the quantity to transfer and click on **Start Send Stock**
+4. You can click on **Remove** to delete product line
+
+![Prepare the product list]()
+
 The system will dislpay a notification when the transfer is completed.
 
-1.	Step 3: Receive stock: Destination warehouse can create receives by either importing via a CSV file or selecting products from the list of Sent products.
+- **Step 3: Receive stock:** Destination warehouse can create receives by either **importing** via a CSV file or **selecting products** from the list of Sent products.
+
+![Receive stock]()
  
-If you click on Select Products in Receiving history tab:
+If you click on **Select Products** in **Receiving history** tab:
+
+![Receive stock]()
  
 1.	Select the product to receive 
-2.	Click on Add Selected Products
+2.	Click on **Add Selected Products**
+
+![Receive stock]()
  
 Enter the quantity received in receiving history
- 
-Click on Save Receive and the system will display a notification about the Successful Receipt:
- 
-You can also view and download the Shortfall List – the list containing the products that the Destination warehouse does not receive from Source warehouse:
- 
-Or Return products, also on the same page: 
- 
 
-1.	Request Stock
-Path: Inventory Management > Transfer Stock section > Request Stock
-If a warehouse lacks stock, admin can create a Stock request to get stock from other warehouse. The process to request stock is: Add new request stock > Prepare Product list > Select Products> Start Request Stock > Save Delivery Stock > Save Receive Stock > Mark as Completed
-3.	Step 1: Add new request stock: 
+![Receive stock]()
  
-1.	Fill the Transfer Code 
-2.	Choose Source Warehouse 
-3.	Choose Destination Warehouse
-4.	Fill in the Reason box
-5.	Step 2: Prepare the product list: 
+Click on **Save Receive** and the system will display a notification about the Successful Receipt:
+
+![Receive stock]()
  
-To prepare product list, click on the Prepare Product List button
+You can also view and download the **Shortfall List** – the list containing the products that the Destination warehouse does not receive from Source warehouse:
+
+![Receive stock]()
  
+Or **Return products**, also on the same page: 
+ 
+![Receive stock]()
+
+**b. Request Stock**
+
+Path: **Inventory Management > Transfer Stock** section **> Request Stock**
+
+If a warehouse lacks stock, admin can create a Stock request to get stock from other warehouse. The process to request stock is: *Add new request stock > Prepare Product list > Select Products> Start Request Stock > Save Delivery Stock > Save Receive Stock > Mark as Completed*
+
+- **Step 1: Add new request stock:** 
+
+![Add new request stock]()
+ 
+1.	Fill the **Transfer Code**
+2.	Choose **Source Warehouse** 
+3.	Choose **Destination Warehouse**
+4.	Fill in the **Reason** box
+
+- **Step 2: Prepare the product list:**
+
+![Prepare the product list]()
+ 
+To prepare product list, click on the **Prepare Product List** button
+
+![Prepare the product list]()
+
 Here you have 3 options to prepare products to be requested:
-6.	Scan barcode: if you have our barcode management module installed;
-7.	Select Products: from the full list of your inventory;
-8.	Import: via a CSV file (with a provided sample).
-If you choose Select Products:
+	- **Scan barcode:** if you have our barcode management module installed;
+	- **Select Products:** from the full list of your inventory;
+	- **Import**: via a CSV file (with a provided sample).
+
+**If you choose Select Products:**
+
+![Select Products]()
+
+1. Click on the product needed
+2. Then, click on **Add Selected Products**
  
- (1) Click on the product needed
-(2) Then, click on Add Selected Products
- 
-(1) Enter the quantity to transfer 
-(2) Click on Start Request Stock
-You can click on Remove to delete product line
- 
+![Select Products]()
+
+1. Enter the quantity to transfer 
+2. Click on **Start Request Stock**
+
+You can click on **Remove** to delete product line
+
+![Select Products]()
+
 The system will dislpay a notification when the transfer is completed.
 
-1.	Step 3: Delivery History: Source warehouse when receives the stock request can create a stock delivery. When a stock delivery is created, stock will be subtracted immediately from the source warehouse.
- 
-You can either import products via a CSV file or click on Select Products in delivery history.
-If you choose to Select Products:
- 
-(1) Select the products to be added
-(2) Click on Add Selected Products
-  
-Enter the delivered quantity in delivery history and click on Save Delivery
+- **Step 3: Delivery History**: Source warehouse when receives the stock request can create a stock delivery. When a stock delivery is created, stock will be subtracted immediately from the source warehouse.
 
-2.	Step 4: Receive History: Destination warehouse can create receives by importing or selecting product then update received qty. 
+![Delivery history]()
  
-Click on Select Products in receiving history
+You can either import products via a CSV file or click on **Select Products** in delivery history.
+
+**If you choose to Select Products:**
+
+![Select Products]()
+
+1. Select the products to be added
+2. Click on **Add Selected Products**
+
+![Select Products]()
+
+Enter the delivered quantity in delivery history and click on **Save Delivery**
+
+- **Step 4: Receive History**: Destination warehouse can create receives by importing or selecting product then update received qty. 
+
+![Receive History]()
  
-(1) Select the products to receive
-(2) Click on Add Selected Products
-  Enter the quantity received in receiving history and click on Save Receive.
- 
+Click on **Select Products** in receiving history
+
+![Receive History]()
+
+1. Select the products to receive
+2. Click on **Add Selected Products**
+
+![Receive History]()
+
+Enter the quantity received in receiving history and click on **Save Receive.**
+
+![Receive History]()
+
 The system will display a message when the receiving is created successfully. 
-After that, stock will be added immediately to the destination warehouse from which the stock request was sent.
-You can also download Shortfall List & Summary of the Stock Request.
 
-3.	Transfer to External 	
-Path: Inventory Management > Transfer Stock section > Transfer to External
+After that, stock will be added immediately to the destination warehouse from which the stock request was sent.
+
+You can also download **Shortfall List & Summary** of the Stock Request.
+
+##### Transfer to External 	
+
+Path: **Inventory Management > Transfer Stock** section **> Transfer to External**
+
 This feature allows you to record sending the product to an external destination e.g. when the product is damaged, loss or sent as free gift…
  
-(1) Fill the Transfer Code
-(2) Fill the External Location
-(3) Choose Warehouse
-(4) Fill Notifer Emails
-(5) Fill in the Reason box
-(6) Click on Prepare Product List
+![Transfer to External ]()
+
+1. Fill the **Transfer Code**
+2. Fill the **External Location**
+3. Choose **Warehouse**
+4. Fill **Notifer Emails**
+5. Fill in the **Reason** box
+6. Click on **Prepare Product List**
+
+![Transfer to External]()
  
-Then, you can add or import products to transfer stock by clicking on Scan Barcode, Import or Select Products.
-If you choose to Select Products from your inventory:
+Then, you can add or import products to transfer stock by clicking on **Scan Barcode, Import** or **Select Products.**
+
+If you choose to **Select Products** from your inventory:
+
+![Transfer to External]()
  
 1.	Select the products to be added
-2.	Click on Add Selected Products
- 
-Fill the Qty and click on Transfer to finalise. 
+2.	Click on **Add Selected Products**
 
-3.	Transfer from External
-Path: Inventory Management > Transfer Stock section > Transfer from External
+![Transfer to External]()
+ 
+Fill the **Qty** and click on **Transfer** to finalise. 
+
+##### Transfer from External
+
+Path: **Inventory Management > Transfer Stock** section **> Transfer from External**
+
 This feature allows you to accept the stocks from outside of the system. Not only from another warehouse but can be from any other source. 
- 
-(1) Fill the Transfer Code
-(2) Fill the External Location
-(3) Choose Warehouse
-(4) Fill Notifer Emails
-(5) Fill in the Reason box
-(6) Click on Prepare Product List
- 
-Then, you can add or import products to transfer stock by clicking on Scan Barcode, Import or Select Products.
- 
-Fill the Qty and click on Transfer to finalise. 
 
-4.	Transfer Stock History
+![Transfer from External]()
+
+1. Fill the **Transfer Code**
+2. Fill the **External Location**
+3. Choose **Warehouse**
+4. Fill **Notifer Emails**
+5. Fill in the **Reason** box
+6. Click on **Prepare Product List**
+
+![Transfer from External]()
+ 
+Then, you can add or import products to transfer stock by clicking on **Scan Barcode, Import** or **Select Products.**
+
+![Transfer from External]()
+ 
+Fill the **Qty** and click on **Transfer** to finalise. 
+
+##### Transfer Stock History
+
+![Transfer Stock History]()
  
 This History records stock movements from send stock, request stock, transfer from external and transfer to external.
 
-1.	Stock Control
-1.	Stock Adjustment & Stock Adjustment History
-1.	Link stocks in Warehouse to Front Store View
-As mentioned in section Stock Control Configuration, you can link products and stock data by choosing Yes on the Link stocks in Warehouse to Front Store View section in Settings menu.
+#### Stock Control
+##### Stock Adjustment & Stock Adjustment History
+
+**a. Link stocks in Warehouse to Front Store View**
+
+As mentioned in section **Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section in **Settings** menu.
+
+![Link stocks in Warehouse to Front Store View]()
+
+**b. Add new Stock Adjustment**
+
+Path: **Inventory Management > Stock Control** section **> New Stock Adjustment**
+
+![Add new Stock Adjustment]()
  
-2.	Add new Stock Adjustment
-Path: Inventory Management > Stock Control section > New Stock Adjustment
- 
-Under menu Stock Control, you can create new Stock Adjustment in a few steps:
+Under menu **Stock Control**, you can create new Stock Adjustment in a few steps:
 1.	Name of the warehouse.
-2.	Adjustment Code: is automatically generated. All adjustments are saved in Inventory Management > Stock Control section > Adjust Stock History
-3.	Fill the Reason
-4.	Then click button Start Adjust Stock
- 
+2.	**Adjustment Code**: is automatically generated. All adjustments are saved in **Inventory Management > Stock Control** section **> Adjust Stock History**
+3.	Fill the **Reason**
+4.	Then click button **Start Adjust Stock**
+
+![Add new Stock Adjustment]()
+
 From here you have 2 options:
-1.	Go to product list and Add Products to Adjust Stock or Import products via CSV file
-2.	Save the Stock Adjustment. After being saved, this stock adjustment’s status is now Pending. To change Stock Adjustment status to Completed, you need to hit button Adjust.
-Note that the Qty here can be “Change Qty” or “Adjusted Qty”, depending on how you configure in Store Configuration (please refer to section Stock Control Configuration)
+1.	Go to product list and **Add Products to Adjust Stock or Import products** via CSV file
+2.	**Save** the Stock Adjustment. After being saved, this stock adjustment’s status is now Pending. To change Stock Adjustment status to **Completed**, you need to hit button **Adjust**.
+
+*Note that the Qty here can be “Change Qty” or “Adjusted Qty”, depending on how you configure in Store Configuration (please refer to section **Stock Control Configuration**)*
+
 Once the Adjustment is Complete, there is no way to undo it.
+
+![Add new Stock Adjustment]()
  
 Stock level will be updated instantly in the corresponding warehouse.
 
-1.	View Stock Adjustment History
-Path: Inventory Management > Stock Control section > Adjust Stock History
+**b. View Stock Adjustment History**
+
+Path: **Inventory Management > Stock Control** section **> Adjust Stock History**
+
+![View Stock Adjustment History]()
  
 You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status… Click on each Adjustment, you can see stock adjustment details. 
-If you click on a Completed adjustment, you will be able to export the product list of that specific adjustment by clicking the button Export Products.
- 
 
-3.	Stock Taking & Stock Taking History
+If you click on a **Completed** adjustment, you will be able to export the product list of that specific adjustment by clicking the button **Export Products**.
+
+![View Stock Adjustment History]()
+
+##### Stock Taking & Stock Taking History
+
 Physical Stocktaking acts can be used at any time to double-check and correct inventory discrepancy amounts in Inventory Management vs. physical inventory in your warehouses. These consist of:
-4.	A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
-5.	Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
+- A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
+- Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
 
-1.	Stocktaking process
-Path: Inventory Management > Stock Control section > New Stocktaking
+**a. Stocktaking process**
+
+Path: **Inventory Management > Stock Control** section **> New Stocktaking**
+
+![Stocktaking process]()
  
 
 There are 5 steps in Stock taking using Inventory Management:
