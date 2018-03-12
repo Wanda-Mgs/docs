@@ -1890,11 +1890,84 @@ After you finish uploading, click on **Import** to complete this phase
 
 ### Warehouse 
 
+_Path: **Inventory Management > Stock Listing > Warehouses**_
+
+![Sample](./Image_Growth_m1/image173.png?raw=true)
+
+Inventory Information will be shown in grid, inlcuding columns as **ID, Warehouses, Total SKU, Total Qty, Contact Email, Telephone, Street, City, Country** and **Action**
+
 #### New Warehouse
+
+Click on **Add a New Warehouse** button
+
+![Sample](./Image_Growth_m1/image174.png?raw=true)
+
+Fill basic information about the new Warehouse.
+
+_Notes_: You are required to fill **Warehouse Name** and **Warehouse Code**
 
 #### Warehouse Management 
 
+![Sample](./Image_Growth_m1/image175.png?raw=true)
+
+The grid shows Warehouse basic information such as **ID, Warehouse Name, Total SKUs, Total Qty, Contact Email, Telephone, Street, City, Country, and Action**
+
+Click on **View**
+
+![Sample](./Image_Growth_m1/image176.png?raw=true)
+
+Here, you can edit Warehouse information, including **General Information, Stock On Hand, Stock Movement, Warehouse Permission, and Dashboard**:
+
+**General Information**: name,code, email and location
+
+**Stock On Hand**: illustrate the Qty of products that are availble in the warehouse at the moment. 
+
+**Stock Movement**: show the opening and closing data between dates, such as: purchases made, sales order totals, external transfer and 
+internal transfer (send stock) and returned items. 
+
+**Warehouse Permission**: manage and decentralize warehouse permission
+
+**Dashboard**: show Inventory Report in lines and tables. 
+
+Then, remember to click **Save General Information** to save what you have edited.
+
+Or you can click on **Delete Warehouse** to delete the warehouse.
+
+Or click on **Back**, to get back the Management Page.
+
 #### Warehouse Permission
+
+After having created a warehouse, Admin Users can give different warehouse access permissions to different (admin) users.
+
+Click on **View** to see the warehouse’s detail information 
+
+![Sample](./Image_Growth_m1/image177.png?raw=true)
+
+If you want to edit **Warehouse Roles**,
+
+(1) Tick on the staff you want to edit roles
+
+(2) Click on tab to select role. For example:
+
+![Sample](./Image_Growth_m1/image178.png?raw=true)
+
+(3) Click on **Delete** if you want to delete the staff completely.
+If you want to add new staff(s), 
+
+(4) Click on **Assign Staffs**. 
+
+Then a pop-up will be shown as below:
+
+![Sample](./Image_Growth_m1/image179.png?raw=true)
+
+(1) Tick on the staff you want to add
+
+(2) Click on tab to select **Admin Role** or **Staff Role** or both
+
+(3) Click on **Add Selected Staff** to finish this phase. 
+
+
+
 
 ### Location
 
