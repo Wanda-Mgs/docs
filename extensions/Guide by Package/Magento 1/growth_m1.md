@@ -1793,6 +1793,22 @@ On your right hand, you can set up the product features
 
 #### Manage Customers 
 
+_Path: **Customers** > **Manage Customers**_
+
+![Sample](./Image_Growth_m1/image160.png?raw=true)
+
+(1) The Manage Customers Table will be shown in grid, including columns named **ID, Name, Email, Group, Telephone, Zip, Country, State/Province, Customer Since, Website** and **Action**
+
+You can edit Action by ticking on Customer(s) and choose **Action** on Actions Field, then clicking **Submit** as below:
+
+![Sample](./Image_Growth_m1/image161.png?raw=true)
+
+(2) **Add New Customer**: if you have not known how to add New customer, you can read the Magento Guide by clicking on **Get help for this page**
+
+![Sample](./Image_Growth_m1/image162.png?raw=true)
+
+Besides, you can edit Customers’ Information by clicking on the Customer you want to edit.
+
 #### Customer Groups 
 
 ### Partner/Vendor
