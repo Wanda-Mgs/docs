@@ -1830,7 +1830,63 @@ Then, click on Save Customer Group to finish
 
 #### Managae Supppliers
 
+_Path: **Supplier** > **Manage Suppliers**_
+
+![Sample](./Image_Growth_m1/image166.png?raw=true)
+
+(1) The Supplier Management will be shown in grid, including columns **named ID, Supplier, Supplier Code, Contact Email, Status** and **Action**
+
+(2) Add New Supplier
+
 #### Add New Supplier
+
+##### Supplier Information
+
+![Sample](./Image_Growth_m1/image167.png?raw=true)
+
+(1) **Supplier Name**:  enter the name
+(2) **Supplier Code**:  enter the code. It can be Commercial and Government Entity (CAGE) code of supplier, or supplier number, or supplier code, etc.
+(3) **Contact Person**:  enter the name of the contact person
+(4) **Email**:  enter the supplier email to contact
+(5) **Status**:  enabled or disabled this supplier
+(6) **Description**:  enter the description about supplier (if have)
+
+##### Mailing Address 
+
+![Sample](./Image_Growth_m1/image168.png?raw=true)
+
+Fill in **Telephone, Fax, Street Address, City, Country, State/Provice** and **Zip/Postal Code**
+
+##### Product List 
+
+![Sample](./Image_Growth_m1/image169.png?raw=true)
+
+Tick on which product(s) the supplier provide
+
+##### Price List 
+
+![Sample](./Image_Growth_m1/image170.png?raw=true)
+
+Tick on which pricelist(s) the supplier provide
+After all, click **Save** to complete the phase
+
+##### Manage Price List 
+
+![Sample](./Image_Growth_m1/image171.png?raw=true)
+
+(1) The Pricelist Management will be shown in grid, including columns named **ID, Product SKU, Product Name, Supplier, Maximum Qty, Purcahse Price (USD), Start Date, End Date** and **Action**
+
+(2) You can click on
+
+**Mass Remove**:  to remove all pricelist
+**Mass Update**:  to update what you have editted
+**Import Pricelist**:  to import the pricelist. If you click on this, a pop-up will be shown as below:
+
+![Sample](./Image_Growth_m1/image172.png?raw=true)
+
+Choose file and upload a **CSV File** to import
+If you do not have it, click on **Download sample file** to get the sample of CSV
+After you finish uploading, click on **Import** to complete this phase
 
 ### Warehouse 
 
