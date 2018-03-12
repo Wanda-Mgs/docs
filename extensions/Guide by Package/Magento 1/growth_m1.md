@@ -1811,6 +1811,21 @@ Besides, you can edit Customers’ Information by clicking on the Customer you w
 
 #### Customer Groups 
 
+![Sample](./Image_Growth_m1/image163.png?raw=true)
+
+(1) The Customer Groups will be shown in grid, including columns named ID, Group Name and Tax Class.
+
+(2) Add New Customer Group:
+
+![Sample](./Image_Growth_m1/image164.png?raw=true)
+
+**Group Name**: enter the name (less than 32 symbols)
+**Tax Class**:  choose the tax class
+
+![Sample](./Image_Growth_m1/image165.png?raw=true)
+
+Then, click on Save Customer Group to finish
+
 ### Partner/Vendor
 
 #### Managae Supppliers
