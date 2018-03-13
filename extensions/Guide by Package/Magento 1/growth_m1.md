@@ -3360,6 +3360,149 @@ Select Staff users to assign permission
 
 #### Transfer Stock
 
+##### Send Stock and Request Stock 
+
+- **Send Stock** 
+
+_Path: **Inventory Management** > **Transfer Stock** section > **Send Stock**_
+
+If admin wants to send stock from his warehouse to another warehouse, he can use this feature to record stock sending. 
+
+The process to Send stock is: **Add new send stock > Prepare Product list > Select Products > Start Send Stock > Save Receive Stock > Mark as Completed**
+
++ **Step 1: Add New Send Stock**
+
+![Sample](./Image_Growth_m1/image344.png?raw=true)
+
+(1) Fill the **Transfer Code**
+
+(2) Choose **Source Warehouse**
+
+(3) Choose **Destination Warehouse**
+
+(4) Fill the **Notification recipients** (if any)
+
+(5) Fill in the **Reason box**
+
++ **Step 2: Prepare The Product List**
+
+![Sample](./Image_Growth_m1/image345.png?raw=true)
+
+To prepare product list, click on the **Prepare Product List** button
+
+If you choose **Select Products**:
+
+![Sample](./Image_Growth_m1/image346.png?raw=true)
+
+(1) Click on the product needed
+
+(2) Choose the quantity to transfer  
+
+(3) Click on **Start Sending**
+
+The system will display a notification when the transfer is completed.
+
++ **Step 3: Receive Stock**
+
+Destination warehouse can create receives by either _importing_ via a CSV file, scan barcode or _selecting products_ from the list of Sent products.
+
+![Sample](./Image_Growth_m1/image347.png?raw=true)
+
+If you **Select Products** in **Receiving history** tab:
+
+![Sample](./Image_Growth_m1/image348.png?raw=true)
+
+(1) Select the product to receive 
+
+(2) Enter the quantity received in receiving history
+
+(3) Click on **Save Receiving** and the system will display a notification about the Successful Receipt
+
+You can also view and **Download Shortfall List** – the list containing the products that the Destination warehouse does not receive from Source warehouse
+
+Or **Return products**, also on the same page
+
+- **Request Stock**
+
+_Path: **Inventory Management** > **Transfer Stock** section > **Request Stock**
+
+If a warehouse lacks stock, admin can create a Stock request to get stock from other warehouses. The process to request stock is: **Add new request stock > Prepare Product list > Select Products> Start Request Stock > Save Delivery Stock > Save Receive Stock > Mark as Completed**
+
++ **Step 1: Add New Request Stock 
+
+![Sample](./Image_Growth_m1/image349.png?raw=true)
+
+(1) Fill the **Transfer Code**
+
+(2) Choose **Source Warehouse**
+
+(3) Choose **Destination Warehouse**
+
+(4) Fill the **Notification recipients**
+
+(5) Fill in the **Reason box**
+
++ **Step 2: Prepare the Product List** 
+
+![Sample](./Image_Growth_m1/image350.png?raw=true)
+
+To prepare product list, click on the **Prepare Product List** button
+
+If you choose **Select Products**:
+
+![Sample](./Image_Growth_m1/image351.png?raw=true)
+
+(1) Click on the product needed
+
+(2) Enter the quantity to transfer 
+
+(3) Click on **Start to request**
+
+The system will display a notification when the transfer is completed.
+
++ **Step 3: Delivery History**
+
+Source warehouse when receives the stock request can create a stock delivery. When a stock delivery is created, stock will be subtracted immediately from the source warehouse.
+
+![Sample](./Image_Growth_m1/image352.png?raw=true)
+
+You can either import products via a CSV file, scan barcode or click on **Select Products** in delivery history.
+
+If you choose to **Select Products**:
+
+![Sample](./Image_Growth_m1/image353.png?raw=true)
+
+(1) Select the products to be added
+
+(2) Enter the delivered quantity in delivery history 
+
+(3) Click on **Save Delivery**
+
++ **Step 4: Receiving History**
+
+Destination warehouse can create receives by importing or selecting product then update received Qty. 
+
+![Sample](./Image_Growth_m1/image354.png?raw=true)
+
+(1) Select the products to receive
+
+(2) Enter the quantity received in receiving history  
+
+(3) Click on **Save Receiving**
+
+The system will display a message when the receiving is created successfully. 
+
+After that, stock will be added immediately to the destination warehouse from which the stock request was sent.
+
+You can also download **Shortfall List & Summary** of the Stock Request.
+
+
+##### Transfer to External Location 
+
+##### Transfer from External Location 
+
+##### Transfer Stock History 
+
 #### Stock Control 
 
 #### Prediction 
