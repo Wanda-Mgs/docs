@@ -2213,9 +2213,171 @@ You can click Cancel and re-entry the closing balance, OR accept the difference 
 
 #### Filer and Search Product Quickly 
 
+##### Configure Process of Searching Product 
+
+##### Search Product in Front-end 
+
+There are 3 ways to search for products in Web POS frontend: 
+
+**Use Category**
+
+![Sample](./Image_Growth_m1/image209.png?raw=true)
+
+Click **All Categories** to quickly search with this method. Users can choose corresponding categories as you prefer in the space below this button
+
+**Use Product Attributes** 
+
+(1) Click on search icon to show search bar. 
+
+(2) Enter your search terms and matching products will display right away
+
+![Sample](./Image_Growth_m1/image210.png?raw=true)
+
+**Use Barcode**
+
+(1) Connect with the Barcode Reader devices (Please refer to Section **2.1.10. How Web POS Works with Peripheral Device**) 
+
+(2) Scan barcode > search box will be automatically filled-in 
+
+(3) The matching product will be shown in the list. 
+
 #### Add Products to Cart and Edit Product in Carts 
 
+##### How to Add Products to Cart
+
+With **Simple Product**: click it to add to cart
+
+With **Configurable, Bundle, Grouped Product**: click them > adjust **attribute** (color, size, etc.) and **Qty.** > Click **Add to cart** button
+
+##### Edit Product on Cart 
+
+After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with edited option for **Qty**.
+
+![Sample](./Image_Growth_m1/image211.png?raw=true)
+
+To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away
+
+##### Remove Product on Cart
+
+There are 2 ways to remove products in cart: 
+
+(1) Remove one-by-one product: Click “x” button, then cart will be update immediately 
+
+![Sample](./Image_Growth_m1/image212.png?raw=true)
+
+(2) Click waste basket icon to clear the whole cart
+
+![Sample](./Image_Growth_m1/image213.png?raw=true)
+
+##### Add a Custom Sale Item to Cart 
+
+Custom sale item is an item that Web POS user creates when checkout. It is used when the product hasn’t been added to the system or Web POS user cannot find it in the product list.
+
+In frontend, click on **Custom Sale** button if you want to add the custom product to cart
+
+![Sample](./Image_Growth_m1/image214.png?raw=true)
+
+Then it will pop up a window for users to configure this custom product:
+
+(1) **Name**: Enter the name of product
+
+(2) **Description**: Enter the product’s description (optional)
+
+(3) **Price**: Enter the product’s price or use the calculator below
+
+(4) **Non/Taxable Goods**: choose if the product is taxable
+
+(5) **Shippable**: Choose whether this product will be shipped 
+
+After finishing configuration, click on **Add to Cart** button and check out as normally. 
+
+_Notes_: this custom sale product will not be saved for the next checkout.
+
+![Sample](./Image_Growth_m1/image215.png?raw=true)
+
+(1) **Name**: Enter the name of product
+
+(2) **Description**: Enter the product’s description (optional)
+
+(3) **Price**: Enter the product’s price or use the calculator below
+
+(4) **Non/Taxable Goods**: choose if the product is taxable
+
+(5) **Shippable**: Choose whether this product will be shipped 
+
+After finishing configuration, click on **Add to Cart** button and check out as normally. 
+
+_Notes_: this custom sale product will not be saved for the next checkout.
+
 #### Apply Coupon Code or Discount to Cart 
+
+##### Apply Coupon Code or Card Discount 
+
+Here is the tutorial to apply **Coupon Code/ Discount** that you created with Magento’s functions **Catalog Price Rule** and **Cart Price Rules**
+
+To use this function, click **Add Discount**
+
+![Sample](./Image_Growth_m1/image216.png?raw=true)
+
+Then you can choose to apply a Discount amount or Promotion code
+
+**Discount**
+
+![Sample](./Image_Growth_m1/image217.png?raw=true)
+
+- **Name**: enter the name for this account as you will easily check it again
+
+- **Discount type**: choose between percentage or fixed discount
+
+- **Amount**: fill in the value offered to customers. 
+
+Cart will be adjusted immediately after you click **Apply** button
+
+**Promotion**
+
+![Sample](./Image_Growth_m1/image218.png?raw=true)
+
+Fill in available code offered to customer and then click “**Apply**” button.
+
+_(Users can also check this code rules before applying it by clicking on **Check**)_
+
+##### Apply Custom Discount or Custom Price for a Product 
+
+Here you can manually add a custom discount for a product (either by a fixed value or percentage) instead of the whole shopping cart.
+
+After adding products to cart, besides editing the quantity of each product (refer to section **Edit products in cart** for more details), you can click on the product to edit other information. A popup will display with edit option for **Custom Price, Discount**. Remember that you can only change information by Custom Price **OR** Discount, instead of both at once for a product.
+
+**Apply Custom Price** 
+
+You can set custom price for products by clicking on **Custom Price** button. The next popup will be shown as below:
+
+![Sample](./Image_Growth_m1/image219.png?raw=true)
+
+In this popup, choose the promotion type you want to apply, either a fixed amount or percentage.
+
+- If you edit fixed price, the price will be changed to the value you have entered. 
+
+- If you edit by percentage, the price will be the result after multiplying the discount percentage rate by the original price.
+
+Then, products in cart will be automatically updated with the price you edit.
+
+**Apply Discount** 
+
+Click on **Discount** button and choose the type of discount you want to apply
+
+![Sample](./Image_Growth_m1/image220.png?raw=true)
+
+- If you edit discount by fixed number, the price will decrease by the exact value you have entered
+
+- If you edit by percentage, the price will decrease by the percent you have entered (it is as same as Custom Price by percentage).
+
+Then, the product price will be updated in the cart
+
+##### Apply Gift Card Code 
+
+After clicking on **Checkout** button for a shopping cart, in the Shipping and Payment window, cashier can insert Gift Card Code and click **Apply**.
+
+![Sample](./Image_Growth_m1/image221.png?raw=true)
 
 #### Manage Transaction
 
