@@ -3207,15 +3207,156 @@ If you chose to enable Partial Shipment, a box of Items to Ship will appear when
 
 #### Issue Refund 
 
+Some certain staffs have permission to issue refund by cash, according to your staff decentralization in section **3.2. How to manage Staff** for POS
+
+To issue refund, go to **Orders** tab in POS screen, you choose the order that is required to refund. Tap on **Refund** button in the end
+
+![Sample](./Image_Growth_m1/image328.png?raw=true)
+
+A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to add those items back to your stock.
+
+![Sample](./Image_Growth_m1/image329.png?raw=true)
+
+After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund.
+
 #### Print Receipt and Email Orders 
+
+You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
+
+![Sample](./Image_Growth_m1/image330.png?raw=true)
+
+The receipt will look like the screenshot below with further options in the top right menu.
+
+![Sample](./Image_Growth_m1/image331.png?raw=true)
 
 #### Review Order
 
+In POS screen, you can review orders by choosing **Orders tab** from sidebar. Here you can see the order list and order details
+
+![Sample](./Image_Growth_m1/image332.png?raw=true)
+
+The status of order is distinguished by color: 
+
+(1) **Orange**: Pending: the order is placed but not processed (shipped/invoiced/ etc.)
+
+(2) **Blue**: Processing: the order is processed, but not invoiced
+
+(3) **Green**: Complete: the order is invoiced 
+
+(4) **Grey**: Cancelled: pending order that has been cancelled 
+
+(5) **Black**: Closed: processing order that has been cancelled
+
+To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
+
+![Sample](./Image_Growth_m1/image333.png?raw=true)
+
 #### Run Sales Report 
+
+Please refer to **5.1.8. How to View Report** for details.
 
 ### Inventory Management 
 
 #### Stock Listing 
+
+##### Stocks in Warehouse 
+
+_Path: **Inventory Management** > **Stock Listing** section > **Stocks in Warehouse**
+
+![Sample](./Image_Growth_m1/image334.png?raw=true)
+
+This page provides an overview of stock data in all warehouses and admin can **select a warehouse** to view stocks of that warehouse only. It shows **Available Qty., Qty. to Ship, Total Qty.** and **Shelf Location** of each product in that warehouse. 
+
+![Sample](./Image_Growth_m1/image335.png?raw=true)
+
+After selecting a specific warehouse, admin can easily update stock and shelf location right on the Inventory grid:
+
+(1) Mark the checkbox to select products
+
+(2) **Qty. in Warehouse(s)**: Edit product quantity in line
+
+(3) **Shelf Location**: Input the product’s Shelf location (optional)
+
+(4) Click on **Update Stock** to save changes
+
+##### Non-warehouse product
+
+_Path: **Inventory Management** > **Stock Listing** section > **Non-Warehouse Products**
+
+When a product is newly added to the system, it will be automatically allocated in Non-warehouse. Admin can assign this product to any warehouses. 
+
+![Sample](./Image_Growth_m1/image336.png?raw=true)
+
+From here admin can: 
+
+(1) Select the product by clicking on the checkbox
+
+(2) In Actions menu, add it into warehouse by clicking on its **Add to Warehouse** from the drop-down list
+
+(3) Click **Submit** to finish
+
+##### Warehouse
+
+_Path: **Inventory Management** > **Stock Listing** section > **Warehouses**
+
+After installing, the system will automatically provide a **Primary Warehouse**. This warehouse _cannot be deleted and can only be edited._ All the existing products with stocks level of your website will be automatically allocated in this warehouse first before being sent to other warehouses.
+
+**Add a New Warehouse** 
+
+Please refer to Section **4.4.1. New Warehouse** for details.
+
+**View Warehouse's Information** 
+
+![Sample](./Image_Growth_m1/image337.png?raw=true)
+
+Click on **View** to the warehouse detailed information
+
+![Sample](./Image_Growth_m1/image338.png?raw=true)
+
+In the **View Warehouse** page, there are 6 tabs to manage the warehouse:
+
+(1) **General Information**: Information of the Warehouse including Name, Code, address, etc
+
+(2) **Stock On Hand**: the total number of goods that are available in the warehouse in real time. Here, you can update each product's Qty. in Warehouse(s) and its Shelf Location in-line.
+
+(3) **Stock Movement**: all the changes in stock quantities. Click on each record to view in detail.
+
+(4) **Warehouse Permission** manages staff access to the warehouse. Detailed guide is given in the next section c. Warehouse permissions
+
+(5) **Order**:  records of all orders including status, order ID, purchase date, customer that the order has been billed-to/shipped-to, order value.
+
+(6) **Dashboard** contains reports that are illustrated as table and lines diagrams as below.
+
+![Sample](./Image_Growth_m1/image339.png?raw=true)
+
+![Sample](./Image_Growth_m1/image340.png?raw=true)
+
+**Warehouse Permission** 
+
+_Path: **Inventory Management** > **Stock Listing** section > **Warehouse** > **Warehouse Permissions**
+
+In this section, Admin can give different warehouse access permissions to different (admin) users.
+Click on **View** to see the warehouse’s detail information
+
+![Sample](./Image_Growth_m1/image341.png?raw=true)
+
+(1) On the right hand of the **Warehouse Permission** tab, click on **Assign Staff** to give different warehouse access permissions.
+
+Then will be a new pop-up screen shown as below:
+
+![Sample](./Image_Growth_m1/image342.png?raw=true)
+
+Select Staff users to assign permission
+
+(1) Select Staff by marking the checkbox
+
+(2) Choose **Staff Role**
+
+(3) Click on **Add Selected Staff**
+
+![Sample](./Image_Growth_m1/image343.png?raw=true)
+
+(4) Then click on **Save Staff Permissions**
 
 #### Transfer Stock
 
