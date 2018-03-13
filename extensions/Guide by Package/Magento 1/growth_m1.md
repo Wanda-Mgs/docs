@@ -2044,9 +2044,72 @@ Here, you can view **ID, Name, Location, Store View, Current Staff**, and **Stat
 
 ## HOW TO USE 
 
-
 ### Web POS 
+
 #### Log in and Manage Account 
+
+##### Log in 
+
+_Path: **Sales > Web POS section > POS Checkout**_
+
+Or users can directly log in by going to Web POS Front-end and fill in required **Username** and **Password**. Besides, users also need to choose **Main Website** as well as **POS Location** to log in successfully. 
+
+![Sample](./Image_Growth_m1/image186.png?raw=true)
+
+##### Manage Account 
+
+_Path: **Web POS Front-end > Settings section > Account**_
+
+![Sample](./Image_Growth_m1/image187.png?raw=true)
+
+And then, users can edit or adjust account information if they want. In details, they can edit **Display Name** and **Current Password**
+
+![Sample](./Image_Growth_m1/image188.png?raw=true)
+
+##### Manage Settings
+
+_Path: **Web POS Front-end > Settings section > General**_
+
+![Sample](./Image_Growth_m1/image189.png?raw=true)
+
+There are 5 tabs to manage: **Checkout, Catalog, Currency, Customer Credit and Reward Points.**
+
+**Checkout**
+
+![Sample](./Image_Growth_m1/image190.png?raw=true)
+
+You can adjust 2 things: **Use online Mode** and **Auto check the promotion rules on checkout (Offline mode)**
+
+![Sample](./Image_Growth_m1/image191.png?raw=true)
+
+Choose between **Yes** or **No** to active the function of using online mode 
+
+Besides, users can also activate the function of checking promotion rules for offline mode automatically by selecting **Yes**
+
+**Catalog**
+
+Users can adjust the function of displaying out-of-stock products in search results 
+
+![Sample](./Image_Growth_m1/image192.png?raw=true)
+
+**Currency** 
+
+The default currency of system is Dollar 
+
+![Sample](./Image_Growth_m1/image193.png?raw=true)
+
+**Customer Credit** 
+
+Here, users are allowed to change 2 things displayed on screen like the screenshot below
+
+![Sample](./Image_Growth_m1/image194.png?raw=true)
+
+**Reward Point** 
+
+On POS, users can sync or show customer points balance on receipt by doing this action below
+
+![Sample](./Image_Growth_m1/image195.png?raw=true)
+
 #### Manage Session
 
 #### Filer and Search Product Quickly 
