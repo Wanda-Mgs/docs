@@ -2520,17 +2520,252 @@ Staff can keep on adding more payment methods as they want by clicking on **Add 
 
 ##### Keep Order on Hold and Further Purchasing 
 
+Your customers can't make up their mind yet, or are unable to make a payment meanwhile? They may want to purchase items that are for pre-order or currently out of stock? You don't want to lose those potential customers, don't you? Then, Web POS's new feature can put these orders on hold - no limit in time - until they are ready to continue processing!
+
+**Put Orders on Hold** 
+
+After adding products to cart, you can choose **Hold** to put the order into Web POS frontend top left menu > **Orders** section > **On-hold Orders**.
+
+![Sample](./Image_Growth_m1/image241.png?raw=true)
+
+**Check Orders on Hold** 
+
+There are 2 ways to check Orders On-Hold. The first one is on Web POS Screen and the other is in Backend. 
+
+- **Web POS screen**
+
+_Path: **Web POS frontend top left menu > Orders section > On-hold Orders**_
+
+![Sample](./Image_Growth_m1/image242.png?raw=true)
+
+To check orders that have been put on hold, select **On-hold Orders** section. You may select **Checkout** whenever customer is willing to take final action for payment or you may **Delete** it if it is not effective anymore.
+
+- **Backend**
+
+If you turn on Sync on-hold order to server setting in WebPOS Frontend top left menu > **Settings** section > **General** > **Checkout**, you will be able to see on-hold orders in Magento backend > **Sales** > **Orders**.
+
+![Sample](./Image_Growth_m1/image243.png?raw=true)
+
 ##### Print Receipt or Email Confirmation
+
+You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions
+
+![Sample](./Image_Growth_m1/image244.png?raw=true)
+
+Tap **Print** and the receipt will look like this picture below: 
+
+![Sample](./Image_Growth_m1/image245.png?raw=true)
+
+And here is the email of order information:
+
+![Sample](./Image_Growth_m1/image246.png?raw=true)
 
 ##### Review Order 
 
+_Path: **Web POS frontend top left menu > Orders section > Order History**_
+
+In POS screen, you can review orders by choosing **Order History** tab. Here you can see the order list and order details:
+
+![Sample](./Image_Growth_m1/image247.png?raw=true)
+
+**Order Status** 
+
+In order list, the status of order is distinguished by color
+
+- **Pending**: Orange (When you create order successfully but have not shipped order and created invoice)
+
+- **Processing**: Blue (When you have shipped order OR created invoice)
+
+- **Complete**: Green (When you shipped order AND created invoice)
+
+- **Canceled**: Gray (When you cancel the order)
+
+- **Closed**: Black (When order has been refunded)
+
+- **Not synced**: Red (When order’s data has not been synced to the system)
+
+**Order Searching** 
+
+To find an order to review, you can search it by Order ID or Customer’s Name/Email
+
+![Sample](./Image_Growth_m1/image248.png?raw=true)
+
+**View Order Information** 
+
+To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this
+
+![Sample](./Image_Growth_m1/image249.png?raw=true)
+
 ##### Issue an Invoice for an Order 
+
+The order can’t be complete if you haven’t issued invoice for customer. 
+
+After the order is created successfully, you will find order’s details on tab **Order History** then click on tab **Invoice**
+
+![Sample](./Image_Growth_m1/image250.png?raw=true)
 
 ##### Create Shipment for an Order 
 
+**Create Shipment** 
+
+There are two ways to create shipment using Web POS: **Before Placing an Order** and **When Reviewing Order**
+
+- **Before Placing Order**: 
+
+Before an order is created by clicking **Place Order**, you can create shipment by turn on **Marked as Shipped** as below:
+
+![Sample](./Image_Growth_m1/image251.png?raw=true)
+
+- **After Placing an Order** 
+
+When order has been created successfully but hasn’t been shipped, you can go to **Orders History** (Path: Web POS frontend top left menu > **Orders** section > **Orders History**) and create shipment for that order.
+
+![Sample](./Image_Growth_m1/image252.png?raw=true)
+
+**Partial Shipment**
+
+![Sample](./Image_Growth_m1/image253.png?raw=true)
+
+After placing order successfully, you find that order in **Orders History** (_Path: Web POS frontend top left menu > **Orders** section > **Orders History**)._
+
+Then you click on the menu icon on the right corner and choose **Ship**. 
+
+A pop-up then appears so you can **enter the number of items to be shipped of each product**
+
+Notes: Only orders that have been synced can be shipped.
+
+![Sample](./Image_Growth_m1/image254.png?raw=true)
+
 #### How to Issue Refund 
 
+Some certain staffs have permission to issue refund (which is set by admin in backend. See section **3.2.2 Decentralize POS Staffs to assign access permission**).
+
+Customers can get refund in either Store Credits, points or in cash. 
+
+_Notes_: To enable refund by **Store Credit** and **Reward Points**, these two modules must be installed in your website.
+
+To issue refund, following the path below: 
+
+_Path: **POS screen** > **Orders**> Choose order required to refund > Click on **Refund** button at the top right menu
+
+![Sample](./Image_Growth_m1/image255.png?raw=true)
+
+A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to return those items back to your warehouse. 
+
+![Sample](./Image_Growth_m1/image256.png?raw=true)
+
+- **Adjust Refund**: The fee customers might have to pay for your store when requesting refund.
+
+- **Adjust Fee**: The compensation customers get from your store if they have to request refund.
+
+Check **Send Email** if you want a notification email to be sent to customer and click **Submit Refund** to finish.
+
+After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund and you are in online mode.
+
 #### How to View Report
+
+_Path: Magento backend menu > **Sales** > **Web POS** section > **Reports**_
+
+![Sample](./Image_Growth_m1/image257.png?raw=true)
+
+
+![Sample](./Image_Growth_m1/image258.png?raw=true)
+
+##### Staff Report 
+
+On Staff report row, there are 3 types of reports: **Sales by staff**, **Sales by staff (Daily)** and **Order list for staff. **
+
+![Sample](./Image_Growth_m1/image259.png?raw=true)
+
+**Sales by Staff** 
+
+There are 2 parts will be displayed on screen. The first one is **Filter** and the other is **Record**. 
+
+In the Filter Section: System demand users date filter and **Order Status** to show suitable records and they will be displayed in the other part being at the bottom of the screen. 
+
+This type of report will show the **Order count** as well as the **sales total** of each staff in your stores. 
+
+![Sample](./Image_Growth_m1/image260.png?raw=true)
+
+**Sales by Staff (Daily) 
+
+![Sample](./Image_Growth_m1/image261.png?raw=true)
+
+This kind of report will show the similar one like **Sales by Staff** report but it has one more detail which is showing the day receiving orders. 
+
+**Order List for Staff** 
+
+![Sample](./Image_Growth_m1/image262.png?raw=true)
+
+In the **Order list by staff** report, you can view all order information including ID, value, history and status of each order created by any or each specific sales staff
+
+##### Location Report
+
+There are 3 types of Location Report which are **Sales by Location**, **Sales by Location(Daily)** and **Order List by Location**. 
+
+![Sample](./Image_Growth_m1/image263.png?raw=true)
+
+**Sales by Location** 
+
+The **Sales by location** report shows the number of orders and sales created in each location, in any custom time.
+
+![Sample](./Image_Growth_m1/image264.png?raw=true)
+
+**Sales by Location (Daily)**
+
+It shows the number of orders and sales created in each location by each day.
+
+![Sample](./Image_Growth_m1/image265.png?raw=true)
+
+**Order List by Location** 
+
+You can view all order information including ID, value, history and status of each order created by all or each specific sale location.
+
+![Sample](./Image_Growth_m1/image266.png?raw=true)
+
+##### Payment Report 
+
+The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method and Sales by payment method for location.**
+
+![Sample](./Image_Growth_m1/image267.png?raw=true)
+
+**Sales by Payment Method**
+
+It displays the number of orders and sales paid by each payment method in a custom time period.
+
+![Sample](./Image_Growth_m1/image268.png?raw=true)
+
+**Sales by Payment Method (Daily)**
+
+It shows the number of orders and sales created by each payment method by each day.
+
+![Sample](./Image_Growth_m1/image269.png?raw=true)
+
+**Order List for Payment Method** 
+
+Users can view all order information including ID, value, history and status of each order created by all or each specific payment method.
+
+![Sample](./Image_Growth_m1/image270.png?raw=true)
+
+**Sales by Payment Method for Location** 
+
+It displays the number of orders and sales created by each payment in each sale location
+
+![Sample](./Image_Growth_m1/image271.png?raw=true)
+
+##### Z- Report 
+
+The **Z-Report** page displays overview information of each session recorded in each POS including Session ID, Staff account, POS name, session opening/closing time and balance. 
+
+![Sample](./Image_Growth_m1/image272.png?raw=true)
+
+![Sample](./Image_Growth_m1/image273.png?raw=true)
+
+![Sample](./Image_Growth_m1/image274.png?raw=true)
+
+Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use **Cash on Delivery** method to purchase orders, it will not appear in the **Payment Method** section.
+
+The Z-report will be refreshed to serve new shift/working day after you select **Close Store**. Particularly, your cash drawer will be reset to 0 or to the certain amount that you set up in Cash Left. Each Z-report is automatically saved in Magento backend so you can check it again.
 
 ### Retailer POS 
 
