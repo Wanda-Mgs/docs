@@ -3901,7 +3901,94 @@ To view _Historical Inventory_ Report, just click in **Historical Inventory** in
 
 #### Barcode Listing  
 
+_Path: **Barcode Management > Barcode Listing**_
+
+_Barcode listing_ displays all barcodes of all products saved in **Inventory Management**. It contains _Barcode, SKU, Supplier and Purchased Time_. From this screen, admin can easily **Import Barcode** or **Generate Barcode** with 2 buttons on the top right.
+
+![Sample](./Image_Growth_m1/image387.png?raw=true)
+
+Admin can also view detail of each barcode and product.
+
+Click on **View** in the Detail column, then you can see each barcode details.
+
+![Sample](./Image_Growth_m1/image388.png?raw=true)
+
+You can see **Barcode Information** as above.
+
+![Sample](./Image_Growth_m1/image389.png?raw=true)
+
+You can see **Barcode Print Configuration**. In addition, you also can print the barcode right here.
+
+(1) **Select Barcode Template** and **Preview**: select your preferred barcode template (Standard, A4, or Jewelry), then click on Preview button to view it
+
+(2) **Qty. to print**: enter the number of barcodes you want to print. 
+Then click on _Print_ button
+
+![Sample](./Image_Growth_m1/image390.png?raw=true)
+
+Besides, you can see _Product Information_, including **Image, Name, Price, Qty., Stock Availability** and **Status**. 
+
+Click on **More Details** button to view all information about the product. 
+
 #### Barcode Label Templates
+
+_Path: **Barcode Management > Barcode Label Templates**_
+
+You can create your own barcode template by adding new template. There are also 3 most used templates as default templates in the extension: A4, jewelry and standard for you to select
+
+- **Management Barcode Templates** 
+
+Here, you can see list of barcode templates that you have created. 
+
+![Sample](./Image_Growth_m1/image391.png?raw=true)
+
+(1) Click on **Edit** in the Edit column to view and edit Barcode Template
+
+(2) Click on **Add New Template** if you want to create a new one.
+
+- **Add a New Barcode Templates** 
+
+![Sample](./Image_Growth_m1/image392.png?raw=true)
+
+You can see the _Barcode Label Roll_ at the right. The image demontrates the dimensions of the label roll that barcodes are printed on. 
+
+(1) Select Barcode Label Format: select your preferred format (Standard, A4 or Jewelry)
+
+(2) Template Name: enter the name of the template
+
+(3) Status: select the status of the label (active or inactive)
+
+(4) Barcode Symbology: select the symbology of that barcode
+
+_Barcode Symbology_ is the language or encoding that barcode uses. It will be shown on the printed barcode. The barcode scanner will decode it, then change it into character that you can type or edit. 
+
+(5) Measurement Unit: select the unit for barcode size
+
+(6) Label per row: only used ONE (1) for jewelry template
+
+(7) Paper measurement: enter paper height and paper width (no need to type the unit).
+
+(8) Label measurement: enter label height and label width (no need to type the unit) 
+
+![Sample](./Image_Growth_m1/image393.png?raw=true)
+
+(9) Font Size: enter the number (no need to type the unit)
+
+(10) Margin top, Margin left, Margin bottom, Margin right: enter the number
+
+(11) Product Attributes: select which attribute used this new barcode label template
+
+(12) Choose the Rotate Label 
+
+(13) Preview: select:
+
++ Use Default: the created template will be used as default immediately
+
++ Preview: the preview will be shown under the button
+
++ Print: print to see what the template will be shown in reality
+
+After all, click **Save** to save the created one 
 
 #### Generate Barcode 
 
