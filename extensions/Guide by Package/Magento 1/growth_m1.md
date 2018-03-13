@@ -2995,9 +2995,135 @@ After finishing configuration, tap **Add to Cart** button and check out as norma
 
 #### Apply Coupon Code or Discount to Carts
 
+##### Apply Discount 
+
+![Sample](./Image_Growth_m1/image303.png?raw=true)
+
+To apply a discount on the whole cart, tap **Discount** and then this popup will be shown: 
+
+![Sample](./Image_Growth_m1/image304.png?raw=true)
+
+In **Custom Discount** tab:
+
+(1) **Name**: Enter a name for this discount as you will easily check it again
+
+(2) **Discount Type**: Select discount by fixed amount or percentage
+
+(3) **Amount**: Fill in discount value as you offer for your customers.
+
+(4) Then, the cart will be updated automatically after you click on **Apply** button.
+
+After applying Discount, you can remove it by clicking on the **Remove Discount** button.
+
+![Sample](./Image_Growth_m1/image305.png?raw=true)
+
+##### Apply Coupon Code 
+
+![Sample](./Image_Growth_m1/image306.png?raw=true)
+
+Just fill in available coupon you want to offer for your customers. The cart will be updated automatically after you click on **Apply** button.
+
+##### Apply Custom Price or Custom Discount to a Product 
+
+After adding products to cart, besides editing the quantity of each product you can click on the product to edit other information. 
+
+![Sample](./Image_Growth_m1/image307.png?raw=true)
+
+A popup will display with edit option for **Custom Price**, **Discount**. Remember that you can only change information by **Custom Price** _OR_ **Discount** but not both at a time for a product.
+
+- **Custom Price** 
+
+![Sample](./Image_Growth_m1/image308.png?raw=true)
+
+You can set custom price for a product by clicking on the Product and selecting **Custom Price** button.
+
+In the popup, please choose the type you want to adjust for the price, according to fixed number or percentage.
+
++ If you edit fixed price, the price will be changed to the price you have entered
+
++ If you edit by percentage, the price will be decreased by the percent you have entered (it is as same as Discount by percentage)
+
+Then, products in cart will be updated with the price you edit
+
+- **Product Discount** 
+
+Editing discount for each product is as similar as **Custom Price**
+
+Click on **Discount** button and choose types of discount–fixed discount or percentage–you want to adjust.
+
 #### Handle Customer's Information and Check Out 
 
+##### Customer Checkout
+
+To use **Customer Checkout**, add customer by clicking on **Add Customer** link. You will see a screen as below:
+
+![Sample](./Image_Growth_m1/image309.png?raw=true)
+
++ **Search Customer**
+
+In the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in dropdown list.
+
+The information of customer in the system will be auto updated in checkout step. 
+
+![Sample](./Image_Growth_m1/image310.png?raw=true)
+
++ **QR code/ Barcode scanning 
+
+Our Retailer POS offers an extremely convenient way for your customer checkout process by allowing scanning customer’s QR Code/ Barcode in their member card or loyalty app.
+
+![Sample](./Image_Growth_m1/image311.png?raw=true)
+
+Click on the **Scan icon** in the Search bar. The system will automatically fill customer info into checkout form. 
+
++ **Create New Customer** 
+
+Click on **Create Customer** button
+
+![Sample](./Image_Growth_m1/image312.png?raw=true)
+
+Fill enough information of the customer such as **First Name, Last Name, Email, Phone, Group of Customer**. Remember to tap **Save** button to save the customer information for the next checkout.
+
+![Sample](./Image_Growth_m1/image313.png?raw=true)
+
+Fill in the information for **Shipping Address** such as **Phone, Street, City, etc**.
+
+![Sample](./Image_Growth_m1/image314.png?raw=true)
+
+Fill enough information of **Billing Address** such as **Phone, Street, City,** etc.
+
+![Sample](./Image_Growth_m1/image315.png?raw=true)
+
+##### Guest Checkout
+
+When you use Guest Checkout, the default customer that you configure in backend will be used (please refer to **Section 2.1.7. Default Guest Check Out** for more details). At checkout, all fields will be auto-filled with that default information.
+
+![Sample](./Image_Growth_m1/image316.png?raw=true)
+
 #### Add Comment to An Order
+
+##### Add Comment
+
+After selecting an order, from the menu icon on the top right, choose **Add Order Comment** 
+
+![Sample](./Image_Growth_m1/image317.png?raw=true)
+
+In the **Order Comment** box, type in the content and click on **Save**. Click on **Cancel Comment** to exit the comment function.
+
+##### Check Comment
+
+Users can check comment on Retailer POS Screen or in Magento Back-end
+
+- **Retailer POS Screen** 
+
+![Sample](./Image_Growth_m1/image318.png?raw=true)
+
+To view comment of order, you can go to **Orders** tab in Retailer POS top left menu, choose an order then scroll down to see Comment History
+
+- **Magento Back-end**
+
+Go to **Sales** > **Orders** > Click on a specific order. In order details page, scroll down to **Comment History** tab to check whether it has any notes or not.
+
+![Sample](./Image_Growth_m1/image319.png?raw=true)
 
 #### Process at Checkout for Customers
 
