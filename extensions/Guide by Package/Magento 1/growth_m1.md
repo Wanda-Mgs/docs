@@ -2381,6 +2381,153 @@ After clicking on **Checkout** button for a shopping cart, in the Shipping and P
 
 #### Manage Transaction
 
+##### Handle Customer Information at Checkout 
+
+**Customer Checkout** 
+
+Add customer by clicking on **Customer** icon on the right corner. You will see a screen as below:
+
+![Sample](./Image_Growth_m1/image222.png?raw=true)
+
+![Sample](./Image_Growth_m1/image223.png?raw=true)
+
+In the pop-up, you have options to either Create a new Customer as Default Guest Checkout (configuration guide in Section 2.1.7. Configure Default Guest Checkout), Search existing Customer with the Search bar or selecting the most recent Customer from the list.
+
+**Search Customer** 
+
+In the search box, you can quickly find the customer by entering his name, email, phone or address. Choose customer from suggested results in dropdown list.
+
+The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
+
+![Sample](./Image_Growth_m1/image224.png?raw=true)
+
+**Create Customer** 
+
+![Sample](./Image_Growth_m1/image225.png?raw=true)
+
+Fill information of the customer such as **First Name, Last Name, Email, Group, Shipping & Billing Address, etc. You can choose whether Billing Address** is similar to Shipping Address or not. Remember to click on **Save** button to save the customer information for the next checkout.
+
+**Guest Checkout** 
+
+When you use Guest Checkout, the default customer that you configure in backend will be used (Please refer to Section **2.1.7.Configure Default Guest Checkout** to configure Default Guest Checkout settings). At checkout, all fields will be auto-filled with that default information.
+
+##### Add Comment to an Order 
+
+**Add comment**
+
+Click on **Add Order Comment** in the top right menu icon. In the **Order Comment** box, type the content that reminds you of this order. Then, save it.
+
+![Sample](./Image_Growth_m1/image226.png?raw=true)
+
+**Check comment** 
+
+There are 2 ways to Check Comment. The first one is on POS Front-end (Web POS Screen) and the other is in POS Back-end. 
+
+- Web POS screen 
+
+_Path: **Web POS > Order History > Comment History**_
+
+![Sample](./Image_Growth_m1/image227.png?raw=true)
+
+![Sample](./Image_Growth_m1/image228.png?raw=true)
+
+- Back - end
+
+_Path: **Sales > Orders > Click on specific order**_
+
+![Sample](./Image_Growth_m1/image229.png?raw=true)
+
+##### Process at Checkout for a Customer 
+
+You have been through steps to add products to cart and add customer, let’s move to the checkout process.
+When products are added to cart, click on **Checkout** button at the end of the cart page
+
+![Sample](./Image_Growth_m1/image230.png?raw=true)
+
+You will be redirected to the next page with information of Shipping & Payment Method. Please refer to Section **2.1.5. Enable Payment Method** and **2.1.4. Set up Shipping Method** for further details about payment and shipping method configuration for Web POS.
+
+![Sample](./Image_Growth_m1/image231.png?raw=true)
+
+**Credit Card**: Magestore’s Web POS supports Authorize.net & Stripe. Sales staff can fill in card information manually or swipe card (if the POS system is connected to a card swiper). For more information about how to connect, please go to section 
+
+**Split Payment**: For more information about Split Payment, please go to section **5.1.6.4. Split & Partial Payment with Web POS**
+
+Split and Partial Payment with POS
+
+- Split Payment 
+
+You can allow customers more than 1 method to pay when using Web POS. Particularly, they could pay a part of bill by cash and other part will be paid by credit card. 	
+
+For example: This order values $321.55 and customer wants to pay $100 in cash. Then you have to enter this number in the field of “Web POS- Cash in” and the remain money will be calculated automatically for you. 
+
+![Sample](./Image_Growth_m1/image232.png?raw=true)
+
+To solve **Remain money**, you can click on **Add Payment** button on the left corner of the screen 
+
+![Sample](./Image_Growth_m1/image233.png?raw=true)
+
+After clicking on **Add Payment**, Customers have those options to pay for the remaining money
+
+For instance, Customer chooses **Web POS – Credit Card** and the system will be displayed like this: 
+
+![Sample](./Image_Growth_m1/image234.png?raw=true)
+
+And then, please tap on Place Order button to complete this order. The process is done. 
+
+_Notes:_
+
++ Support multiple payment methods for one order
+
++ Not require Cash-in method as compulsory
+
+- Partial Payment 
+
+This function allows customers to pay a part of value first and other parts will be paid later in different interval. Especially when customers want to reserve goods before it’s arrived at store, they could leave a deposit and they will complete the bill after having product in their hand. 
+
+For example, the total value is $321.55, customers want to pay $100 first and $221.55 they will pay later
+
+![Sample](./Image_Growth_m1/image235.png?raw=true)
+
+Enter 100$ in the field of **Web POS – Cash in**
+
+Tap on **MARK AS PARTIAL** 
+
+And when customers come back to pay completely the bill, staff can check this order by checking **Orders History** (Path: from Web POS front-end top left menu icon > **Orders** section > **Orders History**).
+
+![Sample](./Image_Growth_m1/image236.png?raw=true)
+
+Let’s see an example: 
+
+When customer came back and want to pay for the remaining. In the **Orders History**, you have to find out this partial order. For sure you are allowed to use filter to search it quickly in the Searching field. In this example, I prefer to use customer’s name 
+
+![Sample](./Image_Growth_m1/image237.png?raw=true)
+
+Click on this order to show details like this
+
+![Sample](./Image_Growth_m1/image238.png?raw=true)
+
+The total due is the total remain money that customer has to pay. 
+
+Then, in the next step, tap on the button **Take Payment**
+
+![Sample](./Image_Growth_m1/image239.png?raw=true)
+
+Staff has to choose the payment method for the total due 
+
+![Sample](./Image_Growth_m1/image240.png?raw=true)
+
+Staff can keep on adding more payment methods as they want by clicking on **Add more Payment Method**. By clicking **Submit**, total paid will be equal to the whole value of order. Process is done.
+
+##### Keep Order on Hold and Further Purchasing 
+
+##### Print Receipt or Email Confirmation
+
+##### Review Order 
+
+##### Issue an Invoice for an Order 
+
+##### Create Shipment for an Order 
+
 #### How to Issue Refund 
 
 #### How to View Report
