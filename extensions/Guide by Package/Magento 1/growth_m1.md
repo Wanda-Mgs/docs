@@ -2025,9 +2025,25 @@ Besides, you can search for location by filling in the tab on **Locations** Colu
 ### POS
 
 #### Create New POS 
+
+_Path: **Sales > Web POS section > Manage POS**_
+
+Please refer to **2.1.1.1. Create a New POS** for detailed guide.
+
+_Notes_: Even when you set the warehouse to a certain location, with online store, admin can see clearly any warehouse information in any locations. HOWEVER, with offline store, only Sale Manager can view the warehouse information only in the mapped location.
+
+IT Admin can give other admin permission to view the Inventory information in any location by going to **System > User Roles > Add new role or Edit role > Role Resource, then choosing Order Success > Inventory Management > View Warehouse Information** (this is the most basic step. With each business, the process will be expanded)
+
 #### Manage WEB POS 
 
+_Path: **Sale > Web POS section > Manage POS**
+
+![Sample](./Image_Growth_m1/image185.png?raw=true)
+
+Here, you can view **ID, Name, Location, Store View, Current Staff**, and **Status**.  If you want to view more details and edit any details, you can click on **Detail** in the **Action** column. Besides, you can tick on each **Location Name**, then choose **Action** as **Delete** to remove the location.  
+
 ## HOW TO USE 
+
 
 ### Web POS 
 #### Log in and Manage Account 
