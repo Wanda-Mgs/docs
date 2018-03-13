@@ -3836,12 +3836,66 @@ _Path: **Inventory Management** > **Prediction** section > **Low Stock Notificat
 
 **Low Stock Notifications** list displays warning messages about the products which are nearly out of stock in warehouses. It shows all notification with information including Sent at, Update Type, Email received, Recipients and Action. Each notification log can show details of all products that have been low stock including Name, SKU, Image, Qty. Notified and Time Notified.
 
- 
 ### Inventory Report 
 
+_Path: **Retailer Reports > Manage Reports**_ 
+
+![Sample](./Image_Growth_m1/image380.png?raw=true)
+
+In the _Retailer Reports_ view, you can access to **Sales Reports** and **Inventory Reports**. Click on each report to view the detailed information.
+
 #### Sales Report 
+There are 6 types of Sales report: Products, Warehouse, Shipping Method, Payment Method, Order Status and Customers. Click in the report name and do 3 following steps to view detailed information.
+
+![Sample](./Image_Growth_m1/image381.png?raw=true)
+
+(1) Choose a period of time to view report
+
+(2) Choose warehouse(s) to view report, you can choose to see report in one warehouse, some warehouses or all warehouses. 
+
+(3) Click on Show Report button to view report
+
+For example, above is the Sales report by products SKU in last 7 days in 2 warehouses (LA 1354 and LAX1253).
 
 #### Inventory Reports 
+
+There are 5 types of Inventory Reports, click on each report to see detailed information
+
+##### Value of Stock on Hand 
+
+![Sample](./Image_Growth_m1/image382.png?raw=true)
+
+To view Inventory Report by Value of Stock on Hand, select a warehouse from the drop-down list. 
+
+##### Stock Quantity 
+
+![Sample](./Image_Growth_m1/image383.png?raw=true)
+
+To view Inventory Report by Stock Quantity, select a warehouse from the drop-down list.
+
+##### Compare by Warehouse 
+
+![Sample](./Image_Growth_m1/image384.png?raw=true)
+
+To view Inventory Report that show comparison among warehouses, follow the following 3 steps:
+
+(1) Select warehouses to compare
+
+(2) Select type of value to compare, you can choose among Available Qty, Qty to ship, Qty in Warehouse, Inventory Stock, Inventory Value, Retails Value, Potential Profit, Profit Margin
+
+(3) Click on Show Report button to view detailed report
+
+##### Incoming Stock 
+
+![Sample](./Image_Growth_m1/image385.png?raw=true)
+
+To view _Inventory Report_ by Incoming Stock, just click in **Incoming Stock** in the REPORTSUCCESS view and the detailed information will be shown as above.
+
+##### Historical Inventory 
+
+![Sample](./Image_Growth_m1/image386.png?raw=true)
+
+To view _Historical Inventory_ Report, just click in **Historical Inventory** in the REPORTSUCCESS view and the detailed information will be shown as above.
 
 ### Barcode Management 
 
