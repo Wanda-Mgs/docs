@@ -2769,9 +2769,165 @@ The Z-report will be refreshed to serve new shift/working day after you select *
 
 ### Retailer POS 
 
+Retailer POS module is available on both iPad and Android. In this user guide, we only demonstrate the use of the iPad version. The Android version may look a bit different, but functions are the same.
+
 #### Log In and Manage Account 
 
+**Log in** 
+
+After downloading and installing Retailer POS in your iPad, open the app and you will see login screen. Staffs need to enter **domain, username** and **password**: 
+
+![Sample](./Image_Growth_m1/image275.png?raw=true)
+
+_Notes_: you can hide the Demo button in **Settings > General**
+
+After that, staff needs to choose their POS to start using the app.
+
+![Sample](./Image_Growth_m1/image276.png?raw=true)
+
+After successfully log in, you will see either:
+
+- Checkout screen to start adding products to cart and checkout, if there is an opening session already or if opening session setting is turned off in backend setting (_Path: **Sales > Web POS > Settings > **General Configuration** section > **Need to create session before working** field); OR you will see
+
+- Opening Balance window if you enable **Need to create session before working** field in POS backend (please refer to **5.2.2. Use Session Management** for details about session)
+
+**Manage Account** 
+
+Manage account by clicking on the menu icon at the top left of the screen > **Settings**
+
+There are 5 tabs to configure settings: **General, My Account, Checkout, Print & Currency**
+
+- **General** 
+
+![Sample](./Image_Growth_m1/image277.png?raw=true)
+
+Users can set timing when the screen automatically switch to locking mode, change PIN code and hide demo button on the Login screen
+
+- **My Account** 
+
+![Sample](./Image_Growth_m1/image278.png?raw=true)
+
+Users can change password if they want
+
+- **Checkout** 
+
+![Sample](./Image_Growth_m1/image279.png?raw=true)
+
+(1) **Create shipment when placing order**: if you enable this setting, after an order is checked-out successfully, it will automatically be marked as shipped. 
+
+(2) **Available Qty**: this setting is only available to use in Magento 2. 
+
+(3) **Enable Google Address Suggestion** is also available to use in Magento 2.
+
+-**Print**
+
+![Sample](./Image_Growth_m1/image280.png?raw=true)
+
+You can choose the printer type and preferred settings for each type including paper size (for Air Printer Scroll); paper size, automatically open cash drawer after checkout, number of receipt copies to be printed out, automatically print receipt after checkout and either to display product name or its SKU on the receipt (for Star Micronics Printer).
+
+- **Currency**
+
+![Sample](./Image_Growth_m1/image281.png?raw=true)
+
+Allows changing to another currency that is preset in backend settings. 
+
+_Notes_: all previous orders will be removed from Order History after you change currency.
+
+**Switch between Staffs with PIN Code** 
+
+Based on staff role and responsibility, each staff will be set restrictions. Limit who can make a discount or give a refund.
+
+However, with Retailer POS, staffs can flexibly switch between cashiers in the middle of transaction just with a PIN code (4 digital) which is added to when creating a POS user. Follow the step below to switch between users:
+
+- On the left top of the screen click on **Change icon** and choose the POS user.
+
+![Sample](./Image_Growth_m1/image282.png?raw=true)
+
+- Insert the user's PIN code to continue.
+
+![Sample](./Image_Growth_m1/image283.png?raw=true)
+
+Shortly after can you see that the cashier has changed.
+
+After logged in, you can change your account’s PIN code
+
 #### Use Session Management 
+
+Session Management is a place where records cash flow after each cashier’s shift. You have frequent cash in/out beside normal order transactions like paying electrical bills, balancing cash amount in hand, etc. Retailer POS system records deposits and withdrawals from your working shift then compare them with actual cash amount (counted in notes) after cashier’s shift ends up. 
+
+_Notes_: To enable session, you need to go to backend, follow Path: **Sales > Web POS > Settings > **General Configuration** section, choose **Yes** for **Need to create session before working**
+
+![Sample](./Image_Growth_m1/image284.png?raw=true)
+
+##### Open Session 
+
+After you choose **Yes** in back-end to require opening a session before working and no session is already opened, the following pop-up will be shown after you logged in:
+
+![Sample](./Image_Growth_m1/image285.png?raw=true)
+
+Cashiers will carry out to open a new session before getting started their shift. 
+
+**Responsible**: Role of POS user (Cashier, Order management, etc.)
+
+**Point of sales**: Select POS you are working
+
+**Opening Balance**: Cashier needs to enter the total amount of cash at the beginning of a new session in your drawer
+
+**Set Opening Balance**: to enter the total amount of cash, cashier can click on this to pop-up a window. Then, cashier can enter the specific value and amount of each banknote/bill/coin that adds up to the total amount of cash.
+
+![Sample](./Image_Growth_m1/image286.png?raw=true)
+
+Then click **Open Session** to begin your shift. You will be directed to the **Session** window. 
+
+##### Record Cash In/ Cash Out 
+
+After you start a new session, you will see basic information on the current session in the **Session** window and may make adjustment of cash in/out during your shift, record deposits and withdrawals from your cash drawer. 
+
+You can always access to this Session window by go to top left Menu > **Session Management** section > **Session**
+
+![Sample](./Image_Growth_m1/image287.png?raw=true)
+
+Here you can view all the previous sessions of the Account. Select a session to see its details including date and time, transactions in the session.
+
+![Sample](./Image_Growth_m1/image288.png?raw=true)
+
+During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on **Put Money In/ Take Money Out** buttons in this **Session** window. Cash in and out appears in the drawer history on the iPad, with both the description you enter and the total amount in the drawer.
+
+![Sample](./Image_Growth_m1/image289.png?raw=true)
+
+**Put Money In**: Enter the cash amount you add to your drawer, description and click **Make Adjustment** button
+
+![Sample](./Image_Growth_m1/image290.png?raw=true)
+
+**Take Money Out**: Enter the cash amount you remove from your drawer and a description and click **Make Adjustment** button.
+
+![Sample](./Image_Growth_m1/image291.png?raw=true)
+
+##### End Session 
+
+_Path: from top left Menu > **Session Management** section > **Session**
+
+After your shift is ended, you can close your session by selecting the opened session and click **Close session** button.
+
+![Sample](./Image_Growth_m1/image292.png?raw=true)
+
+You will see the Close Session window as below:
+
+![Sample](./Image_Growth_m1/image293.png?raw=true)
+
+(1) You can **Put Money In** and **Take Money Out** like in _Record Cash In & Cash Out_
+
+(2) The window displays detailed information of the session: **Opening Balance**, **Transaction** in the session, **Theoretical Closing Balance**. Cashier needs to enter the amount of cash in the cash drawer at the end of the shift in the **Real Closing Balance** field. The Difference between **Theoretical Closing Balance** and **Real Closing Balance** is automatically calculated.
+
+(3) To enter the total amount of closing balance in line, cashier can enter the specific value and amount of banknote/bill/coins that add up to the total closing balance here (the screenshot is as below). Then click **Confirm** to finish.
+
+![Sample](./Image_Growth_m1/image294.png?raw=true)
+
+(1) Click **Close Session** to preview your session in the next window.
+
+![Sample](./Image_Growth_m1/image295.png?raw=true)
+
+(2) Click **Validate** to confirm closing session. Or you can **Re-entry Data** to go back to **Close Session** window and correct any mistakes.
 
 #### Filter and Search Products Quickly 
 
