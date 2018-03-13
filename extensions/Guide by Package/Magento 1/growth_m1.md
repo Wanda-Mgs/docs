@@ -3992,9 +3992,71 @@ After all, click **Save** to save the created one
 
 #### Generate Barcode 
 
+Path: Barcode Management > Generate Barcode
+
+![Sample](./Image_Growth_m1/image394.png?raw=true)
+
+(1) **General Information**: select one of these two options
+
+- Generate a new one if selected SKU already had barcode
+
+- Remove existed barcodes of selected SKUs
+
+- Then enter the reason if you have (this will help you find barcode easier)
+
+(2) **Choose Product**: Click on the box to select the product you want to generate code
+
+Besides, you can enter the _name of Supplier_ 
+
+To complete this process, click on **Generate** button on your top left. 
+
+Then you will be linked to _Barcode Generated History_ page where you can view **History Information** and if you click on **View** in the Detail column, you will see the _barcode details_.
+
 #### Import Barcode
 
+_Path: **Barcode Management > Import Barcode**_
+
+Here you can import your pre-generated barcodes via a CSV file.
+
+![Sample](./Image_Growth_m1/image395.png?raw=true)
+
+(1) A default template is provided for your reference. 
+
+(2) Import File: select a CSV file to import / Choose your current setting (Save new barcode or  Remove old barcodes)
+
+(3) Reason: enter the reason you import barcode
+
+After all, click **Import** to finish.
+
 #### Scan Barcode 
+
+_Path: **Barcode Management > Scan Barcode**_
+
+You need a Barcode scanner which can connect with your computer to perform this action. Then you can scan to read product information or update stock Qty., this saves you a remarkable amount of time when doing Stock taking
+
+The Scan Barcodes site will be shown as above. Now, let’s move to each step (marked on the above image)
+
+- **Step 1: Enter the Barcode on this Field**  
+
+![Sample](./Image_Growth_m1/image396.png?raw=true)
+
+- **Step 2: Read the Barcode Management  
+
+![Sample](./Image_Growth_m1/image397.png?raw=true)
+
+- **Step 3: View the Product Information
+
+Click on **More Detail** button to view full information of products 
+
+![Sample](./Image_Growth_m1/image398.png?raw=true)
+
+- **Step 4: Print Barcode on Page after Scanning Barcode 
+
+![Sample](./Image_Growth_m1/image399.png?raw=true)
+
+Select the template and enter the Qty. to print.
+
+Then, click on **Print** button to print barcode
 
 #### Print Barcode 
 
