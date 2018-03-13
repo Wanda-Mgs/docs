@@ -3127,7 +3127,83 @@ Go to **Sales** > **Orders** > Click on a specific order. In order details page,
 
 #### Process at Checkout for Customers
 
+When the products are added to cart, select **Checkout** button at the end of the cart page
+
+![Sample](./Image_Growth_m1/image320.png?raw=true)
+
+You will be redirected to the next page with information of **Shipping & Payment Method**
+
+![Sample](./Image_Growth_m1/image321.png?raw=true)
+
+(1) **Need to Ship**: Turn on to add Shipping Address
+
+(2) **Shipping Method**: Choose a shipping method (please refer to **2.1.4. Set up Shipping Method** for more details)
+
+(3) **Payment Method**: choose a payment method by clicking in an option (please refer to **2.1.5. Enable Payment Method** for Retailer POS for more details). You can add more than one payment method (please refer to **5.1.6.4. Split and Partial Payment**) 
+
+(4) **Gift Card**: enter the Gift Card code to apply discount. You can apply more than one code. (please refer to **Manage Gift Codes** for details about creating gift codes)
+
+(5) **Marked as shipped**: turn it on to mark to order as “Shipped”
+
+(6) **Note**: enter comment for the order (optional)
+
+After that, click on **Place Order** button to complete checkout process. There will be a notification as below:
+
+![Sample](./Image_Growth_m1/image322.png?raw=true)
+
+Click **New Order** to go back to the Checkout window and continue creating order/checkout for another guest. Click **Print** to print the order receipt.
+
+##### Split Payment 
+
+You can use more than 1 payment method for split payments when check out with Retailer POS. 
+
+Here is an example for you: The order value is $45. Your customer wants to pay $20 in cash and the remaining ($25) is paid by Custom Payment. Then, you will fill the amount at the blank space next to “Web POS – Custom Payment 2”. Then click **Place Order** to finish.
+
+![Sample](./Image_Growth_m1/image323.png?raw=true)
+
+_Notes:_ 
+
++ Support multiple payment methods for an order 
+
++ Not require cash as compulsory  
+
+##### Create Multi Orders for Different Customers 
+
+Retailer POS allows you to create multi-orders for different customers and keep orders open until customers end up transaction. That means you can open multiple orders to serve lots of different customers at the same time. For example, someone is paying for something in your shop but realize they forget their wallet.  You can keep this order open until they come back with their money while you still can carry on serving the next customer.
+
+_Note_: These orders will be automatically deleted once you log out.
+
+![Sample](./Image_Growth_m1/image324.png?raw=true)
+
+You can **Delete** an opened order by clicking on the **Trash icon**. If you turn on **Need to confirm before deleting order (App only)** setting in backend, you will need to confirm before deleting the order.
+
 #### Create Shipment
+
+##### Create Shipment 
+
+There are 2 ways to create shipment: **Before placing order** & **When reviewing order**
+
+**Before Placing Order** 
+
+Before clicking **Place order** to accomplish customer purchasing process, Staffs can create shipment by turn it on as below and enter Shipping Address.
+
+![Sample](./Image_Growth_m1/image325.png?raw=true)
+
+After verifying shipment method, the system will automatically load to Successful Order Page.
+
+**When reviewing Order** 
+
+_Path: **Order history** > from the top right menu choose **Order** > **Ship**
+
+![Sample](./Image_Growth_m1/image326.png?raw=true)
+
+There will be a message shown to notify you that shipment is created successfully. Please note that to use this way, you need to have permission
+
+##### Partial Shipment 
+
+If you chose to enable Partial Shipment, a box of Items to Ship will appear when you tap **Ship** in Order Tab. Enter the quantity of each product customers want to ship, select **Ship**
+
+![Sample](./Image_Growth_m1/image327.png?raw=true)
 
 #### Issue Refund 
 
