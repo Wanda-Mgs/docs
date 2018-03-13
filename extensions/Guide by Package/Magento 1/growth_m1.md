@@ -1966,14 +1966,61 @@ Then a pop-up will be shown as below:
 
 (3) Click on **Add Selected Staff** to finish this phase. 
 
-
-
-
 ### Location
+
+_Path: **Sales > Web POS > Manage Locations**_
 
 #### Add New Location
 
+![Sample](./Image_Growth_m1/image180.png?raw=true)
+
+Click on **Add New Location** to add a new one. Then you will have to fill in two sections:
+
+**Location Information**
+
+![Sample](./Image_Growth_m1/image181.png?raw=true)
+
+(1) **Display Name and Address**:  these are required fields
+
+(2) **Decription**:  fill in description about the warehouse
+
+(3) **Warehouse**:  select one of these options:
+
+![Sample](./Image_Growth_m1/image182.png?raw=true)
+
+**Don’t link to any warehouse**:  if the warehouse works separatedly
+
+**Create a new Warehouse**:  if you are creating the location for the new warehouse
+
+**List of warehouses**:  Select one warehouse that you want to add new location
+
+**User list**
+
+![Sample](./Image_Growth_m1/image183.png?raw=true)
+
+(1) Tick on which user you want to edit
+
+(2) Click on the tab in the **Status** Column to edit **Status** of the User.
+
+After all, remember to click **Save Location** to complete the new Location
+
 #### Mapping Locations - Warehouses
+
+_Path: **Sales > Web POS > Manage Locations > Mapping Locations – Warehouses**_
+
+_or_
+
+_Path: **Inventory Management > Stock Listing > Warehouses > Mapping Locations-Warehouses**_
+
+![Sample](./Image_Growth_m1/image184.png?raw=true)
+
+(1) Tick on the **Location** you want to edit. 
+Here, you can also edit the Status of the Location. 
+**Yes**:  Available
+**No**:  Inavailable
+
+(2) **Warehouses**:  select the warehouse you want to link to the location
+Besides, you can search for location by filling in the tab on **Locations** Column.
 
 ### POS
 
