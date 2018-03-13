@@ -3496,12 +3496,76 @@ After that, stock will be added immediately to the destination warehouse from wh
 
 You can also download **Shortfall List & Summary** of the Stock Request.
 
-
 ##### Transfer to External Location 
+
+_Path: **Inventory Management** > **Transfer Stock** section > **Transfer to External Location**
+
+This feature allows you to record sending the product to an external destination e.g. when the product is damaged, loss or sent as free gift…
+
+![Sample](./Image_Growth_m1/image355.png?raw=true)
+
+(1) Fill the **Transfer Code**
+
+(2) Choose **Source Warehouse**
+
+(3) Fill the **External Location**
+
+(4) Fill **Notification recipients**
+
+(5) Fill in the **Reason box**
+
+(6) Click on **Prepare Product List**
+
+Then, you can add or import products to transfer stock by **Scan Barcode**, **Import** or **Select Products.**
+
+If you choose to **Select Products** from your inventory:
+
+![Sample](./Image_Growth_m1/image356.png?raw=true)
+
+(1) Select the products to be added
+
+(2) Fill the Qty.
+
+(3) Click on **Start Transferring** to finish 
 
 ##### Transfer from External Location 
 
+_Path: **Inventory Management** > **Transfer Stock** section > **Transfer from External Location**
+
+This feature allows you to accept the stocks from outside of the system. Not only from another warehouse but can be from any other source. 
+
+![Sample](./Image_Growth_m1/image357.png?raw=true)
+
+(1) Fill the **Transfer Code**
+
+(2) Choose **Destination Warehouse**
+
+(3) Fill the **External Location**
+
+(4) Fill **Notification recipients**
+
+(5) Fill in the **Reason box**
+
+(6) Click on **Prepare Product List**
+
+Then, you can add or import products to transfer stock by clicking on **Scan Barcode, Import** or **Select Products**.
+
+If you choose to **Select Products** from your inventory:
+
+![Sample](./Image_Growth_m1/image358.png?raw=true)
+
+(1) Select the products to be added
+
+(2) Fill the **Qty**.
+
+(3) Click on **Start Transferring** to finish
+
 ##### Transfer Stock History 
+
+![Sample](./Image_Growth_m1/image359.png?raw=true)
+
+This History records stock movements from send stock, request stock, transfer from external and transfer to external.
+
 
 #### Stock Control 
 
