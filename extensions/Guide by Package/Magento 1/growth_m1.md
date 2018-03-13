@@ -3566,10 +3566,276 @@ If you choose to **Select Products** from your inventory:
 
 This History records stock movements from send stock, request stock, transfer from external and transfer to external.
 
-
 #### Stock Control 
 
+##### Stock Adjustment & Stock Adjustment History 
+
+- **Link stocks in Warehouse to Front Store View** 
+
+As mentioned in section **2.3.1.Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section in _Settings menu_.
+
+- **Add New Stock Adjustment** 
+
+_Path: **Inventory Management** > **Stock Control** section > **New Stock Adjustment**_
+
+![Sample](./Image_Growth_m1/image360.png?raw=true)
+
+Under menu Stock Control, you can create new Stock Adjustment in a few steps:
+
+(1) Choose the Warehouse.
+
+(2) Adjustment Code: is automatically generated. All adjustments are saved in Inventory Management > Stock Control section > Stock 
+
+(3) Adjustment History
+
+(4) Fill the Reason
+
+Then click button **Start to Adjust** 
+
+![Sample](./Image_Growth_m1/image361.png?raw=true)
+
+To change **Stock Adjustment** status to _Completed_, you need to hit button **Adjust**.
+
+_Notes_: you can **Change Qty**. or **Adjusted Qty**., depending on how you configure in **Store Configuration** (please refer to section **2.3.1. Stock Control Configuration**)
+
+Once the Adjustment is _Complete_, there is no way to undo it.
+
+Stock level will be updated instantly in the corresponding warehouse.
+
+- **View Stock Adjustment History**
+
+_Path: **Inventory Management** > **Stock Control** section > **Stock Adjustment History**
+
+![Sample](./Image_Growth_m1/image362.png?raw=true)
+
+You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status … Click on each Adjustment, you can see stock adjustment details. 
+
+If you click on a **Completed** adjustment, you will be able to export the product list of that specific adjustment by clicking the button **Export**.
+
+##### Stock Taking & Stock Taking History
+
+Physical Stocktaking acts can be used at any time to double-check and correct inventory discrepancy amounts in Inventory Management vs. physical inventory in your warehouses. These consist of:
+
+- A count, in which warehouse staff records the actual number of products in stock at the time of inspection & a manager can rely on it to update inventory in the system later
+
+-Then a confirmation of that count performed by a warehouse manager to officially update the correct number of products in stock (Adjust Stock)
+
+- **Stocktaking Process** 
+
+_Path: **Inventory Management** > **Stock Control** section > **New Stocktaking**_
+
+![Sample](./Image_Growth_m1/image363.png?raw=true)
+
+There are 5 steps in Stock taking using Inventory Management:
+
++ **Step 1: Fill General Information** 
+
+After finishing this step, Stocktaking Process Status is **Pending** 
+
+![Sample](./Image_Growth_m1/image364.png?raw=true)
+
+(1) Choose Warehouse
+
+(2) Fill the Stocktaking Code
+
+(3) Fill in the Participants (It is optional)
+
+(4) Fill the Stocktaking Time of the action (It is optional)
+
+(5) Fill the Reason
+
+(6) Choose the products to be stock taken by clicking the **Prepare Product List** button (Stage 2) at the top right of the page. Alternatively, you can skip it to go straight to Stage 3 by clicking the **Start Stocktaking** button
+
++ **Step 2: Prepare products before doing stock take** 
+
+Select or import products to prepare before doing stock take. Stock taking status will change to **Processing**
+
+![Sample](./Image_Growth_m1/image365.png?raw=true)
+
+(1) Mark the checkbox to _select products_ from your product list, _scan barcode_ or _Import products_ from CSV file (template provided)
+
+(2) Click **Save** to stay with your selected products for further edits, or click **Start Stocktaking** to proceed Stage 3.
+
++ **Step 3: Do Stock Take**
+
+Fill in the Qty. of product. Now status is changed to **Verified**
+
+![Sample](./Image_Growth_m1/image366.png?raw=true)
+
+(1) Select products needed and enter the product quantity that you have recently counted and the reason why there is quantity difference.
+
+(2) Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktaking** to finish the process; or **Save** to continue editing.
+
++ **Step 4: Complete Data Entry** 
+
+Save the data that has been stock taken and waiting for admin’s approval.
+
+![Sample](./Image_Growth_m1/image367.png?raw=true)
+
+This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
+
++ **Step 5: Complete Stock Take**
+
+When admin does this, Stock taking status will be changed to **Complete**.
+
+![Sample](./Image_Growth_m1/image368.png?raw=true)
+
+Qty. is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Complete. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system
+
+- **Stocktaking History** 
+
+_Path: **Inventory Management** > **Stock Control** section > **Stocktaking History**_
+
+![Sample](./Image_Growth_m1/image369.png?raw=true)
+
+(1) All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
+
++ Status _Pending_ means Stage 1: General Information is done
+
++ Status _Processing_ means Stage 2: Prepare Products is done
+
++ Status _Verified_ means Stage 3: Stock Counting is done
+
++ Status _Complete_ means the whole stocktaking process is done
+
+(2) You can also click on **Add Stocktaking** button to start a new stocktaking process from here.
+
+##### Stock Movement History 
+
+_Path: **Inventory Management** > **Stock Control** section > **Stock Movement History**
+
+The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
+
+![Sample](./Image_Growth_m1/image370.png?raw=true)
+
+(1) The table shows SKU of the products added or subtracted from warehouse, the changed Qty., Warehouse name, Date and Reference number to see the details on a click.
+
+(2) Export: Admin can also easily export Stock Movement details into _CSV_ or _Excel XML_.
+
 #### Prediction 
+
+##### Supply Needs
+
+_Path: **Inventory Management** > **Prediction** section > **Supply Needs**
+
+This feature predicts how many inventory items a warehouse need for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past.
+
+![Sample](./Image_Growth_m1/image371.png?raw=true)
+
+(1) Warehouse(s): Select the warehouse to forecast supply needs.
+
+(2) Sales Period: Select the sales period so that the system will calculate this number based on this sales history.
+
+(3) Forecast Supply Needs Until: Pick the date that you want to see forecast results.
+
+(4) Click to Show Supply Needs button to finally view the prediction.
+
+The forecast data will be shown in the table as below:
+
+![Sample](./Image_Growth_m1/image372.png?raw=true)
+
+(1) The table displays supply needs information as below:
+
++ Current Qty: the product quantity that you currently have in the warehouse
+
++ Sold Qty per day: average quantity sold per day of the product during the chosen sales period
+
++ Availability Date: the system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+
++ Supply Need: the quantity of product that expected to be sold until the time stamp you set.
+
+(2) The Supply Need Forecast can be exported to CSV or XML file by hitting Export button.
+
+(3) You can start another prediction by expanding and editing criteria for supply forecast and hit **Show Supply Needs** again to refresh the prediction result.
+
+##### Low Stock Rules 
+
+_Path: **Inventory Management** > **Prediction** section > **Low Stock Rules**
+
+_Notes_: **Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.
+
+![Sample](./Image_Growth_m1/image373.png?raw=true)
+
+Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information**, **Conditions & Action**. There is no limitation in the quantity of rules set
+
+- **Rule Information* 
+
+![Sample](./Image_Growth_m1/image374.png?raw=true)
+
+(1) **Rule Name**: Enter the low stock rule name
+
+(2) **Description**: Add a brief about the rule (optional)
+
+(3) **Status**: Select Active to enable the rule
+
+(4) Use Calendar to choose From and To date for a term of validity (optional)
+
+(5) Select an _update time_: either Daily or Monthly 
+
+The system periodically checks stock availability and automatically send email notifications admin and warehouse managers.
+
+(6) **Select hours** the warning message will be sent
+
+- **Conditions** 
+
+There are _2 types_ of low stock rule:
+
+![Sample](./Image_Growth_m1/image375.png?raw=true)
+
++ **Type 1: Availability Quantity 
+
+_Availability Qty._: you can select Qty. threshold that the system will notify to import.
+
+(1) Low-stock Threshold Type: Select Availability Qty.
+
+(2) Threshold (quantity): Set the number of threshold quantity
+
+(3) Notification Scope: Select Both Warehouse and Global for notification scope
+
+(4) Warehouse(s): Select Warehouses for those rules will be applied.
+
+![Sample](./Image_Growth_m1/image376.png?raw=true)
+
++ **Type 2: Availability Day**: _you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store)._
+
+(1) Low-stock Threshold Type: Select Availability Days
+
+(2) Threshold (days): Set the number of threshold days
+
+(3) Sales Period (days): Set the number of sales period days
+
+(4) Notification Scope: Select Both Warehouse and Global for notification scope
+
+(5) Warehouse(s): Select warehouses for those rules will be applied.
+
+- **Action** 
+
+![Sample](./Image_Growth_m1/image377.png?raw=true)
+
+(1) Notification recipient list: Enter an email list to send the low stock notifications to
+
+(2) Warning Message: Enter content of the warning message
+
+(3) Click Save Rule or Save and Apply to finish
+
++ Save and Continue Edit: to save the process and continue edit on the current page.
+
++ Save and Apply: you can apply rule immediately
+
++ Save Rule: you can save the rule, but it will not be applied, in case you need to ask for permission before applying or double-check with other people.
+
+_Note_: You can edit the rule that you **Save and Apply** or Save by going to **Stock Management > Prediction section > Low Stock Rules > clicking on Edit**
+
+![Sample](./Image_Growth_m1/image378.png?raw=true)
+
+##### Low Stock Notification 
+
+_Path: **Inventory Management** > **Prediction** section > **Low Stock Notifications**_ 
+
+![Sample](./Image_Growth_m1/image379.png?raw=true)
+
+**Low Stock Notifications** list displays warning messages about the products which are nearly out of stock in warehouses. It shows all notification with information including Sent at, Update Type, Email received, Recipients and Action. Each notification log can show details of all products that have been low stock including Name, SKU, Image, Qty. Notified and Time Notified.
+
  
 ### Inventory Report 
 
