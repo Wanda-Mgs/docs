@@ -2112,6 +2112,105 @@ On POS, users can sync or show customer points balance on receipt by doing this 
 
 #### Manage Session
 
+If you enable Need to create session before working setting in backend (Path: **Sales > Web POS section > Settings**), when the first shift of the day started, POS Manager will open session to create the **Opening Balance** - the amount of cash in your store at that time. (You will need to Close session and enter Closing Balance at the end of the shift). Those amounts will be saved in the system, so POS could provide you information about daily revenue after a working day. 
+
+![Sample](./Image_Growth_m1/image196.png?raw=true)
+
+###### Open Session 
+
+When you log in to POS, the screen will automatically pop-up a window like the screenshot below 
+
+![Sample](./Image_Growth_m1/image197.png?raw=true)
+
+(1) The name of Staff opening this session
+
+(2) The name of POS 
+
+(3) The Opening Balance Details 
+
+(4) The total value of Opening Balance 
+
+###### Manage Session 
+
+_Path: **Web POS front-end > Settings section > Session Management**_
+
+![Sample](./Image_Growth_m1/image198.png?raw=true)
+
+You will see all sessions carried out by this account here. 
+Opened session will have an **OPEN** mark next to its date and time in the listing.
+
+![Sample](./Image_Growth_m1/image199.png?raw=true)
+
+And when users click any specific session, the details will be shown like this 
+
+![Sample](./Image_Growth_m1/image200.png?raw=true)
+
+Users can get important information such as:
+
+- Staff working on the POS, POS Name, Session Date and Time
+
+- Summary of Total Cash Payment in Session: 
+
++ **Opening Balance**: the amount of cash in cash drawer at the beginning of the session
+
++ **Theoretical Closing Balance**: = Opening Balance + Manually Input Amount of Put Money In/Take Money Out + Total sales (in cash only)
+
++ **Real Closing Balance**: the real amount of cash in cash drawer at the end of the session
+
++ The Difference between **Theoretical Closing Balance** and **Real Closing Balance.** 
+
+- For opened session, cashier can **Put Money In/ Take Money Out, Set Closing Balance and End Session.**
+
+- Manually input of cash in/out in the session and transactions in cash are recorded in the **+ Transactions/ - Transactions** links.
+
+- Total Sales by all Payment Methods
+
+###### Record Cash In/ Cash Out
+
+During an opened session, staff is allowed to adjust the money balance by **Take Money Out** or **Put Money In** 
+
+![Sample](./Image_Growth_m1/image201.png?raw=true)
+
+**Put Money In** 
+
+![Sample](./Image_Growth_m1/image202.png?raw=true)
+
+The Staff’s Name does this action will be displayed at the bottom 
+And there are 2 fields for him/her to fill in. The first one is the amount of money staff wants to put in and the other is the reason for this action. 
+
+**Take Money Out**
+
+![Sample](./Image_Growth_m1/image203.png?raw=true)
+
+The same window also appears like **Put Money In** and staff also has to fill in those 2 fields in case she/he wants to take money out. 
+
+###### Close Session 
+
+Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager.
+To close balance, tap on the yellow button **Set Closing Balance**
+
+![Sample](./Image_Growth_m1/image204.png?raw=true)
+
+Then, the screen will display like this
+
+![Sample](./Image_Growth_m1/image205.png?raw=true)
+
+It demands user to fill in the amount of money in reality to compare this result to **Theoretical Closing Balance** to make sure no loss can happen. 
+
+Base on this algorithm, 2 case can befall: the first one is that 2 numbers of Reality Closing Balance and Theoretical are the same and the other is when they are different. 
+
+- If the **Theoretical** and **Real Balances** are the same, you will go back to the Session window, click on **Validate Closing** to finish closing the session
+
+![Sample](./Image_Growth_m1/image206.png?raw=true)
+
+- If the Theory and Real Balance are not the same, the system will display a notification as below:
+
+![Sample](./Image_Growth_m1/image207.png?raw=true)
+
+You can click Cancel and re-entry the closing balance, OR accept the difference by clicking OK
+
+![Sample](./Image_Growth_m1/image208.png?raw=true)
+
 #### Filer and Search Product Quickly 
 
 #### Add Products to Cart and Edit Product in Carts 
