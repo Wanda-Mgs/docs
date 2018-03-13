@@ -2931,7 +2931,67 @@ You will see the Close Session window as below:
 
 #### Filter and Search Products Quickly 
 
+To configure Product Search in back-end, please refer to **2.1.6. Configure Product Search**
+
+In front-end, users could search product in 3 ways: **Categories, Product Attribute** & **Barcode Scanning**
+
+**Categories** 
+
+![Sample](./Image_Growth_m1/image296.png?raw=true)
+
+Click on **All Products** link on the top bar to quickly search products by categories. Choose the corresponding categories as you prefer.
+
+**Product Attribute**
+
+To search by product attributes, use the **Search bar**. Enter your search terms and matching products will display right away as you type. Clicking on a suggested item will add it to the customer’s cart.
+
+![Sample](./Image_Growth_m1/image297.png?raw=true)
+
+**Barcode Scanning** 
+
+Our Retailer POS allows quick product search by scanning barcode. You just need to click on the **Barcode scanning** icon in the **Search bar** and scan the product’s barcode to add it to cart
+
+![Sample](./Image_Growth_m1/image298.png?raw=true)
+
 #### Add Product to Carts and Edit Products in Cart 
+
+##### Add Product to Cart 
+
+- With **Simple Product**, you just need one tap to add it to cart. 
+
+- With **Configurable, Bundle, Grouped Product**, after clicking, you will see a popup shown to choose options (e.g. color, size). Then, tap on **Add to Cart** button: 
+
+![Sample](./Image_Growth_m1/image299.png?raw=true)
+
+##### Edit/Remove Product Quantity on Cart 
+
+After adding products to cart, you can edit the quantity of each product by selecting the product that needs editing. A popup will display with edit option for Qty.
+
+![Sample](./Image_Growth_m1/image300.png?raw=true)
+
+- To edit Qty., just enter a wanted number or tap on +/-. The number of products will be adjusted in the cart right away. 
+
+- Adjust quantity to 0 to remove the item from the cart.
+
+- To delete the whole cart, tap on the trash icon on the left menu bar
+
+![Sample](./Image_Growth_m1/image301.png?raw=true)
+
+##### Add Custom Sale Item to Cart 
+
+**Custom sale item** _is the item that Retailer POS user creates when checkout. It is used when the product hasn’t been added to the system or Retailer POS user cannot find it in the product list_ 
+
+In frontend, select **Custom Sale** button if you want to add the custom product to Cart 
+
+![Sample](./Image_Growth_m1/image302.png?raw=true)
+
+(1) **Name**: Enter the name of custom product
+
+(2) **Shippable**: Choose whether this product will be shipped or not by turning on or off this option
+
+(3) **Price**: Enter the price of this product
+
+After finishing configuration, tap **Add to Cart** button and check out as normal. _Please note that this custom sale product will not be saved for the next checkout._
 
 #### Apply Coupon Code or Discount to Carts
 
