@@ -4250,6 +4250,198 @@ _Note_: quotations which are converted into PO will be removed from this list.
 
 #### Manage Purchase Order 
 
+##### Create New Purchase Order Manually 
+
+_Path: **Purchase Management > Purchase Order > Create Purchase Order**_ 
+
+a) Input General Information 
+
+![Sample](./Image_Growth_m1/image416.png?raw=true)
+
+To create a new quotation, fill in all required information including **Created Time, Supplier, Currency, Currency Exchange Rate and Comment(optional)**. After that, click on **Prepare Product List** to go to the next step.
+
+b) Prepare Productlist 
+
+![Sample](./Image_Growth_m1/image417.png?raw=true)
+
+In this step, there are 6 ways for you to prepare product list as shown below:
+
+(1) Import Products via a _CSV file_ (a sample file is provided)
+
+(2) Scan Barcode to prepare product (if Barcode Management module is also installed);
+
+(3) Prepare product list based on Supply Need Products forecast. The system will calculate the number of stock that may be in need in an upcoming period based on its sales. There are 4 steps you need to follow:
+
+![Sample](./Image_Growth_m1/image418.png?raw=true)
+
+- **Step 1**:  Select the criteria for the system to forecast Supply Need Products
+
++ **Warehouse**: choose the warehouse containing the stock to be forecasted;
+ 
++ **Sales Period**: the system will examine the stock’s sales statistics in this period to make forecast. Options in the drop-down list include last 7 days, last 30 days, last 3 months and custom range (if you want another specific period); 
+
++ **Forecast Supply Need To**: the system will predict if the stock on hand is enough for sales until this date.
+
+- **Step 2**: Click on **Show Supply Needs** and the Supply Need results will appear in the table:
+
++ **Current Quantity**: the product quantity that you currently have in the warehouse
+
++ **Sold Quantity per day**: average quantity sold per day of the product during the chosen sales period
+ 
++ **Availability Date**: he system predicts your stock is enough to be sold until this date. After this date, your product is estimated to run out of stock.
+
++ **Supply Need**: the quantity of product that expected to be sold until the time stamp you set.
+
+- **Step 3**: Select the products in the table that you want to add to the Quotation.
+
+- **Step 4**: Click **Add Selected Products** and the products will be added to the Quotation.
+
+(4) Prepare _Back Order Products_. Back order products are those that have been ordered by customers but currently not available in stock;
+
+(5) Prepare _Low Stock Products_. 
+
+![Sample](./Image_Growth_m1/image412.png?raw=true)
+
+If Inventory Management module is installed, Low Stock products are suggested according to your low stock rules. Select a low stock notification from the drop-down list, then select the products you want to create quotation and click **Add Selected Products**.
+
+(6) **Select products** from the list of products from that specific supplier with the **All Products** from Supplier button.
+
+You can manually enter the Purchase Cost, Tax, Discount and Ordered Qty for each product in the grid. Current cost is the unit price you already knew, which can be blank. Purchase cost is the unit price at the time of creating the PO. Remember to click **Update Items** to save your edits.
+
+![Sample](./Image_Growth_m1/image419.png?raw=true)
+
+After entering all required fields, click **Save** button and Order Totals is automatically calculated as below. 
+
+![Sample](./Image_Growth_m1/image420.png?raw=true)
+
+c) Edit Shipping and Payment Method 
+
+![Sample](./Image_Growth_m1/image421.png?raw=true)
+
+(1) Shipping Address: Enter the address you want the stock to be shipped to
+
+(2) Shipping Method: Select a shipping method for the quotation
+
+(3) Shipping Cost: Estimate and enter the shipping cost
+
+(4) Shipment Start Date/ Expected Delivery Date: Set dates when you start the shipment and expect delivery
+
+(5) Payment Term: Select the payment term
+
+(6) Order Placed Via: Choose the method to send order: N/A, Email, Phone, Fax, Vendor website
+
+d) Confirm Purchase Order 
+
+![Sample](./Image_Growth_m1/image422.png?raw=true)
+
+To confirm purchase order, click on **Confirm Purchase Order**
+
+![Sample](./Image_Growth_m1/image423.png?raw=true)
+
+As the Purchase Order is processing, you must finish 5 following tabs: 
+
++ **Summary**: This tab displays all the PO’s information you have entered in the previous steps
+
+![Sample](./Image_Growth_m1/image424.png?raw=true)
+
++ **Received Items**: 
+
+![Sample](./Image_Growth_m1/image425.png?raw=true)
+
+This tab updates how many of each product in the PO you have received. Click on **Import Received Items** to import a file of received items, or you can click on **Scan Barcode** to enter the product’s barcode and update delivery status if you have installed Barcode Management.
+
+Click on **Receive All Items** button to fully receive all items in your purchase order, or click on **Receive Items** to partially receive your purchase order.
+
+![Sample](./Image_Growth_m1/image426.png?raw=true)
+
+In _Receive Items_ page view, choose received Date, choose items and Q.ty to receive, and click on **Received** to finish receive items.
+
++ **Returned Items**: 
+
+![Sample](./Image_Growth_m1/image427.png?raw=true)
+
+This tab records all products in the PO which you have returned to the supplier. Please note that _you can only return products which you have received._
+
+Click on **Import Returned Items** to import a file of returned items, or you can click on **Scan Barcode** to enter the product’s barcode and update delivery status if you have installed Barcode Management.
+
+To return items manually, click on **Return Items**
+
+![Sample](./Image_Growth_m1/image428.png?raw=true)
+
+A **Return Items** window will appear. Enter the date of return, select product(s) to be returned, type in the quantity to be returned, you can also choose to import returned items in this page. Finally, click on **Return button** to return items. 
+
++ **Invoice**: 
+
+This tab allows you to create invoice for the PO including payment and refund amount.
+
+![Sample](./Image_Growth_m1/image429.png?raw=true)
+
+Click on **Create an Invoice** and a new window will appear. 
+
+![Sample](./Image_Growth_m1/image430.png?raw=true)
+
+Enter the date of creating the invoice; select product(s) to be invoiced; type in the quantity to be billed, unit price (if different), tax and discount in percentage and finish by clicking **Save**.
+
+You can also Import Invoice Items by choosing _Import Invoice Items_ in the right top. 
+
++ **Transferred Items**: 
+
+This tab allows you to choose to transfer deliveries into a specific warehouse. Please note that _you can only transfer products which you have received._
+
+![Sample](./Image_Growth_m1/image431.png?raw=true)
+
+Click on **Import Transferred Items** to import a file of returned items, or you can click on **Scan Barcode** to enter the product’s barcode and update delivery status if you have installed Barcode Management.
+
+To transfer items manually, click on **Transfer Items**
+
+![Sample](./Image_Growth_m1/image432.png?raw=true)
+
+**A Transfer Items** window will appear. Enter the date of transferring; choose the warehouse to transfer products to; select product(s) to be transferred; type in the quantity to be transferred and finish by clicking **Transfer**.
+
+You can also import transferred items in this page by clicking on **Import Transferred Items** button at the right top.
+
++ **Shipping and Payment** tab: views and edits shipping and payment information for the PO which you may have input in creating the PO.
+
++ **General Information** tab: displays the General Information that you input when creating the PO.
+
+e) Complete Purchase Order 
+
+During the process of _Confirm Purchase Order_, you can complete the purchase order any time by clicking the **Complete PO** button at the right of the page. You can also **Print, Send Email, Cancel** or **Save the PO** during the process.
+
+![Sample](./Image_Growth_m1/image433.png?raw=true)
+
+You can complete a purchase order even when you have not received all requested items. When the purchase order status is completed, you cannot receive items any more, but you can still transfer received items into warehouses by clicking on **Transfer Items**.
+
+##### Generate Purchase Order from Quotation 
+
+_Path: **Purchase Management > Quotation > Quotations**_ 
+
+![Sample](./Image_Growth_m1/image434.png?raw=true)
+
+In the Manage Quotation page view, click on **View** a quotation which has the status as Processing. Then you’ll be navigated to a new window.
+
+![Sample](./Image_Growth_m1/image435.png?raw=true)
+
+To generate a purchase order from this quotation, click in **Convert Quotation to PO** button at the right top. Then you’ll be navigated to a purchase order view.
+
+##### Manage Purchase Order 
+
+_Path: **Purchase Management > Purchase Order > Purchase Orders**
+
+![Sample](./Image_Growth_m1/image436.png?raw=true)
+
+The **Manage Purchase Orders** page contains information related to all POs including _Reference Number, Date of the PO, Supplier, Ordered Qty, Received Qty, Billed Qty, Total Paid, Grand Total and Status_. In this page, you can create new purchase order and view/ edit a purchase order. 
+
+There are 3 types of Status indicating to which stage the PO has been processed:
+
+- _Pending_: when you have input _General Information_ and prepared product list;
+
+- _Processing_: when you click the **Confirm Purchase Order** button
+
+- _Completed_: when you click the **Complete PO** button.
+
+Click on **View** a PO to see more details of the PO and you can continue editing the PO
+
 #### Return Order
 
 ### Gift Card 
