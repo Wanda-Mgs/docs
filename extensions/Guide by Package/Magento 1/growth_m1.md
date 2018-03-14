@@ -4444,6 +4444,72 @@ Click on **View** a PO to see more details of the PO and you can continue edit
 
 #### Return Order
 
+##### Create Return Request 
+
+a) Input General Information 
+
+![Sample](./Image_Growth_m1/image437.png?raw=true)
+
+(1) **Created Time**: enter the date when the request is created
+
+(2) **Warehouse**: choose a warehouse from which products will be returned
+
+(3) **Supplier**: choose a supplier to which products will be returned
+
+(4) **Reason**: Write a reason why you want to return products (optinal)
+
+After all, click on **Prepare Product List** to turn to the next step.
+
+b) Prepare Product List 
+
+![Sample](./Image_Growth_m1/image438.png?raw=true)
+
+In this step, you can Import Products as a _CSV file_, **Scan Barcode** of products if you have installed Barcode Management, or you can manually choose products to return by clicking on **All Products from Supplier**.
+
+![Sample](./Image_Growth_m1/image439.png?raw=true)
+
+Tick on the checkbox to choose product you want to return, enter the Q.ty and click on **Add Selected Products** to save your work.
+
+![Sample](./Image_Growth_m1/image440.png?raw=true)
+
+After that clicking on **Confirm Return Request** to move to the next step
+
+c) Complete Return Request 
+
+![Sample](./Image_Growth_m1/image441.png?raw=true)
+
+To complete Return Request, click on **Complete PO** button at the right top.
+
+As the return request is completed, you can now choose to transfer product to supplier. Click on Delivery Items to choose product to deliver.
+
+![Sample](./Image_Growth_m1/image442.png?raw=true)
+
+Set a date that the products will be transferred, and tick at the check box _Subtract stock on warehouse_ to allow the system to automatically subtract stock on warehouse. Then, choose the item you want to transfer, enter the Qty for each item and click on **Delivery** to finish. In this page, you can also import a list of delivered items by clicking on **Import Delivered Items**.
+
+You can partially transfer products until you fully transfer it. All transferred products are shown in the _Delivered Items_ tab. View this tab for detailed in formation.
+
+![Sample](./Image_Growth_m1/image443.png?raw=true)
+
+After all, click on **Save** to save your work.
+
+##### Manage Return Order 
+
+_Path: **Purchase Management > Return Request > Return Request**_ 
+
+![Sample](./Image_Growth_m1/image444.png?raw=true)
+
+**Manage Return Request** page contains information including Return Request Number, Return At, Supplier, Warehouse, Returned Qty, Delivered Qty, Status and Action. 
+
+There are 3 types of Status indicating to which stage the Return Requests has been processed: 
+
+- **Pending**: when you have _input General Information_ and prepared product list;
+
+- **Processing**: when you click the **Confirm Return Request** button;
+
+- **Completed**: when you click the **Complete PO** button.
+
+To view detailed information of a return request, click on **View** button. 
+
 ### Gift Card 
 
 #### How to Manage Gift Card 
