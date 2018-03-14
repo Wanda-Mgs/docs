@@ -4514,6 +4514,252 @@ To view detailed information of a return request, click on **View** button.
 
 #### How to Manage Gift Card 
 
+##### Manage Gift Card Templates 
+
+_Path: **Gift Card > Manage Gift Card Template**_
+
+![Sample](./Image_Growth_m1/image445.png?raw=true)
+
+The **Gift Card Template Manager** page will be displayed as below:
+
+![Sample](./Image_Growth_m1/image446.png?raw=true)
+
+As you can see, this page lists all available templates in the system. You can add/edit/delete a template and export the list of templates to .CSV/.XML files. If you want to change status /delete templates in mass, simply select multiple rows, apply an action then click on **Submit** button
+
+In Template Design column, there are 5 default Gift Card templates with 4 different design styles for you to select:
+
+- _Left templates_: picture aligns with the _left_ of Gift Card
+
+- _Top Templates_: picture aligns with the _top_ of Gift Card
+
+- _Centre Templates_: picture aligns with the _center_ of Gift Card
+
+- _Simple Templates_: a template for any stores with simple & clean design
+
+- _Amazon Gift Card Style_: a template which is similar to Amazon gift card
+
+![Sample](./Image_Growth_m1/image447.png?raw=true)
+
+![Sample](./Image_Growth_m1/image448.png?raw=true)
+
+![Sample](./Image_Growth_m1/image449.png?raw=true)
+
+![Sample](./Image_Growth_m1/image450.png?raw=true)
+
+![Sample](./Image_Growth_m1/image451.png?raw=true)
+
+If you want to create new Gift Card templates, select **Add Gift Card Template** button and finish the form as below:
+
+- **General Information**: 
+
+![Sample](./Image_Growth_m1/image452.png?raw=true)
+
+(1) **Template name**:  Enter  a name of the Gift Card template 
+
+(2) **Status**: Select  Active to enable this template to be chosen when you create Gift Card product
+
+(3) **Template design**: Choose  Left /Right/Top/Simple/Amazon-gift– card to align the image with the design of left/right/top/simple/Amazon style as you can see right behind the fields.
+
+(4) **Title**:  Set the title of Gift Cards using this template instead of the default title Gift Card.
+
+(5) **Style color**: Choose the color of texts in Gift Card title, Value and Gift Cide fields. 
+
+(6) **Text color**: Choose the color of other texts (fields’ name, message, notes, etc.).
+
+(7) **Background image**: Upload an image to use as a background of Gift Card. 
+
+_Notes_: customers will not be able to change the background image. 
+
+(8) **Notes**:  Add notes, such as usage conditions, for Gift Card.
+
+For example: Converting to cash is not allowed. You can use the Gift card code or redeem it to credit balance to pay for your order, 
+
+You can click on **Preview** button at the top right corner to see how Gift Cards using this template will look like. All changes in title, template design, style color and text color will be shown in a popup. If you want to view the background image applied on a Gift Card, click **Save and Continue Edit** button and then preview as above.
+
+- **Images**: 
+
+![Sample](./Image_Growth_m1/image453.png?raw=true)
+
+In this tab, you can create a list of images for Customers to select when they buy Gift Card in the frontend. Just click on **Add** button and choose image files to upload. 
+
+_Note_: 
+
+You should use images with the following recommended sizes for better display:
+
++ Template style is Top: 600x190px.
+
++ Template style is Left: 250x365px.
+
++ Template style is Center: 600x365px.
+
++ Template style is Simple or Amazon gift card
+
+Click **Preview** under each image to see how Gift Card will look like. When you finish, remember to click on **Save** or **Save and Continue Edit** to save your work. 
+
+##### Create/Edit Gift Card Products
+
+There are two ways to create a Gift Card product: _on Manage Gift Card Products page_ and on _Manage Products page_.
+
+a) Manage Gift Card Products 
+
+_Path: **Gift Card > Manage Gift Card Products**_ 
+
+![Sample](./Image_Growth_m1/image454.png?raw=true)
+
+![Sample](./Image_Growth_m1/image455.png?raw=true)
+
+- **Step 1**: Set up 
+
+Click on **Add Gift Card Product** button as above:
+
+![Sample](./Image_Growth_m1/image456.png?raw=true)
+
+Click on **Continue** button then enter information as a normal product. 
+
+- **Step 2**: Configuring the following session
+
++ **General**: Different from normal products, there is another required field, **Select Gift Card** template, allowing you to choose templates for Gift Card product. You can add more templates to this field in **Manage Gift Card Templates**.
+
+![Sample](./Image_Growth_m1/image457.png?raw=true)
+
+(1) **Name**: Enter a Name of Gift Card
+
+(2) **Description**: Describe the New Gift Card
+
+(3) **Short description**
+
+(4) **SKU**: Enter SKU
+
+ **Weight**: Enter Weight of Gift Card if it’s real one, not a virtual one. 
+
+(5) **Set Product as New from Date**: Set the starting date from which your Gift Card is new 
+
+ **Set Product as New to Date**: Set the ending date to which your Gift Card is no longer regarded as New
+
+(6) **Status**: Select Active to enable the New Gift Card. 
+
+ **URL key**:  Enter an URL Key for this Gift Card
+
+(7) **Visibility**: Select Catalog or Search or both to display Gift Card when customers search
+
+(8) **Select The Gift Code Sets**: To set gift code, you can refer to Manage Gift Code Set to know more)
+
+ **Select Gift Card templates** that are available for the Gift Card products. A Gift Card product can include many templates. 
+
+(9) **Enable on Web POS**: Select Yes to enable the Gift Card on Web POS
+
++ **Prices**: 
+
+In **Prices** tab, Admin can configure prices and values of a Gift Card Product.
+
+![Sample](./Image_Growth_m1/image458.png?raw=true)
+
+(1) **Tax Class**: Select a type of tax class to apply for the new Gift card product
+
+(2) **Type of Gift Card value**:  Select a type of Gift Card value
+
+(3) The system provides 3 types of Gift Card value, including fixed value, range of values and dropdown values. You can base on the type chosen to set Gift Card value(s) accordingly such as 50-100 (USD) for the range of values type.
+
+(4) **Credit value**: Enter Credit Value if it is allowed 
+
+(5) **Gift Card Value**: Enter the Gift Card Value
+
+(6) **Type of Gift Card price**: Selecting the type of Gift Card price, which could be 1 in 3 following options: 
+
+- Same as Gift Card value: Gift Card price is same as Gift Card value
+
+- Fixed Price:  Gift card price is set at a fixed number. 
+
+- Percent of Gift Card value: Gift Card price is a percentage of Gift Card value as you configure in the next field.
+
+_Note_: when you choose **Range of values or Dropdown values** in the Type of Gift Card Value you need to fill in several fields as follows: 
+
+For example: 
+
+If you choose Range of values, you need tofill in all the required information below:  
+
+![Sample](./Image_Growth_m1/image459.png?raw=true)
+
++ Type of Gift Card value: Range values
+
++ Minimum Gift Card value: 150
+
++ Maximum Gift Card value: 100
+
++ Type of Gift Card price: Percent of Gift Card value
+
++ Percentage: 90
+
+If you choose Drop down values, you need to enter the following fields: 
+
++ Type of Gift Card value: Dropdown values
+
++ Gift Card values: 30,50,70
+
++ Type of Gift Card price: Percent of Gift Card value
+
++ Percentage: 90,90,90
+
+Thus, customers only pay 90% of Gift Card value, which means $45 for a $50 Gift Card for instance.
+
++ **Conditions**: 
+
+The difference between a Gift Card product and a normal product is that a Gift Card product contains 2 more condition tabs, which are **Shopping Cart Conditions** and **Cart Item Conditions**.
+
+**The Shopping Cart Conditions** tab enables you to set up the conditions applied to shopping cart when Customers use Gift Card, for example: Customers can only use their Gift Card for orders which have Subtotal greater than $200.
+
+![Sample](./Image_Growth_m1/image460.png?raw=true)
+
+**The Cart Item Conditions** tab allows you to set up Gift Card usage conditions applied to each item in Customers’ shopping cart. For example, Customers can use their Gift Cards to pay for orders only if the Category  is Women - Top, and Blousers.
+
+![Sample](./Image_Growth_m1/image461.png?raw=true)
+
+_Notes_: Normally some common product attributes are enabled to use with promotion rules by default. If you don’t see the attribute you want to set Gift Card’s Conditions, such as SKU, you can go to **Catalog > Attributes > Manage Attributes**. Search and choose Attribute Code, such as SKU. Then change Use for Promo Rule Conditions to Yes.
+
+To know more about other tabs in the New Product setting such as Design, Inventory, Barcode, Websites, Categories, Related Products…., you can refer to **Section 4.1.4.3. Add New Product – Gift Card** for more details. 
+
+Remember to click on **Save** or **Save and Continue Edit** button to save your work. After saving, the Gift Card product which you have just created will be shown on Gift Card Product Manager page as below:
+
+![Sample](./Image_Growth_m1/image462.png?raw=true)
+
+b) Manage Products Page
+
+_Path: **Catalog > Manage Products**_ 
+
+- **Step 1**: Get started 
+
+Click on **Add Product** button
+
+![Sample](./Image_Growth_m1/image463.png?raw=true)
+
+Select Product Type: _Gift Card_
+
+- **Step 2**: 
+
+Click on **Continue** button and enter required information as the the first way of creating Gift Card product as above.
+
+![Sample](./Image_Growth_m1/image464.png?raw=true)
+
+After saving, Gift Card product which you have just created is shown on  Gift Card Product Manager page as below:
+
+![Sample](./Image_Growth_m1/image465.png?raw=true)
+
+To edit any Gift product, you need to click on corresponding row or link **Edit**. Remember to click on **Save** or **Save and Continue Edit** button after editing to save your work.
+
+##### Generate Gift Codes 
+
+##### Manage Gift Codes 
+
+##### Manage Gift Codes Sets
+
+##### Manage Gift Card Credit Balance
+
+##### Use Gift Card/Code When Creating New Orders in Back-end 
+
+##### Refund Orders into GiftCard Credit Balance in Back-end 
+
+##### History
+
 #### How Customers Manage Gift Card 
 
 ### Reward Points 
