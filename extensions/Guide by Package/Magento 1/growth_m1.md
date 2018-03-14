@@ -4748,6 +4748,66 @@ To edit any Gift product, you need to click on corresponding row or link **Edit*
 
 ##### Generate Gift Codes 
 
+_Path: **Gift Card > Generate Gift Codes**
+
+![Sample](./Image_Growth_m1/image466.png?raw=true)
+
+ You will be navigated to _Gift Code Pattern Manager_ page. 
+ 
+![Sample](./Image_Growth_m1/image467.png?raw=true) 
+
+To add a new template to generate gift codes, click on Add Gift Code Pattern button and configure information as below: 
+
+- **General Information**: 
+
+![Sample](./Image_Growth_m1/image468.png?raw=true) 
+
+(1) Pattern name: Enter a name of the template to generate gift codes 
+
+(2) Gift code pattern:  Configure the pattern to generate gift codes in mass including the following code: 
+
++ [A.8]: 8 alpha characters
+
++ [N.4] : 4 numeric characters
+
++ [AN.6] : 6 alphanumeric characters
+
+If you enter GIFT-[A.4]-[AN.6] as the sample, the system will auto-create a bunch of gift codes matching this pattern, GIFT-ADFA-12NF0O for example.
+
+(3) Gift code value:  Enter a value for gift codes. 
+
+(4) Currency: Choose a currency unit for gift code value 
+
+(5) Expired on: Set the expiration date for gift codes 
+
+(6) Template: Select a gift card template
+
+(7) Template image: Select template image for gift code
+
+(8) Gift code Qty: Enter the number of gift codes generated based on the pattern above. 
+
+(9) Store View: Set places where customers can use the gift code 
+
+- **Conditions**: 
+
+![Sample](./Image_Growth_m1/image469.png?raw=true)
+
+In this tab, you can set special conditions applied to shopping carts when Customers use gift codes generated to check out.
+
+After setting up, click on **Save Pattern**, **Save and Continue Edit** or **Save And Generate** button, the template created will be shown in the Gift Code Pattern Manager grid as below:
+
+![Sample](./Image_Growth_m1/image470.png?raw=true)
+
+When you click on **Save And Generate** button, gift codes will be auto-generated. After that, Gift Codes Information page will show a new tab
+
+- **Gift Code Information**: 
+
+![Sample](./Image_Growth_m1/image471.png?raw=true)
+
+Besides viewing details and status of gift codes generated, you can export the list of Gift Card codes to .CSV or .XML file by clicking on the drop-down list Export to, choose one of the options provided and then click on **Export** button.
+
+![Sample](./Image_Growth_m1/image472.png?raw=true)
+
 ##### Manage Gift Codes 
 
 ##### Manage Gift Codes Sets
