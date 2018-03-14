@@ -4060,13 +4060,193 @@ Then, click on **Print** button to print barcode
 
 #### Print Barcode 
 
+_Path: **Barcode Management > Print Barcode**
+
+Here you can select the barcode template from the templates created before to print.
+
+![Sample](./Image_Growth_m1/image400.png?raw=true)
+
+(1) Select Barcode Template: select the template (A4, Standard or Jewelry)
+
+(2) This shows a preview for you to check the template before printing it
+
+(3) The list of barcodes will be shown in the table, tick on the one you want to print
+
+After all, click **Print** 
+
 #### Barcode Generated History
+
+_Path: **Barcode Management > Barcode Generated History**
+
+You can view the history table showing information such as **ID**, created **Date**, which User created, **Barcode Qty**., Type (Generated or Imported) and **Detail**. 
+
+If you click on **View** in the _Detail column_, you will be linked to **Barcode Created History Details** site as below:
+
+![Sample](./Image_Growth_m1/image401.png?raw=true)
+
+You will see when, who and why created Barcode. You can view the list of created barcodes in the table. If you click on **View** in the _Detail column_ 
 
 ### Purchase Management 
 
 #### Manage Suppliers and Pricelist 
 
+##### Manage Suppliers
+
+_Path: **Supplier > Manage Suppliers**_ 
+
+![Sample](./Image_Growth_m1/image402.png?raw=true)
+
+a) Supplier List
+
+In Supplier Management view, you can view all your suppliers list with a lot of information including **Supplier name, Supplier code, Contact email, Status**. Besides, you can edit, change status or delete suppliers one by one or in bulk. In this page, you also can export the supplier list to CSV/XML files by clicking on the Export button shown as the image above.
+
+b) Add New Supplier 
+
+To add a _new supplier_, click to the Add New Supplier button on the top-right corner of the **Manage Suppliers** page view. Then you will be navigated to **Add New Supplier** view page.
+
+![Sample](./Image_Growth_m1/image403.png?raw=true)
+
+- **Supplier Information** 
+
+(1) Supplier Name: Insert name of supplier
+
+(2) Supplier Code: Enter a code of the supplier, it can be Commercial and Government Entity (CAGE) code of supplier, or supplier number, or supplier code, etc.
+
+(3) Contact Person: Name of a representative who you contact on behalf of the supplier
+
+(4) Email: Email of the supplier or their representative
+
+(5) Status: Choose Enabled to enable the supplier
+
+(6) Description:  Write a description about the supplier
+
+- **Mailing Address** 
+
+![Sample](./Image_Growth_m1/image404.png?raw=true)
+
+ All information in this tab are optional, so you don’t need to completely fill all of them. 
+
+- **Product List** 
+
+![Sample](./Image_Growth_m1/image405.png?raw=true)
+
+This tab allows you to add and manage products of the supplier you are creating. You can assign products to your supplier by importing a _CSV file_.
+
+To import products, click on the _**Import products > Choose File** button_, select a **CSV file**, then click on the **Import** button.
+
+![Sample](./Image_Growth_m1/image406.png?raw=true)
+
+If you are not clear about the format of the CSV file, you can download our sample file.
+
+After products imported, the list of products will be updated with **ID, Name, SKU, Supplier product SKU, Cost, Tax from the CSV file.**
+
+##### Manage Pricelist 
+
+_Path: **Supplier > Manage Pricelist**_
+
+![Sample](./Image_Growth_m1/image407.png?raw=true)
+
+_NOTE_: **Pricelist** is a list of prices for the goods offered by a supplier. It usually consists of Minimal Qty and Cost
+
+In the **Pricelist Management**, you can view the pricelist with information such as **Product SKU, Product name, Supplier, Minimal Qty, Purchase Price, Start date, End date**.
+
+In this page, you can:
+
+- **Add Pricelist**: Click on **Import Pricelist** button
+
+![Sample](./Image_Growth_m1/image408.png?raw=true)
+
+Then choose a CSV file from your computer, and click on **Import** button. If you are not clear about the format of the CSV file, you can download our sample file.
+
+- **Update Pricelist**: you select the pricelist you want to update, change information of the pricelist, then click to **Mass Update** button
+
+- **Remove Pricelist**: you can remove pricelist one by one by clicking on **Remove** in each pricelist line, or remove mass pricelist by choosing pricelists you want to remove and click on **Mass Remove** button.
+
 #### Manage Quotation 
+
+_NOTE_: **A Quotation** (or a _request for quotation_) is the proposal of price and quantity of goods that store owners send to suppliers. The quotation will become purchase order when a seller sends confirmation of price and availability of products stated in the quotation.
+
+##### Create a New Quotations
+
+_Path: **Purchase Management > Quotation > Create Quotation**_
+
+a) Input General Information 
+
+![Sample](./Image_Growth_m1/image409.png?raw=true)
+
+To create a new quotation, fill in all *required* information including Created Time, Supplier, Currency, Currency Exchange Rate and Comment(_optional_). After that, click on **Prepare Product List** to go to the next step.
+
+![Sample](./Image_Growth_m1/image410.png?raw=true)
+
+b) Prepare Product List 
+
+In this step, there are 6 ways for you to prepare product list as shown below:
+
+(1) Import Products via a _CSV file_ (a sample file is provided)
+
+(2) Scan Barcode to prepare product (if Barcode Management module is also installed);
+
+(3) Prepare product list based on _Supply Need Products_ forecast. The system will calculate the number of stock that may be in need in an upcoming period based on its sales. There are 4 steps you need to follow:
+
+![Sample](./Image_Growth_m1/image411.png?raw=true)
+
+- **Step 1**: Select the criteria for the system to forecast Supply Need Products:
+
++ **Warehouse**: choose the warehouse containing the stock to be forecasted;
+
++ **Sales Periods**: the system will examine the stock’s sales statistics in this period to make forecast. Options in the drop-down list include last 7 days, last 30 days, last 3 months and custom range (if you want another specific period); 
+
++ **Forecast Supply Need to**: the system will predict if the stock on hand is enough for sales until this date.
+
+- **Step 2**: Click on **Show Supply Needs** and the Supply Need results will appear in the table. The table shows the current quantity in stock, its sales quantity per day, date when your stock on hand is still enough for sales and the supply need quantity.
+
+- **Step 3**: Select the products in the table that you want to add to the Quotation.
+
+- **Step 4**: Click **Add Selected Products** and the products will be added to the Quotation
+
+(4) Prepare **Back Order Products**. Back order products are those that have been ordered by customers but currently not available in stock;
+
+(5) Prepare **Low Stock Products**. 
+
+![Sample](./Image_Growth_m1/image412.png?raw=true)
+
+If Inventory Management module is installed, Low Stock products are suggested according to your low stock rules. Select a low stock notification from the drop-down list, then select the products you want to create quotation and click **Add Selected Products**.
+
+(6) **Select products** from the list of products from that specific supplier with the **All Products** from _Supplier_ button.
+
+You can manually enter the Purchase Cost, Tax, Discount and Ordered Qty for each product in the grid. Current cost is the unit price you already knew, which can be blank. Purchase cost is the unit price at the time of creating the PO. Remember to click **Update Items** to save your edits.
+
+After entering all required fields, click **Save** button and Order Totals is automatically calculated as below.
+
+![Sample](./Image_Growth_m1/image413.png?raw=true)
+
+c) Edit Shipping and Payment Method 
+
+You can set up Shipping and Payment method for the quotation:
+
+![Sample](./Image_Growth_m1/image414.png?raw=true)
+
+(1) **Shipping Address**: Enter the address you want the stock to be shipped to
+
+(2) **Shipping Method**: Select a shipping method for the quotation
+
+(3) **Shipping Cost**: Estimate and enter the shipping cost
+
+(4) **Shipment Start Date/ Expected Delivery Date**: Set dates when you start the shipment and expect delivery
+
+(5) **Payment Term**: Select the payment term
+
+(6) **Order Placed Via**: Choose the method to send order: N/A, Email, Phone, Fax, Vendor website
+
+#####  Manage Quotations
+
+_Path: **Purchase Management > Quotation > Quotations**_ 
+
+![Sample](./Image_Growth_m1/image415.png?raw=true)
+
+In the Manage Quotations page, you can _Create Quotation_ by clicking on **Create Quotation**, or view all quotations in a list. Each quotation is shown with related information: **Reference Number, Created Date, Supplier, Requested Qty, Grand Total (Inclusive Tax), Status and Action (to view more details)**. 
+
+_Note_: quotations which are converted into PO will be removed from this list.
 
 #### Manage Purchase Order 
 
