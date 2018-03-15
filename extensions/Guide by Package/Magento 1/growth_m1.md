@@ -5155,7 +5155,666 @@ Customers can choose to use Gift Card or Gift Card credit and enter the amount o
 _Notes_: Gift Card codes or Credit Card credit balances cannot be used to purchase Gift Card products but they can be spent on shipping fee, depending on Admin’s settings.
 
 ### Reward Points 
+
 #### How Admin Manage Reward Points 
+
+##### Manage Earning Rate and Rules 
+
+a) Manage Earning Rate 
+
+_Path:  **Backend > Reward Points > Earning > Earning Rates**_ 
+
+![Sample](./Image_Growth_m1/image512.png?raw=true)
+
+Then the Earning Rates page will be shown, allowing you to do many tasks:
+
+- **Add a New Rate** 
+
+![Sample](./Image_Growth_m1/image513.png?raw=true)
+
+To add a new earning rate, you can click on the **Add Rate** button and then fill out all the required data below: 
+
+![Sample](./Image_Growth_m1/image514.png?raw=true)
+
+(1) Amount of money spent: Enter a specific amount of money
+
+(2) Earning point(s): Enter the number of points that you want customers to earn when they place orders. It is compatible with the above money spent.
+
+(3) Status: Select Active to enable the earning rate in front-end
+
+(4) Websites: Select the website where customers can earn points
+
+(5) Customer groups: Select the customer groups which can earn points after purchasing
+
+(6) Priority:  This field allows you to set up the priority level for every earning rule. If there are many rules, then the one with the highest priority will be applied first. In case there are two rates with the same priority, the rate created sooner will be applied.
+
+After you finish filling out all the required data, remember to click on the **Save** or **Save and Continue Edit** button to save your work. If you click on the **Save** button, you’ll be navigated to the Earning rates page and your rate will be shown as below:
+
+![Sample](./Image_Growth_m1/image515.png?raw=true)
+
+- **Edit/Delete an Existing Rate** 
+
+In case you want to edit a rate, please click on the _Edit link_ in the **Action** column.
+
+Then you will be redirected to the _Edit Earning Rate page_:
+
+![Sample](./Image_Growth_m1/image516.png?raw=true)
+
+After editing the rate as you want, remember to click on the **Save** or the **Save and Continue Edit** button to save your work.
+
+To delete a rate, you can go to the **Edit Rate** page and then click on the **Delete** button on top of the page.
+
+b) Manage Catalog Earning Rules
+
+_Path:  **Backend > Reward Points > Earning > Catalog Earning Rules**_ 
+
+![Sample](./Image_Growth_m1/image517.png?raw=true)
+
+Or you can follow the path **Earning > Catalog Earning Rules** as below:  
+
+![Sample](./Image_Growth_m1/image518.png?raw=true)
+
+Then you can see the **Catalog Earning Rule Manager** page as below:
+
+![Sample](./Image_Growth_m1/image519.png?raw=true)
+
+- **Add a New Rule** 
+
+To add a new catalog rule, click on the **Add Rule** button and fill out all the required data.
+
++ **General Information** 
+
+![Sample](./Image_Growth_m1/image520.png?raw=true)
+
+(1) Rule Name: Set name for a rule
+
+(2) Description: Describe the rule
+
+(3) Status: Select Active or Inactive to allow the rule works or not.
+
+(4) Websites: Select the website you want to apply the rule.
+
+(5) Customer Group: Select types of customers you want to apply the rule. 
+
+(6) Validate from: Select a date from which the rule will be effective. 
+
+(7) Validate to: Select a date to which the rule will no longer be valid. 
+
+(8) Priority: This field allows you to set up the priority level for every catalog rule. If there are many rules, then the one with the highest priority will be applied first
+
++ **Conditions** 
+
+![Sample](./Image_Growth_m1/image521.png?raw=true)
+
+This tab allows you to configure the products to which the rule is applicable. For example, if you want to apply this rule to **Dress and Shirts**, you can configure the condition as in the image above.
+
+If you leave this tab blank, the rule will be applied to all products.
+
++ **Action**
+
+On this tab, you can configure the number of points that Customers will receive according to the rule and how to exchange points when they purchase products. There are three options for you to choose: 
+
+**Option 1: Give Fixed x Points to Customers**
+
+Customers will receive a fixed number of points for whatever products they buy. 
+
+![Sample](./Image_Growth_m1/image522.png?raw=true)
+
+For example, if you want to give Customers 5 points for purchasing products, then:
+
+(1) Choose Action: Give X points to Customer 
+
+(2) Fill in field Points (X): eg: 5
+
+(3) Select **Yes** for the field _Stop Further Rules Processing_ to stop applying all other Shopping Cart Earning rules or No to apply the rule with the highest priority level.
+
+➔ If Customers purchase a product of $500.00 or $800.00, they will earn 5 points.
+
+**Option 2: Give X Points for every Y amount of Price**
+
+The more expensive the products Customers buy, the more points they can receive.
+
+![Sample](./Image_Growth_m1/image523.png?raw=true)
+
+For example, if you want to give Customers 5 points for every $200.00 of the price they spend and limit the number of points that can be earned to 15, then:
+
+(1) Choose Action: Give X points for every Y amount of price 
+
+(2) Fill in field Points (X): E.g: 5 
+
+(3) Fill in field Money Step (Y): E.g: 200 
+
+(4) Fill in field Max points earned by this rule: E.g: 15 
+
+(5) Select **Yes** for the field _Stop Further Rules Processing_ to stop applying all other Shopping Cart Earning rules or No to apply the rule with the highest priority level.
+
+➔  If Customers purchase a product of $800.00, they will earn 15 points.
+
+**Option 3: Give X Points for every Y amount of Points** 
+
+The more profits get from selling products that Customers buy, the more points they can receive.
+
+![Sample](./Image_Growth_m1/image524.png?raw=true)
+
+For example, if you want to give Customers 5 points for every $200.00 of profit they make and limit the number of points that can be earned to 15, then:
+
+(1) Choose Action: Give X points for every Y amount of Profit 
+
+(2) Fill in field Points (X): eg:5 
+
+(3) Fill in field Money Step (Y): eg: 200 
+
+(4) Fill in field Max points earned by this rule: eg: 15
+
+(5) Select **Yes** for the field _Stop Further Rules Processing_ to stop applying all other Shopping Cart Earning rules or No to apply the rule with the highest priority level.
+
+➔ If Customers purchase a product which contributes $800.00 in profit, they will earn 15 points.
+
+After you finish configuring, remember to click on the **Save Rule** or **Save and Continue Edit** button to save your work. If you click on the **Save Rule** button, you will be navigated to the _Catalog Earning Rule Manager page_ and the rule will be shown in the catalog rule list as below:
+
+![Sample](./Image_Growth_m1/image525.png?raw=true)
+
+- **Edit/Delete an Existing Rule** 
+
+In case you want to edit any catalog rule, please click on the _Edit link_ in the _Action column_. Then you will be redirected to the _Edit Rule page_.
+
+After editing the rule as you want, remember to click on the **Save Rule** or Save and **Continue Edit** button to save your work.
+
+To delete a catalog rule, you can go to the _Edit Rule page_ and click on the **Delete** button on the top of the page. 
+
+c) Manage Shopping Cart Earning Rules 
+
+_Path: **Backend > Reward Points > Earning > Shopping Cart Earning Rules**_ 
+
+![Sample](./Image_Growth_m1/image526.png?raw=true)
+
+Or follow the path as below: 
+
+![Sample](./Image_Growth_m1/image527.png?raw=true)
+
+- **Add New Rule** 
+
+To add a new Shopping Cart rule, you can click on the **Add rule** button and fill out all the required data.
+
++ **General Information** 
+
+![Sample](./Image_Growth_m1/image528.png?raw=true)
+
+(1) Rule Name: Set rule name, which will be shown on the My Reward page on frontend. 
+
+(2) Description: Describe the rule
+
+(3) Status: Select Active or Inactive to allow the rule works or not.
+
+(4) Websites: Select the website you want to apply the rule.
+
+(5) Customer Group: Select types of customers you want to apply the rule. 
+
+(6) Validate from: Select a date from which the rule will be effective. 
+
+(7) Validate to: Select a date to which the rule will no longer be valid. 
+
+(8) Priority: This field allows you to set up the priority level for every catalog rule. If there are many rules, then the one with the highest priority will be applied first
+
++ **Conditions** 
+
+This tab allows you to configure the condition of shopping carts to which the rule is applicable. 
+
+![Sample](./Image_Growth_m1/image529.png?raw=true)
+
+For example, if you want to apply this rule only for carts which have _Subtotals_ greater than $300, you can configure the condition as in the image above:
+
+If you leave this tab blank, the rule will be applied to all shopping carts.
+
++ **Actions** 
+
+In the _Action_ tab, you can configure the number of points that Customers will receive when the rule is applied.
+
+There are three options for actions for you to choose:
+
+**Option 1: Give Fixed X Points to Customers** 
+
+ Customers will receive a fixed number of X points for whatever order they place.
+
+![Sample](./Image_Growth_m1/image530.png?raw=true)
+
+For example, if you want to give Customers 5 points for purchasing, then:
+
+(1) Choose Action: Give fixed X points to Customers 
+
+(2) Fill in field Points (X): 5 
+
+(3) Select Yes for the field Stop Further Rules Processing to stop applying all other Shopping Cart Earning rules or No to apply the rule with the highest priority level.
+
+(4) Choose the conditions of card items to apply the rule
+
+➔  If Customers place an order of $100 or $1000, they will earn 5 points.
+
+**Option 2: Give X Ponits for every Y Money Spent** 
+
+The higher the order values that Customers place, the more points they can receive.
+
+![Sample](./Image_Growth_m1/image531.png?raw=true)
+
+For example, if you want to give Customers 5 points for every $200.00 spent and limit the number of points that can be earned to 15, then:
+
+(1) Choose Action: Give X points for every Y amount spent 
+
+(2) Fill in field Points (X): 5 
+
+(3) Fill in field Money Step (Y): 200 
+
+(4) Fill in field Max points earned by this rule: 15 
+
+(5) Select Yes for the field Stop Further Rules Processing to stop applying all other Shopping Cart Earning rules or No to apply the rule with the highest priority level.
+
+(6) Choose the conditions of card items to apply the rule 
+
+➔ If Customers purchase an order of $800.00, they will earn 15 points.
+
+**Option 3: Give X Points for evert Y Quantity**
+
+The more products Customers buy from your store, the more points they can receive. 
+
+![Sample](./Image_Growth_m1/image532.png?raw=true)
+
+For example, if you want to give Customers 5 points for every 10 items they order and limit the number of points that can be earned to 15, then:
+
+(1) Choose Action: Give X points for every Y qty purchased 
+
+(2) Fill in field Points (X): eg.  5 
+
+(3) Fill in field Quantity (Y): eg.  10 
+
+(4) Fill in field Max points earned by this rule:  eg. 15 
+
+(5) Select  Yes for the field Stop Further Rules Processing to stop applying all other Shopping Cart Earning rules or No to apply the rule with the highest priority level. 
+
+(6) Choose the conditions of card items to apply the rule 
+
+➔ If Customers purchase an order of 40 items, they will earn 15 points.
+
+After you finish configuring, remember to click on the **Save Rule** or **Save and Continue Edit** button to save your work. If you click on the **Save Rule** button, you will be navigated to the _Shopping Cart Earning Rule Manager page_ and the rule will be shown in the catalog rule list as below:
+
+![Sample](./Image_Growth_m1/image533.png?raw=true)
+
+- **Edit/Delete Existing Rule** 
+
+In case you want to edit any shopping cart rule, please click on the Edit link in the Action column. Then you will be redirected to the Edit Rule page.
+
+After editing the rule as you want, remember to click on the Save Rule or Save and Continue Edit button to save your work.
+
+To delete a catalog rule, you can go to the Edit Rule page and click on the Delete button on the top of the page. 
+
+d) Manage Earning Points by Product 
+
+_Path:  **Backend > Reward Points > Earning > Manage earning points by product**_ 
+
+![Sample](./Image_Growth_m1/image526.png?raw=true)
+
+Or follow the path **Earning > Manage earning points by product**:
+
+![Sample](./Image_Growth_m1/image534.png?raw=true)
+
+Then you will be redirected to the _Manage Earning Points By Product_ page:
+
+![Sample](./Image_Growth_m1/image535.png?raw=true)
+
+On this page, you can change the number of earning points for each product by 2 ways:
+
+Tick the product, choose **Change Point** in the dropdown menu of **Action** box. Then, fill in the number of points you want to set. (See image below)
+
+![Sample](./Image_Growth_m1/image536.png?raw=true)
+
+Double click on **Earning Points** column of the product you want to edit. Insert the number of points as you prefer, then click on **Ok**. (See image below)
+
+![Sample](./Image_Growth_m1/image537.png?raw=true)
+
+Please note that Earning Points for products takes priority over catalog rules, and shopping cart rules may still apply.
+
+##### Manage Spending Rate and Rule
+
+a) Manage Spending Rate 
+
+_Path: **Backend > Reward Points > Spending > Spending rates**_
+
+![Sample](./Image_Growth_m1/image538.png?raw=true)
+
+Or follow the path below: 
+
+![Sample](./Image_Growth_m1/image539.png?raw=true)
+
+Then the _Spending Rates_ page will be shown, allowing you to do many tasks:
+
+- **Add a New Rate**
+
+To add a new spending rate, you can click on the **Add Rate** button and then fill out all the required fields.
+
+![Sample](./Image_Growth_m1/image540.png?raw=true)
+
+(1) Spending Points: Enter a specific number of spending points
+
+(2) Discount received: Enter the amount of money which will be discounted, compatible with the above spending points.
+
+(3) Status: Select Active or Inactive to allow the rule does work or does not.
+
+(4) Limit Spending points based on fixed amount or a percentage amount of Total Order Value or none of which are applied. 
+
+(5) Websites: Select the website you want to apply the rule.
+
+(6) Customer Group: Select types of customers you want to apply the rule. 
+
+(7) Priority: This field allows you to set up the priority level for every catalog rule. If there are many rules, then the one with the highest priority will be applied first.
+
+After you finish filling out all the required information, remember to click on the Save or the Save and Continue Edit button to save your work. If you click on the Save button, you’ll be navigated to the Spending Rates manager page and your rate will be shown as below:
+
+![Sample](./Image_Growth_m1/image541.png?raw=true)
+
+- **Edit/Deleting an Existing Rate** 
+
+In case you want to edit a rate, please click on **Edit link** in the _Action_ column.
+
+Then you will be redirected to the _Edit Spending Rate_ page:
+
+![Sample](./Image_Growth_m1/image542.png?raw=true)
+
+After finish editing, remember to click on the **Save** or the **Save and Continue Edit** button to save your work.
+
+To delete a rate, you can go to the _Edit Rate_ page and then click on the **Delete** button on top of that page.
+
+b) Manage Catalog Spending Rule 
+
+_Path: **Backend > Reward Points > Spending > Catalog Spending Rules**_
+
+![Sample](./Image_Growth_m1/image543.png?raw=true)
+
+Or follow the path: 
+
+![Sample](./Image_Growth_m1/image544.png?raw=true)
+
+Then you will be redirected to the _Catalog Spending Rule Manager_ page.
+
+- **Add a New Rule** 
+
+First, you should click on the **Add Rule** button. And then you should configure information in 3 tabs:
+
++ **General Information** 
+
+![Sample](./Image_Growth_m1/image545.png?raw=true)
+
+You should pay attention to these following fields:
+
+(1) Rule Name: Set the name of a rule
+
+(2) Description: Describe the rule
+
+(3) Status: Select Active or Inactive to allow the rule works or not.
+
+(4) Websites: Select the website you want to apply the rule.
+
+(5) Customer Group: Select types of customers you want to apply the rule. 
+
+(6) Validate from: Select a date from which the rule will be effective. 
+
+(7) Validate to: Select a date to which the rule will no longer be valid. 
+
+(8) Priority: This field allows you to set up the priority level for every catalog rule. If there are many rules, then the one with the highest priority will be applied first.
+
++ **Conditions**
+
+This tab allows you to configure the conditions of products to which the rule is applicable.
+For example, you want to apply this rule only for Category named Tops & Blouses; you can configure the condition as in the below:
+
+![Sample](./Image_Growth_m1/image546.png?raw=true)
+
+(1) Select the conditions you want to apply category spending rules. If you do not set up this field, the rule will be applied to all categories
+
+(2) Choose one of the two options to configure how Customers can spend points: Discount for every X points or Spend X points for every Y amount of Price.
+
+**Option 1: Discount for every X Points**
+
+For example, if you want to configure that Customers need to spend at least 5 points on products:
++ Choose Action: Discount for every X points 
+
++ Fill in field Points (X): 5
+
++ Choose a type to limit spending points: None/A fixed amount of price/A percentage of Price: eg: select None
+
++ Enter the maximum number of points spent by customers. If you leave it blank, there is no limitation. 
+
+➔ With every 5 points customers spent, they can receive a corresponding discount. For example, 5 points can be spent to get $1, 10 points can get $2 and so on
+
+![Sample](./Image_Growth_m1/image547.png?raw=true)
+
+**Option 2: Spend X Points for every amount of Price**
+
+For example, if you want to configure that Customers need to spend 5 points on every $200.00 of product price and set the minimum number of points that your customers have to spend to 15, then:
+
++ Choose Action: Spend X Points for every Y amount of price
+
++ Fill in field Points (X): 5 
+
++ Fill in field Money Step (Y): 200 
+
++ Fill in field Spending-point Step (the minimum spending points): 5
+
++ Choose a type to limit spending points: None/A fixed amount of price/A percentage of Price: E.g: select None in this example.
+
++ Enter the maximum number of points spent by customers. If you leave it blank, there is no limitation. 
+
+➔ If the price of the product is $800.00, your customers can spend 20 points, which is equal to$800 to buy the item. Also, your Customers can spend at least 5 points, which is equal to $200 and they will pay the rest by other payment methods. 
+
++ **Actions**
+
+In the Action tab, you can configure how prices of products are discounted after Customers use points:
+
+![Sample](./Image_Growth_m1/image548.png?raw=true)
+
+There are four discount types:
+
++ By Fixed Amount
+
++ To Fixed Amount
+
++ By Percentage of the original price
+
++ To Percentage of the original price
+
+Let’s take some examples:
+
+**Example 1** 
+
+To give a discount of $10 or to $10 for every X points and apply the discount 5 times maximum per product, you can configure as below:
+
+- Choose Discount Type: By a fixed amount or To a fixed amount 
+
+- Fill in field Discount Amount: 10 
+
+- Fill in field Uses Allowed Per Product: 5
+
+➔ With the discount By a fixed amount of $10.00 and Uses Allowed Per Product equal to 5, a $200.00 product will have its price down to $190.00 for the first time of spending points, to$180.00 for the second time and so on until reaching $150.00 for the last time (5th time).
+
+After being saved, the rule which has just been created will be shown as below:
+
+![Sample](./Image_Growth_m1/image549.png?raw=true)
+
+**Example 2**
+
+To give a discount of 10% or to 10% for every X points (configured in **Conditions** tab) and apply the discount 5 times maximum per product, you can configure as below:
+
+- Choose "Discount Type": "By a percentage of the original price" or "To a percentage of the original price" 
+
+- Fill in field: "Discount Amount": 10 
+
+- Fill in field: "Uses Allowed Per Product": 5 
+
+➔ With the discount "By a fixed percentage" of 10% and "Uses Allowed Per Product" equal to 5, a $200.00 product will have its price down to $180.00 for the first time of spending points, to $160.00 for the second time and so on until reaching $100.00 for the last time (5th  time)
+
+- **Edit/Delete an Existing Rule**
+
+In case you want to edit any catalog spending rule, please click on the **Edit link** in the _Action column_. Then you will be redirected to the _Edit Rule page_
+
+After editing the rule as you want, remember to click on the **Save Rule** or **Save and Continue Edit** button to save your work.
+
+To delete a catalog rule, you can go to the _Edit Rule page_ and click on the **Delete** button on the top of the page
+
+c) Manage Shopping Cart Spending Rule 
+
+_Path:  **Backend > Reward Points > Spending > Shopping Cart Spending Rules**_ 
+
+![Sample](./Image_Growth_m1/image550.png?raw=true)
+
+Or follow the path below: 
+
+![Sample](./Image_Growth_m1/image551.png?raw=true)
+
+Then you will be redirected to the _Shopping Cart Spending Rule Manager_ page.
+
+- **Add a New Rule** 
+
+First you should click on the **Add Rule** button. And then you should configure information in 3 tabs:
+
++ **General Information** 
+
+![Sample](./Image_Growth_m1/image552.png?raw=true)
+
+Fill in all the required information as above: **Money spent for order, Earning Points, Status, Websites, Validity Time, Customer groups, Priority**.
+
++ **Conditions** 
+
+This tab allows you to configure the conditions of shopping carts to which the rule is applicable.
+
+For example, you want to apply this rule only to shopping carts having the subtotals equal to or greater than $200, you can configure the condition as in the image below:
+
+![Sample](./Image_Growth_m1/image553.png?raw=true)
+
+(1) Select the shopping cart you want to apply the rule. If you do not set up this field, the rule will be applied to all carts.
+
+(2) Configure how Customers can spend points in the Action field
+
+Notice that in this field, there are two options for you to choose
+
+**Option 1: Give Discount for fixed X Points** 
+
+Customers can ONLY spend X points on whatever order they place.
+
+For example, If you want to allow Customers to spend 5 points only on a shopping cart to get the discount, then you can configure as below:
+
+- Choose Action: Give discount for fixed X points 
+
+- Fill in field Points (X): 5
+
+➔ If Customers place an order of $500.00 or $800.00, they can spend only 5 points in both cases.
+
+![Sample](./Image_Growth_m1/image554.png?raw=true)
+
+**Option 2: Give Discount for every X Points** 
+
+Customers can receive discounts proportionally to the number of points they spent.
+
+If you want to give a discount for every 5 points Customers spend on the order and limit the number of points that can be used to 15, then:
+
+- Choose Action: Give discount for every X points 
+
+- Fill in field Points (X): 5 
+
+- Fill in field  Max points spent by this rule: 15
+
+- Select the type to limit spending points: None/A fixed amount of Total Order Value/ A percentage of Total Order Value.
+
+- Enter a limit value if your choose  A fixed amount of Total Order Value or A percentage of Total Order Value type above. 
+
+➔ With every 5 points customers spent, they can receive a corresponding discount. For example, 5 points can be spent to get $1 of discount, 10 points can get $2 and so on. But they cannot use more than 15 points as that is the maximum points that can be spent according to this rule.
+
++ **Actions**
+
+In the Action tab, you can configure how prices of products are discounted after Customers use points: 
+
+![Sample](./Image_Growth_m1/image555.png?raw=true)
+
+(1) Select a condition you want to apply. 
+
+There are two discount types:
+
+- Fixed amount discount for whole cart
+
+- Percentage amount discount for whole cart
+
+(2) Enter the discount amount you want to give customers when they spend points to place orders. 
+
+(3) Select Yes for the field Stop Further Rules Processing to stop applying all other Shopping Cart Spending rules or No to apply the rule with the highest priority level.
+
+(4) Choose a specific condition (such as Category, product…) to apply the rule you have just set. 
+
+Let’s take an example, if you want to give a discount of $10 or 10% for X points (configured in the Conditions tab), then you can configure as below:
+
+- Choose Action: Fixed discount amount for the whole cart or Percent discount amount for the whole cart 
+
+- Fill in field Discount Amount: 10 
+
+➔ An order of $200.00 can be discounted to $190.00 with action **Fixed discount amount for the whole cart** or to $180.00 with the action **Percent discount amount for the whole cart**. 
+
+Besides, you can configure the condition of products on the shopping cart to apply the rule.
+
+After being saved, the rule which has just been created will be shown as below:
+
+![Sample](./Image_Growth_m1/image556.png?raw=true)
+
+- **Edit/Delete an Existing Rule**
+
+In case you want to edit any shopping cart spending rule, please click on the _Edit link_ in the _Action column_. Then you will be redirected to the Edit Rule page.
+
+After editing the rule as you want, remember to click on the **Save Rule** or **Save and Continue Edit** button to save your work.
+
+To delete a shopping cart rule, you can go to the _Edit Rule page_ and click on the **Delete** button on the top of the page. 
+
+d) Manage Spending Point by Products 
+
+_Path: **Backend > Reward Points > Spending > Manage spending points by product**_
+
+![Sample](./Image_Growth_m1/image557.png?raw=true)
+
+Or follow the path: 
+
+![Sample](./Image_Growth_m1/image558.png?raw=true)
+
+Then you will be redirected to the _Manage Spending Points By Product_ page:
+
+On this page, you can change the number of spending points to purchase each product by 2 ways:
+
++ Tick the product, choose **Change Poin** in the dropdown menu of _Action box_. Then, fill in the number of points you want to set. (See the image below).
+
+![Sample](./Image_Growth_m1/image559.png?raw=true)
+
++ Double click on **Spending Points** column of the product you want to edit. Insert the number of points as you want, then click on **Ok**.
+
+![Sample](./Image_Growth_m1/image560.png?raw=true)
+
+You can also set products to buy with points by going to **Catalog > Manage Products**. On the Manage Products page, click on your wanted product. 
+
+![Sample](./Image_Growth_m1/image561.png?raw=true)
+
+Here, in _General_ tab, you will find the field to fill in the number of points that can be used to purchase it. 
+
+![Sample](./Image_Growth_m1/image562.png?raw=true)
+
+##### Manage Transaction
+
+
+
+##### Manage Point Balance of Customers 
+
+a) Manage Point Balance 
+
+b) Change Point Balance 
+
+##### Manage Loyalty Level 
+
+##### Use Point When Creating Orders in Backend 
+
+##### Refund Orders into Point Balance in Backend 
+
+
 
 #### How Customers Use Reward Points 
 
