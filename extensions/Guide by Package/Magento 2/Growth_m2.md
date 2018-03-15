@@ -4917,257 +4917,435 @@ Then, click **Save** to continue
 
 ![Manage Credit Products]()
  
-Scroll down and complete the information, click on  , and fill in the following sections as needed:
-13.	Content tab: 
+Scroll down and complete the information, click on ![Manage Credit Products](), and fill in the following sections as needed:
+
+- **Content tab**: 
+
+![Content tab]()
  
 These fields are not required but needed to be filled in. Describe your product clearly to help your customers understand your store credit rules. 
-14.	Attributes tab
+
+- **Attributes tab**
+
+![attributes tab]()
  
 Enter an alternative name for product
-15.	Images and Video tab: 
- 
-Scroll down to Images and Videos, and click on  , then click on Browse to find or drag image here to upload new image
- 
-Click on Add Video to add new video
- 
-Fill in the box and click on Choose File to upload new video
 
-16.	Search Engine Optimization tab
+- **Images and Video** tab: 
+
+![images and video tab]()
  
-Fill in the required field: URL Key, Meta Title, Meta keywords, Meta Description to improve your SEO work.
-17.	Related Products, Up-Sells, and Cross-Sells tab
+Scroll down to **Images and Videos**, and click on ![icon](), then click on **Browse to find or drag image here** to upload new image
+
+![images and video tab]()
  
-1.	Click on respectively
-1.	Add Related Products
-2.	Add Up-sell Products
-3.	Add Cross-sell Products
+Click on **Add Video** to add new video
+
+![images and video tab]()
  
-(2) Mark the checkbox to select products
-(3) Click on Add Selected Product
+Fill in the box and click on **Choose File** to upload new video
+
+- **Search Engine Optimization tab**
+
+![Search Engine Optimization tab]()
  
-4.	Click on Save to finish
-5.	Customizable Options tab
+Fill in the required field: **URL Key, Meta Title, Meta keywords, Meta Description** to improve your SEO work.
+
+- **Related Products, Up-Sells, and Cross-Sells tab**
+
+![Related Products, Up-Sells, and Cross-Sells tab]())
  
+1. Click on respectively
+- **Add Related Products**
+- **Add Up-sell Products**
+- **Add Cross-sell Products**
+ 
+ ![Related Products, Up-Sells, and Cross-Sells tab]())
+
+2. Mark the checkbox to select products
+3. Click on **Add Selected Product**
+
+ ![Related Products, Up-Sells, and Cross-Sells tab]())
+ 
+4.	Click on **Save** to finish
+
+- **Customizable Options tab**
+
+ ![Customizable Options tab]())
+
 This function allows users to set and manage extra price for each product's variant separately.
+
 Users can simply set the extra price to be applied on a product's variant, regardless of its attribute and attribute value.
-1.	Click on Add Option
-2.	Enter the option tittle
-3.	Select an option type 
+1.	Click on **Add Option**
+2.	Enter the **option tittle**
+3.	Select an **option type** 
 4.	Mark the checkbox to require 
-5.	Click on Add Value
-6.	Enter a title for the value
-7.	Enter an extra price
-8.	Select a price type
-9.	Enter an SKU for each product’s variant
-To remove a value, click   on the right-hand-side of the column 
-10.	Products in Websites tab
+5.	Click on **Add Value**
+6.	Enter a **title** for the value
+7.	Enter an **extra price**
+8.	Select a **price type**
+9.	Enter an **SKU** for each product’s variant
+
+To remove a value, click ![icom]() on the right-hand-side of the column 
+
+- **Products in Websites tab**
+
+![Products in Websites tab]()
  
 Check the box to set credit products on main websites
-11.	Design tab
+
+- **Design tab**
+
+![Design tab]()
  
-1.	Layout: Select a suitable layout to display your credit product
-2.	Display Product Options in: Select the place of product options: In Block after Info Column or In Product Info Column
-3.	Layout Update XML
-4.	Schedule Design Update tab
+1.	**Layout**: Select a suitable layout to display your credit product
+2.	**Display Product Options in**: Select the place of product options: **In Block after Info Column** or **In Product Info Column**
+3.	**Layout Update XML**
+
+- **Schedule Design Update tab**
+
+![Schedule Design Update tab]()
  
-1.	Schedule Update From: Set the schedule to update your design of products
-2.	New Theme: Choose a theme for product pages
-3.	New Layout: Choose No layout updates to keep the existing layout or a new layout to display product different from previous design.
-4.	Gift Option tab
+1.	**Schedule Update From**: Set the schedule to update your design of products
+2.	**New Theme**: Choose a theme for product pages
+3.	**New Layout**: Choose **No layout updates** to keep the existing layout or a new layout to display product different from previous design.
+
+- **Gift Option tab**
+
+![Gift Option tab]()
  
-Set the allow gift message to Yes or check the Use Config Settings box to allow no Gift message. 
-5.	Barcode tab
+Set the allow gift message to **Yes** or check the **Use Config Settings** box to allow no Gift message. 
+
+- **Barcode tab**
+
+![Barcode tab]()
  
-6.	Stock Movement tab
+- **Stock Movement tab**
+
+![Stock Movement tab]()
  
 Any movement of products will be recorded in this tab. 
-7.	Supplier tab
-Store credit products are set up based on your stores, so it is not necessary to fill in this tab. 
-Besides the Credit Product Manager page, you can also create a new credit product by following this path: Products > Inventory Section > Catalog
- 
-8.	Manage Credit Transactions and Report Charts
-1.	Credit Transactions
-Path: Store Credit > Credit Transactions Section > Manage Credit Transactions
-The Credit Transactions page will be shown as below. 
- 
-This page shows all credit-related transactions with a lot of information such as type, detail, customer name/email, added/deducted credit, credit balance after the transaction.
-You can search any transaction by using filter boxes in each column.
-If you click on a customer’s email, you will be navigated to the Customer Information page.
 
-2.	Credit Report Charts
-Path: Store Credit > Credit Transactions Section > Customer Credit Report
-Then the Report Charts page will be shown below. 
+- **Supplier tab**
+
+Store credit products are set up based on your stores, so it is not necessary to fill in this tab. 
+
+Besides the **Credit Product Manager** page, you can also create a new credit product by following this path: **Products > Inventory** Section **> Catalog**
+
+![Supplier tab]()
+ 
+##### Manage Credit Transactions and Report Charts
+
+**a. Credit Transactions**
+
+Path: **Store Credit > Credit Transactions** Section **> Manage Credit Transactions**
+
+The **Credit Transactions** page will be shown as below. 
+
+![Credit Transactions]()
+ 
+This page shows all credit-related transactions with a lot of information such as **type, detail, customer name/email, added/deducted credit, credit balance** after the transaction.
+
+You can search any transaction by using filter boxes in each column.
+
+If you click on a customer’s email, you will be navigated to the **Customer Information** page.
+
+**b. Credit Report Charts**
+
+Path: **Store Credit > Credit Transactions** Section **> Customer Credit Report**
+
+Then the **Report Charts** page will be shown below. 
+
+![Credit Report Charts]()
  
 This page can be divided into two main sections including Life-time Reports and Period-of-time Report Charts.
-9.	Life-time Reports: There are 2 types of reports.
-1.	Customer Credit Statistics with the total credit, the total spent credits and the number of Customers with credit in your system.
-2.	Top 5 Customers with The Greatest Credit Balances with their names and current balances in your system.
-3.	Period-of-time Report Charts: This chart shows you the total spent credits and received credits of all Customers per day in your chosen time range such as last 24 hours, last 7 days, current month, etc.
+- **Life-time Reports**: There are 2 types of reports.
+	- ***Customer Credit Statistics*** with the total credit, the total spent credits and the number of Customers with credit in your system.
+	- ***Top 5 Customers with The Greatest Credit Balances*** with their names and current balances in your system.
+- **Period-of-time Report Charts**: This chart shows you the total spent credits and received credits of all Customers per day in your chosen time range such as **last 24 hours, last 7 days, current month**, etc.
 
-4.	Use Credit when Creating Orders in Backend
-Path: Sales > Operations section > Orders 	
-On the Create Order page on the backend, our module allows you to use credit when creating orders for customers.
-5.	Step 1: Do the steps of creating a new order normally, from creating or selecting customers to selecting products. 
-6.	Step 2: Enter a credit amount in Customer Credit box and click on the Gray Arrow button
+##### Use Credit when Creating Orders in Backend
+
+Path: **Sales > Operations** section **> Orders** 	
+
+On the **Create Order** page on the backend, our module allows you to use credit when creating orders for customers.
+- **Step 1**: Do the steps of creating a new order normally, from creating or selecting customers to selecting products. 
+- **Step 2**: Enter a credit amount in **Customer Credit** box and click on the **Gray Arrow** button
+
+![Use Credit when Creating Orders in Backend]()
  
-1.	Step 3: Select a shipping method and then look at the Order Totals.
+- **Step 3**: Select a shipping method and then look at the **Order Totals**.
+
+![Use Credit when Creating Orders in Backend]()
  
 Our module will auto-update and calculate the grand total of the order.
-After submitting the order, the customer’s credit balance will also automatically updated and you can check the transaction on the Credit Transaction page.
-2.	Refund Orders into Credit Balance
-Path: Sales > Operations section > Orders 
+
+After submitting the order, the customer’s credit balance will also automatically updated and you can check the transaction on the **Credit Transaction** page.
+
+##### Refund Orders into Credit Balance
+
+Path: **Sales > Operations** section **> Orders** 
+
 When customers want to refund an order, our module allows you to transfer the order value to his credit balance. In that way, customers can use the credit for future purchases and you do not have to lose money for the refund at the same time. 
-3.	Step 1: Click on View to see the details of an order
+
+- **Step 1**: Click on **View** to see the details of an order
+
+![Refund Orders into Credit Balance]()
  
-4.	Step 2: 
+- **Step 2**: 
+
+![Refund Orders into Credit Balance]()
  
-On the top bar, click on Credit Memo label to create a refund order 
+On the top bar, click on **Credit Memo** label to create a refund order 
+
+![Refund Orders into Credit Balance]()
  
 After that, select a warehouse to return stocks and adjust the number of products customers want to return.
-5.	Step 3: To adjust refund totals: 
+
+- **Step 3**: To adjust refund totals: 
+
+![Refund Orders into Credit Balance]()
  
 1.	Enter the amount you want to refund into credit as above
-2.	Click on the Refund Offline button
-The amount you entered as well as the credit that the customer used for paying for the order will be refunded to his current credit balance. 
-For any order that includes only Credit Product, the option Refund Order to Credit is not available. 
+2.	Click on the **Refund Offline** button
 
-3.	How Customer uses Store Credit
-1.	How Customers buy Credit Product
-After customers log in to your website, they can access the Store Credit Products page in two ways:
-2.	Option 1: 
+The amount you entered as well as the credit that the customer used for paying for the order will be refunded to his current credit balance. 
+
+For any order that includes only Credit Product, the option **Refund Order to Credit** is not available. 
+
+#### How Customer uses Store Credit
+##### How Customers buy Credit Product
+
+After customers log in to your website, they can access the **Store Credit Products** page in two ways:
+
+- **Option 1**: 
+
+![How Customers buy Credit Product]()
  
-On the top navigation bar, click to Buy Store Credit 
+On the top navigation bar, click to **Buy Store Credit**
+
+![How Customers buy Credit Product]()
  
-After that, the Store Credit page will be shown as above.
-As you can see, this page lists all Credit Products of your website. There are three types of credit products for customers to choose: fixed values, the range of values and drop-down values. 
- ¬¬
-1.	Fixed Value: These credit products have a fixed value. 
+After that, the **Store Credit** page will be shown as above.
+
+As you can see, this page lists all **Credit Products** of your website. There are three types of credit products for customers to choose: fixed values, the range of values and drop-down values. 
+
+![How Customers buy Credit Product]()
+
+***1.	Fixed Value***: These credit products have a fixed value. 
+
+![How Customers buy Credit Product]()
  
-2.	Drop-down Values: With this type, customers can select a specific value in the drop-down list.
+***2.	Drop-down Values***: With this type, customers can select a specific value in the drop-down list.
+
+![How Customers buy Credit Product]()
  
-3.	The range of Values: With this type, customers can choose a desired credit amount within the range configured by admin in the backend. 
+***3.	The range of Values***: With this type, customers can choose a desired credit amount within the range configured by admin in the backend. 
+
+![How Customers buy Credit Product]()
  
 After selecting credit products they like, customers can add them to cart and checkout normally.
+
 When the order is complete, our module will auto-add that credit amount to the customer’s credit balance.
+
 Customers can also send Credits to their friends by doing the following steps: 
+
+![How Customers buy Credit Product]()
  
-1.	Tick Send credit to friend checkbox 
+1.	Tick **Send credit to friend** checkbox 
 2.	Enter the name of the recipient 
 3.	Enter the email address of the recipient. The system will send an email to this address
 4.	Enter the message that recipient will receive.
 
-5.	Option 2:
-Path: My Dashboard page > My Credit tab 
+- **Option 2**:
+
+Path: **My Dashboard** page **> My Credit** tab
+
+![How Customers buy Credit Product]()
  
-To buy credit product, click on the My Credit on the left navigation of the Account Dashboard page.
+To buy credit product, click on the **My Credit** on the left navigation of the **Account Dashboard** page.
  
-In this second way, customers will be navigated to the My Credit page on which they just need to click on the Buy store credit button. Then, the Credit Products page will be displayed and customers can continue buying credit as mentioned steps in option 1 above. 
+ ![How Customers buy Credit Product]()
+
+In this second way, customers will be navigated to the **My Credit** page on which they just need to click on the **Buy store credit** button. Then, the Credit Products page will be displayed and customers can continue buying credit as mentioned steps in option 1 above. 
+
 When the order is completed, there will be two cases happening based on signup status of the recipient email address. 
+
+![How Customers buy Credit Product]()
  
-1.	Case 1: if the recipient does not have an account in the system, an email as above will be sent. 
-2.	Case 2: if the recipient has already had an account in the system, the system will automatically add that credit amount to the Recipient’s credit balance.
+- **Case 1**: if the recipient does not have an account in the system, an email as above will be sent.
+
+- **Case 2**: if the recipient has already had an account in the system, the system will automatically add that credit amount to the Recipient’s credit balance.
+
+![How Customers buy Credit Product]()
  
 In both cases, the sender always gets email notifications as above.
 
-3.	How to manage Credit on My Credit page
-Path: My Dashboard page > My Credit tab 
-1.	Manage Credit Balance
- 
-On the My Credit page, customers can view information about their current credit balances and transaction history.
-In the section Transaction History, our module shows customers all of their credit transactions with a lot of information including date, type, details, added/deducted value in transaction and credit balance.
+##### How to manage Credit on My Credit page
 
-2.	Send Credit to Friends
-Path: My Dashboard page > My Credit tab > Send Credit tab
+Path: **My Dashboard** page **> My Credit** tab 
+
+**a. Manage Credit Balance**
+
+![Manage Credit Balance]()
  
-First, customers should click on the Send Credit tab on the left navigation to go to the Send Credit to Friends page as above. 
-This page has 2 parts including Send Credit to Friends and Credit Code List.
-4.	Send Credit to Friends: allows customers to send credit to their friends by filling in all required information
-5.	Credit Code List: shows all information about the credit codes that customers sent to their friends including code, recipient’s email, amount, sent date and status of code. Credit codes are not displayed fully for security purpose. When customers click on, they will be shown clearly.
+On the **My Credit** page, customers can view information about their current credit balances and transaction history.
+
+In the section **Transaction History**, our module shows customers all of their credit transactions with a lot of information including ***date, type, details, added/deducted value in transaction and credit balance.***
+
+**b. Send Credit to Friends**
+
+Path: **My Dashboard** page **> My Credit** tab **> Send Credit** tab
+
+![Send Credit to Friends]()
+ 
+First, customers should click on the **Send Credit** tab on the left navigation to go to the **Send Credit to Friends** page as above. 
+
+This page has 2 parts including ***Send Credit to Friends*** and ***Credit Code List.***
+
+- ***Send Credit to Friends***: allows customers to send credit to their friends by filling in all required information
+- ***Credit Code List***: shows all information about the credit codes that customers sent to their friends including ***code, recipient’s email, amount, sent date*** and ***status of code***. Credit codes are not displayed fully for security purpose. When customers click on, they will be shown clearly.
+
 Please note that our module allows you to configure whether to require your customers to verify their credit sharing or not. We will consider the two cases separately.
-1.	Case 1: Customers are not required to verify their credit sharing.
+
+- **Case 1**: Customers are not required to verify their credit sharing.
+
+![Send Credit to Friends]()
  
 1.	Enter recipient’s email
 2.	Add an amount that customers want to send to their friends.
 3.	Write a message to the recipient. 
-4.	Click on Send button
+4.	Click on **Send** button
+
 Notice that after entering recipient’s email, our module will check that email address and show a notification to customers.
 
-1.	If the recipient’s email has not been registered on the website: 
+- **If the recipient’s email has not been registered on the website:**
+
 In this case, our module will show a notification for the customer that his friend will receive the credit code via that email. After that, the sender’s credit balance will be deducted immediately and an email will be auto-sent to the recipient’s email address.
+
+![Send Credit to Friends]()
  
 As you can see, this email informs the recipient about the credit amount, message and a credit code which can be used to redeem credit to his balance.
-At the same time, the sender can also see the sent credit code in the Credit Code List section as below.  
-In this section, customers can follow the status of the credit codes they sent. While the recipient has not redeemed a credit code, customers are allowed to cancel it by clicking on the Cancel link in the Action column. After the cancellation, the recipient cannot redeem that credit code anymore.
-Otherwise, once the credit code has been redeemed, the status will be updated, and the Cancel link will be disabled. Please refer to the section  Redeem Credit for more information. 
-Customers can also check their current balances and transactions of sharing credit in the Transaction History section.
- 
 
-2.	If the recipient’s email has been registered on the website: 
+At the same time, the sender can also see the sent credit code in the **Credit Code List** section as below.  
+
+![Send Credit to Friends]()
+
+In this section, customers can follow the status of the credit codes they sent. While the recipient has not redeemed a credit code, customers are allowed to cancel it by clicking on the **Cancel** link in the **Action** column. After the cancellation, the recipient cannot redeem that credit code anymore.
+
+Otherwise, once the credit code has been redeemed, the status will be updated, and the **Cancel** link will be disabled. Please refer to the section **Redeem Credit** for more information. 
+
+Customers can also check their current balances and transactions of sharing credit in the **Transaction History** section.
+ 
+ ![Send Credit to Friends]()
+
+- **If the recipient’s email has been registered on the website:**
+
+![Send Credit to Friends]()
  
 If the recipient’s email address has been registered on your website, our module will send credit directly to his credit balance instead of sending credit code to his email. 
-Customers can check their current balances and transactions in the Transaction History section. 
+
+Customers can check their current balances and transactions in the **Transaction History** section. 
+
+![Send Credit to Friends]()
  
 At the same time, recipients can get information about this transaction. 
+
+![Send Credit to Friends]()
  
-3.	Case 2: Customers are required to verify their credit sharing.
+- **Case 2**: Customers are required to verify their credit sharing.
+
+![Send Credit to Friends]()
+
  
-If you configure that customers have to verify before sharing credit, after clicking on the Send button, they will receive an email as above.
-At the same time, they will be navigated to the Verify page.
-On this page, our module shows them a notification about the verification requirement. In the Credit Code List, that code is put under the “Awaiting verification” status with a Verify link. 
+If you configure that customers have to verify before sharing credit, after clicking on the **Send** button, they will receive an email as above.
+
+At the same time, they will be navigated to the **Verify** page.
+
+On this page, our module shows them a notification about the verification requirement. In the **Credit Code List**, that code is put under the **Awaiting verification** status with a **Verify** link.
+
+![Send Credit to Friends]()
  
 To verify, customers can:
-1.	 Enter the verification code they received in their emails 
-2.	Click on the Submit Code button.
+1.	Enter the verification code they received in their emails 
+2.	Click on the **Submit Code** button.
+
 After customers finish verifying, our module will send credit to the recipient.
 
-1.	Redeem Credit
-Path: My Dashboard page > My Credit tab > Redeem Credit tab
-To go to the Redeem Credit page, customers can click on the Redeem Credit tab on the left navigation.
+**c. Redeem Credit**
+
+Path: **My Dashboard page > My Credit tab > Redeem Credit** tab
+
+To go to the **Redeem Credit** page, customers can click on the **Redeem Credit** tab on the left navigation.
+
 On this page, customers can redeem the credit code they received to their credit balance as following steps:
+
+![Redeem Credit]()
  
 1.	Enter the code in the text field 
-2.	Clicking on the Redeem button.
- Another way is just to click on the link in the email. 
-After redeeming code, customers can check their current balance and transaction in the Transaction History section. 
- 
+2.	Clicking on the **Redeem** button.
 
-3.	How to check out by Credit 
-Customers can use credit to check out on both Shopping Cart and Checkout page. 
-On the Shopping Cart page, our module will add Apply Credit Discount block for customers to use their credit balances at checkout. 
+Another way is just to click on the link in the email. 
+
+After redeeming code, customers can check their current balance and transaction in the **Transaction History** section. 
+
+![Redeem Credit]()
+
+##### How to check out by Credit 
+
+Customers can use credit to check out on both **Shopping Cart** and **Checkout** page. 
+
+On the **Shopping Cart** page, our module will add **Apply Credit Discount** block for customers to use their credit balances at checkout. 
+
+![How to check out by Credit]()
  
 To use a credit amount, customers can:
 1.	Enter that number in the field 
-2.	Click on the Apply button and then our module will auto-update and calculate the grand total of the order.
-Please note that customers cannot use credit to buy credit products. If their carts have one or more credit products, our module will show a notification in the Customer Credit block as below.
+2.	Click on the **Apply** button and then our module will auto-update and calculate the grand total of the order.
+
+Please note that customers cannot use credit to buy credit products. If their carts have one or more credit products, our module will show a notification in the **Customer Credit** block as below.
+
+![How to check out by Credit]()
   
-On the Checkout page, in the Payment Information tab, apply credit discount the same as in the Shopping Cart page. 
- 
+On the **Checkout** page, in the **Payment Information** tab, apply credit discount the same as in the **Shopping Cart** page. 
+
+![How to check out by Credit]()
 
 1.	Enter an amount of credit 
-2.	Click on the Apply button, and then our module will auto-update the order’s Grand Total.
-After the order has been placed, customers’ credit balances will be updated immediately. They can check the current balances and transactions in the Transaction History section. 
+2.	Click on the **Apply** button, and then our module will auto-update the order’s Grand Total.
 
-3.	Store Pickup
-5.9.1. How Customer View Store Information 
-1.	General Information
+After the order has been placed, customers’ credit balances will be updated immediately. They can check the current balances and transactions in the **Transaction History** section. 
+
+### Store Pickup
+#### How Customer View Store Information 
+##### General Information
+
 A page will be separated to list all stores in front-end 
+
 Customers click on the arrow button on Top-Link (the top right of the page)
- 
-There are 4 sections on page: Store List, Search Form, Google Map and Tags List 
-2.	Store List: The list of all stores is shown on the bottom of Google Map. Customers can see name and based image on this list. 
-3.	Search Form: Switch the tab to search stores by distance or area
-4.	Google Map: Store locations are displayed on Google Map. Customers can: 
-1.	Zoom in/ zoom out
-2.	Choose view mode as map/satellite as preferred 
-3.	View store address and get direction by clicking on the pin icon of any stores
-1.	Tags List: Customers can filter store by tags. They just need to click on tags they want to search. Then, the list of stores they want to know more about will be shown
 
-2.	Detailed Information
+![General Information]()
+ 
+There are 4 sections on page: **Store List, Search Form, Google Map** and **Tags List**
+- **Store List**: The list of all stores is shown on the bottom of Google Map. Customers can see name and based image on this list. 
+- **Search Form**: Switch the tab to search stores by distance or area
+- **Google Map**: Store locations are displayed on Google Map. Customers can: 
+	- Zoom in/ zoom out
+	- Choose view mode as map/satellite as preferred 
+	- View store address and get direction by clicking on the pin icon of any stores
+- **Tags List**: Customers can filter store by tags. They just need to click on tags they want to search. Then, the list of stores they want to know more about will be shown
+
+##### Detailed Information
+
 Users can click on the store on the map to view store location as well as its name, address, phone number, store manager’s email address. Even directions are aslo available to get. 
- 
 
-3.	Link to Web 
+![Detailed Information]()
+
+##### Link to Web 
+
 To view more details about stores, customers could click on its name link to be navigated to page. 
+
+![Link to ]()
  
 As you can see, page show all information that customers care about such as location, contact info, working time, description & store images. 
 They can view a list of Special Day & Holiday Information Tab
