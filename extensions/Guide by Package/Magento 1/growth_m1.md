@@ -5800,15 +5800,143 @@ Here, in _General_ tab, you will find the field to fill in the number of points 
 
 ##### Manage Transaction
 
+_Path:  **Backend > Reward Points > Transactions**_
 
+![Sample](./Image_Growth_m1/image563.png?raw=true)
+
+Then all the transactions related to reward points will be shown as below:
+
+![Sample](./Image_Growth_m1/image564.png?raw=true)
+
+On this _Transaction Manager_ page, you can view a list of all point transactions together with much general information including Customer, Transaction Type, Points Used, etc.
+
+Moreover, you can filter and search for the information you want as well as export this table to _CSV/XML/Excel_ files.
+
+You can **Complete, Cancel** or **Expire** transactions by checking their checkboxes, selecting the action in the Action dropdown list and clicking on the **Submit** button.
+
+To view details of each transaction, you can click on the corresponding row: And then, a specific transaction information page will appear as below: 
+
+![Sample](./Image_Growth_m1/image565.png?raw=true)
+
+To add a new transaction, you can:
+
+(1) Click on the Add Transaction button
+
+![Sample](./Image_Growth_m1/image566.png?raw=true)
+
+(2) Fill out all the required data below: Customer Name, Customer‘s Points, Transaction Title, the number of days after which customers ’points will expire. 
+
+![Sample](./Image_Growth_m1/image567.png?raw=true)
+
+(3) Click on the Save Transaction or Save and Continue View button to finish.
 
 ##### Manage Point Balance of Customers 
 
 a) Manage Point Balance 
 
+_Path: **Reward Points > Manage Point Balances**_
+
+![Sample](./Image_Growth_m1/image568.png?raw=true)
+
+Then, the _Reward Point Balance Information_ page will be shown. Here you can see the information of customers and their current point balance. To view in details, click on **View link** in the Action column. 
+
+![Sample](./Image_Growth_m1/image569.png?raw=true)
+
+Moreover, you can also import/export customers’ points to your system via CSV files. 
+
+![Sample](./Image_Growth_m1/image570.png?raw=true)
+
+Another way to manage point balances is to go to **Customers > Manage Customers**
+
+![Sample](./Image_Growth_m1/image571.png?raw=true)
+
+On the Manage Customers page, you can choose the Customer you want to change point balances by clicking on the **Edit link** in the _Action column_.
+
+After clicking on the **Reward Points** tab, all of that Customer’s information will appear as below:
+
+![Sample](./Image_Growth_m1/image572.png?raw=true)
+
+- **Reward Points Information**: n this session, you can change the Customer’s balance by filling an integer in the **Change Balance** field. For example, if you enter 5, then 5 points will be added to that customer’s balance and vice versa, -5 means that Customer’s balance will be deducted 5 points.
+
+Also, you can configure other information like Points Expire On field ( the number of days since the transaction date after which customers’ points will expire), Update Points Subscription or Expire Transaction Subscription
+
+- **Transaction history**: This part lists of all Customer’s transactions:
+
+![Sample](./Image_Growth_m1/image573.png?raw=true)
+
 b) Change Point Balance 
 
+There are two ways to change point balances of customers.
+
+- You can change point balances for each customer by entering the **Change Balance** in the Reward Point session of Customer information page. After you save, the Available Points Balance will be updated.
+
+![Sample](./Image_Growth_m1/image574.png?raw=true)
+
+- Another way is that you can change point for many customers at the same time by importing points from csv file. Go to **Reward Points > Manage Point Balances**. On this page, the list of customers will be shown with Point Balance column. 
+
+![Sample](./Image_Growth_m1/image575.png?raw=true)
+
+Next step, click on **Import Points** button, then you can upload file from your computer (a template is provided). After being imported successfully, the Point Balance of customers will be updated.
+
+![Sample](./Image_Growth_m1/image576.png?raw=true)
+
+Besides, you can also export CSV file from the list of customers in **Reward Point Balances Information** page. You can also use this file to import again. 
+
 ##### Manage Loyalty Level 
+
+_Path: **Backend > Reward Points > Manage Loyalty Level**_
+
+![Sample](./Image_Growth_m1/image577.png?raw=true)
+
+Then you will be navigated to the **Loyalty Level Manager** page as the image below: 
+
+![Sample](./Image_Growth_m1/image578.png?raw=true)
+
+In this page, you can add a new customer group by clicking on **Add New Customer Group** button. 
+
+Then, the Loyalty Level Information will be displayed and you can create a new level in 2 tabs: 
+
+- **General Information** 
+
+![Sample](./Image_Growth_m1/image579.png?raw=true)
+
+(1) Create Level From: Choose group that you want to create level from: New Group or / Existed, Group
+
+(2) Group Name: Enter Name for the new group
+
+(3) Tax Class: Select which type of customer you want to have in the group: Retail Customer, Wholesale Customer, General, Members Only, 
+
+Private Sales, Not Logged-in
+
+(4) Description: Describe the new customer group
+
+(5) Status: Select Enabled or Disabled to display the status of the new group
+
+(6) Auto-join group: To allow auto-join group, select Enabled
+
+(7) Condition Type: Select Total Sales to apply the condition of joining group according to total sales. Select Accumulated Points to apply condition type according to the accumulated value of transactions. 
+
+(8) Condition Value: Enter the minimum number of earning points required to join the group. 
+
+(9) Exchange points:  Enter the number of points subtracted in exchange to join group
+
+(10) Duration: Enter the number of days you want to apply the level 
+
+(11) Priority: This field allows you to set up the priority level for every catalog rule. If there are many rules, then the one with the highest priority will be applied first.
+
+Click on Save and Continue Edit before you configure other conditions for the new level.
+
+- **Benefit**
+
+![Sample](./Image_Growth_m1/image580.png?raw=true)
+
+Here, you can configure Earning, Spending Rule and Promotions policy for the new loyalty level:
+
+Click on **Add earning** rule, Add new spending rule or Add new promotion rule button to create new rule applied for the New Customer Group you have created. 
+
+When you click on the icon (+), you will be navigated to other pages to configure Earning, Spending and Promotion Rule. 
+
+For example, when clicking on the icon (+) next to Earning Rate, an Earning Rate Information page will open and you can continue configuring in several fields as same as the section _Manage Earning Rate - Add Earning Rate_. 
 
 ##### Use Point When Creating Orders in Backend 
 
