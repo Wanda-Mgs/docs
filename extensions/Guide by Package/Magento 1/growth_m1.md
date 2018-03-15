@@ -4974,9 +4974,185 @@ After applying, the discount from Credit Balance/Gift Card Code will be subtract
 
 ##### Refund Orders into GiftCard Credit Balance in Back-end 
 
+When Customers request to refund their orders which Gift Card credit/ gift code was used as a payment method, the system will show a box to enter the amount of money which will be refunded into Customers’ credit balance or Gift Card code. 
+
+If Customers have their own account on your site, this amount will be refunded into their Gift Card credit balance by default even if they use either their credit balance or Gift Card code to check out.
+
+If Customers don’t have accounts on your site, this amount will be refunded into their Gift Card codes.
+
+![Sample](./Image_Growth_m1/image489.png?raw=true)
+
+In the **Orders page** view, click on **View** to open order marked as **Complete**
+
+![Sample](./Image_Growth_m1/image490.png?raw=true)
+
+To create a refund for the Completed Order, click on **Credit Memo** button on the top bar of the **Order View** page; 
+
+Then in the Refund Totals box, you should: 
+
+![Sample](./Image_Growth_m1/image491.png?raw=true)
+
+(1) Enter the number of money to refund to gift card credit balance
+
+(2) Click on**Refund Offline** to finish.
+
+_Notes_: Once Gift Card is used (redeemed or used to buy other products), it cannot be refunded to cash.
+
 ##### History
 
+_Path:  **Gift Card > History**_ 
+
+All actions related to Gift Card such as: **Create, Update, Mass Update, Spend on order, Refund** and **Redeem** are recorded on _Gift Card History_ page. 
+
+![Sample](./Image_Growth_m1/image492.png?raw=true)
+
+On _Gift Card History_ page, you will know when Gift Cards were created/ updated/ redeemed/ spent/ refunded and by whom as well as their values and status.
+
+You can filter data with the above criteria to get more accurate reports. Information can be exported to .CSV or .XML files for your convenience.
+
 #### How Customers Manage Gift Card 
+
+##### How Customers Order a Gift Card Product 
+
+Gift Card can be ordered as a normal product. Customers can enter or choose the value and quantity of Gift Card they want to order, then click on Add to Cart button.
+
+![Sample](./Image_Growth_m1/image493.png?raw=true)
+
+The price of Gift Card product may differ from Gift Card value. It depends on Admin’s configuration in backend, which could be a fixed value or a percentage of Gift Card value. If the price type is a percentage, Customers will see the corresponding Gift Card prices when they choose different Gift Card values.
+
+For better Gift Card appearance, after choosing a preferred template, Customers can select between 1 of provided images. It is possible for Customers to personalize their Gift Card by uploading their own image as well. The recommended size for image to upload is 250x365px. 3 file types are supported including .GIF, .JPG and .PNG.
+
+If Customers upload an image with an unsupported file type or the image is larger than the maximum file size configured by Admin, the system will auto-show an alert message to notify them.
+
+Customers can also see the expiration date of the Gift Card on Gift Card image.
+
+For Gift Card products that have usage conditions, the conditions will be displayed in a tooltip form when hovering over the hyperlink text as shown below:
+
+![Sample](./Image_Growth_m1/image494.png?raw=true)
+
+Customers can also send Gift Cards to their friends by ticking **Send Gift Card to friend** checkbox and enter all the required fields:
+
+![Sample](./Image_Growth_m1/image495.png?raw=true)
+
+(1) Sender name: Enter the name of the sender if necessary
+
+(2) Recipient name: Enter the name of the recipient 
+
+(3) Recipient email address: Enter the email address of the recipient. The system will send an email which contains a Gift Card code to this address.
+
+(4) Custom message: Fill in the message which is delivered along with the Gift Card code.
+
+(5) Day to send: Customers can set up the date and time zone that a Gift Card will be sent.
+
+If Customers want to get the notification email when their friend receives Gift Card, they need to tick the Get notification email when your friend receives Gift Card checkbox.
+
+(6) Select a time zone 
+
+(7) Click on **Preview Gift Card** button or the _Gift Card thumbnail_ image to see how the Gift Card will be shown 
+
+A popup of Gift Card interface will be shown as below:
+
+![Sample](./Image_Growth_m1/image496.png?raw=true)
+
+After Customers add a Gift Card to cart and click on **Proceed to Checkout**, they will be directed to the following page:
+
+- **When Customer send the Gift Card to friend** 
+
+![Sample](./Image_Growth_m1/image497.png?raw=true)
+
+- **When Customer buy Gift Card for themselve**
+
+![Sample](./Image_Growth_m1/image498.png?raw=true)
+
+Then Gift Cards products can be checked out as normal products. Customers will receive a Gift Card code if they buy for themselves. In case Customers purchase the Gift Card to send to their friends, the code will be delivered to their friends’ email with the following form:
+
+![Sample](./Image_Growth_m1/image499.png?raw=true)
+
+If the Sender has ticked the checkbox _Get notification email_ when your friend receives Gift Card, a notification will be sent to his email address immediately after the Gift Card is delivered to the friend’s email as below:
+
+![Sample](./Image_Growth_m1/image500.png?raw=true)
+
+If Customers purchase Gift Card for themselves, the notification email that they receive is as below:
+
+![Sample](./Image_Growth_m1/image501.png?raw=true)
+
+##### How Customers Manage Gift Card/Credit 
+
+_Path: **My Account > Gift Card**_
+
+![Sample](./Image_Growth_m1/image502.png?raw=true)
+
+**Gift Card** page will be shown as below; the gift code which Customers received will be automatically added to the list.
+
+![Sample](./Image_Growth_m1/image503.png?raw=true)
+
+Gift Card list shows some information of Gift Cards such as **code, balance, status, added date, and action**. Customers can view, print, redeem and remove their Gift Cards.
+
+Gift code is mostly hidden to ensure the security for Customers. They can view a full gift code by clicking on each one. Clicking on **View** link in **Action** column, Customers can view Gift Card detailed information.
+
+Another way to view the details of Gift Card Credit balance, customers can click on **View detail** link. **Credit Detail** page is shown below:
+
+![Sample](./Image_Growth_m1/image504.png?raw=true)
+
+This page shows their current balance and their Balance history (_Action, Balance Change, Gift Card code, Order, Balance, and Date_).
+
+- **Add a Gift Card** 
+
+![Sample](./Image_Growth_m1/image505.png?raw=true)
+
+(1) Enter the Gift Card Code
+
+(2) Click on Add To Your List button
+
+Then the Gift Card Code will be added to the list and displayed as below:
+
+![Sample](./Image_Growth_m1/image506.png?raw=true)
+
+Gift Card list shows some information of Gift Cards such as _code, balance, status, added date, and action_. Customers can view, print, redeem and remove their Gift Cards.
+
+Gift code is mostly hidden to ensure the security for Customers. They can view a full gift code by clicking on each one.
+
+Clicking on _View link_ on **Action** column, Customers can view Gift Card detailed information
+
+- **Redeem a Gift Card** 
+
+![Sample](./Image_Growth_m1/image507.png?raw=true)
+
+(1) Enter Gift Card code
+
+(2) Click on **Redeem Gift Card** button.
+
+Then, the value of the Gift Card will be redeemed to their Gift Card credit balance.
+
+Customers can also redeem their Gift Card to the credit balance or remove it from a list by clicking on the corresponding link in the **Action** column.
+
+![Sample](./Image_Growth_m1/image508.png?raw=true)
+
+##### How Customers Use Gift Card/Credit to Place an Order 
+
+When Customers have Gift Card codes or Gift Card credit balances, they can use them to get discount when ordering a product. There are two ways to use Gift Card code/credit balance:
+
+- **On Shopping Cart Page** 
+
+![Sample](./Image_Growth_m1/image509.png?raw=true)
+
+Customers can choose to use credit or Gift Card by ticking either _Use Gift Card credit to checkout_ or _Use Gift Card to checkout checkbox_ or both. 
+
++ **Use Gift Card credit to check out**: Customers need to enter an amount of money they want to use. After applying, this amount will be deducted from their Gift Car credit balance immediately.
+
++ **Use Gift Card to check out**: The system shows a box where Customers can enter gift codes or select from the existing Gift Card codes that they‘ve already had but not used yet. Besides, they can use gift codes they added to the list on _Gift Card/Credit Management page_.
+
+After Customers click on **Apply Gift Card** button, the Grand Total will be updated as below:
+
+![Sample](./Image_Growth_m1/image510.png?raw=true)
+
+- **On Checkout Page** 
+
+![Sample](./Image_Growth_m1/image511.png?raw=true)
+
+Customers can choose to use Gift Card or Gift Card credit and enter the amount of money as on _Shopping Cart_ page. 
+
+_Notes_: Gift Card codes or Credit Card credit balances cannot be used to purchase Gift Card products but they can be spent on shipping fee, depending on Admin’s settings.
 
 ### Reward Points 
 #### How Admin Manage Reward Points 
