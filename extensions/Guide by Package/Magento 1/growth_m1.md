@@ -4810,11 +4810,167 @@ Besides viewing details and status of gift codes generated, you can export the l
 
 ##### Manage Gift Codes 
 
+_Path:  **Gift Card > Manage Gift Codes**
+
+a) Manage Gift Codes 
+
+You will be navigated to _Gift Code Manager_ page.
+
+![Sample](./Image_Growth_m1/image473.png?raw=true)
+
+![Sample](./Image_Growth_m1/image474.png?raw=true)
+
+This page gives you a detailed list of all gift codes in your system, including gift codes created from Gift Card orders in front-end and gift codes generated in back-end. Each gift code is provided with essential information, such as the Initial Value, the Current Balance and gift code’s status, etc. To help save much time in managing, our module allows you to select multiple gift codes and apply the following action(s) in mass.
+
+- Export the list of gift codes to CSV/XML files
+
+- Change status/send email/delete/print gift codes. 
+
+_Notes_: Gift codes without recipient email address cannot be sent.
+
+![Sample](./Image_Growth_m1/image475.png?raw=true)
+
+Besides, you can add new gift codes manually, import gift codes in bulk from CSV files and edit each gift code by clicking on Edit link at the end of each corresponding row.
+
+b) Create New Gift Codes 
+
+There are two ways to create new gift codes:
+
+(1) Import Gift Codes (import data from your device to the system)
+
+(2) Add new Gift Code
+
+- **Method 1: Import Gift Codes**
+
+![Sample](./Image_Growth_m1/image476.png?raw=true)
+
+(1) **Import File**: Click on Choose File to upload your file of gift code
+
+(2) Download Sample of CSV gift code file
+
+(3) Click on **Import** or **Import and Print** to finish
+
+- **Method 2: Add New Gift Codes** 
+
+If you want to create a new gift code manually, select **Add Gift Code** and finish the form as below:
+
++ **General Information** 
+
+![Sample](./Image_Growth_m1/image477.png?raw=true)
+
+(1) Gift Code Pattern: Configure the pattern to generate a gift code as the following example: 
+
+[A.8]: 8 alpha characters
+
+[N.4] : 4 numeric characters
+
+[AN.6] : 6 alphanumeric characters
+
+If you enter GIFT-[A.4]-[AN.6] as the sample, the system will auto-create a gift code matching this pattern, GIFT-ADFA-12NF0O for example.
+
+(2) Gift Code Value: enter a fixed value for the gift code 
+
+(3) Currency.: Select the currency unit for gift code value 
+
+(4) Template: Chose a Gift Card Template which is used for the gift code generated, in case it is sent to Customers by email or post office.
+
+For adding or editing more templates, you can refer to the Manage Gift Card Template section above. 
+
+(5) Template image: Select the image used with the Gift Card template chosen above. You can also edit this image on Gift Card Template Manager page (please refer to Manage Gift Card Template section for more details).
+
+(6) Status: Choose Active for the gift code, and then Customers can use it in frontend.
+
+(7) Expired on: Select the expiration date for the gift code.
+
+(8) Store View: Choose places where customers can use the gift codes.
+
+(9) Last Comment: Add Admin’s notes if needed
+
++ **Conditions** 
+
+Similar to _Shopping Cart Conditions_ tab and _Cart Item Conditions_ tab when creating new Gift Cards, these two tabs on _New Gift Code_ page allow you to set conditions applied to shopping carts and items in cart when Customers use this gift code to check out.
+
+![Sample](./Image_Growth_m1/image478.png?raw=true)
+
++ **Message Information** 
+
+If you intend to send the gift code to a specific person, a Customer, for example, this tab allows you to add information about the Customer, the recipient, and a custom message.
+
+![Sample](./Image_Growth_m1/image479.png?raw=true)
+
+After entering all data, remember to click on **Save, Save And Send Email** or **Save and Continue Edit** to save your work.
+
 ##### Manage Gift Codes Sets
+
+Gift code set is a list of codes that store owners import into the system to sell. When you create gift card product, you can choose gift code set for that gift card product: 
+
+![Sample](./Image_Growth_m1/image480.png?raw=true)
+
+_Path: **Gift Card > Manage Gift Code Sets**_ 
+
+![Sample](./Image_Growth_m1/image481.png?raw=true)
+
+To create gift code sets, choose **Add Gift Code Set**.
+
+![Sample](./Image_Growth_m1/image482.png?raw=true)
+
+In General Information tab, you can do the following steps to import Gift Code Sets. 
+
+(1) Enter a name for a new Gift Code Set 
+
+(2) Upload file Gift Code sets
+
+(3) Download Sample CSV/File
+
+- **Gift Code Information** 
+
+To edit gift code set, click on **Gift Codes Information** tab.
+
+Here you can click on the **Gift Code Set** you would like to edit. You can upload a new _CSV file_ of gift code or edit each gift code’s information in the set.
+
+![Sample](./Image_Growth_m1/image483.png?raw=true)
 
 ##### Manage Gift Card Credit Balance
 
+_Path: **Customers > Manage Customers**_
+
+![Sample](./Image_Growth_m1/image484.png?raw=true)
+
+(1) Click on any row of customer
+
+![Sample](./Image_Growth_m1/image485.png?raw=true)
+
+(2) Choose Gift Card Credit tab
+
+On this page, you can view current Gift Card credit balance and Balance History of a Customer.
+
+To change Customers’ Gift Card balance, follow the below steps:
+
+![Sample](./Image_Growth_m1/image486.png?raw=true)
+
+(1) Enter the amount of money into Change Balance text field 
+
+(2) Click on Save Customer or Save and Continue Edit button.
+
+The balance will be updated and the change will be added to **Balance History** grid as above.
+
 ##### Use Gift Card/Code When Creating New Orders in Back-end 
+
+_Path: **Sales > Orders> Create New Order**_
+
+On _Create New Order_ page, after selecting a Customer and adding a product to an order, the system will show the Gift Card box, which allows you to use Gift Card credit balance or Gift Card code(s) of the Customer to pay for this order.
+
+![Sample](./Image_Growth_m1/image487.png?raw=true)
+
+(1) Mark the check box Use gift card to checkout 
+
+(2) Enter a Gift Card code: it means that customers will use the Gift Card code they have received to place an order. 
+
+(3) Click on **Apply Gift Card** button.
+
+After applying, the discount from Credit Balance/Gift Card Code will be subtracted from the Subtotal as below:
+
+![Sample](./Image_Growth_m1/image488.png?raw=true)
 
 ##### Refund Orders into GiftCard Credit Balance in Back-end 
 
