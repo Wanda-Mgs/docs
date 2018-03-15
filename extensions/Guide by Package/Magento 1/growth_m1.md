@@ -5940,11 +5940,167 @@ For example, when clicking on the icon (+) next to Earning Rate, an Earning Rate
 
 ##### Use Point When Creating Orders in Backend 
 
+_Path:  **Sales > Orders**_ 
+
+![Sample](./Image_Growth_m1/image581.png?raw=true)
+
+Then the System will display all Customers’ orders. 
+
+**To create orders:**
+
+First, please click on the **Create New Order** button to see the Order form.
+
+After selecting a Customer, a store and adding Products, you will see the _Use Customer Reward Points box_ in which you can adjust the number of points the Customer will spend for his order.
+
+![Sample](./Image_Growth_m1/image582.png?raw=true)
+
+The **Order Totals box** will also display the number of points that Customer will spend:
+
+![Sample](./Image_Growth_m1/image583.png?raw=true)
+
+After filling out all the required fields, please click on the **Submit Order** button to finish creating the new order. Then the _Order totals box_ shows the total spent point.
+
+![Sample](./Image_Growth_m1/image584.png?raw=true)
+
 ##### Refund Orders into Point Balance in Backend 
 
+When Customers refund orders, you can decide how many points to refund them as well as how many points to get back from them. By default, the System will set those values as the number of points that Customers spent and the number of points that Customers earned respectively. 
 
+![Sample](./Image_Growth_m1/image585.png?raw=true)
+
+(1) Choose the order your Customer wants to refund by clicking on the **View link** in the **Action column**. Then the order will appear as below:
+
+![Sample](./Image_Growth_m1/image586.png?raw=true)
+
+(2) Click on the Credit Memo link to process the order refund. 
+
+![Sample](./Image_Growth_m1/image587.png?raw=true)
+
+Then you will be navigated to New Credit Memo for Order #XXXXXX (order ID) page as below:
+
+![Sample](./Image_Growth_m1/image588.png?raw=true)
+
+(3) In the **Refund Total** box, you can choose to refund a number of points you like among those that the Customer spent and get back a number of points among those that he earned. 
+
+![Sample](./Image_Growth_m1/image589.png?raw=true)
+
+(4) Click on the **Refund Offline** button to finish your refund process.
 
 #### How Customers Use Reward Points 
+
+##### How Customers Earn Points 
+
+a) Earning Points Based on Earning Rate 
+
+When placing an order, Customers can earn points based on the rate set by the admin.
+
+The system makes sure that Customers are well aware of your reward point policy by showing messages on many pages. For example, on _Product Detail_ pages, there will be a notification for Customers that says You could receive some Points for purchasing this product.
+
+![Sample](./Image_Growth_m1/image590.png?raw=true)
+
+Also, after clicking on the **Add to Cart** button, on **Mini Cart**, Customers will see another notification **Check out now to earn points**.
+
+![Sample](./Image_Growth_m1/image591.png?raw=true)
+
+If Customers have not logged in yet, a notification message _Login and checkout to earn points_ will be shown on mini cart:
+
+![Sample](./Image_Growth_m1/image592.png?raw=true)
+
+On Checkout page, Customers can see exactly the number of points they earned from buying that product in the Grand Total box:
+
+![Sample](./Image_Growth_m1/image593.png?raw=true)
+
+If Customers have not logged in yet, a notification message _Login and checkout to earn points_ will be shown on Grand Total box of checkout page:
+
+![Sample](./Image_Growth_m1/image594.png?raw=true)
+
+After placing an order successfully, Customers can check their point balance right next to the **My Account top link** or can go directly to that link: 
+
+![Sample](./Image_Growth_m1/image595.png?raw=true)
+
+b) Earn points based on Catalog Earning Rule & Shopping Cart Earning Rule
+
+When placing an order, Customers can earn points depending on the rule set by Admins. 
+
+- **Earning points based on Catalog Earning Rule**
+
+Catalog Earning Rule enables your Customers to earn points based on specific products. That means you can give your Customers chances of earning more points from some items than from others. This point information will be shown on the Product Listing and Product Detail pages:
+
+![Sample](./Image_Growth_m1/image596.png?raw=true)
+
+![Sample](./Image_Growth_m1/image597.png?raw=true)
+
+After adding products to the shopping cart, Customers can also see the point amount they will receive as below:
+
+![Sample](./Image_Growth_m1/image598.png?raw=true)
+
+- **Earning points based on Shopping Cart Rule**
+
+Shopping Cart Earning Rule enables your Customers to earn points based on specific values of orders. That will help you to organize programs such as Earn 20 points for orders equal to or higher than $500. If Customers’ shopping carts meet the condition of the shopping cart rule that you set up on the backend, the System will show the points they will earn. After Customers add products to the shopping cart, they can see the point amount as below:
+
+![Sample](./Image_Growth_m1/image599.png?raw=true)
+
+##### How customers spend points
+
+a) Spend points based on spending rate
+
+On _Shopping Cart and Checkout_ pages, Customers can move the slide forwards or backward to select the number of points they would like to spend. They can also just click on the **Minus** or Plus icons. Besides, they can enter this number in the empty box or tick the checkbox _Maximize my discount with points_ to spend the maximum number of points. 
+
+![Sample](./Image_Growth_m1/image600.png?raw=true)
+
+On the _Checkout page_, System shows the similar form for Customers to edit the number of points they want to spend on their orders:
+
+![Sample](./Image_Growth_m1/image601.png?raw=true)
+
+b) Spend points based on Catalog Spending Rule and Shopping Cart Spending rules
+
+On **Product Detail, Shopping Cart and Checkout** pages, there are many ways for Customers to choose the number of points they want to spend. They can move along a slider or click on the **Plus** or **Minus** buttons to increase/decrease the point amount to spend. Besides, they can enter this number in the box or tick to choose to use the maximum number of points. 
+
+- **Spending points based on Catalog Spending Rule**
+
+When Customers add product(s) to cart, there will be a **Spend your points** box on the **Shopping Cart** page. In this box, Customers can select the rule they want to apply for point spending in the drop-down list box. After Customers select the number of points to be spent, the Grand Total will be updated automatically: 
+
+![Sample](./Image_Growth_m1/image602.png?raw=true)
+
+In case Customers do not have enough points to apply any rule, the System shows a notification as below:
+
+![Sample](./Image_Growth_m1/image603.png?raw=true)
+
+After Customers finish placing orders, the total price of their orders will be discounted by the number of used points:
+
+![Sample](./Image_Growth_m1/image604.png?raw=true)
+
+- **Spending points based on Shopping Cart Rule**
+
+When Customers add product(s) to cart, there will be a **Spend your points** box on the Shopping Cart page. In this box, Customers can select the rule they want to apply for point spending in the drop-down list box. After Customers select the number of points to be spent, the Grand Total will be updated automatically: 
+
+![Sample](./Image_Growth_m1/image605.png?raw=true)
+
+In case Customers do not have enough points to apply any rule, the System shows a notification as below:
+
+![Sample](./Image_Growth_m1/image606.png?raw=true)
+
+On the **Checkout** page, our system shows a similar form for Customers to edit their spent points for orders:
+
+![Sample](./Image_Growth_m1/image607.png?raw=true)
+
+##### How customers manage reward points
+
+Customers can follow and manage their current points in 2 places.
+
+Firstly, they can view their current points in the header as below:
+
+![Sample](./Image_Growth_m1/image608.png?raw=true)
+
+Secondly, they can go to **My Account > My rewards** to view more information:
+
+![Sample](./Image_Growth_m1/image609.png?raw=true)
+
+This page has 2 parts including **Reward Information** and **Recent transactions**
+
+- **Reward Information**: This part shows Customers their current balances as well as the description of the application rules on your site.
+
+- **Recent transactions**: This part provides Customers with a lot of information on their reward points transactions such as **ID, points, action, date, and status.**
 
 ### Store Credit 
 
