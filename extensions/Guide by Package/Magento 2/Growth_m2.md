@@ -1806,17 +1806,17 @@ In this phase, you can change the link between your current locations and curren
 
 As mentioned, mapping a location to a warehouse means when customer places an order at this location, the system will only take products from this specific warehouse. When this specific warehouse runs out of stock, the sysem will not take stock from other warehouses.
 
-![Mapping Locations – Warehouses]()
+![Mapping Locations – Warehouses](./image_growth_m2/image202.png?raw=true)
  
 On the pop-up screen, click on **Mapping Locations – Warehouses**
 
-![Mapping Locations – Warehouses]()
+![Mapping Locations – Warehouses](./image_growth_m2/image203.png?raw=true)
  
 Here you can view which location is linked to which warehouse. 
 1.	You can edit warehouse by click on the button and choose again. Or you can click on **Remove** in the **Action** Column to remove the connection between location and warehouse. 
 2.	Click on **Choose Location** button to add more locations
 
-![Mapping Locations – Warehouses]()
+![Mapping Locations – Warehouses](./image_growth_m2/image204.png?raw=true)
  
 Tick on the location you choose. Then, click on **Add Selected Locations** button to finish. 
 
@@ -1837,7 +1837,7 @@ Please refer to **Create New POS** for detailed guide.
 
 Path: **Sale > Web POS** section **> Manage POS**
 
-![Manage Web POS]()
+![Manage Web POS](./image_growth_m2/image205.png?raw=true)
  
 Here, you can view **ID, Name, Location, Store View, Current Staff**, and **Status**.  If you want to view more details and edit any details, you can click on **Detail** in the **Action** column. Besides, you can tick on each **Location Name**, then choose **Action** as **Delete** to remove the location. 
 
@@ -1848,21 +1848,21 @@ Here, you can view **ID, Name, Location, Store View, Current Staff**, and **Stat
 
 Go to WebPOS frontend and fill in required Username & Password and click Login to log in. (you can also access WebPOS frontend from backend, by following path: **Sales > Web POS** section **> POS Checkout**)
 
-![Log In]()
+![Log In](./image_growth_m2/image206.png?raw=true)
  
 After clicking **LOGIN** button, users must choose a Location and POS to continue
 
-![Log in]()
+![Log in](./image_growth_m2/image207.png?raw=true)
  
 ##### Manage Account
 
 In **WebPOS frontend**, click on **top left menu icon > Settings** tab **> Account**
 
-![Manage Account]()
+![Manage Account](./image_growth_m2/image208.png?raw=true)
  
 A window will pop up and allow users to edit personal information or change password. Click **Save** after you fill in required information to save the changes. 
 
-![Manage Account]()
+![Manage Account](./image_growth_m2/image209.png?raw=true)
  
 ##### Manage Settings
 
@@ -1872,33 +1872,33 @@ There are 6 tabs to manage:
 
 - **Checkout** tab:
 
-![Checkout tab]()
+![Checkout tab](./image_growth_m2/image210.png?raw=true)
  
 1.	**Use Online mode**: Online mode allows real-time synchronization between Magento backend and POS, while offline mode operates faster and allows normal checkout even then the internet connection is out.
 2.	**Auto check the promotion rules on checkout**: allows automatic checking in offline mode.
 3.	**Sync on-hold order to server**: allows syncing on-hold orders onto Magento backend > **Sales> Operations section > Orders** with status **On Hold**. 
 
-![Checkout]()
+![Checkout](./image_growth_m2/image211.png?raw=true)
  
 - **Catalog** tab:
 
 To allow POS to display out-of-stock products: in WebPOS frontend, go to **Settings > General** section **> Catalog**
 
-![Catalog]()
+![Catalog](./image_growth_m2/image212.png?raw=true)
  
 Choose **Yes** option to enable “Display out-of-stock product in search result”. When customer searches for a product that is out of stock, the product still shows up but with an **Out of stock** icon on the top right of the product thumbnail.
 
-![Catalog]()
+![Catalog](./image_growth_m2/image213.png?raw=true)
  
 ***Note**: this function’s available for online-mode only*
 
 - **Currency** tab: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from **Order History** after you change currency
 
-![Currency tab]()
+![Currency tab](./image_growth_m2/image214.png?raw=true)
  
 - **POS Hub** tab:
  
- ![POS Hub tab]()
+ ![POS Hub tab](./image_growth_m2/image215.png?raw=true)
  
 POS Hub is a special function that Magestore creates that allows our WebPOS to interact directly with devices which cannot integrate with web-based software e.g. cash drawer.
 	- **Enable Open Cash Drawer Manually** setting allows you to open the cash drawer without printing a receipt
@@ -1907,11 +1907,11 @@ POS Hub is a special function that Magestore creates that allows our WebPOS to i
 
 - **Customer Credit** tab: allows syncing store credits with backend in offline mode and displays customer’s credit balance on receipt
 
-![Customer Credit]()
+![Customer Credit](./image_growth_m2/image216.png?raw=true)
  
 - **Reward Points** tab: allows syncing reward points with backend in offline mode and displays customer’s point balance on receipt
 
-![Reward Points tab]()
+![Reward Points tab](./image_growth_m2/image217.png?raw=true)
 
 #### Manage Session
 
@@ -1921,14 +1921,14 @@ If you enable Need to create session before working setting in backend (path: **
 
 When you log into any POS, a window of opening session will pop-up automatically.
 
-![Open Session]()
+![Open Session](./image_growth_m2/image218.png?raw=true)
  
 1. Name of the staff in this session
 2. Location of POS
 3. Value of the currency contrbuting to Opening Balance (such as: $10 )
 4. Number of the currency unit (for example : 20)
 5. Subtotal (automatically calculated) (you will have: $10 * 20 = $200) 
-You can add more currency value/number of unit to add up to the desired opening balance by clicking on the ![icon]() icon.
+You can add more currency value/number of unit to add up to the desired opening balance by clicking on the ![icon](./image_growth_m2/image219.png?raw=true) icon.
 6. After checking all the information above, click this button to **Open Session**
 
 Next step, after opening the session, Cashier can now create orders and start running cash flow in your store. 
@@ -1937,13 +1937,13 @@ Next step, after opening the session, Cashier can now create orders and start ru
 
 You can always view the detailed information of your session by following path: from **top left menu icon > Session Management** section **> Session Management**.
 
-![Manage session]()
+![Manage session](./image_growth_m2/image220.png?raw=true)
  
 You will see all sessions carried out by this account here. 
 
 Opened session will have an **OPEN** mark next to its date and time in the listing.
 
-![Manage session]()
+![Manage session](./image_growth_m2/image221.png?raw=true)
  
 Clicking on a session will display detailed information about that session including:
 
@@ -1960,13 +1960,13 @@ Clicking on a session will display detailed information about that session inclu
  
 ##### Record Cash In/ Cash Out
 
-![Record Cash In/ Cash Out]()
+![Record Cash In/ Cash Out](./image_growth_m2/image222.png?raw=true)
  
 During an opened session, cashier can add extra cash in/out of the cash drawer by clicking on **Put Money In/ Take Money Out** buttons in the Session window.
 
 - **Put Money In**
 
-![Put Money In]()
+![Put Money In](./image_growth_m2/image223.png?raw=true)
  
 1.	Amount of cash that staff will put in the drawer (must be greater than 0)
 2.	Reason for putting cash in
@@ -1974,7 +1974,7 @@ During an opened session, cashier can add extra cash in/out of the cash drawer b
 
 - **Take Money Out**
 
-![Take Money Out]()
+![Take Money Out](./image_growth_m2/image224.png?raw=true)
   
 1.	Amount of cash that staff will take out of the drawer (must be greater than 0)
 2.	Reason for taking cash out
@@ -1984,20 +1984,20 @@ During an opened session, cashier can add extra cash in/out of the cash drawer b
 
 Finally, at the end of the day, POS Managers must undertake mission to create Closing Balance, which means they have to confirm the amount of cash in store after all transactions on that day. Then, the system would be able to provide Session Report for Manager.
  
- ![Close Session]()
+ ![Close Session](./image_growth_m2/image225.png?raw=true)
  
 To close the session, you need to first **Set Closing Balance** to record Real Closing Balance in cash drawer by filling the value of coin/bill and the number of each coin/bill value in the form below, then click **Confirm**
 
- ![Close Session]()
+ ![Close Session](./image_growth_m2/image226.png?raw=true)
 
 2 situations could happen in this step:
 - If the Theoretical and Real Balances are the same, you will go back to the Session window, click on **Validate Closing** to finish closing the session.
 
- ![Close Session]()
+ ![Close Session](./image_growth_m2/image227.png?raw=true)
  
 - If the Theory and Real Balance are not the same, the system will display a notification as below:
 
- ![Close Session]()
+ ![Close Session](./image_growth_m2/image228.png?raw=true)
  
 You can click **Cancel** and re-entry the closing balance, OR accept the difference by clicking **OK**
   
@@ -2008,11 +2008,11 @@ You can fill in the reason for the difference (if you want to) and hit **Confirm
 
 **NOTE**: Only products with turned on **Visible on Webpos** setting (screenshot below) can be found on WebPOS frontend. 
 
-![Configure Process of Searching Product]()
+![Configure Process of Searching Product](./image_growth_m2/image229.png?raw=true)
 
  To allow POS to display out-of-stock products: in WebPOS frontend, go to **Settings > General** section **> Catalog**
  
-![Configure Process of Searching Product]()
+![Configure Process of Searching Product](./image_growth_m2/image230.png?raw=true)
 
 ##### Search Product in Front-end
 
@@ -2023,7 +2023,7 @@ There are 3 ways to search for products in WebPOS frontend:
 
 **a. To use category**: 
 
-![Search Product in Front-end]()
+![Search Product in Front-end](./image_growth_m2/image231.png?raw=true)
  
 Click **All Categories** to quickly search with this method. Users can choose corresponding categories as you prefer in the space below this button.
 
@@ -2033,7 +2033,7 @@ Click **All Categories** to quickly search with this method. Users can choose co
 1. Click on search icon to show search bar. 
 2. Enter your search terms and matching products will display right away. 
 
-![To use Product Attributes]()
+![To use Product Attributes](./image_growth_m2/image232.png?raw=true)
  
 **c. To use Barcode:**
 
@@ -2046,19 +2046,19 @@ Click **All Categories** to quickly search with this method. Users can choose co
 - With simple product: click it to add to cart
 - With configurable, bundle, grouped product: click them > adjust attribute (color, size, etc.) and quantity > Click **Add to cart** button
 
-![How to Add Product to Cart]()
+![How to Add Product to Cart](./image_growth_m2/image233.png?raw=true)
 
 ##### Edit Product in Cart 
 
 After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with edited option for **Qty**.
 
-![Edit Product in Cart]()
+![Edit Product in Cart](./image_growth_m2/image234.png?raw=true)
  
 To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away
 
 ##### Remove Product in Cart 
 
-![Remove Product in Cart]()
+![Remove Product in Cart](./image_growth_m2/image235.png?raw=true)
  
 There are 2 ways to remove products in cart: 
 1.	Remove one-by-one product: Click “x” button, then cart will be update immediately 
@@ -2070,11 +2070,11 @@ Custom sale item is a item that Web POS user creates when checkout. It is used w
 
 In frontend, click on **Custom Sale** button if you want to add the custom product to cart
 
-![Add a Custom Sale Item to Cart]()
+![Add a Custom Sale Item to Cart](./image_growth_m2/image236.png?raw=true)
  
 Then it will pop up a window for users to configure this custom product:
 
-![Add a Custom Sale Item to Cart]()
+![Add a Custom Sale Item to Cart](./image_growth_m2/image237.png?raw=true)
  
 1. **Name**: Enter the name of product
 2. **Description**: Enter the product’s description (optional)
@@ -2093,11 +2093,11 @@ If you want to apply custom discount manually to a product, instead of applying 
 
 To use this function, click **Add Discount**
 
-![Apply Coupon Code or Card Discount]()
+![Apply Coupon Code or Card Discount](./image_growth_m2/image238.png?raw=true)
  
 Then you can choose to apply a Discount amount or Promotion code
 
-![Apply Coupon Code or Card Discount]()
+![Apply Coupon Code or Card Discount](./image_growth_m2/image239.png?raw=true)
 
 - To apply Discount: 
 	- **Name**: enter the name for this account as you will easily check it again
@@ -2108,7 +2108,7 @@ Cart will be adjusted immediately after you click **Apply** button
 
 - To apply **Promotion**: 
 
-![![Apply Coupon Code or Card Discount]()
+![![Apply Coupon Code or Card Discount](./image_growth_m2/image240.png?raw=true)
  
 Fill in available code offered to customer and then click **Apply** button. 
 
@@ -2122,11 +2122,11 @@ After adding products to cart, besides editing the quantity of each product (ref
 
 **a. To apply Custom Price**: 
 
-![ To apply Custom Price]()
+![ To apply Custom Price](./image_growth_m2/image241.png?raw=true)
  
 You can set custom price for products by clicking on **Custom Price** button. The next popup will be shown as below:
 
-![ To apply Custom Price]()
+![ To apply Custom Price](./image_growth_m2/image242.png?raw=true)
 
 In this popup, choose the promotion type you want to apply, either a fixed amount or percentage.
 	- If you edit fixed price, the price will be changed to the value you have entered. 
@@ -2142,13 +2142,13 @@ Click on **Discount** button and choose the type of discount you want to apply
 
 Then, the product price will be updated in the cart.
 
-![To apply Discount]()
+![To apply Discount](./image_growth_m2/image243.png?raw=true)
  
 ##### Apply Gift Card Code
 
 After clicking on Checkout button for a shopping cart, in the Shipping and Payment window, cashier can insert Gift Card Code and click **Apply**.
 
-![Apply Gift Card Code]()
+![Apply Gift Card Code](./image_growth_m2/image244.png?raw=true)
   
 #### Manage Transaction
 ##### Handle Customer Information at Check-out 
@@ -2157,9 +2157,9 @@ After clicking on Checkout button for a shopping cart, in the Shipping and Payme
 
 Add customer by clicking on **Customer** icon on the right corner. You will see a screen as below:
 
-![Customer Check-out]()
+![Customer Check-out](./image_growth_m2/image245.png?raw=true)
  
-![Customer Check-out]()
+![Customer Check-out](./image_growth_m2/image246.png?raw=true)
 
 In the pop-up, you have options to either Create a new Customer, **Use Default Guest Checkout**, Search existing Customer with the Search bar or selecting the most recent Customer from the list.
 
@@ -2169,11 +2169,11 @@ In the search box, you can quickly find the customer by entering his name, email
 
 The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
 
-![Search Customer]()
+![Search Customer](./image_growth_m2/image247.png?raw=true)
 
 **c. Create Customer**
 
-![Create Customer]()
+![Create Customer](./image_growth_m2/image248.png?raw=true)
  
 Fill information of the customer such as **First Name, Last Name, Email, Group, Shipping & Billing Address**, etc. You can choose whether Billing Address is similar to Shipping Address or not. Remember to click on **Save** button to save the customer information for the next checkout.
 
@@ -2186,7 +2186,7 @@ When you use Guest Checkout, the default customer that you configure in backend 
 
 Click on **Add Order Comment** in the top right menu icon. In the **Order Comment** box, type the content that reminds you of this order. Then, save it.
 
-![Add Comment to an Order]()
+![Add Comment to an Order](./image_growth_m2/image249.png?raw=true)
  
  
 **b. Check Order Comment** 
@@ -2194,9 +2194,9 @@ Click on **Add Order Comment** in the top right menu icon. In the **Order Commen
 
 To view comment of order, you can go to the top left menu **> Orders** section **> Orders History** in Web POS screen, choose an order then scroll down to see **Comment History**
 
-![On WebPOS Screen]()
+![On WebPOS Screen](./image_growth_m2/image250.png?raw=true)
 
-![On WebPOS Screen]()
+![On WebPOS Screen](./image_growth_m2/image251.png?raw=true)
  
 - **Magento Backend**
 
@@ -2204,7 +2204,7 @@ Go to **Sales > Orders >** Click on a specific order.
 
 In order details page, scroll down to **Comment History** tab to check whether it has any notes or not.
 
-![Magento Backend]()
+![Magento Backend](./image_growth_m2/image252.png?raw=true)
 
 ##### Process at Check-out for a Customer 
 
@@ -2212,11 +2212,11 @@ You have been through steps to add products to cart and add customer, let’s mo
 
 When products are added to cart, click on **Checkout** button at the end of the cart page
 
-![Process at Check-out for a Customer]()
+![Process at Check-out for a Customer](./image_growth_m2/image253.png?raw=true)
 
 You will be redirected to the next page with information of Shipping & Payment Method. Please refer to **Enable Payment Method** and **Set up Shipping Method** for further details about payment and shipping method configuration for WebPOS.
 
-![Process at Check-out for a Customer]()
+![Process at Check-out for a Customer](./image_growth_m2/image254.png?raw=true)
 
 - **Credit Card**: Magestore Web POS supports Authorize.net & Stripe. Sales staff can fill in card information manually or swipe card (if the POS system is connected to a card swiper). For more information about how to connect, please go to section **Connect Retailer POS with Peripheral Devices**.
 - **Split Payment**: For more information about Split Payment, please go to section **Split & Partial Payment with Web POS**
@@ -2228,17 +2228,17 @@ You can allow customers more than 1 method to pay when using Web POS. Particular
 
 For example: This order values $249 and customer wants to pay $50 in cash. Then you have to enter this number in the field of “Web POS- Cash in” and the remain money will be calculated automatically for you. 
 
-![For Split Payment]()
+![For Split Payment](./image_growth_m2/image255.png?raw=true)
  
 To solve “Remain money”, you can click on **Add Payment** button on the left corner of the screen 
 
-![For Split Payment]()
+![For Split Payment](./image_growth_m2/image256.png?raw=true)
  
 After clicking on **Add Payment**, Customers have those options to pay for the remaining money
 
 For instance, Customer chooses “Web POS – Credit Card” and the system will be displayed like this: 
 
-![For Split Payment]()
+![For Split Payment](./image_growth_m2/image257.png?raw=true)
 
 And then, please tap on **Place Order** button to complete this order. The process is done. 
 
@@ -2252,24 +2252,24 @@ This function allows customers to pay a part of value first and other parts will
 
 For example, the total value is $249, and customers want to pay $50 first and $199 they will pay later
 
-![For Partial Payment]()
+![For Partial Payment](./image_growth_m2/image258.png?raw=true)
  
 1.	Enter 50$ in the field of “Web POS – Cash in”
 2.	Tap on **MARK AS PARTIAL**
 
 And when customers come back to pay completely the bill, staff can check this order by checking **Orders History** tab (path: from WebPOS frontend top left menu icon **> Orders** section **> Orders History**). 
 
-![For Partial Payment]()
+![For Partial Payment](./image_growth_m2/image259.png?raw=true)
  
 I will take another example for you like this: 
 
-![For Partial Payment]()
+![For Partial Payment](./image_growth_m2/image260.png?raw=true)
  
 This order is remaining $199 that the customer hasn’t paid yet. 
 
 And when he comes back to accomplish this order, staff could tap **Take payment** and choose payment method for customer to pay in the popup as below:
 
-![For Partial Payment]()
+![For Partial Payment](./image_growth_m2/image261.png?raw=true)
  
 Staff can keep on adding  more payment methods as they want by clicking on **Add more Payment Method**. By clicking Submit, total paid will be equal to the whole value of order. Process is done. 
 
@@ -2281,7 +2281,7 @@ Your customers can't make up their mind yet, or are unable to make a payment mea
 
 After adding products to cart, you can choose **Hold** to put the order into WebPOS frontend top left menu **> Orders** section **> On-hold Orders.**
 
-![Put Order on-hold]()
+![Put Order on-hold](./image_growth_m2/image262.png?raw=true)
  
 **b. Check on-hold Orders**
 - **On WebPOS Frontend**
@@ -2290,27 +2290,27 @@ Path: WebPOS frontend top left menu **> Orders** section **> On-hold Orders**
 
 To check orders that have been put on hold, select **On-hold Orders** section. You may select **Checkout** whenever customer is willing to take final action for payment or you may **Delete** it if it is not effective anymore.
 
-![On WebPOS Frontend]()
+![On WebPOS Frontend](./image_growth_m2/image263.png?raw=true)
  
 - In **Magento Backend**
 
 If you turn on Sync on-hold order to server setting in WebPOS Frontend top left menu **> Settings** section **> General > Checkout**, you will be able to see on-hold orders in Magento backend **> Sales > Orders**.
 
-![Magento Backend]()
+![Magento Backend](./image_growth_m2/image264.png?raw=true)
 
 ##### Print Receipt or Email Order Information
 
 You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions
 
-![Print Receipt or Email Order Information]()
+![Print Receipt or Email Order Information](./image_growth_m2/image265.png?raw=true)
 
 Tap **Print** and the receipt will look like this picture below: 
   
-![Print Receipt or Email Order Information]()
+![Print Receipt or Email Order Information](./image_growth_m2/image266.png?raw=true)
 
 And here is the email of order information:
 
-![Print Receipt or Email Order Information]()
+![Print Receipt or Email Order Information](./image_growth_m2/image267.png?raw=true)
  
 ##### Review Order 
 
@@ -2318,7 +2318,7 @@ Path: WebPOS frontend top left menu **> Orders** section **> Order History**
 
 In POS screen, you can review orders by choosing **Order History** tab. Here you can see the order list and order details:
 
-![Review Order]()
+![Review Order](./image_growth_m2/image268.png?raw=true)
  
 **a. Order Status**
 
@@ -2335,13 +2335,13 @@ In order list, the status of order is distinguished by color
 
 To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
 
-![Order Searching]()
+![Order Searching](./image_growth_m2/image269.png?raw=true)
 
 **c. View Order Information**
 
 To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this: 
 
-![View Order Information]()
+![View Order Information](./image_growth_m2/image270.png?raw=true)
  
 ##### Issue Invoice for An Order 
 
@@ -2349,11 +2349,11 @@ The order can’t be complete if you haven’t issued invoice for customer.
 
 After the order is created successfully, you will find order’s details on tab **Order History** then click on tab **Invoice**
 
-![Issue Invoice for An Order]()
+![Issue Invoice for An Order](./image_growth_m2/image271.png?raw=true)
  
 A pop-up will appear, so you can enter the quantity of item or the order amount to be invoiced. Then you click on button **Submit invoice** to complete the action. You can choose whether to send invoice to customer’s email or not.
 
-![Issue Invoice for An Order]()
+![Issue Invoice for An Order](./image_growth_m2/image272.png?raw=true)
 
 ##### Create Shipment for An Order 
 
@@ -2365,7 +2365,7 @@ There are two ways to create shipment using Web POS: **Before Placing an Order**
 
 Before an order is created by clicking **Place Order**, you can create shipment by turn on **Marked as Shipped** as below:
 
-![Before Placing an Order]()
+![Before Placing an Order](./image_growth_m2/image273.png?raw=true)
  
 After verifying shipment method, the system will automatically load to Successful Order Page. There will be a message shown to notify you that shipment is created successfully. Please note that to use this way, you need to have permission and be in online mode.
 
@@ -2373,13 +2373,13 @@ After verifying shipment method, the system will automatically load to Successfu
 
 When order has been created successfully but hasn’t been shipped, you can go to Orders History (path: WebPOS frontend top left menu **> Orders** section **> Orders History**) and create shipment for that order.
  
-![After Placing an Order]()
+![After Placing an Order](./image_growth_m2/image274.png?raw=true)
 
 **b. Partial Shipment**
 
 If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button **Mark as shipped**.
 
-![Partial Shipment]()
+![Partial Shipment](./image_growth_m2/image275.png?raw=true)
  
 After placing order successfully, you find that order in **Orders History** (path: WebPOS frontend top left menu **> Orders** section **> Orders History**). 
 
@@ -2389,7 +2389,7 @@ A pop-up then appears so you can *enter the number of items to be shipped of eac
 
 **Note**: Only orders that have been synced can be shipped.
 
-![Partial Shipment]()
+![Partial Shipment](./image_growth_m2/image276.png?raw=true)
  
 #### How to Issue Refund
 
@@ -2401,11 +2401,11 @@ Customers can get refund in either Store Credits, points or in cash.
 
 To issue refund, go to **POS screen > Orders>** Choose order required to refund > Click on **Refund** button at the top right menu
 
-![How to Issue Refund]()
+![How to Issue Refund](./image_growth_m2/image277.png?raw=true)
  
 A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to return those items back to your warehouse.
 
-![How to Issue Refund]()
+![How to Issue Refund](./image_growth_m2/image278.png?raw=true)
 
 - **Adjust Refund**: The fee customers might have to pay for your store when requesting refund.
 - **Adjust Fee**: The compensation customers get from your store if they have to request refund.
@@ -2418,17 +2418,17 @@ After that, you will get the message informing that credit memo is created succe
 
 Path: **Magento backend menu > Sales > Web POS** section **> Sales Order Reports**
 
-![How to view report]()
+![How to view report](./image_growth_m2/image279.png?raw=true)
  
 Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. 
 
-![How to view report]()
+![How to view report](./image_growth_m2/image280.png?raw=true)
  
 **Note:**
 
 For each type of report:
 
-![How to view report]()
+![How to view report](./image_growth_m2/image281.png?raw=true)
  
 1.	You can quickly go from one report to another by selecting the report here instead of going back to the Report Overview page.
 2.	**Report Period**: You can view report in any custom time period.
@@ -2440,15 +2440,15 @@ For each type of report:
 
 On Staff report row, there are 3 types of reports: **Sales by staff, Sales by staff (Daily)** and **Order list for staff**. 
  
- ![Staff Report]()
+ ![Staff Report](./image_growth_m2/image282.png?raw=true)
  
 The **Sales by staff** report shows the number of orders and total sales created by each sale staff in any custom period.
 
- ![Staff Report]()
+ ![Staff Report](./image_growth_m2/image283.png?raw=true)
  
 The **Sales by staff (Daily)** report expresses the number of order and total sales created by each staff each day during the time you choose.
 
- ![Staff Report]()
+ ![Staff Report](./image_growth_m2/image284.png?raw=true)
  
 In the **Order list by staff** report, you can view all order information including ID, value, history and status of each order created by any or each specific sales staff.
 
@@ -2456,15 +2456,15 @@ In the **Order list by staff** report, you can view all order information includ
 
 The Location report has 3 different reports including **Sales by location, Sales by location (Daily)** and **Order list for location.**
 
-![Location Report]()
+![Location Report](./image_growth_m2/image285.png?raw=true)
  
 The **Sales by location** report shows the number of orders and sales created in each location, in any custom time.
 
-![Location Report]()
+![Location Report](./image_growth_m2/image286.png?raw=true)
   
 The **Sales by location (Daily)** report shows the number of orders and sales created in each location by each day.
  
-![Location Report]()
+![Location Report](./image_growth_m2/image287.png?raw=true)
 
 In the **Order list for location** report, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
 
@@ -2472,19 +2472,19 @@ In the **Order list for location** report, you can view all order information in
 
 The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method** and **Sales by payment method for location.**
 
-![Payment Report]()
+![Payment Report](./image_growth_m2/image288.png?raw=true)
  
 The **Sales by payment method** report displays the number of orders and sales paid by each payment method in a custom time period.
 
-![Payment Report]()
+![Payment Report](./image_growth_m2/image289.png?raw=true)
  
 The **Sales by payment (Daily)** report shows the number of orders and sales created by each payment method by each day.
 
-![Payment Report]()
+![Payment Report](./image_growth_m2/image290.png?raw=true)
  
 In the **Order list for payment method**, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
 
-![Payment Report]()
+![Payment Report](./image_growth_m2/image291.png?raw=true)
  
 The **Sales by payment method for location** report displays the number of orders and sales created by each payment in each sale location.
 
@@ -2492,13 +2492,13 @@ The **Sales by payment method for location** report displays the number of order
 
 Path: **Web POS backend** menu **> Sales > Web POS** section **> Z-Reports**
 
-![z-report]()
+![z-report](./image_growth_m2/image292.png?raw=true)
  
 The **Z-Report** page displays overview information of each session recorded in each POS including Session ID, Staff account, POS name, session opening/closing time and balance. 
 
 Click on **Print** of a specific Report to view and print the report. 
 
-![z-report]()
+![z-report](./image_growth_m2/image293.png?raw=true)
  
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
 
@@ -2513,12 +2513,12 @@ RetailerPOS module is available on both iPad and Android. In this userguide, we 
 
 After downloading and installing Retailer POS in your iPad, open the app and you will see login screen.Staffs need to enter domain, username and password:
 
-![Log in]()
+![Log in](./image_growth_m2/image294.png?raw=true)
 **Note**: you can hide the Demo button in **Settings > General**
 
 After that, staff needs to choose their POS to start using the app.
 
-![Log in]()
+![Log in](./image_growth_m2/image295.png?raw=true)
  
 After successfully log in, you will see either:
 	- Checkout screen to start add products to cart and checkout, if there is an opening session already or if opening session setting is turned off in backend setting (Path: **Sales > Web POS > Settings > General Configuration** section **> Need to create session before working** field); OR you will see
@@ -2530,26 +2530,26 @@ Manage account by clicking on the hamburger menu icon at the top left of the scr
 
 There are 5 tabs to configure settings: **General, My Account, Checkout, Print & Currency**
 
-![Manage Account]()
+![Manage Account](./image_growth_m2/image296.png?raw=true)
   
 - **General**: Users can set timing when the screen automatically switch to locking mode, change PIN code and hide demo button on the Login screen
 
-![Manage Account]()
+![Manage Account](./image_growth_m2/image297.png?raw=true)
 
 - **My account**: Users can change password if they want
 
-![Manage Account]()
+![Manage Account](./image_growth_m2/image298.png?raw=true)
  
 - **Checkout**:
 	- **Create shipment when placing order**: if you enable this setting, after an order is checked-out successfully, it will automatically be marked as shipped. 
 	- **Available Qty**: this settting allows displaying the product’s available quantity in warehouse in the product’s thumbnail.
 	- **Enable Google Address Suggestion** when you enter customer’s address during checkout.
 
-![Manage Account]()
+![Manage Account](./image_growth_m2/image299.png?raw=true)
 
 - **Print**: you can choose the printer type and preferred settings for each type including paper size (for Air Printer Scroll); paper size, automatically open cash drawer after checkout, number of receipt copies to be printed out, automatically print receipt after checkout and either to display product name or its SKU on the receipt (for Star Micronics Printer).
 
-![Print]()
+![Print](./image_growth_m2/image300.png?raw=true)
   
 - **Currency**: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from **Order History** after you change currency.
 
