@@ -6476,8 +6476,75 @@ After the order has been placed, Customers’ credit balances will be updated im
 
 #### View Store Information 
 
+Store Pickup module creates a separated page to list all your stores in the front-end. Customers can access this page by clicking on Our Stores on Top-Link (the top right of the page)
+
+![Sample](./Image_Growth_m1/image667.png?raw=true)
+
+The Store Listing page includes 4 sections: **Store list, Search form, Google Map and Tags list**.
+
+![Sample](./Image_Growth_m1/image668.png?raw=true)
+
+- The list of all stores is shown on the bottom of Google Map. Customers can view store names and base images on this list. Click on the icon ![Sample](./Image_Growth_m1/image669.png?raw=true) on the bottom right corner on the G-Map to show store list or click on the ![Sample](./Image_Growth_m1/image670.png?raw=true)
+
+- Store locations are displayed on Google Map. Customers can zoom in/ zoom out and choose view mode as map/ satellite as preferred. Customers can also view store address or get direction by clicking on the pin icon of any store.
+
+- Click on the icon ![Sample](./Image_Growth_m1/image671.png?raw=true) o search stores by location. Customers need to enter the key word and select criteria. Results that are matched are shown on G-Map. Click on the icon ![Sample](./Image_Growth_m1/image672.png?raw=true) to search stores by radius. After customers enter the the location then choose radius, related results are shown on G-Map.
+
+- Besides, customers can also filter by tags. Customers just have to click on tags they want to search. Then, list of stores which admin add these tags to will be shown.
+
+When customers click on a store on the map, they can instantly view the store location along with its name, address, phone number and store manager’s email address. Customers can also get direction on this box.
+
+![Sample](./Image_Growth_m1/image673.png?raw=true)
+
+For more details of a store, customers can click on its _View more info_ link to be navigated to the detailed page.
+
+![Sample](./Image_Growth_m1/image674.png?raw=true)
+
+As you can see, this page shows all details that customers want to know about a store before arriving, such as location, contact info, working time, description and store images.
+
+They can also view list of special days & holidays in Special day & Holiday information tab. Conveniently, they can email store manager by filling in the contact form then clicking on **Submit**.
+
 #### Use Store Pickup at Checkout 
+
+The main function of Store Pickup module is allowing customers to select a preferred store at checkout to arrive and pick up their ordered products. This section will show you how the extension works for customers.
+
+- In the **Shipping method** tab at checkout, customers can select **Store Pickup** as their shipping option
+
+![Sample](./Image_Growth_m1/image675.png?raw=true)
+
+Then customers can choose to select a store from the dropdown list or select store by map
+
+- After selecting a store, customers need to choose a specific shipping date and time for arrival, and then check out as usual by clicking on the **Continue** button.
+
+![Sample](./Image_Growth_m1/image676.png?raw=true)
+
+If the shipping date is one of store’s holidays, customers will get a message notifying them to choose another date. Thus, they can avoid arriving on the store’s days off. You can refer to section Manage Holidays to know how to set up these holidays.
+
+- In the **Payment Information** tab, applicable payment methods for In-store Pickup are shown as your configuration.
+
+![Sample](./Image_Growth_m1/image677.png?raw=true)
+
+- Before placing order, customers can also review the store address, shipping date and time along with other order information.
+
+![Sample](./Image_Growth_m1/image678.png?raw=true)
+
+#### View Orders
+
+To view their orders with store pickup information, customers can go to **My Account** on **Top-Link > My Orders tab** 
+
+![Sample](./Image_Growth_m1/image679.png?raw=true)
+
+Click on **VIEW ORDER** to see detailed information of an order
+
+![Sample](./Image_Growth_m1/image680.png?raw=true)
+
+To print orders, customers can click on **Print Order** on the top right.
 
 #### Receive Order Emails
 
+After placing orders, customers will receive the confirmation email with information about the pickup store.
+
+![Sample](./Image_Growth_m1/image681.png?raw=true)
+
+This is the end of our Userguide for Magestore’s Growth Package. We hope it is helpful. If you have any questions, please feel free to reach us. 
 
