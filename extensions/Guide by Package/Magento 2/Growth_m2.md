@@ -2292,27 +2292,27 @@ Path: WebPOS frontend top left menu **> Orders** section **> On-hold Orders**
 
 To check orders that have been put on hold, select **On-hold Orders** section. You may select **Checkout** whenever customer is willing to take final action for payment or you may **Delete** it if it is not effective anymore.
 
-![On WebPOS Frontend](./image_growth_m2/image263.png?raw=true)
+![On WebPOS Frontend](./image_growth_m2/image264.png?raw=true)
  
 - In **Magento Backend**
 
 If you turn on Sync on-hold order to server setting in WebPOS Frontend top left menu **> Settings** section **> General > Checkout**, you will be able to see on-hold orders in Magento backend **> Sales > Orders**.
 
-![Magento Backend](./image_growth_m2/image264.png?raw=true)
+![Magento Backend](./image_growth_m2/image265.png?raw=true)
 
 ##### Print Receipt or Email Order Information
 
 You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions
 
-![Print Receipt or Email Order Information](./image_growth_m2/image265.png?raw=true)
+![Print Receipt or Email Order Information](./image_growth_m2/image266.png?raw=true)
 
 Tap **Print** and the receipt will look like this picture below: 
   
-![Print Receipt or Email Order Information](./image_growth_m2/image266.png?raw=true)
+![Print Receipt or Email Order Information](./image_growth_m2/image267.png?raw=true)
 
 And here is the email of order information:
 
-![Print Receipt or Email Order Information](./image_growth_m2/image267.png?raw=true)
+![Print Receipt or Email Order Information](./image_growth_m2/image268.png?raw=true)
  
 ##### Review Order 
 
@@ -2320,7 +2320,7 @@ Path: WebPOS frontend top left menu **> Orders** section **> Order History**
 
 In POS screen, you can review orders by choosing **Order History** tab. Here you can see the order list and order details:
 
-![Review Order](./image_growth_m2/image268.png?raw=true)
+![Review Order](./image_growth_m2/image269.png?raw=true)
  
 **a. Order Status**
 
@@ -2337,13 +2337,13 @@ In order list, the status of order is distinguished by color
 
 To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
 
-![Order Searching](./image_growth_m2/image269.png?raw=true)
+![Order Searching](./image_growth_m2/image270.png?raw=true)
 
 **c. View Order Information**
 
 To view detailed information, click on your wanted order. Please make sure that you have permission to check it. The detailed order will be shown like this: 
 
-![View Order Information](./image_growth_m2/image270.png?raw=true)
+![View Order Information](./image_growth_m2/image271.png?raw=true)
  
 ##### Issue Invoice for An Order 
 
@@ -2351,11 +2351,11 @@ The order can’t be complete if you haven’t issued invoice for customer.
 
 After the order is created successfully, you will find order’s details on tab **Order History** then click on tab **Invoice**
 
-![Issue Invoice for An Order](./image_growth_m2/image271.png?raw=true)
+![Issue Invoice for An Order](./image_growth_m2/image272.png?raw=true)
  
 A pop-up will appear, so you can enter the quantity of item or the order amount to be invoiced. Then you click on button **Submit invoice** to complete the action. You can choose whether to send invoice to customer’s email or not.
 
-![Issue Invoice for An Order](./image_growth_m2/image272.png?raw=true)
+![Issue Invoice for An Order](./image_growth_m2/image273.png?raw=true)
 
 ##### Create Shipment for An Order 
 
@@ -2367,7 +2367,7 @@ There are two ways to create shipment using Web POS: **Before Placing an Order**
 
 Before an order is created by clicking **Place Order**, you can create shipment by turn on **Marked as Shipped** as below:
 
-![Before Placing an Order](./image_growth_m2/image273.png?raw=true)
+![Before Placing an Order](./image_growth_m2/image274.png?raw=true)
  
 After verifying shipment method, the system will automatically load to Successful Order Page. There will be a message shown to notify you that shipment is created successfully. Please note that to use this way, you need to have permission and be in online mode.
 
@@ -2375,13 +2375,13 @@ After verifying shipment method, the system will automatically load to Successfu
 
 When order has been created successfully but hasn’t been shipped, you can go to Orders History (path: WebPOS frontend top left menu **> Orders** section **> Orders History**) and create shipment for that order.
  
-![After Placing an Order](./image_growth_m2/image274.png?raw=true)
+![After Placing an Order](./image_growth_m2/image275.png?raw=true)
 
 **b. Partial Shipment**
 
 If customers want the orders to be shipped in 2 or more consignments, sales staff can enable Partial Shipment function. When you create order, remember to turn off button **Mark as shipped**.
 
-![Partial Shipment](./image_growth_m2/image275.png?raw=true)
+![Partial Shipment](./image_growth_m2/image276.png?raw=true)
  
 After placing order successfully, you find that order in **Orders History** (path: WebPOS frontend top left menu **> Orders** section **> Orders History**). 
 
@@ -2391,7 +2391,7 @@ A pop-up then appears so you can *enter the number of items to be shipped of eac
 
 **Note**: Only orders that have been synced can be shipped.
 
-![Partial Shipment](./image_growth_m2/image276.png?raw=true)
+![Partial Shipment](./image_growth_m2/image277.png?raw=true)
  
 #### How to Issue Refund
 
@@ -2403,11 +2403,11 @@ Customers can get refund in either Store Credits, points or in cash.
 
 To issue refund, go to **POS screen > Orders>** Choose order required to refund > Click on **Refund** button at the top right menu
 
-![How to Issue Refund](./image_growth_m2/image277.png?raw=true)
+![How to Issue Refund](./image_growth_m2/image278.png?raw=true)
  
 A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to return those items back to your warehouse.
 
-![How to Issue Refund](./image_growth_m2/image278.png?raw=true)
+![How to Issue Refund](./image_growth_m2/image279.png?raw=true)
 
 - **Adjust Refund**: The fee customers might have to pay for your store when requesting refund.
 - **Adjust Fee**: The compensation customers get from your store if they have to request refund.
@@ -2420,17 +2420,17 @@ After that, you will get the message informing that credit memo is created succe
 
 Path: **Magento backend menu > Sales > Web POS** section **> Sales Order Reports**
 
-![How to view report](./image_growth_m2/image279.png?raw=true)
+![How to view report](./image_growth_m2/image280.png?raw=true)
  
 Magento Web POS provides you 10 types of reports which help you get deeper into your business performance. 
 
-![How to view report](./image_growth_m2/image280.png?raw=true)
+![How to view report](./image_growth_m2/image281.png?raw=true)
  
 **Note:**
 
 For each type of report:
 
-![How to view report](./image_growth_m2/image281.png?raw=true)
+![How to view report](./image_growth_m2/image282.png?raw=true)
  
 1.	You can quickly go from one report to another by selecting the report here instead of going back to the Report Overview page.
 2.	**Report Period**: You can view report in any custom time period.
@@ -2442,15 +2442,15 @@ For each type of report:
 
 On Staff report row, there are 3 types of reports: **Sales by staff, Sales by staff (Daily)** and **Order list for staff**. 
  
- ![Staff Report](./image_growth_m2/image282.png?raw=true)
+ ![Staff Report](./image_growth_m2/image283.png?raw=true)
  
 The **Sales by staff** report shows the number of orders and total sales created by each sale staff in any custom period.
 
- ![Staff Report](./image_growth_m2/image283.png?raw=true)
+ ![Staff Report](./image_growth_m2/image284.png?raw=true)
  
 The **Sales by staff (Daily)** report expresses the number of order and total sales created by each staff each day during the time you choose.
 
- ![Staff Report](./image_growth_m2/image284.png?raw=true)
+ ![Staff Report](./image_growth_m2/image285.png?raw=true)
  
 In the **Order list by staff** report, you can view all order information including ID, value, history and status of each order created by any or each specific sales staff.
 
@@ -2458,15 +2458,15 @@ In the **Order list by staff** report, you can view all order information includ
 
 The Location report has 3 different reports including **Sales by location, Sales by location (Daily)** and **Order list for location.**
 
-![Location Report](./image_growth_m2/image285.png?raw=true)
+![Location Report](./image_growth_m2/image286.png?raw=true)
  
 The **Sales by location** report shows the number of orders and sales created in each location, in any custom time.
 
-![Location Report](./image_growth_m2/image286.png?raw=true)
+![Location Report](./image_growth_m2/image287.png?raw=true)
   
 The **Sales by location (Daily)** report shows the number of orders and sales created in each location by each day.
  
-![Location Report](./image_growth_m2/image287.png?raw=true)
+![Location Report](./image_growth_m2/image288.png?raw=true)
 
 In the **Order list for location** report, you can view all order information including ID, value, history and status of each order created by all or each specific sale location.
 
@@ -2474,19 +2474,19 @@ In the **Order list for location** report, you can view all order information in
 
 The section of Payment Report has 4 different types of report including **Sales by payment method, Sales by payment method (Daily), Order list for payment method** and **Sales by payment method for location.**
 
-![Payment Report](./image_growth_m2/image288.png?raw=true)
+![Payment Report](./image_growth_m2/image289.png?raw=true)
  
 The **Sales by payment method** report displays the number of orders and sales paid by each payment method in a custom time period.
 
-![Payment Report](./image_growth_m2/image289.png?raw=true)
+![Payment Report](./image_growth_m2/image290.png?raw=true)
  
 The **Sales by payment (Daily)** report shows the number of orders and sales created by each payment method by each day.
 
-![Payment Report](./image_growth_m2/image290.png?raw=true)
+![Payment Report](./image_growth_m2/image291.png?raw=true)
  
 In the **Order list for payment method**, you can view all order information including ID, value, history and status of each order created by all or each specific payment method. 
 
-![Payment Report](./image_growth_m2/image291.png?raw=true)
+![Payment Report](./image_growth_m2/image292.png?raw=true)
  
 The **Sales by payment method for location** report displays the number of orders and sales created by each payment in each sale location.
 
@@ -2494,13 +2494,13 @@ The **Sales by payment method for location** report displays the number of order
 
 Path: **Web POS backend** menu **> Sales > Web POS** section **> Z-Reports**
 
-![z-report](./image_growth_m2/image292.png?raw=true)
+![z-report](./image_growth_m2/image293.png?raw=true)
  
 The **Z-Report** page displays overview information of each session recorded in each POS including Session ID, Staff account, POS name, session opening/closing time and balance. 
 
 Click on **Print** of a specific Report to view and print the report. 
 
-![z-report](./image_growth_m2/image293.png?raw=true)
+![z-report](./image_growth_m2/image294.png?raw=true)
  
 Z-report shows the cash drawer balance in a certain time like a shift or a working day. All payment methods are listed down with the record of Grand Total in details respectively. If there is no customer use Cash on Delivery method to purchase orders, it will not appear in the Payment Method section.
 
@@ -2515,12 +2515,12 @@ RetailerPOS module is available on both iPad and Android. In this userguide, we 
 
 After downloading and installing Retailer POS in your iPad, open the app and you will see login screen.Staffs need to enter domain, username and password:
 
-![Log in](./image_growth_m2/image294.png?raw=true)
+![Log in](./image_growth_m2/image295.png?raw=true)
 **Note**: you can hide the Demo button in **Settings > General**
 
 After that, staff needs to choose their POS to start using the app.
 
-![Log in](./image_growth_m2/image295.png?raw=true)
+![Log in](./image_growth_m2/image296.png?raw=true)
  
 After successfully log in, you will see either:
 	- Checkout screen to start add products to cart and checkout, if there is an opening session already or if opening session setting is turned off in backend setting (Path: **Sales > Web POS > Settings > General Configuration** section **> Need to create session before working** field); OR you will see
@@ -2532,26 +2532,26 @@ Manage account by clicking on the hamburger menu icon at the top left of the scr
 
 There are 5 tabs to configure settings: **General, My Account, Checkout, Print & Currency**
 
-![Manage Account](./image_growth_m2/image296.png?raw=true)
+![Manage Account](./image_growth_m2/image297.png?raw=true)
   
 - **General**: Users can set timing when the screen automatically switch to locking mode, change PIN code and hide demo button on the Login screen
 
-![Manage Account](./image_growth_m2/image297.png?raw=true)
+![Manage Account](./image_growth_m2/image298.png?raw=true)
 
 - **My account**: Users can change password if they want
 
-![Manage Account](./image_growth_m2/image298.png?raw=true)
+![Manage Account](./image_growth_m2/image299.png?raw=true)
  
 - **Checkout**:
 	- **Create shipment when placing order**: if you enable this setting, after an order is checked-out successfully, it will automatically be marked as shipped. 
 	- **Available Qty**: this settting allows displaying the product’s available quantity in warehouse in the product’s thumbnail.
 	- **Enable Google Address Suggestion** when you enter customer’s address during checkout.
 
-![Manage Account](./image_growth_m2/image299.png?raw=true)
+![Manage Account](./image_growth_m2/image300.png?raw=true)
 
 - **Print**: you can choose the printer type and preferred settings for each type including paper size (for Air Printer Scroll); paper size, automatically open cash drawer after checkout, number of receipt copies to be printed out, automatically print receipt after checkout and either to display product name or its SKU on the receipt (for Star Micronics Printer).
 
-![Print](./image_growth_m2/image300.png?raw=true)
+![Print](./image_growth_m2/image301.png?raw=true)
   
 - **Currency**: allows changing to another currency that is preset in backend settings. Note that all previous orders will be removed from **Order History** after you change currency.
 
