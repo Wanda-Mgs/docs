@@ -4713,8 +4713,8 @@ Click on **Create New Order** button
 
 ![Use points when creating orders](./image_growth_m2/image575.png?raw=true)
  
-(1) Click on the product and enter the quantity
-(2) Click on **Add Selected Product(s) to Order**
+1. Click on the product and enter the quantity
+2. Click on **Add Selected Product(s) to Order**
 
 - **Step 5**:
 
@@ -5018,17 +5018,17 @@ Check the box to set credit products on main websites
 
 - **Gift Option tab**
 
-![Gift Option tab]()
+![Gift Option tab](./image_growth_m2/image621.png?raw=true)
  
 Set the allow gift message to **Yes** or check the **Use Config Settings** box to allow no Gift message. 
 
 - **Barcode tab**
 
-![Barcode tab]()
+![Barcode tab](./image_growth_m2/image622.png?raw=true)
  
 - **Stock Movement tab**
 
-![Stock Movement tab]()
+![Stock Movement tab](./image_growth_m2/image623.png?raw=true)
  
 Any movement of products will be recorded in this tab. 
 
@@ -5038,7 +5038,7 @@ Store credit products are set up based on your stores, so it is not necessary to
 
 Besides the **Credit Product Manager** page, you can also create a new credit product by following this path: **Products > Inventory** Section **> Catalog**
 
-![Supplier tab]()
+![Supplier tab](./image_growth_m2/image624.png?raw=true)
  
 ##### Manage Credit Transactions and Report Charts
 
@@ -5048,7 +5048,7 @@ Path: **Store Credit > Credit Transactions** Section **> Manage Credit Transacti
 
 The **Credit Transactions** page will be shown as below. 
 
-![Credit Transactions]()
+![Credit Transactions](./image_growth_m2/image625.png?raw=true)
  
 This page shows all credit-related transactions with a lot of information such as **type, detail, customer name/email, added/deducted credit, credit balance** after the transaction.
 
@@ -5062,7 +5062,7 @@ Path: **Store Credit > Credit Transactions** Section **> Customer Credit Report*
 
 Then the **Report Charts** page will be shown below. 
 
-![Credit Report Charts]()
+![Credit Report Charts](./image_growth_m2/image626.png?raw=true)
  
 This page can be divided into two main sections including Life-time Reports and Period-of-time Report Charts.
 - **Life-time Reports**: There are 2 types of reports.
@@ -5078,11 +5078,11 @@ On the **Create Order** page on the backend, our module allows you to use credit
 - **Step 1**: Do the steps of creating a new order normally, from creating or selecting customers to selecting products. 
 - **Step 2**: Enter a credit amount in **Customer Credit** box and click on the **Gray Arrow** button
 
-![Use Credit when Creating Orders in Backend]()
+![Use Credit when Creating Orders in Backend](./image_growth_m2/image627.png?raw=true)
  
 - **Step 3**: Select a shipping method and then look at the **Order Totals**.
 
-![Use Credit when Creating Orders in Backend]()
+![Use Credit when Creating Orders in Backend](./image_growth_m2/image628.png?raw=true)
  
 Our module will auto-update and calculate the grand total of the order.
 
@@ -5096,21 +5096,21 @@ When customers want to refund an order, our module allows you to transfer the or
 
 - **Step 1**: Click on **View** to see the details of an order
 
-![Refund Orders into Credit Balance]()
+![Refund Orders into Credit Balance](./image_growth_m2/image629.png?raw=true)
  
 - **Step 2**: 
 
-![Refund Orders into Credit Balance]()
+![Refund Orders into Credit Balance](./image_growth_m2/image630.png?raw=true)
  
 On the top bar, click on **Credit Memo** label to create a refund order 
 
-![Refund Orders into Credit Balance]()
+![Refund Orders into Credit Balance](./image_growth_m2/image631.png?raw=true)
  
 After that, select a warehouse to return stocks and adjust the number of products customers want to return.
 
 - **Step 3**: To adjust refund totals: 
 
-![Refund Orders into Credit Balance]()
+![Refund Orders into Credit Balance](./image_growth_m2/image632.png?raw=true)
  
 1.	Enter the amount you want to refund into credit as above
 2.	Click on the **Refund Offline** button
@@ -5126,29 +5126,29 @@ After customers log in to your website, they can access the **Store Credit Produ
 
 - **Option 1**: 
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image633.png?raw=true)
  
 On the top navigation bar, click to **Buy Store Credit**
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image634.png?raw=true)
  
 After that, the **Store Credit** page will be shown as above.
 
 As you can see, this page lists all **Credit Products** of your website. There are three types of credit products for customers to choose: fixed values, the range of values and drop-down values. 
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image635.png?raw=true)
 
 ***1.	Fixed Value***: These credit products have a fixed value. 
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image636.png?raw=true)
  
 ***2.	Drop-down Values***: With this type, customers can select a specific value in the drop-down list.
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image637.png?raw=true)
  
 ***3.	The range of Values***: With this type, customers can choose a desired credit amount within the range configured by admin in the backend. 
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image638.png?raw=true)
  
 After selecting credit products they like, customers can add them to cart and checkout normally.
 
@@ -5156,7 +5156,7 @@ When the order is complete, our module will auto-add that credit amount to the c
 
 Customers can also send Credits to their friends by doing the following steps: 
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image639.png?raw=true)
  
 1.	Tick **Send credit to friend** checkbox 
 2.	Enter the name of the recipient 
@@ -5167,23 +5167,23 @@ Customers can also send Credits to their friends by doing the following steps:
 
 Path: **My Dashboard** page **> My Credit** tab
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image640.png?raw=true)
  
 To buy credit product, click on the **My Credit** on the left navigation of the **Account Dashboard** page.
  
- ![How Customers buy Credit Product]()
+ ![How Customers buy Credit Product](./image_growth_m2/image641.png?raw=true)
 
 In this second way, customers will be navigated to the **My Credit** page on which they just need to click on the **Buy store credit** button. Then, the Credit Products page will be displayed and customers can continue buying credit as mentioned steps in option 1 above. 
 
 When the order is completed, there will be two cases happening based on signup status of the recipient email address. 
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image642.png?raw=true)
  
 - **Case 1**: if the recipient does not have an account in the system, an email as above will be sent.
 
 - **Case 2**: if the recipient has already had an account in the system, the system will automatically add that credit amount to the Recipient’s credit balance.
 
-![How Customers buy Credit Product]()
+![How Customers buy Credit Product](./image_growth_m2/image643.png?raw=true)
  
 In both cases, the sender always gets email notifications as above.
 
@@ -5193,7 +5193,7 @@ Path: **My Dashboard** page **> My Credit** tab
 
 **a. Manage Credit Balance**
 
-![Manage Credit Balance]()
+![Manage Credit Balance](./image_growth_m2/image644.png?raw=true)
  
 On the **My Credit** page, customers can view information about their current credit balances and transaction history.
 
@@ -5203,7 +5203,7 @@ In the section **Transaction History**, our module shows customers all of their 
 
 Path: **My Dashboard** page **> My Credit** tab **> Send Credit** tab
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image645.png?raw=true)
  
 First, customers should click on the **Send Credit** tab on the left navigation to go to the **Send Credit to Friends** page as above. 
 
@@ -5216,7 +5216,7 @@ Please note that our module allows you to configure whether to require your cust
 
 - **Case 1**: Customers are not required to verify their credit sharing.
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image646.png?raw=true)
  
 1.	Enter recipient’s email
 2.	Add an amount that customers want to send to their friends.
@@ -5229,13 +5229,13 @@ Notice that after entering recipient’s email, our module will check that email
 
 In this case, our module will show a notification for the customer that his friend will receive the credit code via that email. After that, the sender’s credit balance will be deducted immediately and an email will be auto-sent to the recipient’s email address.
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image647.png?raw=true)
  
 As you can see, this email informs the recipient about the credit amount, message and a credit code which can be used to redeem credit to his balance.
 
 At the same time, the sender can also see the sent credit code in the **Credit Code List** section as below.  
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image648.png?raw=true)
 
 In this section, customers can follow the status of the credit codes they sent. While the recipient has not redeemed a credit code, customers are allowed to cancel it by clicking on the **Cancel** link in the **Action** column. After the cancellation, the recipient cannot redeem that credit code anymore.
 
@@ -5243,25 +5243,25 @@ Otherwise, once the credit code has been redeemed, the status will be updated, a
 
 Customers can also check their current balances and transactions of sharing credit in the **Transaction History** section.
  
- ![Send Credit to Friends]()
+ ![Send Credit to Friends](./image_growth_m2/image649.png?raw=true)
 
 - **If the recipient’s email has been registered on the website:**
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image650.png?raw=true)
  
 If the recipient’s email address has been registered on your website, our module will send credit directly to his credit balance instead of sending credit code to his email. 
 
 Customers can check their current balances and transactions in the **Transaction History** section. 
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image651.png?raw=true)
  
 At the same time, recipients can get information about this transaction. 
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image652.png?raw=true)
  
 - **Case 2**: Customers are required to verify their credit sharing.
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image653.png?raw=true)
 
  
 If you configure that customers have to verify before sharing credit, after clicking on the **Send** button, they will receive an email as above.
@@ -5270,7 +5270,7 @@ At the same time, they will be navigated to the **Verify** page.
 
 On this page, our module shows them a notification about the verification requirement. In the **Credit Code List**, that code is put under the **Awaiting verification** status with a **Verify** link.
 
-![Send Credit to Friends]()
+![Send Credit to Friends](./image_growth_m2/image654.png?raw=true)
  
 To verify, customers can:
 1.	Enter the verification code they received in their emails 
@@ -5286,7 +5286,7 @@ To go to the **Redeem Credit** page, customers can click on the **Redeem Credit*
 
 On this page, customers can redeem the credit code they received to their credit balance as following steps:
 
-![Redeem Credit]()
+![Redeem Credit](./image_growth_m2/image655.png?raw=true)
  
 1.	Enter the code in the text field 
 2.	Clicking on the **Redeem** button.
@@ -5295,7 +5295,7 @@ Another way is just to click on the link in the email.
 
 After redeeming code, customers can check their current balance and transaction in the **Transaction History** section. 
 
-![Redeem Credit]()
+![Redeem Credit](./image_growth_m2/image656.png?raw=true)
 
 ##### How to check out by Credit 
 
@@ -5303,7 +5303,7 @@ Customers can use credit to check out on both **Shopping Cart** and **Checkout**
 
 On the **Shopping Cart** page, our module will add **Apply Credit Discount** block for customers to use their credit balances at checkout. 
 
-![How to check out by Credit]()
+![How to check out by Credit](./image_growth_m2/image657.png?raw=true)
  
 To use a credit amount, customers can:
 1.	Enter that number in the field 
@@ -5311,11 +5311,11 @@ To use a credit amount, customers can:
 
 Please note that customers cannot use credit to buy credit products. If their carts have one or more credit products, our module will show a notification in the **Customer Credit** block as below.
 
-![How to check out by Credit]()
+![How to check out by Credit](./image_growth_m2/image658.png?raw=true)
   
 On the **Checkout** page, in the **Payment Information** tab, apply credit discount the same as in the **Shopping Cart** page. 
 
-![How to check out by Credit]()
+![How to check out by Credit](./image_growth_m2/image659.png?raw=true)
 
 1.	Enter an amount of credit 
 2.	Click on the **Apply** button, and then our module will auto-update the order’s Grand Total.
@@ -5330,7 +5330,7 @@ A page will be separated to list all stores in front-end
 
 Customers click on the arrow button on Top-Link (the top right of the page)
 
-![General Information]()
+![General Information](./image_growth_m2/image660.png?raw=true)
  
 There are 4 sections on page: **Store List, Search Form, Google Map** and **Tags List**
 - **Store List**: The list of all stores is shown on the bottom of Google Map. Customers can see name and based image on this list. 
@@ -5345,13 +5345,13 @@ There are 4 sections on page: **Store List, Search Form, Google Map** and **Tags
 
 Users can click on the store on the map to view store location as well as its name, address, phone number, store manager’s email address. Even directions are aslo available to get. 
 
-![Detailed Information]()
+![Detailed Information](./image_growth_m2/image661.png?raw=true)
 
 ##### Link to Web 
 
 To view more details about stores, customers could click on its name link to be navigated to page. 
 
-![Link to web]()
+![Link to web](./image_growth_m2/image662.png?raw=true)
  
 As you can see, page show all information that customers care about such as location, contact info, working time, description & store images. 
 
@@ -5359,18 +5359,18 @@ They can view a list of **Special Day & Holiday Information Tab**
 
 Customers could conveniently leave comment by filling in Facebook comment box
 
-![Link to web]()
+![Link to web](./image_growth_m2/image663.png?raw=true)
  
 #### How Customers use Store Pickup at Check Out 
 ##### Choose Shipping Method: Delivery in Store 
 
-![Choose Shipping Method: Delivery in Store]()
+![Choose Shipping Method: Delivery in Store](./image_growth_m2/image664.png?raw=true)
  
 1. In the **Shipping Method** tab at checkout, select **Store Pick up** 
 2. Select a store from the dropdown list or select by Google map 
 or select on Google map as bellow:
  
- ![Choose Shipping Method: Delivery in Store]()
+ ![Choose Shipping Method: Delivery in Store](./image_growth_m2/image665.png?raw=true)
 
 On the G-Map popup, customer needs to select a store on store list or search store that they want, after that click on the **Apply** button to apply or click on **Close** button to cancel.
 
@@ -5378,19 +5378,19 @@ On the G-Map popup, customer needs to select a store on store list or search sto
 
 After selection shipment method as Store Pickup, customers need to choose date and time for their arrival and then check out as usual
 
-![Choose Delivery Time]()
+![Choose Delivery Time](./image_growth_m2/image666.png?raw=true)
  
 Customers must choose date and time arrival by selecting data from the box. (**NOTE**: you MUST set up store’s schedule to enable this calendar)
 
 If the shipping date is one of store’s holidays, customers won’t be able to choose that on the calendar. Thus, they can avoid arriving on the store’s days off. You can refer to **Manage Holidays** to know how to set up these holidays.
 
-![Choose Delivery Time]()
+![Choose Delivery Time](./image_growth_m2/image667.png?raw=true)
  
 ##### Choose Payment Method 
 
 In this step, applicable payment methods are shown as your configuration.
 
-![Choose Payment Method ]()
+![Choose Payment Method ](./image_growth_m2/image668.png?raw=true)
  
 All customers need to do is choosing their payment method 
 
@@ -5398,13 +5398,13 @@ All customers need to do is choosing their payment method
 
 To place the order, customers will click on the **Place Order** button
 
-![Place Orders]()
+![Place Orders](./image_growth_m2/image669.png?raw=true)
  
 ##### View Orders
 
 Path: **My Account > My Orders** tab **> View Order**
 
-![View Orders]()
+![View Orders](./image_growth_m2/image670.png?raw=true)
  
 To print orders, click on **Print Order** on the top right. 
  
