@@ -6106,7 +6106,371 @@ This page has 2 parts including **Reward Information** and **Recent transactions
 
 #### How Admin Manages Store Credit 
 
+##### Manage Customers Using Credit
+
+_Path:  **Store Credit > Manage Customers Using Credit**_ 
+
+![Sample](./Image_Growth_m1/image610.png?raw=true)
+
+Then the _Customers Using Credit Manager_ page will be displayed as below:
+
+![Sample](./Image_Growth_m1/image611.png?raw=true)
+
+This page shows a list of all Customers using credit and their information such as name, email, credit balance, telephone, etc.
+
+To view more details about a Customer, you can click on the _Edit_ link in the _Action_ column.
+
+Then you will be navigated to the _Store Credit_ tab on the _Customer Manage_ page that shows you all of Customer’s transaction history and credit balance:
+
+![Sample](./Image_Growth_m1/image612.png?raw=true)
+
+Besides, you can change the Customer’s credit balance by entering an integer (a positive or negative number) and a comment in text fields as below:
+
+![Sample](./Image_Growth_m1/image613.png?raw=true)
+
+Our module will auto send email to Customer to announce this transaction if you tick on **Send an email to customer checkbox**. The email will be sent to the customer as below: 
+
+![Sample](./Image_Growth_m1/image614.png?raw=true)
+
+After you save, our module will auto update the Customer’s credit balance, send an email to that Customer and create a transaction as follows:
+
+![Sample](./Image_Growth_m1/image615.png?raw=true)
+
+##### Manage Credit Product 
+
+_Path:  **Store Credit > Manage Credit Products**_ 
+
+![Sample](./Image_Growth_m1/image616.png?raw=true)
+
+Then the _Credit Product Manager_ page will be shown:
+
+![Sample](./Image_Growth_m1/image617.png?raw=true)
+
+To add a new credit product
+
+**Step 1**: Click on the Add Credit Product button on the right top of the page.
+
+**Step 2**: Fill in the required information
+
+You can add a credit product just in a similar way to adding a normal product. You should pay attention to these following tabs: 
+
+- **General** 
+
+![Sample](./Image_Growth_m1/image618.png?raw=true)
+
+Fill in all required information such as **Product Name, Description, SKU, Status, Visibility …** the same as creating a new normal product. 
+
+- **Prices**: In this tab, you can configure the price of the credit product. 
+
+There are three kinds of credit products you can use including **fixed price, option price and range price**.
+
+![Sample](./Image_Growth_m1/image619.png?raw=true)
+
+If you select **Fixed value**, enter the only value you want to apply for the credit product. 
+
+![Sample](./Image_Growth_m1/image620.png?raw=true)
+
+If you select **Range of value**, you need to enter the maximum and minimum store credit value as the image above. 
+
+![Sample](./Image_Growth_m1/image621.png?raw=true)
+
+If you select _Dropdown value_, you need to enter which credit values you want to display and they should be separated by a comma (for example 10, 30, 50, 60)
+
+- **Inventory**: 
+
+![Sample](./Image_Growth_m1/image622.png?raw=true)
+
+In this tab, by default, our module sets up the field _Manage Stock_ as **No**. It means that you do not need to manage the number of credit products.
+
+If you choose **Yes** in _Manage Stock_ box, you need to enter all the information related to the quantity of store credit you want to have in your stock
+
+Besides, you can also create a new credit product by clicking on the **Add Product** button on the _Manage Products_ page:
+
+![Sample](./Image_Growth_m1/image623.png?raw=true)
+
+Then you will be navigated to the _Product Information_ page. In the Settings tab, you need to select **Customer Credit** for the Product Type field before going on to configure the product as the guideline above.
+
+![Sample](./Image_Growth_m1/image624.png?raw=true)
+
+##### Manage Credit Transactions and Report Charts 
+
+a) Create Transactions 
+
+_Path: **Store Credit > Credit Transactions > Credit Transactions**_ 
+
+![Sample](./Image_Growth_m1/image625.png?raw=true)
+
+Then the **Credit Transactions** page will be shown: 
+
+![Sample](./Image_Growth_m1/image626.png?raw=true)
+
+This page shows all credit-related transactions with a lot of information such as **type, detail, customer name/email, added/deducted credit, credit balance** after transaction and transaction time.
+
+You can search any transaction by using filter boxes in each column.
+
+If you click on a Customer’s email, you will be navigated to the **Customer Information** page as below.
+
+![Sample](./Image_Growth_m1/image627.png?raw=true)
+
+b) Create Report Chart 
+
+_Path:  **Store Credit > Credit Transactions > Credit Report Charts**_ 
+
+![Sample](./Image_Growth_m1/image628.png?raw=true)
+
+or follow the path below: 
+
+![Sample](./Image_Growth_m1/image629.png?raw=true)
+
+Then the **Report Charts** page will be shown as follows:
+
+![Sample](./Image_Growth_m1/image630.png?raw=true)
+
+This page can be divided into two main sections including _Lifetime Reports_ and _Period-of-time Report Charts_.
+
+- **Lifetime Reports**: There are 2 types of reports
+
++ _Customer Credit Statistics_ with the total credit, the total spent the credit and the number of Customers with credit in your system.
+
++ _Top 5 Customers with The Greatest Credit Balances_ with their names and current balances in your system.
+
+- **Period-of-time Report Charts**: his chart shows you the total spent credit and received credit of all Customers per day in your chosen time range such as last 24 hours, last 7 days, current month, etc.
+
+##### Use Store Credit to Checkout in Backend 
+
+On the _Create New Order_ page on the backend, our module allows you to use credit when creating orders for Customers.
+
+![Sample](./Image_Growth_m1/image631.png?raw=true)
+
+Firstly, enter a credit amount and then click on the **Use Credit** button. Our module will auto-update and calculate the grand total of the order.
+
+![Sample](./Image_Growth_m1/image632.png?raw=true)
+
+After submitting the order, the Customer’s credit balance will be also auto updated and you can check the transaction on the **Credit Transaction** page.
+
+![Sample](./Image_Growth_m1/image633.png?raw=true)
+
+##### Refund Orders into Credit Balance 
+
+When Customers want to refund an order, our module allows you to transfer the order value to his credit balance. In that way, Customers can use the credit for future purchases and you do not have to lose money for the refund at the same time.
+
+![Sample](./Image_Growth_m1/image634.png?raw=true)
+
+(1) Choose the order your customer want to return to you.
+ 
+ ![Sample](./Image_Growth_m1/image635.png?raw=true)
+ 
+(2)  Click on the **Credit Memo** button. 
+
+Then a New Credit Memo for Order #XXXXX will appear as below:
+
+ ![Sample](./Image_Growth_m1/image636.png?raw=true)
+ 
+ ![Sample](./Image_Growth_m1/image637.png?raw=true)
+ 
+(3) Enter the amount you want to refund into credit:
+
+(4) Click on the **Refund Offline** button to finish. 
+
+The amount you entered as well as the credit that the Customer used for paying for the order will be refunded to his current credit balance. 
+
+Once the refund is finished, you can check the refund transaction on the **Manage Transaction** page as below:
+
+ ![Sample](./Image_Growth_m1/image638.png?raw=true)
+ 
 #### How Customers Use Store Credit 
+
+##### How Customer Buy Credit Product 
+
+After Customers log in to your website, they can access the **Store Credit** page in two ways.
+
+Firstly, clicking on the _My Account_ link, they can choose **Buy Store Credit** in the dropdown list. 
+
+ ![Sample](./Image_Growth_m1/image639.png?raw=true)
+ 
+ Secondly, they can click on the **My Credit** tab on the left navigation on the _My Account_ page.
+ 
+ In this second way, they will be navigated to the _My Credit_ page on which they just need to click on the **Buy store credit** button:
+ 
+ ![Sample](./Image_Growth_m1/image640.png?raw=true)
+  
+  After that, the _Store Credit_ page will be shown as follows:
+  
+ ![Sample](./Image_Growth_m1/image641.png?raw=true)
+ 
+ As you can see, this page lists all credit products on your website. There are three types of credit products for Customers to choose:
+ 
+ - **Fixed Value**: These credit products have fixed value. 
+ 
+ ![Sample](./Image_Growth_m1/image642.png?raw=true)
+ 
+ - **Option Value**: With this type, Customers can select a value option in the drop-down list box.
+
+ ![Sample](./Image_Growth_m1/image643.png?raw=true)
+ 
+ - **Range Value**: With this type, Customers can choose a desired credit amount within the range configured by admin in the backend. 
+ 
+ ![Sample](./Image_Growth_m1/image644.png?raw=true)
+  
+After selecting credit products they like, Customers can add them to cart and checkout normally.
+  
+ ![Sample](./Image_Growth_m1/image645.png?raw=true)  
+  
+When the order is complete, our module will auto-add that credit amount to the Customer’s credit balance.
+
+Customers can also send Credits to their friends by ticking Send credit to friend checkbox and enter all the required fields:
+
+![Sample](./Image_Growth_m1/image646.png?raw=true)
+
+(1) Enter Sender name (optional)
+
+(2) Recipient name: the name of the recipient 
+
+(3) Recipient email address: The system will send an email to this address of the recipient.
+
+(4) Custom message: the message that recipient will receive
+
+When the order is complete, if the recipient does not have an account in the system will receive an email as below:
+
+![Sample](./Image_Growth_m1/image647.png?raw=true)
+
+If the recipient has an account in the system, our module will auto-add that credit amount to the Recipient’s credit balance.
+
+![Sample](./Image_Growth_m1/image648.png?raw=true)
+
+The sender always gets email notifications as below:
+
+![Sample](./Image_Growth_m1/image649.png?raw=true)
+
+##### How customers manage Credit on My Credit page
+
+To access the _My Credit_ page, Customers can click on the _My Credit tab_ on the left navigation
+
+a) Manage Credit Balance
+
+On the _My Credit_ page, Customers can view information about their current credit balances and transaction history.
+
+n the section **Transaction History**, our module shows Customers all of their credit transactions with a lot of information including date, type, details, added/deducted value in transaction and credit balance.
+
+![Sample](./Image_Growth_m1/image650.png?raw=true)
+
+b) Send Credit to Friends
+
+First, Customers should click on the _Send Credit tab_ on the left navigation to go to the _Send Credit to Friends_ page.
+
+This page has 2 parts including **Send Credit to Friends** and **Credit Code List**.
+
+![Sample](./Image_Growth_m1/image651.png?raw=true)
+
+- **Send Credit to Friends**: In this section, Customers can send credit to their friends.
+
+- **Credit Code List**: This section shows all information about the credit codes that Customers sent to their friends including code, recipient email, amount, sent date and status of code. Credit codes are not displayed in full for security purpose. When Customers click on, they will be shown clearly.
+
+_Notes_: our module allows you to configure whether to require your Customers to verify their credit sharing or not. We will consider the two cases separately.
+
+**Case 1**: **Customers are not required to verify their credit sharing**
+
+To send credit to friends, Customers should enter the recipient’s email and credit amount in the text fields. Our module will check that email address and show a notification to Customers.
+
+- **If the recipient’s email has not been registered on the website: **
+
+![Sample](./Image_Growth_m1/image652.png?raw=true)
+
+In this case, our module will show a notification for the Customer that his friend will receive the credit code via that email. The Customer can enter a message and click on the Send button. After that, his credit balance will be deducted immediately and an email will be auto-sent to the recipient’s email address:
+
+![Sample](./Image_Growth_m1/image653.png?raw=true)
+
+As you can see, this email informs the recipient about the credit amount, message and a credit code which can be used to redeem credit to his balance.
+
+At the same time, the sender can also see the sent credit code in the Credit Code List section as below:
+
+![Sample](./Image_Growth_m1/image654.png?raw=true)
+
+In this section, Customers can follow the status of the credit codes they sent. When a recipient has not redeemed a credit code, Customers are allowed to cancel it by clicking on the _Cancel_ link in the Action column. After the cancellation, the recipient cannot redeem that credit code anymore.
+
+Otherwise, once the credit code has been redeemed, the status will be updated and the Cancel link will be disabled. Please refer to the section **Redeem Credit** for more information.
+
+Customers can check their current balances and transactions of sharing credit in the **Transaction History** section.
+
+![Sample](./Image_Growth_m1/image655.png?raw=true)
+
+- **If the recipient’s email has been registered on the website:**
+
+![Sample](./Image_Growth_m1/image656.png?raw=true)
+
+If the recipient’s email address has been registered on your website, our module will send credit directly to his credit balance instead of sending credit code to his email.
+
+Customers can check their current balances and transactions in the **Transaction History** section.
+
+![Sample](./Image_Growth_m1/image657.png?raw=true)
+
+At the same time, recipients can get information about this transaction:
+
+![Sample](./Image_Growth_m1/image658.png?raw=true)
+
+**Case 2**: **Customers are required to verify their credit sharing**
+
+If you configure that Customers have to verify before sharing credit, after clicking on the **Send** button, they will receive an email as below:
+
+![Sample](./Image_Growth_m1/image659.png?raw=true)
+
+At the same time, they will be navigated to the _Verify page_:
+
+![Sample](./Image_Growth_m1/image660.png?raw=true)
+
+On this page, our module shows them a notification about the verification requirement. In the Credit Code List, that code is put under the Awaiting verification status with a Verify link. 
+
+To verify, Customers just enter the verification code they received via their emails and then click on the **Submit Code** button.
+
+After Customers finish verifying, our module will send credit to the recipient.
+
+c) Redeem Credit
+
+To go to the _Redeem Credit_ page, Customers can do the steps below:
+
+![Sample](./Image_Growth_m1/image661.png?raw=true)
+
+(1) Click on the _Redeem Credit_ tab on the left navigation. Then the Redeem Credit page will be displayed as above. 
+
+(2) Enter the credit code in the text field 
+
+(3) Click on the Redeem button. 
+
+Another way is just to click on the link in the email.
+
+After redeeming code, Customers can check their current balance and transaction in the **Transaction History** section.
+
+![Sample](./Image_Growth_m1/image662.png?raw=true)
+
+##### How customers check out by Credit
+
+Customers can use credit to check out on both **Shopping Cart** and **Checkout page**.
+
+![Sample](./Image_Growth_m1/image663.png?raw=true)
+
+On the Shopping Cart page, our module will add a Customer Credit block for Customers to use their credit balances to check out.
+
+To use a credit amount, customers need to do the following steps:
+
+(1) Enter an amount of credit they want to redeem
+
+(2) Click on the **Apply** button.
+
+Then, our module will auto-update and calculate the grand total of the order.
+
+_Notes_: Customers cannot use credit to buy credit products. If their carts have one or more credit products, our module will show a notification in the Customer Credit block as below:
+
+![Sample](./Image_Growth_m1/image664.png?raw=true)
+
+On the _Checkout_ page, in the _Payment Information_ tab, Customers can also use credit to check out by ticking on the checkbox and then enter a credit amount they want.
+
+![Sample](./Image_Growth_m1/image665.png?raw=true)
+
+When Customers click on the **Continue** button, our module will auto-update the Grand Total of the order.
+
+After the order has been placed, Customers’ credit balances will be updated immediately. They can check the current balances and transactions in the **Transaction History** section.
+
+![Sample](./Image_Growth_m1/image666.png?raw=true)
 
 ### Store Pickup
 
