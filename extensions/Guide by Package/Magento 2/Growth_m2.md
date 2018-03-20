@@ -2766,42 +2766,42 @@ In the search box, you can quickly find the customer by entering his name, email
 
 The information of customer in the system will be auto updated in checkout step. 
 
-![Search Customers]()
+![Search Customers](./image_growth_m2/image330.png?raw=true)
  
 - **QR Code/ Barcode scanning**: our RetailerPOS offers an extremely convenient way for your customer checkout process by allowing scanning customer’s QR Code/ Barcode in their member card or loyalty app. 
 
-![QR Code/ Barcode scanning](./image_growth_m2/image330.png?raw=true)
+![QR Code/ Barcode scanning](./image_growth_m2/image331.png?raw=true)
  
 Click on the **Scan icon** in the Search bar. The system will automatically fill customer info into checkout form. 
 
 - **Create New Customer**: Click on **Create Customer** button
 
-![Create New Customer](./image_growth_m2/image331.png?raw=true)
+![Create New Customer](./image_growth_m2/image332.png?raw=true)
  
 Fill enough information of the customer such as **First Name, Last Name, Email, Phone, Group of Customer**. Remember to tap **Save** button to save the customer information for the next checkout.
 
-![Create New Customer](./image_growth_m2/image332.png?raw=true)
+![Create New Customer](./image_growth_m2/image333.png?raw=true)
  
 Fill in the information for **Shipping Address** such as **Phone, Street, City**, etc
 
-![Create New Customer](./image_growth_m2/image333.png?raw=true)
+![Create New Customer](./image_growth_m2/image334.png?raw=true)
  
 Fill enough information of **Billing Address** such as **Phone, Street, City**, etc
 
-![Create New Customer](./image_growth_m2/image334.png?raw=true)
+![Create New Customer](./image_growth_m2/image335.png?raw=true)
 
 ##### Guest Checkout
 
 When you use Guest Checkout, the default customer that you configure in backend will be used (please refer to **Default Guest Check Out** for more details). At checkout, all fields will be auto-filled with that default information.
 
-![Guest Checkout](./image_growth_m2/image335.png?raw=true)
+![Guest Checkout](./image_growth_m2/image336.png?raw=true)
 
 #### Add Comment to An Order
 ##### Add Comment 
 
 After selecting an order, from the menu icon on the top right, choose **Add Order Comment.**
 
-![Add Comment](./image_growth_m2/image336.png?raw=true)
+![Add Comment](./image_growth_m2/image337.png?raw=true)
  
 In the **Order Comment** box, type in the content and click on **Save**. Click on **Cancel Comment** to exit the comment function.
 
@@ -2813,23 +2813,23 @@ Users can check comment on Retailer POS Screen or in Magento Back-end
 
 To view comment of order, you can go to **Orders** tab in Retailer POS top left menu, choose an order then scroll down to see Comment History
 
-![Retailer POS Screen](./image_growth_m2/image337.png?raw=true)
+![Retailer POS Screen](./image_growth_m2/image338.png?raw=true)
 
 - **Magento Back-end**
 
 Go to **Sales > Orders >** Click on a specific order. In order details page, scroll down to **Comment History** tab to check whether it has any notes or not.
 
-![Magento Back-end](./image_growth_m2/image338.png?raw=true)
+![Magento Back-end](./image_growth_m2/image339.png?raw=true)
 
 #### Process at Checkout for Customer
 
 When the products are added to cart, select **Checkout** button at the end of the cart page
 
-![Process at Checkout for Customer](./image_growth_m2/image339.png?raw=true)
+![Process at Checkout for Customer](./image_growth_m2/image340.png?raw=true)
  
 You will be redirected to the next page with information of **Shipping & Payment Method**
 
-![Process at Checkout for Customer](./image_growth_m2/image340.png?raw=true)
+![Process at Checkout for Customer](./image_growth_m2/image341.png?raw=true)
  
 - **Need to Ship**: Turn on to add **Shipping Address**
 - **Shipping Method**: Choose a shipping method (please refer to **Set up Shipping Method** for more details)
@@ -2840,7 +2840,7 @@ You will be redirected to the next page with information of **Shipping & Payment
 
 After that, click on **Place Order** button to complete checkout process. There will be a notification as below:
 
-![Process at Checkout for Customer](./image_growth_m2/image341.png?raw=true)
+![Process at Checkout for Customer](./image_growth_m2/image342.png?raw=true)
 
 Click **New Order** to go back to the Checkout window and continue creating order/checkout for another guest. Click Print to print the order receipt. 
 
@@ -2850,7 +2850,7 @@ You can use more than 1 payment method for split payments when check out with Re
 
 Here is an example for you: The order value is $45. Your customer wants to pay $20 in cash and the remaining ($25) is paid by Custom Payment. Then, you will fill the amount at the blank space next to “Web POS – Custom Payment 2”. Then click **Place Order** to finish.
 
-![Split Payment](./image_growth_m2/image342.png?raw=true)
+![Split Payment](./image_growth_m2/image343.png?raw=true)
  
 **Note**: 
 - Support multiple payment methods for an order 
@@ -2862,7 +2862,7 @@ Retailer POS allows you to create multi-orders for different customers and keep 
 
 **NOTE**: these orders will be automatically deleted once you log out.
 
-![Create Multi-Orders for Different Customers](./image_growth_m2/image343.png?raw=true)
+![Create Multi-Orders for Different Customers](./image_growth_m2/image344.png?raw=true)
  
 You can **Delete** an opened order by clicking on the **Trash** icon. If you turn on **Need** to confirm before deleting order **(App only)** setting in backend, you will need to confirm before deleting the order.
 
@@ -2875,7 +2875,7 @@ There are 2 ways to create shipment: Before placing order & When reviewing order
 
 Before clicking **Place order** to accomplish customer purchasing process, Staffs can create shipment by turn it on as below and enter Shipping Address.
 
-![Before placing order](./image_growth_m2/image344.png?raw=true)
+![Before placing order](./image_growth_m2/image345.png?raw=true)
  
 After verifying shipment method, the system will automatically load to Successful Order Page.
 
@@ -2883,7 +2883,7 @@ After verifying shipment method, the system will automatically load to Successfu
 
 Path: **Order history** > from the top right menu choose **Order > Ship**
 
-![When reviewing order](./image_growth_m2/image345.png?raw=true)
+![When reviewing order](./image_growth_m2/image346.png?raw=true)
  
 There will be a message shown to notify you that shipment is created successfully. Please note that to use this way, you need to have permission.
 
@@ -2891,7 +2891,7 @@ There will be a message shown to notify you that shipment is created successfull
 
 If you chose to enable Partial Shipment, a box of Items to Ship will appear when you tap **Ship in Order** Tab. Enter the quantity of each product customers want to ship, select **Ship**.
 
-![Partial Shipment](./image_growth_m2/image346.png?raw=true)
+![Partial Shipment](./image_growth_m2/image347.png?raw=true)
 
 #### Issue Refund
 
@@ -2899,11 +2899,11 @@ Some certain staffs have permission to issue refund by cash. Please refer to sec
 
 To issue refund, go to **Orders** tab in POS screen, you choose the order that is required to refund. Tap on **Refund** button in the end.
 
-![Issue Refund](./image_growth_m2/image347.png?raw=true)
+![Issue Refund](./image_growth_m2/image348.png?raw=true)
  
 A popup will display so that you can fill in the information before making refund. Tick **Return to stock** if you want to add those items back to your stock.
 
-![Issue Refund](./image_growth_m2/image348.png?raw=true)
+![Issue Refund](./image_growth_m2/image349.png?raw=true)
  
 After that, you will get the message informing that credit memo is created successfully. Please make sure you have permission to issue refund.
 
@@ -2911,17 +2911,17 @@ After that, you will get the message informing that credit memo is created succe
 
 You can print receipt or email order information right after creating an order. Remember that you must be online and have permission to do these actions.
 
-![Print Receipt and Email Order](./image_growth_m2/image349.png?raw=true)
+![Print Receipt and Email Order](./image_growth_m2/image350.png?raw=true)
  
 The receipt will look like the screenshot below with further options in the top right menu.
 
-![Print Receipt and Email Order](./image_growth_m2/image350.png?raw=true)
+![Print Receipt and Email Order](./image_growth_m2/image351.png?raw=true)
 
 #### Review Order 
 
 In POS screen, you can review orders by choosing **Orders** tab from sidebar. Here you can see the **order list** and **order details**
 
-![Review Order](./image_growth_m2/image351.png?raw=true)
+![Review Order](./image_growth_m2/image352.png?raw=true)
  
 The status of order is distinguished by color: 
 - **Orange**: Pending: the order is placed but not processed (shipped/invoiced/ etc.)
@@ -2932,7 +2932,7 @@ The status of order is distinguished by color:
 
 To quickly find an order to review, you can search it by Order ID or Customer’s Name/Email
 
-![Review Order](./image_growth_m2/image352.png?raw=true)
+![Review Order](./image_growth_m2/image353.png?raw=true)
  
 #### Run Sales Report
 
@@ -2944,11 +2944,11 @@ Please refer to **How to View Report** for details.
 
 Path: **Inventory Management > Stock Listing** section **> Stocks in Warehouse**
 
-![Stocks in Warehous](./image_growth_m2/image353.png?raw=true)
+![Stocks in Warehous](./image_growth_m2/image354.png?raw=true)
  
 This page provides an overview of stock data in all warehouses and admin can select a warehouse to view stocks of that warehouse only. It shows **Available Qty, Qty to Ship, Total Qty** and **Shelf Location** of each product in that warehouse. 
 
-![Stocks in Warehous](./image_growth_m2/image354.png?raw=true)
+![Stocks in Warehous](./image_growth_m2/image355.png?raw=true)
  
 After selecting a specific warehouse, admin can easily update stock and shelf location right on the Inventory grid:
 1.	Mark the checkbox to select products
@@ -2962,7 +2962,7 @@ Path: **Inventory Management > Stock Listing** section **> Non-Warehouse Product
 
 When a product is newly added to the system, it will be automatically allocated in Non-warehouse. Admin can assign this product to any warehouses. 
 
-![Non-Warehouse Products](./image_growth_m2/image355.png?raw=true)
+![Non-Warehouse Products](./image_growth_m2/image356.png?raw=true)
  
 1.	Select the product by clicking on the checkbox
 2.	**Add to Warehouse**: Add it into warehouse by clicking on its Add to Warehouse column.
@@ -2981,12 +2981,12 @@ Please refer to Section **New Warehouse** for details.
 
 Path: **Inventory Management > Stock Listing** section **> Warehouse**
 
-![View Warehouse's detail information](./image_growth_m2/image356.png?raw=true)
+![View Warehouse's detail information](./image_growth_m2/image357.png?raw=true)
  
 1.	Tick on the checkbox to choose a warehouse
 2.	Click on **View** to the warehouse detailed information
 
-![View Warehouse's detail information](./image_growth_m2/image357.png?raw=true)
+![View Warehouse's detail information](./image_growth_m2/image358.png?raw=true)
  
 In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the right side of each master data tab, click on the **Arrow button** to access the data:
 
@@ -2997,8 +2997,8 @@ In the **View Warehouse page**, there are 6 tabs to manage the warehouse. On the
 5. **Warehouse Permission** manages staff access to the warehouse. Detailed guide is given in the next section **c. Warehouse permissions**
 6. **Dashboard** contains reports that are illustrated as table and lines diagrams as below.
 
-![Dashboard](./image_growth_m2/image358.png?raw=true)
 ![Dashboard](./image_growth_m2/image359.png?raw=true)
+![Dashboard](./image_growth_m2/image360.png?raw=true)
 
 **c. Warehouse permissions**
 
@@ -3007,20 +3007,20 @@ Path: **Stock Management > Stock Listing** section **> Warehouse > Warehouse Per
 In this section, Admin can give different warehouse access permissions to different (admin) users.
 Click on **View** to see the warehouse’s detail information
 
-![Warehouse permissions](./image_growth_m2/image360.png?raw=true)
+![Warehouse permissions](./image_growth_m2/image361.png?raw=true)
  
 1.	On the right hand side of the  **Warehouse Permission** tab, click on **Assign Staff** to give different warehouse access permissions.
 
 Then will be a new pop-up screen shown as below:
 
-![warehouses permissions](./image_growth_m2/image361.png?raw=true)
+![warehouses permissions](./image_growth_m2/image362.png?raw=true)
  
 Select Staff users to assign permission
 1. Select Staff by marking the checkbox
 2. Click on **Filters** to search Staff information (if any)
 3. Click on **Add Selected Staff**
 
-![warehouses permissions](./image_growth_m2/image362.png?raw=true)
+![warehouses permissions](./image_growth_m2/image363.png?raw=true)
 
 4. Then click on **Save Staff Permissions**
 
@@ -3037,7 +3037,7 @@ The process to Send stock is: *Add new send stock > Prepare Product list > Selec
 
 - **Step 1: Add new send stock**
 
-![Add new send stock](./image_growth_m2/image363.png?raw=true)
+![Add new send stock](./image_growth_m2/image364.png?raw=true)
  
 1.	Fill the **Transfer Code**
 2.	Choose **Source Warehouse** 
@@ -3046,11 +3046,11 @@ The process to Send stock is: *Add new send stock > Prepare Product list > Selec
 
 - **Step 2: Prepare the product list:**
 
-![Prepare the product list](./image_growth_m2/image364.png?raw=true)
+![Prepare the product list](./image_growth_m2/image365.png?raw=true)
    
 To prepare product list, click on the **Prepare Product List** button
 
-![Prepare the product list](./image_growth_m2/image365.png?raw=true)
+![Prepare the product list](./image_growth_m2/image366.png?raw=true)
  
 Here you have 3 options to prepare products to be sent:
 - **Scan barcode**: if you have our barcode management module installed;
@@ -3059,48 +3059,48 @@ Here you have 3 options to prepare products to be sent:
 
 **If you choose Select Products:**
 
-![Prepare the product list](./image_growth_m2/image366.png?raw=true)
+![Prepare the product list](./image_growth_m2/image367.png?raw=true)
 
 1. Click on the product needed
 2. Then, click on **Add Selected Products** button
 
-![Prepare the product list](./image_growth_m2/image367.png?raw=true)
+![Prepare the product list](./image_growth_m2/image368.png?raw=true)
 
 3. Choose the quantity to transfer and click on **Start Send Stock**
 4. You can click on **Remove** to delete product line
 
-![Prepare the product list](./image_growth_m2/image368.png?raw=true)
+![Prepare the product list](./image_growth_m2/image369.png?raw=true)
 
 The system will dislpay a notification when the transfer is completed.
 
 - **Step 3: Receive stock:** Destination warehouse can create receives by either **importing** via a CSV file or **selecting products** from the list of Sent products.
 
-![Receive stock](./image_growth_m2/image369.png?raw=true)
+![Receive stock](./image_growth_m2/image370.png?raw=true)
  
 If you click on **Select Products** in **Receiving history** tab:
 
-![Receive stock](./image_growth_m2/image370.png?raw=true)
+![Receive stock](./image_growth_m2/image371.png?raw=true)
  
 1.	Select the product to receive 
 2.	Click on **Add Selected Products**
 
-![Receive stock](./image_growth_m2/image371.png?raw=true)
+![Receive stock](./image_growth_m2/image372.png?raw=true)
  
 Enter the quantity received in receiving history
 
-![Receive stock](./image_growth_m2/image372.png?raw=true)
+![Receive stock](./image_growth_m2/image373.png?raw=true)
  
 Click on **Save Receive** and the system will display a notification about the Successful Receipt:
 
-![Receive stock](./image_growth_m2/image373.png?raw=true)
+![Receive stock](./image_growth_m2/image374.png?raw=true)
  
 You can also view and download the **Shortfall List** – the list containing the products that the Destination warehouse does not receive from Source warehouse:
 
-![Receive stock](./image_growth_m2/image374.png?raw=true)
+![Receive stock](./image_growth_m2/image375.png?raw=true)
  
 Or **Return products**, also on the same page: 
  
-![Receive stock](./image_growth_m2/image375.png?raw=true)
+![Receive stock](./image_growth_m2/image376.png?raw=true)
 
 **b. Request Stock**
 
@@ -3110,7 +3110,7 @@ If a warehouse lacks stock, admin can create a Stock request to get stock from o
 
 - **Step 1: Add new request stock:** 
 
-![Add new request stock](./image_growth_m2/image376.png?raw=true)
+![Add new request stock](./image_growth_m2/image377.png?raw=true)
  
 1.	Fill the **Transfer Code**
 2.	Choose **Source Warehouse** 
@@ -3119,11 +3119,11 @@ If a warehouse lacks stock, admin can create a Stock request to get stock from o
 
 - **Step 2: Prepare the product list:**
 
-![Prepare the product list](./image_growth_m2/image377.png?raw=true)
+![Prepare the product list](./image_growth_m2/image378.png?raw=true)
  
 To prepare product list, click on the **Prepare Product List** button
 
-![Prepare the product list](./image_growth_m2/image378.png?raw=true)
+![Prepare the product list](./image_growth_m2/image379.png?raw=true)
 
 Here you have 3 options to prepare products to be requested:
 	- **Scan barcode:** if you have our barcode management module installed;
@@ -3132,55 +3132,55 @@ Here you have 3 options to prepare products to be requested:
 
 **If you choose Select Products:**
 
-![Select Products](./image_growth_m2/image379.png?raw=true)
+![Select Products](./image_growth_m2/image380.png?raw=true)
 
 1. Click on the product needed
 2. Then, click on **Add Selected Products**
  
-![Select Products](./image_growth_m2/image380.png?raw=true)
+![Select Products](./image_growth_m2/image381.png?raw=true)
 
 1. Enter the quantity to transfer 
 2. Click on **Start Request Stock**
 
 You can click on **Remove** to delete product line
 
-![Select Products](./image_growth_m2/image381.png?raw=true)
+![Select Products](./image_growth_m2/image382.png?raw=true)
 
 The system will dislpay a notification when the transfer is completed.
 
 - **Step 3: Delivery History**: Source warehouse when receives the stock request can create a stock delivery. When a stock delivery is created, stock will be subtracted immediately from the source warehouse.
 
-![Delivery history](./image_growth_m2/image382.png?raw=true)
+![Delivery history](./image_growth_m2/image383.png?raw=true)
  
 You can either import products via a CSV file or click on **Select Products** in delivery history.
 
 **If you choose to Select Products:**
 
-![Select Products](./image_growth_m2/image383.png?raw=true)
+![Select Products](./image_growth_m2/image384.png?raw=true)
 
 1. Select the products to be added
 2. Click on **Add Selected Products**
 
-![Select Products](./image_growth_m2/image384.png?raw=true)
+![Select Products](./image_growth_m2/image385.png?raw=true)
 
 Enter the delivered quantity in delivery history and click on **Save Delivery**
 
 - **Step 4: Receive History**: Destination warehouse can create receives by importing or selecting product then update received qty. 
 
-![Receive History](./image_growth_m2/image385.png?raw=true)
+![Receive History](./image_growth_m2/image386.png?raw=true)
  
 Click on **Select Products** in receiving history
 
-![Receive History](./image_growth_m2/image386.png?raw=true)
+![Receive History](./image_growth_m2/image387.png?raw=true)
 
 1. Select the products to receive
 2. Click on **Add Selected Products**
 
-![Receive History](./image_growth_m2/image387.png?raw=true)
+![Receive History](./image_growth_m2/image388.png?raw=true)
 
 Enter the quantity received in receiving history and click on **Save Receive.**
 
-![Receive History](./image_growth_m2/image388.png?raw=true)
+![Receive History](./image_growth_m2/image389.png?raw=true)
 
 The system will display a message when the receiving is created successfully. 
 
@@ -3194,7 +3194,7 @@ Path: **Inventory Management > Transfer Stock** section **> Transfer to External
 
 This feature allows you to record sending the product to an external destination e.g. when the product is damaged, loss or sent as free gift…
  
-![Transfer to External ](./image_growth_m2/image389.png?raw=true)
+![Transfer to External ](./image_growth_m2/image390.png?raw=true)
 
 1. Fill the **Transfer Code**
 2. Fill the **External Location**
@@ -3203,18 +3203,18 @@ This feature allows you to record sending the product to an external destination
 5. Fill in the **Reason** box
 6. Click on **Prepare Product List**
 
-![Transfer to External](./image_growth_m2/image390.png?raw=true)
+![Transfer to External](./image_growth_m2/image391.png?raw=true)
  
 Then, you can add or import products to transfer stock by clicking on **Scan Barcode, Import** or **Select Products.**
 
 If you choose to **Select Products** from your inventory:
 
-![Transfer to External](./image_growth_m2/image391.png?raw=true)
+![Transfer to External](./image_growth_m2/image392.png?raw=true)
  
 1.	Select the products to be added
 2.	Click on **Add Selected Products**
 
-![Transfer to External](./image_growth_m2/image392.png?raw=true)
+![Transfer to External](./image_growth_m2/image393.png?raw=true)
  
 Fill the **Qty** and click on **Transfer** to finalise. 
 
@@ -3224,7 +3224,7 @@ Path: **Inventory Management > Transfer Stock** section **> Transfer from Extern
 
 This feature allows you to accept the stocks from outside of the system. Not only from another warehouse but can be from any other source. 
 
-![Transfer from External](./image_growth_m2/image393.png?raw=true)
+![Transfer from External](./image_growth_m2/image394.png?raw=true)
 
 1. Fill the **Transfer Code**
 2. Fill the **External Location**
@@ -3233,17 +3233,17 @@ This feature allows you to accept the stocks from outside of the system. Not onl
 5. Fill in the **Reason** box
 6. Click on **Prepare Product List**
 
-![Transfer from External](./image_growth_m2/image394.png?raw=true)
+![Transfer from External](./image_growth_m2/image395.png?raw=true)
  
 Then, you can add or import products to transfer stock by clicking on **Scan Barcode, Import** or **Select Products.**
 
-![Transfer from External](./image_growth_m2/image395.png?raw=true)
+![Transfer from External](./image_growth_m2/image396.png?raw=true)
  
 Fill the **Qty** and click on **Transfer** to finalise. 
 
 ##### Transfer Stock History
 
-![Transfer Stock History](./image_growth_m2/image396.png?raw=true)
+![Transfer Stock History](./image_growth_m2/image397.png?raw=true)
  
 This History records stock movements from send stock, request stock, transfer from external and transfer to external.
 
@@ -3254,13 +3254,13 @@ This History records stock movements from send stock, request stock, transfer fr
 
 As mentioned in section **Stock Control Configuration**, you can link products and stock data by choosing **Yes** on the **Link stocks in Warehouse to Front Store View** section in **Settings** menu.
 
-![Link stocks in Warehouse to Front Store View](./image_growth_m2/image397.png?raw=true)
+![Link stocks in Warehouse to Front Store View](./image_growth_m2/image398.png?raw=true)
 
 **b. Add new Stock Adjustment**
 
 Path: **Inventory Management > Stock Control** section **> New Stock Adjustment**
 
-![Add new Stock Adjustment](./image_growth_m2/image398.png?raw=true)
+![Add new Stock Adjustment](./image_growth_m2/image399.png?raw=true)
  
 Under menu **Stock Control**, you can create new Stock Adjustment in a few steps:
 1.	Name of the warehouse.
@@ -3268,7 +3268,7 @@ Under menu **Stock Control**, you can create new Stock Adjustment in a few steps
 3.	Fill the **Reason**
 4.	Then click button **Start Adjust Stock**
 
-![Add new Stock Adjustment](./image_growth_m2/image399.png?raw=true)
+![Add new Stock Adjustment](./image_growth_m2/image400.png?raw=true)
 
 From here you have 2 options:
 1.	Go to product list and **Add Products to Adjust Stock or Import products** via CSV file
@@ -3278,7 +3278,7 @@ From here you have 2 options:
 
 Once the Adjustment is Complete, there is no way to undo it.
 
-![Add new Stock Adjustment](./image_growth_m2/image400.png?raw=true)
+![Add new Stock Adjustment](./image_growth_m2/image401.png?raw=true)
  
 Stock level will be updated instantly in the corresponding warehouse.
 
@@ -3286,13 +3286,13 @@ Stock level will be updated instantly in the corresponding warehouse.
 
 Path: **Inventory Management > Stock Control** section **> Adjust Stock History**
 
-![View Stock Adjustment History](./image_growth_m2/image401.png?raw=true)
+![View Stock Adjustment History](./image_growth_m2/image402.png?raw=true)
  
 You can view all records of Stock Adjustments in this page with information including Time created, staff created, warehouse and status… Click on each Adjustment, you can see stock adjustment details. 
 
 If you click on a **Completed** adjustment, you will be able to export the product list of that specific adjustment by clicking the button **Export Products**.
 
-![View Stock Adjustment History](./image_growth_m2/image402.png?raw=true)
+![View Stock Adjustment History](./image_growth_m2/image403.png?raw=true)
 
 ##### Stock Taking & Stock Taking History
 
@@ -3304,13 +3304,13 @@ Physical Stocktaking acts can be used at any time to double-check and correct in
 
 Path: **Inventory Management > Stock Control** section **> New Stocktaking**
 
-![Stocktaking process](./image_growth_m2/image403.png?raw=true)
+![Stocktaking process](./image_growth_m2/image404.png?raw=true)
  
 There are 5 steps in Stock taking using Inventory Management:
 
 - **Step 1: Fill General information**: After finishing this step, Stock taking status is **Pending**
 
-![Fill General information](./image_growth_m2/image404.png?raw=true)
+![Fill General information](./image_growth_m2/image405.png?raw=true)
  
 1.	Choose **Warehouse**
 2.	Fill the **Stocktaking Code**
@@ -3320,7 +3320,7 @@ There are 5 steps in Stock taking using Inventory Management:
 
 - **Step 2: Prepare products before doing stock take**: Select or import products to prepare before doing stock take. Stock taking status will change to **Processing**
 
-![Prepare products before doing stock take](./image_growth_m2/image405.png?raw=true)
+![Prepare products before doing stock take](./image_growth_m2/image406.png?raw=true)
  
 1. Click on **Add Products to Stocktake** to select products from your product list or **Import products** from CSV file (template provided)
 2. Selected products will be displayed in the grid here
@@ -3328,20 +3328,20 @@ There are 5 steps in Stock taking using Inventory Management:
 
 - **Step 3: Do Stock take**: Fill in the Qty of product. Now status is changed to **Verified**
 
-![Do Stock take](./image_growth_m2/image406.png?raw=true)
+![Do Stock take](./image_growth_m2/image407.png?raw=true)
  
 1. Enter the product quantity that you have recently counted and the reason why there is quantity difference.
 2. Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktake** to finish the process; or **Save** to continue editing.
 
 - **Step 4: Complete data entry**: Save the data that has been stock taken and waiting for admin’s approval.
 
-![Complete data entry](./image_growth_m2/image407.png?raw=true)
+![Complete data entry](./image_growth_m2/image408.png?raw=true)
  
 This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
 
 - **Step 5: Complete Stock take**: When admin does this, Stock taking status will be changed to **Complete**.
 
-![Complete Stock take](./image_growth_m2/image408.png?raw=true)
+![Complete Stock take](./image_growth_m2/image409.png?raw=true)
  
 Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Complete. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system
 
@@ -3349,7 +3349,7 @@ Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot b
 
 Path: **Inventory Management > Stock Control** section **> Stocktaking History**
 
-![Stocktaking history](./image_growth_m2/image409.png?raw=true)
+![Stocktaking history](./image_growth_m2/image410.png?raw=true)
  
 1. All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
 - Status **Pending** means Stage 1: **General Information** is done
@@ -3365,7 +3365,7 @@ Path: **Inventory Management > Stock Control** section **> Stock Movement Histor
 
 The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
 
-![Stock Movement History](./image_growth_m2/image410.png?raw=true)
+![Stock Movement History](./image_growth_m2/image411.png?raw=true)
  
 1. The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click.
 2. **Filters**: Admin can filter the data basing on the variables in the table.
@@ -3373,7 +3373,7 @@ The module records all the movements of stocks in warehouse. These movements are
 
 Admin can also filter the data basing on the variables in the table
 
-![Stock Movement History](./image_growth_m2/image411.png?raw=true)
+![Stock Movement History](./image_growth_m2/image412.png?raw=true)
 
 #### Prediction
 
