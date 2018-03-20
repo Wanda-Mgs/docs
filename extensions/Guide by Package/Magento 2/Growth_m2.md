@@ -495,6 +495,7 @@ Path: **Store Credit > Settings > Magestore Extension** tab **> Store Credit**
 **a. Step 1**: Configure the following sessions as below:
 
 - **General Configuration** Tab:
+
 Path: **Magento Extension > Store Credit**
 
 ![General Configuration](./image_growth_m2/image050.png?raw=true)
@@ -973,7 +974,7 @@ Then, you will be linked to the **Role Information** Site
 
 - **General**
 
-![Add a new role]()
+![Add a new role](./image_growth_m2/image102.png?raw=true)
  
 1.	**Role Name *(required)***: enter a name for the role. 
 2.	**Maximum discount percent (%)**: limit the highest discount percent that each user role can offer customers.
@@ -981,14 +982,14 @@ Then, you will be linked to the **Role Information** Site
 
 - **Permission**
 
-![Permission]()
+![Permission](./image_growth_m2/image103.png?raw=true)
  
 1.	**Resource Access**: You can choose **Custom** or **All**. Choose **All** if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work.
 2.	**Resources**: If you choose **Custom** on **Resource Access**, then you can tick to assign specific permissions for that role.
 
 - **Staff List**
 
-![Staff List]()
+![Staff List](./image_growth_m2/image104.png?raw=true)
  
 Tick on the staff assigned this role. Then click on **Save and Continue Edit** button
 
@@ -999,7 +1000,7 @@ Click **Save** to finish all.
 
 Path: **Sales > Web POS** section **> Manage Staff**
 
-![Manage Staff]()
+![Manage Staff](./image_growth_m2/image105.png?raw=true)
  
 1.	Here, you can view Basic Staff Information, such as **ID, Username, Email, Display Name, Location, Role** and **Status**
 
@@ -1013,13 +1014,13 @@ Otherwise, if you want to delete or change status of the Staff. Tick on the staf
 
 Path: **Sales > Web POS** section **> Manage Staff**
 
-![Create a new staff]()
+![Create a new staff](./image_growth_m2/image106.png?raw=true)
  
 Click on **Add Staff** button.
 
 - **Staff Information**
 
-![Create a new staff]()
+![Create a new staff](./image_growth_m2/image107.png?raw=true)
  
 1.	**User Name**: enter the name
 2.	**Password**: enter the new password for that staff
@@ -1030,7 +1031,7 @@ Click on **Add Staff** button.
 
 - **User Settings**
 
-![User Settings]()
+![User Settings](./image_growth_m2/image108.png?raw=true)
  
 1.	**Customer Group**: choose the **group(s)** that the new staff take charge in. Hold **Ctrl + Click** to choose more than one
 2.	**Location**: choose the **group(s)** that the new staff take charge in. Hold **Ctrl + Click** to choose more than one
@@ -1044,11 +1045,11 @@ Finally, click **Save** to complete the process.
 
 Other admins (which can be called as business managers) can only create and decentralize staffs on Sales Section (a Default Feature from Web POS). 
 
-![User Settings]()
+![User Settings](./image_growth_m2/image109.png?raw=true)
  
 Moreover, **if** IT admin activates the **Permissions** button on **Role Resources** these admins (managers) can create roles and users within their permission. 
 
-![User Settings]()
+![User Settings](./image_growth_m2/image110.png?raw=true)
 
 ***Notice that**: Roles on Sales Section and Roles on System Section ARE NOT synchronized.*
 
@@ -1060,29 +1061,29 @@ Moreover, **if** IT admin activates the **Permissions** button on **Role Resourc
 
 #### Store Manager
 
-![Store Manager]()
+![Store Manager](./image_growth_m2/image111.png?raw=true)
 
 Moreover, Store Manager can access to **Sales** Tab and decentralize roles for Sale Staff
 
 #### Inventory Manager
 
-![Inventory Manager]()
+![Inventory Manager](./image_growth_m2/image112.png?raw=true)
  
 Moreover, Inventory Manager can access to **Sales** Tab and decentralize Inventory Staff
 
 #### Purchase Manager
 
-![Purchase Manager]()
+![Purchase Manager](./image_growth_m2/image113.png?raw=true)
  
 Moreover, Purchase Manager can access to **Sales** Tab and decentralize Purchase Staff
  
 #### eCommerce Manager
 
-![eCommerce manager]()
+![eCommerce manager](./image_growth_m2/image114.png?raw=true)
  
 #### Accountant
 
-![Accountant]()
+![Accountant](./image_growth_m2/image115.png?raw=true)
  
 ## HOW TO MANAGE MASTER DATA
 ### Product
@@ -1092,7 +1093,7 @@ Path: **Stores > Attributes** section **> Product**
 
 ##### Manage attribute
 
-![Manage attribute]()
+![Manage attribute](./image_growth_m2/image116.png?raw=true)
  
 1.	Here, you can view **Attribute Code, Default Label, Required, System, Visible** Status, **Scope, Searchable, Used in Layered Navigation**, and **Comparable**. 
 Besides, you can view more details or edit Attribute Information by clicking on each Attribute Code
@@ -1107,7 +1108,7 @@ Attributes can be created while working on a product, or from the Product **Attr
 |Catalog Input Type for Store Owner|	Dropdown|
 |Scope|	Global|
 
-![Create a new attribute]()
+![Create a new attribute](./image_growth_m2/image117.png?raw=true)
 
 Click on **Add New Attribute** button
 
@@ -1117,7 +1118,7 @@ Then, you will be linked to **New Product Attribute** page.
 
 **Attribute Properties**
 
-![Attribute Properties]()
+![Attribute Properties](./image_growth_m2/image118.png?raw=true)
  
 1.	**Default Label**: enter the name used for identifying the attribute
 2.	**Catalog input Type for Store Owner**: select one type
@@ -1134,14 +1135,14 @@ For Dropdown and Multiple Select input types, do the following:
 
 **Advanced Attribute Properties**
 
-![Advanced Attribute Properties]()
+![Advanced Attribute Properties](./image_growth_m2/image119.png?raw=true)
  
 1.	**Attribute Code**: enter the **Attribute Code** used in lowercase characters, and without space.
 2.	**Scope**: select one type of **Scope** to indicate where in your store system the attribute can be used.
 3.	**Unique Value**: choose **No** to share with other products 
 4.	**Input Validation for Store Owner**: To run a validity test of any data entered in the text field, set **Input Validation for Store Owner** to the type of data that the field should contain. 
 
-![Advanced Attribute Properties]()
+![Advanced Attribute Properties](./image_growth_m2/image120.png?raw=true)
  
 This field is not available for input types with values that are selected. The test can validate any of the following:
 - Decimal Number.
@@ -1155,13 +1156,13 @@ This field is not available for input types with values that are selected. The t
 
 **b. Manage Labels**
 
-![Manage Labels]()
+![Manage Labels](./image_growth_m2/image121.png?raw=true)
  
 Enter a **Title** to be used as a label for the field. If your store is available in different languages, you can enter a translated title for each view.
 
 **c. Storefront Properties**
 
-![Storefront Properties]()
+![Storefront Properties](./image_growth_m2/image122.png?raw=true)
  
 1.	**Use in Search**: if the attribute is to be available for search, choose **Yes** 
 2.	**Comparable to Store Front**: to include the attribute in Product Compare, set Comparable on Storefront to **Yes**
@@ -1177,7 +1178,7 @@ For dropdown, multiple select and price fields, do the following:
 - To include the attribute in product listings, set Used in Product Listing to **Yes**
 10.	 **Used for Sorting in Product Listing**: choose **Yes** to use attribute as a sort parameter for product listings.
 
-![Storefront Properties]()
+![Storefront Properties](./image_growth_m2/image123.png?raw=true)
  
 After all, click on **Save Attribute** to finish all
 
@@ -1187,24 +1188,24 @@ Path: **Stores > Attributes** section **> Attribute set**
 
 ##### Manage attribute set
 
-![Manage attribute set]()
+![Manage attribute set](./image_growth_m2/image124.png?raw=true)
  
 1.	Here, you can view or edit details of attribute set by clicking on each line.
 2.	Click **Add Attribute Set** button to create new attribute set.
 
 ##### Create a new attribute set
 
-![Create a new attribute set]()
+![Create a new attribute set](./image_growth_m2/image125.png?raw=true)
  
 Click **Add Attribute Set** to create new attribute set.
 
-![Create a new attribute set]()
+![Create a new attribute set](./image_growth_m2/image126.png?raw=true)
  
 1.	**Name *(required)***: enter a name for the attribute set (required)
 2.	**Based On**: select an existing attribute set to be used as a template:
 3.	Click **Save** button and continue
 
-![Create a new attribute set]()
+![Create a new attribute set](./image_growth_m2/image127.png?raw=true)
  
 To add a new attribute to the set, drag the attribute from the Unassigned Attribute list to the appropriate folder in the General group.
 
@@ -1218,14 +1219,14 @@ Path: **Products > Inventory** section **> Categories**
 
 When selecting a category on the left, all the information will be displayed on the left.
 
-![Manage categories]()
+![Manage categories](./image_growth_m2/image128.png?raw=true)
  
 1.	List of categories
 2.	All information about the category
 
 ##### Create a new category
 
-![Create a new category]()
+![Create a new category](./image_growth_m2/image129.png?raw=true)
  
 Path: **Products > Inventory** section **> Categories**
 
@@ -1239,7 +1240,7 @@ Then complete those fields:
 
 - **Basic Information**
 
-![Basic Information]()
+![Basic Information](./image_growth_m2/image130.png?raw=true)
  
 1.	**Enable Category**:  choose **Yes** if you want the category to be immediately available in the store
 2.	**Include in Menu**: choose **Yes** to include the category in the top navigation
@@ -1248,7 +1249,7 @@ Then complete those fields:
 
 - **Category Content**
 
-![Category content]()
+![Category content](./image_growth_m2/image131.png?raw=true)
  
 1.	**Category Image**: to display a **Category Image** at the top of the page, tap **Upload**. Then, choose the image that you want to represent the category.
 2.	**Description**: enter the text that you want to appear on the category landing page. Then, format the text as needed.
@@ -1256,7 +1257,7 @@ Then complete those fields:
 
 - **Display Settings**
 
-![Display Settings]()
+![Display Settings](./image_growth_m2/image132.png?raw=true)
  
 1.	**Display Mode**: set as one of the following:
 - Products Only.
@@ -1276,7 +1277,7 @@ Then complete those fields:
 
 - **Search Engine Optimization Settings** 
 
-![Search Engine Optimization Settings]()
+![Search Engine Optimization Settings](./image_growth_m2/image133.png?raw=true)
  
 Complete the following meta data for the category:
 1.	**Meta Title.**
@@ -1285,7 +1286,7 @@ Complete the following meta data for the category:
 
 - **Products in Category**
 
-![Products in category]()
+![Products in category](./image_growth_m2/image134.png?raw=true)
  
 1.	Here, you can view Product Information such as **ID, Name, SKU, Price** and **Position**
 2.	Tick on the **product(s)** that you choose 
@@ -1311,7 +1312,7 @@ Path: **Products > Catalog**
 
 Path: **Products > Catalog**
 
-![Manage products]()
+![Manage products](./image_growth_m2/image135.png?raw=true)
  
 1.	**Actions**: list all actions that can be applied to selected products in the list. To apply an action to a product or group of products, mark the check box in the first column of each product. Options include: **Delete, Change Status** & **Update** Attributes.
 2.	Click on **Edit** in the **Action** column to open the product in edit mode or view product’s detail.  You can accomplish the same thing by clicking anywhere on the row.
@@ -1321,13 +1322,13 @@ Path: **Products > Catalog**
 
 **Simple product**
 
-![Create a new product]()
+![Create a new product](./image_growth_m2/image136.png?raw=true)
  
-In the upper-right corner on the Add Product ![icon]() menu, choose **Simple Product**.
+In the upper-right corner on the Add Product ![icon](./image_growth_m2/image137.png?raw=true) menu, choose **Simple Product**.
 
 - **General Information**
 
-![Genetal Information]()
+![Genetal Information](./image_growth_m2/image138.png?raw=true)
  
 1.	**Enable Product**: choose **Yes** to activate the product
 2.	**Attribute Set**: choose the attribute set used as the template of product
@@ -1337,13 +1338,13 @@ In the upper-right corner on the Add Product ![icon]() menu, choose **Simple Pro
 
 Then, Click **Save** to continue.
 
-![Genetal Information]()
+![Genetal Information](./image_growth_m2/image139.png?raw=true)
  
 1.	**Tax Class**: set **Tax Class** to one of the following: **Taxable Goods/None**
 2.	**Quantity**: tick on the box **Force Edit**, then enter the Quantity of the product that is currently in stock. 
 3.	**Stock Status**: by default, Stock Status is set to **In Stock**, you can choose **Out of Stock**
 4.	**Weight**: enter the **Weight** of the product.
-5.	**Categories**: assign **Categories** to the product. Tap the **Select** to select available category or you can create new category by click ![Genetal Information]()
+5.	**Categories**: assign **Categories** to the product. Tap the **Select** to select available category or you can create new category by click ![Genetal Information](./image_growth_m2/image140.png?raw=true)
 6.	**Visibility**: choose the default Visibility setting, **Catalog, Search**.
 7.	Set Product as New From**: Mark the Set Product as New checkbox to add the product in the list of new products.
 8.	**Country of Manufacture**: choose the Country of Manufacture.
@@ -1354,14 +1355,14 @@ Then, click **Save** to continue
 
 - **Content**
 
-![Content]()
+![Content](./image_growth_m2/image141.png?raw=true)
  
 1.	**Description**: enter the Product Description here
 2.	**Short Description**: enter the Short Description about your product
 
 - **Configuration**
 
-![Configuration]()
+![Configuration](./image_growth_m2/image142.png?raw=true)
  
 **Configuration Products** allow customers to choose options
 
@@ -1369,7 +1370,7 @@ Click on **Create Configurations**. Then, a pop-up will be shown as below:
 
 **Step 1**: Select Attributes
 
-![Select Attributes]()
+![Select Attributes](./image_growth_m2/image143.png?raw=true)
  
 Here, you can view Attribute Information, including **Use in Layered Navigation, Attribute Code, Attribute Label, Required, Systems, Visible, Scope, Searchable**, and **Comparable**. 
 1.	Tick on the attribute you want to choose
@@ -1378,14 +1379,14 @@ Here, you can view Attribute Information, including **Use in Layered Navigation,
 
 **Step 2**: Attribute Values
 
-![Attribute Values]()
+![Attribute Values](./image_growth_m2/image144.png?raw=true)
  
 1.	Tick on the options of each attribute you have selected
 2.	Click on **Next** to move to the next step
 
 **Step 3**: Bulk Image, Price and Quantity
 
-![Bulk Image, Price and Quantity]()
+![Bulk Image, Price and Quantity](./image_growth_m2/image145.png?raw=true)
  
 Here, in each tab, you have three options:
 
@@ -1397,38 +1398,38 @@ Here, in each tab, you have three options:
 
 **Step 4**: Summary
 
-![Summary]()
+![Summary](./image_growth_m2/image146.png?raw=true)
  
 1.	You will review again the products that you have created
 2.	Click on **Next** button to move the next step
 
 Then,  
 
-![Summary]()
+![Summary](./image_growth_m2/image147.png?raw=true)
 
 1.	The **Current Variations** will appear, you can view **Image, Name, SKU, Price, Available Qty., Supplier to Warehouse, Shelf Location, Weight, Status, Attributes**, and **Action**
 2.	**Add Products Manually**: click on here, you can add **Associated Products**
  
- ![Summary]()
+ ![Summary](./image_growth_m2/image148.png?raw=true)
 
 First, you need to tick on the **product(s)**. Then, click on **Done** to finish all
 
 - **Attributes**
 
-![Attributes]()
+![Attributes](./image_growth_m2/image149.png?raw=true)
  
 **Alternate Product Name**: enter a different name of product that related to attribute
 
 - **Images and Videos**
 
-![Images and Videos]()
+![Images and Videos](./image_growth_m2/image150.png?raw=true)
  
 1.	Drag or Browse to upload the product image
 2.	Click on **Add Video** button to add Product Video
 
 - **Search Engine Optimization**
 
-![Search Engine Optimization]()
+![Search Engine Optimization](./image_growth_m2/image151.png?raw=true)
  
 1.	**URL Key**: enter the URL key for your product
 2.	**Meta Title**: enter the meta title
@@ -1437,22 +1438,22 @@ First, you need to tick on the **product(s)**. Then, click on **Done** to finish
 
 - **Related Products, Up-sells, and Cross-sells**
 
-![Related Products, Up-sells, and Cross-sells]()
+![Related Products, Up-sells, and Cross-sells](./image_growth_m2/image152.png?raw=true)
  
 Click on the button **Add Related Products, Add Up-Sell Product** and **Add Cross-Sell Products**. Then a pop-up will be shown. You just need to tick on the product(s) and after that, click on **Add Selected Product(s)** to finish. 
 
 - **Customizable Options**
 
-![Customizable Options]()
+![Customizable Options](./image_growth_m2/image153.png?raw=true)
  
 1.	**Import Options**:
 
-![Customizable Options]()
+![Customizable Options](./image_growth_m2/image154.png?raw=true)
  
 Tick on the product(s) that you want to select. Then click on **Import**
 2.	**Add Option**
 
-![Customizable Options]()
+![Customizable Options](./image_growth_m2/image155.png?raw=true)
 
 - **Option Title**: enter the title of option
 
@@ -1460,13 +1461,13 @@ Tick on the product(s) that you want to select. Then click on **Import**
 
 - **Products in Websites**
 
-![Products in Websites]()
+![Products in Websites](./image_growth_m2/image156.png?raw=true)
  
 Tick on the website that the product you have created will be shown. 
 
 - **Design**
 
-![Design]()
+![Design](./image_growth_m2/image157.png?raw=true)
  
 1.	**Layout**: choose Layout – **No layout updates, Empty, 1 column, 2 columns with left bar, 2 columns with right bar, 3 columns**
 2.	**Display Product Options In**: choose **Block after Info Column** or **Product Info Column**
@@ -1474,7 +1475,7 @@ Tick on the website that the product you have created will be shown.
 
 - **Schedule Design Update**
 
-![Schedule Design Update]()
+![Schedule Design Update](./image_growth_m2/image158.png?raw=true)
  
 1.	**Schedule Update From**: click on **Calendar** to choose Date
 2.	**New Theme**: choose theme 
@@ -1482,29 +1483,29 @@ Tick on the website that the product you have created will be shown.
 
 - **Gift Options**
 
-![Gift Options]()
+![Gift Options](./image_growth_m2/image159.png?raw=true)
  
 Untick the box **Use Config Settings**. Then choose **Yes** if you want to **Allow Gift Message**
 
 - **Downloadable Information**
 
-![Downloadable Information]()
+![Downloadable Information](./image_growth_m2/image160.png?raw=true)
  
 To set this product as downloadable one, you need to set Weight to NO in the **General Information** section
 
 - **Barcode** 
 
-![barcode]()
+![barcode](./image_growth_m2/image161.png?raw=true)
  
 You can view **ID, Barcode, Qty, SKU, Supplier, Purchased Time**, and **Detail**
 
 - **Suppliers**
 
-![Suppliers]()
+![Suppliers](./image_growth_m2/image162.png?raw=true)
  
 Click on **Add Supplier** to add supplier
 
-![Suppliers]()
+![Suppliers](./image_growth_m2/image163.png?raw=true)
  
 Tick on the Supplier Code. Then click on **Add Selected Supplier** button to finish. 
 
@@ -1512,32 +1513,32 @@ After all, click on **Save** to complete all
 
 **Configurable product**
 
-![Configurable product]()
+![Configurable product](./image_growth_m2/image164.png?raw=true)
  
-In the upper-right corner on the **Add Product**  ![Configurable product]() menu, choose **Configurable Product.**
+In the upper-right corner on the **Add Product**  ![Configurable product](./image_growth_m2/image165.png?raw=true) menu, choose **Configurable Product.**
 
 Other steps and sections are similar to **Simple Product**
 
 **Grouped product**
 
-![Grouped product]()
+![Grouped product](./image_growth_m2/image166.png?raw=true)
  
-In the upper-right corner on the **Add Product** ![icon]() menu, choose **Grouped Product**.
+In the upper-right corner on the **Add Product** ![icon](./image_growth_m2/image167.png?raw=true) menu, choose **Grouped Product**.
 
 Besides, familiar tabs as in **Simple Product***, in **Grouped Product**, you also need to add products into a group.
 
 **Add products to Group**
 
-![Add products to Group]()
+![Add products to Group](./image_growth_m2/image168.png?raw=true)
  
 Click on **Add Products to Group** button to add products.
 
-![Add products to Group]()
+![Add products to Group](./image_growth_m2/image169.png?raw=true)
 
 Then, a pop-up will be shown.
 Tick on the products you want to set in the group. After that, click on **Add Selected Products** button to add them to the group. 
 
-![Add products to Group]()
+![Add products to Group](./image_growth_m2/image170.png?raw=true)
  
 1.	**Default Quantity**: edit the Qty. of product
 2.	**Actions**: to remove one product, click on Remove
@@ -1545,23 +1546,23 @@ Tick on the products you want to set in the group. After that, click on **Add Se
 
 **Virtual product**
 
-![Virtual product]()
+![Virtual product](./image_growth_m2/image171.png?raw=true)
  
-In the upper-right corner on the **Add Product** ![icon]() menu, choose **Virtual Product.**
+In the upper-right corner on the **Add Product** ![icon](./image_growth_m2/image172.png?raw=true) menu, choose **Virtual Product.**
 
 All other steps are similar to **Simple Product**
 
 **Bundle product**
 
-![Bundle product]()
+![Bundle product](./image_growth_m2/image173.png?raw=true)
  
-In the upper-right corner on the Add Product ![icon]() menu, choose **Bundle Product**.
+In the upper-right corner on the Add Product ![icon](./image_growth_m2/image174.png?raw=true) menu, choose **Bundle Product**.
 
 Here, you will see some familiar steps as **Simple Product**
 
 However, you should notice about:
 
-![Bundle product]()
+![Bundle product](./image_growth_m2/image175.png?raw=true)
 
 1.	**Dynamic SKU**: If you choose **Yes**, the SKU will be composed of the bundle’s base and selected SKUs
 2.	**Dynamic Price**: If you choose **Yes**, the total price will be composed from the product optional prices
@@ -1569,23 +1570,23 @@ However, you should notice about:
 
 **Downloadable product**
 
-![Downloadable product]()
+![Downloadable product](./image_growth_m2/image176.png?raw=true)
  
-In the upper-right corner on the Add Product ![icon]() menu, choose **Downloadable Product.**
+In the upper-right corner on the Add Product ![icon](./image_growth_m2/image177.png?raw=true) menu, choose **Downloadable Product.**
 
-![Downloadable product]()
+![Downloadable product](./image_growth_m2/image178.png?raw=true)
  
 Choose **Downloadable** as the **attribute set**
 
 You can fill other fields as similar as **Simple Product**
 
-![Downloadable product]()
+![Downloadable product](./image_growth_m2/image179.png?raw=true)
 
 1.	 Tick on the checkbox **Is this downloadable product?**
 2.	 **Title**: enter the title to use as a heading for the download links.
 3.	 Click on **Add Link**, then:
 
-![Downloadable product]()
+![Downloadable product](./image_growth_m2/image180.png?raw=true)
 
 1.	Enter **Title** and **Price**. 
 2.	For both **File** and **Sample** files, choose:
@@ -1599,7 +1600,7 @@ You can fill other fields as similar as **Simple Product**
 
 Path: **Customer > All customers**
 
-![How to manage customers]()
+![How to manage customers](./image_growth_m2/image181.png?raw=true)
  
 Here, you can view all basic information about customers, such as **Name, Email, Group, Phone, Zip, Country, State/Province, Customer Since** *(the beginning date)*, from which **Website, Confirmed Email, Account Created in, Date of Birth, Tax VAT Number**, and **Gender**. Besides, if you want to view more details, click on **Edit** in the **Action** column to view customer’s details and edit. 
 
@@ -1614,13 +1615,13 @@ Here, you can view all basic information about customers, such as **Name, Email,
 
 #### Create a new customer
 
-![Create a new customer]()
+![Create a new customer](./image_growth_m2/image182.png?raw=true)
  
 Click on **Add New Customer** button
 
 - **Account Information**
 
-![Account Information]()
+![Account Information](./image_growth_m2/image183.png?raw=true)
  
 1.	**Associate to Website**: select which website that your customers are associated with
 2.	**Group**: select whether your customer is general, wholesaler or retailer
@@ -1642,7 +1643,7 @@ Then, fill in these fields:
 
 Click on **Add Addresses** button, then
 
-![Addresses]()
+![Addresses](./image_growth_m2/image184.png?raw=true)
  
 1.	Click on the button
 2.	Choose if the new address is default in **Billing** or **Shipping Address**
@@ -1664,7 +1665,7 @@ Please refer to Section **Manage Supplier** for details.
 
 Path: **Inventory Management > Stock Listing** section **> Warehouses**
 
-![New Warehouse]()
+![New Warehouse](./image_growth_m2/image185.png?raw=true)
  
 The admin user with **full access permissions** in Role Resources (**System → Permissions →Roles**) can create new warehouses.
 
@@ -1672,7 +1673,7 @@ Click on **Add a new warehouse** at the top-right corner
 
 - **General Information**
 
-![General Information]()
+![General Information](./image_growth_m2/image186.png?raw=true)
  
 1.	**Warehouse name**: enter name (required)
 2.	**Warehouse code**: enter warehouse’s code (required)
@@ -1684,13 +1685,12 @@ Click on **Add a new warehouse** at the top-right corner
 
 Then, to continue, you need to:
 
-![General Information]()
+![General Information](./image_growth_m2/image187.png?raw=true)
  
 Click on the **Arrow** Button, then choose **Save and Continue**
 
-![General Information]()
+![General Information](./image_growth_m2/image188.png?raw=true)
 
- 
 1.	You can view and edit **General Information, Stock On-hand, Stock Movement, Orders, Warehouse Permissions** and **Dashboard**
 2.	After that, you can 
 - Click on **Delete Warehouse** to delete the warehouse (NOTE: only applied for inactive warehouse and non-Primary warehouse)
@@ -1700,7 +1700,7 @@ Click on the **Arrow** Button, then choose **Save and Continue**
 
 Path: **Inventory Management > Stock Listing** section **> Warehouses**
 
-![Master Data]()
+![Master Data](./image_growth_m2/image189.png?raw=true)
 
 Here, you can view **ID, Warehouse Name, Total SKU, Total Qty., Contact Email, Telephone, Street, City, Country**, and **Store View**
 
@@ -1708,7 +1708,7 @@ Besides, if Admin Users want to check the master data, click on View to see the 
 
 - **General Information**
 
-![General Information]()
+![General Information](./image_growth_m2/image190.png?raw=true)
  
 You can view and edit General Information. Remember after editing, you must click on **Save General Information** button to save it. 
 
@@ -1716,7 +1716,7 @@ You can view and edit General Information. Remember after editing, you must clic
 
 It illustrates the number of products that the warehouse has available at that time
 
-![General Information]()
+![General Information](./image_growth_m2/image191.png?raw=true)
  
 Click on **None Warehouse Products** to add products that are not yet belong to any warehouses. Or click on **Delete Products** to delete products in the warehouse
 
@@ -1724,19 +1724,19 @@ Click on **None Warehouse Products** to add products that are not yet belong to 
 
 It shows the opening and closing data between dates, such as purchases made, sales order totals, external transfer, internal transfer (send stock) and returned items
 
-![Stock Movement]()
+![Stock Movement](./image_growth_m2/image192.png?raw=true)
  
 - **Orders**
 
 All orders in the warehouse will be shown here
 
-![Orders]()
+![Orders](./image_growth_m2/image193.png?raw=true)
 
 - **Warehouse Permissions**
 
 You can delete staffs or assign new staffs here.
 
-![Warehouse Permissions]()
+![Warehouse Permissions](./image_growth_m2/image194.png?raw=true)
  
 Click on **Assign Staffs** to add new ones. And then, click **Save Staff Permissions** to complete. More details at **Permission**
 
@@ -1744,7 +1744,7 @@ Click on **Assign Staffs** to add new ones. And then, click **Save Staff Permiss
 
 Reports are illustrated as table and lines diagrams.
 
-![Dashboard]()
+![Dashboard](./image_growth_m2/image195.png?raw=true)
  
 #### Permission
 
@@ -1752,22 +1752,22 @@ Path: **Inventory Management > Stock Listing** section **> Warehouses**
 
 After creating a warehouse, Admin Users give different warehouse access permissions to different (admin) users.
 
-![Permission]()
+![Permission](./image_growth_m2/image196.png?raw=true)
  
 Click on **View** to see the warehouse’s detail information 
 
-![Permission]()
+![Permission](./image_growth_m2/image197.png?raw=true)
 
 Then, go to Warehouse Permissions. Here, you will see staffs that are taking charge of this warehouse. You can view Staff’s **Name** and Staff’s **Role**. 
 1.	Click on **Assign Staffs** to add a new staff
 
 Then, a pop-up will appear
 
-![Permission]()
+![Permission](./image_growth_m2/image198.png?raw=true)
  
 Tick on the staff that you want to give permission. Then click on **Add Selected Staff**. 
 
-![Permission]()
+![Permission](./image_growth_m2/image199.png?raw=true)
 
 1.	**Warehouse Roles**: you can click on the arrow to choose the role for staffs
 2.	To delete the staff, click on **Remove**
@@ -1779,12 +1779,12 @@ Path: **Sales > Web POS** section **> Manage Locations**
 
 A location is understood as a store (whether it’s a physical store or an online web-store). A location can link to multiple POS at the same time.
 
-![Location]()
+![Location](./image_growth_m2/image200.png?raw=true)
 
 1. Click on **Add Location** to create new locations
 2. Click on **Edit** to view and edit locations’ information.
  
-![Location]()
+![Location](./image_growth_m2/image201.png?raw=true)
 
 1.	**Location Name *(required)***: enter the name of location 
 2.	**Address**: enter the address
