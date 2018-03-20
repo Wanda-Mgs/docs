@@ -5345,37 +5345,60 @@ Users can click on the store on the map to view store location as well as its na
 
 To view more details about stores, customers could click on its name link to be navigated to page. 
 
-![Link to ]()
+![Link to web]()
  
 As you can see, page show all information that customers care about such as location, contact info, working time, description & store images. 
-They can view a list of Special Day & Holiday Information Tab
-Customers could conveniently leave comment by filling in Facebook comment box
- 
 
-5.9.2. How Customers use Store Pickup at Check Out 
-1.	Choose Shipping Method: Delivery in Store 
+They can view a list of **Special Day & Holiday Information Tab**
+
+Customers could conveniently leave comment by filling in Facebook comment box
+
+![Link to web]()
  
-(1) In the Shipping Method tab at checkout, select Store Pick up 
-(2) Select a store from the dropdown list or select by Google map 
+#### How Customers use Store Pickup at Check Out 
+##### Choose Shipping Method: Delivery in Store 
+
+![Choose Shipping Method: Delivery in Store]()
+ 
+1. In the **Shipping Method** tab at checkout, select **Store Pick up** 
+2. Select a store from the dropdown list or select by Google map 
 or select on Google map as bellow:
  
-On the G-Map popup, customer needs to select a store on store list or search store that they want, after that click on the Apply button to apply or click on Close button to cancel.
-2.	Choose Delivery Time
+ ![Choose Shipping Method: Delivery in Store]()
+
+On the G-Map popup, customer needs to select a store on store list or search store that they want, after that click on the **Apply** button to apply or click on **Close** button to cancel.
+
+##### Choose Delivery Time
+
 After selection shipment method as Store Pickup, customers need to choose date and time for their arrival and then check out as usual
+
+![Choose Delivery Time]()
  
-Customers must choose date and time arrival by selecting data from the box. (NOTE: you MUST set up store’s schedule to enable this calendar)
-If the shipping date is one of store’s holidays, customers won’t be able to choose that on the calendar. Thus, they can avoid arriving on the store’s days off. You can refer to Manage Holidays to know how to set up these holidays.
+Customers must choose date and time arrival by selecting data from the box. (**NOTE**: you MUST set up store’s schedule to enable this calendar)
+
+If the shipping date is one of store’s holidays, customers won’t be able to choose that on the calendar. Thus, they can avoid arriving on the store’s days off. You can refer to **Manage Holidays** to know how to set up these holidays.
+
+![Choose Delivery Time]()
  
-3.	Choose Payment Method 
+##### Choose Payment Method 
+
 In this step, applicable payment methods are shown as your configuration.
+
+![Choose Payment Method ]()
  
 All customers need to do is choosing their payment method 
 
-4.	Place Orders
-To place the order, customers will click on the Place Order button
+##### Place Orders
+
+To place the order, customers will click on the **Place Order** button
+
+![Place Orders]()
  
-5.	View Orders
-Path: My Account > My Orders tab > View Order.
+##### View Orders
+
+Path: **My Account > My Orders** tab **> View Order**
+
+![View Orders]()
  
-To print orders, click on Print Order on the top right. 
+To print orders, click on **Print Order** on the top right. 
  
