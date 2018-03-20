@@ -2000,7 +2000,9 @@ To close the session, you need to first **Set Closing Balance** to record Real C
  ![Close Session](./image_growth_m2/image228.png?raw=true)
  
 You can click **Cancel** and re-entry the closing balance, OR accept the difference by clicking **OK**
-  
+
+ ![Close Session](./image_growth_m2/image229.png?raw=true)
+
 You can fill in the reason for the difference (if you want to) and hit **Confirm**. Then you will be directed back to the Session page, click **Validate Closing** button to finish closing session.
 
 #### Filter and Search Product Quickly 
@@ -2008,11 +2010,11 @@ You can fill in the reason for the difference (if you want to) and hit **Confirm
 
 **NOTE**: Only products with turned on **Visible on Webpos** setting (screenshot below) can be found on WebPOS frontend. 
 
-![Configure Process of Searching Product](./image_growth_m2/image229.png?raw=true)
+![Configure Process of Searching Product](./image_growth_m2/image230.png?raw=true)
 
  To allow POS to display out-of-stock products: in WebPOS frontend, go to **Settings > General** section **> Catalog**
  
-![Configure Process of Searching Product](./image_growth_m2/image230.png?raw=true)
+![Configure Process of Searching Product](./image_growth_m2/image231.png?raw=true)
 
 ##### Search Product in Front-end
 
@@ -2023,7 +2025,7 @@ There are 3 ways to search for products in WebPOS frontend:
 
 **a. To use category**: 
 
-![Search Product in Front-end](./image_growth_m2/image231.png?raw=true)
+![Search Product in Front-end](./image_growth_m2/image232.png?raw=true)
  
 Click **All Categories** to quickly search with this method. Users can choose corresponding categories as you prefer in the space below this button.
 
@@ -2033,7 +2035,7 @@ Click **All Categories** to quickly search with this method. Users can choose co
 1. Click on search icon to show search bar. 
 2. Enter your search terms and matching products will display right away. 
 
-![To use Product Attributes](./image_growth_m2/image232.png?raw=true)
+![To use Product Attributes](./image_growth_m2/image233.png?raw=true)
  
 **c. To use Barcode:**
 
@@ -2046,19 +2048,19 @@ Click **All Categories** to quickly search with this method. Users can choose co
 - With simple product: click it to add to cart
 - With configurable, bundle, grouped product: click them > adjust attribute (color, size, etc.) and quantity > Click **Add to cart** button
 
-![How to Add Product to Cart](./image_growth_m2/image233.png?raw=true)
+![How to Add Product to Cart](./image_growth_m2/image234.png?raw=true)
 
 ##### Edit Product in Cart 
 
 After adding products to cart, you can edit the quantity of each product by clicking on the product that needs editing. A popup will display with edited option for **Qty**.
 
-![Edit Product in Cart](./image_growth_m2/image234.png?raw=true)
+![Edit Product in Cart](./image_growth_m2/image235.png?raw=true)
  
 To edit Qty., just enter a wanted number or click on +/-. The number of products will be adjusted in the cart right away
 
 ##### Remove Product in Cart 
 
-![Remove Product in Cart](./image_growth_m2/image235.png?raw=true)
+![Remove Product in Cart](./image_growth_m2/image236.png?raw=true)
  
 There are 2 ways to remove products in cart: 
 1.	Remove one-by-one product: Click “x” button, then cart will be update immediately 
@@ -2070,11 +2072,11 @@ Custom sale item is a item that Web POS user creates when checkout. It is used w
 
 In frontend, click on **Custom Sale** button if you want to add the custom product to cart
 
-![Add a Custom Sale Item to Cart](./image_growth_m2/image236.png?raw=true)
+![Add a Custom Sale Item to Cart](./image_growth_m2/image237.png?raw=true)
  
 Then it will pop up a window for users to configure this custom product:
 
-![Add a Custom Sale Item to Cart](./image_growth_m2/image237.png?raw=true)
+![Add a Custom Sale Item to Cart](./image_growth_m2/image238.png?raw=true)
  
 1. **Name**: Enter the name of product
 2. **Description**: Enter the product’s description (optional)
@@ -2093,11 +2095,11 @@ If you want to apply custom discount manually to a product, instead of applying 
 
 To use this function, click **Add Discount**
 
-![Apply Coupon Code or Card Discount](./image_growth_m2/image238.png?raw=true)
+![Apply Coupon Code or Card Discount](./image_growth_m2/image239.png?raw=true)
  
 Then you can choose to apply a Discount amount or Promotion code
 
-![Apply Coupon Code or Card Discount](./image_growth_m2/image239.png?raw=true)
+![Apply Coupon Code or Card Discount](./image_growth_m2/image240.png?raw=true)
 
 - To apply Discount: 
 	- **Name**: enter the name for this account as you will easily check it again
@@ -2108,7 +2110,7 @@ Cart will be adjusted immediately after you click **Apply** button
 
 - To apply **Promotion**: 
 
-![![Apply Coupon Code or Card Discount](./image_growth_m2/image240.png?raw=true)
+![![Apply Coupon Code or Card Discount](./image_growth_m2/image241.png?raw=true)
  
 Fill in available code offered to customer and then click **Apply** button. 
 
@@ -2122,11 +2124,11 @@ After adding products to cart, besides editing the quantity of each product (ref
 
 **a. To apply Custom Price**: 
 
-![ To apply Custom Price](./image_growth_m2/image241.png?raw=true)
+![ To apply Custom Price](./image_growth_m2/image242.png?raw=true)
  
 You can set custom price for products by clicking on **Custom Price** button. The next popup will be shown as below:
 
-![ To apply Custom Price](./image_growth_m2/image242.png?raw=true)
+![ To apply Custom Price](./image_growth_m2/image243.png?raw=true)
 
 In this popup, choose the promotion type you want to apply, either a fixed amount or percentage.
 	- If you edit fixed price, the price will be changed to the value you have entered. 
@@ -2142,13 +2144,13 @@ Click on **Discount** button and choose the type of discount you want to apply
 
 Then, the product price will be updated in the cart.
 
-![To apply Discount](./image_growth_m2/image243.png?raw=true)
+![To apply Discount](./image_growth_m2/image244.png?raw=true)
  
 ##### Apply Gift Card Code
 
 After clicking on Checkout button for a shopping cart, in the Shipping and Payment window, cashier can insert Gift Card Code and click **Apply**.
 
-![Apply Gift Card Code](./image_growth_m2/image244.png?raw=true)
+![Apply Gift Card Code](./image_growth_m2/image245.png?raw=true)
   
 #### Manage Transaction
 ##### Handle Customer Information at Check-out 
@@ -2157,9 +2159,9 @@ After clicking on Checkout button for a shopping cart, in the Shipping and Payme
 
 Add customer by clicking on **Customer** icon on the right corner. You will see a screen as below:
 
-![Customer Check-out](./image_growth_m2/image245.png?raw=true)
- 
 ![Customer Check-out](./image_growth_m2/image246.png?raw=true)
+ 
+![Customer Check-out](./image_growth_m2/image247.png?raw=true)
 
 In the pop-up, you have options to either Create a new Customer, **Use Default Guest Checkout**, Search existing Customer with the Search bar or selecting the most recent Customer from the list.
 
@@ -2169,11 +2171,11 @@ In the search box, you can quickly find the customer by entering his name, email
 
 The information of customer in the system will be auto updated in checkout step. To edit it, please click on name of customer. In the popup, just edit the pieces of information you want to change.
 
-![Search Customer](./image_growth_m2/image247.png?raw=true)
+![Search Customer](./image_growth_m2/image248.png?raw=true)
 
 **c. Create Customer**
 
-![Create Customer](./image_growth_m2/image248.png?raw=true)
+![Create Customer](./image_growth_m2/image249.png?raw=true)
  
 Fill information of the customer such as **First Name, Last Name, Email, Group, Shipping & Billing Address**, etc. You can choose whether Billing Address is similar to Shipping Address or not. Remember to click on **Save** button to save the customer information for the next checkout.
 
@@ -2186,7 +2188,7 @@ When you use Guest Checkout, the default customer that you configure in backend 
 
 Click on **Add Order Comment** in the top right menu icon. In the **Order Comment** box, type the content that reminds you of this order. Then, save it.
 
-![Add Comment to an Order](./image_growth_m2/image249.png?raw=true)
+![Add Comment to an Order](./image_growth_m2/image250.png?raw=true)
  
  
 **b. Check Order Comment** 
@@ -2194,9 +2196,9 @@ Click on **Add Order Comment** in the top right menu icon. In the **Order Commen
 
 To view comment of order, you can go to the top left menu **> Orders** section **> Orders History** in Web POS screen, choose an order then scroll down to see **Comment History**
 
-![On WebPOS Screen](./image_growth_m2/image250.png?raw=true)
-
 ![On WebPOS Screen](./image_growth_m2/image251.png?raw=true)
+
+![On WebPOS Screen](./image_growth_m2/image252.png?raw=true)
  
 - **Magento Backend**
 
@@ -2204,7 +2206,7 @@ Go to **Sales > Orders >** Click on a specific order.
 
 In order details page, scroll down to **Comment History** tab to check whether it has any notes or not.
 
-![Magento Backend](./image_growth_m2/image252.png?raw=true)
+![Magento Backend](./image_growth_m2/image253.png?raw=true)
 
 ##### Process at Check-out for a Customer 
 
@@ -2212,11 +2214,11 @@ You have been through steps to add products to cart and add customer, let’s mo
 
 When products are added to cart, click on **Checkout** button at the end of the cart page
 
-![Process at Check-out for a Customer](./image_growth_m2/image253.png?raw=true)
+![Process at Check-out for a Customer](./image_growth_m2/image254.png?raw=true)
 
 You will be redirected to the next page with information of Shipping & Payment Method. Please refer to **Enable Payment Method** and **Set up Shipping Method** for further details about payment and shipping method configuration for WebPOS.
 
-![Process at Check-out for a Customer](./image_growth_m2/image254.png?raw=true)
+![Process at Check-out for a Customer](./image_growth_m2/image255.png?raw=true)
 
 - **Credit Card**: Magestore Web POS supports Authorize.net & Stripe. Sales staff can fill in card information manually or swipe card (if the POS system is connected to a card swiper). For more information about how to connect, please go to section **Connect Retailer POS with Peripheral Devices**.
 - **Split Payment**: For more information about Split Payment, please go to section **Split & Partial Payment with Web POS**
@@ -2228,17 +2230,17 @@ You can allow customers more than 1 method to pay when using Web POS. Particular
 
 For example: This order values $249 and customer wants to pay $50 in cash. Then you have to enter this number in the field of “Web POS- Cash in” and the remain money will be calculated automatically for you. 
 
-![For Split Payment](./image_growth_m2/image255.png?raw=true)
+![For Split Payment](./image_growth_m2/image256.png?raw=true)
  
 To solve “Remain money”, you can click on **Add Payment** button on the left corner of the screen 
 
-![For Split Payment](./image_growth_m2/image256.png?raw=true)
+![For Split Payment](./image_growth_m2/image257.png?raw=true)
  
 After clicking on **Add Payment**, Customers have those options to pay for the remaining money
 
 For instance, Customer chooses “Web POS – Credit Card” and the system will be displayed like this: 
 
-![For Split Payment](./image_growth_m2/image257.png?raw=true)
+![For Split Payment](./image_growth_m2/image258.png?raw=true)
 
 And then, please tap on **Place Order** button to complete this order. The process is done. 
 
@@ -2252,24 +2254,24 @@ This function allows customers to pay a part of value first and other parts will
 
 For example, the total value is $249, and customers want to pay $50 first and $199 they will pay later
 
-![For Partial Payment](./image_growth_m2/image258.png?raw=true)
+![For Partial Payment](./image_growth_m2/image259.png?raw=true)
  
 1.	Enter 50$ in the field of “Web POS – Cash in”
 2.	Tap on **MARK AS PARTIAL**
 
 And when customers come back to pay completely the bill, staff can check this order by checking **Orders History** tab (path: from WebPOS frontend top left menu icon **> Orders** section **> Orders History**). 
 
-![For Partial Payment](./image_growth_m2/image259.png?raw=true)
+![For Partial Payment](./image_growth_m2/image260.png?raw=true)
  
 I will take another example for you like this: 
 
-![For Partial Payment](./image_growth_m2/image260.png?raw=true)
+![For Partial Payment](./image_growth_m2/image261.png?raw=true)
  
 This order is remaining $199 that the customer hasn’t paid yet. 
 
 And when he comes back to accomplish this order, staff could tap **Take payment** and choose payment method for customer to pay in the popup as below:
 
-![For Partial Payment](./image_growth_m2/image261.png?raw=true)
+![For Partial Payment](./image_growth_m2/image262.png?raw=true)
  
 Staff can keep on adding  more payment methods as they want by clicking on **Add more Payment Method**. By clicking Submit, total paid will be equal to the whole value of order. Process is done. 
 
@@ -2281,7 +2283,7 @@ Your customers can't make up their mind yet, or are unable to make a payment mea
 
 After adding products to cart, you can choose **Hold** to put the order into WebPOS frontend top left menu **> Orders** section **> On-hold Orders.**
 
-![Put Order on-hold](./image_growth_m2/image262.png?raw=true)
+![Put Order on-hold](./image_growth_m2/image263.png?raw=true)
  
 **b. Check on-hold Orders**
 - **On WebPOS Frontend**
