@@ -3304,13 +3304,13 @@ Physical Stocktaking acts can be used at any time to double-check and correct in
 
 Path: **Inventory Management > Stock Control** section **> New Stocktaking**
 
-![Stocktaking process]()
+![Stocktaking process](./image_growth_m2/image403.png?raw=true)
  
 There are 5 steps in Stock taking using Inventory Management:
 
 - **Step 1: Fill General information**: After finishing this step, Stock taking status is **Pending**
 
-![Fill General information]()
+![Fill General information](./image_growth_m2/image404.png?raw=true)
  
 1.	Choose **Warehouse**
 2.	Fill the **Stocktaking Code**
@@ -3320,7 +3320,7 @@ There are 5 steps in Stock taking using Inventory Management:
 
 - **Step 2: Prepare products before doing stock take**: Select or import products to prepare before doing stock take. Stock taking status will change to **Processing**
 
-![Prepare products before doing stock take]()
+![Prepare products before doing stock take](./image_growth_m2/image405.png?raw=true)
  
 1. Click on **Add Products to Stocktake** to select products from your product list or **Import products** from CSV file (template provided)
 2. Selected products will be displayed in the grid here
@@ -3328,20 +3328,20 @@ There are 5 steps in Stock taking using Inventory Management:
 
 - **Step 3: Do Stock take**: Fill in the Qty of product. Now status is changed to **Verified**
 
-![Do Stock take]()
+![Do Stock take](./image_growth_m2/image406.png?raw=true)
  
 1. Enter the product quantity that you have recently counted and the reason why there is quantity difference.
 2. Either click **Complete Data Entry** to proceed to Stage 4 and have a review of the changes; click **Complete Stocktake** to finish the process; or **Save** to continue editing.
 
 - **Step 4: Complete data entry**: Save the data that has been stock taken and waiting for admin’s approval.
 
-![Complete data entry]()
+![Complete data entry](./image_growth_m2/image407.png?raw=true)
  
 This Stage allows you to have a final review of your recent quantity counts. Click either **Re-entry Data** to edit the quantity or **Complete Stocktaking** to move to Stage 5. If you are not an admin, your counting results will be submitted to the admin/ manager for approval before the new quantity is officially updated and the process is marked **Completed**.
 
 - **Step 5: Complete Stock take**: When admin does this, Stock taking status will be changed to **Complete**.
 
-![Complete Stock take]()
+![Complete Stock take](./image_growth_m2/image408.png?raw=true)
  
 Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot be edited after status is Complete. After doing stock take, admin can easily view and export the difference between real stock in the warehouse and the stock level updated by the system
 
@@ -3349,7 +3349,7 @@ Qty is adjusted in the warehouse. Similar to Adjust Stock, stock taking cannot b
 
 Path: **Inventory Management > Stock Control** section **> Stocktaking History**
 
-![Stocktaking history]()
+![Stocktaking history](./image_growth_m2/image409.png?raw=true)
  
 1. All Stocktaking details are listed here. Click on each record to view all details of the process. Different status shows to which stage the stocktaking process is done:
 - Status **Pending** means Stage 1: **General Information** is done
@@ -3365,7 +3365,7 @@ Path: **Inventory Management > Stock Control** section **> Stock Movement Histor
 
 The module records all the movements of stocks in warehouse. These movements are reflected in **Stock Movement** report under **Stock Control** submenu.
 
-![Stock Movement History]()
+![Stock Movement History](./image_growth_m2/image410.png?raw=true)
  
 1. The table shows SKU of the products added or subtracted from warehouse, the changed Qty, Warehouse name, Date and Reference number to see the details on a click.
 2. **Filters**: Admin can filter the data basing on the variables in the table.
@@ -3373,7 +3373,7 @@ The module records all the movements of stocks in warehouse. These movements are
 
 Admin can also filter the data basing on the variables in the table
 
-![Stock Movement History]()
+![Stock Movement History](./image_growth_m2/image411.png?raw=true)
 
 #### Prediction
 
@@ -3383,7 +3383,7 @@ Path: **Inventory Management > Prediction** section **> Supply Needs**
 
 This feature predicts how many inventory items a warehouse need for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past.
 
-![Supply Needs]()
+![Supply Needs](./image_growth_m2/image412.png?raw=true)
  
 1. **Warehouse(s)**: Select the warehouse to forecast supply needs.
 2. **Sales Period**: Select the sales period so that the system will calculate this number based on this sales history.
