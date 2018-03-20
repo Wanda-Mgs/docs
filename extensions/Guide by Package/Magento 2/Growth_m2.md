@@ -519,13 +519,13 @@ Path: **Magento Extension > Store Credit**
 3.	**Email template notifying customers**: default
 4.	**Send-to-customer email template when recipient receives credit**: default
 
- ![Email Configuration tab]()
+ ![Email Configuration tab](./image_growth_m2/image052.png?raw=true)
 
 - **Adjust time for Customer credit reports on total used and total received credit** Tab.
 1.	**Select start time for current year**: choose Month, then Date
 2.	**Select date for current month**: choose Date
 
- ![Adjust time for Customer credit reports on total used and total received credit tab]()
+ ![Adjust time for Customer credit reports on total used and total received credit tab](./image_growth_m2/image053.png?raw=true)
 
 - **Style Configuration** tab:
 1.	**Background of Title**: enter Hexadecimal code
@@ -541,7 +541,7 @@ You have seen how Store Pickup works in front-end for customers. The following p
 
 Click on the link for Google Map API Key Registration Guide
 
-![Store Pickup]()
+![Store Pickup](./image_growth_m2/image054.png?raw=true)
  
 ***Update***: **One of the most important Google Maps APIs Standard Plan updates implemented on June 22, 2016 was that** required future product updates are only available for requests made with an API key.
 
@@ -555,13 +555,13 @@ Path: **Store Pickup > Manage Store**
 
 The **Manage Store** grid shows all stores created in your system with their address and status. To add new stores, you can add them manually and import from CSV files.
  
-![Manage Store]()
+![Manage Store](./image_growth_m2/image055.png?raw=true)
 
 ##### Add Store
 
 Path: **Store Pickup > Manage Store**
 
-![Add Store]()
+![Add Store](./image_growth_m2/image056.png?raw=true)
  
 Here you can add new stores by importing via a CSV file or manually inputing information whit **Add New Store** button. You will be navigated to the **Add Store** page, which includes 7 tabs:
 1.	General Information
@@ -574,11 +574,11 @@ Here you can add new stores by importing via a CSV file or manually inputing inf
 
 **NOTE**: Before reading the detailed function of each tab, please remember to click **Save Store** after making changes on these tabs to apply the changes before you leave.
  
- ![Add STore]()
+ ![Add STore](./image_growth_m2/image057.png?raw=true)
 
 **a. General Information** tab:
 
- ![Add STore]()
+ ![Add STore](./image_growth_m2/image058.png?raw=true)
 
 Users must fill in all required fields 
 
@@ -592,23 +592,23 @@ Besides important information such as Store name, Description, Status, here are 
 
 - **Contact Information**
 
-![Contact Information]()
+![Contact Information](./image_growth_m2/image059.png?raw=true)
  
 It allows you to enter information of store’s manager such as email address, phone number, etc. so customers will know how to contact if needed. You can configure to enable automatic emails sent to the store manager when pickup orders’ status is changed.
 
 - **Owner Information**
 
-![Owner Information]()
+![Owner Information](./image_growth_m2/image060.png?raw=true)
 
 - **Meta Information**
 
-![Meta Information]()
+![Meta Information](./image_growth_m2/image061.png?raw=true)
  
 You can fill in URL key, meta title, meta keywords, meta description for better SEO
 
 **b. Google Map Location** tab:
 
-![Google Map Location tab]()
+![Google Map Location tab](./image_growth_m2/image062.png?raw=true)
  
 Fill your store’s address in this field or pin from the map, remember to click on the **Save Store** or **Save And Continue Edit** button to save your work. After that, store’s location will be updated automatically on Google Map.
 
@@ -622,7 +622,7 @@ There are 6 compulsory sessions:
 - Marker icon: you can upload your own image to replace the default marker icon of Google on the map
 - Manual marking your store on Google map:
 
-![Google Map Location tab]()
+![Google Map Location tab](./image_growth_m2/image063.png?raw=true)
  
 When a store is created manually, the system will automatically get the coordinates based on the store address by using Google API. However, in some cases, this way may be not completely accurate. Therefore, the **Google Map Location** tab allows you to edit store coordinates manually.
 
@@ -634,17 +634,17 @@ By clicking **Apply to Form** before saving, the store coordinates & the store a
 
 Upload as many store images as you want. The base image will be shown in the store list.
  
-![Image Gallery tab]()
+![Image Gallery tab](./image_growth_m2/image064.png?raw=true)
 
 **d. Store’s Schedule** tab:
 
-![Store's Schedule tab]()
+![Store's Schedule tab](./image_growth_m2/image065.png?raw=true)
  
 This tab allows you to choose a Schedule from a list to apply for this store. Otherwise you can create a new schedule by following the link under the dropdown list.
 
 A **New Schedule** page will be opened so you can set your store schedule:
 
-![Store's Schedule tab]()
+![Store's Schedule tab](./image_growth_m2/image066.png?raw=true)
  
 1.	Enter your **Schedule Name**
 2.	Choose your store schedule on each day:
@@ -660,7 +660,7 @@ Refresh your **Store’s Schedule** page and your newly-setup schedule has appea
 
 **e. Store’s Tags** tab:
 
-![Store's Tags tab]()
+![Store's Tags tab](./image_growth_m2/image067.png?raw=true)
  
 For easier search, you can tag each store in multiple categories. Choose tags for each in this tab by search for the tag and select suitable ones. Please note that one store can belongs to more than one tag.
 
@@ -668,13 +668,13 @@ To add a new tag and manage tags for all stores, please refer to **Manage Tags**
 
 **f. Store’s Holidays** tab:
 
-![Store's Holidays]()
+![Store's Holidays](./image_growth_m2/image068.png?raw=true)
  
 Select Holidays to be applied for this store by searching/filtering and select Holiday(s) that you set up before. Please refer to **Manage Holidays** to add/edit holidays.
 
 **g. Store’s Orders** tab: 
 
-![Store's Orders]()
+![Store's Orders](./image_growth_m2/image069.png?raw=true)
  
 This tab displays all store pickup orders that have been placed for this store.
 
@@ -682,7 +682,7 @@ This tab displays all store pickup orders that have been placed for this store.
 
 Path: **Store Pickup > Manage Store**
 
-![Edit Store]()
+![Edit Store](./image_growth_m2/image070.png?raw=true)
  
 You can always edit store information by clicking on **Select** under the Action column and choose Edit; or delete the store by selecting **Delete**.
 
@@ -692,23 +692,23 @@ Path: **Store Pickup > Manage Tags**
 
 To add new tags, click on **Add New Tag**
 
-![Manage Tags]()
+![Manage Tags](./image_growth_m2/image071.png?raw=true)
  
 In **New Tag** view, you can edit Tag Information in 2 tabs: **General information** and **Stores of Tag**. 
 
 **a. General Information**
 
-![Manage Tags]()
+![Manage Tags](./image_growth_m2/image072.png?raw=true)
  
 Choose a suitable Tag Name, write a description and upload Icon to make it pop out on store listing page
 
 **b. Stores of Tags** tab
 
-![Stores of Tags]()
+![Stores of Tags](./image_growth_m2/image073.png?raw=true)
  
 Select stores from the list to be shown up when Customers clicking on the tag. 
 
-![Stores of Tags]()
+![Stores of Tags](./image_growth_m2/image074.png?raw=true)
  
 Then click **Save Tag** at the top right of the page to apply changes.
 
@@ -720,13 +720,13 @@ You will be navigated to the **Holiday Manager** page listing all holidays creat
 
 Click on **Add Holiday** button to create a new one.
 
-![Manage Holidays]()
+![Manage Holidays](./image_growth_m2/image075.png?raw=true
  
 And then, 2 tabs will appear for users to fill in: **General Information** & **Stores of Holiday**
 
 **a. General Information** tab
 
-![Manage Holidays]()
+![Manage Holidays](./image_growth_m2/image076.png?raw=true)
  
 On the General Information page:
 - Set the Holiday Name
@@ -737,7 +737,7 @@ Remember to click on the **Save and continue edit** button after entering requir
 
 **b. Stores of Holiday** tab
 
-![Stores of Holiday]()
+![Stores of Holiday](./image_growth_m2/image077.png?raw=true)
  
 On the **Stores of Holiday** page: tick all stores that you want this holiday to be applied, then click **Save Holiday** button at the top right of the page.
 
@@ -747,13 +747,13 @@ Path: **Store Pickup > Manage Special Days**.
 
 You will be navigated to the **Special Day Manager** page listing all special days created. Click on the **Add Special Day** button to create a new one.
 
-![Manage Special Days]()
+![Manage Special Days](./image_growth_m2/image078.png?raw=true)
  
 In **New Special Day** page, you can fill in Special Day Information in 2 tabs: **General Information** and **Stores of Special Day**.
 
 **a. General Information** tab
 
-![Manage Special Days]()
+![Manage Special Days](./image_growth_m2/image079.png?raw=true)
 
 On the **Add Special Day** page:
 
@@ -773,7 +773,7 @@ On the **Add Special Day** page:
 
 Tick all stores that you want this special day to be applied, then Save Special Day
 
-![Stores of Special Day]()
+![Stores of Special Day](./image_growth_m2/image080.png?raw=true)
 
 #### Manage Schedule 
 
@@ -781,11 +781,11 @@ Path: **Store Pickup > Manage Schedule**
 
 You can see some schedules available in this tab and quickly edit, or create a new one by clicking on **Add New Schedule**.
 
-![Manage Schedule]()
+![Manage Schedule](./image_growth_m2/image081.png?raw=true)
 
 To edit Schedule: 
 
-![Manage Schedule]()
+![Manage Schedule](./image_growth_m2/image082.png?raw=true)
 
 Setting up store schedule is similar to the tab Store’s Schedule in **Manage Schedule**
 
@@ -801,7 +801,7 @@ In the **Information tab**, you can see the information about shipping address c
 
 When there is an order using store pickup, notification email will be sent to store owner & administrator.
 
-![View Pickup Order]()
+![View Pickup Order](./image_growth_m2/image083.png?raw=true)
 
 #### Settings
 
@@ -811,7 +811,7 @@ The configuration is divided into 3 groups: **General, Service API** & **Store S
 
 - **General**
 
-![Settings]()
+![Settings](./image_growth_m2/image084.png?raw=true)
  
  |No|	Field|	Sample|	Result|
 |--|--|--|--|
@@ -825,7 +825,7 @@ The configuration is divided into 3 groups: **General, Service API** & **Store S
 
 - **Service API** 
 
-![Service API]()
+![Service API](./image_growth_m2/image085.png?raw=true)
  
 To integrate Google API in your site, fill your Google Map API key into this field. You can get this key by following the guide link or going to Store Pickup → Guide on the menu in backend. 
 
@@ -835,7 +835,7 @@ To integrate Facebook social plugin in your site, you must enter Facebook API ke
 
 - **Store Search**
 
-![Store Search]()
+![Store Search](./image_growth_m2/image086.png?raw=true)
  
 |No|	Field|	Sample|	Result|
 |--|--|--|--|
@@ -845,7 +845,7 @@ To integrate Facebook social plugin in your site, you must enter Facebook API ke
 
 ## HOW TO MANAGE USER PERMISSION
 
-![HOW TO MANAGE USER PERMISSION]()
+![HOW TO MANAGE USER PERMISSION](./image_growth_m2/image087.png?raw=true)
  
 **Only admin accessing Web POS can set up Staff permission**
 
@@ -859,7 +859,7 @@ Path: **System > Permission** section **> User Roles**
 
 ##### Manage user role
 
-![Manage user role]()
+![Manage user role](./image_growth_m2/image088.png?raw=true)
  
 1.	Click **Add New Role** button to create new user role.
 2.	You can find and view the **ID** and **Roles** in your system. Besides, you can edit role’s details by clicking on each line
@@ -867,7 +867,7 @@ Path: **System > Permission** section **> User Roles**
 
 ##### Create a new user role
 
-![Create a new user role]()
+![Create a new user role](./image_growth_m2/image089.png?raw=true)
  
 Click on **Add New Role** button.
 
@@ -875,14 +875,14 @@ Then, you will be linked to:
 
 - **Role Info** tab:
 
-![Create a new user role]()
+![Create a new user role](./image_growth_m2/image090.png?raw=true)
  
 1.	**Rule Name**: enter the name
 2.	**Your Password**: enter your own password to identify verification
 
 - **Role Resources** tab
 
-![Role Resources]()
+![Role Resources](./image_growth_m2/image091.png?raw=true)
  
 1.	**Resource Access**: You can choose **Custom** or **All**. Choose **All** if you want users having this role will have access to all resources, click on **Save** or **Save And Continue Edit** button to save your work.
 
@@ -895,7 +895,7 @@ Click **Save** to complete the process.
 
 Path: **System > Permission** section **> All Users**
 
-![Manage user]()
+![Manage user](./image_growth_m2/image092.png?raw=true)
  
 1.	You can view Basic User Information, such as **ID, User Name, First Name, Last Name, Email** and **Status**. 
 
@@ -907,12 +907,12 @@ View or edit a user’s detail by clicking on each line.
 
 ##### Create a new user
 
-![Create a new user]()
+![Create a new user](./image_growth_m2/image093.png?raw=true)
  
 To create a new user, click on **Add New User** button
 - **User Info**
 
-![Create a new user]()
+![Create a new user](./image_growth_m2/image094.png?raw=true)
  
 1.	**User Name** ***(required)***: enter the name
 2.	**First Name *(required)***: enter the first name
@@ -926,23 +926,23 @@ To create a new user, click on **Add New User** button
 
 - **User Role**: Select a role for the user
 
-![User Role]()
+![User Role](./image_growth_m2/image095.png?raw=true)
  
 - **Warehouses**
 
-![Warehouses]()
+![Warehouses](./image_growth_m2/image096.png?raw=true)
  
 In **Warehouse** tab, click on **Assign Warehouses** button to assign warehouses to this user.
 
 Then, 
 
-![Warehouses]()
+![Warehouses](./image_growth_m2/image097.png?raw=true)
  
 A pop-up will be shown. Tick on the **Warehouse(s)** that you want to assign. Click on **Add Selected Warehouses** to finish it.
 
 After you have completed all, click on **Save User** button 
 
-![Warehouses]()
+![Warehouses](./image_growth_m2/image098.png?raw=true)
 
 ### How to manage staff for POS
 #### Decentralize access permission of Web POS users
@@ -951,7 +951,7 @@ Path: **Sales > Web POS** section **> Manage Roles**
 
 ##### Manage role
 
-![Manage role]()
+![Manage role](./image_growth_m2/image099.png?raw=true)
  
 1.	You can view Basic Role Information such as **ID, Display Name**, and **Description**.
 
@@ -963,7 +963,7 @@ If you want to delete a role record, you need choose a role, then click on **Act
 
 ##### Add a new role
 
-![Add a new role]()
+![Add a new role](./image_growth_m2/image100.png?raw=true)
  
 Click on **Add Role** button to add a new role.
 
