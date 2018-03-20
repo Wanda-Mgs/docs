@@ -3383,7 +3383,7 @@ Path: **Inventory Management > Prediction** section **> Supply Needs**
 
 This feature predicts how many inventory items a warehouse need for each product within a future period. The system will calculate this number based on your sales history in the corresponding period in the past.
 
-![Supply Needs](./image_growth_m2/image412.png?raw=true)
+![Supply Needs](./image_growth_m2/image413.png?raw=true)
  
 1. **Warehouse(s)**: Select the warehouse to forecast supply needs.
 2. **Sales Period**: Select the sales period so that the system will calculate this number based on this sales history.
@@ -3392,7 +3392,7 @@ This feature predicts how many inventory items a warehouse need for each product
 
 The forecast data will be shown in the table as below:
 
-![Supply Needs]()
+![Supply Needs](./image_growth_m2/image414.png?raw=true)
 
 1. The table displays supply needs information as below:
 - **Qty Sold/day**: average quantity sold per day of the product during the chosen sales period
@@ -3410,20 +3410,20 @@ Path: **Inventory Management > Prediction** section **> Low Stock Rules**
 
 ***Note: Low Stock Alert** is when a type of product is on the verge of low-stock, Low Stock Alert will alert the Inventory manager to import more items. This feature avoids lack of items to supply for stores.*
 
-![Low Stock Rules]()
+![Low Stock Rules](./image_growth_m2/image415.png?raw=true)
  
 1. Select an existing rule to edit or click **Add New Rule** button at top right of the page. Admin can create unlimited rules to notify low stock status. One rule contains: **Rule Information, Conditions & Action**. There is no limitation in the quantity of rules set.
 
 **. On the **Rule information** tab
 
-![Rule information tab]()
+![Rule information tab](./image_growth_m2/image416.png?raw=true)
  
 2. **Rule Name**: Enter the low stock rule name
 3. **Description**: Add a brief about the rule *(optional)*
 4. **Status**: Select **Active** to enable the rule
 5. Use **Calendar** to choose **From** and **To** date for a term of validity *(optional)*
 
-![Rule information tab]()
+![Rule information tab](./image_growth_m2/image417.png?raw=true)
 
 6. Select an **update time**: either Daily or Monthly
 The system periodically checks stock availability and automatically send email notifications admin and warehouse managers.
@@ -3433,7 +3433,7 @@ The system periodically checks stock availability and automatically send email n
 
 There are **2 types** of low stock rule:
 
-![Conditions tab]()
+![Conditions tab](./image_growth_m2/image418.png?raw=true)
  
 ***Type 1: Availability Qty*.***
 
@@ -3443,7 +3443,7 @@ There are **2 types** of low stock rule:
 10. **Notification Scope**: Select **Both Warehouse and Global** for notification scope
 11. **Warehouse(s)**: Select **Warehouses** for those rules will be applied.
 
-![Availability Qty]()
+![Availability Qty](./image_growth_m2/image419.png?raw=true)
 
 ***Type 2: Availability Days* ***
 
@@ -3457,12 +3457,12 @@ There are **2 types** of low stock rule:
 
 **c.** On **Actions** tab
 
-![Actions tab]()
+![Actions tab](./image_growth_m2/image420.png?raw=true)
  
 17. **Notifier email list**: Enter an **email list** to send the low stock notifications to
 18. **Warning Message**: Enter content of the **warning message**
 
-![Actions tab]()
+![Actions tab](./image_growth_m2/image421.png?raw=true)
  
 19. Click **Save** or **Save and Apply** to finish
 - **Save and Continue Edit**: to save the process and continue edit on the current page.
@@ -3471,13 +3471,13 @@ There are **2 types** of low stock rule:
 
 ***Note**: You can edit the rule that you **Save and Apply** or **Save** by going to **Stock Management > Prediction** section **> Low Stock Rules >** clicking on **Edit**
 
-![Actions tab]()
+![Actions tab](./image_growth_m2/image422.png?raw=true)
  
 ##### Low Stock Notifications
 
 Path: **Inventory Management > Prediction** section **> Low Stock Notifications**
 
-![Low Stock Notifications]()
+![Low Stock Notifications](./image_growth_m2/image423.png?raw=true)
  
 **Low Stock Notifications** listing displays warning messages about the products which are nearly out of stock in warehouses. It shows all notification with information including Sent at, Update Type, Email received, Recipients and Action. Each notification log can show details of all products that have been low stock including Name, SKU, Image, Qty Notified and Time Notified.
 
@@ -3488,19 +3488,19 @@ Path: **Inventory Management > Barcode Management** section **> Barcode Listing*
 
 **Barcode listing** displays all barcodes of all products saved in Inventory Management. It contains **Barcode, SKU, Supplier** and **Purchased Time**. From this screen, admin can easily **Import Barcode** or **Generate Barcode** with 2 buttons on the top right.
 
-![Barcode listing]()
+![Barcode listing](./image_growth_m2/image424.png?raw=true)
  
 Admin can also view detail of each barcode and product.
  
-![Barcode listing]()
+![Barcode listing](./image_growth_m2/image425.png?raw=true)
 
 Click on **View** in the **Detail** column, then you can see each barcode details.
 
-![Barcode listing]()
+![Barcode listing](./image_growth_m2/image426.png?raw=true)
  
 You can see **Barcode Information** as above.
 
-![Barcode listing]()
+![Barcode listing](./image_growth_m2/image427.png?raw=true)
  
 You can see **Barcode Print Configuration**. In addition, you also can print the barcode right here.
 
@@ -3509,7 +3509,7 @@ You can see **Barcode Print Configuration**. In addition, you also can print the
 
 Then click on **Print** button
 
-![Barcode listing]()
+![Barcode listing](./image_growth_m2/image428.png?raw=true)
  
 Besides, you can see **Product Information**, including **Image, Name, Price, Qty., Stock Availability** and **Status**. 
 
@@ -3523,21 +3523,21 @@ You can create your own barcode template by adding new template. There are also 
 
 ##### Manage Barcode Templates
 
-![Manage Barcode Templates]()
+![Manage Barcode Templates](./image_growth_m2/image429.png?raw=true)
  
 Here, you can see list of barcode templates that you have created. 
 
-![Manage Barcode Templates]()
+![Manage Barcode Templates](./image_growth_m2/image430.png?raw=true)
 
 Click on **Edit** in the **Edit** column to view and edit **Barcode Template**
 
-![Manage Barcode Templates]()
+![Manage Barcode Templates](./image_growth_m2/image431.png?raw=true)
  
 Click on **Add New Template** if you want to create a new one.
 
 ##### Add a new Barcode Template
 
-![Add a new Barcode Template]()
+![Add a new Barcode Template](./image_growth_m2/image432.png?raw=true)
  
 0.	You can see the **Barcode Label Roll** at the right. The image demontrates the dimensions of the label roll that barcodes are printed on. 
 1.	**Select Barcode Label Format**: select your preferred format (**Standard, A4** or **Jewelry**)
@@ -3563,7 +3563,7 @@ Click on **Add New Template** if you want to create a new one.
 7.	**Paper measurement**: enter paper height and paper width (no need to type the unit).
 8.	**Label measurement**: enter label height and label width (no need to type the unit) 
 
-![Add a new Barcode Template]()
+![Add a new Barcode Template](./image_growth_m2/image433.png?raw=true)
  
 9. **Font Size**: enter the number (no need to type the unit)
 10. **Margin top, Margin left, Margin bottom, Margin right**: enter the number
@@ -3579,7 +3579,7 @@ After all, click **Save** to save the created one
 
 Path: **Inventory Management > Barcode Management** section **> Generate Barcode**
 
-![Generate Barcode]()
+![Generate Barcode](./image_growth_m2/image434.png?raw=true)
  
 1.	**General Information**: select one of these two options
 - Generate barcode per item (each item will generate a barcode with Qty.=1)
@@ -3587,14 +3587,14 @@ Path: **Inventory Management > Barcode Management** section **> Generate Barcode
 - Then enter the reason if you have (this will help you find barcode easier)
 2. **Product(s)**: click on **Selected Product(s)**, then a popup will be shown as below:
 
-![Generate Barcode]()
+![Generate Barcode](./image_growth_m2/image435.png?raw=true)
  
 1.	Tick on the box to select the product you want to generate code
 2.	Click on **Add Selected Products** button
 
 Then the product(s) you choose will be shown on the table as below:
 
-![Generate Barcode]()
+![Generate Barcode](./image_growth_m2/image436.png?raw=true)
  
 Enter the **Item Quantity**. Besides, you can enter the name of **Supplier** and select **Purchased time**, or easily remove the item by clicking on **Remove** in the **Actions** column.
 
@@ -3602,7 +3602,7 @@ To complete this process, click on **Generate** button on your top left.
 
 Then you will be linked to **Barcode Generated History** page as below:
 
-![Generate Barcode]()
+![Generate Barcode](./image_growth_m2/image437.png?raw=true)
  
 Here, you can view History Information and if you click on **View** in the **Detail** column, you will see the barcode details.
 
@@ -3612,7 +3612,7 @@ Path: **Inventory Management > Barcode Management** section **> Import Barcode**
 
 Here you can import your pre-generated barcodes via a CSV file.
 
-![Import Barcode]()
+![Import Barcode](./image_growth_m2/image438.png?raw=true)
  
 1.	**Reason**: enter the reason you import barcode
 2.	**Import File**: select a CSV file to import
@@ -3626,27 +3626,27 @@ Path: **Inventory Management > Barcode Management** section **> Scan Barcode**
 
 You need a Barcode scanner which is able to connect with your computer to perform this action. Then you can scan to read product information or update stock Qty., this saves you a remarkable amount of time when doing **Stock taking.**
 
-![Scan Barcode]()
+![Scan Barcode](./image_growth_m2/image439.png?raw=true)
  
 The Scan Barcodes site will be shown as above. Now, let’s move to each step (marked on the above image)
 
 - **Step 1**: Enter the barcode on this field
 
-![Enter the barcode on this field]()
+![Enter the barcode on this field](./image_growth_m2/image440.png?raw=true)
  
 - **Step 2**: Read the **Barcode Information**
 
-![Read the Barcode Information]()
+![Read the Barcode Information](./image_growth_m2/image441.png?raw=true)
  
 
 - **Step 3**: View the product information. Click on **More Detail** button to view full information about the product
 
 ![View the product information. Click on More Detail button to view full information about the product
-]()
+](./image_growth_m2/image442.png?raw=true)
  
 - **Step 4**:
 
-![Step 4]()
+![Step 4](./image_growth_m2/image443.png?raw=true)
  
 Select the template and enter the Qty. to print → Then, click on **Print Barcode** button to print
 
@@ -3656,7 +3656,7 @@ Path: **Inventory Management > Barcode Management** section **> Print Barcode**
 
 Here you can select the barcode template from the templates created before to print.
 
-![Print Barcode]()
+![Print Barcode](./image_growth_m2/image444.png?raw=true)
  
 1.	**Select Barcode Template**: select the template (A4, Standard or Jewelry)
 2.	**Preview**: click on the button to check the template before printing it
@@ -3668,13 +3668,13 @@ After all, click **Print**
 
 Path: **Inventory Management > Barcode Management** section **> Barcode Generated History**
 
-![Barcode Generated History]()
+![Barcode Generated History](./image_growth_m2/image445.png?raw=true)
  
 You can view the history table showing information such as **ID**, created **Date**, which **User** created, **Barcode Qty.**, **Type** (Generated or Imported) and **Detail**. 
 
 If you click on **View** in the **Detail** column, you will be linked to **Barcode Created History Details** site as below:
 
-![Barcode Generated History]()
+![Barcode Generated History](./image_growth_m2/image446.png?raw=true)
 
 You will see when, who and why created Barcode. You can view the list of created barcodes in the table. If you click on **View** in the **Detail** column
 
@@ -3685,25 +3685,25 @@ Path: **Purchase Management > Supplier** section **> Manage suppliers**
 
 ##### View Supplier Details
 
-![View Supplier Details]()
+![View Supplier Details](./image_growth_m2/image447.png?raw=true)
  
 On the **Manage Suppliers** page, you can view the table including information about **Supplier Code, Total SKU, Purchase Order Value, Last Purchase Order On**, and **Status**. 
 
 Moreover, in the **Action** column, you can click on **View** for more detail about the supplier including which **Products** they have provided, along with **Supplier Information, Supplier Address** and **Purchase Sales List**
 
-![View Supplier Details]()
+![View Supplier Details](./image_growth_m2/image448.png?raw=true)
  
 ##### Add a new Supplier
 
-![Add a new Supplier]()
+![Add a new Supplier](./image_growth_m2/image449.png?raw=true)
  
 Click on **Add New Supplier** and Fill **Supplier Information** and **Supplier Address**
 
-![Add a new Supplier]()
+![Add a new Supplier](./image_growth_m2/image450.png?raw=true)
 
 - **Supplier Information**
 
-![Supplier Information]()
+![Supplier Information](./image_growth_m2/image451.png?raw=true)
  
 1.	**Supplier Code**: enter the code based on your own rules
 2.	**Supplier Name**: enter the supplier’s name
@@ -3714,7 +3714,7 @@ Click on **Add New Supplier** and Fill **Supplier Information** and **Supplier A
 
 - **Supplier Address**
 
-![Supplier Address]()
+![Supplier Address](./image_growth_m2/image452.png?raw=true)
  
 Fill **Supplier Address**, such as **Telephone, Fax, Street, City, Country, Region, Zip/Postal Code**, and **Website**
 
@@ -3722,7 +3722,7 @@ Finally, don’t forget to click on **Save** to complete this step.
 
 Now you can assign products to this supplier. After you click on **Save** button, your screen will appear like following:
 
-![Supplier Address]()
+![Supplier Address](./image_growth_m2/image453.png?raw=true)
  
 There are two ways to assign products to the supplier: Add product manually and import products via a csv file. 
 
@@ -3736,23 +3736,23 @@ Path: **Purchase Management > Supplier** section **> Manage pricelist**
 
 On the **Manage Pricelist** page, you can view **Product SKU, Supplier, Product Supplier SKU, Minimal Qty., Cost, Start Date** and **End Date.**
 
-![Manage Pricelist]()
+![Manage Pricelist](./image_growth_m2/image454.png?raw=true)
  
 You can also delete the pricelist by ticking on the selected supplier on the 1st column, and select **Delete** in the **Actions** field
 
-![Manage Pricelist]()
+![Manage Pricelist](./image_growth_m2/image455.png?raw=true)
  
 You can update the pricelist by click on **Add Pricelist** or **Import Pricelist**
 
 - **Add Pricelist**
 
-![Add Pricelist]()
+![Add Pricelist](./image_growth_m2/image456.png?raw=true)
  
 To add pricelist, you must complete three required steps:
 - **Step 1**: **Supplier**: Select the supplier that you want to add pricelist to
 - **Step 2**: Click on **Select Products** button
 
-![Add Pricelist]()
+![Add Pricelist](./image_growth_m2/image457.png?raw=true)
  
 A pop-up will be shown
 1.	Tick on the selected product(s)
@@ -3762,7 +3762,7 @@ A pop-up will be shown
 
 - **Import Pricelist**
 
-![Import Pricelist]()
+![Import Pricelist](./image_growth_m2/image458.png?raw=true)
  
 1.	Click on **Choose File** to upload a **CSV file**. A sample is available for download.
 2.	Click on **Import** to finish
@@ -3775,7 +3775,7 @@ A pop-up will be shown
 
 Path: **Purchase Management > Quotation Management** section **> Create Quotation**
 
-![Create a new Quotation]()
+![Create a new Quotation](./image_growth_m2/image459.png?raw=true)
  
 **a. Step 1**: Fill in General Information
 1.	**Created Time**: click on Calendar to select Created Date (or you can use the system date)
@@ -3787,28 +3787,28 @@ Path: **Purchase Management > Quotation Management** section **> Create Quotatio
 
 **b. Step 2**: Select the products you need supplying.
 
-![Create a new Quotation]()
+![Create a new Quotation](./image_growth_m2/image460.png?raw=true)
  
 1.	After clicking on **Prepare Product List** button, You can view **Summary Information**, including time (**Created At**), **Purchase form, Payment Term** and Shipping Method, as below:
 
-![Create a new Quotation]()
+![Create a new Quotation](./image_growth_m2/image461.png?raw=true)
  
 2.	You add products that need supplying.
 
-![Create a new Quotation]()
+![Create a new Quotation](./image_growth_m2/image462.png?raw=true)
 
 All products that you add will be shown on the table, where you should edit **Current Cost, Purchase Cost,** and **Qty. Offering**. Besides, you can edit **SKU, Product Name, Supplier SKU, Tax, Discount** and even **Delete** the products from the Quotation. 
 There are 5 ways toprepare product list: **Import Products,** add **Supply Needs Products, Back Sales Products, Low Stock Products** and **All Supplier Products:**
 
 - **Import Products:**
 
-![Import Products]()
+![Import Products](./image_growth_m2/image463.png?raw=true)
  
 Similar to step 3 in **Manage Pricelist** section
 
 - **Supply Needs Products:**
 
-![Supply Needs Products]()
+![Supply Needs Products](./image_growth_m2/image464.png?raw=true)
  
 1.	**Warehouse(s)**: select warehouse(s) to see products that need supply
 2.	**Sales Period**: select the Sales Period
@@ -3818,14 +3818,14 @@ Similar to step 3 in **Manage Pricelist** section
 
 - **Back Sales Products:** Back orders products are ordered by customers but not available in stock at that moment.
 
-![Back Sales Products]()
+![Back Sales Products](./image_growth_m2/image465.png?raw=true)
  
 1.	Tick on the **product SKU** that need supplying
 2.	Click on **Add Selected Products** button to finish
 
 - **Low Stock Products:**
 
-![Low Stock Products:]()
+![Low Stock Products:](./image_growth_m2/image466.png?raw=true)
  
 1.	**Select Low Stock**: choose one of your low stock notification 
 2.	Tick on the product **SKU** that need supplying
@@ -3833,14 +3833,14 @@ Similar to step 3 in **Manage Pricelist** section
 
 - **All Supplier Products:**
 
-![All Supplier Products]()
+![All Supplier Products](./image_growth_m2/image467.png?raw=true)
  
 1.	Tick on the products that need supplying
 2.	Click on **Add Selected Products** button to finish.
 
 After you added all the products you need supplying, you need to:
 
-![All Supplier Products]()
+![All Supplier Products](./image_growth_m2/image468.png?raw=true)
  
 1.	Tick on the product(s) that you want to edit the **Qty. Ordering** and **Purchase Cost** (or **Tax, Discount**)
 2.	Edit the **Purchase Cost, Tax, Discount and Qty. Ordering**.  Remember **Purchase Cost** and **Qty. Ordering** are required fields
@@ -3848,7 +3848,7 @@ After you added all the products you need supplying, you need to:
 
 **c. Step 3**: Fill in Shipping and Payment method
 
-![Fill in Shipping and Payment method]()
+![Fill in Shipping and Payment method](./image_growth_m2/image469.png?raw=true)
  
 1.	**Shipping Address**: enter the shipping address
 2.	**Shipping Method**: choose one of your shipping method
@@ -3864,11 +3864,11 @@ Remember to click **Save** to update what you have edited
 
 Here, you can review/edit the quotation information including the Order Totals. 
 
-![Review the quotation]()
+![Review the quotation](./image_growth_m2/image470.png?raw=true)
  
 **e. Step 5**: Send Request to the suppliers or Print the quotation
 
-![Send Request to the suppliers or Print the quotation]()
+![Send Request to the suppliers or Print the quotation](./image_growth_m2/image471.png?raw=true)
  
 - **Back**: if you want to come back the **Quotation Management** page
 - **Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. 
@@ -3877,7 +3877,7 @@ Here, you can review/edit the quotation information including the Order Totals.
 - **Save**: click here to update and finish this quotation as the draft
 - **Confirm Quotation**: after the quotation is confirmed, the system will allow you to check again the information, then 
 
-![Send Request to the suppliers or Print the quotation]()
+![Send Request to the suppliers or Print the quotation](./image_growth_m2/image472.png?raw=true)
  
 1.	**Back**: get back the **Quotation Management** page
 2.	**Cancel**: delete the quotation. A pop-up will be shown to make sure you want to cancel it. Then if you really want to cancel this, you click on **Delete** button, if not, you click on **Back** then you will be linked the quotation management site.
@@ -3891,13 +3891,13 @@ Here, you can review/edit the quotation information including the Order Totals.
 
 Path: **Purchase Management > Quotation Management** section **> Quotation**
 
-![Manage Quotation]()
+![Manage Quotation](./image_growth_m2/image473.png?raw=true)
  
 Here, you can view **Quotation Number, Created At, Supplier, Required Qty., Grand Total (including Tax)**, and **Status.**
 
 Besides, you can view more detail by clicking on **View** in the **Action** column
 
-![Manage Quotation]()
+![Manage Quotation](./image_growth_m2/image474.png?raw=true)
  
 You can view and edit **Summary Information, Shipping and Payment, and General Information**
 
@@ -3913,14 +3913,14 @@ When creating Purchase Order, you will see a tab showing steps at which Purchase
 
 **a. Step 1**: input General Information
 
-![input General Information]()
+![input General Information](./image_growth_m2/image475.png?raw=true)
  
 - Enter required information. Similar to **Step 1 in Create a new Quotation**
 - Click on **Prepare Product List** button to move to the next step
 
 **b. Step 2**: Add products to the Purchase Order
 
-![Add products to the Purchase Order]()
+![Add products to the Purchase Order](./image_growth_m2/image476.png?raw=true)
  
 Similar to **Step 2 in Creating a Quotation**, there are 5 ways to prepare product list:
 	- Import products via a CSV file
@@ -3933,7 +3933,7 @@ Then, click on **Confirm Purchase Order** at the top right to continue.
 
 **c. Step 3:** Setting Shipping and Payment
 
-![Setting Shipping and Payment]()
+![Setting Shipping and Payment](./image_growth_m2/image477.png?raw=true)
  
 - Enter the address you want the stock to be shipped to
 - Select a shipping method for the purchase order
@@ -3946,7 +3946,7 @@ After this step, choose **Save** and the purchase order status will be changed t
 
 You should double-check all information before confirming purchase order. After being confirmed, the purchase order status will be changed to ***Processing***.
 
-![Setting Shipping and Payment]()
+![Setting Shipping and Payment](./image_growth_m2/image478.png?raw=true)
  
 You can view **Summary Information, General Information and edit Invoices, Received Items, Returned Items, Transfered Items, Shippping** and **Payment**.
 
@@ -3956,31 +3956,31 @@ You can also click on **Receive Items** button to note which and how many items 
 
 - **Summary Information**
 
-![Summary Information]()
+![Summary Information](./image_growth_m2/image479.png?raw=true)
  
 You can view the **time, supplier, shipping method, payment term, product list** and **sales totals report**
 
 - **Receive Items**
 When the purchase order’s status is processing, you can be navigated to the following view and receive or return items:
 
-![Receive Items]()
+![Receive Items](./image_growth_m2/image480.png?raw=true)
  
 The table will shown received items with information including **Received Data, SKU, Product Name, Supplier SKU, Received Qty** and **Created By**
 - If you click on **Receive all items**, then all items that you need supplying are ordered. 
 - If you click on **Receive items** to note the received quantity of some items only. This method is most suitable when you use partial shipment. 
 
-![Receive Items]()
+![Receive Items](./image_growth_m2/image481.png?raw=true)
  
 1.	**Received Time**: click **Calendar** to pick the Date you received the items
 2.	**Product List**:
 	- **Scan Barcode**: update product list by scanning product barcode 
 	- **Select Products**: a pop-up will be shown as below
 
-![Receive Items]()
+![Receive Items](./image_growth_m2/image482.png?raw=true)
  
 Tick on the product(s) you received. Then click on **Select** button to complete
 
-![Receive Items]()
+![Receive Items](./image_growth_m2/image483.png?raw=true)
  
 After that, you need to enter the product quantity you received in the **Receive Qty** field. 
 
@@ -3988,24 +3988,24 @@ Finally, click **Save** to finish
 
 - **Returned Items**
 
-![Returned Items]()
+![Returned Items](./image_growth_m2/image484.png?raw=true)
  
 In the Returned Items tab, you can return products to the Supplier by clicking on Return Products button. Please refer to **Create Return Request** for more details.
 
 - **Invoices**
 
-![Invoices]()
+![Invoices](./image_growth_m2/image485.png?raw=true)
  
 The invoice you created will be shown on the table, including information such as **Invoice ID, Billed Date, Invoice Total, Total Paid, Total Refund**, and **Billed Qty**
 
 Click on Create an Invoice. Note that *multiple invoices can be created for one purchase order.*
 
-![Invoices]()
+![Invoices](./image_growth_m2/image486.png?raw=true)
  
 1.	**Billed From**: select the date it is billed
 2.	**Product List**: click on **Selected Products** button, then a pop-up will be shown
 
-![Invoices]()
+![Invoices](./image_growth_m2/image487.png?raw=true)
  
 3.	Tick on the product(s) you select. Then click on **Select** button to finish
 
@@ -4013,7 +4013,7 @@ Click on Create an Invoice. Note that *multiple invoices can be created for one 
 
 After receiving products, you can transfer them to warehouses by clicking **Transfer Product to Warehouse**. 
 
-![Transferred Items]()
+![Transferred Items](./image_growth_m2/image488.png?raw=true)
  
 You will need to fill information like **Transferred Date, SKU, Product Name, Supplier SKU, Transferred Qty, Transferred** to and **Created By**. After that, you click on the Save button to save your work. After that, you can see the records of all transferred products in the **Transferred Items** tab.
 
@@ -4022,7 +4022,7 @@ You will need to fill information like **Transferred Date, SKU, Product Name, Su
 
 **d. Step 4**: Completed
 
-!Completed[]()
+![Completed](./image_growth_m2/image489.png?raw=true)
  
 Here, you can view **Summary Information** (Short Information, Product List and Sales Totals), **Invoices, Received Items, Shortfall items, Returned Items, Transfered Items, Shipping and Payments**, and **General Information**
 
@@ -4032,7 +4032,7 @@ Then, you can click on **Send Email**, to send this purchase order to your suppl
 
 Path: **Purchase Management > Purchase Order Management** section **> Purchase Orders**
 
-![Manage Purchase Order]()
+![Manage Purchase Order](./image_growth_m2/image490.png?raw=true)
  
 You can view the purchase date (**Purchase On – Expect Delivery On**), **supplier, Requested Qty, Received Qty, Total Paid, Grand Total** (Including **Tax**) and **Status**. Beside, you can view more details by clicking on **View**, or delete the purchase order by tick on the order then choose action **Delete***.
 
@@ -4046,7 +4046,7 @@ Path: **Purchase Management > Return Request Management** section **> Create Ret
 
 **a. Step 1**: status **New**: input General Information
 
-![Create Return Request]()
+![Create Return Request](./image_growth_m2/image491.png?raw=true)
  
 1.	**Created Time**: select **Calendar** to choose date
 2.	**Warehouse**: select warehouse that holds the Returned Items
@@ -4057,11 +4057,11 @@ Then, click on **Prepare Product List** button to move to the next step
 
 **b. Step 2**: status **Pending**: Prepare products to create return request
 
-![Create Return Request]()
+![Create Return Request](./image_growth_m2/image492.png?raw=true)
  
 1.	First, you need to select product(s) that you want to return: you can **Import Products, Scan Products (instruction below)** and select from **All Supplier Products**
 
-![Create Return Request]()
+![Create Return Request](./image_growth_m2/image493.png?raw=true)
  
 With **Scan Products**, you need to:
 	- **Product List**: scan product barcode and it will appears here
@@ -4075,7 +4075,7 @@ You can also **Send request** to supplier via email or print the return request.
 
 **c. Step 3**: Status **Processing**: Send items and/or finish return request
 
-![Create Return Request]()
+![Create Return Request](./image_growth_m2/image494.png?raw=true)
  
 - If the supplier confirms the return request, you can start sending products by clicking on **Delivery items**. 
 
@@ -4085,20 +4085,20 @@ If you have selected **Subtract stock on warehouse** option, the returned stock 
 
 Note that you can return partial items and come back later to return the rest.
 
-![Create Return Request]()
+![Create Return Request](./image_growth_m2/image495.png?raw=true)
 
 - You can click on **Complete Request** to complete the return request even if you send back items in the previous step above or not. Once you have completed the return request, you will NOT be able to receive or edit further information of this request. 
 The request status is marked **Completed**.
 
 **d. Step 4**: status **Completed**
 
-![Create Return Request]()
+![Create Return Request](./image_growth_m2/image496.png?raw=true)
 
 You can review the information you have created, send it via email to the supplier or print it out. 
 
 ##### Manage Return Request
 
-![Manage Return Request]()
+![Manage Return Request](./image_growth_m2/image497.png?raw=true)
  
 You can see **Return Number, Return On (date), Supplier, Warehouse, Returned Qty, Delivered Qty.**, and **Status**
 1.	Click on **Create Return Request** button if you want to create a new one.
@@ -4112,15 +4112,15 @@ You can see **Return Number, Return On (date), Supplier, Warehouse, Returned Qty
 
 Path: **Marketing > Gift Card** section **> Manage Templates**
 
-![Add a New Template]()
+![Add a New Template](./image_growth_m2/image498.png?raw=true)
  
 **Step 1**: click on **Add New Template** button 
 
 **Step 2**: Edit information in **New Template** page
 
-![Add a New Template]()
+![Add a New Template](./image_growth_m2/image499.png?raw=true)
 
-![Add a New Template]()
+![Add a New Template](./image_growth_m2/image500.png?raw=true)
   
 1.	**Template Name**: Enter the template’s name
 2.	**Design Pattern**: Choose a design pattern in dropdown list (optional)
@@ -4134,7 +4134,7 @@ Path: **Marketing > Gift Card** section **> Manage Templates**
 
 Path: **Marketing > Gift Card** section **> Manage Templates**
 
-![Preview Existing Templates]()
+![Preview Existing Templates](./image_growth_m2/image501.png?raw=true)
  
 Click on **Preview** to see the gift card template
 
@@ -4142,13 +4142,13 @@ Click on **Preview** to see the gift card template
 
 Path: **Marketing > Gift Card** section **> Manage Templates**
 
-![Edit and Delete Existing Templates]()
+![Edit and Delete Existing Templates](./image_growth_m2/image502.png?raw=true)
  
 1.	Mark the template checkbox
 2.	Tab the action label, select **Delete** to remove templates. 
 3.	Click on **Edit** to update templates data
 
-![Edit and Delete Existing Templates]()
+![Edit and Delete Existing Templates](./image_growth_m2/image503.png?raw=true)
  
 1.	Edit template’s information: **Template Name, Design Pattern, Notes, Text Color, Link/Special Text Color, Background Images**
 2.	Click on **Save** to finish
@@ -4158,7 +4158,7 @@ Path: **Marketing > Gift Card** section **> Manage Templates**
 
 Path: **Marketing > Gift Card** section **> Gift Code History**
 
-![Gift Code History]()
+![Gift Code History](./image_growth_m2/image504.png?raw=true)
  
 On Gift Card History page, you will know when Gift Cards were created/ updated/ redeemed/ spent/ refunded and by whom as well as their values and status. 
 
@@ -4168,12 +4168,12 @@ You can filter data with the above criteria to get more accurate reports. Inform
 
 Path: **Marketing > Gift Card** section **> Generate Gift Code**
 
-![Generate Gift Codes Pattern]()
+![Generate Gift Codes Pattern](./image_growth_m2/image505.png?raw=true)
  
 In **Gift Code Pattern** page, click on **Add Gift Code Pattern** to create new pattern code. 
 
-![Generate Gift Codes Pattern]()
-![Generate Gift Codes Pattern]()
+![Generate Gift Codes Pattern](./image_growth_m2/image506.png?raw=true)
+![Generate Gift Codes Pattern](./image_growth_m2/image507.png?raw=true)
   
 In **New Gift Code Pattern** page, you can:
 1.	**Pattern Name**: Enter the pattern name
