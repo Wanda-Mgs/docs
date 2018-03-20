@@ -27,13 +27,13 @@ With such an ideal Omnichannel Solution, we hope that our Growth Pack will help 
 ##### Create New POS
 Path: **Sales > Web POS** section **> Manage POS
  
-![create new pos]()
+![create new pos](./image_growth_m2/image001.png?raw=true)
 
 Click on **Add POS** button. Then you will be linked to the **New POS** site
 
 There are 4 sections will be displayed such as **General Information; Cash Denominations; Close Sessions; Current Sessions Detail**
 
-![create new pos]()
+![create new pos](./image_growth_m2/image002.png?raw=true)
  
 - **General Information**
 1.	**POS Name**: POS’s name. 
@@ -45,37 +45,37 @@ There are 4 sections will be displayed such as **General Information; Cash Denom
 
 - **Cash Denominations**
 
-![create new pos]()
+![create new pos](./image_growth_m2/image003.png?raw=true)
  
 In this section, users can set domination for the currency for which they are accepted in purchasing process with customers. 
 
 - **Closed Sessions**
 
-![create new pos]()
+![create new pos](./image_growth_m2/image004.png?raw=true)
  
 This section will display the statistics of Closed Sessions after staff working days. When you create a brand-new POS, this section is empty, and it will be updated automatically after being used in reality. 
 
 This might be demonstrated like this: 
 
-![create new pos]()
+![create new pos](./image_growth_m2/image005.png?raw=true)
  
 *(Closed Sessions of working POS)*
 
 - **Current Session Detail**
 The same situation happens with Current Session Detail for the brand-new POS. No data is saved, and it will display like this: 
  
-![create new pos]()
+![create new pos](./image_growth_m2/image006.png?raw=true)
 
 And here is the performance of working POS: 
 
-![create new pos]()
+![create new pos](./image_growth_m2/image007.png?raw=true)
 
 ##### Assign New POS to Cashier 
 Path: **Sales > Web POS > Manage Staffs > Edit Staff > POS**
 
 Here you can assign several POS to a staff 
 
-![Assign New POS to Cashier]()
+![Assign New POS to Cashier](./image_growth_m2/image008.png?raw=true)
 
 After finishing, click on **Save POS** or **Save and Continue Edit** button to save your work
 
@@ -87,7 +87,7 @@ Please refer to **How to manage staff for POS** for detailed instruction.
 #### General Settings 
 Path: **Sales > Web POS** section **> Settings**
 
-![General Settings]()
+![General Settings](./image_growth_m2/image009.png?raw=true)
 
 •	**Web POS logo**: Upload your own logo here. Please note that recommended size is 250x50px & supported files are jpg, png. 
 
@@ -101,13 +101,13 @@ Path: **Sales > Web POS** section **> Settings**
 
 •	**Need to create session before working**: Select Yes or No. Session allows better management when requiring input of the amount of cash at the beginning and end of the session.
 
-![General Settings]()
+![General Settings](./image_growth_m2/image010.png?raw=true)
  
 •	**Tax Class default for Custom Sale**: choose if a preset Tax Class is applied to a Custom Sale item (please refer to **How to Add a Custom Sale Item to Cart** for more details of Custom Sale)
 
 •	**Enable suggesting address by Google**: allows Google’s auto suggestion when cashier types customer’s address during checkout.
 
-![General Settings]()
+![General Settings](./image_growth_m2/image011.png?raw=true)
  
 After configuring, click **Save Config** button to save your changes.
 
@@ -116,14 +116,14 @@ Path: **Sale > Web POS > Setting > Default Guest Checkout**
 
 Default customer is the customer whose information will be used for Guest Checkout or when customer information is not enough, default value will be filled automatically.
 
-![Default Guest Check Out]()
+![Default Guest Check Out](./image_growth_m2/image012.png?raw=true)
  
 Fill in all information as you want to use as default, including **First Name, Last Name, Street, Country, State/Province, City, Zip/Postal Code, Telephone** and **Email**. After finishing, click on **Save Config** button to save your work.
 
 #### Enable Payment Method 
 Path: **Sales > Web POS > Setting > Payment for POS**
 
-![Enable Payment Method]()
+![Enable Payment Method](./image_growth_m2/image013.png?raw=true)
 
 1.	**Applicable Payment Methods**: You have 2 options like pictures above
 - **All Allowed Payment**: Apply all payment 
@@ -131,7 +131,7 @@ Path: **Sales > Web POS > Setting > Payment for POS**
 2.	**Specific Payment Method**: User could hold **Shift + Click** to choose more than a payment method. 
 3.	**Default Payment Method**: Users can choose any payment method as default payment method for POS. 
 
-![Enable Payment Method]()
+![Enable Payment Method](./image_growth_m2/image014.png?raw=true)
  
 4.	**Paypal Integration**: choose Yes or No to display/not display Paypal as a payment option. There is also detailed installation guide and **Test the API** connection function available in the section. 
 
@@ -140,7 +140,7 @@ Path: **Sales > Web POS > Setting > Payment for POS**
 #### Set up Shipping Method 
 Path: **Sales > Web POS** section **> Settings > Shipping Method**
 
-![Set up Shipping Method ]()
+![Set up Shipping Method ](./image_growth_m2/image015.png?raw=true)
  
 1.	**Applicable Shipping Methods**:
 - If you want to apply all shipping methods, choose **All Allowed Shipping**. 
@@ -151,7 +151,7 @@ Path: **Sales > Web POS** section **> Settings > Shipping Method**
 - If you want to set “Store Pickup” to be the default shipping method for instance, you first must choose it in Specific Shipping field. Then, select option “Store Pickup” in Default Shipping Method field.
 4.	**Enable “Mark as shipped” by default**: Choose “Yes” if you want to mark items as shipped
 
-![Set up Shipping Method ]()
+![Set up Shipping Method ](./image_growth_m2/image016.png?raw=true)
  
 After finishing, click on **Save Config** button to save your work.
 
@@ -159,7 +159,7 @@ After finishing, click on **Save Config** button to save your work.
 
 #### Configure Product Search
 
-![Configure Product Search]()
+![Configure Product Search](./image_growth_m2/image017.png?raw=true)
  
 - **Product Attribute(s) for Search**: Select attributes by which you want to search products. The default attributes are Name & SKU. If you want to search quickly by barcode, choose barcode attribute. Hold **Shift + Click** to pick more than one.
 - **Barcode Attributes**: Choose SKU to search products quickly
@@ -181,7 +181,7 @@ Path: **Sales > Web POS** section **> Settings**
 
 #### General Settings
 
-![General Settings]()
+![General Settings](./image_growth_m2/image018.png?raw=true)
  
 - **Need to confirm before deleting order (App only)**: requires cashier to confirm again before he/she can delete an order during checkout.
 - **Active key for using App**: enter the key required to activate the app.
@@ -194,9 +194,9 @@ There is also detailed installation guide and **Test the API connection** functi
 
 For other shipping settings, please refer to WebPOS section of **Set up Shipping Method** 
  
-![Set up Shipping Method for RetailerPOS]()
+![Set up Shipping Method for RetailerPOS](./image_growth_m2/image019.png?raw=true)
 
-![Set up Shipping Method for RetailerPOS]()
+![Set up Shipping Method for RetailerPOS](./image_growth_m2/image020.png?raw=true)
 
 #### Connect Retailer POS with Peripheral Devices
 
@@ -210,7 +210,7 @@ Magestore’s Retailer POS module can connect with **Barcode readers, Card Swipe
 #### Stock Control Configuration
 Path: **Inventory Management > Settings** section **> Configuration**
 
-![Stock Control Configuration]()
+![Stock Control Configuration](./image_growth_m2/image021.png?raw=true)
 
 1.	**Link stocks in Warehouse to Front Store View**: In managing a Warehouse, you can link Warehouse to a Front Store View (path: **Stock Listing > Warehouses >** Click **View > Warehouse Information** section **> General Information** tab **> Magento Store View** field). Note that you can link a warehouse to one or multiple store views.
 - If you enable **Link warehouse to Magento Front Store View** by choosing **Yes** here, stock in warehouse will be displayed on the linked store view. When customers buy on this store view, stock quantity will be deducted from this linked warehouse.
@@ -229,7 +229,7 @@ Path: **Inventory Management > Settings** section **> Configuration > Catalog > 
 ##### Stock Option
 Path: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory**
 
-![Stock Option]()
+![Stock Option](./image_growth_m2/image022.png?raw=true)
  
 1.	**Decrease Stock When Order is Placed**: Select **Yes** in the dropdown list to adjust the quantity on hand when an order is placed.
 2.	**Set Items’ Status to be In Stock When Order is Cancelled**: Select **Yes** in the dropdown list to return items to stock if an order is cancelled.
@@ -241,7 +241,7 @@ Path: **Inventory Management > Settings** section **> Configuration > Catalog > 
 ##### Product Stock Options
 Path: **Inventory Management > Settings** section **> Configuration > Catalog > Inventory**
 
-![Product Stock Options]()
+![Product Stock Options](./image_growth_m2/image023.png?raw=true)
  
 1.	**Manage Stock**: Select **Yes** to activate inventory control for your catalog. 
 2.	**Backorders**: Set Backorders to one of the following status: 
@@ -254,7 +254,7 @@ Path: **Inventory Management > Settings** section **> Configuration > Catalog > 
 
 Next, 
 
-![Product Stock Options]()
+![Product Stock Options](./image_growth_m2/image024.png?raw=true)
  
 6.	**Notify for Quantity Below**: Enter the stock level that generates notification showing the item is out of stock.
 7.	**Enable Qty Increments**: Select **Yes** to activate quantity increments for the product. Then in the **Qty. Increments** field, enter the number of the items that must be purchased to meet the requirement mentioned above.
@@ -265,7 +265,7 @@ Finally, click on **Save Config** to save changes.
 ### Barcode Management
 Path: **Inventory Management > Barcode Management** Section **> Barcode Settings**
 
-![Barcode Management]()
+![Barcode Management](./image_growth_m2/image025.png?raw=true)
  
 1.	**One barcode per product SKU**: choose **No** if you allow a product SKU to have **MULTIPLE** barcodes
 2.	**Barcode pattern**: enter the pattern that will be used to generate barcode
@@ -275,19 +275,19 @@ Path: **Inventory Management > Barcode Management** Section **> Barcode Settings
 #### Purchase Order Configuration
 Path: **Purchase Management > Settings** section **> Purchase Management**
 
-![Purchase Order Configuration]()
+![Purchase Order Configuration](./image_growth_m2/image026.png?raw=true)
 
 Here, you can configure product, shipping method, payment method, payment term and tax-shipping:
 
 - **Product Config**
 
-![Product Config]()
+![Product Config](./image_growth_m2/image027.png?raw=true)
 
 Get products from: you have two options – **All Store** and **Supplier**. (Choose **Supplier**)
 
 - **Shipping Method**
 
-![Shipping Method]()
+![Shipping Method](./image_growth_m2/image028.png?raw=true)
 
 Enter the **Name**, choose **Status** (**enable** or **disable**). To remove one shipping method, click on the **Trash** icon beside.
 
@@ -295,7 +295,7 @@ Click on **Add** to create one more shipping method
 
 - **Payment Method**
 
-![Payment Method]()
+![Payment Method](./image_growth_m2/image029.png?raw=true)
 
 Enter the **Name**, choose **Status** (**enable** or **disable**). To remove one payment method, click on the **Trash** icon beside.
 
@@ -303,7 +303,7 @@ Click on **Add** to create one more payment method.
 
 - **Payment Term**
 
-![Payment Term]()
+![Payment Term](./image_growth_m2/image030.png?raw=true)
 
 Enter the **Name**, write **Description** and choose **Status** (**enable** or **disable**). To remove one payment term, click on the **Trash** icon beside.
 
@@ -311,7 +311,7 @@ Click on **Add** to create one more payment term.
 
 - **Tax & Shipping**
 
-![Tax & Shipping]()
+![Tax & Shipping](./image_growth_m2/image031.png?raw=true)
 
 Here, you have two options:
 1.	**Apply Customer Tax**: choose when you want to apply Customer Tax – **Before Discount** or **After Discount** (you MUST untick the box **Use System Value**)
@@ -319,7 +319,7 @@ Here, you have two options:
 
 #### Supplier Configuration
 
-![Supplier Configuration]()
+![Supplier Configuration](./image_growth_m2/image032.png?raw=true)
  
 **Allow using and importing supplier pricelist**: choose **Yes** if you need to update your supplier pricelist every day.
 
@@ -330,7 +330,7 @@ To configure default configurations and settings of the module, please log in to
 
 **a. Step 1**: In **General** tab
 
-![Gift Card]()
+![Gift Card](./image_growth_m2/image033.png?raw=true)
  
 1.	**Enable Gift Card**: Select **YES** in the dropdown list to enable Gift Card
 
@@ -339,7 +339,7 @@ To configure default configurations and settings of the module, please log in to
 3.	**The number of prefixes shown**: Enter the number of **prefix characters** which are shown in a voucher code
 4.	**Replace hidden characters by**: Enter one **letter to replace hidden characters**
 
-![Gift Card]()
+![Gift Card](./image_growth_m2/image034.png?raw=true)
  
 - **Gift Card Usage**
 1.	**Gift Card codes expire after**: Enter the term of validity that Gift Cards can be used after being activated.
@@ -352,7 +352,7 @@ To configure default configurations and settings of the module, please log in to
 
 - **Tax Configuration**
 
-![Tax Configuration]()
+![Tax Configuration](./image_growth_m2/image035.png?raw=true)
 
 **Apply Gift Card discount**: 
 - **After Tax**: to allow applying Gift Card after the tax is applied
@@ -360,13 +360,13 @@ To configure default configurations and settings of the module, please log in to
 
 **b. Step 2**: **On Product Page** tab
 
-![On Product Page tab]()
+![On Product Page tab](./image_growth_m2/image036.png?raw=true)
 
 - **Gift Card Value**
 1.	**Default Gift Card value**: Enter the default gift card value *(follow the below instruction)*
 2.	 **Description of Gift Card value**: Enter the description of gift card value *(follow the below instruction)*
 
-![On Product Page tab]()
+![On Product Page tab](./image_growth_m2/image037.png?raw=true)
  
 - **Gift Card Template**
 1.	Select **YES** to allow customers to change the image inserted in the template
@@ -380,7 +380,7 @@ To configure default configurations and settings of the module, please log in to
 
 **c. Step 3**: On **Shopping Cart Page** tab
 
-![On Shopping Cart Page tab]()
+![On Shopping Cart Page tab](./image_growth_m2/image038.png?raw=true)
 
 1.	**Show Gift Card box on Shopping Cart page**: Select **YES** to Enable a Gift Card box for customers to apply gift codes right on the shopping cart page.
 2.	**Information displayed on Shopping Cart page**: Select the data to display on shopping cart page
@@ -388,13 +388,13 @@ To configure default configurations and settings of the module, please log in to
 
 **d. Step 4: On Checkout Page** tab
 
-![On checkout Page tab]()
+![On checkout Page tab](./image_growth_m2/image039.png?raw=true)
 
 Show **Gift Card** box on **Checkout Page**: Select **YES** to show Gift Card box on the checkout page
 
 **e. Step 5: In Email Notification** tab
 
-![In Email Notification tab]()
+![In Email Notification tab](./image_growth_m2/image040.png?raw=true)
 
 - **General**
 1.	**Enable email notification**: Select **YES** to allow sending notification emails to customers and recipients
@@ -402,7 +402,7 @@ Show **Gift Card** box on **Checkout Page**: Select **YES** to show Gift Card bo
 3.	**Sender of email notification**: Set the default sender of notification emails as General Contact 
 4.	**Send Gift Card copy via email**: Select **YES** to allow sending a copy of gift card via email if customers choose to ship through post office.
 
-![In Email Notification tab]()
+![In Email Notification tab](./image_growth_m2/image041.png?raw=true)
  
 - **Notification email sent to purchasers**
 1.	Select the email template sent to purchasers after buying Gift Card successfully. 
@@ -417,7 +417,7 @@ Show **Gift Card** box on **Checkout Page**: Select **YES** to show Gift Card bo
 
 **f. Step 6: In Gift Cart Printout** tab
 
-![In Gift Cart Printout tab]()
+![In Gift Cart Printout tab](./image_growth_m2/image042.png?raw=true)
 
 **Logo on PDF Printouts**: Click on **Choose File** to upload an image used as a logo when Gift Cards are printed or sent via email. 
 
@@ -427,7 +427,7 @@ Path: **Reward Points > Settings**
 **a. Step 1**: Configure the following session: 
 - **General Configuration** tab
 
-![General Configuration tab]()
+![General Configuration tab](./image_growth_m2/image043.png?raw=true)
  
 1.	**Enable Reward Points Extension**: Select **Yes** to enable Reward Points module. 
 2.	**Label for Point**: Give Point another name to fit with your store ( gold, star, p, pt,…)
@@ -438,7 +438,7 @@ Path: **Reward Points > Settings**
 
 - **Earning Points Configuration** tab
 
-![Earning Points Configuration tab]()
+![Earning Points Configuration tab](./image_growth_m2/image044.png?raw=true)
 
 1.	**Rounding Method**: Set the method of rounding points balance: Normal/ Rounding up/Rounding down
 2.	**Points expire after**: Enter the number of days points will expire. 
@@ -454,7 +454,7 @@ Path: **Reward Points > Settings**
 
 - **Spending Points Configuration** tab
 
-![Spending Points Configuration tab]()
+![Spending Points Configuration tab](./image_growth_m2/image045.png?raw=true)
  
 1.	**Minimum redeemable points**: Enter the minimum number of points in customer’s balance allowed to redeem
 2.	**Maximum spending points per order**: Enter the maximum number of customers can redeem in an order
@@ -463,7 +463,7 @@ Path: **Reward Points > Settings**
 
 - **Display Configuration** tab
 
-![Display Configuration tab]()
+![Display Configuration tab](./image_growth_m2/image046.png?raw=true)
  
 1.	**Show total point balance next to My Account link**: Select **Yes** to display the point balance of customers next to My Account link.  
 
@@ -473,7 +473,7 @@ Path: **Reward Points > Settings**
 
 - **Email Configuration** tab
 
-![Email Configuration tab]()
+![Email Configuration tab](./image_growth_m2/image047.png?raw=true)
 
 1.	**Enable notification email**: Select **Yes** to enable the system to send notification email automatically to customers. 
 2.	**Sender**: Select one of the following options as a sender: **General Contact/ Sales Representative/Customer Support/Custom Email 1/Custom Email 2**
@@ -483,7 +483,7 @@ Path: **Reward Points > Settings**
 
 **b. Step 2**: 
 
-![Reward Points]()
+![Reward Points](./image_growth_m2/image048.png?raw=true)
  
 Remember to click on **Save Config** button to complete your configuration process.
 
@@ -495,7 +495,7 @@ Path: **Store Credit > Settings > Magestore Extension** tab **> Store Credit**
 - **General Configuration** Tab:
 Path: **Magento Extension > Store Credit**
 
-![General Configuration]()
+![General Configuration](./image_growth_m2/image049.png?raw=true)
 
 •	**Enable Store Credit**: to activate Store Credit on your site
 
@@ -505,14 +505,14 @@ Path: **Magento Extension > Store Credit**
 	
 - **Spend Credit On** Tab
 
-![Spend Credit On tab]()
+![Spend Credit On tab](./image_growth_m2/image050.png?raw=true)
 
 1.	**Apply Customer Credit**: If you choose **After tax**, it means the Customer Credit Discount will be applied to order value including tax
 2.	**Shipping fee**: If you choose **No**, credit balance cannot be used to pay for Shipping Fee
 
 - **Email Configuration** Tab
  
- ![Email Configuration tab]()
+ ![Email Configuration tab](./image_growth_m2/image051.png?raw=true)
 
 1.	**Email template with credit code sent to recipients**: default
 2.	**Email template with verification code sent to credit sender**: default
