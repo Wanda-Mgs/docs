@@ -3445,7 +3445,7 @@ There are **2 types** of low stock rule:
 
 ![Availability Qty](./image_growth_m2/image419.png?raw=true)
 
-***Type 2: Availability Days* ***
+***Type 2: Availability Days*.***
 
 ***Availability Days*:*** *you can select Day Threshold that system can notify you to import items. You do not need to enter the Qty. here because the system will automatically calculate the selling rate based on the sale period you provided and the real Qty. in your warehouse and (store).*
 
@@ -4188,11 +4188,11 @@ In **New Gift Code Pattern** page, you can:
 10.	**Shopping Cart Conditions**: Allow using the gift code only if the following shopping cart conditions are met or leave blank for all shopping carts
 11.	Click on **Save and Generate** to save and generate the gift code at the same time or **Save** to finish
 
-![Generate Gift Codes Pattern]()
+![Generate Gift Codes Pattern](./image_growth_m2/image508.png?raw=true)
  
 Then, a status as “The pattern has been generated successfully” will be shown as above.
 
-![Generate Gift Codes Pattern]()
+![Generate Gift Codes Pattern](./image_growth_m2/image509.png?raw=true)
 
 And a list of generated Gift Codes will be added to the bottom of the page 
 
@@ -4202,7 +4202,7 @@ And a list of generated Gift Codes will be added to the bottom of the page
 
 Path: **Marketing > Gift Card** section **> Manage Gift Code**
 
-![Create New Gift Codes]()
+![Create New Gift Codes](./image_growth_m2/image510.png?raw=true)
  
 There are two ways to create new gift codes:
 1.	**Import Gift Codes** (import data from your device to the system)
@@ -4210,7 +4210,7 @@ There are two ways to create new gift codes:
 
 - **Import Gift Codes:**
 
-![Import Gift Codes]()
+![Import Gift Codes](./image_growth_m2/image511.png?raw=true)
  
 1.	**Import File**: Click on **Choose File** to upload your file of gift code
 2.	**Download Sample of CSV gift code file**
@@ -4218,9 +4218,9 @@ There are two ways to create new gift codes:
 
 - **Add New Gift Code**
 
-![Add New Gift Code]()
+![Add New Gift Code](./image_growth_m2/image512.png?raw=true)
  
-![Add New Gift Code]()
+![Add New Gift Code](./image_growth_m2/image513.png?raw=true)
 
  
 In **New Gift Code** page, you can:
@@ -4234,35 +4234,35 @@ In **New Gift Code** page, you can:
 8.	**Store View**: Select store views
 9.	**Last Comment**: Write a comment 
 
-![Add New Gift Code]()
+![Add New Gift Code](./image_growth_m2/image514.png?raw=true)
  
 Then scroll down to the bottom of the page, there are 3 more tabs as above.
 
 - In **Shopping Cart Conditions**
 
-![Shopping Cart Conditions]()
+![Shopping Cart Conditions](./image_growth_m2/image515.png?raw=true)
  
-![Shopping Cart Conditions]()
+![Shopping Cart Conditions](./image_growth_m2/image516.png?raw=true)
 
 1.	Write description about conditions applied to shopping cart when using gift code
 2.	Choose to allow using the gift code **only if the shopping cart conditions are met or leave it blank for all shopping carts**
 
 - In **Cart Item Conditions**
 
-![Cart Item Conditions]()
+![Cart Item Conditions](./image_growth_m2/image517.png?raw=true)
 
 In this tab, you can choose to allow using the gift code **only if products in cart meet the conditions or leave it blank for all products.**
 
 - In **Message Information** tab:
 
-![Message Information]()
+![Message Information](./image_growth_m2/image518.png?raw=true)
  
 1.	**Customer**: Enter the sender name and email
 2.	**Recipient**: Enter the recipient name and email
 3.	**Shipping Address**: Enter the recipient Address
 4.	**Message**: Enter the message to the recipient
 
-![Message Information]()
+![Message Information](./image_growth_m2/image519.png?raw=true)
 
 Finally, scroll up, tab the arrow on the right hand-side of **Save** button: 
 
@@ -4273,7 +4273,7 @@ Finally, scroll up, tab the arrow on the right hand-side of **Save** button:
 
 Path: **Marketing > Gift Card** section **> Manage Gift Code**
 
-![Manage Gift Code]()
+![Manage Gift Code](./image_growth_m2/image520.png?raw=true)
  
 In this page view, you can:
 1.	Mark the Gift code checkbox
@@ -4286,12 +4286,12 @@ In this page view, you can:
 
 Path: **Marketing > Gift Card** section **> Manage Gift Card Products**
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image521.png?raw=true)
  
 To create new gift card product, click on **Add Gift Card Product** button. In the **New Product** page, enter Gift Card product information as below:
 
-![Create New Gift Card Product]()
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image522.png?raw=true)
+![Create New Gift Card Product](./image_growth_m2/image523.png?raw=true)
  
 1.	**Enable Products**: Choose **YES** to enable gift card product on website
 2.	**Attribute Set**: Select Attribute Set
@@ -4310,37 +4310,37 @@ To create new gift card product, click on **Add Gift Card Product** button. In t
 
 Then scroll down and fill in formation in the following tabs: 
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image524.png?raw=true)
  
 1.	**Content**: write description and short description for gift card product
 2.	**Images and Videos**: Upload images and videos of gift card product
 3.	**Search Engine Optimization**: Add attributes to boost SEO such as: UKR Key, Meta Title, Meta Keywords and Meta Description
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image525.png?raw=true)
  
 4.	**Products/ Up-sell Products/ Cross-sell Products**: Add Related/ Up-sell/ Cross-sell products
 5.	**Customizable Options**:  Create Customize Options by clicking on Add Option or Import Option
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image526.png?raw=true)
  
 6.	**Product in Websites**: Tick on the checkbox to set the scope to be applied to the main website (in case your site has multiple views)
 7.	**Design**: Edit Design setting
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image527.png?raw=true)
  
 8.	**Schedule Design Update**: Set a Schedule to update design
 9.	**Gift Options**: Select Gift Options: choose **Use Config Settings** to disable **Allow Gift Message** 
 10.	**Suppliers**: Add Supplier
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image528.png?raw=true)
  
 11. **Gift Price Setting**: In this attribute, you must select one of three types of gift card value which are **Fixed value, Range of Value** and **Dropdown Values**. Then choose a type of gift card price among **Same as Gift Card Value, Fixed Price** and **Percent of Gift Card Value** (You can set the percentage)
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image529.png?raw=true)
  
 12.	Setting conditions applied to shopping cart when using gift code
 
-![Create New Gift Card Product]()
+![Create New Gift Card Product](./image_growth_m2/image530.png?raw=true)
   
 13.	Setting conditions applied to items when using gift code
 14.	Manage barcode list of gift card product. You can Export or Print Barcode
@@ -4351,7 +4351,7 @@ Then scroll down and fill in formation in the following tabs:
 
 Path: **Marketing > Gift Card** section **> Manage Gift Card Products**
 
-![Manage Gift Card Products]()
+![Manage Gift Card Products](./image_growth_m2/image531.png?raw=true)
  
 In the **Gift Cart Product Manager** view, you can
 1.	Tick on the Gift Card Product checkbox
@@ -4362,11 +4362,11 @@ In the **Gift Cart Product Manager** view, you can
 
 Path: **Customers > All Customers**
 
-![Manage Gift Card History]()
+![Manage Gift Card History](./image_growth_m2/image532.png?raw=true)
  
 1.	Click **Edit** to view an existing customer’s detailed information 
 
-![Manage Gift Card History]()
+![Manage Gift Card History](./image_growth_m2/image533.png?raw=true)
 
 2.	Click on **Gift Card History** tab to view all transactions in which gift cards were applied
 
@@ -4376,14 +4376,14 @@ Path: **Sale > Operations** section **>  Orders > Create New Order**
 
 After you select products, the system will show the Gift Card box, which allowing you to use Gift Card credit balance or Gift Card code(s) of the Customer to pay for this order. 
  
- ![Manage Gift Card History]()
+ ![Manage Gift Card History](./image_growth_m2/image534.png?raw=true)
 
  
 1.	Mark the check box to use gift card to checkout
 2.	Enter New Gift card code
 3.	Click on the arrow to apply the gift code
 
-![Manage Gift Card History]()
+![Manage Gift Card History](./image_growth_m2/image535.png?raw=true)
  
 Scroll down to view “Order Totals” label, then click on **Submit Order** to finish.
 
@@ -4391,15 +4391,15 @@ Scroll down to view “Order Totals” label, then click on **Submit Order** to 
 
 Path: **Sales > Operations** Section **> Orders**
 
-![Refund Orders into Gift Card Code]()
+![Refund Orders into Gift Card Code](./image_growth_m2/image536.png?raw=true)
  
 In the **Orders** page view, click on **View** a order marked as “Complete”. 
 
-![Refund Orders into Gift Card Code]()
+![Refund Orders into Gift Card Code](./image_growth_m2/image537.png?raw=true)
  
 To Create a New Memo, follow path: **(1) > (2)** (as picture above)
 
-![Refund Orders into Gift Card Code]()
+![Refund Orders into Gift Card Code](./image_growth_m2/image538.png?raw=true)
  
 1.	Enter the number of money to refund to gift credit 
 2.	Click on **Refund Offline** to finish.
@@ -4412,7 +4412,7 @@ Gift Card can be ordered as a normal product. Customers can enter or choose the 
 
 The price of Gift Card product may differ from Gift Card value. It depends on **Admin’s configuration in backend**, which could be a fixed value or a percentage of Gift Card value. If the price type is “percentage”, Customers will see the corresponding Gift Card prices when they choose different Gift Card values
  
- ![How Customers Purchase a Gift Card Product]()
+ ![How Customers Purchase a Gift Card Product](./image_growth_m2/image539.png?raw=true)
 
 1.	Select Gift Card Product Value 
 2.	Select a provided Gift Card template OR
@@ -4426,7 +4426,7 @@ The price of Gift Card product may differ from Gift Card value. It depends on **
 - For Gift Card products that have usage conditions, the conditions will NOT be displayed below the product name. However, the admin can write the conditions in the description if it is necessary for customers to see. If anyone want to redeem the gift cards (enter the gift code to purchase one or many products) but does not meet the condition(s), then the system will show an “Invalid” notice.
 - **Send Gift Card to friend**: tick on the checkbox and fill in the information 
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image540.png?raw=true)
 
 1.	Enter the name of the sender 
 2.	Enter the name of the recipient 
@@ -4439,9 +4439,9 @@ Tick the **Get notification email when your friend receives Gift Card** checkbox
 
 A popup of Gift Card interface will be shown as below:
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image541.png?raw=true)
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image542.png?raw=true)
 
 After Customers add a Gift Card to cart, they can go to shopping cart page to review the cart by the following steps: 
 
@@ -4449,19 +4449,19 @@ After Customers add a Gift Card to cart, they can go to shopping cart page to re
 2.	Edit and update quantity of the Gift card if customers want. Click on **Update** to save the edit. 
 3.	Or Choose **View and edit cart** to edit Shopping cart information
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image543.png?raw=true)
  
 The details of Gift Card when Customers send the Gift Card to their friend as above. 
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image544.png?raw=true)
  
 The details of Gift Card when Customers buy the Gift Card for themselves:
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image545.png?raw=true)
  
 Then Gift Cards products can be checked out as normal products. Customers will receive a Gift Card code if they buy for themselves. In case Customers purchase the Gift Card to send to their friends, the code will be delivered to their friends’ email with the above form.
 
-![How Customers Purchase a Gift Card Product]()
+![How Customers Purchase a Gift Card Product](./image_growth_m2/image546.png?raw=true)
  
 If the Sender has ticked the checkbox **Get notification email when your friend receives Gift Card**, a notification will be sent to his email address immediately after the Gift Card is delivered to the friend’s email as above.
 
@@ -4469,7 +4469,7 @@ If the Sender has ticked the checkbox **Get notification email when your friend 
 
 When Customers have a gift card code, they can use it as a discount coupon code when ordering a product at the **Checkout** page.
 
-![How Customers Use Gift Card as a Discount Method]()
+![How Customers Use Gift Card as a Discount Method](./image_growth_m2/image547.png?raw=true)
  
 1.	Tick on the checkbox to allow using gift card to check out
 2.	Enter gift code
@@ -4486,13 +4486,13 @@ Path: **Reward Points > Earning** section **> Earning Rates**
 
 - **Step 1**: In **Earning Rates** Page
 
-![Add a New Earning Rate]()
+![Add a New Earning Rate](./image_growth_m2/image548.png?raw=true)
  
  Click on **Add New Earning Rate** button
 
 - **Step 2**: Fill all the data needed below: 
 
-![Add a New Earning Rate]()
+![Add a New Earning Rate](./image_growth_m2/image549.png?raw=true)
  
 1.	**Earning Points**: Enter number of earning points 
 2.	**Discount received**: Enter the value of points corresponding to the above-earning points. 
@@ -4503,13 +4503,13 @@ Path: **Reward Points > Earning** section **> Earning Rates**
 
 - **Step 3**:
 
-![Add a New Earning Rate]()
+![Add a New Earning Rate](./image_growth_m2/image550.png?raw=true)
  
 Click on **Save Earning Rate** or **Save and Continue Edit** after finishing filling in all the boxes
 
 The new earning rate will be shown in the below image.
 
-![Add a New Earning Rate]()
+![Add a New Earning Rate](./image_growth_m2/image551.png?raw=true)
 
 **b. Edit an Existing Rate**
 
@@ -4517,7 +4517,7 @@ Path: **Reward Point > Earning** section **> Earning Rates**
 
 - **Step 1**: 
 
-![Edit an Existing Rate]()
+![Edit an Existing Rate](./image_growth_m2/image552.png?raw=true)
 
 Click on **Edit** in the **Action** column of the rate you want to edit. 
 
@@ -4525,7 +4525,7 @@ Then you will be redirected to the **Editing Earning Rate** page.
 
 - **Step 2**:  Edit the rate as you want
 
-![Edit an Existing Rate]()
+![Edit an Existing Rate](./image_growth_m2/image553.png?raw=true)
 
 - **Step 3**: Click on **Save Spending Rate** or **Save and Continue Edit** button to complete your edit. 
 
@@ -4539,11 +4539,11 @@ Path: **Reward Points > Spending** section **> Spending Rates**
 
 - **Step 1**: Click on **Add New Spending Rate**
 
-![Add a New Spending Rate]()
+![Add a New Spending Rate](./image_growth_m2/image554.png?raw=true)
  
 - **Step 2**:
 
-![Add a New Spending Rate]()
+![Add a New Spending Rate](./image_growth_m2/image555.png?raw=true)
  
 Fill all the data needed below:
 
@@ -4558,11 +4558,11 @@ Fill all the data needed below:
 
 - **Step 3**: Click on **Save spending rate** or **Save and Continue Edit** after finishing filling in all the boxes
 
-![Add a New Spending Rate]()
+![Add a New Spending Rate](./image_growth_m2/image556.png?raw=true)
  
 The new spending rate will be shown in the below image.
 
-![Add a New Spending Rate]()
+![Add a New Spending Rate](./image_growth_m2/image557.png?raw=true)
 
 **b. Edit an Existing Rate**
 
@@ -4570,7 +4570,7 @@ Path: **Reward Point > Spending** section **> Spending Rates**
 
 - **Step 1**: 
 
-![Edit an Existing Rate]()
+![Edit an Existing Rate](./image_growth_m2/image558.png?raw=true)
 
 Click on **Edit** in the **Action** column of the rate you want to edit. 
 
@@ -4578,7 +4578,7 @@ Then you will be redirected to the **Editing Spending Rate** page.
 
 - **Step 2**:  Edit the rate as you want
 
-![Edit an Existing Rate]()
+![Edit an Existing Rate](./image_growth_m2/image559.png?raw=true)
 
 - **Step 3**: Click on **Save Spending Rate** or **Save and Continue Edit** button to complete your edit. 
 
@@ -4594,18 +4594,18 @@ On the Transaction Manager page, you can see a list of all point transactions an
 
 - Filter and search for the information you want 
 
-![View transaction]()
+![View transaction](./image_growth_m2/image560.png?raw=true)
 
 - Export to CSV/XML/Excel files
 - Edit the status of each transaction:
 
 To change the status of each transaction: 
 
-![View transaction]()
+![View transaction](./image_growth_m2/image561.png?raw=true)
  
 1.	Tick the checkboxes of the transactions you want to edit
 
-![View transaction]()
+![View transaction](./image_growth_m2/image562.png?raw=true)
  
 2.	Select **Cancel/Complete/Expired** in the **Action> Change status** dropdown list 
 
@@ -4613,13 +4613,13 @@ To change the status of each transaction:
 
 - **Step 1**: 
 
-![Add new transaction]()
+![Add new transaction](./image_growth_m2/image563.png?raw=true)
 
 Click on **Add New Transaction** button to add new transaction
 
 - **Step 2**: 
 
-![Add new transaction]()
+![Add new transaction](./image_growth_m2/image564.png?raw=true)
  
 Fill in the required information 
 1.	**Customer**: Enter the name of customer having points transactions
@@ -4637,14 +4637,14 @@ Path: **Customers > All customers**
 
 - **Step 1**: 
 
-![View point balances]()
+![View point balances](./image_growth_m2/image565.png?raw=true)
  
 Click on **Edit** on the **Action** column of the customer you want to manage
 
 - **Step 2**: Click on **Reward Points** tab to manage the customer’s balance
 - **Step 3**: 
 
-![View point balances]()
+![View point balances](./image_growth_m2/image566.png?raw=true)
  
 1.	**Available Points balance**: The number of points balances a customer is having
 2.	**On Hold Points Balance**: The number of points balance that is on hold 
@@ -4657,11 +4657,11 @@ Click on **Edit** on the **Action** column of the customer you want to manage
 
 - **Step 4**: 
 
-![View point balances]()
+![View point balances](./image_growth_m2/image567.png?raw=true)
  
 Click on **Save customer** button to save the changes
 
-![View point balances]()
+![View point balances](./image_growth_m2/image568.png?raw=true)
  
 All transactions of a customer are also listed in **Reward Points** tab **–Transaction History** session. 
 
@@ -4674,19 +4674,19 @@ There are two methods to change the point balance of a customer.
 - Method 1:  Enter the **Change Balance** in the **Reward Points** session as mentioned above.
 - Method 2 can be done to many customers at the same time, is illustrated below:
 
-![Change point balances]()
+![Change point balances](./image_growth_m2/image569.png?raw=true)
  
 A list of customers will be shown with point balance column
 
 - **Step 1**:
 
-![Change point balances]()
+![Change point balances](./image_growth_m2/image570.png?raw=true)
  
 Click on **Import Points** to import from computer
 
 - **Step 2**: In the **Import Points** session:
 
-![Change point balances]()
+![Change point balances](./image_growth_m2/image571.png?raw=true)
  
 1.	Click on **Choose File** to upload file
 2.	Click on **Import** to import it
@@ -4697,34 +4697,34 @@ Path: **Sales > Orders**
 
 - **Step 1**: 
 
-![Use points when creating orders]()
+![Use points when creating orders](./image_growth_m2/image572.png?raw=true)
  
 Click on **Create New Order** button
 
 - **Step 2**: Select a customer from the list or click on **Create New Customer** button.
  
- ![Use points when creating orders]()
+ ![Use points when creating orders](./image_growth_m2/image573.png?raw=true)
 
 - **Step 3**:  Click on **Add products** button to add products to the order
 
-![Use points when creating orders]()
+![Use points when creating orders](./image_growth_m2/image574.png?raw=true)
  
 - **Step 4**: The **Select products** page will appear as below. To select products: 
 
-![Use points when creating orders]()
+![Use points when creating orders](./image_growth_m2/image575.png?raw=true)
  
 (1) Click on the product and enter the quantity
 (2) Click on **Add Selected Product(s) to Order**
 
 - **Step 5**:
 
-![Use points when creating orders]()
+![Use points when creating orders](./image_growth_m2/image576.png?raw=true)
  
 In the **Use Customer Reward Points** tab, set the number of points customer will spend in the order.
 
 - **Step 6**: 
 
-![Use points when creating orders]()
+![Use points when creating orders](./image_growth_m2/image577.png?raw=true)
  
 Fill in the required fields, click on **Submit** button to finish creating a new order.
 
@@ -4736,15 +4736,15 @@ Path: **Sales > Orders**
 
 - **Step 1**: Click on **View** to see the details of an order 
 
-![Refund Orders into points balance]()
+![Refund Orders into points balance](./image_growth_m2/image578.png?raw=true)
 
 - **Step 2**: On the top bar, click on **Credit Memo** label to create a refund order
 
-![Refund Orders into points balance]()
+![Refund Orders into points balance](./image_growth_m2/image579.png?raw=true)
 
 - **Step 3**: On the pop-up screen named **New Memo**, scroll down, then: 
 
-![Refund Orders into points balance]()
+![Refund Orders into points balance](./image_growth_m2/image580.png?raw=true)
  
 1.	Select a warehouse to return stocks.
 2.	Adjust the number of products customers want to return
@@ -4754,40 +4754,40 @@ Path: **Sales > Orders**
 
 After the credit memo has been created, click on **Credit Memo** tab on the left-hand-side as below to view credit memos information.
 
-![Refund Orders into points balance]()
+![Refund Orders into points balance](./image_growth_m2/image581.png?raw=true)
 
 #### How Customer uses Reward Points
 ##### How Customers earn points
 
 When placing an order, customers can earn points based on the rate set by an admin. Please refer to **Manage Earning Rate** to config earning rate settings.
 
-![How Customers earn points]()
+![How Customers earn points](./image_growth_m2/image582.png?raw=true)
 
 Customers are aware of your reward point policy thanks to messages on many pages. For example, on **Product Detail** pages, there will be a notification for customers that says “You will earn X Points for purchasing this product”. Example is as above:
 
-![How Customers earn points]()
+![How Customers earn points](./image_growth_m2/image583.png?raw=true)
 
 Also, after clicking on the **Add to Cart** button, on **Mini Cart**, customers will see another notification **Check out now to earn points** as above. 
 
-![How Customers earn points]()
+![How Customers earn points](./image_growth_m2/image584.png?raw=true)
  
 If customers have not logged in yet, a notification message **Login and checkout to earn points** will be shown on the mini cart.
 
-![How Customers earn points]()
+![How Customers earn points](./image_growth_m2/image585.png?raw=true)
  
 ¬On the **Checkout** page, customers can see exactly the number of points they earned from buying that product in the **Grand Total** box as above.
 
-![How Customers earn points]()
+![How Customers earn points](./image_growth_m2/image586.png?raw=true)
  
 If Customers have not logged in yet, a notification message **Login and checkout to earn points** will be shown on **Grand Total** box of checkout page as above. 
 
-![How Customers earn points]()
+![How Customers earn points](./image_growth_m2/image587.png?raw=true)
  
 After placing an order successfully, Customers can check their point balance right next to the **My Account** top link or can go directly to that link. 
 
 ##### How Customers spend points 
 
-![How Customers spend points ]()
+![How Customers spend points ](./image_growth_m2/image588.png?raw=true)
  
 On **Shopping Cart** and **Checkout** pages, to spend points, there are 3 ways for customers to modify points they want to spend:
 
@@ -4795,7 +4795,7 @@ On **Shopping Cart** and **Checkout** pages, to spend points, there are 3 ways f
 2.	Enter this number in the empty box 
 3.	Tick the checkbox **Maximize my discount with points** to spend the maximum number of points.
 
-![How Customers spend points ]()
+![How Customers spend points ](./image_growth_m2/image589.png?raw=true)
  
 On the **Checkout** page, System shows a similar form for Customers to edit the number of points they want to spend on their orders.
 
@@ -4805,11 +4805,11 @@ Customers can follow and manage their current points in 2 places:
 
 * View their current points on the top link as below
 
-![How Customers manage reward points]()
+![How Customers manage reward points](./image_growth_m2/image590.png?raw=true)
 
 - Go to **My Account > My Rewards** to view more information. 
 
-![How Customers manage reward points]()
+![How Customers manage reward points](./image_growth_m2/image591.png?raw=true)
  
 As you can see, this page can be divided into two parts: **Reward Information** and **Recent Transactions**
 
@@ -4818,7 +4818,7 @@ As you can see, this page can be divided into two parts: **Reward Information** 
 
 If Customers want to see all transactions, they can click on the **View All** links or the **Recent Transactions** tab.
 
-![How Customers manage reward points]()
+![How Customers manage reward points](./image_growth_m2/image592.png?raw=true)
  
 Besides, in the **Settings** tab of the **Reward Points** navigation, Customers can set up their **Reward Points Subscriptions**.
 
@@ -4830,17 +4830,17 @@ Path: **Store Credit > Manage Customers Using Credit**
 
 The **Customers Using Credit Manager** page will be displayed as below. 
 
-![Manage Customers Using Credit]()
+![Manage Customers Using Credit](./image_growth_m2/image593.png?raw=true)
  
 This page shows a list of all customers using credit and their information such as name, email, credit balance, telephone, etc.
 
 To view more details about a customer, click on the **Edit** link in the **Action** column. 
 
-![Manage Customers Using Credit]()
+![Manage Customers Using Credit](./image_growth_m2/image594.png?raw=true)
  
 Then, you will be navigated to the **Customer Information** page. By selecting **Store Credit** tab, you can view all customer’s transaction history and credit balance as above.
 
-![Manage Customers Using Credit]()
+![Manage Customers Using Credit](./image_growth_m2/image595.png?raw=true)
  
 To edit customers’ credit information: 
 1.	Entering an integer (a positive or negative number) 
@@ -4848,8 +4848,8 @@ To edit customers’ credit information:
 
 The module will automatically send email to the customer to announce this transaction if you tick on **Send email to customer** checkbox. The email will be sent to the customer as below. 
 
-![Manage Customers Using Credit]()
-![Manage Customers Using Credit]()
+![Manage Customers Using Credit](./image_growth_m2/image596.png?raw=true)
+![Manage Customers Using Credit](./image_growth_m2/image597.png?raw=true)
 
 After you save, our module will auto update the customer’s credit balance, send an email to that customer and create a transaction as above.
 
@@ -4859,7 +4859,7 @@ Path:  **Store Credit > Manage Credit Products**
 
 The **Credit Product Manager** page will be shown as below. 
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image598.png?raw=true)
  
 This page shows you all credit products with a lot of information such as **product ID, name, SKU, quantity, status,** etc.
 
@@ -4867,13 +4867,13 @@ To add a new credit product:
 
 **a. Step 1**: Click on the **Add Credit Product** button on the right top of the page.
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image599.png?raw=true)
  
 **b. Step 2**: You can add a credit product just in a similar way to adding a normal product. 
 
 - **Product Details**: 
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image600.png?raw=true)
  
 1.	**Enable Product**:  Activate Store Credit by select **Yes**
 2.	**Attribute Set**: Select a set for the new credit product
@@ -4890,13 +4890,13 @@ To add a new credit product:
 
 Type of Store Credit value: To configure the value of credit product, choose **Fixed Value/ Range of values/ Dropdown values**
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image601.png?raw=true)
  
 - **Advanced Inventory**
 
 Path: **New Product > Quantity > Advanced Inventory**
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image602.png?raw=true)
  
 1.	**Manage Stock**: our module sets up the field as **Yes**. It means that you need to manage the Qty. of Credit Products. You can edit it by uncheck box **Use Config Settings.**
 
@@ -4906,7 +4906,7 @@ Path: **New Product > Quantity > Advanced Inventory**
 4.	**Minimum Qty. Allowed in Shopping Cart**: our modules set up the field as 1. It means a customer must have at least 1 product in a single order to purchase Store Credit Product. You can edit it by leaving the box **Use Config Settings** unchecked.
 5.	**Maximum Qty. Allowed in Shopping Cart**: *as mentioned in No.4*
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image603.png?raw=true)
  
 6.	**Qty. Uses Decimals**: select **No** if the Qty. is not a decimal value
 7.	**Allow Multiple Boxes for Shipping**: select **NO** if the Qty. purchased CAN NOT be shipping in separate boxed
@@ -4921,63 +4921,63 @@ Path: **New Product > Quantity > Advanced Inventory**
 
 Then, click **Save** to continue
 
-![Manage Credit Products]()
+![Manage Credit Products](./image_growth_m2/image604.png?raw=true)
  
-Scroll down and complete the information, click on ![Manage Credit Products](), and fill in the following sections as needed:
+Scroll down and complete the information, click on ![Manage Credit Products](./image_growth_m2/image605.png?raw=true), and fill in the following sections as needed:
 
 - **Content tab**: 
 
-![Content tab]()
+![Content tab](./image_growth_m2/image606.png?raw=true)
  
 These fields are not required but needed to be filled in. Describe your product clearly to help your customers understand your store credit rules. 
 
 - **Attributes tab**
 
-![attributes tab]()
+![attributes tab](./image_growth_m2/image607.png?raw=true)
  
 Enter an alternative name for product
 
 - **Images and Video** tab: 
 
-![images and video tab]()
+![images and video tab](./image_growth_m2/image608.png?raw=true)
  
-Scroll down to **Images and Videos**, and click on ![icon](), then click on **Browse to find or drag image here** to upload new image
+Scroll down to **Images and Videos**, and click on ![icon](./image_growth_m2/image609.png?raw=true), then click on **Browse to find or drag image here** to upload new image
 
-![images and video tab]()
+![images and video tab](./image_growth_m2/image610.png?raw=true)
  
 Click on **Add Video** to add new video
 
-![images and video tab]()
+![images and video tab](./image_growth_m2/image611.png?raw=true)
  
 Fill in the box and click on **Choose File** to upload new video
 
 - **Search Engine Optimization tab**
 
-![Search Engine Optimization tab]()
+![Search Engine Optimization tab](./image_growth_m2/image612.png?raw=true)
  
 Fill in the required field: **URL Key, Meta Title, Meta keywords, Meta Description** to improve your SEO work.
 
 - **Related Products, Up-Sells, and Cross-Sells tab**
 
-![Related Products, Up-Sells, and Cross-Sells tab]())
+![Related Products, Up-Sells, and Cross-Sells tab](./image_growth_m2/image613.png?raw=true)
  
 1. Click on respectively
 - **Add Related Products**
 - **Add Up-sell Products**
 - **Add Cross-sell Products**
  
- ![Related Products, Up-Sells, and Cross-Sells tab]())
+ ![Related Products, Up-Sells, and Cross-Sells tab](./image_growth_m2/image614.png?raw=true)
 
 2. Mark the checkbox to select products
 3. Click on **Add Selected Product**
 
- ![Related Products, Up-Sells, and Cross-Sells tab]())
+ ![Related Products, Up-Sells, and Cross-Sells tab](./image_growth_m2/image615.png?raw=true)
  
 4.	Click on **Save** to finish
 
 - **Customizable Options tab**
 
- ![Customizable Options tab]())
+ ![Customizable Options tab](./image_growth_m2/image616.png?raw=true)
 
 This function allows users to set and manage extra price for each product's variant separately.
 
@@ -4992,17 +4992,17 @@ Users can simply set the extra price to be applied on a product's variant, regar
 8.	Select a **price type**
 9.	Enter an **SKU** for each product’s variant
 
-To remove a value, click ![icom]() on the right-hand-side of the column 
+To remove a value, click ![icom](./image_growth_m2/image617.png?raw=true) on the right-hand-side of the column 
 
 - **Products in Websites tab**
 
-![Products in Websites tab]()
+![Products in Websites tab](./image_growth_m2/image618.png?raw=true)
  
 Check the box to set credit products on main websites
 
 - **Design tab**
 
-![Design tab]()
+![Design tab](./image_growth_m2/image619.png?raw=true)
  
 1.	**Layout**: Select a suitable layout to display your credit product
 2.	**Display Product Options in**: Select the place of product options: **In Block after Info Column** or **In Product Info Column**
@@ -5010,7 +5010,7 @@ Check the box to set credit products on main websites
 
 - **Schedule Design Update tab**
 
-![Schedule Design Update tab]()
+![Schedule Design Update tab](./image_growth_m2/image620.png?raw=true)
  
 1.	**Schedule Update From**: Set the schedule to update your design of products
 2.	**New Theme**: Choose a theme for product pages
