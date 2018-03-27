@@ -14,6 +14,13 @@ Thanks and Best regards,
 Magestore Team 
 
 ## Business Workflow ##
+
+Note:
+
+- White shape: means manual process;
+- Blue shape: means automated proccess and can be done with Magestore's Omnichannel Solution;
+- Blue/ Torquoise shape with gray text: means automated process but **not** yet been done with Magestore's Omnichannel Solution.
+
 ### General Process ##
 
 ![General Process](./Anh%20M1/top%201%20.png?raw=true)
