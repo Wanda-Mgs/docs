@@ -11,6 +11,12 @@ With our Purchase management module, you’ll no longer worry about how to manag
 
 ## WORKFLOW
 
+Note:
+
+- White shape: means manual process;
+- Blue shape: means automated proccess and can be done with Magestore's Omnichannel Solution;
+- Blue/ Torquoise shape with gray text: means automated process but **not** yet been done with Magestore's Omnichannel Solution.
+
 ### Purchase Order Process
 
 ![POprocess](Image-Purchase/image000-1.png)
