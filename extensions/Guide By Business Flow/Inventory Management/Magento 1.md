@@ -13,6 +13,13 @@ Hope that you will have a great time using our module and free your mind from me
 -----------
 
 ## Workflow
+
+Note:
+
+- White shape: means manual process;
+- Blue shape: means automated proccess and can be done with Magestore's Omnichannel Solution;
+- Blue/ Torquoise shape with gray text: means automated process but **not** yet been done with Magestore's Omnichannel Solution.
+
 ### Inventory Adjustment 
 
 ![Inventory Adjustment process](./image_Inventory%20M1/image001.png?raw=true)
