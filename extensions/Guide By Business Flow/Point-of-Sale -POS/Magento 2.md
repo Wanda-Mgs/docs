@@ -14,16 +14,16 @@ Magestore Team
 
 ### General Process ##
 
-![General Process](./Image%20shadow/image002.png?raw=true)
+![General Process](./Anh%20M1/top%201.png?raw=true)
 
 
 
 ### POS Order ##
-![POS Order](./Image%20shadow/image004.png?raw=true)
+![POS Order](./Anh%20M1/top%202.png?raw=true)
 
 
 ### POS Return Order ##
-![POS Return Order](./Image%20shadow/image006.png?raw=true)
+![POS Return Order](./Anh%20M1/top%203.png?raw=true)
 
 
 ----------
