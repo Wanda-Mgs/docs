@@ -6,6 +6,13 @@ Purchase management is always a headache to retailers. As the businesses grow up
 Hope that [Magento Purchase Order Management module](https://www.magestore.com/purchase-order-management) will help you streamline the purchasing workflow and maximize your profit.
 
 ### Workflow
+
+Note:
+
+- White shape: means manual process;
+- Blue shape: means automated proccess and can be done with Magestore's Omnichannel Solution;
+- Blue/ Torquoise shape with gray text: means automated process but **not** yet been done with Magestore's Omnichannel Solution.
+
 ![workflow](PM1images/workflow.png)
 ### Permission Matrix
 ![permissionmatrix](PM1images/matrix.png)
