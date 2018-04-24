@@ -11,10 +11,6 @@ This guide will help you – an IT Manager – to configure a successful strong 
 ------
 ## HOW TO INSTALL
 
-![How to install](./img102/it_img031.png?raw=true)
-
-
-
 ### Generate License Certificate
 
 
