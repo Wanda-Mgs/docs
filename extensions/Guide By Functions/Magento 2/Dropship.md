@@ -7,7 +7,7 @@
 ##  Introduction
 
 
-Do you know that 45 - 90% of all business expenses are as results of inventory costs? (upstreamcommerce.com). Therefore, it is vital to have an effective inventory management strategy in order to save costs and gain profits. 
+Do you know that 45 - 90% of all business expenses are results of inventory costs? (upstreamcommerce.com). Therefore, it is vital to have an effective inventory management strategy in order to save costs and gain profits. 
 
 [Dropship for Magento 2](https://www.magestore.com/dropship) is one module in our [Omnichannel solution](https://www.magestore.com/omnichannel-retail) for Magento retailers.
 
